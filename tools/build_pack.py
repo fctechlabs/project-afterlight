@@ -116,7 +116,7 @@ def main():
     external=external_files(ROOT,lock)
     client_files = notices + [(path, 'overrides/' + path.relative_to(ROOT).as_posix()) for path in runtime_files()]+[(path,'overrides/'+name) for path,name in external]
     hashes={'overrides/'+name:hashlib.sha512(path.read_bytes()).hexdigest() for path,name in external}
-    client = write_archive(out / ('Afterlight-' + version + '-CurseForge.zip'), client_files,
+    client = write_archive(out / ('Afterlight-' + version + '.zip'), client_files,
                            {'modlist.html':modlist_html(lock)},manifest,hashes)
     server_runtime=list(runtime_files(server=True))
     server_external=external_files(ROOT,lock,'server')

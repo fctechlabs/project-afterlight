@@ -25,6 +25,6 @@ Removed the unavailable CC Tweaked Compat file reference. The same tested CC: Tw
 
 ## Downloads and installation
 
-Download `Afterlight-0.1.0-CurseForge.zip` and use **Import** in the CurseForge app. GitHub's automatic source archives are not launcher-importable modpacks. For a server, extract `Afterlight-0.1.0-server.zip` into a separate folder and follow its included `docs/SERVER.md`.
+Download `Afterlight-0.1.0.zip` and use **Import** in the CurseForge app. GitHub's automatic source archives are not launcher-importable modpacks. For a server, extract `Afterlight-0.1.0-server.zip` into a separate folder and follow its included `docs/SERVER.md`.
 
 For CurseForge website submission, use **Export Profile** on the installed client and upload the app-exported ZIP with file type **Release**, Minecraft **1.21.1**, and **NeoForge** where offered. Attach the server ZIP as an **Additional File**. GitHub publication does not automatically upload to CurseForge.
