@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0-alpha.14",
+  "files": {
+    "Afterlight-0.1.0-alpha.14-CurseForge.zip": {
+      "sha256": "5c46165a5624d5f37278e23ebe26dd7e6a728832a19f1cf1c99c50e16b4b3e9f",
+      "bytes": 3818449,
+      "purpose": "client reference build; export imported profile from CurseForge app before website submission"
+    },
+    "Afterlight-0.1.0-alpha.14-server.zip": {
+      "sha256": "9059d65161aeb5a536f8fbd2ff7a0471e6baa2e5f28715039e49e5fb2791908f",
+      "bytes": 917437,
+      "purpose": "matching server pack; attach as Additional File to the CurseForge client file"
+    }
+  }
+}
