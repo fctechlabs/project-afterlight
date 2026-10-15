@@ -5,9 +5,9 @@
 A Minecraft **1.21.1 / NeoForge 21.1.251 / Java 21** skyblock pack
 with connected industry and magic, a large quest book, and late ProjectE.
 
-Version: **0.1.0**. Back up worlds before updating.
+Version: **0.1.1**. Back up worlds before updating.
 
-**First public release:** balance, performance and multiplayer testing are ongoing.
+**Early public release:** balance, performance and multiplayer testing are ongoing.
 See [CREDITS.md](CREDITS.md) for provenance and third-party terms.
 
 ## Play
@@ -27,8 +27,8 @@ There is no ATM Star or Kappa mode.
 [Progression](docs/PROGRESSION.md) · [Mods](MODLIST.md) ·
 [Server setup](docs/SERVER.md) · [Performance](docs/PERFORMANCE.md)
 
-[Download 0.1.0](https://github.com/fctechlabs/project-afterlight/releases/tag/v0.1.0) ·
-[Release notes](docs/RELEASE_0_1_0.md) · [Release files](releases/0.1.0/)
+[Download 0.1.1](https://github.com/fctechlabs/project-afterlight/releases/tag/v0.1.1) ·
+[Release notes](docs/RELEASE_0_1_1.md) · [Release files](releases/0.1.1/)
 
 ## Source
 
@@ -39,7 +39,7 @@ There is no ATM Star or Kappa mode.
 - `tools/`: three scripts for exporting and installing the pack.
 
 With Python 3.10+, run `python3 tools/build_pack.py` to build the CurseForge client
-and server ZIPs under `builds/0.1.0/artifacts/`. Mod jars are downloaded from
+and server ZIPs under `builds/0.1.1/artifacts/`. Mod jars are downloaded from
 their publishers by the launcher or server installer and are excluded from Git.
 
 For a CurseForge website submission, export the final client profile from the

@@ -1,6 +1,6 @@
 # Project Afterlight mod list
 
-Build: **0.1.0**. 379 client jars; 336 server jars. The lock is authoritative.
+Build: **0.1.1**. 380 client jars; 337 server jars. The lock is authoritative.
 
 | Mod | Version | Distribution | File |
 |---|---|---|---|
@@ -344,6 +344,7 @@ Build: **0.1.0**. 379 client jars; 336 server jars. The lock is authoritative.
 | Sophisticated Storage In Motion | 0.10.34 | Client and server | sophisticatedstorageinmotion-1.21.1-0.10.34.358.jar |
 | spark | 1.10.124-neoforge-1.21.1 | Server or integrated server; inspect client requirements | spark-1.10.124-neoforge.jar |
 | Spice of Life: Carrot Edition | 1.16.6 | Client and server | solcarrot-1.21.1-1.16.6.jar |
+| Squat Grow | 21.1.4+mc1.21.1 | Client and server | squatgrow-neoforge-21.1.4+mc1.21.1.jar |
 | Starbunclemania | 1.5.8 | Client and server | starbunclemania-1.21.1-1.5.8.jar |
 | StevesCarts2 | 1.2.18 | Client and server | stevescarts-1.21-1.2.18-neoforge.jar |
 | Super Factory Manager (SFM) | 4.34.0 | Client and server | Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar |

@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Project Afterlight",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "FC Tech Labs",
   "files": [
     {
@@ -1902,6 +1902,11 @@
     {
       "projectID": 233113,
       "fileID": 6558787,
+      "required": true
+    },
+    {
+      "projectID": 515698,
+      "fileID": 8495735,
       "required": true
     }
   ],

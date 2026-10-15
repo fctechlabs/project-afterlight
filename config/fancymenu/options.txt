@@ -8,7 +8,7 @@ B:force_fullscreen = 'false';
 B:play_vanilla_menu_music = 'true';
 
 ##[window]
-S:custom_window_title = 'Project Afterlight | 0.1.0';
+S:custom_window_title = 'Project Afterlight | 0.1.1';
 B:show_custom_window_icon = 'false';
 
 ##[debug_overlay]

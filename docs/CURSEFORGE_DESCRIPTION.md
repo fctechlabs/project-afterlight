@@ -12,6 +12,7 @@ ProjectE's major unlocks require tier-four 9x9 Extended Crafting. Selected manuf
 
 ## Your island, your approach
 
+- Repeatedly crouch near starter saplings and crops to grow them faster with Squat Grow.
 - Choose **Default**, a small grassy island, or **Skyfactory**, a Dirt block and Oak tree.
 - Use `/skyblock gui` from the signed lobby to create an island or manage your island team.
 - Share progress through FTB Teams and protect builds with FTB Chunks.
@@ -22,7 +23,7 @@ ProjectE's major unlocks require tier-four 9x9 Extended Crafting. Selected manuf
 
 **Create, Create Aeronautics, Oritech, Psi, Occultism, and space are optional.** The main campaign does not require them. Fluid cows, Nature's Aura, Theurgy, Malum, and Blood Magic are excluded.
 
-## First public release: 0.1.0
+## Current public release: 0.1.1
 
 The first public release includes 3,612 quests across 72 chapters, two selectable island styles, custom material recipes, targeted skyblock access, and multiplayer support. Quests also have a 25% chance to award a bonus Chance Cube alongside their normal rewards. Balance, performance, and multiplayer testing are ongoing; expect fixes and changes. Back up worlds and keep every player on the same pack version.
 

@@ -1,13 +1,14 @@
 # Release files
 
-**Current: [Project Afterlight 0.1.0](0.1.0/)** — first public Release.
+**Current: [Project Afterlight 0.1.1](0.1.1/)** — starter growth fix.
 
-[GitHub release downloads](https://github.com/fctechlabs/project-afterlight/releases/tag/v0.1.0)
+[GitHub release downloads](https://github.com/fctechlabs/project-afterlight/releases/tag/v0.1.1)
 
-Each version folder contains a client ZIP, server ZIP, checksums and installation notes.
-Download a ZIP itself; GitHub's automatic source ZIP is not launcher-importable.
-For CurseForge website submission, export the installed client from the CurseForge app.
+Each version includes a client ZIP, server ZIP and checksums. Download the ZIP itself;
+GitHub's source archives are not launcher-importable. Use the CurseForge app's
+Export Profile action for website submission.
 
-## Previous development builds
+## Previous versions
 
+- [0.1.0](0.1.0/)
 - [0.1.0-alpha.14](0.1.0-alpha.14/)

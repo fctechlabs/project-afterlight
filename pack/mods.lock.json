@@ -1,6 +1,6 @@
 {
   "name": "Project Afterlight",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minecraft": "1.21.1",
   "loader": "neoforge",
   "loader_version": "21.1.251",
@@ -6109,6 +6109,24 @@
       "size": 930932,
       "curseforge_project_id": 233113,
       "curseforge_file_id": 6558787
+    },
+    {
+      "name": "Squat Grow",
+      "mod_id": "squatgrow",
+      "filename": "squatgrow-neoforge-21.1.4+mc1.21.1.jar",
+      "version": "21.1.4+mc1.21.1",
+      "distribution": "Client and server",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/squat-grow",
+      "download_url": "https://edge.forgecdn.net/files/8495/735/squatgrow-neoforge-21.1.4+mc1.21.1.jar",
+      "hashes": {
+        "sha1": "a1ff3e1383186b83609ab03e66ff8fc935cf2562",
+        "sha256": "737bb355c49f1439d4e085e5c4b7d2dcd8df8e66a3d125f3c7ce538fdec982b7",
+        "sha512": "732debf8416fed4d4d46f5f8931c3610f4c4eb879627858b64363c01db6b85be093c5e1f9791d08173281b180b5489bddb5694ddd26c8e232f1451892cf4ff26",
+        "md5": "9be86346c33fd1b85368832d0a49e626"
+      },
+      "size": 43876,
+      "curseforge_project_id": 515698,
+      "curseforge_file_id": 8495735
     }
   ]
 }
