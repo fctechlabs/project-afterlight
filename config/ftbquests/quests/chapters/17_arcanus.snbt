@@ -1,0 +1,2326 @@
+{
+  "id": "1786B83D5F82E2B7",
+  "filename": "17_arcanus",
+  "title": "Forbidden and Arcanus",
+  "icon": {
+    "id": "forbidden_arcanus:deorum_ingot"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 15,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "19ECEE48BA34FDEA",
+      "title": "Soul Extractor",
+      "subtitle": "Deorum to Eternal Stella",
+      "icon": {
+        "id": "forbidden_arcanus:soul_extractor"
+      },
+      "description": [
+        "Use the Soul Extractor with its targets. Forge crafting uses several resource types; it is not powered by FE alone."
+      ],
+      "dependencies": [
+        "10D9B433737289B3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E253F5BC602F3EB",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:soul_extractor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14CFEC0CC70FE09F",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1C7B99F704D58354",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.628d,
+      "y": 3.03692d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12AAA7BE7D4EA9C1",
+      "title": "Utrem Jar",
+      "subtitle": "Deorum to Eternal Stella",
+      "icon": {
+        "id": "forbidden_arcanus:utrem_jar"
+      },
+      "description": [
+        "Use Utrem Jars and the collection tools for the required forge resources. Check your guide and JEI for each resource type."
+      ],
+      "dependencies": [
+        "191E07841B05515D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "147C221725381C7F",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:utrem_jar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1401596A28EA2F16",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1DF56FA5C930E0F4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.36728d,
+      "y": 4.42439d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F0C14C98196E5A1",
+      "title": "Wooden Blacksmith Gavel",
+      "subtitle": "Deorum to Eternal Stella",
+      "icon": {
+        "id": "forbidden_arcanus:wooden_blacksmith_gavel"
+      },
+      "description": [
+        "Craft a Blacksmith Gavel and follow the forge setup instructions. The forge is formed in the world, not carried as a normal crafted block."
+      ],
+      "dependencies": [
+        "12AAA7BE7D4EA9C1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11911BE270BB110B",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:wooden_blacksmith_gavel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17107C55F3157EB1",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1CD146F23582128E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.91778d,
+      "y": 5.74479d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "117B025F4A1D04C6",
+      "title": "Hephaestus Forge",
+      "subtitle": "Deorum to Eternal Stella",
+      "icon": {
+        "id": "forbidden_arcanus:hephaestus_forge"
+      },
+      "description": [
+        "Build and activate the Hephaestus Forge multiblock. Mark this setup complete after it forms; the next lessons cover its upgrades and output."
+      ],
+      "dependencies": [
+        "191E07841B05515D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D98309B60D1A0E2",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1381697C2006A7DF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DD747EE44873836",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.68511d,
+      "y": 4.42401d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B1A9448FBE5990C",
+      "title": "Hephaestus Forge - Tier 3",
+      "subtitle": "Deorum to Eternal Stella",
+      "icon": {
+        "id": "forbidden_arcanus:hephaestus_forge"
+      },
+      "description": [
+        "Upgrade the placed forge through its tiers and supply the required collection systems. This setup checkmark does not grant the resulting materials."
+      ],
+      "dependencies": [
+        "117B025F4A1D04C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "123B57C7F3A852E9",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "170BA422EAC1BB08",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DE035EAE45ADD1F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.32295d,
+      "y": 5.17223d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E8FD8B106A34DB4",
+      "title": "Eternal Stella",
+      "subtitle": "Deorum to Eternal Stella",
+      "icon": {
+        "id": "forbidden_arcanus:eternal_stella"
+      },
+      "description": [
+        "Make an Eternal Stella in the upgraded Hephaestus Forge to remove durability loss from supported equipment. This is optional; the Philosopher's Stone now uses an Ars Nouveau Wilden Tribute."
+      ],
+      "dependencies": [
+        "1B024907EE12727A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F5948D75B1ED6A",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:eternal_stella"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12A1D94D7A759BFA",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1681A5F6649244F4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.4051d,
+      "y": 2.62122d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11CC54D0B07A0EAD",
+      "title": "Artisan Relic",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:artisan_relic"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Artisan Relic and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "12F7BC099C5EC0B2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1264F1EDDAB59443",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:artisan_relic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F42F94EF3BBB6A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16732AC77AA33D4A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.77502d,
+      "y": 3.03909d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C659B0A716B891D",
+      "title": "Aureal Bottle",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:aureal_bottle"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Aureal Bottle. Item inputs include Arcane Crystal Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BF935199614ADFC",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:aureal_bottle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FB3C99C4F5BB543",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ADAA7D1F1C219F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.49433d,
+      "y": 3.46801d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "161046505789B3B8",
+      "title": "Blacksmith Gavel Head",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:blacksmith_gavel_head"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Blacksmith Gavel Head. Item inputs include Clay Ball. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "151353DB6CB1D75D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C9938B081E03B1F",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:blacksmith_gavel_head"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FCDDF63BF97E6B1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1317C1611162928F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.47105d,
+      "y": 1.75885d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1231E3A8F8D3A4D1",
+      "title": "Boss Catcher",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:boss_catcher"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Boss Catcher and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16F8565C5FEC1529"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F54B6F9F69E39C2",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:boss_catcher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EFDFC447CFC191E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19499CDE3E72A80C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.4033d,
+      "y": 5.20743d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11ADD96B0474C645",
+      "title": "Corrupt Soul",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:corrupt_soul"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Corrupt Soul and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E84756167BACC5E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15FC92BD54FF00E8",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:corrupt_soul"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15CFE8ADEC50C716",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1078D1A29918F949",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.31755d,
+      "y": 3.29333d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B024907EE12727A",
+      "title": "Dark Matter",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:dark_matter"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Smelt Dark Matter. Item inputs include Edelwood Log. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AD3976D29735A66"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1457E7E64841C34C",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:dark_matter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E6D903D0E25752D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A060520456D8959",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.41496d,
+      "y": 3.94322d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FD6141A83AE0C8A",
+      "title": "Darkstone",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:darkstone"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Darkstone. Item inputs include Deepslate, Charcoal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "191E07841B05515D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DE5673EA9F6038C",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:darkstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D0AE10401F60B43",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14FEABAFB7051F3D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.04528d,
+      "y": 3.10414d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BDDED1D9FA26346",
+      "title": "Divine Pact",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:divine_pact"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Divine Pact and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E8FD8B106A34DB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F7F3F817423F52",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:divine_pact"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138005CD3CE0AE2F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10F1857AF31BC193",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.73291d,
+      "y": 4.7713d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "192D26DC4D0D0D2E",
+      "title": "Edelwood Bucket",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:edelwood_bucket"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Edelwood Bucket. Item inputs include Edelwood Planks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10D9B433737289B3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11DB290E4E674D2D",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:edelwood_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1820801B7D63AF0E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A5012AE2B01AE2D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.90125d,
+      "y": 5.67836d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10D9B433737289B3",
+      "title": "Edelwood Log",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:edelwood_log"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Edelwood Log. Item inputs include Oak Log, Mundabitur Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11ADD96B0474C645"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12AD0470158C65A4",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:edelwood_log"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1750A60E22211FD2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16C96C0139D7A553",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.95071d,
+      "y": 4.35828d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED855DEE26A7C4B",
+      "title": "Elementarium",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:elementarium"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Elementarium and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E8FD8B106A34DB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C9CB355D90FEC3E",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:elementarium"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D86E64677B871CC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1835934430136069",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.73291d,
+      "y": 3.4493d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A4911FC292BEEB6",
+      "title": "Ferrognetic Mixture",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:ferrognetic_mixture"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Ferrognetic Mixture and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "161046505789B3B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "144A031EC4EAE930",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:ferrognetic_mixture"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E5F428E7A189A93",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14CF404563608DAF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.18833d,
+      "y": 0.433d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14DC2671D5D26EC7",
+      "title": "Obsidian Skull",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:obsidian_skull"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Obsidian Skull. Item inputs include Obsidiansteel Ingot, Skeleton Skull. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AD3976D29735A66"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B01C53A9D46BCB7",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:obsidian_skull"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1399B923DF615CDD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15FE1183E7EEE93F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.76087d,
+      "y": 1.71878d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BBC64324680ADCA",
+      "title": "Polished Darkstone",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:polished_darkstone"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Polished Darkstone. Item inputs include Darkstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FD6141A83AE0C8A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D56A0A7012C5E9E",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:polished_darkstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14F958C562C583D4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E66F9C41A5ABE05",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.03926d,
+      "y": 1.75447d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9E53F6D6161389",
+      "title": "Quantum Catcher",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:quantum_catcher"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Quantum Catcher and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "161046505789B3B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "157BD09061550E22",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:quantum_catcher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D57CE8966D0039",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A900E5EC16F35FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.86633d,
+      "y": 0.43508d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1752B6737F942291",
+      "title": "Quantum Injector",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:quantum_injector"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Quantum Injector and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "12F7BC099C5EC0B2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ED175E13D1764C7",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:quantum_injector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "139E92E50226828D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12DFD492DB15A93C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.7493d,
+      "y": 5.6819d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C77706CB0BDC6D8",
+      "title": "Rune",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:rune"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Blast Rune. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "191E07841B05515D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13863F76F82A028C",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1516C4376925A911",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11284A8EE76C11C3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.67933d,
+      "y": 3.10339d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18E41F28982FDEC3",
+      "title": "Sea Prism",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:sea_prism"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Sea Prism and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1ED855DEE26A7C4B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "165A4FE1A96326B0",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:sea_prism"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E04DF6435540013",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A4FE57D8C319231",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.34398d,
+      "y": 1.37063d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C19BF225832A701",
+      "title": "Smelter Prism",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:smelter_prism"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Smelter Prism and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1ED855DEE26A7C4B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14743E519CA9FE3C",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:smelter_prism"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FF2E02AA56401E8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140B088078021667",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.06734d,
+      "y": 0.77929d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BCE30CD2DEBB1BD",
+      "title": "Soul",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:soul"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Soul and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "19ECEE48BA34FDEA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199D3D43B36054DA",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:soul"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10BD84522E948AFD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "179DBF733F21C534",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.90902d,
+      "y": 2.6109d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14D8552925773289",
+      "title": "Spectral Eye Amulet",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:spectral_eye_amulet"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Spectral Eye Amulet. Item inputs include String, Deorum Ingot, Ender Eye, Nether Star. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11CE2150D69A102A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "124E0E94622E6541",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:spectral_eye_amulet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A3EDE1DCF9A6742",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "106B099D02BA541A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.43644d,
+      "y": 0.45337d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AC4381521AD4926",
+      "title": "Stellarite Piece",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:stellarite_piece"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Stellarite Piece. Item inputs include Stellarite Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "191E07841B05515D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11FDD9382CB93EA5",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:stellarite_piece"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1156B6766C545563",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16A516FDFBB4C054",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.98274d,
+      "y": 1.78139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D3E64689087B8E7",
+      "title": "Terrastomp Prism",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:terrastomp_prism"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Terrastomp Prism and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1ED855DEE26A7C4B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18AD2EA64E4A01E8",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:terrastomp_prism"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F557EA3D37242BB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "152C9FE2F0D32462",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.41734d,
+      "y": 0.77929d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18EA927860AE4317",
+      "title": "Test Tube",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:test_tube"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Test Tube. Item inputs include Glass Bottle, Rune. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C77706CB0BDC6D8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14AA41C2B84FE362",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:test_tube"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "195B4637A12453B7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "194B7CD34A84E8B0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.3035d,
+      "y": 1.79271d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A633EE69BF9AD3C",
+      "title": "Whirlwind Prism",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:whirlwind_prism"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Whirlwind Prism and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1ED855DEE26A7C4B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11559F385655103A",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:whirlwind_prism"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10C1C1F4D28AEB0C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FF254ACEC29EE74",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.71734d,
+      "y": 2.12929d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12651B3674451BEE",
+      "title": "Experience Bottle",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "minecraft:experience_bottle"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Use the Dissolution Chamber to make Experience Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10689F6E91DD8BF5",
+          "type": "item",
+          "item": {
+            "id": "minecraft:experience_bottle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A58F54903884483",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A1E0B53A2022685",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.29513d,
+      "y": 0.43685d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18C31FF59B7F3130",
+      "title": "Hephaestus Forge Rituals",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "occultism:ritual_dummy/custom_ritual_summon"
+      },
+      "description": [
+        "Ritual entries in JEI describe a process rather than an item to collect. Follow the actual ritual ingredients and equipment shown there. This reference lesson does not require a ritual placeholder item."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "197BB92184ABFA45"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "181605E9FCA06BFA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AFCB2284C6407A5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.73934d,
+      "y": 0.78828d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "191E07841B05515D",
+      "title": "Arcane Crystal",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:arcane_crystal"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Blast Arcane Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E7B33CB8DFB54CE",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:arcane_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1190B2148D206932",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1431DA05F2690394",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.36311d,
+      "y": 3.10249d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AF8B61B7AC5A454",
+      "title": "Arcane Crystal Block",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:arcane_crystal_block"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Arcane Crystal Block. Item inputs include Arcane Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C659B0A716B891D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D35899731B67D86",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:arcane_crystal_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A1B054288349828",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19C60905E74E45E6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.17234d,
+      "y": 3.45199d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13EF3B16D29305E1",
+      "title": "Arcane Crystal Dust",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:arcane_crystal_dust"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Arcane Crystal Dust. Item inputs include Arcane Crystal Dust Speck. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "191E07841B05515D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB1FF10DE493E6A",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:arcane_crystal_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A8DD5F9764891C4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "180F0D0F71D8B25D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.28274d,
+      "y": 1.78139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17007C4E77DFCABB",
+      "title": "Mundabitur Dust",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:mundabitur_dust"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Mundabitur Dust. Item inputs include Arcane Crystal Dust, Redstone, Blaze Powder, Bone Meal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B20A7F9289B13D6",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:mundabitur_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "157F208790BF6487",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12B3E86CB13B8E8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.62805d,
+      "y": -1.1343d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD3976D29735A66",
+      "title": "Obsidiansteel Ingot",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:obsidiansteel_ingot"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Craft Obsidiansteel Ingot. Item inputs include Obsidiansteel Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11CC54D0B07A0EAD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10EB121595CE3730",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:obsidiansteel_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15F11BF93FCEECFA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EFEF13F53694C90",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.09296d,
+      "y": 3.13887d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1146451E9A7AB186",
+      "title": "Soul Binding Crystal",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:soul_binding_crystal"
+      },
+      "description": [
+        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
+        "Obtain Soul Binding Crystal and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1BDDED1D9FA26346"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C3D077689FFE2EF",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:soul_binding_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14DE212338719F58",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17CCEEE99E12D52A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.05491d,
+      "y": 4.77399d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "151353DB6CB1D75D",
+      "title": "Tier 1 Forge",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:deorum_ingot"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Forbidden and Arcanus."
+      ],
+      "dependencies": [
+        "1BCE30CD2DEBB1BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "icon": {
+            "id": "forbidden_arcanus:hephaestus_forge_tier_1"
+          },
+          "observation_type": "block",
+          "observe_type": 0,
+          "timer": 0,
+          "to_observe": "forbidden_arcanus:hephaestus_forge_tier_1",
+          "type": "observation",
+          "id": "154C1198DCC0B8D7",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13A03BED0DD2594E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.19004d,
+      "y": 2.18488d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "185E49A48829B4EF",
+      "title": "Tier 2 Forge",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:deorum_ingot"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Forbidden and Arcanus."
+      ],
+      "dependencies": [
+        "161046505789B3B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "icon": {
+            "id": "forbidden_arcanus:hephaestus_forge_tier_2"
+          },
+          "observation_type": "block",
+          "observe_type": 0,
+          "timer": 0,
+          "to_observe": "forbidden_arcanus:hephaestus_forge_tier_2",
+          "type": "observation",
+          "id": "11121107DF45BF3F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E02DD819A02363",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.7593d,
+      "y": 4.36159d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F7BC099C5EC0B2",
+      "title": "Tier 3 Forge",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:deorum_ingot"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Forbidden and Arcanus."
+      ],
+      "dependencies": [
+        "185E49A48829B4EF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "icon": {
+            "id": "forbidden_arcanus:hephaestus_forge_tier_3"
+          },
+          "observation_type": "block",
+          "observe_type": 0,
+          "timer": 0,
+          "to_observe": "forbidden_arcanus:hephaestus_forge_tier_3",
+          "type": "observation",
+          "id": "1F4B8B1F3F12A84D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C2BA172E70DB096",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.0813d,
+      "y": 4.35971d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16F8565C5FEC1529",
+      "title": "Tier 4 Forge",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:deorum_ingot"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Forbidden and Arcanus."
+      ],
+      "dependencies": [
+        "12F7BC099C5EC0B2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "icon": {
+            "id": "forbidden_arcanus:hephaestus_forge_tier_4"
+          },
+          "observation_type": "block",
+          "observe_type": 0,
+          "timer": 0,
+          "to_observe": "forbidden_arcanus:hephaestus_forge_tier_4",
+          "type": "observation",
+          "id": "1082207A1DEBF4D0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0D07322F4FA262",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.0813d,
+      "y": 5.68171d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C2C013C3B68A3F4",
+      "title": "Tier 5 Forge",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:deorum_ingot"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Forbidden and Arcanus."
+      ],
+      "dependencies": [
+        "16F8565C5FEC1529"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "icon": {
+            "id": "forbidden_arcanus:hephaestus_forge_tier_5"
+          },
+          "observation_type": "block",
+          "observe_type": 0,
+          "timer": 0,
+          "to_observe": "forbidden_arcanus:hephaestus_forge_tier_5",
+          "type": "observation",
+          "id": "14443203FB0FE7EA",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14E64DD7ED9035CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.0713d,
+      "y": 7.00234d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FAAB23172232EBE",
+      "title": "Buying Edelwood",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(utilitarian:white_soliciting_carpet)item(utilitarian:orange_soliciting_carpet)item(utilitarian:magenta_soliciting_carpet)item(utilitarian:light_blue_soliciting_carpet)item(utilitarian:yellow_soliciting_carpet)item(utilitarian:lime_soliciting_carpet)item(utilitarian:pink_soliciting_carpet)item(utilitarian:gray_soliciting_carpet)item(utilitarian:light_gray_soliciting_carpet)item(utilitarian:cyan_soliciting_carpet)item(utilitarian:purple_soliciting_carpet)item(utilitarian:blue_soliciting_carpet)item(utilitarian:brown_soliciting_carpet)item(utilitarian:green_soliciting_carpet)item(utilitarian:red_soliciting_carpet)item(utilitarian:black_soliciting_carpet))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(utilitarian:white_soliciting_carpet)item(utilitarian:orange_soliciting_carpet)item(utilitarian:magenta_soliciting_carpet)item(utilitarian:light_blue_soliciting_carpet)item(utilitarian:yellow_soliciting_carpet)item(utilitarian:lime_soliciting_carpet)item(utilitarian:pink_soliciting_carpet)item(utilitarian:gray_soliciting_carpet)item(utilitarian:light_gray_soliciting_carpet)item(utilitarian:cyan_soliciting_carpet)item(utilitarian:purple_soliciting_carpet)item(utilitarian:blue_soliciting_carpet)item(utilitarian:brown_soliciting_carpet)item(utilitarian:green_soliciting_carpet)item(utilitarian:red_soliciting_carpet)item(utilitarian:black_soliciting_carpet))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "14E889F486EB613A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10757A0A99B89E5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.29514d,
+      "y": -0.88316d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18B37372C99B1185",
+      "title": "Lost Souls",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "components": {
+          "draconicevolution:soul_id": "forbidden_arcanus:lost_soul"
+        },
+        "id": "draconicevolution:mob_soul"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "forbidden_arcanus:lost_soul",
+          "icon": {
+            "components": {
+              "draconicevolution:soul_id": "forbidden_arcanus:lost_soul"
+            },
+            "id": "draconicevolution:mob_soul"
+          },
+          "type": "kill",
+          "value": 1,
+          "id": "1CA2D3D7140F209D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DD035E8D8A11AF6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.82986d,
+      "y": -0.54128d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1929E641B5DCA17C",
+      "title": "Relics",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:deorum_ingot"
+      },
+      "description": [
+        "Enter Overworld. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "191E07841B05515D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:overworld",
+          "type": "dimension",
+          "id": "127B9DFC4F63D07F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C62101A8BFCD619",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.63274d,
+      "y": 1.78139d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1CDFA2503D159404",
+      "linked_quest": "11CE2150D69A102A",
+      "x": 1.97694d,
+      "y": 0.32358d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1D5AEC998C622B4E",
+      "linked_quest": "1E84756167BACC5E",
+      "x": 4.00133d,
+      "y": 3.30965d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

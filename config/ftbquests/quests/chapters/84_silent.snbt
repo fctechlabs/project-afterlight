@@ -1,0 +1,3110 @@
+{
+  "id": "1F8C1A698063C93F",
+  "filename": "84_silent",
+  "title": "Silent Gear",
+  "icon": {
+    "id": "silentgear:blueprint_paper"
+  },
+  "group": "1907149C93679AEB",
+  "order_index": 62,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "177D6AC345486F19",
+      "title": "Bow Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:bow_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Bow Cast. Item inputs include Bow Limbs. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A3972937F2E5542",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:bow_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FFC39F83D6C47F7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15C106C4300108F7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.97867d,
+      "y": 9.7082d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10014EF4A5528EF9",
+      "title": "Crossbow Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:crossbow_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Crossbow Cast. Item inputs include Crossbow Limbs. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16FCB7FAB702858B",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:crossbow_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D9B43C2AEBE92A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "184EA62008D68759",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.32867d,
+      "y": 7.6082d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ACD50D87D9271E1",
+      "title": "Paxel Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:paxel_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Paxel Cast. Item inputs include Paxel Head. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B0600B8F0D903EE",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:paxel_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15F1FE33AEF0EEF9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FD5D4D2A98DED1A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.6409d,
+      "y": 7.78768d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AE6A6C9EFF4E17C",
+      "title": "Pickaxe Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:pickaxe_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Pickaxe Cast. Item inputs include Pickaxe Head. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D8DBB339ABD4149",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:pickaxe_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F7C1807391CCDAE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E8E40326FCBD92C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.9909d,
+      "y": 7.78768d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "149D0440237C2B29",
+      "title": "Black Foundry Controller",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:black_foundry_controller"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Black Foundry Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FCB686101842DB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E463735C78F0D8E",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:black_foundry_controller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15B27E55CE25D9C3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "146313E69A97E24B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.35138d,
+      "y": 4.49653d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "163E686AB99ABCB3",
+      "title": "Black Foundry Drain",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:black_foundry_drain"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Black Foundry Drain. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FCB686101842DB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D77DE811CB319EF",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:black_foundry_drain"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "180CA7DBBF37F001",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17384A72CCEC78DE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.02938d,
+      "y": 4.42899d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "188CA088A5EBF9DB",
+      "title": "Casting Table",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:casting_table"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Casting Table. Item inputs include Fire Brick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E9113DD55C4CD91"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13805D9D59D241BB",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:casting_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "135BF60A15323813",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17B665C1BA8C6056",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.2458d,
+      "y": 3.2043d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FCB686101842DB0",
+      "title": "Fire Clay",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:fire_clay"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Fire Clay. Item inputs include Clay Ball. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1160D4601DFE427A",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:fire_clay"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F4F167AE7AA948D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BC8238F87A70FD6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.02963d,
+      "y": 5.75099d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E9113DD55C4CD91",
+      "title": "Liquid Heating Coil",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:liquid_heating_coil"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Liquid Heating Coil. Item inputs include Fire Brick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "163E686AB99ABCB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14A3B7218F8F53F9",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:liquid_heating_coil"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17865F0EC5BC38B6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19E8010DDC58C27A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.64594d,
+      "y": 1.72512d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "181BF9193A1C9DA1",
+      "title": "Arrow Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:arrow_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Arrow Cast. Item inputs include Arrow Heads. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "175C8169FA03BFC7",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:arrow_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "111B803BFC7EEC6A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "188B753400340CA4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.66204d,
+      "y": 3.37972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1490D82B3C2B576C",
+      "title": "Bracelet Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:bracelet_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Bracelet Cast. Item inputs include Bracelet Band. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C2D7710F01B22E9",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:bracelet_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D5838F0127CA727",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EE5C7915F36D011",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.71204d,
+      "y": 3.37972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CFA42AB4E02069B",
+      "title": "Dagger Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:dagger_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Dagger Cast. Item inputs include Dagger Blade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16DE53B74E3E25A8",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:dagger_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "111BCC9A9B2FC98D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E9D57015B2F4949",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.76204d,
+      "y": 3.37972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D4464AF6C44B712",
+      "title": "Excavator Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:excavator_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Excavator Cast. Item inputs include Excavator Head. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A829903FA0B912B",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:excavator_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "194B52D5D0639801",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "194F031CC8AD8033",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.66204d,
+      "y": 4.72972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E1387BF3EEEA4FC",
+      "title": "Hammer Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:hammer_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Hammer Cast. Item inputs include Hammer Head. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1374A74B64825429",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:hammer_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17CF276545738F05",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "106CEDDC1D2381A7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.76204d,
+      "y": 4.72972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1071590D15B414EF",
+      "title": "Katana Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:katana_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Katana Cast. Item inputs include Katana Blade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10338A291EAE10D6",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:katana_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AD2D3AE87466103",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FE039FE4FC69B9D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.66204d,
+      "y": 6.07972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D6FD3D4ABAD398D",
+      "title": "Knife Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:knife_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Knife Cast. Item inputs include Knife Blade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B1E79454E6B0D5",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:knife_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10EED3E7A15F47ED",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BE0B33656292C28",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.01204d,
+      "y": 6.07972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1623CA7525C500DD",
+      "title": "Machete Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:machete_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Machete Cast. Item inputs include Machete Blade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CCF8FCCC716CE30",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:machete_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CC5AA6D3C738AB2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "167FD25464037805",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.06204d,
+      "y": 6.07972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B5819C69484C12C",
+      "title": "Mattock Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:mattock_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Mattock Cast. Item inputs include Mattock Head. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DF67F83413A9EB1",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:mattock_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F2FD050013C1264",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D6C3C91175781F9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.41204d,
+      "y": 6.07972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "199BF295CF5F86B6",
+      "title": "Necklace Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:necklace_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Necklace Cast. Item inputs include Necklace Chain. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18569E07AE517ADB",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:necklace_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1908A19935750A0E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F8F70E9EA11BBC6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.76204d,
+      "y": 6.07972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DAC0BEAC6B38CEE",
+      "title": "Prospector Hammer Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:prospector_hammer_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Prospector Hammer Cast. Item inputs include Prospector Hammer Head. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F9D35B477B42664",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:prospector_hammer_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C7EA0C88CE73CEF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A997D1493EC6B85",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.01204d,
+      "y": 7.42972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "154D827297689B22",
+      "title": "Ring Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:ring_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Ring Cast. Item inputs include Ring Shank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CA19DCB82F9CE9A",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:ring_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10ECB932418ABACC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10D56C1D91E9E922",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.36204d,
+      "y": 7.42972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1649814F5DB55493",
+      "title": "Shears Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:shears_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Shears Cast. Item inputs include Shear Blades. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16852E7BCD2FD6F8",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:shears_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "128BA0BF5CE91102",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "141D9562626F14B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.06204d,
+      "y": 7.42972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17EF521EEB37721E",
+      "title": "Shield Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:shield_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Shield Cast. Item inputs include Shield Plate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1016709B3A103A0D",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:shield_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19FD648D155E446B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A5791FE931EB388",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.41204d,
+      "y": 7.42972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1245A583563C5A45",
+      "title": "Sickle Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:sickle_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Sickle Cast. Item inputs include Sickle Blade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1605D36FB378FCA1",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:sickle_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1400A43DFC9F020E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "107050C15F66F09A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.76204d,
+      "y": 7.42972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12B074ECD7C36798",
+      "title": "Slingshot Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:slingshot_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Slingshot Cast. Item inputs include Slingshot Limbs. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1781A3CEBAD70853",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:slingshot_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18BC75534C1BAA7C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FB0F27AC78C52D2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.11204d,
+      "y": 7.42972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B82FD2847367314",
+      "title": "Spear Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:spear_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Spear Cast. Item inputs include Spear Tip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14EEA66CCBC872E8",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:spear_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C8675205C85EEF3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14D76FF321EF5776",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.66204d,
+      "y": 8.77972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F9617F55EE5449C",
+      "title": "Tip Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:tip_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Tip Cast. Item inputs include Tip Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C8D11F048F9BCED",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:tip_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "191BF42BBEB84C98",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10A20172C68389BA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.82867d,
+      "y": 9.7082d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "110EE2CB0753E27C",
+      "title": "Trident Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:trident_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Trident Cast. Item inputs include Trident Prongs. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10751F42B58B2DE6",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:trident_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E8FACD91914647B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13EDCD93545782D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.71204d,
+      "y": 8.77972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BEE5DCF78833399",
+      "title": "Block of Azure Electrum",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:azure_electrum_block"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Block of Azure Electrum. Item inputs include Azure Electrum Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14E45D660D0B1EA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1945CC2F82315866",
+          "type": "item",
+          "item": {
+            "id": "silentgear:azure_electrum_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E09B9F982D6A53",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F474B628EF81EE8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.22185d,
+      "y": 0.5594d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BF38B3EA9E51540",
+      "title": "Coating Blueprint",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:coating_blueprint"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Coating Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1632634660B3AC12",
+          "type": "item",
+          "item": {
+            "id": "silentgear:coating_blueprint"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A8AF36D089CA00",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A6E986F0E918E3F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.06204d,
+      "y": 3.37972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1409BCC388FE4AB7",
+      "title": "Block of Crimson Steel",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:crimson_steel_block"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Block of Crimson Steel. Item inputs include Crimson Steel Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14E45D660D0B1EA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "181E54B2675E6FF5",
+          "type": "item",
+          "item": {
+            "id": "silentgear:crimson_steel_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E827DFAEF8D7289",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "126EE53A243DD7F8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.38264d,
+      "y": 0.4041d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "145F3FF85A33DC42",
+      "title": "Elytra Blueprint",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:elytra_blueprint"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Elytra Blueprint. Item inputs include Elytra, Phantom Membrane. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "102FA3D797C825E5",
+          "type": "item",
+          "item": {
+            "id": "silentgear:elytra_blueprint"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1736B8549255A4AB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12179D2C699D3086",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.11204d,
+      "y": 3.37972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A8079D14D4804F0",
+      "title": "Fletching Blueprint",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:fletching_blueprint"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Fletching Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18E70B6C87A282CA",
+          "type": "item",
+          "item": {
+            "id": "silentgear:fletching_blueprint"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E1C617876CF94E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16D55A4F31EBE8B7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.36204d,
+      "y": 4.72972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12285B0FCC2DE916",
+      "title": "Grip Blueprint",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:grip_blueprint"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Grip Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17B84715F576C6DA",
+          "type": "item",
+          "item": {
+            "id": "silentgear:grip_blueprint"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C9FC5BDABEAF9A7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12D8F9B498E89AD2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.41204d,
+      "y": 4.72972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13F9AC4F0A803926",
+      "title": "Lining Blueprint",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:lining_blueprint"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Lining Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15993D28A7A337CF",
+          "type": "item",
+          "item": {
+            "id": "silentgear:lining_blueprint"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BDAE6C6ABFFA458",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10F80080F434FB8E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.36204d,
+      "y": 6.07972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CF8646396BBED19",
+      "title": "Mace Blueprint",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:mace_blueprint"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Mace Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1639A0708DD8F507",
+          "type": "item",
+          "item": {
+            "id": "silentgear:mace_blueprint"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10365E0BF5A3A914",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15BE0C6C2652D9C4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.71204d,
+      "y": 6.07972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10C6E0F42FFE89E4",
+      "title": "Material Grader",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:material_grader"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Material Grader. Item inputs include Advanced Upgrade Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "194BF766D78E6DB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19FF354375EC3BC4",
+          "type": "item",
+          "item": {
+            "id": "silentgear:material_grader"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "191F03DF663DF646",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1991EA97C2CDABC8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.87774d,
+      "y": 3.04662d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "194BF766D78E6DB4",
+      "title": "Salvager",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:salvager"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Salvager. Item inputs include Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C9DF989231F9C5B",
+          "type": "item",
+          "item": {
+            "id": "silentgear:salvager"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14F49DC840F346F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1846A73D32BA0D95",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.94831d,
+      "y": 4.2608d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E45D660D0B1EA7",
+      "title": "Starlight Charger",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:starlight_charger"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Starlight Charger. Item inputs include Polished Blackstone, Quartz Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CBE8EBFB8F9B86"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D6ED4D58AB0DA01",
+          "type": "item",
+          "item": {
+            "id": "silentgear:starlight_charger"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120FE3259A9F87BA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18DC28B36EB9A08A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.96794d,
+      "y": 1.7261d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "112F455C10237204",
+      "title": "Block of Tyrian Steel",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:tyrian_steel_block"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Block of Tyrian Steel. Item inputs include Tyrian Steel Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14E45D660D0B1EA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EC657E1DB1268ED",
+          "type": "item",
+          "item": {
+            "id": "silentgear:tyrian_steel_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19D237D8CE15E468",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "177288B3EE1C27BC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.73264d,
+      "y": 0.4041d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EA44AAE6E261B31",
+      "title": "Gear Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:gear_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Gear Cast. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "161E52992333DC36",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:gear_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B447C98D77A4E39",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "178B99A2EB3DCE91",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.71204d,
+      "y": 4.72972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD8EE4C6335B11B",
+      "title": "Gem Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:gem_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Gem Cast. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16B2177BDB6435CA",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:gem_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10915F1A975E1686",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F44CED5A633810E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.06204d,
+      "y": 4.72972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A8F6A46F61954B7",
+      "title": "Ingot Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:ingot_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Ingot Cast. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DAF7C7C02A0213B",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:ingot_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A5726C2F56F0BBA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C0DC8CAC170C0FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.11204d,
+      "y": 4.72972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "137419B2A415E67A",
+      "title": "Nugget Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:nugget_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Nugget Cast. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB958986512C6AE",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:nugget_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138C5C2388745F65",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "154C8BE93B0071E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.11204d,
+      "y": 6.07972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CA19DD047FE713D",
+      "title": "Plate Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:plate_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Plate Cast. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1816BF531CD752F0",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:plate_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14FE1E9E5C7F36EC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1524BE1EF8FFF21A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.66204d,
+      "y": 7.42972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1030081E86AA3AED",
+      "title": "Rod Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:rod_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Rod Cast. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19314554579E8235",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:rod_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14822D96F0E695C5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B9FBFC0AE589AB1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.71204d,
+      "y": 7.42972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "128C2F8B7EB0849E",
+      "title": "Fishing Rod Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:fishing_rod_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Fishing Rod Cast. Item inputs include Fishing Reel and Hook. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13C1FEC767D45467",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:fishing_rod_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13149B2F3BB779EF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F2437B1276CB5AE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.01204d,
+      "y": 4.72972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11825780C15F2C71",
+      "title": "Tool Rod Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:tool_rod_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Tool Rod Cast. Item inputs include Tool Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "185A97E784E1FB98",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:tool_rod_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FA12E4265ADEA85",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13BA0301B30F760A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.25181d,
+      "y": 8.92784d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17CBE8EBFB8F9B86",
+      "title": "Alloy Forge",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:alloy_forge"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Alloy Forge. Item inputs include Blackstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10C6E0F42FFE89E4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CEAB1B8DE8E3217",
+          "type": "item",
+          "item": {
+            "id": "silentgear:alloy_forge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A6FE332307CE211",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1223760DD8BE7B4C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.6274d,
+      "y": 4.36732d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "153095FE05FCD692",
+      "title": "Azure Silver Dust",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:azure_silver_dust"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Tool Action processing to make Azure Silver Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14E45D660D0B1EA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12C9793D31C26A11",
+          "type": "item",
+          "item": {
+            "id": "silentgear:azure_silver_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16EE9F26E861EC1F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "118D0612B84B3684",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.96794d,
+      "y": 5.7261d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1139AD25FD03F170",
+      "title": "Blaze Gold Dust",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:blaze_gold_dust"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Tool Action processing to make Blaze Gold Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14E45D660D0B1EA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10DC0286828364D2",
+          "type": "item",
+          "item": {
+            "id": "silentgear:blaze_gold_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E92AF5924F2359F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AD0BF9870E1E002",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.96794d,
+      "y": -0.7739d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13F59C7B5EEC9B1D",
+      "title": "Blazing Dust",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:blazing_dust"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Blazing Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10C6E0F42FFE89E4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1086CBA18DEDB61F",
+          "type": "item",
+          "item": {
+            "id": "silentgear:blazing_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13495ADF79BC7E5C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15B141ABE83981D1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.2887d,
+      "y": 1.72496d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14AB55B17CCD432B",
+      "title": "Glittery Dust",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:glittery_dust"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Glittery Dust. Item inputs include Nether Banana, Popped Chorus Fruit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10C6E0F42FFE89E4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10AAE1BE8A2407EF",
+          "type": "item",
+          "item": {
+            "id": "silentgear:glittery_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F42054F77065240",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BB83BDED26BEF40",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.6387d,
+      "y": 1.72496d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F105E4C0C62D5D",
+      "title": "Glowing Dust",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:glowing_dust"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Glowing Dust. Item inputs include Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10C6E0F42FFE89E4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19760526D103F92D",
+          "type": "item",
+          "item": {
+            "id": "silentgear:glowing_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BA3C69CE510B8EB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "148917AC97248114",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.9887d,
+      "y": 1.72496d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "115C956E4DF05415",
+      "title": "Recrystallizer",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:recrystallizer"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Recrystallizer. Item inputs include Purpur Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "194BF766D78E6DB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130FA8A0A9895728",
+          "type": "item",
+          "item": {
+            "id": "silentgear:recrystallizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "167A7185A5F123FD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19BB57FFC2F95FE3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.26853d,
+      "y": 3.59382d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F0D774F2FF5E78F",
+      "title": "Starmetal Dust",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:starmetal_dust"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Starmetal Dust. Item inputs include Nether Star Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14E45D660D0B1EA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CA07A5F99844D0C",
+          "type": "item",
+          "item": {
+            "id": "silentgear:starmetal_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11290F225A32F9F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C7135B9DAEEB07F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.08264d,
+      "y": 0.4041d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14614D3C7C215407",
+      "title": "Black Foundry Tank",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "productivemetalworks:black_foundry_tank"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Black Foundry Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FCB686101842DB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B39AC6718EDA1D4",
+          "type": "item",
+          "item": {
+            "id": "productivemetalworks:black_foundry_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1255C3F9B5D734FE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15DDE16E58F39923",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.30574d,
+      "y": 4.3676d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11BB0122EAA7228A",
+      "title": "Chestplate Cast",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "sgearmetalworks:chestplate_cast"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Use Item Casting processing to make Chestplate Cast. Item inputs include Chestplate Plates. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AE1CBABF90DF45B",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:chestplate_cast"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "152BB043FEB685C6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D04F70BAB4EB316",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.9909d,
+      "y": 6.43768d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13532FEE10D06CED",
+      "title": "Binding Blueprint",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "id": "silentgear:binding_blueprint"
+      },
+      "description": [
+        "Make a blueprint or template and choose materials for its parts. Compare material traits, repair supplies, and coatings before committing scarce resources.",
+        "Craft Binding Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1881A053ADB1F380",
+          "type": "item",
+          "item": {
+            "id": "silentgear:binding_blueprint"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F7B041A9FCEB88D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1192BDF302F83167",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.01204d,
+      "y": 3.37972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BD47F0EA8D8216B",
+      "title": "Repair Kits",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(silentgear:very_crude_repair_kit)item(silentgear:crude_repair_kit)item(silentgear:sturdy_repair_kit)item(silentgear:crimson_repair_kit)item(silentgear:azure_repair_kit))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(silentgear:very_crude_repair_kit)item(silentgear:crude_repair_kit)item(silentgear:sturdy_repair_kit)item(silentgear:crimson_repair_kit)item(silentgear:azure_repair_kit))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1258F81AAD8D9856",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "174AB62E00FEA8E8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.64236d,
+      "y": 2.05772d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DC5D04890361688",
+      "title": "&zDyeable Foundry &zParts",
+      "subtitle": "Silent Gear",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivemetalworks:foundry_controllers)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E9113DD55C4CD91"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivemetalworks:foundry_controllers)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "119DE0504400AA88",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivemetalworks:foundry_drains)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1737A406F532AE3E",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivemetalworks:foundry_tanks)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1D3EDBF909BA672A",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item_tag(productivemetalworks:fire_bricks)item_tag(productivemetalworks:foundry_windows))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1830782232C641E0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16BA8E2032C35D8E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.30686d,
+      "y": 3.04712d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1178566514EEB2D4",
+      "linked_quest": "1A8958F60F0ED0E9",
+      "x": 5.32867d,
+      "y": 9.7082d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

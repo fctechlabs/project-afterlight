@@ -1,0 +1,9 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:seeds",
+  "preset": "minecraft:seeds",
+  "result": {
+    "item": "immersiveengineering:seed",
+    "count": 1
+  }
+}

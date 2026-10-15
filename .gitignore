@@ -1,0 +1,13 @@
+builds/
+mods/
+work/
+libraries/
+logs/
+crash-reports/
+__pycache__/
+*.part
+*.jar
+.env
+.env.*
+*.key
+*.pem

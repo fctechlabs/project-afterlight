@@ -1,0 +1,4452 @@
+{
+  "id": "181D99BC10C24565",
+  "filename": "93_cataclysm",
+  "title": "L_Ender’s Cataclysm",
+  "icon": {
+    "id": "cataclysm:burning_ashes"
+  },
+  "group": "15E451C383170371",
+  "order_index": 70,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1F0A264E9420A1E6",
+      "title": "Bone Reptile Helmet",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:bone_reptile_helmet"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Bone Reptile Helmet. Item inputs include Kobolediator Skull, Ancient Metal Ingot, Koboleton Bone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16983C83A4DDCFE5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1652E35A8DA6AA22",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:bone_reptile_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "173A7AFA1A4BB88A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "157E2EDC9EC0F008",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.15147d,
+      "y": 12.84107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "171A39037D74C9A4",
+      "title": "Cursed Bow",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:cursed_bow"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Cursed Bow. Item inputs include Black Steel Ingot, Cursium Ingot, String. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1606E95786DCE33D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "105FE19A66C550D4",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:cursed_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17517C192FC85EEF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17BA116F2A3D90B5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.44051d,
+      "y": 8.51415d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "179F336AFF4EF5C3",
+      "title": "Cursium Helmet",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:cursium_helmet"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use a Smithing Table to make Cursium Helmet. Item inputs include Cursium Ingot, Netherite Helmet, Cursium Upgrade Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1606E95786DCE33D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A52111F82C6BA10",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:cursium_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15009105251676FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13A0C27579BACFEF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.04049d,
+      "y": 7.39167d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C8862BA42C1288D",
+      "title": "Ignitium Helmet",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:ignitium_helmet"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use a Smithing Table to make Ignitium Helmet. Item inputs include Ignitium Ingot, Netherite Helmet, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "172248C493D814F7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D9536E9474B29D",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:ignitium_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D3E2E75A966435F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "150D7A948D20134C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.19829d,
+      "y": 0.25428d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184F27A4BC4D1471",
+      "title": "Sturdy Boots",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:sturdy_boots"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Sturdy Boots and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17DBCD9FBDBCD8EC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EE7320653441C2B",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:sturdy_boots"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E9DBACAEED1EFC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19B6211315419062",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.15147d,
+      "y": 14.19107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EEB911970F0674A",
+      "title": "Eye of Abyss",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:abyss_eye"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Eye of Abyss. Item inputs include Crying Obsidian, Obsidian, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C65D45E249CAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AF6B060C219D47D",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:abyss_eye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18129A8D1B869802",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16D0C7796F77B834",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.92388d,
+      "y": 2.41017d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12FA9BE292B3D191",
+      "title": "Abyssal Egg",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:abyssal_egg"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Abyssal Egg and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "114D2843DAD0DCF6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D9A7378FA7346FC",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:abyssal_egg"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11DF24039C8CB311",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DAE36B44603F3B7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.73976d,
+      "y": 6.72823d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "117262A8BD5A1834",
+      "title": "Abyssal Sacrifice",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:abyssal_sacrifice"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Abyssal Sacrifice. Item inputs include Nautilus Shell, Athame, Crystallized Coral, Diamond Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "134A0716383D3175",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:abyssal_sacrifice"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10FBDE434FF9BDB9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "154B1C40F6374F88",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.41946d,
+      "y": 6.19988d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15194BD84478B505",
+      "title": "Ancient Spear",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:ancient_spear"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Ancient Spear. Item inputs include Ancient Metal Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16983C83A4DDCFE5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1557035FB6430BDD",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:ancient_spear"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D7A7AD9DB8B15B4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17F02F413B72EE5C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.47347d,
+      "y": 11.63334d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13744075E882E1DD",
+      "title": "Astrape",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:astrape"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Astrape. Item inputs include Lacrima, Essence of the Storm. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "160FDD6065408B4A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D4A5EADD00C159",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:astrape"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160EB8DE462BCE57",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "126050AF45FBA483",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.17646d,
+      "y": 10.66746d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17DBCD9FBDBCD8EC",
+      "title": "Belt of Beginner",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:belt_of_beginner"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Belt of Beginner. Item inputs include Leather, Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17AC8517E1302FBD",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:belt_of_beginner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AFF28C83E4DD6BB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18D854BF98DB6648",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.08245d,
+      "y": 6.22924d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "195E17D56D873A9F",
+      "title": "Berserker Soul Amulet",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:berserker_soul_amulet"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Berserker Soul Amulet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17DBCD9FBDBCD8EC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1327C73089027728",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:berserker_soul_amulet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C7CA055AA96AEF0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C716EBA99EEC033",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.39362d,
+      "y": 7.89222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10C94B373059BC38",
+      "title": "Blazing Grips",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:blazing_grips"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Blazing Grips. Item inputs include Nether Brick, Ignitium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "172248C493D814F7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E2AB8313D86470A",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:blazing_grips"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11AB0C8AA8A774F5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EFEFCE3F5273230",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.93472d,
+      "y": -1.06671d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E24FD9E050AFE7D",
+      "title": "Brontes",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:brontes"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use Weapon Fusion processing to make Brontes. Item inputs include Infernal Forge, Astrape. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1069729415893069"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18E2E22822A6F92D",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:brontes"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F7D378F1FF69E39",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1987552DE0A7EF3D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.0799d,
+      "y": 7.26438d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11976F2D95B72E02",
+      "title": "Bulwark of the Flame",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:bulwark_of_the_flame"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Bulwark of the Flame. Item inputs include Nether Brick, Ignitium Ingot, Blaze Rod, Shield. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "172248C493D814F7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E56E81BBEB9DC72",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:bulwark_of_the_flame"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16A4572DCBC56405",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BC241BE1E6F654E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.28472d,
+      "y": -1.06671d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D64A3528CCB2E54",
+      "title": "Burning Ashes",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Burning Ashes. Item inputs include Dying Ember. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F85F8B803016485"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "187E3E8BBC1D917A",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:burning_ashes"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "130D47C305DE52C2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "180246877109FD2E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.21001d,
+      "y": 0.82827d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B34F1EB85DE14A8",
+      "title": "Ceraunus",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:ceraunus"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Ceraunus. Item inputs include Lacrima, Essence of the Storm. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "160FDD6065408B4A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "125F85899248CF88",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:ceraunus"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E69DF8A95241AB4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1100862FC35C977F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.66493d,
+      "y": 10.21144d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "146D00A2551FDB3E",
+      "title": "Chitin Claw",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:chitin_claw"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Chitin Claw and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "191AA2E824C73CB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CB2DD03B8670C58",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:chitin_claw"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B7C7FD0EB450BB1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13643A2A57C804E9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.66471d,
+      "y": 8.88944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13A50673B3BAFF5B",
+      "title": "Eye of Curse",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:cursed_eye"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Eye of Curse. Item inputs include Gold Ingot, Bone, Phantom Membrane, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C65D45E249CAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16E1CA2557CF46D2",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:cursed_eye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14B9FC3BFFAA99BF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17B5E6F0DB216BAB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.4525d,
+      "y": -0.52282d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F437E639622988A",
+      "title": "Eye of Desert",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:desert_eye"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Eye of Desert. Item inputs include Gold Ingot, Chiseled Sandstone, Emerald, Dead Bush. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C65D45E249CAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1352AC6984B90739",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:desert_eye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E5B29F5AC16073D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA5EFE8C2587755",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.8975d,
+      "y": -0.52282d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FC1C6B55E8A64A8",
+      "title": "Eye of Flame",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:flame_eye"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Eye of Flame. Item inputs include Blaze Powder, Netherite Scrap, Ender Eye, Soul Sand. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C65D45E249CAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CE5D960CB903C5D",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:flame_eye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E39C3EFFE1E143",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "136EBC4FF82534EC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.2475d,
+      "y": -0.52282d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C42C80D2E6F08C4",
+      "title": "Gauntlet of Bulwark",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:gauntlet_of_bulwark"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use Weapon Fusion processing to make Gauntlet of Bulwark. Item inputs include Gauntlet of Guard, Bulwark of the Flame. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1069729415893069"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DA0F79BBE0ECEE0",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:gauntlet_of_bulwark"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BD7E200EEDF4AC0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FFCC5F2C3E24E2F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.4299d,
+      "y": 7.26438d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D0FC55E5D43D31D",
+      "title": "Gauntlet of Guard",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:gauntlet_of_guard"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Gauntlet of Guard and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16171FC20CE74FF6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "112338745E560EC5",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:gauntlet_of_guard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D6A6A0E39463F5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19101A8918817629",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.17029d,
+      "y": 1.80678d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11D29298D333BAC5",
+      "title": "Gauntlet of Maelstrom",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:gauntlet_of_maelstrom"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use Weapon Fusion processing to make Gauntlet of Maelstrom. Item inputs include Gauntlet of Guard, Sandstorm in a Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1069729415893069"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1672CDFD8709D8E9",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:gauntlet_of_maelstrom"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ADCE5C7AED384CE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D8F95F997EE0F3D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.7799d,
+      "y": 7.26438d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16668A3C5299BC1B",
+      "title": "Infernal Forge",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:infernal_forge"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Infernal Forge and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10D0E7E39B88108E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C97139E1864CCD5",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:infernal_forge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "175E9497C37B28CC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1638F72CD72CEC4A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.02236d,
+      "y": -1.84231d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1169C38D0077ABE2",
+      "title": "Khopesh",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:khopesh"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Khopesh and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E02ECD048BA7465"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10A7C4D5F3350FBB",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:khopesh"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D6D940D1208CCCC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11518D3577CDD8EC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.46258d,
+      "y": 11.52418d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E7A170D3044E2A",
+      "title": "Laser Gatling",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:laser_gatling"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Laser Gatling. Item inputs include Redstone, Iron Ingot, Redstone Block, Witherite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C6DD309584E7737"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E9239BAD713785",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:laser_gatling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "181D7175C03F5E2B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "179134E50C9BD510",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.86041d,
+      "y": 9.93578d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F9D67EAA0CD4EBC",
+      "title": "Meat Shredder",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:meat_shredder"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Meat Shredder. Item inputs include Redstone, Iron Block, Witherite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C6DD309584E7737"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C453A58A5549E40",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:meat_shredder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C827A993EA27ACD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "186AE3F90DF6BAF9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.43403d,
+      "y": 8.33125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E0A4EF6408A4F87",
+      "title": "Eye of Mech",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:mech_eye"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Eye of Mech. Item inputs include Redstone Block, Iron Ingot, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C65D45E249CAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "158C0FE10DA76BF7",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:mech_eye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1117098F988AB905",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "143418435B29F533",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.6752d,
+      "y": 1.36644d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1069729415893069",
+      "title": "Mechanical Fusion Anvil",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:mechanical_fusion_anvil"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Mechanical Fusion Anvil. Item inputs include Witherite Ingot, Redstone Block, Anvil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C6DD309584E7737"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FECCF57C44F5E0D",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:mechanical_fusion_anvil"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1955E20458DC757B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D49578F4C4C982E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.00516d,
+      "y": 6.11916d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8439B1C9B06931",
+      "title": "Eye of Monstrous",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:monstrous_eye"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Eye of Monstrous. Item inputs include Lava Bucket, Netherite Scrap, Blackstone, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C65D45E249CAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16140D91065424C5",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:monstrous_eye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188158C76C227CCC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AE9B5C442290E19",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.4525d,
+      "y": 0.82718d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AF53CCC1C3D3F3E",
+      "title": "Monstrous Helm",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:monstrous_helm"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use a Smithing Table to make Monstrous Helm. Item inputs include Monstrous Horn, Netherite Helmet, Netherite Upgrade Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10D0E7E39B88108E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15565B4170890938",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:monstrous_helm"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14C0567242BB0344",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CCA0A675E9C7404",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.72236d,
+      "y": -1.84231d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19CCF7279FAF4087",
+      "title": "Necklace of the desert",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:necklace_of_the_desert"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Necklace of the desert and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ABA7411B0728249",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:necklace_of_the_desert"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12527D1B89D3FCE9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10E80F0F34292884",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.94771d,
+      "y": 8.81477d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1099E3C5ECF6A8A4",
+      "title": "Remnant's Skull",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:remnant_skull"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Remnant's Skull and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "11FC323F01C7ECB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D2D57B571B22FAD",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:remnant_skull"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B6EB88DE13AD63",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195D6372B9A3FDEC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.58826d,
+      "y": 9.37068d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C1DBB5C6E16B90C",
+      "title": "Ring of Grudged",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:ring_of_grudged"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Ring of Grudged and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17DBCD9FBDBCD8EC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B675A1FAE725A69",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:ring_of_grudged"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198983ED6FE76C3C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14AC2E15F99B846E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.08242d,
+      "y": 4.73259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E112B76A1608F13",
+      "title": "Sandstorm in a Bottle",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:sandstorm_in_a_bottle"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Sandstorm in a Bottle and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "11FC323F01C7ECB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F1BFAEF1822C45",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:sandstorm_in_a_bottle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FEFD3328916B0F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14CD7E90F7984A2C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.3636d,
+      "y": 10.25834d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1727436511292F06",
+      "title": "Soul Render",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:soul_render"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Soul Render. Item inputs include Black Steel Ingot, Cursium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1606E95786DCE33D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B459C9500530F2",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:soul_render"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12032CAF702D4598",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AEB08111C8F82ED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.62313d,
+      "y": 6.24463d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15111F4384398A19",
+      "title": "Eye of Storm",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:storm_eye"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Eye of Storm. Item inputs include Prismarine Shard, Water Bucket, Diamond, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C65D45E249CAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F7CD356206DED79",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:storm_eye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "113D2796305FBD64",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15B31026EAB856AE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.8975d,
+      "y": 0.82718d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "113897BFF5B2B210",
+      "title": "Strange Key",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:strange_key"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Strange Key and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1ADF04C3F8007A9A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "190EEDC0966F6EF4",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:strange_key"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12BF360885685772",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1049326EB4B4F493",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.00895d,
+      "y": 7.4467d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "122BD2B2C290726B",
+      "title": "The Annihilator",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:the_annihilator"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft The Annihilator. Item inputs include Black Steel Ingot, Cursium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1606E95786DCE33D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A9895FE749F35B2",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:the_annihilator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C97B34186CE3B3E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F23321145F9DEAA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.62223d,
+      "y": 4.67263d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C9E746CD9F4ED31",
+      "title": "The Immolator",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:the_immolator"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use Weapon Fusion processing to make The Immolator. Item inputs include The Annihilator, Ignitium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1069729415893069"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15463F7EB2A8D787",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:the_immolator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17486B12D58CAE3F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11505B54605364B8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.2524d,
+      "y": 5.60254d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12BC3C66683C3EDF",
+      "title": "The Incinerator",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:the_incinerator"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft The Incinerator. Item inputs include Blaze Rod, Ignitium Ingot, Netherite Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "172248C493D814F7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F5B5D86CA039EA",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:the_incinerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1630B368A62F85D7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13F627C30A289ABE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.63472d,
+      "y": -1.06671d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AACAD42366338A3",
+      "title": "Tidal Claws",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:tidal_claws"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Tidal Claws and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "114D2843DAD0DCF6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "198AC4241D30D027",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:tidal_claws"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ED7AA35D2E62EC7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "117213D5C63DE231",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.58796d,
+      "y": 8.05023d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13358E94D5A5C7E8",
+      "title": "Unbreakable Skull",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:unbreakable_skull"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Unbreakable Skull and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17DBCD9FBDBCD8EC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16EBE462C478BCD3",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:unbreakable_skull"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C2B50AC08C7C1CC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FBEF31632A91840",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.76176d,
+      "y": 5.76902d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BA4F860C2E682B7",
+      "title": "Vitality Ankh",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:vitality_ankh"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Vitality Ankh and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17DBCD9FBDBCD8EC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B091E8BF7C029BE",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:vitality_ankh"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19F5B0AB30FBBC80",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "198D952A9086F9EA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.06176d,
+      "y": 7.11902d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A5E573FE0FE9206",
+      "title": "Void Assault Shoulder Weapon",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:void_assault_shoulder_weapon"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use Weapon Fusion processing to make Void Assault Shoulder Weapon. Item inputs include Wither Assault Shoulder Weapon, Void Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "117B9F5D42E5B8ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FA13FE1F0FD65DB",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:void_assault_shoulder_weapon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BBD830D43D9B74D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B171310CCB82D39",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.08259d,
+      "y": 4.82937d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "188A43CADCBF9D67",
+      "title": "Eye of Void",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:void_eye"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Eye of Void. Item inputs include Purpur Pillar, Shulker Shell, End Stone Bricks, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C65D45E249CAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "114D3376C5C19AA7",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:void_eye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14FFB1D9FED1C10C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ADCEEC6BB07119F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.2475d,
+      "y": 0.82718d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "150203A362810BDC",
+      "title": "Void Forge",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:void_forge"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use Weapon Fusion processing to make Void Forge. Item inputs include Infernal Forge, Void Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1069729415893069"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A72C9271331F1BB",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:void_forge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F855E49FC233E0B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1074290B64B15642",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.50516d,
+      "y": 6.11916d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FBF11572990EB61",
+      "title": "Void Scatter Arrow",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:void_scatter_arrow"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Void Scatter Arrow. Item inputs include Void Jaw, Spectral Arrow. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EC843BFDF5B5DD7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1945DB03791D3322",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:void_scatter_arrow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18CDE46EA5350E99",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A3BC6AB883563A4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.17142d,
+      "y": 4.4489d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "117B9F5D42E5B8ED",
+      "title": "Wither Assault Shoulder Weapon",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:wither_assault_shoulder_weapon"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Wither Assault Shoulder Weapon. Item inputs include Witherite Ingot, Gunpowder, Redstone Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C6DD309584E7737"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19174AB6651021EF",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:wither_assault_shoulder_weapon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1187F2533BD005EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16877B22149352A2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.40262d,
+      "y": 5.219d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9DC04DCC898B7D",
+      "title": "Wrath of the Desert",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:wrath_of_the_desert"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use Weapon Fusion processing to make Wrath of the Desert. Item inputs include Cursed Bow, Sandstorm in a Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1069729415893069"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D5C52337917282A",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:wrath_of_the_desert"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11265B72BBB1D709",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1416859AA0312143",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.7799d,
+      "y": 8.61438d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A950BD9819BD304",
+      "title": "Bucket",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "minecraft:bucket"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12FA9BE292B3D191"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16E2ECAB2C44D85B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "171FBE0513FDC594",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11154447D8C4776F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.06528d,
+      "y": 8.44014d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C65D45E249CAE1",
+      "title": "Ender Eye",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "minecraft:ender_eye"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use Item Casting processing to make Ender Eye. Item inputs include Ender Pearl. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10CB320D9AE48744"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18D2909185293046",
+          "type": "item",
+          "item": {
+            "id": "minecraft:ender_eye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F06940D68E63EFC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "168518A09F231066",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.24794d,
+      "y": 2.1468d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16983C83A4DDCFE5",
+      "title": "Ancient Metal Ingot",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:ancient_metal_ingot"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Ancient Metal Ingot. Item inputs include Block of Ancient Metal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11FC323F01C7ECB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12220E6042AD5210",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:ancient_metal_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BD653351F3CBA6E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CD79F77CA886B07",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.84614d,
+      "y": 11.45723d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1606E95786DCE33D",
+      "title": "Cursium Ingot",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:cursium_ingot"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Cursium Ingot. Item inputs include Block of Cursium. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "197B908EE10F6BB1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A0749FC80684D79",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:cursium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EAC48D7E7169D87",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1881722BA25B927E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.30951d,
+      "y": 7.39167d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "172248C493D814F7",
+      "title": "Ignitium Ingot",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:ignitium_ingot"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Ignitium Ingot. Item inputs include Block of Ignitium. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1997904E1DB3DA43"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EE89CA7B698DC70",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:ignitium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "121AF3535A969BA1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B3BD6B790EBE9BA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.84829d,
+      "y": 0.25428d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C19A753010313FE",
+      "title": "Void Core",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:void_core"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Void Core and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1A35FB6167E97414"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19857362E0DEE92D",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:void_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15A780C5BA69A39B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18D1A6F819AA826F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.17178d,
+      "y": 3.1269d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C6DD309584E7737",
+      "title": "Witherite Ingot",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:witherite_ingot"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Craft Witherite Ingot. Item inputs include Block of Witherite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15AB98F41120D532"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12EBC322ED9E4AF2",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:witherite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C84CAF7EB6681E6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1649DE6193B69CD1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.50638d,
+      "y": 6.541d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CD1B089B6C2FD95",
+      "title": "Ignitium Elytra Chestplate",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:ignitium_elytra_chestplate"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Use Weapon Fusion processing to make Ignitium Elytra Chestplate. Item inputs include Ignitium Chestplate, Elytra. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1069729415893069"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1D9AAF70A69D29",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:ignitium_elytra_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19193DC78A9F18FE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1819AA5D0EA48FA2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.45147d,
+      "y": 14.19107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "112E8C2091E21940",
+      "title": "Lava Power Cell",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:lava_power_cell"
+      },
+      "description": [
+        "Locate the relevant structure, prepare an arena and escape route, then challenge the boss. Check summon conditions and damage mechanics before risking your best equipment.",
+        "Obtain Lava Power Cell and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10D0E7E39B88108E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "198AADBC9166DC17",
+          "type": "item",
+          "item": {
+            "id": "cataclysm:lava_power_cell"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C8BFB5A55E5F24D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11803810163D0612",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.37236d,
+      "y": -1.84231d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F85F8B803016485",
+      "title": "Nether: Land of 2 bosses",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "minecraft:netherrack"
+      },
+      "description": [
+        "Enter The Nether. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "10CB320D9AE48744"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:the_nether",
+          "type": "dimension",
+          "id": "15F5939660130885",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14AB56373E65EF71",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.69101d,
+      "y": 1.69927d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "142816DF523BD0B0",
+      "title": "Overworld: Land of 3 4 5 bosses",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "minecraft:grass_block"
+      },
+      "description": [
+        "Enter Overworld. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "10CB320D9AE48744"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:overworld",
+          "type": "dimension",
+          "id": "1838D5C1F73EC5CF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A24A4E048296D0D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.91164d,
+      "y": 7.49431d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9FB51F87B64B27",
+      "title": "End: Land of 1 lonely boss",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "minecraft:end_stone"
+      },
+      "description": [
+        "Enter The End. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "10CB320D9AE48744"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:the_end",
+          "type": "dimension",
+          "id": "13ABA68EDE0C6279",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF49503BB70FB93",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.919d,
+      "y": 4.08038d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "114D2843DAD0DCF6",
+      "title": "The Leviathan",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "117262A8BD5A1834"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:the_leviathan",
+          "type": "kill",
+          "value": 1,
+          "id": "13E4E7168D936220",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18E33129E409A7BC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.26787d,
+      "y": 7.53211d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15AB98F41120D532",
+      "title": "The Harbinger",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1C33F522E395A423"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:the_harbinger",
+          "type": "kill",
+          "value": 1,
+          "id": "1BB18E4664561B92",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AE9CF1386EE55D9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.26111d,
+      "y": 4.5043d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11FC323F01C7ECB3",
+      "title": "Ancient Remnant",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "19CCF7279FAF4087"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:ancient_remnant",
+          "type": "kill",
+          "value": 1,
+          "id": "1E9DB739D98A2A9C",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19BB122DEB53F9BB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.94766d,
+      "y": 10.13677d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10D0E7E39B88108E",
+      "title": "Netherite Monstrosity",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1F85F8B803016485"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:netherite_monstrosity",
+          "type": "kill",
+          "value": 1,
+          "id": "1846362A8105053E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1977A96B88F43DEE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.31818d,
+      "y": 0.82794d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1997904E1DB3DA43",
+      "title": "Ignis",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1D64A3528CCB2E54"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:ignis",
+          "type": "kill",
+          "value": 1,
+          "id": "1B0F767477146C86",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C5A5E668E22D65E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.52915d,
+      "y": 0.54127d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16171FC20CE74FF6",
+      "title": "Ender Guardian",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1D9FB51F87B64B27"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:ender_guardian",
+          "type": "kill",
+          "value": 1,
+          "id": "1E94A758E10B9AA1",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D9CF9F8EB282EF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.53122d,
+      "y": 2.79807d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A2786424BB914E9",
+      "title": "The Prowler",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:the_prowler",
+          "type": "kill",
+          "value": 1,
+          "id": "15991FB75670A691",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D9FEB5AE55ECF3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.5985d,
+      "y": 4.81943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A4CEBAFBB69C48",
+      "title": "Coralssus",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:coralssus",
+          "type": "kill",
+          "value": 1,
+          "id": "1701895187BF5A3D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "110227D11D911722",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.9723d,
+      "y": 8.55497d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B30752597F444B6",
+      "title": "Amethyst Crab",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:amethyst_crab",
+          "type": "kill",
+          "value": 1,
+          "id": "14F45B632C4313F3",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11FC0489B15A9529",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.1985d,
+      "y": 3.46943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13A6569299CF67BD",
+      "title": "Ignited Revenant",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1F85F8B803016485"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:ignited_revenant",
+          "type": "kill",
+          "value": 1,
+          "id": "1F92477347FB02F5",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE981D4A9535AE0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.16619d,
+      "y": -0.49406d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A35FB6167E97414",
+      "title": "Ender Golem",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1D9FB51F87B64B27"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:ender_golem",
+          "type": "kill",
+          "value": 1,
+          "id": "1F893F81A07813B0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C0E736AC7697F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.85131d,
+      "y": 4.08768d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10CB320D9AE48744",
+      "title": "Cataclysm",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:altar_of_fire"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in L_Ender’s Cataclysm."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "minecraft:adventure/root",
+          "criterion": "",
+          "type": "advancement",
+          "id": "1535611B2C2D47DE",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "161E5CF466573A67",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.21093d,
+      "y": 2.14743d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EC843BFDF5B5DD7",
+      "title": "Endermaptera",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1D9FB51F87B64B27"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:endermaptera",
+          "type": "kill",
+          "value": 3,
+          "id": "121A5588CEC2659F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "184974A117DBFC00",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.74082d,
+      "y": 5.40777d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E02ECD048BA7465",
+      "title": "Koboletons",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:koboleton",
+          "type": "kill",
+          "value": 3,
+          "id": "10C02CF2E141201F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E610A488C2D598",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.97921d,
+      "y": 9.26871d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E24CA03D3D9BA10",
+      "title": "The Watchers",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:the_watcher",
+          "type": "kill",
+          "value": 3,
+          "id": "1A4490E6607F7D5C",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A1C5A74B5D33CE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.1985d,
+      "y": 6.16943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DF0693897C11824",
+      "title": "Deeplings",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:deepling",
+          "type": "kill",
+          "value": 1,
+          "id": "1064D1B0E9CC50FC",
+          "consume_items": false
+        },
+        {
+          "entity": "cataclysm:deepling_angler",
+          "type": "kill",
+          "value": 1,
+          "id": "10114F03A6365184",
+          "consume_items": false
+        },
+        {
+          "entity": "cataclysm:deepling_brute",
+          "type": "kill",
+          "value": 1,
+          "id": "1A6B0BAA607ECFAF",
+          "consume_items": false
+        },
+        {
+          "entity": "cataclysm:deepling_priest",
+          "type": "kill",
+          "value": 1,
+          "id": "1ABCFC199ECE4DEA",
+          "consume_items": false
+        },
+        {
+          "entity": "cataclysm:deepling_warlock",
+          "type": "kill",
+          "value": 1,
+          "id": "1954C477B681B163",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "124543AACE78FCAE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.5985d,
+      "y": 3.46943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "197B908EE10F6BB1",
+      "title": "Maledictus",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "113897BFF5B2B210"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:maledictus",
+          "type": "kill",
+          "value": 1,
+          "id": "14F99479739D590E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17191702773DD53C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.65923d,
+      "y": 7.41918d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B80456DFC7FCB50",
+      "title": "Coral Golem",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:coral_golem",
+          "type": "kill",
+          "value": 1,
+          "id": "1AC0F705FBB0F162",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E5A3969C38510F8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.8985d,
+      "y": 3.46943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E819E4C16B4C2E2",
+      "title": "Kobolediator",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:kobolediator",
+          "type": "kill",
+          "value": 1,
+          "id": "1E6B196861F50698",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11D58D004CDF04F0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.8985d,
+      "y": 4.81943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C68DE05DDE51BC9",
+      "title": "Wadjet",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:wadjet",
+          "type": "kill",
+          "value": 1,
+          "id": "108358631B5D217A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D0201EF9E99AC67",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.8985d,
+      "y": 6.16943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F2EAB380A12E56F",
+      "title": "Ignited Berserker",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1F85F8B803016485"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:ignited_berserker",
+          "type": "kill",
+          "value": 1,
+          "id": "1362E62F82E5C691",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD1934BC95550F9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.43169d,
+      "y": 0.88269d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ADF04C3F8007A9A",
+      "title": "Aptrgangr",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:aptrgangr",
+          "type": "kill",
+          "value": 1,
+          "id": "122F729E9ECDEDCD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F924C9A515B4DC0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.35867d,
+      "y": 7.47421d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BCF2D6D6CED8218",
+      "title": "Draugrs",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:draugr",
+          "type": "kill",
+          "value": 1,
+          "id": "164C944B841DD15F",
+          "consume_items": false
+        },
+        {
+          "entity": "cataclysm:elite_draugr",
+          "type": "kill",
+          "value": 1,
+          "id": "11C8158382A8A3A4",
+          "consume_items": false
+        },
+        {
+          "entity": "cataclysm:royal_draugr",
+          "type": "kill",
+          "value": 1,
+          "id": "183C8B1DC01D39FB",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18CE130AA0255BAB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.1985d,
+      "y": 4.81943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "160FDD6065408B4A",
+      "title": "Scylla",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:scylla",
+          "type": "kill",
+          "value": 1,
+          "id": "1FCBE75E0207E705",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "108232D647A5DAA0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.30542d,
+      "y": 10.20803d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16710AE64D11FB7E",
+      "title": "Urchinkin",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:urchinkin",
+          "type": "kill",
+          "value": 1,
+          "id": "1E7D90FF39540BA3",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E46A339E4811694",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.5485d,
+      "y": 6.16943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16662E601F5907AF",
+      "title": "Octohost",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:symbiocto",
+          "type": "kill",
+          "value": 1,
+          "id": "10EB48FF0594F8DC",
+          "consume_items": false
+        },
+        {
+          "entity": "cataclysm:drowned_host",
+          "type": "kill",
+          "value": 1,
+          "id": "1FA8FEB4404F5359",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F7605F9142BF4D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.2485d,
+      "y": 4.81943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16AE8F76ED992C28",
+      "title": "Cindaria",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:cindaria",
+          "type": "kill",
+          "value": 1,
+          "id": "1DC5078E5A520101",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16F569297C094DB9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.5485d,
+      "y": 3.46943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "191AA2E824C73CB9",
+      "title": "Clawdian",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:clawdian",
+          "type": "kill",
+          "value": 1,
+          "id": "1A372926ADCAD002",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F4CA37895A4BDE4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.06802d,
+      "y": 8.88603d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC7CFA6A3B327E8",
+      "title": "Hippocamtus",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:burning_ashes"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "142816DF523BD0B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "cataclysm:hippocamtus",
+          "type": "kill",
+          "value": 1,
+          "id": "1399855CB252EABE",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19EB54958C6F2FA5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.5485d,
+      "y": 4.81943d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18279DD9F6FC4B1C",
+      "title": "The Cataclysmfarer",
+      "subtitle": "L_Ender’s Cataclysm",
+      "icon": {
+        "id": "cataclysm:music_disc_the_cataclysmfarer"
+      },
+      "description": [
+        "Learn about The Cataclysmfarer in the L_Ender’s Cataclysm guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "15AB98F41120D532"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "172A76D7B4583776",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "146E75C27184530C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.86041d,
+      "y": 2.72819d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "104F9A6E1DB2FF1D",
+      "linked_quest": "1C33F522E395A423",
+      "x": 20.5d,
+      "y": 4.82937d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

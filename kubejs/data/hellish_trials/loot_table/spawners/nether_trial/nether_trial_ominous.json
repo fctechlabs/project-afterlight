@@ -1,0 +1,180 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strength"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_fire_resistance"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_harming"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cooked_porkchop",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 3
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_apple",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
+            },
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:swiftness"
+            },
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:ominous_trial_key",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fire_resistant": {}
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "text": "Nether Trial Ominous Key"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:spawners/trial_chamber/consumables"
+}

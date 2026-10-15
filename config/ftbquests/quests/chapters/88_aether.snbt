@@ -1,0 +1,3295 @@
+{
+  "id": "121D9D93966C5693",
+  "filename": "88_aether",
+  "title": "The Aether",
+  "icon": {
+    "id": "aether:aether_portal_frame"
+  },
+  "group": "15E451C383170371",
+  "order_index": 65,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "19A1C50654AEA162",
+      "title": "Cloud Staff",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:cloud_staff"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Cloud Staff and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "141DB5CA643B8237"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18B9B0D0861BDD68",
+          "type": "item",
+          "item": {
+            "id": "aether:cloud_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "135B98E13A1220E5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E5FD207DD515137",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.02361d,
+      "y": 8.22083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19C6802C479F84A3",
+      "title": "Flaming Sword",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:flaming_sword"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Flaming Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "141DB5CA643B8237"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1284E2E696840761",
+          "type": "item",
+          "item": {
+            "id": "aether:flaming_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A2EA176FE6D87FC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11334B50CD59510F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.69861d,
+      "y": 11.22083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18EA1846A4A5C1B7",
+      "title": "Holy Sword",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:holy_sword"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Holy Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1AF4729A697C1081"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1912BC44175F9C5F",
+          "type": "item",
+          "item": {
+            "id": "aether:holy_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11391C4B2DB6C373",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15668DF2E3A586E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.39035d,
+      "y": 6.10826d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B29D8A1F9718EE",
+      "title": "Lightning Sword",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:lightning_sword"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Lightning Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1AF4729A697C1081"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BF8E6978A9E65A5",
+          "type": "item",
+          "item": {
+            "id": "aether:lightning_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1886937DB2D30920",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "101B5AA034E2C512",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.14311d,
+      "y": 6.94164d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A5914BD6AEBFD1",
+      "title": "Nature Staff",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:nature_staff"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Craft Nature Staff. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CDF9B4D4965C8D9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B67265757C4DE1",
+          "type": "item",
+          "item": {
+            "id": "aether:nature_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1350B70A8375FCA3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "138BA8FF40C20687",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.37222d,
+      "y": 10.33194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16F1FA10BEDF9821",
+      "title": "Obsidian Helmet",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:obsidian_helmet"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Obsidian Helmet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16A0D84EC04BC6D8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18073695CC2840DA",
+          "type": "item",
+          "item": {
+            "id": "aether:obsidian_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1198DF545DA72C20",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F58EC25A1B3630D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 21.14863d,
+      "y": 6.34331d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "148034128687863D",
+      "title": "Phoenix Bow",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:phoenix_bow"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Phoenix Bow and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "141DB5CA643B8237"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13C4252A038D61C4",
+          "type": "item",
+          "item": {
+            "id": "aether:phoenix_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "131CCF34F3A9C042",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1581605A68D9D585",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.47498d,
+      "y": 8.37921d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17264EFD53075737",
+      "title": "Sentry Boots",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:sentry_boots"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Sentry Boots and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "141DB5CA643B8237"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FFE30BAC5859B32",
+          "type": "item",
+          "item": {
+            "id": "aether:sentry_boots"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1211297ECFF7D108",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F3683852649996D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.8447d,
+      "y": 8.14581d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "191F65319F05A331",
+      "title": "Aerogel",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aerogel"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Aerogel and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D45AAFF76B7EC2B",
+          "type": "item",
+          "item": {
+            "id": "aether:aerogel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "141EED466B884F8D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18503FE05118BDC6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.21476d,
+      "y": 11.38656d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1123A218EE2D8385",
+      "title": "Altar",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:altar"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Craft Altar. Item inputs include Holystone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BF1D0D903A92B7E",
+          "type": "item",
+          "item": {
+            "id": "aether:altar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CA93446C57D8C00",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11E6F50A14A9ABEC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.20137d,
+      "y": 11.18498d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A7733C6B865067D",
+      "title": "Ambrosium Shard",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:ambrosium_shard"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Blast Ambrosium Shard. Item inputs include Ambrosium Ore. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E7824CDD60EF1C1",
+          "type": "item",
+          "item": {
+            "id": "aether:ambrosium_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "169B6037A8F04F6C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15CABA1509C7E6BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.20137d,
+      "y": 8.94002d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "141DB5CA643B8237",
+      "title": "Bronze Key",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:bronze_dungeon_key"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Bronze Key and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B3F83B978715E43"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E9037AD7E638FC6",
+          "type": "item",
+          "item": {
+            "id": "aether:bronze_dungeon_key"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16C04521EDBA550B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "121B9A8561691EDA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.72222d,
+      "y": 8.89583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16748A7DEB58A2B7",
+      "title": "Cold Aercloud",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:cold_aercloud"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Cold Aercloud and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FCB5BB21125E70D",
+          "type": "item",
+          "item": {
+            "id": "aether:cold_aercloud"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC02C7C6E976AD7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BBD29610AFAD227",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.46366d,
+      "y": 12.51446d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19FBFA8171D1FCEE",
+      "title": "Enchanted Gravitite",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:enchanted_gravitite"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Use Enchanting processing to make Enchanted Gravitite. Item inputs include Gravitite Ore. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CDD4F2B1402DA2A",
+          "type": "item",
+          "item": {
+            "id": "aether:enchanted_gravitite"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1453BDF6C0586DCD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11BBF354CA78D957",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.04861d,
+      "y": 16.67361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "197D3FFF8BF46DD9",
+      "title": "Freezer",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:freezer"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Craft Freezer. Item inputs include Holystone, Icestone, Skyroot Planks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19EBDC5A92EE9DDD",
+          "type": "item",
+          "item": {
+            "id": "aether:freezer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F84A21F5B59F467",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E642E4FEE19551B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.46366d,
+      "y": 7.61054d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C0C77CFBB433E2E",
+      "title": "Gold Key",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:gold_dungeon_key"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Gold Key and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1AF16FD46791C2D1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C6499F4668EF2DF",
+          "type": "item",
+          "item": {
+            "id": "aether:gold_dungeon_key"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CAE16ED621E9A24",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16BBD46725B50338",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.72222d,
+      "y": 7.6875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E3646690A489603",
+      "title": "Hammer of Kingbdogz",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:hammer_of_kingbdogz"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Hammer of Kingbdogz and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "141DB5CA643B8237"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18B3FBAC3E863D22",
+          "type": "item",
+          "item": {
+            "id": "aether:hammer_of_kingbdogz"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17ECDCDD61690C96",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BA97054E2E683D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.87027d,
+      "y": 11.66747d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C92049DB8DAB2F0",
+      "title": "Holystone",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:holystone"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Holystone and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "146E6E3B27D9D46E",
+          "type": "item",
+          "item": {
+            "id": "aether:holystone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EF165B58A446BB5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1244D88484E64330",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.04861d,
+      "y": 14.75694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BDCD4A76E4F0833",
+      "title": "Incubator",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:incubator"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Craft Incubator. Item inputs include Holystone, Ambrosium Torch. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19DC2534A5E408B6",
+          "type": "item",
+          "item": {
+            "id": "aether:incubator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10E0D35F895F3FAF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "135F67B18670BA5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 6.5625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CF80075E99C6BDD",
+      "title": "Invisibility Cloak",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:invisibility_cloak"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Invisibility Cloak and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1AF4729A697C1081"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C10939A24D99CA3",
+          "type": "item",
+          "item": {
+            "id": "aether:invisibility_cloak"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16F4BFA735234A02",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "129943AADE89848F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.37222d,
+      "y": 3.69306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12788057D487A87D",
+      "title": "Iron Bubble",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:iron_bubble"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Iron Bubble and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C0C77CFBB433E2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10F574C271066D0F",
+          "type": "item",
+          "item": {
+            "id": "aether:iron_bubble"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AEF2CD9E767CA17",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB5E69B48D02D10",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.69861d,
+      "y": 5.22083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E335B91C012DE57",
+      "title": "Life Shard",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:life_shard"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Life Shard and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C0C77CFBB433E2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E5FBD36A30081D5",
+          "type": "item",
+          "item": {
+            "id": "aether:life_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1067397573B97599",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F560E568C179DC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.04861d,
+      "y": 5.22083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19753960D9395F07",
+      "title": "Lightning Knife",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:lightning_knife"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Lightning Knife and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "141DB5CA643B8237"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16E2C1C161C79909",
+          "type": "item",
+          "item": {
+            "id": "aether:lightning_knife"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12155C8811376C80",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1480490BE73A1FD3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.79908d,
+      "y": 9.67619d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "140256D126F7F380",
+      "title": "Pig Slayer",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:pig_slayer"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Pig Slayer and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C0C77CFBB433E2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10E189385EE4F78B",
+          "type": "item",
+          "item": {
+            "id": "aether:pig_slayer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1827D89C5C000082",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1651007BC7281A70",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.69861d,
+      "y": 6.57083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1000E75538F61127",
+      "title": "Regeneration Stone",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:regeneration_stone"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Regeneration Stone and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1AF4729A697C1081"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14C40F3932C2FD6B",
+          "type": "item",
+          "item": {
+            "id": "aether:regeneration_stone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "118C5D155FEBF536",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ECD7B1513E418BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.89313d,
+      "y": 4.46916d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1624BC2BFB98A13F",
+      "title": "Shield of Repulsion",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:shield_of_repulsion"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Shield of Repulsion and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "141DB5CA643B8237"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F7B57FA4F3668A",
+          "type": "item",
+          "item": {
+            "id": "aether:shield_of_repulsion"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12EEFC6C4C3C4B7E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F963B551ED9B88D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.02361d,
+      "y": 9.57083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AF4729A697C1081",
+      "title": "Silver Key",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:silver_dungeon_key"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Silver Key and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C4937601886AD86"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18F6E24EDE1C8FB9",
+          "type": "item",
+          "item": {
+            "id": "aether:silver_dungeon_key"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "176ABC67F01AEE2E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140E0205D271CCEF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.14311d,
+      "y": 5.59164d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A7C045D68B96D58",
+      "title": "Skyroot Log",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:skyroot_log"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Skyroot Log and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1345345BCE1CD117",
+          "type": "item",
+          "item": {
+            "id": "aether:skyroot_log"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "164C75934A95F7B9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11645270D02B0D1D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.04861d,
+      "y": 12.71528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F7E224D10ADC6F4",
+      "title": "Sun Altar",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:sun_altar"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Sun Altar and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1AF16FD46791C2D1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A5B7912FCC7F797",
+          "type": "item",
+          "item": {
+            "id": "aether:sun_altar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "129DCF11D8CDEADD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A41D078DBFBF4AA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.72222d,
+      "y": 6.47917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19011A00F39DC9E7",
+      "title": "Swet Cape",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:swet_cape"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Swet Cape and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "141DB5CA643B8237"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12E0E6DB1FBE7641",
+          "type": "item",
+          "item": {
+            "id": "aether:swet_cape"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10479D92793BC2E4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13B08298B464D8FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.72222d,
+      "y": 8.89583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C5D02F2BF847CF5",
+      "title": "Valkyrie Cape",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:valkyrie_cape"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Valkyrie Cape and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1AF4729A697C1081"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "171297F654E2F637",
+          "type": "item",
+          "item": {
+            "id": "aether:valkyrie_cape"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168466EBA5EC9C4D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "157EE1DFC88EB715",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.37222d,
+      "y": 5.04306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "132087A195A4C952",
+      "title": "Valkyrie Lance",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:valkyrie_lance"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Valkyrie Lance and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "141DB5CA643B8237"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1214169AFFA49488",
+          "type": "item",
+          "item": {
+            "id": "aether:valkyrie_lance"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18065E7DA93EA37E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D8D0E81C8E51E8D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.2655d,
+      "y": 11.19193d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B9E5BED8B4265C1",
+      "title": "Vampire Blade",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:vampire_blade"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Vampire Blade and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C0C77CFBB433E2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DA52FA9B85F627C",
+          "type": "item",
+          "item": {
+            "id": "aether:vampire_blade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D845BF36293063",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11320BAEADB17F33",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.72225d,
+      "y": 6.19085d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EE98E9C731037D4",
+      "title": "Victory Medal",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:victory_medal"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Obtain Victory Medal and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FEE9407B61A3D0D",
+          "type": "item",
+          "item": {
+            "id": "aether:victory_medal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "187DB3C63375F25A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F7E5A75F2339E96",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.95412d,
+      "y": 7.17225d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CDF9B4D4965C8D9",
+      "title": "Zanite Gemstone",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:zanite_gemstone"
+      },
+      "description": [
+        "Open the Aether portal with Glowstone and water. Take food, spare blocks, and a return plan; check dungeon rules before challenging a boss.",
+        "Blast Zanite Gemstone. Item inputs include Zanite Ore. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14058E2AA49B1A00",
+          "type": "item",
+          "item": {
+            "id": "aether:zanite_gemstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC844A7BCA46B23",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FC1F0C0C71BEC77",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.04861d,
+      "y": 10.89583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FA1E8C6BD318BB0",
+      "title": "The Aether",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:golden_aercloud"
+      },
+      "description": [
+        "Enter The Aether. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "1C47C3CBD98D063B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "aether:the_aether",
+          "type": "dimension",
+          "id": "1EA8ED3DEAB10050",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19303E7C63D3DD66",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 10.0625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "145DA987CA786727",
+      "title": "Sheepuff",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:sheepuff",
+          "type": "kill",
+          "value": 1,
+          "id": "18497376C197A029",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D081CF04FA4701E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.95139d,
+      "y": 10.0625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16370C7C33867BC6",
+      "title": "Phyg",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:phyg",
+          "type": "kill",
+          "value": 1,
+          "id": "14FF3EA42B07B2D4",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "126437929B828321",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.72361d,
+      "y": 3.37639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "179061B5C01A5273",
+      "title": "Aerwhale",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:aerwhale",
+          "type": "kill",
+          "value": 1,
+          "id": "118A6BABF59686D0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13EF4D91342095A5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.72361d,
+      "y": 0.67639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1456A8B37C167986",
+      "title": "Aerbunny",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:aerbunny",
+          "type": "kill",
+          "value": 1,
+          "id": "101C050CB4864041",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "104F10F76428EBED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.02361d,
+      "y": 0.67639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1626A6FF5FFD41C6",
+      "title": "Moa",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:moa",
+          "type": "kill",
+          "value": 1,
+          "id": "1BC27D026D1CBF8B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "102565C52D5C3523",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.37361d,
+      "y": 3.37639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13B96977D6E7514B",
+      "title": "Flying Cow",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:flying_cow",
+          "type": "kill",
+          "value": 1,
+          "id": "1CE826E0FD0ADF53",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D16F92094FAEA24",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.72361d,
+      "y": 2.02639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12A871CF2823CDBD",
+      "title": "Aechor Plant",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:aechor_plant",
+          "type": "kill",
+          "value": 1,
+          "id": "197DCA9D37CB10D3",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19087CB2CCCE3069",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67361d,
+      "y": 0.67639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1558D8ABC424A0F8",
+      "title": "Blue Swet",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:blue_swet",
+          "type": "kill",
+          "value": 1,
+          "id": "1992DB4245F32B75",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF10A27E3336DFF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67361d,
+      "y": 2.02639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "174A0DBBF1075ECC",
+      "title": "Golden Swet",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:golden_swet",
+          "type": "kill",
+          "value": 1,
+          "id": "130EC7FEED5F778E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14E44179436F320E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.42361d,
+      "y": 2.02639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C0414657B4DEFBB",
+      "title": "Zephyr",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:zephyr",
+          "type": "kill",
+          "value": 1,
+          "id": "17D02C94177FBB0A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172195CE8F452E4E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.02361d,
+      "y": 4.72639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B3F83B978715E43",
+      "title": "The Slider",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:slider",
+          "type": "kill",
+          "value": 1,
+          "id": "11740EDF141B5D37",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1002C96C6E36D012",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.04861d,
+      "y": 9.46528d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C4937601886AD86",
+      "title": "Valkyrie Queen",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1EE98E9C731037D4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:valkyrie_queen",
+          "type": "kill",
+          "value": 1,
+          "id": "17DF51220EA60A35",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B4657A6DEEB6E94",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.04861d,
+      "y": 6.38194d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "197070E059469939",
+      "title": "Cockatrice",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:cockatrice",
+          "type": "kill",
+          "value": 1,
+          "id": "120995AF0FEE8D06",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AD5AA0E3FD3500D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.02361d,
+      "y": 2.02639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AF16FD46791C2D1",
+      "title": "Sun Spirit",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:sun_spirit",
+          "type": "kill",
+          "value": 1,
+          "id": "194C3E35F9A44D80",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ADD82FC8CE5F730",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.04861d,
+      "y": 7.8125d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "156A761029BA5567",
+      "title": "Sentries",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:sentry",
+          "type": "kill",
+          "value": 1,
+          "id": "160E6DD2A906D1A0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "178EFED536D5585A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.07361d,
+      "y": 3.37639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EE112261E870039",
+      "title": "Mimic",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "aether:aether_portal_frame"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "aether:mimic",
+          "type": "kill",
+          "value": 1,
+          "id": "165CC3982F4B7240",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ADD97DF19B726D9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.02361d,
+      "y": 3.37639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11D096B9F5723159",
+      "title": "Valkyrie Armor",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:valkyrie_helmet)item(aether:valkyrie_chestplate)item(aether:valkyrie_leggings)item(aether:valkyrie_boots)item(aether:valkyrie_gloves))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1AF4729A697C1081"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:valkyrie_helmet)item(aether:valkyrie_chestplate)item(aether:valkyrie_leggings)item(aether:valkyrie_boots)item(aether:valkyrie_gloves))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "18660A479B5607F4",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18CA014DEAAC2D26",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.07222d,
+      "y": 3.69306d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16A0D84EC04BC6D8",
+      "title": "Phoenix Armor",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:phoenix_helmet)item(aether:phoenix_chestplate)item(aether:phoenix_leggings)item(aether:phoenix_boots)item(aether:phoenix_gloves))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1C0C77CFBB433E2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:phoenix_helmet)item(aether:phoenix_chestplate)item(aether:phoenix_leggings)item(aether:phoenix_boots)item(aether:phoenix_gloves))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1CA4CF91B46F049D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "132ED90794723FE8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.39861d,
+      "y": 5.22083d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11225247F9C23E9D",
+      "title": "Skyroot Weapons",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:skyroot_sword)item(aether:skyroot_axe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1A7C045D68B96D58"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:skyroot_sword)item(aether:skyroot_axe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "105EA5EB5517B43F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1956870734A9362A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.17109d,
+      "y": 13.4653d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1812E5F8F475BDE5",
+      "title": "Skyroot Tools",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:skyroot_shovel)item(aether:skyroot_pickaxe)item(aether:skyroot_hoe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1A7C045D68B96D58"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:skyroot_shovel)item(aether:skyroot_pickaxe)item(aether:skyroot_hoe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "14338C128A2C7623",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A5348165F6A5C39",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.69861d,
+      "y": 12.71528d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1928828E82357614",
+      "title": "Skyroot Boat and Bucket",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:skyroot_bucket)item(aether:skyroot_boat))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1A7C045D68B96D58"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:skyroot_bucket)item(aether:skyroot_boat))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1DBB994AD24AEBD8",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1470B75FB9EE754F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.37222d,
+      "y": 13.32639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BA9D520EED8E42F",
+      "title": "Holystone Weapons",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:holystone_sword)item(aether:holystone_axe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1C92049DB8DAB2F0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:holystone_sword)item(aether:holystone_axe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "117ABF053CFF6187",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120E88ABA4F261D1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.72222d,
+      "y": 15.96528d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14FE3C274E655297",
+      "title": "Holystone Tools",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:holystone_shovel)item(aether:holystone_pickaxe)item(aether:holystone_hoe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1C92049DB8DAB2F0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:holystone_shovel)item(aether:holystone_pickaxe)item(aether:holystone_hoe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "12DF5E1B40F5F214",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16DA5DF0C8E13C31",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.72222d,
+      "y": 14.75694d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "141C3E201C841200",
+      "title": "Zanite Weapons",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:zanite_sword)item(aether:zanite_axe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1CDF9B4D4965C8D9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:zanite_sword)item(aether:zanite_axe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "190E75F820D47807",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15DA286E36946660",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.37222d,
+      "y": 11.68194d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1250207357096029",
+      "title": "Zanite Tools",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:zanite_shovel)item(aether:zanite_hoe)item(aether:zanite_pickaxe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1CDF9B4D4965C8D9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:zanite_shovel)item(aether:zanite_hoe)item(aether:zanite_pickaxe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "19FCCAD5F50F06FF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10D850646DF779F1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.17109d,
+      "y": 11.64585d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F4C03B3E8A07B8A",
+      "title": "Zanite Armor",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:zanite_helmet)item(aether:zanite_chestplate)item(aether:zanite_leggings)item(aether:zanite_boots)item(aether:zanite_gloves))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1CDF9B4D4965C8D9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:zanite_helmet)item(aether:zanite_chestplate)item(aether:zanite_leggings)item(aether:zanite_boots)item(aether:zanite_gloves))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "12870566D7445224",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "190ADD2D80B2A744",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.80137d,
+      "y": 11.41245d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C8D6474CA53E985",
+      "title": "Gravitite Weapons",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:gravitite_sword)item(aether:gravitite_axe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "19FBFA8171D1FCEE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:gravitite_sword)item(aether:gravitite_axe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1E234CC639D3979C",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16E0A0C3E35E2438",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.17109d,
+      "y": 17.42363d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10719B17A0BA2593",
+      "title": "Gravitite Tools",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:gravitite_shovel)item(aether:gravitite_pickaxe)item(aether:gravitite_hoe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "19FBFA8171D1FCEE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:gravitite_shovel)item(aether:gravitite_pickaxe)item(aether:gravitite_hoe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "137B6D7233BB5B6B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D3EF24410FD4B87",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.92613d,
+      "y": 17.42363d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "168F75249731AA05",
+      "title": "Gravitite Armor",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:gravitite_helmet)item(aether:gravitite_chestplate)item(aether:gravitite_leggings)item(aether:gravitite_boots)item(aether:gravitite_gloves))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "19FBFA8171D1FCEE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:gravitite_helmet)item(aether:gravitite_chestplate)item(aether:gravitite_leggings)item(aether:gravitite_boots)item(aether:gravitite_gloves))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "13CF15D0345B2490",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E89BED0C6F414BA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.37222d,
+      "y": 17.39583d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C4AF5E6C2968A4E",
+      "title": "Valkyrie Tools",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:valkyrie_shovel)item(aether:valkyrie_pickaxe)item(aether:valkyrie_axe)item(aether:valkyrie_hoe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1AF4729A697C1081"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:valkyrie_shovel)item(aether:valkyrie_pickaxe)item(aether:valkyrie_axe)item(aether:valkyrie_hoe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "10645E037177E4E5",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1469341E719DC68F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.72222d,
+      "y": 5.04306d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14914CA282D7E82F",
+      "title": "Neptune Armor",
+      "subtitle": "The Aether",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(aether:neptune_helmet)item(aether:neptune_chestplate)item(aether:neptune_leggings)item(aether:neptune_boots)item(aether:neptune_gloves))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "141DB5CA643B8237"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(aether:neptune_helmet)item(aether:neptune_chestplate)item(aether:neptune_leggings)item(aether:neptune_boots)item(aether:neptune_gloves))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "18D3AF8114A8995C",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1890C7AC84263E6D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.45885d,
+      "y": 10.21989d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "125DCA04B621DCD8",
+      "title": "Whoops!",
+      "subtitle": "The Aether",
+      "icon": {
+        "id": "minecraft:grass_block"
+      },
+      "description": [
+        "Enter Overworld. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "1FA1E8C6BD318BB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:overworld",
+          "type": "dimension",
+          "id": "1A587DEB04D2CC2B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A2D0E8BEBF3784",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67361d,
+      "y": 4.72639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1BF740FDC71A5269",
+      "linked_quest": "1C47C3CBD98D063B",
+      "x": 0.45139d,
+      "y": 10.0625d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

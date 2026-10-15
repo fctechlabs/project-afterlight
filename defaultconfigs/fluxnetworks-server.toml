@@ -1,0 +1,3 @@
+# FTB Chunks owns the pack's configurable chunk-loading budget.
+[general]
+enableChunkLoading = false

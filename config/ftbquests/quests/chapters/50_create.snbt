@@ -1,0 +1,4479 @@
+{
+  "id": "172D325B1C1C3D7C",
+  "filename": "50_create",
+  "title": "Create",
+  "icon": {
+    "id": "create:cogwheel"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 31,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1F76C85F6487C1BB",
+      "title": "Water Wheel",
+      "subtitle": "Rotational workshop",
+      "icon": {
+        "id": "create:water_wheel"
+      },
+      "description": [
+        "Place the Water Wheel in moving Water and inspect its rotation. Create is entirely optional for the Afterlight campaign."
+      ],
+      "dependencies": [
+        "1000CA4C294EED69"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "106C42FFBA1D2EF9",
+          "type": "item",
+          "item": {
+            "id": "create:water_wheel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A7C99E184FDB177",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1AC6F1939C95DB71",
+          "type": "item",
+          "item": {
+            "id": "minecraft:oak_log",
+            "count": 16
+          }
+        },
+        {
+          "id": "1BD67DE5C5B6FE62",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.25099d,
+      "y": 11.44135d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18BE867B9B60E380",
+      "title": "Shaft",
+      "subtitle": "Rotational workshop",
+      "icon": {
+        "id": "create:shaft"
+      },
+      "description": [
+        "Shafts and gears distribute rotation. Check direction, speed, and stress before adding more machines."
+      ],
+      "dependencies": [
+        "189DEDC20D958411"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B08C820A114723",
+          "type": "item",
+          "item": {
+            "id": "create:shaft"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12B0722717C5A803",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1CB2EBC15BED8760",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.63865d,
+      "y": 7.98355d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CFD1CD5BE1FFE72",
+      "title": "Mechanical Press",
+      "subtitle": "Rotational workshop",
+      "icon": {
+        "id": "create:mechanical_press"
+      },
+      "description": [
+        "Put a Mechanical Press above a Depot or belt and supply rotation. Choose a pressing recipe shown in JEI."
+      ],
+      "dependencies": [
+        "1059669D8FCC556F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12B770C04AF862A4",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_press"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C291E057F55A33",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1C69461DE953B935",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.67257d,
+      "y": 7.05571d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "106F2C211B1471C6",
+      "title": "Mechanical Mixer",
+      "subtitle": "Rotational workshop",
+      "icon": {
+        "id": "create:mechanical_mixer"
+      },
+      "description": [
+        "Run a Mechanical Mixer above a Basin. Some recipes require a minimum speed or a heated Blaze Burner."
+      ],
+      "dependencies": [
+        "1059669D8FCC556F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB72566E6D345D0",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_mixer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19D43D5B42C0C609",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17B33C12C598C3F7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.83042d,
+      "y": 6.46609d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18C3DE39D17BE2B2",
+      "title": "Brass Ingot",
+      "subtitle": "Rotational workshop",
+      "icon": {
+        "id": "create:brass_ingot"
+      },
+      "description": [
+        "Use a Brass recipe in your Create workshop. Brass and Precision Mechanisms are not required materials elsewhere in the campaign."
+      ],
+      "dependencies": [
+        "1000CA4C294EED69"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E01301A9A1D0100",
+          "type": "item",
+          "item": {
+            "id": "create:brass_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "170AC864FAEF59F0",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D463F19EA58891F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.92314d,
+      "y": 8.20397d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B671922BAE3610",
+      "title": "Mechanical Bearing",
+      "subtitle": "Build something that moves",
+      "icon": {
+        "id": "create:mechanical_bearing"
+      },
+      "description": [
+        "A Mechanical Bearing assembles supported blocks into a rotating contraption. Test a small design before attaching an entire farm."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15AF01080C6D1C4C",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_bearing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AFFD9F0957CE64B",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "13A96C92CFEC3A10",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.99929d,
+      "y": 12.57686d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16C1759C7357BF48",
+      "title": "Train Station",
+      "subtitle": "Build something that moves",
+      "icon": {
+        "id": "create:track_station"
+      },
+      "description": [
+        "Build a Track Station and follow the train assembly tools. Trains are a personal transport project, with no required campaign delivery."
+      ],
+      "dependencies": [
+        "150034BD3C4A70B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19412FFFBE4289D1",
+          "type": "item",
+          "item": {
+            "id": "create:track_station"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "150425F539A0FFFC",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1996AEDCDAC00DDB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.87636d,
+      "y": 4.27198d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1059669D8FCC556F",
+      "title": "Andesite Casing",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:andesite_casing"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Obtain Andesite Casing and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "189DEDC20D958411"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "149A4A0122D4301E",
+          "type": "item",
+          "item": {
+            "id": "create:andesite_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "150C63E172E72F56",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17C8BF4CB5242AC6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.9002d,
+      "y": 5.20432d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1870E6EBAAFD9521",
+      "title": "Andesite Funnel",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:andesite_funnel"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Andesite Funnel. Item inputs include Andesite Alloy, Dried Kelp. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3180294E294BEC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B95AC80C943FA45",
+          "type": "item",
+          "item": {
+            "id": "create:andesite_funnel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16FCEA9AA831C87C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "104972BB7EE65829",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.25856d,
+      "y": 3.67109d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "118C1786AF2295F5",
+      "title": "Andesite Tunnel",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:andesite_tunnel"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Andesite Tunnel. Item inputs include Andesite Alloy, Dried Kelp. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3180294E294BEC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D4A91CA59177BA3",
+          "type": "item",
+          "item": {
+            "id": "create:andesite_tunnel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AE8A76AC3C0D5EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "102716592D6085C9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.85854d,
+      "y": 2.54861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "101A54A18BA0C6DD",
+      "title": "Basin",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:basin"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Basin. Item inputs include Andesite Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3180294E294BEC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "104BD482FC9DA508",
+          "type": "item",
+          "item": {
+            "id": "create:basin"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B541F19E7E88AFC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6713FCA9EA531F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.25856d,
+      "y": 1.42613d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C24A580557AA54F",
+      "title": "Blaze Burner",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:blaze_burner"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Obtain Blaze Burner and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CE3ED2EEBD47EE0",
+          "type": "item",
+          "item": {
+            "id": "create:blaze_burner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D2BB97E404A994F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17D6851706350D26",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.15499d,
+      "y": 11.65687d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "180EB6018C5AE210",
+      "title": "Blaze Cake",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:blaze_cake"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Obtain Blaze Cake and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F89EFF57F5275F4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F2BC38B98CEA93D",
+          "type": "item",
+          "item": {
+            "id": "create:blaze_cake"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F5405267517E8E8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17080492DC2FC0B5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.00347d,
+      "y": 14.29726d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "198F3022D5C14CC6",
+      "title": "Brass Casing",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:brass_casing"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Obtain Brass Casing and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "106F2C211B1471C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15016B983618D036",
+          "type": "item",
+          "item": {
+            "id": "create:brass_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10DBFE91B94D5523",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18000FA336327D4D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.73859d,
+      "y": 5.07395d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "109CED91D2A1E476",
+      "title": "Brass Funnel",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:brass_funnel"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Brass Funnel. Item inputs include Electron Tube, Dried Kelp. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3180294E294BEC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "122DB8E58E90D6AB",
+          "type": "item",
+          "item": {
+            "id": "create:brass_funnel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "154F2BD54410EF64",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19A9B730D2D612DF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.39879d,
+      "y": -1.99678d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DA90096FC86ACF8",
+      "title": "Brass Tunnel",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:brass_tunnel"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Brass Tunnel. Item inputs include Electron Tube, Dried Kelp. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3180294E294BEC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A69BEE11E2D288B",
+          "type": "item",
+          "item": {
+            "id": "create:brass_tunnel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ADA682920F8CC38",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "139A1E1EEFE56814",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.74879d,
+      "y": -1.99678d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "186FE5008C6A7DD1",
+      "title": "Cart Assembler",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:cart_assembler"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Cart Assembler. Item inputs include Andesite Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D0034CFF3EFEA37",
+          "type": "item",
+          "item": {
+            "id": "create:cart_assembler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168A3761A8AA2724",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "144906951D09EDC6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.68429d,
+      "y": 9.64798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A8169ADEFE7EBE",
+      "title": "Chain Conveyor",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:chain_conveyor"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Chain Conveyor. Item inputs include Large Cogwheel, Andesite Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A7D523573DBF894"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1997170189BCDC87",
+          "type": "item",
+          "item": {
+            "id": "create:chain_conveyor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1684DDA8730620AE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CC6856DAD346267",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.02318d,
+      "y": 0.20485d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13CB1636EE8AF1F3",
+      "title": "Chute",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:chute"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Chute. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3180294E294BEC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "185C13AC14D28FC0",
+          "type": "item",
+          "item": {
+            "id": "create:chute"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "108921C1C27015C0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1639BA5B72AF8410",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.38727d,
+      "y": 3.07749d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A25DBF968E1186",
+      "title": "Clockwork Bearing",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:clockwork_bearing"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Clockwork Bearing. Item inputs include Brass Casing, Electron Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F3FF9CB93E547C2",
+          "type": "item",
+          "item": {
+            "id": "create:clockwork_bearing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16C5C0F22420C441",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E1A2257B432C400",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.03429d,
+      "y": 9.64798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10CA13C38917B081",
+      "title": "Clutch",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:clutch"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Clutch. Item inputs include Andesite Casing, Shaft. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18BE867B9B60E380"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "179B109387D5D0D3",
+          "type": "item",
+          "item": {
+            "id": "create:clutch"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DDFFD9B499C38C1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E50730EDC5E4E7A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.66659d,
+      "y": 8.68631d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C6B70E77092A657",
+      "title": "Train Controls",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:controls"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Train Controls. Item inputs include Lever, Train Casing, Precision Mechanism. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16C1759C7357BF48"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E1EB2C442F1C0C",
+          "type": "item",
+          "item": {
+            "id": "create:controls"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "117276D4A3B82EA4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B2FD174E86AC3D1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.20521d,
+      "y": 4.03398d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9EB6FA2B56D7A5",
+      "title": "Copper Casing",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:copper_casing"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Obtain Copper Casing and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1338E503E270E18F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "101C4BCD18E9153F",
+          "type": "item",
+          "item": {
+            "id": "create:copper_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18ABCD5589791294",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AA8DBCC801EEF8F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.92708d,
+      "y": 16.8883d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A74378607A02421",
+      "title": "Crushing Wheel",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:crushing_wheel"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Use Mechanical Crafting processing to make Crushing Wheel. Item inputs include Andesite Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1059669D8FCC556F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13EC77C6C397843D",
+          "type": "item",
+          "item": {
+            "id": "create:crushing_wheel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A14E00256C0414",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "114039A573F751F7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.98064d,
+      "y": 3.02615d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "181C6F738836FFDA",
+      "title": "Deployer",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:deployer"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Deployer. Item inputs include Electron Tube, Andesite Casing, Brass Hand. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1059669D8FCC556F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E0242F12D3D6A5A",
+          "type": "item",
+          "item": {
+            "id": "create:deployer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13867306DCB4E994",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "135D944D05555FBE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.1883d,
+      "y": 4.0481d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "163592F5142BC0C2",
+      "title": "Depot",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:depot"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Depot. Item inputs include Andesite Alloy, Andesite Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3180294E294BEC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "102DA0B6BCF680A1",
+          "type": "item",
+          "item": {
+            "id": "create:depot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F271E3D54AB7B05",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "165B0801F1BC888B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.1875d,
+      "y": -0.70745d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14ED89C4EFAA71DD",
+      "title": "Encased Chain Drive",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:encased_chain_drive"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Encased Chain Drive. Item inputs include Andesite Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18BE867B9B60E380"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C26CE2DFFCE831F",
+          "type": "item",
+          "item": {
+            "id": "create:encased_chain_drive"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19D0340639CD4455",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "156297EC312A29C4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.03541d,
+      "y": 11.34097d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1182CAF5356EA635",
+      "title": "Encased Fan",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:encased_fan"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Encased Fan. Item inputs include Andesite Casing, Propeller, Shaft. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1059669D8FCC556F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "133769A72E80E9CE",
+          "type": "item",
+          "item": {
+            "id": "create:encased_fan"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1429062ECD044233",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1396AC38EB90190C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.33064d,
+      "y": 3.02615d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C91298AE0BA4B83",
+      "title": "Fluid Valve",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:fluid_valve"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Fluid Valve. Item inputs include Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18F6AA42A530E306"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D363A873857913D",
+          "type": "item",
+          "item": {
+            "id": "create:fluid_valve"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C85D0C7AF1C9F43",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AE3EDCE5D23F85A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.1649d,
+      "y": 12.95577d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "117770785D8A5F94",
+      "title": "Gantry Carriage",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:gantry_carriage"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Gantry Carriage. Item inputs include Andesite Casing, Cogwheel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D85C9397B3ECF06",
+          "type": "item",
+          "item": {
+            "id": "create:gantry_carriage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12F3ED44F35B35F6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14C455A998DB68D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.38429d,
+      "y": 9.64798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AE2443481B3E2A2",
+      "title": "Engineer's Goggles",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:goggles"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Engineer's Goggles. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1000CA4C294EED69"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DC7562C461A4CF0",
+          "type": "item",
+          "item": {
+            "id": "create:goggles"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC1BA9D4154D64C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AB118E87EAA6C79",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.04404d,
+      "y": 9.13236d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1263F92BA94037BA",
+      "title": "Hand Crank",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:hand_crank"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Hand Crank. Item inputs include Andesite Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154FE209DC1D7DF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10416912B3C50DBF",
+          "type": "item",
+          "item": {
+            "id": "create:hand_crank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "133A6219F3579727",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CF8AA60EC429434",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.91962d,
+      "y": 6.57948d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F3DB2B5A22148DC",
+      "title": "Hose Pulley",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:hose_pulley"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Hose Pulley. Item inputs include Copper Casing, Dried Kelp Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D9EB6FA2B56D7A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11B1B68D420346FC",
+          "type": "item",
+          "item": {
+            "id": "create:hose_pulley"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A0816FB1A14DB66",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FDCA7F2DF615AB8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.46528d,
+      "y": 16.90377d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E6774F8C6F8CD5F",
+      "title": "Item Drain",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:item_drain"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Item Drain. Item inputs include Iron Bars, Copper Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D9EB6FA2B56D7A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C5C1DE66DF0B8A1",
+          "type": "item",
+          "item": {
+            "id": "create:item_drain"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14EAD1E1962D35B0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "104E3BC11FA41948",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.47719d,
+      "y": 14.27544d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C8E8FDFA88B1D4",
+      "title": "Item Vault",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:item_vault"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Item Vault. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3180294E294BEC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11B2C70383AE79ED",
+          "type": "item",
+          "item": {
+            "id": "create:item_vault"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D6520B737C90ADB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "164A828093759481",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.49146d,
+      "y": 5.04861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E653F6D7DB9F893",
+      "title": "Large Cogwheel",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:large_cogwheel"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Large Cogwheel. Item inputs include Shaft. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154FE209DC1D7DF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13FFD90D664BF02B",
+          "type": "item",
+          "item": {
+            "id": "create:large_cogwheel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14334A620DD8F8C7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18E1DE5F453D6D9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.1209d,
+      "y": 7.60262d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B3C7D07FD574F63",
+      "title": "Linear Chassis",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:linear_chassis"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Linear Chassis. Item inputs include Secondary Linear Chassis. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA641F6F9C4C5F1",
+          "type": "item",
+          "item": {
+            "id": "create:linear_chassis"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "123F96AB64042451",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17993C688958EAC8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.73429d,
+      "y": 9.64798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15637F88A771E16C",
+      "title": "Mechanical Arm",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:mechanical_arm"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Mechanical Arm. Item inputs include Andesite Alloy, Brass Casing, Precision Mechanism. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "198F3022D5C14CC6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16CE424CBF266E39",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_arm"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18BC26FA9ED5564E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17F8B52372BF79AB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.17259d,
+      "y": 7.15054d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "192501CA976DDE5C",
+      "title": "Mechanical Crafter",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:mechanical_crafter"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Mechanical Crafter. Item inputs include Electron Tube, Brass Casing, Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "198F3022D5C14CC6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1843D4F695BE4D7F",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_crafter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F0FEBC3C49A1D38",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "147CE20621257287",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.17121d,
+      "y": 5.83003d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F9CF364D4902874",
+      "title": "Mechanical Drill",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:mechanical_drill"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Mechanical Drill. Item inputs include Andesite Alloy, Andesite Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B081587BA0788CF",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_drill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14C1F605621400E6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C547C54A5641F72",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.08429d,
+      "y": 9.64798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "147278109ABACBE4",
+      "title": "Mechanical Harvester",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:mechanical_harvester"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Mechanical Harvester. Item inputs include Andesite Alloy, Andesite Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1240C99C2B726281",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_harvester"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "167757AC2E10C670",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F79D3AC311E9C00",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.68429d,
+      "y": 10.99798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1975B2EDFFFB7571",
+      "title": "Mechanical Plough",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:mechanical_plough"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Mechanical Plough. Item inputs include Andesite Alloy, Andesite Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13355E313235B0D4",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_plough"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "161B62A3741CBEA9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D11ABF060D0A0CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.01662d,
+      "y": 11.51338d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17BF977960DDB4B4",
+      "title": "Mechanical Pump",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:mechanical_pump"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Mechanical Pump. Item inputs include Cogwheel, Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18F6AA42A530E306"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1060748941DC9F22",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_pump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12055B694AC033A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11C6EC079AC986E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.5149d,
+      "y": 12.95577d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18BF8D51BC5139B0",
+      "title": "Mechanical Saw",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:mechanical_saw"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Mechanical Saw. Item inputs include Andesite Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C6EE27B0D312A0",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_saw"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B0B8A446299A242",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13E0E3F358E543F7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.38429d,
+      "y": 10.99798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "108692B6346217F6",
+      "title": "Millstone",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:millstone"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Millstone. Item inputs include Cogwheel, Andesite Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1059669D8FCC556F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11A221D30FDDFF5C",
+          "type": "item",
+          "item": {
+            "id": "create:millstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19829EEC6D8A1C2A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "107B4AE9F2E54E93",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.68064d,
+      "y": 3.02615d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F7604981ECEC034",
+      "title": "Package Frogport",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:package_frogport"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Package Frogport. Item inputs include Item Vault, Andesite Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18A8169ADEFE7EBE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1665353470D153F7",
+          "type": "item",
+          "item": {
+            "id": "create:package_frogport"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10C55AB4255CE987",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12A604CC698B4875",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.51389d,
+      "y": 1.94466d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11F02E1DC09491E9",
+      "title": "Packager",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:packager"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Packager. Item inputs include Block of Cardboard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C9FCCE2DC342A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1109759293ACD76E",
+          "type": "item",
+          "item": {
+            "id": "create:packager"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12F8E03B7A8820D9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F6F82E24D700FD0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.57795d,
+      "y": 1.12562d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1835FD21682FE5D3",
+      "title": "Piston Extension Pole",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:piston_extension_pole"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Piston Extension Pole. Item inputs include Andesite Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "189DEDC20D958411"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "115B1363E7294081",
+          "type": "item",
+          "item": {
+            "id": "create:piston_extension_pole"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D7666CA11EE9BB5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18483FB893E9D40F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.56906d,
+      "y": 4.09687d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BB599AE9CE95CB5",
+      "title": "Portable Fluid Interface",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:portable_fluid_interface"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Portable Fluid Interface. Item inputs include Copper Casing, Chute. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12BF13F50ADB3ACF",
+          "type": "item",
+          "item": {
+            "id": "create:portable_fluid_interface"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19C1C156A452EB0B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C88C0CB6ABA9C9A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.73429d,
+      "y": 10.99798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C7F50F5F011F84",
+      "title": "Precision Mechanism",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:precision_mechanism"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Obtain Precision Mechanism and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "181C6F738836FFDA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12ADA178ED586598",
+          "type": "item",
+          "item": {
+            "id": "create:precision_mechanism"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198239510FEFBF80",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18DADEC25A18F9F9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.22723d,
+      "y": 3.74907d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D65B4F5CCD2ADE",
+      "title": "Radial Chassis",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:radial_chassis"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Radial Chassis. Item inputs include Andesite Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F6DF118FC857C22",
+          "type": "item",
+          "item": {
+            "id": "create:radial_chassis"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "112A59F16DD7F8F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19734FA7B6333C4C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.08429d,
+      "y": 10.99798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "150034BD3C4A70B0",
+      "title": "Train Casing",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:railway_casing"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Obtain Train Casing and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "198F3022D5C14CC6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1748BFF29DEE1532",
+          "type": "item",
+          "item": {
+            "id": "create:railway_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE2A15C7C3B8EF4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16D2ED617C23AEFF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.5475d,
+      "y": 4.50998d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12526F26469E32D5",
+      "title": "Rope Pulley",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:rope_pulley"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Rope Pulley. Item inputs include Andesite Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F466D20064338"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F3C629286A9899B",
+          "type": "item",
+          "item": {
+            "id": "create:rope_pulley"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15939C855ED3E476",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16FC029127F1AF1A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.68429d,
+      "y": 12.34798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "151EF6CF82790B20",
+      "title": "Rotation Speed Controller",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:rotation_speed_controller"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Rotation Speed Controller. Item inputs include Precision Mechanism, Brass Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12C7F50F5F011F84"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C107AF80DE0A2D8",
+          "type": "item",
+          "item": {
+            "id": "create:rotation_speed_controller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B1C3232301501D1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D3B794104A1F5BD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.84028d,
+      "y": 2.71282d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13F5BFAB5556B446",
+      "title": "Train Schedule",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:schedule"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Train Schedule. Item inputs include Train Schedule. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C6B70E77092A657"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13DC55BDA79C283D",
+          "type": "item",
+          "item": {
+            "id": "create:schedule"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D625EC089B12D94",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14207FF4227C0C6B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.84321d,
+      "y": 5.93515d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "190450F1C97DFB52",
+      "title": "Schematic Table",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:schematic_table"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Schematic Table. Item inputs include Smooth Stone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1000CA4C294EED69"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15B1211269D062D6",
+          "type": "item",
+          "item": {
+            "id": "create:schematic_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B7905BF32116499",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1985787FE74AC2EA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.30367d,
+      "y": 11.69297d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8884921849565C",
+      "title": "Schematicannon",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:schematicannon"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Schematicannon. Item inputs include Dispenser, Iron Block, Smooth Stone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "190450F1C97DFB52"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19460F515C86898B",
+          "type": "item",
+          "item": {
+            "id": "create:schematicannon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15A3562A2E78D47D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19672DCEE17DDB74",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.1875d,
+      "y": 13.97856d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1874FEF7EED026C4",
+      "title": "Smart Chute",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:smart_chute"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Smart Chute. Item inputs include Electron Tube, Chute. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13CB1636EE8AF1F3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10E78BBEAC3186E1",
+          "type": "item",
+          "item": {
+            "id": "create:smart_chute"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AAC8B639FD66E25",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "173B06C1990367B5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.50634d,
+      "y": 1.57101d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B84D79406296C45",
+      "title": "Speedometer",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:speedometer"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Speedometer. Item inputs include Stressometer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E653F6D7DB9F893"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C52A33C5E7E774F",
+          "type": "item",
+          "item": {
+            "id": "create:speedometer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10DAA6233868F076",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1290F4864F382A4F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.34164d,
+      "y": 9.79312d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F89EFF57F5275F4",
+      "title": "Spout",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:spout"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Spout. Item inputs include Dried Kelp, Copper Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D9EB6FA2B56D7A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F454F1057E05EBB",
+          "type": "item",
+          "item": {
+            "id": "create:spout"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "174EC064752DA6E2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F3A0763F62B41DA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.47666d,
+      "y": 15.59744d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F8C2C14D6D47A14",
+      "title": "Steam Engine",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:steam_engine"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Steam Engine. Item inputs include Andesite Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154FE209DC1D7DF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1659FB3D1E7C40BF",
+          "type": "item",
+          "item": {
+            "id": "create:steam_engine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17EBC1636DCCC529",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12EB3FFA5746836E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.26962d,
+      "y": 6.57948d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10F2B2D20EA00E82",
+      "title": "Stock Link",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:stock_link"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Stock Link. Item inputs include Stock Link. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A7D523573DBF894"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1313233A9739948D",
+          "type": "item",
+          "item": {
+            "id": "create:stock_link"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "124B3F49169C1363",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "149CE66396C2C395",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.42079d,
+      "y": -2.43296d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED58FE4F5A33F90",
+      "title": "Stock Ticker",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:stock_ticker"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Stock Ticker. Item inputs include Stock Link. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10F2B2D20EA00E82"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16C3317D479F8D2F",
+          "type": "item",
+          "item": {
+            "id": "create:stock_ticker"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F18C63D2BD23B04",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "109D130288065B63",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.67303d,
+      "y": -2.93733d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F60A5EB25FE561C",
+      "title": "Stressometer",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:stressometer"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Stressometer. Item inputs include Speedometer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E653F6D7DB9F893"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "138C6485B0CB2A7E",
+          "type": "item",
+          "item": {
+            "id": "create:stressometer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "119B362C8DB12B1C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14EB62F8288EDEBE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.17368d,
+      "y": 8.47254d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E0F466D20064338",
+      "title": "Super Glue",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:super_glue"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Super Glue. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1000CA4C294EED69"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D95602A87F04B44",
+          "type": "item",
+          "item": {
+            "id": "create:super_glue"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B9474A4F0DD34DF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A3FC7B5F5000F85",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.98338d,
+      "y": 11.51338d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E9A00B68F465511",
+      "title": "Train Track",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:track"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Obtain Train Track and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "181C6F738836FFDA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BB296DB140F0509",
+          "type": "item",
+          "item": {
+            "id": "create:track"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D237DF0883D9A61",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B19C7D208020753",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.55168d,
+      "y": 3.3984d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "179ED391F75F5EF4",
+      "title": "Train Observer",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:track_observer"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Train Observer. Item inputs include Train Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C6B70E77092A657"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16B9C8F5F2226F95",
+          "type": "item",
+          "item": {
+            "id": "create:track_observer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188FFE2C56C6260B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A563FF83EC66C2C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.49321d,
+      "y": 5.93515d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187CE39A0773BC25",
+      "title": "Train Signal",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:track_signal"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Train Signal. Item inputs include Train Casing, Electron Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C6B70E77092A657"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D97AC1809D339DE",
+          "type": "item",
+          "item": {
+            "id": "create:track_signal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18B2F4A262E08A9C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16706E1C320C52A8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.19321d,
+      "y": 5.93515d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1436AB69BF134DD2",
+      "title": "Weighted Ejector",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:weighted_ejector"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Weighted Ejector. Item inputs include Depot, Cogwheel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "163592F5142BC0C2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DB08C084B99F08A",
+          "type": "item",
+          "item": {
+            "id": "create:weighted_ejector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FE9D861A86C476C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15EA7ED21E39D269",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.47509d,
+      "y": -0.17184d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1691E1E8DDE40E50",
+      "title": "Windmill Bearing",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:windmill_bearing"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Windmill Bearing. Item inputs include Shaft. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154FE209DC1D7DF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E1510A701A4E26",
+          "type": "item",
+          "item": {
+            "id": "create:windmill_bearing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17C76DD814B367B5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "171A73C3F6938F99",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.91962d,
+      "y": 7.92948d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BE9E00B8940F49F",
+      "title": "Wrench",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:wrench"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Wrench. Item inputs include Cogwheel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1000CA4C294EED69"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "161F434C74E2B95A",
+          "type": "item",
+          "item": {
+            "id": "create:wrench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1027AFA28A3695",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1960B8645D1F084A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.31457d,
+      "y": 6.23036d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1000CA4C294EED69",
+      "title": "Andesite",
+      "subtitle": "Create",
+      "icon": {
+        "id": "minecraft:andesite"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Use a Stonecutter to make Andesite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14D32710BE802AE2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:andesite"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16DBC824706656D4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12AFA40CCEA48597",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.8061d,
+      "y": 9.04775d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17D30F2A92C8DB5F",
+      "title": "Adjustable Chain Gearshift",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:adjustable_chain_gearshift"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Adjustable Chain Gearshift. Item inputs include Encased Chain Drive, Electron Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14ED89C4EFAA71DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "195B675E61D6DE5E",
+          "type": "item",
+          "item": {
+            "id": "create:adjustable_chain_gearshift"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13431B8B180731FB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FE93ED2F6760F5D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.30819d,
+      "y": 10.48595d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "189DEDC20D958411",
+      "title": "Andesite Alloy",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:andesite_alloy"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Andesite Alloy. Item inputs include Andesite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1000CA4C294EED69"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1147FE14A886F0A3",
+          "type": "item",
+          "item": {
+            "id": "create:andesite_alloy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10DF4BFB80F8F2B2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "159CBA436012D38A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.63657d,
+      "y": 6.45114d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13BD7620F2CB2CB5",
+      "title": "Gearbox",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:gearbox"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Gearbox. Item inputs include Vertical Gearbox. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18BE867B9B60E380"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10D4EDB39BD89969",
+          "type": "item",
+          "item": {
+            "id": "create:gearbox"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11BF0096B32A0FA2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "128728996F891FB4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.579d,
+      "y": 8.39324d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CD9B16CFABA810F",
+      "title": "Gearshift",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:gearshift"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Gearshift. Item inputs include Andesite Casing, Cogwheel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18BE867B9B60E380"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "194444C8C687A8A6",
+          "type": "item",
+          "item": {
+            "id": "create:gearshift"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "139575345CDA0ACE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A154826D90A770F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.51402d,
+      "y": 10.48173d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "193CE4A4B685F4AC",
+      "title": "Sequenced Gearshift",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:sequenced_gearshift"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Sequenced Gearshift. Item inputs include Brass Casing, Cogwheel, Electron Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CD9B16CFABA810F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "154D04C0479D6043",
+          "type": "item",
+          "item": {
+            "id": "create:sequenced_gearshift"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B19C2DFAC0EAA6F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "166CBECAD9036CC8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.20082d,
+      "y": 9.16169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E166745468B3559",
+      "title": "Vertical Gearbox",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:vertical_gearbox"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Vertical Gearbox. Item inputs include Gearbox. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18BE867B9B60E380"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F23274D214C43D3",
+          "type": "item",
+          "item": {
+            "id": "create:vertical_gearbox"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1721FA873ECCE4CC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1534CBC4FDFB5C6F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.13865d,
+      "y": 7.98355d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19303F4C60BCFAD9",
+      "title": "Fluid Tank",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:fluid_tank"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Fluid Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1338E503E270E18F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DC773B63CEEB79D",
+          "type": "item",
+          "item": {
+            "id": "create:fluid_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E3FB45D0A8C565",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1314E76FEBF1852A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.02275d,
+      "y": 15.35206d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A3180294E294BEC",
+      "title": "Mechanical Belt",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:belt_connector"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Mechanical Belt. Item inputs include Dried Kelp. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1000CA4C294EED69"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10FCAA52BCB1818C",
+          "type": "item",
+          "item": {
+            "id": "create:belt_connector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AFB7B20944BC683",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DBF201CE243CE61",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.49146d,
+      "y": 2.54861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18F6AA42A530E306",
+      "title": "Fluid Pipe",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:fluid_pipe"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1338E503E270E18F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19DE4309D4DE9BE6",
+          "type": "item",
+          "item": {
+            "id": "create:fluid_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AFF469A16E8D551",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DDADA70F1578AF1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.15466d,
+      "y": 14.26103d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16A767F4B660AB09",
+      "title": "Smart Fluid Pipe",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:smart_fluid_pipe"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Smart Fluid Pipe. Item inputs include Electron Tube, Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18F6AA42A530E306"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "198DBEF8B65B7A83",
+          "type": "item",
+          "item": {
+            "id": "create:smart_fluid_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "179F1B148EDF8AC1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14090A5A79029DAB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.8649d,
+      "y": 12.95577d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C9FCCE2DC342A5",
+      "title": "Cardboard",
+      "subtitle": "Create",
+      "icon": {
+        "id": "create:cardboard"
+      },
+      "description": [
+        "Create is optional. Connect rotational power, check speed and stress capacity, and test one processing operation before building a complete factory.",
+        "Craft Cardboard. Item inputs include Block of Cardboard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3180294E294BEC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E2EE9F6D075073",
+          "type": "item",
+          "item": {
+            "id": "create:cardboard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E653F2129892AC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DACB831EF3A1FFB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.29345d,
+      "y": 1.54101d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15EC496002829EF3",
+      "title": "Mechanical Pistons",
+      "subtitle": "Create",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(create:mechanical_piston)item(create:sticky_mechanical_piston))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1835FD21682FE5D3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(create:mechanical_piston)item(create:sticky_mechanical_piston))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F4BE17F5C15E192",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19AD669C5FB699BD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.7743d,
+      "y": 3.97318d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "154FE209DC1D7DF1",
+      "title": "Cogwheels!",
+      "subtitle": "Create",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(create:cogwheel)item(create:large_cogwheel))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "18BE867B9B60E380"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(create:cogwheel)item(create:large_cogwheel))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1BBB6803430C718E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1099050377F5B5E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38052d,
+      "y": 9.15581d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18775CEBC441959C",
+      "title": "Water Wheels",
+      "subtitle": "Create",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(create:water_wheel)item(create:large_water_wheel))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "154FE209DC1D7DF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(create:water_wheel)item(create:large_water_wheel))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "111C92903038ED19",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EC80FBE147CF2E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.61962d,
+      "y": 6.57948d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC7740CB9606270",
+      "title": "Postboxes",
+      "subtitle": "Create",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item_tag(create:postboxes))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1A7D523573DBF894"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item_tag(create:postboxes))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1D1C68A6C19019E4",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1389914A5EE39388",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.1875d,
+      "y": -1.11096d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A7D523573DBF894",
+      "title": "Cardboard Packages",
+      "subtitle": "Create",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item_tag(create:packages))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "11F02E1DC09491E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item_tag(create:packages))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1492EFFD4E1C2D44",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1866028D5E6D5117",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.86245d,
+      "y": 0.71022d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B8EAB2770FA18CD",
+      "title": "Shops",
+      "subtitle": "Create",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item_tag(create:table_cloths))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1ED58FE4F5A33F90"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item_tag(create:table_cloths))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1B2B7E049128FC50",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "146826636FF902CC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.92527d,
+      "y": -3.4417d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "148BCE5481CA8320",
+      "linked_quest": "1338E503E270E18F",
+      "x": 4.83392d,
+      "y": 12.97707d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

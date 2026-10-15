@@ -1,0 +1,3 @@
+# Backups continue to run and log their results without broadcasting routine status in chat.
+enabled = true
+sendMessages = false

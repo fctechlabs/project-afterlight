@@ -1,0 +1,4958 @@
+{
+  "id": "1E8A11E2093BB906",
+  "filename": "10_foundry",
+  "title": "Immersive Engineering",
+  "icon": {
+    "id": "immersiveengineering:hammer"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 8,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "11E398A46E122BCE",
+      "title": "Engineer's Manual",
+      "subtitle": "The foundry",
+      "icon": {
+        "id": "immersiveengineering:manual"
+      },
+      "description": [
+        "Use the manual's multiblock previews for Immersive Engineering structures. The placement matters as much as the block recipe."
+      ],
+      "dependencies": [
+        "18D6FF52835F9BF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "119A5E1BEA68BF9B",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:manual"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C14FFBCF057C844",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1BE0E1A0694EA75E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187D07E48044244F",
+      "title": "Engineer's Wire Cutters",
+      "subtitle": "Working with metal",
+      "icon": {
+        "id": "immersiveengineering:wirecutter"
+      },
+      "description": [
+        "Wire Cutters prepare wiring components. Use matching voltage tiers and keep exposed live wires away from walking routes."
+      ],
+      "dependencies": [
+        "18D6FF52835F9BF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B277663C5EA7139",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:wirecutter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CC320680EB1146E",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1CEB0F2229C8B0C4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12FE58A9A4DF3ABE",
+      "title": "Crusher",
+      "subtitle": "Working with metal",
+      "icon": {
+        "id": "immersiveengineering:crusher"
+      },
+      "description": [
+        "The Crusher is a multiblock made from several blocks; this inventory icon is not its craftable controller. Consult the manual and mark this setup lesson complete once the machine works."
+      ],
+      "dependencies": [
+        "1DBAD19F882F885E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "112C435E118F47D7",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BD76F776952894A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10072FC54A8A54BB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -11,
+      "y": 3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11528E314CB9FAA7",
+      "title": "Reinforced Blast Brick",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:blastbrick_reinforced"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Reinforced Blast Brick. Item inputs include Blast Brick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16998949C7B78F81"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C65EBEAB15A2C9C",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blastbrick_reinforced"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13FBDB20254CF455",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "172C80C8C8192655",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -11,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13D5CF771AAE8733",
+      "title": "Blast Furnace Preheater",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:blastfurnace_preheater"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Blast Furnace Preheater. Item inputs include External Heater, Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11528E314CB9FAA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F4E32621243ECEF",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blastfurnace_preheater"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A8D3E9360D8F857",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16D985A764113F3A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -13,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "144AC9FA83589076",
+      "title": "Blueprint: Molds",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:blueprint",
+        "components": {
+          "immersiveengineering:blueprint": "molds"
+        }
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E93DADCD58C22BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E83D6DD8A7F5CC0",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blueprint",
+            "components": {
+              "immersiveengineering:blueprint": "molds"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12444A242B24686F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18FDC98D18AB86DC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.07652d,
+      "y": -5.18908d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13D638849F288E6C",
+      "title": "Blueprint: Special Ammunition",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:blueprint",
+        "components": {
+          "immersiveengineering:blueprint": "specialBullet"
+        }
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E93DADCD58C22BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A445BF6CE26964C",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blueprint",
+            "components": {
+              "immersiveengineering:blueprint": "specialBullet"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19111D1F7030CBEE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1408C5024EE17D6B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.0d,
+      "y": -6.085860775935554d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E93DADCD58C22BC",
+      "title": "Blueprint: Components",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:blueprint",
+        "components": {
+          "immersiveengineering:blueprint": "components"
+        }
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "131A9E0E77C30E08"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EED554496438474",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blueprint",
+            "components": {
+              "immersiveengineering:blueprint": "components"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E95B87C903DE6FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1159F9CC5F0A85FA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.413533761814537d,
+      "y": -5.877906449072577d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C087E9453C1FB72",
+      "title": "Blueprint: Banner Patterns",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:blueprint",
+        "components": {
+          "immersiveengineering:blueprint": "bannerpatterns"
+        }
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E93DADCD58C22BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B1B93ABD703466C",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blueprint",
+            "components": {
+              "immersiveengineering:blueprint": "bannerpatterns"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1249AAEAF32E4674",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C7FDC2D83353763",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.0d,
+      "y": -7.585860775935554d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C20CC10144D2261",
+      "title": "Blueprint: Warning Signs",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:blueprint",
+        "components": {
+          "immersiveengineering:blueprint": "warning_sign"
+        }
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E93DADCD58C22BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F8FACBF2093B5F4",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blueprint",
+            "components": {
+              "immersiveengineering:blueprint": "warning_sign"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18EC0A5881524CB9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F1371E00D4C0647",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.5d,
+      "y": -6.085860775935554d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "190E2D254618639F",
+      "title": "Blueprint: Ammunition",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:blueprint",
+        "components": {
+          "immersiveengineering:blueprint": "bullet"
+        }
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Blueprint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E93DADCD58C22BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F3D5EB5F3C0F73C",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blueprint",
+            "components": {
+              "immersiveengineering:blueprint": "bullet"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C9BC4E6FBB885B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F9194E3B59D15FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.5d,
+      "y": -7.585860775935554d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DBB9CE8C547B401",
+      "title": "Buzzsaw",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:buzzsaw"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Buzzsaw. Item inputs include Wooden Grip, Heavy Engineering Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "131A9E0E77C30E08"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "122E96ABF19067B6",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:buzzsaw"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A5FA0C2049E5933",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F89CCB51CBDF542",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.23358d,
+      "y": -6.33939d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CDAF08B01387BE0",
+      "title": "Charging Station",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:charging_station"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Charging Station. Item inputs include Copper Coil Block, Vacuum Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB242AC5DC5A4C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1258F24B81531BCF",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:charging_station"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13A80FE255BBCC05",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18733637D7057A1A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5,
+      "y": 1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17A05933CFC04914",
+      "title": "Chemical Thrower",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:chemthrower"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Chemical Thrower. Item inputs include Bucket, Wooden Grip, Heavy Engineering Block, Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "131A9E0E77C30E08"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "142DB8AD04D8D99B",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:chemthrower"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DB56BB9A0BAB08C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "181E9E4DEFD45D20",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.47487d,
+      "y": -7.47487d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "127311871E2E86F3",
+      "title": "Garden Cloche",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:cloche"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Garden Cloche. Item inputs include Iron Mechanical Component, Incandescent Light Bulb, Basic Engineering Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "109CE0B842B577C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C8B6B189285CDD8",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:cloche"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B6C598BD8EC0E6B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16BE1850D04A4B81",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3,
+      "y": 5,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ABDD56D5D1B4EDB",
+      "title": "High-Voltage Coil Block",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:coil_hv"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft High-Voltage Coil Block. Item inputs include HV Wire Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19A9D3D6B36C9765"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18F18961F596A7FA",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:coil_hv"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "170DBF594911D8BD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EC4AFD028E28027",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E2A9C2D74848734",
+      "title": "Conveyor Belt",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:conveyor_basic"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Conveyor Belt. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18A3DEBF8DCAD4D9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13D019FB21E6C716",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:conveyor_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1088963EFF3B034A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EAD6FD6A4D9B6C8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5,
+      "y": 3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BAD2B4A34D03372",
+      "title": "Engineer's Crafting Table",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:craftingtable"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Crafting Table. Item inputs include Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "143784710561F643"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16CD447B37D09A7C",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:craftingtable"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138BBFA99F958CA6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CC40DCF71C90139",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.5d,
+      "y": -3.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "137AE90E96E589BC",
+      "title": "Bucket of Creosote Oil",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:creosote_bucket"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Obtain Bucket of Creosote Oil and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1572D330B65F75B5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "138AD305BA2ED336",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:creosote_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1899DA870220CF6A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F47E27F46B69414",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10595EF83DAA4200",
+      "title": "Mining Drill",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:drill"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Mining Drill. Item inputs include Iron Mechanical Component, Wooden Grip, Heavy Engineering Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "131A9E0E77C30E08"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CED0B2D0CF07093",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:drill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C566063D8A6D964",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A41FD985F7BAB3F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.5d,
+      "y": -5.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "144565E40EE9B722",
+      "title": "Kinetic Dynamo",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:dynamo"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Kinetic Dynamo. Item inputs include Iron Mechanical Component, Copper Coil Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "187D07E48044244F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "180E7FF81F73212F",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:dynamo"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1562E1792C3D1047",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C04F56EAEACAC58",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": -3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15027954C23597A3",
+      "title": "Electromagnet",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:electromagnet"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Electromagnet. Item inputs include Electronic Component, LV Wire Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1ABDD56D5D1B4EDB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F890CD6A04095D8",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:electromagnet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D5EA43EB86AEE2D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12BA03532355075F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E231819F2538C2D",
+      "title": "Fluid Outlet",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:fluid_placer"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Fluid Outlet. Item inputs include Iron Bars. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13E3EC55C7A55F72"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12CCC393AD898704",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:fluid_placer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1376A8014C28C30F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11423CA6C1819669",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": 7,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "109CE0B842B577C6",
+      "title": "Fluid Pump",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:fluid_pump"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Fluid Pump. Item inputs include Iron Mechanical Component, Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13E3EC55C7A55F72"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10AD6080597F6C70",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:fluid_pump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "146F00E915D2D0DB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A2F20B6F805C2BF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1,
+      "y": 5,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1751755BD2B76927",
+      "title": "Fluid Router",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:fluid_sorter"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Fluid Router. Item inputs include Fluid Pipe, Iron Mechanical Component, Basic Engineering Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E231819F2538C2D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17445FE7E8A37496",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:fluid_sorter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1242BAC3B14FFC6C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AAFB46F378A179F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5,
+      "y": 7,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15595B55339CCE08",
+      "title": "External Heater",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:furnace_heater"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft External Heater. Item inputs include LV Wire Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CDAF08B01387BE0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "197110F583C028E9",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:furnace_heater"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E97AC31ED51A2F2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DB67BCD4A527C10",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7,
+      "y": 1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12CFF3ADA55C289F",
+      "title": "Generator Block",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:generator"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Generator Block. Item inputs include Electrum Coil Block, Iron Mechanical Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBAD19F882F885E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B67D7AB87D8613",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13277A7CE112CCEE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15B574CD926400CD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -11,
+      "y": 1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DBAD19F882F885E",
+      "title": "Heavy Engineering Block",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:heavy_engineering"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Heavy Engineering Block. Item inputs include Steel Mechanical Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10C080679347DC12"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C330FDABA70E4E6",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:heavy_engineering"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19EB33F1AB926448",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12CA1BD1D6D7E617",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8C995FEF8862CC",
+      "title": "Item Batcher",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:item_batcher"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Item Batcher. Item inputs include Iron Mechanical Component, Electronic Component, Basic Engineering Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E2A9C2D74848734"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10AAA35053B386DC",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:item_batcher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1797F69983A87405",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E1890EB27DCA373",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7,
+      "y": 4.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17A7AE9B0F558833",
+      "title": "Light Engineering Block",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:light_engineering"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Light Engineering Block. Item inputs include Iron Mechanical Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18D6FF52835F9BF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B3E84DC81C21CA7",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:light_engineering"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13A5A7601A88A2C7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E78DEFB14739FB0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7,
+      "y": 3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17A3D9C7DFAA1CE0",
+      "title": "Accumulator Backpack",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:powerpack"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Accumulator Backpack. Item inputs include LV Wire Connector, Insulated LV Wire Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "131A9E0E77C30E08"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15914827F7E2163C",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:powerpack"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "140E3169458635B7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1167928031DBA590",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.33939d,
+      "y": -8.23358d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1078339274F2F63B",
+      "title": "Radiator Block",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:radiator"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Use Turn And Copy processing to make Radiator Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBAD19F882F885E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BA9E5B9896DB07A",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:radiator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E8B828988B8594",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16EFF28D83BCCB7C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -11,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18068BD352CD036D",
+      "title": "Railgun",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:railgun"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Railgun. Item inputs include Electrum Coil Block, Wooden Grip, Advanced Electronic Component, HV Accumulator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "131A9E0E77C30E08"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E2C696E133120E1",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:railgun"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16E31C42AE8FEBFC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A260EC11149DB9B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": -8.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10B202C20D872921",
+      "title": "Razor Wire",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:razor_wire"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Razor Wire. Item inputs include Treated Wood Fence, Steel Wire. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17FAC1A78769C74B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19E4806EABDE825D",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:razor_wire"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D8C9BBE859EA8A1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C3987D3E19319DE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7,
+      "y": 4.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "129279BA154827FC",
+      "title": "Revolver",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:revolver"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Use Revolver Assembly processing to make Revolver. Item inputs include Revolver Barrel, Steel Mechanical Component, Revolver Drum, Wooden Grip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "131A9E0E77C30E08"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FD972B4EA99D2EC",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:revolver"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11CA1D3D40686131",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "111790B2BCB53CDE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.33939d,
+      "y": -8.23358d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10C080679347DC12",
+      "title": "Redstone Engineering Block",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:rs_engineering"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Use Turn And Copy processing to make Redstone Engineering Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A7AE9B0F558833"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D255F73C8EB1F1F",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:rs_engineering"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1641A866FF73FFE2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "192DF836B17FAB67",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9,
+      "y": 3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A3DEBF8DCAD4D9",
+      "title": "Engineer's Screwdriver",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:screwdriver"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Screwdriver. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18D6FF52835F9BF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CE6A8D8F266DCC7",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:screwdriver"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11BCE8312C9AC9F8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10FEC7BB11C0EEC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": 3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EF617F34DA39BA8",
+      "title": "Iron Sheetmetal",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:sheetmetal_iron"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Iron Sheetmetal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13A7328E0021D1D7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12BD7249E5C59B9F",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:sheetmetal_iron"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1475FB3CA508B695",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13CD8BE6FEC0FD47",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": 6,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B7175FFCC19CCC0",
+      "title": "Steel Sheetmetal",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:sheetmetal_steel"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Steel Sheetmetal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBAD19F882F885E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C7C6C783480D679",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:sheetmetal_steel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1306B168BFFEC79C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "112BE7B5CF824B62",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -13,
+      "y": 1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1260CCBC97DB2527",
+      "title": "Heavy Plated Shield",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:shield"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Heavy Plated Shield. Item inputs include Shield. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "131A9E0E77C30E08"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "163FE9B15768DE22",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:shield"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "171B78D70021A5BE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "196A6BAED743F29F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.47487d,
+      "y": -7.47487d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1602A0428FF7D81A",
+      "title": "Engineer's Skyhook",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:skyhook"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Skyhook. Item inputs include Iron Mechanical Component, Wooden Grip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "131A9E0E77C30E08"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E6D4B9CCEA63B19",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:skyhook"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EA15FCFD6C4212",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "163D88A56FB907B0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.23358d,
+      "y": -6.33939d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "139D0273C9AC6798",
+      "title": "Item Router",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:sorter"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Item Router. Item inputs include Conveyor Belt, Iron Mechanical Component, Basic Engineering Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E2A9C2D74848734"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199A9FE5A59E177E",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:sorter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "189C7C28ECF40975",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11023D3016A64C3A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7,
+      "y": 3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EE30F8F5EC8DACF",
+      "title": "Revolver Speedloader",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:speedloader"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Revolver Speedloader. Item inputs include Iron Mechanical Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "129279BA154827FC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17F485FC5A17D204",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:speedloader"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17CAA110DF07D318",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13061B7CBA573DE1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.58663d,
+      "y": -8.7502d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1907E822D722245D",
+      "title": "Steel Scaffolding",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:steel_scaffolding_standard"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Steel Scaffolding. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1078339274F2F63B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D2EC624894996E5",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:steel_scaffolding_standard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CEEB49C8922B848",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15413BD5543F8109",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -13,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1906F86BA0484548",
+      "title": "Tesla Coil",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:tesla_coil"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Tesla Coil. Item inputs include Iron Mechanical Component, Advanced Electronic Component, HV Accumulator, Electrum Coil Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17FAC1A78769C74B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1814C816B693B37E",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:tesla_coil"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "173B8F188718B466",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EC1B8E3D4ABF225",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7,
+      "y": 6,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1219EDC2A0C7A2DF",
+      "title": "Thermoelectric Generator",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:thermoelectric_generator"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Thermoelectric Generator. Item inputs include Copper Coil Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "187D07E48044244F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10757F47346FFDCC",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:thermoelectric_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1992120C3B06EDEF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DD60A86D4E25109",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": -3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E51EE618302EF4D",
+      "title": "Engineer's Toolbox",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolbox"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Toolbox. Item inputs include Wooden Storage Crate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "131A9E0E77C30E08"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18D354808A184E2F",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolbox"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ED1BAE2C1AEA2F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17091CAEA415D0ED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.5d,
+      "y": -5.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A308F0D4F507A34",
+      "title": "Turntable",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:turntable"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Turntable. Item inputs include Iron Mechanical Component, LV Wire Coil, Basic Engineering Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "139D0273C9AC6798"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "186EB20E0F7B3504",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:turntable"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19FA27BF544A9438",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B1F56283C7AFF95",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": 3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C1EB981D53D59B4",
+      "title": "Chemthrower Turret",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:turret_chem"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Chemthrower Turret. Item inputs include Metal Barrel, Advanced Electronic Component, Redstone Engineering Block, Chemical Thrower. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17FAC1A78769C74B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1056AE0BDE4DA445",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:turret_chem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "154A814B2A4553F2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "154C8BF743C5A6EB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5,
+      "y": 6,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18619A434B5CF1FD",
+      "title": "Gun Turret",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:turret_gun"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Gun Turret. Item inputs include Extended Magazine, Advanced Electronic Component, Redstone Engineering Block, Revolver. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17FAC1A78769C74B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "126D36392F78B821",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:turret_gun"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "148379CFEAC6C002",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D3C44663FFE55F6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3,
+      "y": 6,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "132F866FE7F1BC8A",
+      "title": "Water Wheel",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:watermill"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Water Wheel. Item inputs include Waterwheel Segment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144565E40EE9B722"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B73DB19CE2B7713",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:watermill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D776EBB437FC5C7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "146D1EA1DB00F309",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5,
+      "y": -3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12A7CEEF62C09DA6",
+      "title": "Windmill",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:windmill"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Windmill. Item inputs include Windmill Blade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144565E40EE9B722"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "103862E7762C02FA",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:windmill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1637313002AFB850",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C75B74C0967F073",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5,
+      "y": -5,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B7FEF32BD6459B",
+      "title": "LV Wire Coil",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:wirecoil_copper"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft LV Wire Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "107A4F63CC47A7F4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E187CFCFAB056EB",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:wirecoil_copper"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "151EA9AA4DDFFC3E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1144FE9C7EB1C0F1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "131A9E0E77C30E08",
+      "title": "Engineer's Workbench",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:workbench"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Engineer's Workbench. Item inputs include Engineer's Crafting Table, Treated Wood Fence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BAD2B4A34D03372"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D787A841342F921",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:workbench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D7F9407875AE769",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "146C3AB384CEE917",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0,
+      "y": -5,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16ACF56A1C72AF0A",
+      "title": "Kiln Brick",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:alloybrick"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Kiln Brick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18D6FF52835F9BF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14849F08A836F426",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:alloybrick"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "184C82F5DB970319",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1297FDB6B1944FE9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.5d,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13E3EC55C7A55F72",
+      "title": "Fluid Pipe",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:fluid_pipe"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18A3DEBF8DCAD4D9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A84B4D6DB5272A1",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:fluid_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1268F8E4E6A9AEA5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "138FFD58B9C9729A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1,
+      "y": 5,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C9358E81A630455",
+      "title": "Pipe Valve",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:pipe_valve"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Pipe Valve. Item inputs include Iron Mechanical Component, Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13E3EC55C7A55F72"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B273F60AE9ED6EA",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:pipe_valve"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D4494A75192FDD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "127083FBB08B9A57",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1,
+      "y": 7,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18BFFA78D67DEEE7",
+      "title": "Induction Charger",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_powerpack_induction"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Induction Charger. Item inputs include Electronic Component, Vacuum Tube, Insulated MV Wire Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A3D9C7DFAA1CE0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11A8935430AA4B7F",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_powerpack_induction"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CB79D7F2EF29C3B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1375F54437421A8A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.72592d,
+      "y": -10.99593d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "160F43F24255AEFA",
+      "title": "Blade Quiver",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Blade Quiver. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBB9CE8C547B401"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C93276117E8783A",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FF13BB586D9398A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F014173FC8444BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.7502d,
+      "y": -7.58663d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "109E9F5C8163C2C5",
+      "title": "Focused Nozzle",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_chemthrower_focus"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Focused Nozzle. Item inputs include Iron Mechanical Component, Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A05933CFC04914"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "175AAAE9F6F7D927",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_chemthrower_focus"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E6FC60A182D410",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "132DF010BC66AD14",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.87904d,
+      "y": -8.88909d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15ACD5B02EC7BC47",
+      "title": "Multitank",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_chemthrower_multitank"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Multitank. Item inputs include Iron Mechanical Component, Fluid Pipe, Large Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A05933CFC04914"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1417768E4598C879",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_chemthrower_multitank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18ACBDC225AFF15F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C28E7CE1DFAE2F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.88909d,
+      "y": -9.87904d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1880EE081804F863",
+      "title": "Large Tank",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_drill_capacity"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Large Tank. Item inputs include Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBB9CE8C547B401"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E0098D3D8409A05",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_drill_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B7B9BED75ABE385",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12AC6C992091E214",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.70476d,
+      "y": -6.04675d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "146BD6513D7C4A07",
+      "title": "Additional Augers",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_drill_damage"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Additional Augers. Item inputs include Iron Mechanical Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10595EF83DAA4200"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AE3878EA0767C9E",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_drill_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CF579AE907EB0FE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15BB6F7BBB278F3F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.2d,
+      "y": -4.3d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D26488A1FF5CAE1",
+      "title": "Rock Softening Acid",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_drill_fortune"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Rock Softening Acid. Item inputs include Steel Mechanical Component, Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10595EF83DAA4200"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15B5BB161FFB6DF7",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_drill_fortune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F9D4A4340530009",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "198DAB5B54B5CB0A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.44035d,
+      "y": -4.59031d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "153A2EF3A225C5E0",
+      "title": "Advanced Lubrication System",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_drill_lube"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Use Shaped Fluid processing to make Advanced Lubrication System. Item inputs include Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBB9CE8C547B401"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1277E14B493CE79A",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_drill_lube"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3C004A37BBE484",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "176932B0B268E388",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.99593d,
+      "y": -6.72592d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13E9A0D0A004AB64",
+      "title": "Pressurized Air Tank",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_drill_waterproof"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Pressurized Air Tank. Item inputs include Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10595EF83DAA4200"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "169D2EFF1CA25832",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_drill_waterproof"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1247023D2A784114",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AD8D60CC43DB3F9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.5d,
+      "y": -5.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A3DED9681B231B",
+      "title": "Charging Antenna",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_powerpack_antenna"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Charging Antenna. Item inputs include LV Wire Connector. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A3D9C7DFAA1CE0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1442340DE284E502",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_powerpack_antenna"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "107E553FEF1CE918",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F05A0434CA94BB6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.01935d,
+      "y": -10.46017d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "144FE56ED4514412",
+      "title": "Portable Electromagnet",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_powerpack_magnet"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Portable Electromagnet. Item inputs include Advanced Electronic Component, LV Wire Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A3D9C7DFAA1CE0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17B1408AF3B9102E",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_powerpack_magnet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3815AC9B48FE79",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C3F15E643228D9A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.58663d,
+      "y": -8.7502d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1559059D401BACD7",
+      "title": "Miniaturized Tesla Coil",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_powerpack_tesla"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Miniaturized Tesla Coil. Item inputs include Advanced Electronic Component, Treated Wood Fence, MV Wire Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A3D9C7DFAA1CE0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14A44491916F1B0D",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_powerpack_tesla"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D453E8A2E373072",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10FEC70EFE1F8FEA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.04675d,
+      "y": -9.70476d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15B7F90AA4C3B66C",
+      "title": "Advanced Heatsinks",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_railgun_capacitors"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Advanced Heatsinks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18068BD352CD036D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12756A9105E88F5E",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_railgun_capacitors"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159FCF38F73EB354",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B773A6D853F6902",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.7d,
+      "y": -11.2d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F736E0B2BA409FF",
+      "title": "Precision Scope",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_railgun_scope"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Precision Scope. Item inputs include Spyglass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18068BD352CD036D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "125AC1F58B8CD709",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_railgun_scope"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1571BB174E701C8F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "102E765FA7685220",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.7d,
+      "y": -11.2d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD0DA9C1D4126B5",
+      "title": "Bayonet",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_revolver_bayonet"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Bayonet. Item inputs include Steel Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "129279BA154827FC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A461DAEECD73DA3",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_revolver_bayonet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A228B71FF3A4A6A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B0F0F81611ACD65",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.01935d,
+      "y": -10.46017d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1155EB75A982D435",
+      "title": "Amplifier Electron Tubes",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_revolver_electro"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Amplifier Electron Tubes. Item inputs include Vacuum Tube, Copper Wire. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "129279BA154827FC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17ED8868C43A2BD3",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_revolver_electro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160E51EF542330F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15C17A12EFD7ED04",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.72592d,
+      "y": -10.99593d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AC5EAF2370194C2",
+      "title": "Extended Magazine",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_revolver_magazine"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Extended Magazine. Item inputs include Iron Mechanical Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "129279BA154827FC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A9DC6CB536AD020",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_revolver_magazine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BAFF3E3B2F68CE2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CED2AF2AEDABAAC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.04675d,
+      "y": -9.70476d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B555E3639EC4700",
+      "title": "Flashbulb",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_shield_flash"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Flashbulb. Item inputs include Incandescent Light Bulb. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1260CCBC97DB2527"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "137EAE1C35D7CA59",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_shield_flash"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1961BE84FB281B1E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1753811CA17CD152",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.88909d,
+      "y": -9.87904d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14C7E491F5BE95A0",
+      "title": "Magnetic Glove",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_shield_magnet"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Magnetic Glove. Item inputs include Copper Coil Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1260CCBC97DB2527"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "147A04BB253D6E5C",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_shield_magnet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AF13CAC58B0C5C5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14EE5B94A5B3F7D7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.87904d,
+      "y": -8.88909d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1221BB03CBA58307",
+      "title": "Shock Emitters",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_shield_shock"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Shock Emitters. Item inputs include LV Wire Connector. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1260CCBC97DB2527"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CDAD777F03B5BF2",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_shield_shock"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BE542A1456B9BC5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10E3434AB20B05DF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.24028d,
+      "y": -7.82603d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13FBEA71280B22C2",
+      "title": "Insulated Grip",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_skyhook_insulation"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Insulated Grip. Item inputs include Wooden Grip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1602A0428FF7D81A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1459EA9A96E08B61",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_skyhook_insulation"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CCBA21F95C23C78",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BAA663BC3B4431D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.77686d,
+      "y": -8.63549d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C6B5D1FDBBB9A7E",
+      "title": "Heavy Impact Hooks",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_skyhook_mace"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft Heavy Impact Hooks. Item inputs include Steel Mechanical Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1602A0428FF7D81A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F742F328E77172C",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_skyhook_mace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E9C7CA19CC8BB2D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16F843B89ACE2C09",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.46017d,
+      "y": -8.01935d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1248FE3A38420E23",
+      "title": "High Torque Motor",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:toolupgrade_skyhook_slope"
+      },
+      "description": [
+        "Use the Engineer’s Manual for multiblock shapes and connection points. Form each structure with the Engineer’s Hammer, supply the correct input, and leave room for item or fluid output.",
+        "Craft High Torque Motor. Item inputs include Electronic Component, Steel Mechanical Component, LV Wire Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1602A0428FF7D81A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1598816D044194C9",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:toolupgrade_skyhook_slope"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18444352D0C0FD6F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B5CB934DE7C65A1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.99593d,
+      "y": -6.72592d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13FB2669B578F142",
+      "title": "Storing Fluids",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:wooden_barrel)item(immersiveengineering:metal_barrel))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "13E3EC55C7A55F72"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:wooden_barrel)item(immersiveengineering:metal_barrel))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "138794313CE87E63",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F59AD90D2364620",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1,
+      "y": 7,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13A7328E0021D1D7",
+      "title": "Storing Items",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:crate)item(immersiveengineering:reinforced_crate))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E2A9C2D74848734"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:crate)item(immersiveengineering:reinforced_crate))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1C8E1F25CC127420",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EB4A14D861FA4B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5,
+      "y": 4.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "107A4F63CC47A7F4",
+      "title": "Wire Coils",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:wirecoil_copper)item(immersiveengineering:wirecoil_electrum)item(immersiveengineering:wirecoil_steel))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "187D07E48044244F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:wirecoil_copper)item(immersiveengineering:wirecoil_electrum)item(immersiveengineering:wirecoil_steel))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1550A16FF79D6797",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C9C5A6995556CE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5,
+      "y": -1.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D51FD848174F6CC",
+      "title": "Connectors",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:connector_lv)item(immersiveengineering:connector_mv)item(immersiveengineering:connector_hv))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "107A4F63CC47A7F4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:connector_lv)item(immersiveengineering:connector_mv)item(immersiveengineering:connector_hv))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1E543F2CC5FE7B20",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EF543D101A247B9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7,
+      "y": -1.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DCB242AC5DC5A4C",
+      "title": "Accumulators",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:capacitor_lv)item(immersiveengineering:capacitor_mv)item(immersiveengineering:capacitor_hv))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "107A4F63CC47A7F4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:capacitor_lv)item(immersiveengineering:capacitor_mv)item(immersiveengineering:capacitor_hv))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "19BC14E719C6D5BF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F12B84A4FC16DE8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "117C720C1438763C",
+      "title": "Relays",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:connector_lv_relay)item(immersiveengineering:connector_mv_relay)item(immersiveengineering:connector_hv_relay))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "107A4F63CC47A7F4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:connector_lv_relay)item(immersiveengineering:connector_mv_relay)item(immersiveengineering:connector_hv_relay))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "150E6634862C6D0A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "155942AC862B0C1C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19A9D3D6B36C9765",
+      "title": "Transformers",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:transformer)item(immersiveengineering:transformer_hv))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1D51FD848174F6CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:transformer)item(immersiveengineering:transformer_hv))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1567D82138AB5276",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D56FBF858BCB07",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": -1.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C39F00C15559F2F",
+      "title": "Cold Items",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(minecraft:water_bucket)item(minecraft:ice)item(minecraft:packed_ice)item(minecraft:blue_ice)item(minecraft:snow_block))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1219EDC2A0C7A2DF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(minecraft:water_bucket)item(minecraft:ice)item(minecraft:packed_ice)item(minecraft:blue_ice)item(minecraft:snow_block))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "183351E20D1A5FF5",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FEE5C6FCAD60C7F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11,
+      "y": -3,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1923DDFA31D700DC",
+      "title": "Chutes",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:chute_iron)item(immersiveengineering:chute_steel)item(immersiveengineering:chute_aluminum)item(immersiveengineering:chute_copper))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E2A9C2D74848734"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:chute_iron)item(immersiveengineering:chute_steel)item(immersiveengineering:chute_aluminum)item(immersiveengineering:chute_copper))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "190355889DE6829B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3B7AAF5F834715",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7,
+      "y": 6,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19FBD9BE9D49F419",
+      "title": "Types of Belts",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:conveyor_basic)item(immersiveengineering:conveyor_dropper)item(immersiveengineering:conveyor_vertical)item(immersiveengineering:conveyor_splitter)item(immersiveengineering:conveyor_extract))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E2A9C2D74848734"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:conveyor_basic)item(immersiveengineering:conveyor_dropper)item(immersiveengineering:conveyor_vertical)item(immersiveengineering:conveyor_splitter)item(immersiveengineering:conveyor_extract))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "180BAED3CEBDE511",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD19F334E6411BB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.5d,
+      "y": 4.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18043433896C241E",
+      "title": "Drill Heads",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:drillhead_iron)item(immersiveengineering:drillhead_steel))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "10595EF83DAA4200"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:drillhead_iron)item(immersiveengineering:drillhead_steel))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F1F9E06133B90EB",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FE555F041991DB1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.2d,
+      "y": -5.7d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1557C9C11C15AD42",
+      "title": "Ammo for Buzzsaw",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:sawblade)item(immersiveengineering:rockcutter)item(immersiveengineering:grindingdisk))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DBB9CE8C547B401"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:sawblade)item(immersiveengineering:rockcutter)item(immersiveengineering:grindingdisk))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1311F7E31E46094F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "102E0ADB9394D8D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.46017d,
+      "y": -8.01935d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13AD4AAA1906399D",
+      "title": "Safe for Skyhook usage!",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:wirecoil_structure_rope)item(immersiveengineering:wirecoil_structure_steel))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1602A0428FF7D81A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:wirecoil_structure_rope)item(immersiveengineering:wirecoil_structure_steel))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1FEB0DAC70D3CFA5",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18EA34AAB3B0F31A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.38175d,
+      "y": -7.29995d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17125F6D081DDC65",
+      "title": "Railgun Ammo from Minecraft",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(minecraft:trident)item(minecraft:blaze_rod)item(minecraft:end_rod)item(minecraft:ender_pearl))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "18068BD352CD036D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(minecraft:trident)item(minecraft:blaze_rod)item(minecraft:end_rod)item(minecraft:ender_pearl))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F9B9E415DD4761B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "177EF38FE504B962",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.0d,
+      "y": -12.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C36EEBD5322692E",
+      "title": "Common Projectiles",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:bullet_casull)item(immersiveengineering:bullet_armor_piercing)item(immersiveengineering:bullet_buckshot)item(immersiveengineering:bullet_silver))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "129279BA154827FC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:bullet_casull)item(immersiveengineering:bullet_armor_piercing)item(immersiveengineering:bullet_buckshot)item(immersiveengineering:bullet_silver))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F062651830535A7",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C84DD38F753921C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.87012d,
+      "y": -11.9291d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10F83D29C3E61707",
+      "title": "Specialized Projectiles",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(immersiveengineering:bullet_he)item(immersiveengineering:bullet_dragons_breath)item(immersiveengineering:bullet_potion)item(immersiveengineering:bullet_homing)item(immersiveengineering:bullet_wolfpack)item(immersiveengineering:bullet_flare))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "129279BA154827FC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(immersiveengineering:bullet_he)item(immersiveengineering:bullet_dragons_breath)item(immersiveengineering:bullet_potion)item(immersiveengineering:bullet_homing)item(immersiveengineering:bullet_wolfpack)item(immersiveengineering:bullet_flare))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1BC75B155B771CDF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1054E65CF675AD54",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.1674d,
+      "y": -13.23181d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17FAC1A78769C74B",
+      "title": "Offense and Defense",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:hammer"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Immersive Engineering."
+      ],
+      "dependencies": [
+        "18D6FF52835F9BF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "immersiveengineering:main/kill_illager",
+          "criterion": "",
+          "type": "advancement",
+          "id": "14CD4F7CE405E4C6",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15D5B5CD1EAFA162",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5,
+      "y": 3,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "12BBA4FF2DE7E6BE",
+      "linked_quest": "18D6FF52835F9BF1",
+      "x": 0,
+      "y": -3,
+      "size": 1.35d,
+      "shape": "gear"
+    },
+    {
+      "id": "1670924AA3246296",
+      "linked_quest": "1572D330B65F75B5",
+      "x": -3,
+      "y": -1.5d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1C050BCD91FA18BD",
+      "linked_quest": "18854A9ECADFDFDA",
+      "x": -3,
+      "y": -3,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1AA2C7D0B0EEB737",
+      "linked_quest": "143784710561F643",
+      "x": -4,
+      "y": -3.5d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "19CE86FF2D4B4BAF",
+      "linked_quest": "16998949C7B78F81",
+      "x": -5,
+      "y": -3,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "19E1A9F0F60814C1",
+      "linked_quest": "1664B91BCE2A623A",
+      "x": -7,
+      "y": -1.5d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

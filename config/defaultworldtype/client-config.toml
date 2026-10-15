@@ -1,0 +1,5 @@
+# Skyblock is selected automatically when creating a new Afterlight world.
+[world-preset]
+world-preset = "skyblockbuilder:skyblock"
+disable-button = false
+allowed-world-types = []

@@ -1,0 +1,1382 @@
+{
+  "id": "1EA017493699FCA7",
+  "filename": "80_apotheosis",
+  "title": "Apotheosis",
+  "icon": {
+    "id": "apotheosis:salvaging_table"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 58,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "124657965AFFFC4D",
+      "title": "Arcane Sands",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:arcane_sands"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Obtain Arcane Sands and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "133C120B7A5FCD68"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "120FAC87D8BE4736",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:arcane_sands"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "173A730C25B01D75",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "188F1A079FFFEE18",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.20833d,
+      "y": 8.43056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "167BBD3502320B12",
+      "title": "Godforged Pearl",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:godforged_pearl"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Obtain Godforged Pearl and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "133C120B7A5FCD68"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15C5111513C69807",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:godforged_pearl"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ACC4223D6152AD7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "143DC9D08B35CC41",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.85833d,
+      "y": 5.64444d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15B58843B77C0098",
+      "title": "Mysterious Scrap Metal",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:mysterious_scrap_metal"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Obtain Mysterious Scrap Metal and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "133C120B7A5FCD68"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1606961F1A197CB8",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:mysterious_scrap_metal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C3AF38966FB2136",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11084E4A2248DCD1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.64856d,
+      "y": 7.94168d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DF644C2126E5013",
+      "title": "Reforging Table",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:reforging_table"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Reforging Table. Item inputs include Arcane Sands, Nether Bricks, Simple Reforging Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "124657965AFFFC4D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DAA95A7243E05D1",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:reforging_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CFE94279A73E96D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "150D9D2783142219",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.28472d,
+      "y": 8.43056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "133C120B7A5FCD68",
+      "title": "Salvaging Table",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:salvaging_table"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Salvaging Table. Item inputs include Gem Dust, Lava Bucket, Iron Axe, Iron Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E124F73C9E070E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CC777F40F93D57A",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:salvaging_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16D25AFF8942475A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19B7AAD1A1A87899",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.13194d,
+      "y": 6.69444d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B86CB2982749ACF",
+      "title": "Sigil of Enhancement",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:sigil_of_enhancement"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Sigil of Enhancement. Item inputs include Gem-Fused Slate, Gem Dust, Godforged Pearl. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B9EF8352EEF50ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10818A715A75E5C9",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:sigil_of_enhancement"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FE130A3479B362E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16628B9C7A2D3283",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.20833d,
+      "y": 3.45833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1407B2E0A4EFCC3A",
+      "title": "Sigil of Malice",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:sigil_of_malice"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Obtain Sigil of Malice and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B9EF8352EEF50ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C28A8B34F1E74FA",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:sigil_of_malice"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F84B83740B0CF02",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195D2CEB5441CFDB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.85833d,
+      "y": 0.67222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C1A5B2D8803F1C",
+      "title": "Sigil of Rebirth",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:sigil_of_rebirth"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Sigil of Rebirth. Item inputs include Gem Dust, Gem-Fused Slate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B9EF8352EEF50ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17A0EB1F7CB19CEB",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:sigil_of_rebirth"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "109DA0E26ACF9172",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1947E4B1C0D2D2E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.25442d,
+      "y": 3.81946d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E26A3986DF6A9A4",
+      "title": "Sigil of Socketing",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:sigil_of_socketing"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Sigil of Socketing. Item inputs include Amethyst Shard, Gem-Fused Slate, Gem Dust, Gunpowder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B9EF8352EEF50ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "138E3AB080DDC47D",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:sigil_of_socketing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14767E6D0CD36DBE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FAAE45E5BB84E57",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.8847d,
+      "y": 3.58606d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A4B1D89E2FDEBA",
+      "title": "Sigil of Supremacy",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:sigil_of_supremacy"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Obtain Sigil of Supremacy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B2A413B4CCA1522"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E93A48DEBA30C78",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:sigil_of_supremacy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "109CBF7E9E28F7B9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F6B4679BB627897",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.70916d,
+      "y": 9.35011d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E6AD1CBB32AA2A1",
+      "title": "Sigil of Unnaming",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:sigil_of_unnaming"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Sigil of Unnaming. Item inputs include Flint, Gem-Fused Slate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B9EF8352EEF50ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "193A350B554E3046",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:sigil_of_unnaming"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "162B38434D1F9866",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F2152DD3C559D8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.85833d,
+      "y": 2.02222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FFB07E4A578A56C",
+      "title": "Sigil of Withdrawal",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:sigil_of_withdrawal"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Sigil of Withdrawal. Item inputs include Blaze Rod, Gem-Fused Slate, Lava Bucket, Gem Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B9EF8352EEF50ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F216C56D43D6248",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:sigil_of_withdrawal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1941080B17DED87F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1819738D257D6BB0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.8847d,
+      "y": 2.55282d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "104E8E2593A03209",
+      "title": "Simple Reforging Table",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:simple_reforging_table"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Simple Reforging Table. Item inputs include Enchanting Table, Gem Dust, Smooth Stone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E124F73C9E070E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10883AD74D6173C8",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:simple_reforging_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D26B8714A563CF1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D3DA52A105001A0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.13194d,
+      "y": 5.48611d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14014C33B626642D",
+      "title": "Timeworn Fabric",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:timeworn_fabric"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Obtain Timeworn Fabric and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "133C120B7A5FCD68"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "180A811C037691B8",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:timeworn_fabric"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ED035A4E4202C5D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12B16844C2A03483",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.85833d,
+      "y": 6.99444d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B2A413B4CCA1522",
+      "title": "Gate Pearl",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "gateways:gate_pearl",
+        "components": {
+          "gateways:gateway": "apotheosis:tiered/pinnacle"
+        }
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Gate Pearl. Item inputs include Gem Dust, Luminous Crystal Shard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A31DCC6B952152E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D1FFD851E2C0056",
+          "type": "item",
+          "item": {
+            "id": "gateways:gate_pearl",
+            "components": {
+              "gateways:gateway": "apotheosis:tiered/pinnacle"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11707F4B824DC620",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1274F04661AB3EA4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.36847d,
+      "y": 9.50839d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B8F50B28A61CFCB",
+      "title": "Gem",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:gem",
+        "components": {
+          "apotheosis:gem": "apotheosis:core/solar",
+          "apotheosis:purity": "perfect"
+        }
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Obtain Gem and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1295B2A62C77F557",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:gem",
+            "components": {
+              "apotheosis:gem": "apotheosis:core/solar",
+              "apotheosis:purity": "perfect"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1728739B5D70D43E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C227C8EB239E004",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.13194d,
+      "y": 4.875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F8E054FD50AC6EC",
+      "title": "Gem Cutting Table",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:gem_cutting_table"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Gem Cutting Table. Item inputs include Gem Dust, Shears, Smooth Stone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E124F73C9E070E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11A253D662363C5B",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:gem_cutting_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "161DDBE786624085",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14ABAB256F5EC1A9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.13194d,
+      "y": 4.27778d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E124F73C9E070E9",
+      "title": "Gem Dust",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:gem_dust"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Obtain Gem Dust and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B8F50B28A61CFCB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CE50AB3E5C2DA18",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:gem_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EB83EB824DCBC58",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FCECCDF53A42EE2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.63194d,
+      "y": 4.875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B9EF8352EEF50ED",
+      "title": "Gem-Fused Slate",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:gem_fused_slate"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Gem-Fused Slate. Item inputs include Deepslate, Gem Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E124F73C9E070E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "194F9194B945BC6F",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:gem_fused_slate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "141826C00436C02F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EFBAA3320CD1355",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.13194d,
+      "y": 3.06944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "171A66B5D0F653BB",
+      "title": "Luminous Crystal Shard",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:luminous_crystal_shard"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Obtain Luminous Crystal Shard and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "133C120B7A5FCD68"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CE15167EA5F8956",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:luminous_crystal_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C39A257D386434B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1175D474A9272287",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.61532d,
+      "y": 7.94168d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13910D2DAB97DE94",
+      "title": "Augmenting Table",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:augmenting_table"
+      },
+      "description": [
+        "Collect affix equipment and gems from suitable enemies. Salvage unwanted gear, inspect rarity and sockets, and upgrade equipment at the appropriate table.",
+        "Craft Augmenting Table. Item inputs include Enchanting Table, Godforged Pearl, Nether Star, Polished Blackstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B86CB2982749ACF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E94119C7341A9ED",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:augmenting_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168FFFA171ABAF74",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16163421F7F2B511",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.28472d,
+      "y": 3.45833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "115E609333625F8C",
+      "title": "World Tier: Haven",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "minecraft:wooden_sword"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Apotheosis."
+      ],
+      "dependencies": [
+        "1907604AF6630ADD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "apotheosis:progression/haven",
+          "criterion": "",
+          "type": "advancement",
+          "id": "140F7337FC7CA251",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EFD6E9A523A271",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 10.375d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1907604AF6630ADD",
+      "title": "Invaders/Bosses and World Tiers",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "apotheosis:salvaging_table"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Apotheosis."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "apotheosis:progression/root",
+          "criterion": "",
+          "type": "advancement",
+          "id": "148AB4F568599BA0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19564C33F149AAF7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.67778d,
+      "y": 10.375d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17465E443AA93CBF",
+      "title": "World Tier: Frontier",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "minecraft:stone_sword"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Apotheosis."
+      ],
+      "dependencies": [
+        "115E609333625F8C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "apotheosis:progression/frontier",
+          "criterion": "",
+          "type": "advancement",
+          "id": "19B9B59D6F89D226",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E84E0BB578A1742",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.37778d,
+      "y": 10.375d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CFE34CDE50EB42E",
+      "title": "World Tier: Ascent",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "minecraft:iron_sword"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Apotheosis."
+      ],
+      "dependencies": [
+        "17465E443AA93CBF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "apotheosis:progression/ascent",
+          "criterion": "",
+          "type": "advancement",
+          "id": "11C22D8FDBD8D489",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120F3B826F1D9108",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.3464d,
+      "y": 9.98322d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B0681D37683DEA",
+      "title": "World Tier: Summit",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "minecraft:diamond_sword"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Apotheosis."
+      ],
+      "dependencies": [
+        "1CFE34CDE50EB42E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "apotheosis:progression/summit",
+          "criterion": "",
+          "type": "advancement",
+          "id": "104207803AB1CEB5",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1316CC1D4623B9A6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.68709d,
+      "y": 9.82494d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A31DCC6B952152E",
+      "title": "World Tier: Pinnacle",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "id": "minecraft:netherite_sword"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Apotheosis."
+      ],
+      "dependencies": [
+        "19B0681D37683DEA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "apotheosis:progression/pinnacle",
+          "criterion": "",
+          "type": "advancement",
+          "id": "1EAA8EA3AFA430AA",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FF261CC1AF97B29",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.02778d,
+      "y": 9.66667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19727B88E9A2FB22",
+      "title": "Apothic Gateways",
+      "subtitle": "Apotheosis",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(component(fuzzy:{\"gateways:gateway\":\"apotheosis:tiered/frontier\"})component(fuzzy:{\"gateways:gateway\":\"apotheosis:tiered/ascent\"})component(fuzzy:{\"gateways:gateway\":\"apotheosis:tiered/summit\"})component(fuzzy:{\"gateways:gateway\":\"apotheosis:tiered/pinnacle\"}))item(gateways:gate_pearl)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "17465E443AA93CBF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(component(fuzzy:{\"gateways:gateway\":\"apotheosis:tiered/frontier\"})component(fuzzy:{\"gateways:gateway\":\"apotheosis:tiered/ascent\"})component(fuzzy:{\"gateways:gateway\":\"apotheosis:tiered/summit\"})component(fuzzy:{\"gateways:gateway\":\"apotheosis:tiered/pinnacle\"}))item(gateways:gate_pearl)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1FF537318A897269",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12ED13F15D42EEB9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.02778d,
+      "y": 11.09722d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

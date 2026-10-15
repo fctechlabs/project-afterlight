@@ -1,0 +1,1229 @@
+{
+  "id": "1C0AB1753617E8B8",
+  "filename": "67_generators",
+  "title": "Generators",
+  "icon": {
+    "id": "generatorgalore:magmatic_generator"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 45,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "123BD27C288DCBB4",
+      "title": "Rainbow Coal",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:rainbow_coal"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Obtain Rainbow Coal and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1BDD1C00D2FD1D15"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19BCE68EE2346370",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:rainbow_coal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "146B64EF44AB6681",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15F4344AB1A7F499",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.80246d,
+      "y": 1.93604d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C332C832CBB12B",
+      "title": "Rainbow Core",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:rainbow_core"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Rainbow Core. Item inputs include Red Stained Glass, Orange Stained Glass, Yellow Stained Glass, Netherite Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13362D07D28C7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "185542C19AB30F9E",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:rainbow_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CD753200EE7DD01",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "149111963E427FA7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.42134d,
+      "y": 1.97592d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ECBBE6B739E3389",
+      "title": "Rainbow Plating",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:rainbow_plating"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Rainbow Plating. Item inputs include Iron Furnace, Golden Furnace, Diamond Furnace, Emerald Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14BEA9BDDDB9D1FA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1862B4E565319305",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:rainbow_plating"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E61CD5C176F3D77",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14B950EBDE515726",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.10104d,
+      "y": 4.36909d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B8D980B333081F6",
+      "title": "Copper Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:copper_furnace"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Copper Furnace. Item inputs include Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "117BC17E1EB06AF8",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:copper_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19F9407EEE57B4A6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1031BBC23F4B21BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.53495d,
+      "y": 3.74981d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "164392F7E64A49EA",
+      "title": "Diamond Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:diamond_furnace"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Diamond Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11EAF3823D9BEA9A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17341160A08AAE87",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:diamond_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEFD492847075C6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1386999BE1849E17",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.96647d,
+      "y": 4.08659d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DB8B40D0813ABD6",
+      "title": "Emerald Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:emerald_furnace"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Emerald Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "164392F7E64A49EA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B66DE28F22C79F3",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:emerald_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EBFAC81946A215D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D2A6592ECFD9DAA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.64585d,
+      "y": 3.66944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11EAF3823D9BEA9A",
+      "title": "Golden Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:gold_furnace"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Golden Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1931F75DA30EB57F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CB9CF9D175AFFBE",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:gold_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B9AC2E1C4F5B72E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D5424DDD5CA8089",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.09052d,
+      "y": 3.33891d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "102735FFE792D4E4",
+      "title": "Wireless Heat Transmitter",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:heater"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Wireless Heat Transmitter. Item inputs include Furnace, Comparator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B8D980B333081F6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16D4A5089DC325CC",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:heater"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ECF665620D5F583",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1499532EF147B88E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.16944d,
+      "y": 1.07465d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "152EB825270B5720",
+      "title": "Iron Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:iron_furnace"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Iron Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15730B3CD84708C8",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:iron_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "114DA7C1E533DBE4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1127F6421AC73951",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.79701d,
+      "y": 2.42781d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B74A6AEE5373F70",
+      "title": "Furnace Settings Linker",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:item_copy"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Furnace Settings Linker. Item inputs include Paper, Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B8D980B333081F6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C37BA8EB5ECB109",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:item_copy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17EC6B5B1F8A3AEE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FF440C7B58866DE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.28497d,
+      "y": 4.87229d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BA5BA4520FB0194",
+      "title": "Furnace Spooka-lator",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:item_spooky"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Furnace Spooka-lator. Item inputs include Carved Pumpkin, Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B8D980B333081F6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "157F1D4ACB864EC0",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:item_spooky"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12BF61279204C5E3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19F87A26B232542C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.27158d,
+      "y": 5.07387d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1986D848FDB2B85D",
+      "title": "Furnace Wrapping Papers",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:item_xmas"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Furnace Wrapping Papers. Item inputs include Yellow Dye, Red Dye, Paper, Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B8D980B333081F6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11534A27BFCF7F9E",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:item_xmas"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17599CEBE152676D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C6C2FB167F63204",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.21089d,
+      "y": 4.01318d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19712D943375784A",
+      "title": "Rainbow Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:million_furnace"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Rainbow Furnace. Item inputs include Rainbow Core, Rainbow Plating. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BDD1C00D2FD1D15"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F21B35B1EB6A66C",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:million_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B7CC0F7EBD565FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C81535234FB411E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.6643d,
+      "y": -0.35006d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BDD1C00D2FD1D15",
+      "title": "Rainbow Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:million_furnace",
+        "components": {
+          "minecraft:custom_name": "{\"extra\":[{\"color\":\"aqua\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"b\"},{\"color\":\"yellow\",\"text\":\"o\"},{\"color\":\"blue\",\"text\":\"w\"},{\"color\":\"red\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}"
+        }
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Rainbow Furnace. Item inputs include Rainbow Core, Rainbow Plating. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C332C832CBB12B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18920AE47686C23F",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:million_furnace",
+            "components": {
+              "minecraft:custom_name": "{\"extra\":[{\"color\":\"aqua\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"b\"},{\"color\":\"yellow\",\"text\":\"o\"},{\"color\":\"blue\",\"text\":\"w\"},{\"color\":\"red\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15F52A09F4292EC9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B7C7B3F678A2836",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.51883d,
+      "y": 0.97194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13362D07D28C7BB2",
+      "title": "Netherite Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:netherite_furnace"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Netherite Furnace. Item inputs include Magma Cream, Netherite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14BEA9BDDDB9D1FA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17237B14D999AA2B",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:netherite_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19845965D1885D1C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19D8AD3A640C2463",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.32385d,
+      "y": 2.9799d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14BEA9BDDDB9D1FA",
+      "title": "Obsidian Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:obsidian_furnace"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Obsidian Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DB8B40D0813ABD6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E80270CCF8BD1D1",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:obsidian_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10BD71B9ED4951B1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C8225D8BBE0B833",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.64447d,
+      "y": 2.34744d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1931F75DA30EB57F",
+      "title": "Silver Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:silver_furnace"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Silver Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B8D980B333081F6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CC661788F0C88FD",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:silver_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "101CC31D8A4998FD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "103D46B83CDD9671",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.21456d,
+      "y": 2.59123d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "131506B304795FC5",
+      "title": "Crystal Furnace",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:crystal_furnace"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Crystal Furnace. Item inputs include Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "164392F7E64A49EA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "186A8CC9CE913252",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:crystal_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1204CEA6FE006DAF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1175C448041C05D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.35368d,
+      "y": 5.40859d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F4FE641E9D2E01C",
+      "title": "Augment: Blasting",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:augment_blasting"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Augment: Blasting. Item inputs include Paper, Blast Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16FB0FAC997DF6F6",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:augment_blasting"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C519405008C62D9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15066103B299BB3C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.11901d,
+      "y": 2.39665d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D584429BBCC48B2",
+      "title": "Augment: Factory",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:augment_factory"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Augment: Factory. Item inputs include Paper, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "197D96CAE3730AFC",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:augment_factory"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A534A62425FA528",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16A6C36B6E2FDDBD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.77153d,
+      "y": 5.06762d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1251930AC1608A45",
+      "title": "Augment: Fuel Efficiency",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:augment_fuel"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Augment: Fuel Efficiency. Item inputs include Paper, Coal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FA81B0E6B4F268B",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:augment_fuel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1983DA73416FB052",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17570010A61BA638",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.81901d,
+      "y": 2.39665d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E0A892D613EC345",
+      "title": "Augment: Generator",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:augment_generator"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Augment: Generator. Item inputs include Paper, Repeater. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1EA326A2721D90",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:augment_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B503AC9A93F8F19",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "164D74A0AA401479",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.11901d,
+      "y": 3.74665d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C5E1757239283D",
+      "title": "Augment: Smoking",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:augment_smoking"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Augment: Smoking. Item inputs include Paper, Smoker. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18352DB91D5810DF",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:augment_smoking"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "141E344F37F8900E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "180472B1F9A57C73",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.46901d,
+      "y": 3.74665d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AA11BAB3440BBF3",
+      "title": "Augment: Speed",
+      "subtitle": "Generators",
+      "icon": {
+        "id": "ironfurnaces:augment_speed"
+      },
+      "description": [
+        "Pick a generator with a renewable fuel supply. Provide an output connection and storage buffer, then compare fuel consumption with the machines you want to run.",
+        "Craft Augment: Speed. Item inputs include Paper, Sugar. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B84DDB5867555A8",
+          "type": "item",
+          "item": {
+            "id": "ironfurnaces:augment_speed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D68768C992D2AD3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E05BF41020A397D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.81901d,
+      "y": 3.74665d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "183C45A72692FB52",
+      "linked_quest": "1F181A4B5634E138",
+      "x": 11.42153d,
+      "y": 5.06762d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

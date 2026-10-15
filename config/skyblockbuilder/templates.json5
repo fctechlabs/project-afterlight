@@ -1,0 +1,53 @@
+{
+  "defaultOffset": 0,
+  "mainSpawnIsland": {
+    "name": "lobby",
+    "file": "lobby.snbt",
+    "spawns": {
+      "south": [
+        [
+          6,
+          1,
+          6
+        ]
+      ],
+      "north": [],
+      "west": [],
+      "east": []
+    }
+  },
+  "templateList": [
+    {
+      "name": "default",
+      "file": "default.snbt",
+      "spawns": {
+        "south": [
+          [
+            5,
+            3,
+            7
+          ]
+        ],
+        "north": [],
+        "west": [],
+        "east": []
+      }
+    },
+    {
+      "name": "skyfactory",
+      "file": "skyfactory.snbt",
+      "spawns": {
+        "south": [
+          [
+            2,
+            8,
+            2
+          ]
+        ],
+        "north": [],
+        "west": [],
+        "east": []
+      }
+    }
+  ]
+}

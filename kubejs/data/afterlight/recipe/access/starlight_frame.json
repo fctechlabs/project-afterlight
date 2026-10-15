@@ -1,0 +1,22 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "item": "minecraft:obsidian"
+  },
+  "output": {
+    "id": "eternal_starlight:voidstone",
+    "count": 8
+  },
+  "source": 2000,
+  "pedestalItems": [
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ]
+}

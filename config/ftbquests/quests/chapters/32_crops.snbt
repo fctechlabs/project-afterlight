@@ -1,0 +1,5057 @@
+{
+  "id": "12386D90B890CA98",
+  "filename": "32_crops",
+  "title": "Mystical Agriculture",
+  "icon": {
+    "id": "mysticalagriculture:inferium_essence"
+  },
+  "group": "131BB24FE37118D4",
+  "order_index": 24,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "157B533ED141B67C",
+      "title": "Inferium Essence",
+      "subtitle": "Grow the resource chain",
+      "icon": {
+        "id": "mysticalagriculture:inferium_essence"
+      },
+      "description": [
+        "Check Dirt and Gravel sieve recipes for the reachable Inferium supply. Keep enough essence and seeds to expand the farm."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E79C5924B59E993",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:inferium_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13CFB921FE129D6B",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1DCCEF557CD771D1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.27426d,
+      "y": 14.2251d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D1C4AACD312CD2B",
+      "title": "Infusion Altar",
+      "subtitle": "Grow the resource chain",
+      "icon": {
+        "id": "mysticalagriculture:infusion_altar"
+      },
+      "description": [
+        "Arrange eight Infusion Pedestals around the altar. Put the seed in the center, the listed ingredients outside, then activate the setup."
+      ],
+      "dependencies": [
+        "13825BFC3B599E38"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16B4C661F8AD1BB5",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:infusion_altar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198B0931F5493F8F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1AD4DD8C4FABDB98",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.46627d,
+      "y": 10.44595d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "111529FEDF544EF9",
+      "title": "A renewable essence bed",
+      "subtitle": "Grow the resource chain",
+      "icon": {
+        "id": "mysticalagriculture:inferium_seeds"
+      },
+      "description": [
+        "Plant Inferium Seeds and use suitable farmland. Save essence for upgrades instead of converting all of it immediately."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "129D5C75F26287B6",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:inferium_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B2BF13C915C96E6",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1507AC71BCB12D94",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.73548d,
+      "y": 15.47962d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A21C424E3F789CC",
+      "title": "Infusion Crystal",
+      "subtitle": "Grow the resource chain",
+      "icon": {
+        "id": "mysticalagriculture:infusion_crystal"
+      },
+      "description": [
+        "An Infusion Crystal combines essence into higher tiers. Check its remaining durability before queueing a large batch."
+      ],
+      "dependencies": [
+        "111529FEDF544EF9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10F77EDE402CCDFA",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:infusion_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CF0310B89B9CDA8",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1907E89CD066E059",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.93645d,
+      "y": 14.86305d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A4418CD99FE570C",
+      "title": "Grow a useful first resource",
+      "subtitle": "Grow the resource chain",
+      "icon": {
+        "id": "mysticalagriculture:iron_seeds"
+      },
+      "description": [
+        "Choose Iron Seeds as a practical first resource crop, or follow another seed recipe. Crops are an optional supply route."
+      ],
+      "dependencies": [
+        "1A21C424E3F789CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1A96D14591F2D9",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:iron_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C9169EBFDD13CE",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "197698FE1555F50F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.13742d,
+      "y": 14.24648d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C5C37B9E84EF1D2",
+      "title": "Convert the harvest",
+      "subtitle": "Grow the resource chain",
+      "icon": {
+        "id": "mysticalagriculture:iron_essence"
+      },
+      "description": [
+        "Craft Iron Essence into its resource using the pattern. Route the output to storage before increasing farm size."
+      ],
+      "dependencies": [
+        "1A4418CD99FE570C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A1D7141DF8A8CC7",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:iron_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1493311CFEAC752D",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "174B8531290F5199",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.3384d,
+      "y": 13.6299d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13825BFC3B599E38",
+      "title": "Prosperity Seed Base",
+      "subtitle": "Prepare the farm",
+      "icon": {
+        "id": "mysticalagriculture:prosperity_seed_base"
+      },
+      "description": [
+        "Use Prosperity Shards and seeds for the base used by resource crops. Check the sieve recipes for your first Prosperity supply."
+      ],
+      "dependencies": [
+        "1B95CEA7AAC1AB80"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1375B723945D11F1",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:prosperity_seed_base"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FCA7F73AB41EDF8",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1DA52E1B3F70874F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.39866d,
+      "y": 12.21828d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158C0810395B329D",
+      "title": "Infusion Pedestal",
+      "subtitle": "Prepare the farm",
+      "icon": {
+        "id": "mysticalagriculture:infusion_pedestal"
+      },
+      "description": [
+        "Place eight Infusion Pedestals in the altar layout shown by the guide or JEI. Activate the altar only after every input is in position."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199C70800F1DD6C7",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:infusion_pedestal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B225B554520727F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17C2EE80E0A19726",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.38486d,
+      "y": 12.49982d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "153A4851611E33C4",
+      "title": "Inferium Farmland",
+      "subtitle": "Prepare the farm",
+      "icon": {
+        "id": "mysticalagriculture:inferium_farmland"
+      },
+      "description": [
+        "Use suitable farmland for your essence crops. Check the crop and soil tier before assuming a higher seed will grow in any plot."
+      ],
+      "dependencies": [
+        "157B533ED141B67C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18E0950A671A66D7",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:inferium_farmland"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12EF36A057D7C17A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "13F6C6AE9DDDEF39",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95286d,
+      "y": 12.22315d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C271A7B8F1892BA",
+      "title": "Botany Pot",
+      "subtitle": "Prepare the farm",
+      "icon": {
+        "id": "botanypots:terracotta_botany_pot"
+      },
+      "description": [
+        "Place a compatible soil and seed into a Botany Pot. Botany Trees and Botany Pots-Mystical provide tree and resource-crop integration."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DE76EA0B6301F21",
+          "type": "item",
+          "item": {
+            "id": "botanypots:terracotta_botany_pot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "170E5007C2A329EB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1F88A306E1E62CFD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.90524d,
+      "y": 18.20036d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15D66D8DBB9DEBF7",
+      "title": "Hopper Botany Pot",
+      "subtitle": "Prepare the farm",
+      "icon": {
+        "id": "botanypots:terracotta_hopper_botany_pot"
+      },
+      "description": [
+        "Place a Hopper Botany Pot above storage to collect its harvest. Provide enough space for every output before expanding the farm."
+      ],
+      "dependencies": [
+        "1C271A7B8F1892BA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B28BE10EAC27FA",
+          "type": "item",
+          "item": {
+            "id": "botanypots:terracotta_hopper_botany_pot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15C247B7A2EC2810",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "12D3D4D7DEC2B1D1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.73671d,
+      "y": 17.07603d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A9207239F63A0D2",
+      "title": "Insanium Essence",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagradditions:insanium_essence"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Insanium Essence. Item inputs include Supremium Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1639A0D81E539756"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1895B96217F7A49B",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:insanium_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC8167B4BCD072D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "103300B110550855",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.85618d,
+      "y": 3.64785d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "120118D75467575C",
+      "title": "Awakened Supremium Essence",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:awakened_supremium_essence"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Awakened Supremium Essence and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "11D0DCF5B7B17693"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "141EDA9DDBB91CF9",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:awakened_supremium_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1696859220030FC7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FB2E92DDA4A9324",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.10781d,
+      "y": 4.29218d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "177B6F49BDAEF79A",
+      "title": "Imperium Essence",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:imperium_essence"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Item Casting processing to make Imperium Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "176BE8E71A93A803"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18C769AC804AB82C",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:imperium_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "100B6235B13159D4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14C44FE77DFC1680",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.76639d,
+      "y": 6.99427d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "161B43DF8C58124C",
+      "title": "Prudentium Essence",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:prudentium_essence"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Item Casting processing to make Prudentium Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "157B533ED141B67C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13B7BB2FCA8D443C",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:prudentium_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A1F9C7A59A3A270",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17A1471A052CF9A4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.2734d,
+      "y": 10.90523d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1639A0D81E539756",
+      "title": "Supremium Essence",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:supremium_essence"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Item Casting processing to make Supremium Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "120E5E076DBE9131",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:supremium_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C698B3F87F0A30E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195522A01B9B1EA2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.07388d,
+      "y": 3.26125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "176BE8E71A93A803",
+      "title": "Tertium Essence",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:tertium_essence"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Item Casting processing to make Tertium Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "161B43DF8C58124C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EF1807BEE1D3670",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:tertium_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "177646C4AD821269",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "179FE7A0DA2B26EC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95287d,
+      "y": 10.90463d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "151CF43963EAAFCB",
+      "title": "Insanium Farmland",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagradditions:insanium_farmland"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Farmland Till processing to make Insanium Farmland. Item inputs include Insanium Essence, Dirt. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A9207239F63A0D2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15951EC77A891047",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:insanium_farmland"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1307E8838CBADC79",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CBE84345DE58513",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.75345d,
+      "y": 2.32585d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DE7CBC469A49E29",
+      "title": "Awakened Supremium Growth Accelerator",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:awakened_supremium_growth_accelerator"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Awakened Supremium Growth Accelerator. Item inputs include Awakened Supremium Essence, Awakened Supremium Gemstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "120118D75467575C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D663D7540C30AF3",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:awakened_supremium_growth_accelerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17B09A0DF0D9E7DB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12DF5176D8B89E88",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.75913d,
+      "y": -0.84205d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "172E9420A9EA3151",
+      "title": "Imperium Farmland",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:imperium_farmland"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Farmland Till processing to make Imperium Farmland. Item inputs include Imperium Essence, Dirt. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18BC9B28322EAF28",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:imperium_farmland"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12A428BF7C3FDEF5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13C75CE4E66A2C7E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.14144d,
+      "y": 5.60514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FC46279DDBB14C0",
+      "title": "Imperium Growth Accelerator",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:imperium_growth_accelerator"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Imperium Growth Accelerator. Item inputs include Imperium Essence, Imperium Gemstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1932758A27C33E3D",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:imperium_growth_accelerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "121FF6D364A79326",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140B7F5FBC1C6BE7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.50302d,
+      "y": 8.31833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD72384CDC935BE",
+      "title": "Inferium Growth Accelerator",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:inferium_growth_accelerator"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Inferium Growth Accelerator. Item inputs include Inferium Essence, Inferium Gemstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "157B533ED141B67C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BA4FFC7E3B5E14F",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:inferium_growth_accelerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C57612D149FFE14",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA1F7C60DE1B317",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.26547d,
+      "y": 10.90031d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "109392D96A30366E",
+      "title": "Prudentium Farmland",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:prudentium_farmland"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Farmland Till processing to make Prudentium Farmland. Item inputs include Prudentium Essence, Dirt. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "161B43DF8C58124C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EFFF59B522D8640",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:prudentium_farmland"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14279C7C8886ADBB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "163136748CFFEF96",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.93839d,
+      "y": 8.2344d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EE59F6607111155",
+      "title": "Prudentium Growth Accelerator",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:prudentium_growth_accelerator"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Prudentium Growth Accelerator. Item inputs include Prudentium Essence, Prudentium Gemstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "161B43DF8C58124C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16A6660E6EE6934C",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:prudentium_growth_accelerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DFBD4CF9B751AD6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A0A0C969666E670",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.28839d,
+      "y": 8.2344d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14A8453BC0BE33B9",
+      "title": "Supremium Farmland",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:supremium_farmland"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Farmland Till processing to make Supremium Farmland. Item inputs include Supremium Essence, Dirt. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1639A0D81E539756"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "104EBFF8C64B9AC1",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:supremium_farmland"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CE872D3D73334D9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BB84DFB5699903F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.34822d,
+      "y": -2.25913d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D1EF764A86A9B1E",
+      "title": "Supremium Growth Accelerator",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:supremium_growth_accelerator"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Supremium Growth Accelerator. Item inputs include Supremium Essence, Supremium Gemstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1639A0D81E539756"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10693862AF4FB680",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:supremium_growth_accelerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1717624866426A30",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12BD8F51FD9A4C5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.42388d,
+      "y": 3.26125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AB728FA6ABE7D4A",
+      "title": "Tertium Farmland",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:tertium_farmland"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Farmland Till processing to make Tertium Farmland. Item inputs include Tertium Essence, Dirt. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "176BE8E71A93A803"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B040FC9D3EE48F",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:tertium_farmland"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "156ED3BFF833420C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "164B05FFE2B5C4A8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.83039d,
+      "y": 11.65465d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D07216036975D2",
+      "title": "Tertium Growth Accelerator",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:tertium_growth_accelerator"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Tertium Growth Accelerator. Item inputs include Tertium Essence, Tertium Gemstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "176BE8E71A93A803"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17EC7D83E7CAB6F4",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:tertium_growth_accelerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CEE581ACA5FA005",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1603A2A8D564B32C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.62881d,
+      "y": 10.64126d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18772A8F5D7D31E0",
+      "title": "Imperium Apple",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagradditions:imperium_apple"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Item Casting processing to make Imperium Apple. Item inputs include Golden Apple. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "159D9E1C40051AC4",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:imperium_apple"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "169C0C3A9FAF97B2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E0AB92CF1EFA23B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.79144d,
+      "y": 5.60514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184CF56431E7CB35",
+      "title": "Inferium Apple",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagradditions:inferium_apple"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Item Casting processing to make Inferium Apple. Item inputs include Golden Apple. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "157B533ED141B67C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145CBA2EE51A7A04",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:inferium_apple"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B37E25F24615237",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10AB4981303763A9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.91547d,
+      "y": 10.90031d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B9B1331D22190E",
+      "title": "Insanium Apple",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagradditions:insanium_apple"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Insanium Apple. Item inputs include Golden Apple, Insanium Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A9207239F63A0D2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C5C15717E97D997",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:insanium_apple"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14F4286991330A7A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F4D9DFAB9205066",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.05609d,
+      "y": 6.01603d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "107C24AA39E9DA4B",
+      "title": "Prudentium Apple",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagradditions:prudentium_apple"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Item Casting processing to make Prudentium Apple. Item inputs include Golden Apple. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "161B43DF8C58124C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18559BFDD3622082",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:prudentium_apple"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1360752728815DE0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1088FBEB53D756C6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.2734d,
+      "y": 6.90523d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16AEDF4910159DF4",
+      "title": "Tertium Apple",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagradditions:tertium_apple"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Item Casting processing to make Tertium Apple. Item inputs include Golden Apple. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "176BE8E71A93A803"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BD93A0A99B5C2DE",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:tertium_apple"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F11B131D483E7FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D9553FDA721B8E0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.08919d,
+      "y": 6.9124d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E96F5F0989A8D7B",
+      "title": "Awakened Supremium Helmet",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:awakened_supremium_helmet"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Awakening processing to make Awakened Supremium Helmet. Item inputs include Supremium Helmet, Awakened Supremium Gemstone, Awakened Supremium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "120118D75467575C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BA66C6AA6356856",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:awakened_supremium_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "161C0BFE4B7B03F6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FA669E48E06341D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.88876d,
+      "y": 0.33518d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B3B85BF80424C82",
+      "title": "Awakened Supremium Ingot Block",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:awakened_supremium_ingot_block"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Awakened Supremium Ingot Block. Item inputs include Awakened Supremium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "120118D75467575C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "182A9CCF97A54A58",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:awakened_supremium_ingot_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CC49BFC5DB2F307",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "124F9C18B377E73C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.56403d,
+      "y": 0.33153d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B0C3983D3CC0C4",
+      "title": "Awakened Supremium Sword",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:awakened_supremium_sword"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Awakening processing to make Awakened Supremium Sword. Item inputs include Supremium Sword, Awakened Supremium Gemstone, Awakened Supremium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "120118D75467575C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B1B47ADD8361970",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:awakened_supremium_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13475BE217394C50",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1040ADABAD131B9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.45781d,
+      "y": 4.29218d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11D0DCF5B7B17693",
+      "title": "Awakening Altar",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:awakening_altar"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Awakening Altar. Item inputs include Soulstone, Orange Wool. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1639A0D81E539756"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E191FF06541E473",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:awakening_altar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "117D6A53E252007C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19F78B3B2B46BBC9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.83109d,
+      "y": 4.77794d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "112F43476B29E8F0",
+      "title": "Cognizant Dust",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:cognizant_dust"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Cognizant Dust and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1639A0D81E539756"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1138B77F5769282C",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:cognizant_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15458553AFC96EC9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10EF86692C2B14B3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.69822d,
+      "y": -2.25913d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C931B73681732CC",
+      "title": "Diamond Scythe",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:diamond_scythe"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Diamond Scythe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12A880EF286D8E63",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:diamond_scythe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12F3EB6D65F6E13E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "180356BDAEE6C1A5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.08795d,
+      "y": 13.3023d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "176583FFEFBD3EC4",
+      "title": "Diamond Sickle",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:diamond_sickle"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Diamond Sickle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1282E104ACCB9CAF",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:diamond_sickle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C95C31CA5BD91B1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D91C034B2007C77",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.17943d,
+      "y": 11.31111d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17A885BF51623B3A",
+      "title": "Enchanter",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:enchanter"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Enchanter. Item inputs include Enchanting Table, Soulstone, Soulium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "131B000497BEF4A7",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:enchanter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12ED06CDE9796BBA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "189CC47084F44701",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.52943d,
+      "y": 11.31111d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "144735A29B5A2CFF",
+      "title": "Furnace",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:furnace"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Furnace. Item inputs include Prosperity Ingot, Furnace, Machine Frame. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B95CEA7AAC1AB80"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "173C9E9F284F30AC",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18038359F44A70D6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "130122522188586F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.5783d,
+      "y": 10.01602d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19BAD8710FD03740",
+      "title": "Harvester",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:harvester"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Harvester. Item inputs include Soulium Ingot, Machine Frame. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C931B73681732CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1323EFBC41982418",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:harvester"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18474A2D6528BFBD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B17ACEC3F5E9F87",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.47394d,
+      "y": 10.97793d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FD69C1106431ED8",
+      "title": "Imperium Helmet",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:imperium_helmet"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Imperium Helmet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145ECD788A97352A",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:imperium_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DA7824B7569B0F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D692A8CC10E00B9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.55767d,
+      "y": 7.25764d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B5436B8E8C511D",
+      "title": "Imperium Sword",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:imperium_sword"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Imperium Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19AA571773EED09C",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:imperium_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1656965F5CF2EAA4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "170BA93DA843488C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.5064d,
+      "y": 8.26706d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1786F7B5D6E7DAB0",
+      "title": "Inferium Helmet",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:inferium_helmet"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Inferium Helmet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "157B533ED141B67C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1548CFCFBBB5FEDA",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:inferium_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF1B79319372535",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB8E9C7C6D52FF3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.30839d,
+      "y": 11.91193d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11FDD0B2F2D068F0",
+      "title": "Inferium Sword",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:inferium_sword"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Inferium Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "157B533ED141B67C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12BEB76A9EFE25FF",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:inferium_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "193075DEE2F87C7A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A2E541D6D636C6C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.39674d,
+      "y": 14.97512d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CAA154BF7BA6B20",
+      "title": "Mystical Fertilizer",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:mystical_fertilizer"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Mystical Fertilizer. Item inputs include Bone Meal, Inferium Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13D13985BEE199C3",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:mystical_fertilizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C453D70936421FE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ACED8D9BCFADC49",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.44844d,
+      "y": 16.10251d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B95CEA7AAC1AB80",
+      "title": "Prosperity Shard",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:prosperity_shard"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Prosperity Shard. Item inputs include Quartz, Lapis Lazuli, Gold Nugget. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "147A933AD3D12186",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:prosperity_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1935DF0E4603D226",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16AE55E32128A69E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.22066d,
+      "y": 12.10691d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12A495B71254FA5F",
+      "title": "Prudentium Helmet",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:prudentium_helmet"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Prudentium Helmet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "161B43DF8C58124C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "103C86EC5735F598",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:prudentium_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D4CAE7627A4058F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18FEF1FC32175D1C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.88876d,
+      "y": -1.01482d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "155112453F68A5E9",
+      "title": "Prudentium Sword",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:prudentium_sword"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Prudentium Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "161B43DF8C58124C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DD2A637372E1EEA",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:prudentium_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "157863BD4E7452D1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1185A8362290DBAE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.23876d,
+      "y": -1.01482d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19568E0F733E4A7B",
+      "title": "Seed Reprocessor",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:seed_reprocessor"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Seed Reprocessor. Item inputs include Soulium Ingot, Iron Hoe, Machine Frame. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E25501C7CCD17D",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:seed_reprocessor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A1383B82DD2CB2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12F8B39DF55BB871",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.4152d,
+      "y": 16.10251d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E7003F92760C0AC",
+      "title": "Soul Extractor",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:soul_extractor"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Soul Extractor. Item inputs include Soulium Ingot, Soulium Dagger, Machine Frame. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CF52D4D0B31C464",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:soul_extractor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "194FDBE75C10DDF3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "110247EEF540A7F9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.17943d,
+      "y": 12.66111d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A6B5E39F5720EFA",
+      "title": "Soulium Dagger",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:soulium_dagger"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Soulium Dagger and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "161B43DF8C58124C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA50B3BC31C2A85",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:soulium_dagger"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1272237865911697",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15221EE03BC51207",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.58839d,
+      "y": 9.5844d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1196EF21B651E660",
+      "title": "Soulium Spawner",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:soulium_spawner"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Soulium Spawner. Item inputs include Soulium Ingot, Wither Skeleton Skull, Machine Frame. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145D5FDAA8235BCF",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:soulium_spawner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1733ED83E8ABAEE2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BBAD89257A88C4D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.80934d,
+      "y": 14.10525d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F3D786D71C36FEC",
+      "title": "Supremium Helmet",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:supremium_helmet"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Supremium Helmet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1639A0D81E539756"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "178BF4406A1D7AE7",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:supremium_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A7EB0214469E0C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EEA58ED02AF43F7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.58876d,
+      "y": -1.01482d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1519DC80AEA10678",
+      "title": "Supremium Sword",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:supremium_sword"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Supremium Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1639A0D81E539756"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145E8F58B54FEA15",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:supremium_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1900A80E76010FA0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1442C0FA91590B81",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.93876d,
+      "y": -1.01482d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CED5201CEEC6EF3",
+      "title": "Tertium Helmet",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:tertium_helmet"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Tertium Helmet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "176BE8E71A93A803"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1850C4DF876C5A6A",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:tertium_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "106D642F90B8FF24",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E214E993676CF15",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.68008d,
+      "y": 9.63184d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A3D8C4CC8AD5A1",
+      "title": "Tertium Sword",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:tertium_sword"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Obtain Tertium Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "176BE8E71A93A803"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EA1E715C7EFC99D",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:tertium_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14163845AFE84E29",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16A640F1B41C159A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.49909d,
+      "y": 11.39236d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "163952D0B554C91E",
+      "title": "Tinkering Table",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:tinkering_table"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Tinkering Table. Item inputs include Stone, Soulium Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "181EB3F1BCF6F1DF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "180C8DF68599A9F7",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:tinkering_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A145C6778F68D2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B710418DBD8FA49",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.30839d,
+      "y": 9.21193d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "181EB3F1BCF6F1DF",
+      "title": "Unattuned Augment",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:unattuned_augment"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Unattuned Augment. Item inputs include Prosperity Shard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1786F7B5D6E7DAB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1758BE893539E077",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:unattuned_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19B622836AEDBEDA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "184C023F70DAFEDD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.30839d,
+      "y": 10.56193d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14011569550A4A07",
+      "title": "Wand",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:wand"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Crafting Shaped processing to make Wand. Item inputs include Inferium Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "157B533ED141B67C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ADD4DDB1809CA4E",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:wand"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1165B0A0925EEFE7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10F73976461478A9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.61547d,
+      "y": 10.90031d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "113029B0796873C4",
+      "title": "Wheat Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "minecraft:wheat_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Use Market processing to make Wheat Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1740DC29B8DFB6BC",
+          "type": "item",
+          "item": {
+            "id": "minecraft:wheat_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E2C471D6F66B7D1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E36EBA023AC4B4F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.93182d,
+      "y": 14.85527d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11D24DFB59595D15",
+      "title": "Air Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:air_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Air Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18B5FEEFE4DD243A",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:air_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F2939EAE884C69B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D42D531F51891E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.46119d,
+      "y": 8.14403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "110B929097F48E29",
+      "title": "Awakened Draconium Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:awakened_draconium_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Awakened Draconium Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1948DF03A296F32B",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:awakened_draconium_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "192715660ACC152A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F4E58E35AEA810B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.954d,
+      "y": 7.99399d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10ECD698F703A959",
+      "title": "Blaze Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:blaze_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Blaze Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16B907940BF83C8D",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:blaze_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1100AAF744443722",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "142D29B004128D30",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.17376d,
+      "y": 6.19063d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F466030D0D2146D",
+      "title": "Breeze Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:breeze_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Breeze Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DF6C921FE831FCE",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:breeze_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1532E5CFC2752468",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C66B832B66C5AD6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.16119d,
+      "y": 2.74403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A814EFA8594340D",
+      "title": "Chicken Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:chicken_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Chicken Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DAE50C0E644B943",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:chicken_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B94942F247B2D40",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "141AC41D45253DAA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.52391d,
+      "y": 9.86068d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B40402D8F9DEFCA",
+      "title": "Coral Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:coral_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Coral Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E26F3C5E48FEC1C",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:coral_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172FFF3F4D68B014",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13F85330F4A0B585",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.86119d,
+      "y": 2.74403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F5777CE11A6F4E",
+      "title": "Cow Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:cow_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Cow Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D0A7D028D5233BD",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:cow_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1816D232DB6B3C6D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D2B7B7DDB2F8374",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.21119d,
+      "y": 2.74403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16871C2A205571A1",
+      "title": "Creeper Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:creeper_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Creeper Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1941C91EC4FB788D",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:creeper_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17EE22C245F37BFB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A625EDD963D8E2D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.56119d,
+      "y": 2.74403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1766AEC3B3E93296",
+      "title": "Deepslate Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:deepslate_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Deepslate Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "191661BE1E49B9F1",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:deepslate_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AD4A4C9E8C3407F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1176794AD1A2CB90",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.11119d,
+      "y": 4.09403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13BED153C8F4000D",
+      "title": "Dirt Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:dirt_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Dirt Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EE545681FA1C961",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:dirt_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15320B6C802CA7BF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BB25C12F5D96735",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.46119d,
+      "y": 4.09403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "143FA824A8805D94",
+      "title": "Dragon Egg Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:dragon_egg_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Dragon Egg Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "167E214EF60331DA",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:dragon_egg_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D89F64911675580",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13841590F3286F08",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.81119d,
+      "y": 4.09403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FA877529C180130",
+      "title": "Dye Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:dye_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Dye Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB301DC130CA1A6",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:dye_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17AA07851015C8E1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1419642A985DC3B8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.16119d,
+      "y": 4.09403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "105138BC969973EC",
+      "title": "Earth Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:earth_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Earth Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F63265D273CFFB",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:earth_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17A831697C1B4227",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17B0EF57CD4459F5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.51119d,
+      "y": 4.09403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12563CE1B544EE77",
+      "title": "Enderman Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:enderman_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Enderman Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F04B6E17B91EC2E",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:enderman_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C6709412A415A08",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15642EBD23924F7F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.86119d,
+      "y": 4.09403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12A0BE8A4810CC25",
+      "title": "Experience Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:experience_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Experience Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA2B2BCD64ED7EE",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:experience_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1032D0CCEC6913BA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BE5EECCCD959CA6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.21119d,
+      "y": 4.09403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17D2F25A5E25D1DF",
+      "title": "Fire Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:fire_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Fire Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C925419964F9C89",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:fire_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "124D14F5C3F92B63",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "181B8BBA244AFC0E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.56119d,
+      "y": 4.09403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D292DEE0B7E602",
+      "title": "Fish Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:fish_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Fish Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B29D3D5C70779BA",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:fish_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E0A4F60D6F10F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19F14C6EF451517B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.11119d,
+      "y": 5.44403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CD4613BADD26E03",
+      "title": "Ghast Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:ghast_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Ghast Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "177B6F49BDAEF79A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19FDAA8D74119220",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:ghast_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "117B5E7E0E55B54B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19FDE80E54978F9A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.46119d,
+      "y": 5.44403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15480DFC944E7375",
+      "title": "Honey Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:honey_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Honey Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EBE6AE645B65451",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:honey_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EA28E9622259066",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14B7ED0E63EEF541",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.81119d,
+      "y": 5.44403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1887455EB162D321",
+      "title": "Ice Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:ice_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Ice Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CDCCA15D8AE789A",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:ice_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "125FB8B65DFA1EA6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18634901E88F5E3C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.16119d,
+      "y": 5.44403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1624A003D9BFEF5D",
+      "title": "Limestone Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:limestone_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Limestone Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "124E696DB5F04253",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:limestone_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18F675830F051AC2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B75BCCF86422705",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.51119d,
+      "y": 5.44403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D4D4814C3F64B8",
+      "title": "Nature Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:nature_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Nature Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15B84C3842D13196",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:nature_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1759F0074D4BA802",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "182CE8DC93B8DBF0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.86119d,
+      "y": 5.44403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EDF3491685C5B7A",
+      "title": "Nether Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:nether_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Nether Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A06747380715D92",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:nether_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198AF8CB28D4A136",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19B46DFBA6644C44",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.21119d,
+      "y": 5.44403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB149B88E0A4CC2",
+      "title": "Nether Star Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:nether_star_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Nether Star Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B7497358C1AAEA8",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:nether_star_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10498697D5A8DB56",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17A97DA2CB25DC81",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.56119d,
+      "y": 5.44403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A48773C621648BA",
+      "title": "Rabbit Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:rabbit_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Rabbit Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10268F3668D0B0A3",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:rabbit_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13A11018F345B428",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F46C325141B5D6E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.11119d,
+      "y": 6.79403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "132E4191E26ECFF1",
+      "title": "Sheep Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:sheep_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Sheep Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1952FAEA4831481C",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:sheep_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11BB142BF8C38A2F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "137D6C1568FD8A6B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.46119d,
+      "y": 6.79403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "178513952FC7F249",
+      "title": "Skeleton Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:skeleton_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Skeleton Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "121E3F9401098E30",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:skeleton_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "104F2246A3E2FE73",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "186BCAE469A3932B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.81119d,
+      "y": 6.79403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB059035B2134C6",
+      "title": "Slime Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:slime_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Slime Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12607972207572E6",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:slime_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16C6EF980B004E26",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "164C5EB0B22499C0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.16119d,
+      "y": 6.79403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "122AA8066984CC2D",
+      "title": "Soulium Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:soulium_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Soulium Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "172E9420A9EA3151"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1890EF43CE616DFF",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:soulium_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D1CC2A7418A40DA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E252D4FDE8E126B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.49144d,
+      "y": 5.60514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10887D188F389912",
+      "title": "Spider Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:spider_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Spider Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12427B7C583FC77E",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:spider_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BC9EFBC6D509773",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "132236D651CA6B9A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.86119d,
+      "y": 6.79403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B41C5333AE4D0FF",
+      "title": "Squid Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:squid_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Squid Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1076EC1CE93E29F4",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:squid_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15FDCCF089460D37",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140B7FC6A2D1E411",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.21119d,
+      "y": 6.79403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "154802D9713CF488",
+      "title": "Stone Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:stone_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Stone Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17CCEADB1D15332F",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:stone_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16B974CB8531DF9C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11B9C2A8799F1243",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.56119d,
+      "y": 6.79403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18AC4311B22436B0",
+      "title": "Water Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:water_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Water Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A20B2E3D5EB70C2",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:water_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A0CE1741DFD12E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13C9787CE137815F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.11119d,
+      "y": 8.14403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F6CB07976BC6404",
+      "title": "Wither Skeleton Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:wither_skeleton_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Wither Skeleton Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1639A0D81E539756"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C3A549B44C1E9FB",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:wither_skeleton_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "177AD15E69E159AB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17F768147B800A54",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.56855d,
+      "y": 1.40353d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F07685AA3308635",
+      "title": "Wood Seeds",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "id": "mysticalagriculture:wood_seeds"
+      },
+      "description": [
+        "Grow Inferium and craft infusion seeds for renewable materials. Match farmland and crux requirements to the seed tier; Botany Pots can grow supported crops without a large field.",
+        "Craft Wood Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D1C4AACD312CD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17E0B9231646809A",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:wood_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1883B03BCC62EB38",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13F739AF757AAFB5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.11119d,
+      "y": 2.74403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1989701F4BBD289C",
+      "title": "Watering Cans",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mysticalagriculture:watering_can)item(pickletweaks:watering_can))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mysticalagriculture:watering_can)item(pickletweaks:watering_can))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "16CBE475EF529F0B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11FB03738BE5D713",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.26884d,
+      "y": 15.5441d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1629D5D8590D8419",
+      "title": "Machine Upgrades",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_upgrade)item(mysticalagriculture:prudentium_upgrade)item(mysticalagriculture:tertium_upgrade)item(mysticalagriculture:imperium_upgrade)item(mysticalagriculture:supremium_upgrade)item(mysticalagriculture:awakened_supremium_upgrade))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1B95CEA7AAC1AB80"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_upgrade)item(mysticalagriculture:prudentium_upgrade)item(mysticalagriculture:tertium_upgrade)item(mysticalagriculture:imperium_upgrade)item(mysticalagriculture:supremium_upgrade)item(mysticalagriculture:awakened_supremium_upgrade))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1A42E4C0D612F2A8",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BE46D9D736F19C6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.57837d,
+      "y": 11.33802d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16CCBA9FE40985FA",
+      "title": "Witherproof Blocks",
+      "subtitle": "Mystical Agriculture",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mysticalagriculture:witherproof_block)item(mysticalagriculture:witherproof_bricks)item(mysticalagriculture:witherproof_glass))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1F6CB07976BC6404"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mysticalagriculture:witherproof_block)item(mysticalagriculture:witherproof_bricks)item(mysticalagriculture:witherproof_glass))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1E8BE7AC3C8DB26A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "184625EF1BC3520B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.95991d,
+      "y": 2.23121d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

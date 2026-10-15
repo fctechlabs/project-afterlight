@@ -1,0 +1,5219 @@
+{
+  "id": "1AA099C922951799",
+  "filename": "94_starlight",
+  "title": "Eternal Starlight",
+  "icon": {
+    "id": "eternal_starlight:book"
+  },
+  "group": "15E451C383170371",
+  "order_index": 71,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1C9B943337C745B1",
+      "title": "Amaramber Pickaxe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:amaramber_pickaxe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Amaramber Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1685C91D17EE9EC9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "141D4B898662DA61",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:amaramber_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A9FA35A6D1FF0E3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA8F686725F299A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.9722d,
+      "y": -2.59519d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F10BBFFD51419CE",
+      "title": "Crystal Crossbow",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:crystal_crossbow"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Crystal Crossbow. Item inputs include Blue Starlight Crystal Shard, Red Starlight Crystal Shard, String, Tripwire Hook. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB76EDA84259E9A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18006CBF1A21ECB2",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:crystal_crossbow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1604F19EA4261BF5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10A3E960F78A4BDD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.46483d,
+      "y": 20.75853d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11934A8308BDEC2A",
+      "title": "Deepsilver Pickaxe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:deepsilver_pickaxe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Deepsilver Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "137444BC01D3D62C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18E4930F7FAB99F0",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:deepsilver_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C71E22440D2B480",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "185C2A5FD5409C06",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.6222d,
+      "y": -1.24519d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BD1E28B91738174",
+      "title": "Flowglaze Bow",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:flowglaze_bow"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Use a Smithing Table to make Flowglaze Bow. Item inputs include Flowglaze, Bow, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15EB558943549ACB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AF2A16E65C3D205",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:flowglaze_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16633B615AF55F5E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "131A8ADC4CA01B8F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.46689d,
+      "y": 21.9229d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1184A24088B7B992",
+      "title": "Flowglaze Pickaxe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:flowglaze_pickaxe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Use a Smithing Table to make Flowglaze Pickaxe. Item inputs include Flowglaze, Glacite Pickaxe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15EB558943549ACB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E43D294BCA1D8A5",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:flowglaze_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E2A475FE30B5105",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E51BF6522ADED91",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.08217d,
+      "y": 22.72019d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1970F87CAE260FE6",
+      "title": "Glacite Pickaxe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:glacite_pickaxe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Glacite Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "181BD635BEB49D0A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "196C7B7A7DCA744B",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:glacite_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18F3B1E050188742",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E153B94E1045E86",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.00506d,
+      "y": 10.53214d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1093EF69033E723B",
+      "title": "Golem Steel Greatsword",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:golem_steel_greatsword"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Golem Steel Greatsword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DC9E427E7C87889",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:golem_steel_greatsword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "103E05D9E0768BE1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "162E2207EF9F8B91",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.40716d,
+      "y": 11.49653d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14D77EF97B9B3A1D",
+      "title": "Malarite Pickaxe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:malarite_pickaxe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Malarite Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C29EDE02845110D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19661C2BBDDDEF36",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:malarite_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1496047F0F276BA3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1996DAE188A58200",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.05885d,
+      "y": 15.32455d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11C1070C1D8F08BA",
+      "title": "Mechanical Crossbow",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:mechanical_crossbow"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Mechanical Crossbow. Item inputs include Tripwire Hook, String. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB76EDA84259E9A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "140C34B80AF6B741",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:mechanical_crossbow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D0BF43B12EC2B2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18D52109AF65EE4E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.63397d,
+      "y": 21.43353d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C5A123D40BEDD6",
+      "title": "Moonring Bow",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:moonring_bow"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Moonring Bow and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "145108EA08E36BAF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A3796A7CBA23027",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:moonring_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D4920BBA5203F6B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15942C483B9AC518",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.38376d,
+      "y": 15.63227d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11021FCF9BA18078",
+      "title": "Moonring Greatsword",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:moonring_greatsword"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Moonring Greatsword. Item inputs include Tenacious Petal, Soul Dew, Tenacious Vine. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "145108EA08E36BAF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B73083C2EA1C9A5",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:moonring_greatsword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120EFFE980CD4925",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19358D6D21CBC746",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.37037d,
+      "y": 15.83385d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D41B1FA9F2BE4A5",
+      "title": "Starfall Longbow",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starfall_longbow"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Starfall Longbow. Item inputs include Creteor Hide, String. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C23087813515024"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CAF14151BFA26CD",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:starfall_longbow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19AD8904AFD30ECA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "183AB34DA08D275E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.56729d,
+      "y": 7.90992d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1013721E5851EC78",
+      "title": "Starfire Crossbow",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starfire_crossbow"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Use a Smithing Table to make Starfire Crossbow. Item inputs include Starfire, Crossbow, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19001E330889B679"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BBF20C9CF81C8AD",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:starfire_crossbow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B6C852990D8F5B4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12EAC5C36827AA32",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.12252d,
+      "y": 21.658d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B1F446379CFBECF",
+      "title": "Starfire Pickaxe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starfire_pickaxe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Use a Smithing Table to make Starfire Pickaxe. Item inputs include Starfire, Thermal Springstone Pickaxe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19001E330889B679"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "158935FDD618CF6C",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:starfire_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B81584E11D3D8A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1104CA5DD72D0F20",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.70858d,
+      "y": 20.34087d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18502DEA6D6B490D",
+      "title": "Starlit Diamond Pickaxe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starlit_diamond_pickaxe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Starlit Diamond Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCDC2389DF9BA2D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152C071F6FAD6BA4",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:starlit_diamond_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10AD93FDD8EFA9E7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17BC22C11559B8B0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.42226d,
+      "y": 14.84118d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F585615DBC7E284",
+      "title": "Thermal Springstone Pickaxe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:thermal_springstone_pickaxe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Thermal Springstone Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "152DF4C20C714FBB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13012680D284C0AC",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:thermal_springstone_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14161C71762A5A2F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11DC860618A63587",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.3131d,
+      "y": 17.03606d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BED133589B2AE17",
+      "title": "Wand of Teleportation",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:wand_of_teleportation"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Wand of Teleportation and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "145108EA08E36BAF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "118F169D22847685",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:wand_of_teleportation"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1816FB627FF46C4E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "134037138817F2E4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.36095d,
+      "y": 15.78258d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B243444C3037765",
+      "title": "Wilted Crossbow",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:wilted_crossbow"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Wilted Crossbow. Item inputs include Red Velvetumoss Flower, Tenacious Vine. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB76EDA84259E9A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BFBE6ED2DF6D119",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:wilted_crossbow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FC7865830B6D233",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F6865CFAD7B5DD4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.8031d,
+      "y": 22.10853d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1581EB77C52AC36A",
+      "title": "Abyssal Fruit",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:abyssal_fruit"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Abyssal Fruit and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1209396E256D3EE6",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:abyssal_fruit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ECC2D3D6F3FF956",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12E6004B890D8E49",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.43822d,
+      "y": 10.15411d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EF7F35F6E924643",
+      "title": "Block of Aethersent",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:aethersent_block"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Block of Aethersent. Item inputs include Aethersent Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C9FF7E561D0357A",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:aethersent_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D3944A928BF4773",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F06E2509D7BED3B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.04825d,
+      "y": 11.9273d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E062C72177A0C21",
+      "title": "Aethersent Bottoms",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:aethersent_bottoms"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Aethersent Bottoms. Item inputs include Creteor Hide. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C23087813515024"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17CE16B2AFCEB310",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:aethersent_bottoms"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "185E650229AF94F4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F72853F00ABAE54",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.89323d,
+      "y": 7.64655d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FC2DFB3B98782B6",
+      "title": "Aethersent Cape",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:aethersent_cape"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Aethersent Cape. Item inputs include Creteor Hide. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C23087813515024"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A39FA1D445EE621",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:aethersent_cape"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E7E28BDDCDACA48",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18BABD23E07803BA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.95392d,
+      "y": 6.58586d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1166BC430AE94814",
+      "title": "Aethersent Hood",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:aethersent_hood"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Aethersent Hood. Item inputs include Creteor Hide. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C23087813515024"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "177941A03B9F512F",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:aethersent_hood"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14D81FF1075DABC6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "115177E9D8083D88",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.40162d,
+      "y": 4.12835d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123D18C7682B069A",
+      "title": "Aetherstrike Rocket",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:aetherstrike_rocket"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Aetherstrike Rocket. Item inputs include Creteor Hide, Starcore, Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154E48BE5DD25E49"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A1AC218FD27DE90",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:aetherstrike_rocket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FE730AA20F764A1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ED2CEE3E075016D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.21486d,
+      "y": 9.12588d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1614D9AF8F57D6BA",
+      "title": "Air Sac Mask",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:air_sac_mask"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Air Sac Mask. Item inputs include Velvetumoss Ball, Jinglestem Log, Amaramber Mask, Rookfish Air Sac. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12D2E2457AE0019E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "112685E0D7F11032",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:air_sac_mask"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10AF41434E2199D3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "187A1C7907E76947",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.37962d,
+      "y": 5.32364d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "149A8EF0F9F2188F",
+      "title": "Alchemist Mask",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:alchemist_mask"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Alchemist Mask. Item inputs include Leather. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "180EC6E03AD35D3E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BAC817B4B215006",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:alchemist_mask"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "127DD25310D14132",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B1C56A68868B948",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.49798d,
+      "y": 19.07775d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B4F75B814AACA27",
+      "title": "Alchemist Robe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:alchemist_robe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Alchemist Robe. Item inputs include Leather. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "180EC6E03AD35D3E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "175B622F060966FB",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:alchemist_robe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EBCFCD8205AD690",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B7BB80B7D7F99C9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.89721d,
+      "y": 17.75747d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13E8DAD194C39489",
+      "title": "Amaramber Mask",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:amaramber_mask"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Amaramber Mask. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1685C91D17EE9EC9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "167353FE08B36371",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:amaramber_mask"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10D84CD0A2B52426",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BEB4729B8854375",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.87638d,
+      "y": 9.29565d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "106F2634612D44E5",
+      "title": "Amaramber Sickle",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:amaramber_sickle"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Amaramber Sickle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1685C91D17EE9EC9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "147B91FC0CDC5E31",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:amaramber_sickle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12989F4386912CC9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19474B3D2BD8AED9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.55438d,
+      "y": 9.19473d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D0B7A0BF83F7C7",
+      "title": "Aurora Deer Antler",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:aurora_deer_antler"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Aurora Deer Antler and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "19302BB21C8A5EC4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D2A6C96693CC4AE",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:aurora_deer_antler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D1D60C8D79AED0E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19EE0103D3169B1D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.78993d,
+      "y": 7.52611d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16A9BCD6A1147F1B",
+      "title": "Chain of Souls",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:chain_of_souls"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Chain of Souls. Item inputs include Tenacious Petal, Soul Dew, Tenacious Vine. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "145108EA08E36BAF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16CD2F37506FF15E",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:chain_of_souls"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CFED1DFA7BE7CE9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "118FFABB7DFBDE24",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.62887d,
+      "y": 13.45367d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12A694ACA1A6550B",
+      "title": "Crescent Spear",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:crescent_spear"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Crescent Spear. Item inputs include Tenacious Petal, Tenacious Vine. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "145108EA08E36BAF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E9A763D18AE7A1B",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:crescent_spear"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "119A45379F1A9525",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1182E3C930956C9E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.12147d,
+      "y": 16.96175d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "154E48BE5DD25E49",
+      "title": "Creteor Hide",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:creteor_hide"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Creteor Hide and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "12DDB678253C99CF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EC1AFA1B4A93AB4",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:creteor_hide"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1329C6284AED4669",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C2950A82A981B1F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.8207d,
+      "y": 9.51462d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "139FE37D042824BC",
+      "title": "Cryobyssal Magma Block",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:cryobyssal_magma_block"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Cryobyssal Magma Block and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E0A9837FA114594",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:cryobyssal_magma_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13BDF89AF3EC83F3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17AD9E41AC2A03F8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.91884d,
+      "y": 9.74595d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184419825EC2A8B5",
+      "title": "Dagger of Hunger",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:dagger_of_hunger"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Dagger of Hunger. Item inputs include Tooth of Hunger. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "197E6F0A62B57343"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "189C46DF8EA986D0",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:dagger_of_hunger"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19B50EEA57C5BAAC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A61A2AF0E6822DA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.93076d,
+      "y": 14.71361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15EDB058D8197B46",
+      "title": "Deepsilver Brush",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:deepsilver_brush"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Deepsilver Brush. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "137444BC01D3D62C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D49A0250D76A148",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:deepsilver_brush"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1483BB5E12CAA048",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "133B8CE76DCD215A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.28995d,
+      "y": 14.56816d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C0210ABEEBDD629",
+      "title": "Deepsilver Sickle",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:deepsilver_sickle"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Deepsilver Sickle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "137444BC01D3D62C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17E3AE42B2268E2C",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:deepsilver_sickle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DAF84A31B6F529B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C8E71E7948CE49C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.40616d,
+      "y": 13.24771d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1239D538E109D9F8",
+      "title": "Energy Boomerang",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:energy_boomerang"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Energy Boomerang. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B74A6CB9E9A7B02",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:energy_boomerang"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D4B90336861ABFD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B608545C214AEDA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 21.29158d,
+      "y": 11.49653d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1593C2BFC3A03441",
+      "title": "Ether Bucket",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:ether_bucket"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Ether Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DEF9027FCA03867",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:ether_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D753A28DBD75A43",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C722AA601166FEF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.93426d,
+      "y": 16.44549d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC0CBFD4F58A374",
+      "title": "Flowglaze",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:flowglaze"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Blast Flowglaze. Item inputs include Raw Flowglaze. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "165B8B35BCD0E96C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F5AFE8CAC93CD1A",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:flowglaze"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1122A6A6718933BB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B954C47981BCC7E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.9268d,
+      "y": 20.34027d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "126E0E3C51BE14FC",
+      "title": "Flowglaze Scythe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:flowglaze_scythe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Use a Smithing Table to make Flowglaze Scythe. Item inputs include Flowglaze, Glacite Scythe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15EB558943549ACB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199B0DBA5C83F736",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:flowglaze_scythe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BEAA2C4654B0889",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CDB77E061898762",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.09778d,
+      "y": 23.4296d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F440EFB57C16F75",
+      "title": "Flowglaze Shield",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:flowglaze_shield"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Use a Smithing Table to make Flowglaze Shield. Item inputs include Flowglaze, Glacite Shield, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15EB558943549ACB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB23C216E249E6F",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:flowglaze_shield"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13DB218C3EEBE2A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A0C96EE4EF694C1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.13444d,
+      "y": 22.98153d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12406DA85A71E004",
+      "title": "Frozen Tube",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:frozen_tube"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Frozen Tube and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10B6ECAAEEFBCCD6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C27D78D852EA8C",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:frozen_tube"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "177E811FECD2C39A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D4FE7514E9FEC1E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.46768d,
+      "y": 18.11639d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DFA89DC77EB8D11",
+      "title": "Glacite Scythe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:glacite_scythe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Glacite Scythe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "181BD635BEB49D0A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A6F488F2637195E",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:glacite_scythe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ACDE6644E256D9E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16E16CDA23243932",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.10699d,
+      "y": 8.19546d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "181BD635BEB49D0A",
+      "title": "Glacite Shard",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:glacite_shard"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Blast Glacite Shard. Item inputs include Glacite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BF73015CD9AA866",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:glacite_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10859B9BC825EC93",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "117D90AE8BEF6597",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.48844d,
+      "y": 9.2849d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1167D165FC007AA5",
+      "title": "Glacite Shield",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:glacite_shield"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Glacite Shield. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "181BD635BEB49D0A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18BA1AD478790D1E",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:glacite_shield"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1618E1169BEF3718",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1043B9702A57D15D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.68391d,
+      "y": 6.64409d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B2B4B050E7DDAE8",
+      "title": "Lunar Reed",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:lunar_reed"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Lunar Reed and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12A7923347A77711",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:lunar_reed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18FD8FEE70FA6423",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FF9626917886007",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.1482d,
+      "y": 11.87781d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C29EDE02845110D",
+      "title": "Malarite",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:malarite"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Blast Malarite. Item inputs include Grimstone Malarite Ore. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E9568C96937F14",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:malarite"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF38F1ECAD9AB73",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "181CD5FFAD6993AB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.80887d,
+      "y": 16.44703d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B69B84E2B92BB3F",
+      "title": "Malarite Sickle",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:malarite_sickle"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Malarite Sickle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C29EDE02845110D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C848B263D5DC8E",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:malarite_sickle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11DE9DB7E532CDBB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D7E161BDF53F455",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.65262d,
+      "y": 17.76718d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12AB8EC36D68019B",
+      "title": "Malarite Spear",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:malarite_spear"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Malarite Spear. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C29EDE02845110D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B9026659626843",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:malarite_spear"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17B6F73FE502F962",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "130FCF5D7460A559",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.97311d,
+      "y": 17.76708d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BDEDA95051FF3A6",
+      "title": "Orb of Prophecy",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:orb_of_prophecy"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Orb of Prophecy. Item inputs include Blue Starlight Crystal Shard, Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EA61AB8B525F8F0",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:orb_of_prophecy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "145CEE4EB133AA95",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BBB2797E3577A92",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.45178d,
+      "y": 16.4098d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187911B7D1EE2AD4",
+      "title": "Petal Scythe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:petal_scythe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Petal Scythe. Item inputs include Tenacious Petal, Tenacious Vine. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "145108EA08E36BAF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EAD400A01F40C2F",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:petal_scythe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "182419A5A3C718FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F7958B2D64AB462",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.95387d,
+      "y": 14.6228d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A864348B78C7C60",
+      "title": "Rage of Stars",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:rage_of_stars"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Rage of Stars. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C23087813515024"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FC484791E547275",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:rage_of_stars"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19412BC2B1A229D9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1136ED9F6D9B523F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.96731d,
+      "y": 6.78744d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1685C91D17EE9EC9",
+      "title": "Raw Amaramber",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:raw_amaramber"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Raw Amaramber. Item inputs include Block of Raw Amaramber. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "133F1AF728275966",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:raw_amaramber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B6B1C7CD42C195A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1769769F289770CD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.92918d,
+      "y": 10.62341d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "129227F85C769A2D",
+      "title": "Saltpeter Matchbox",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:saltpeter_matchbox"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Saltpeter Matchbox. Item inputs include String. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12F0F86B50FD0F78"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11DEA1CBC39B13B4",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:saltpeter_matchbox"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168ADFC1419D283C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17F157AD7AFD1DCD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.29349d,
+      "y": 17.75812d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F0F86B50FD0F78",
+      "title": "Saltpeter Powder",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:saltpeter_powder"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Blast Saltpeter Powder. Item inputs include Eternal Ice Saltpeter Ore. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13A7F44BD7A852CF",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:saltpeter_powder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "112951F212B536B5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D81CBECD18F388D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.03411d,
+      "y": 16.6678d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "189DF61E30E1ECE8",
+      "title": "Seeking Eye",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:seeking_eye"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Seeking Eye. Item inputs include Starlight Flower. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D5061D8805303E8",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:seeking_eye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11370617533A61FC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B05C06222576AF5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.14692d,
+      "y": 14.18547d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13A849FB9C36A86E",
+      "title": "Sonar Bomb",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:sonar_bomb"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Sonar Bomb. Item inputs include Shivering Gel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B3EFD741F9E0C7D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18E91B382809DB5D",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:sonar_bomb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1287C44CF6D05200",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15632CEBE4049109",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75332d,
+      "y": 16.61205d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "188A4DA80AFB23FC",
+      "title": "Soulit Spectator",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:soulit_spectator"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Soulit Spectator. Item inputs include Soul Dew, Nightfall Spider Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "145108EA08E36BAF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BCD8FDD07BC83FE",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:soulit_spectator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BE9152DDA70B094",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CC7716EDCD3623A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.02267d,
+      "y": 12.43112d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "165B8B35BCD0E96C",
+      "title": "Starfire",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starfire"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Starfire and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D8BC7D07A126C05"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "187565C443310DF9",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:starfire"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1406FC694EA7B851",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "153AF78096C22104",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.76792d,
+      "y": 19.03633d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "179E6E87BC5AD806",
+      "title": "Starfire Hammer",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starfire_hammer"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Use a Smithing Table to make Starfire Hammer. Item inputs include Starfire, Thermal Springstone Hammer, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19001E330889B679"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18568E050D22502A",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:starfire_hammer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "185216FB43236AF9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FD069A63F87AD69",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.47252d,
+      "y": 21.658d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "168BC9C44E86B35B",
+      "title": "Starfire Scythe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starfire_scythe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Use a Smithing Table to make Starfire Scythe. Item inputs include Starfire, Thermal Springstone Scythe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19001E330889B679"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1535A7DED42A7044",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:starfire_scythe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16A6EE871241F76A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C0A4C8FAA728673",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.82252d,
+      "y": 21.658d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DCDC2389DF9BA2D",
+      "title": "Starlit Diamond",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starlit_diamond"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Blast Starlit Diamond. Item inputs include Eternal Ice Starlit Diamond Ore. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D705368455815D7",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:starlit_diamond"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14562C81681D9DB7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19DCE134FD48A13A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.0982d,
+      "y": 14.57781d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1541017E8F5BE865",
+      "title": "Tangled Skull",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:tangled_skull"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Tangled Skull and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "18E2E81DF377C0D9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12E5BC9EE3C1F73F",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:tangled_skull"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "134D8FF9C009F997",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1482FD995688FB51",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.96958d,
+      "y": 11.40115d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1704126CA393C30F",
+      "title": "Thermal Springstone Hammer",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:thermal_springstone_hammer"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Thermal Springstone Hammer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "152DF4C20C714FBB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11FED345CEF532E4",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:thermal_springstone_hammer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ACB92B315DED811",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C0666DCB0252D10",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.00828d,
+      "y": 16.03469d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1784AB0188052282",
+      "title": "Thermal Springstone Scythe",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:thermal_springstone_scythe"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Thermal Springstone Scythe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "152DF4C20C714FBB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E9AA8031A649B69",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:thermal_springstone_scythe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B616C0C729B993D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D4106F14C3C78F1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.33028d,
+      "y": 17.35669d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "180EC6E03AD35D3E",
+      "title": "Block of Thioquartz",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:thioquartz_block"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Block of Thioquartz. Item inputs include Thioquartz Shard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1593C2BFC3A03441"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17907994DBC96670",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:thioquartz_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F8836876DF613E8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EC03B3B16F32EB0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.57521d,
+      "y": 17.75727d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16AAE8486A1C4CD6",
+      "title": "Underminer",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:underminer"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Underminer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18B09B91848F7FEC",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:underminer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12D1DE11DC40772A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "189E7D15338A5C35",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.31597d,
+      "y": 0.31597d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FE5CA65DB1BDA09",
+      "title": "Velvetumoss",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:velvetumoss"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Velvetumoss and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "139FE37D042824BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "186EE102AAB9E38D",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:velvetumoss"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1907A3C80642EF1A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FFB957533AC6A73",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.56768d,
+      "y": 7.98054d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C23087813515024",
+      "title": "Aethersent Ingot",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:aethersent_ingot"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Blast Aethersent Ingot. Item inputs include Raw Aethersent. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12DDB678253C99CF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BD6A7486C5F3BD7",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:aethersent_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B3B455A4729CB53",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DCA6EA10D74DBD3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.21729d,
+      "y": 7.90992d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "140E3A38641E888D",
+      "title": "Blue Starlight Crystal Block",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:blue_starlight_crystal_block"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Blue Starlight Crystal Block and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1449B26261D4F40F",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:blue_starlight_crystal_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1252E7238AAF2A26",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A1CC4FE196C5532",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.0982d,
+      "y": 10.52781d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "137444BC01D3D62C",
+      "title": "Deepsilver Ingot",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:deepsilver_ingot"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Blast Deepsilver Ingot. Item inputs include Eternal Ice Deepsilver Ore. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F2EAAEF60179260",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:deepsilver_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B3CBF7C4CF9099",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "136794166399CE8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.08418d,
+      "y": 13.39337d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A2B73C7A655B7CA",
+      "title": "Dusted Gravel",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:dusted_gravel"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Obtain Dusted Gravel and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1521781C4404A938",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:dusted_gravel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18B2AF88B6798098",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19E29120E3F6AA93",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.2339d,
+      "y": 9.43888d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "152DF4C20C714FBB",
+      "title": "Thermal Springstone Ingot",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:thermal_springstone_ingot"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Blast Thermal Springstone Ingot. Item inputs include Thermal Springstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C8BF3A8F5D228F",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:thermal_springstone_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "169A5DC1D453AA42",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1290DA6D05AEEEE6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.80975d,
+      "y": 16.03603d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12EEF0280DBED620",
+      "title": "Amaramber Chestplate",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:amaramber_chestplate"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Amaramber Chestplate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1685C91D17EE9EC9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15FA21C2A14F19D6",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:amaramber_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B9E70757A322553",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10F772EA2867EE52",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.2722d,
+      "y": -2.59519d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F660B4938848C17",
+      "title": "Deepsilver Chestplate",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:deepsilver_chestplate"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Deepsilver Chestplate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "137444BC01D3D62C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130703DACB11A843",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:deepsilver_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E12A442E79F3F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16CA8D0F80DF2FEA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.2222d,
+      "y": -1.24519d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AA6735F20255FE9",
+      "title": "Glacite Chestplate",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:glacite_chestplate"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Glacite Chestplate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "181BD635BEB49D0A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1248DFF8E701090C",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:glacite_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1722344655499E93",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AE5C0E46B0C7A3A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.26158d,
+      "y": 10.40738d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E9FF7E537EAE94C",
+      "title": "Starlit Diamond Chestplate",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starlit_diamond_chestplate"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Starlit Diamond Chestplate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCDC2389DF9BA2D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FF780973CD1A03C",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:starlit_diamond_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "136886F05B291B74",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B91DD1AE99DD130",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.6722d,
+      "y": 2.80481d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10921102155F0492",
+      "title": "Thermal Springstone Chestplate",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:thermal_springstone_chestplate"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Thermal Springstone Chestplate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "152DF4C20C714FBB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "161F4AFD292BD705",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:thermal_springstone_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D5373F752B474BF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F0185C60224225E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.39502d,
+      "y": 18.97839d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15EB558943549ACB",
+      "title": "Smithing Template",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:flowglaze_upgrade_smithing_template"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Smithing Template. Item inputs include Eternal Ice, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC0CBFD4F58A374"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB503D401A3FF28",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:flowglaze_upgrade_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F26785C819116D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "155F5AC92D1680E0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.14283d,
+      "y": 21.65953d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19001E330889B679",
+      "title": "Smithing Template",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starfire_upgrade_smithing_template"
+      },
+      "description": [
+        "Explore Eternal Starlight for its own resources, creatures, and equipment. Prepare supplies and a way home before travelling, then follow the dimension’s crafting and boss discoveries.",
+        "Craft Smithing Template. Item inputs include Block of Starcore, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "165B8B35BCD0E96C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13A4B6E350D7AA54",
+          "type": "item",
+          "item": {
+            "id": "eternal_starlight:starfire_upgrade_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1537924D68461FDC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1081CF87AF6FE051",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.05858d,
+      "y": 20.34087d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15DC413054540BFF",
+      "title": "Eternal Starlight",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:starlight_flower"
+      },
+      "description": [
+        "Enter Starlight. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "1BDEDA95051FF3A6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "eternal_starlight:starlight",
+          "type": "dimension",
+          "id": "143BEC2AD67D38D7",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C445C3699ECC5A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.25087d,
+      "y": 13.56697d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "145108EA08E36BAF",
+      "title": "Lunar Monstrosity",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:tenacious_petal"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1FEB031A9A45E879"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:lunar_monstrosity",
+          "type": "kill",
+          "value": 1,
+          "id": "1FFC6CB7BA048847",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "132DCC09FDB00FA2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.63374d,
+      "y": 14.50979d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB76EDA84259E9A",
+      "title": "Starlight Golem",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:forge_armor_trim_smithing_template"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1E5EE90CE0D86FB6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:starlight_golem",
+          "type": "kill",
+          "value": 1,
+          "id": "169F120C7F9AFF0E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10E4E7097AEA5D28",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.12446d,
+      "y": 20.96534d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EBF769730730BDB",
+      "title": "Twilight Gaze",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "139FE37D042824BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:twilight_gaze",
+          "type": "kill",
+          "value": 1,
+          "id": "1A7278493F3A5DC1",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E1F8EE228BA98DB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.24002d,
+      "y": 1.41451d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD358D7B866F67A",
+      "title": "Nightfall Spiders",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:nightfall_spider",
+          "type": "kill",
+          "value": 1,
+          "id": "171161B959866359",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18BEDE74B318AC73",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.0982d,
+      "y": 13.22781d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B9EAF2540722A44",
+      "title": "Shimmer Lacewing",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:shimmer_lacewing",
+          "type": "kill",
+          "value": 1,
+          "id": "1D0F4A21A8D8655E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10684DFD5E57EC4C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.7482d,
+      "y": 14.57781d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E8C0771F9DB0FA",
+      "title": "Yetis",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:yeti",
+          "type": "kill",
+          "value": 1,
+          "id": "1387F3048EB8A5A8",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FC05AAFBCC08036",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.1482d,
+      "y": 14.57781d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19302BB21C8A5EC4",
+      "title": "Aurora Deer",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:aurora_deer",
+          "type": "kill",
+          "value": 1,
+          "id": "107D6AB6C979427A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1795F5DCA24CFA2C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.25118d,
+      "y": 9.74336d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1716CB20B194486D",
+      "title": "Ratlins",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:ratlin",
+          "type": "kill",
+          "value": 3,
+          "id": "18E17213F4DBAC6D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "145F8F48D3763C5C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.94639d,
+      "y": 12.03624d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A6BB0801F6AC88D",
+      "title": "Ents",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:ent",
+          "type": "kill",
+          "value": 3,
+          "id": "1F5C38F924A55BBD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F330897D5E69B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.1482d,
+      "y": 10.52781d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D14A1A1DEF39A92",
+      "title": "Lonestar Skeletons",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:lonestar_skeleton",
+          "type": "kill",
+          "value": 3,
+          "id": "1F456F9D970B77EF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18E461112F76E52C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.4482d,
+      "y": 11.87781d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "197E6F0A62B57343",
+      "title": "Thirst Walker",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:thirst_walker",
+          "type": "kill",
+          "value": 1,
+          "id": "19B052C227A76CE3",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3440F13D4A3A27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.61045d,
+      "y": 14.71403d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BE88499B0684028",
+      "title": "Golem Items",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(minecraft:redstone)item(eternal_starlight:oxidized_golem_steel_ingot)item(eternal_starlight:golem_steel_ingot))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "189DF61E30E1ECE8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(minecraft:redstone)item(eternal_starlight:oxidized_golem_steel_ingot)item(eternal_starlight:golem_steel_ingot))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1E7F56AD1C523543",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14C8E25D900C851B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.21748d,
+      "y": 16.79624d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "181C94811927CB21",
+      "title": "Monstrosity Items",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(minecraft:vine)item(eternal_starlight:lunar_berries)item(eternal_starlight:cave_moss)item(eternal_starlight:red_crystal_moss_carpet)item(eternal_starlight:blue_crystal_moss_carpet)item(eternal_starlight:red_crystal_roots)item(eternal_starlight:blue_crystal_roots))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "189DF61E30E1ECE8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(minecraft:vine)item(eternal_starlight:lunar_berries)item(eternal_starlight:cave_moss)item(eternal_starlight:red_crystal_moss_carpet)item(eternal_starlight:blue_crystal_moss_carpet)item(eternal_starlight:red_crystal_roots)item(eternal_starlight:blue_crystal_roots))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "18D636811B8C2AD6",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18372CB47A1BFAA7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.99158d,
+      "y": 14.5203d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18E2E81DF377C0D9",
+      "title": "Tangled",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "181C94811927CB21"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:tangled",
+          "type": "kill",
+          "value": 1,
+          "id": "16E2E143824CD3E1",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17EF87005150B1BA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.57912d,
+      "y": 13.18948d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10B6ECAAEEFBCCD6",
+      "title": "Freeze",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1BE88499B0684028"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:freeze",
+          "type": "kill",
+          "value": 1,
+          "id": "1070B8E3D04C0DB0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1690C5D26880F80B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.53791d,
+      "y": 17.58503d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E5EE90CE0D86FB6",
+      "title": "Powering down",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:energy_block"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Eternal Starlight."
+      ],
+      "dependencies": [
+        "1BE88499B0684028"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "observation_type": "block",
+          "observe_type": 0,
+          "timer": 0,
+          "to_observe": "eternal_starlight:energy_block",
+          "type": "observation",
+          "id": "186EE7191003D60F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "196BCF4EA33AA2F6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.7698d,
+      "y": 19.43839d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B3EFD741F9E0C7D",
+      "title": "Crystallized Moth",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:crystallized_moth_spawn_egg"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:crystallized_moth",
+          "type": "kill",
+          "value": 1,
+          "id": "1D2B45578B323DE8",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14160A603A634629",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.25473d,
+      "y": 16.44079d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C07ECD9E5A5EF69",
+      "title": "Gleech",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:gleech",
+          "type": "kill",
+          "value": 1,
+          "id": "1F39D0B72EF277AF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13BDF8D20676EB9A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.4982d,
+      "y": 10.52781d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FEB031A9A45E879",
+      "title": "Burn it!",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(minecraft:flint_and_steel)item(eternal_starlight:saltpeter_matchbox))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "181C94811927CB21"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(minecraft:flint_and_steel)item(eternal_starlight:saltpeter_matchbox))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1A47E993D78CF621",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16757212DE04B8AF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.31358d,
+      "y": 14.57128d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11391BF38449AAE8",
+      "title": "Luminaris",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "139FE37D042824BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:luminaris",
+          "type": "kill",
+          "value": 1,
+          "id": "1B5108AFE3DD4F64",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B26E51E391E127E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.17275d,
+      "y": 8.57925d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FF384A33028E1B4",
+      "title": "Luminofish",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "139FE37D042824BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:luminofish",
+          "type": "kill",
+          "value": 1,
+          "id": "18BE3745BF9B59E9",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0EE4640B6A44EB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.89002d,
+      "y": 1.41451d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B31C458218D40E4",
+      "title": "Seekers",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:seeker",
+          "type": "kill",
+          "value": 1,
+          "id": "12633EE7012F1FBB",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "107B813F3A30A190",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.8482d,
+      "y": 13.22781d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "124178EECD2BD485",
+      "title": "Shadow Snail",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:shadow_snail",
+          "type": "kill",
+          "value": 1,
+          "id": "1C3A1D189CD014BE",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "175FA1F50516DACD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.75764d,
+      "y": -3.6659d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12D2E2457AE0019E",
+      "title": "Rookfish",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1A2B73C7A655B7CA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "eternal_starlight:rookfish",
+          "type": "kill",
+          "value": 1,
+          "id": "16295570E4613050",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "137A7B74BF7E54E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.92337d,
+      "y": 6.79762d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12DDB678253C99CF",
+      "title": "Meteor Shower",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Eternal Starlight."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "eternal_starlight:witness_meteor_shower",
+          "criterion": "",
+          "type": "advancement",
+          "id": "1B23D85952BEC7F0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F5D4A6387C550AE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.5112d,
+      "y": 8.86451d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8BC7D07A126C05",
+      "title": "The birds and the... birds?",
+      "subtitle": "Eternal Starlight",
+      "icon": {
+        "id": "eternal_starlight:book"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Eternal Starlight."
+      ],
+      "dependencies": [
+        "15DC413054540BFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "eternal_starlight:put_seeds_into_starfire_bird_nest",
+          "criterion": "",
+          "type": "advancement",
+          "id": "1FA7801C2D1EE6DD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "156D930AF7AA6778",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.61385d,
+      "y": 17.71433d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

@@ -1,0 +1,6051 @@
+{
+  "id": "18F360E898043E6A",
+  "filename": "11_pressure",
+  "title": "PneumaticCraft",
+  "icon": {
+    "id": "pneumaticcraft:air_compressor"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 9,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "159F887DA1558DA4",
+      "title": "Guide Book",
+      "subtitle": "Renewable Plastic",
+      "icon": {
+        "id": "patchouli:guide_book",
+        "components": {
+          "patchouli:book": "pneumaticcraft:book"
+        }
+      },
+      "description": [
+        "Use PneumaticCraft's Patchouli manual for chamber construction, pressure safety, and machine heat ranges."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14A7F4F86E02AC66",
+          "type": "item",
+          "item": {
+            "id": "patchouli:guide_book",
+            "components": {
+              "patchouli:book": "pneumaticcraft:book"
+            }
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12A988E0361FDD53",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "142B3425F3010989",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.89127d,
+      "y": 14.23771d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1910DE96153DC459",
+      "title": "Pressure Gauge",
+      "subtitle": "Pressure control",
+      "icon": {
+        "id": "pneumaticcraft:pressure_gauge"
+      },
+      "description": [
+        "Use the Pressure Gauge to see what the network is doing. Stop adding fuel before the pressure reaches the tube limit."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D4A6B9C870EB0E6",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pressure_gauge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E725634D0C9099",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1280025098B77441",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.79528d,
+      "y": 16.16802d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14CE3D4AEAED30A4",
+      "title": "Assembly Controller",
+      "subtitle": "Pressure control",
+      "icon": {
+        "id": "pneumaticcraft:assembly_controller"
+      },
+      "description": [
+        "An Assembly Controller coordinates the assembly machines. This is an optional workshop expansion; it is not required just to make Plastic."
+      ],
+      "dependencies": [
+        "169C7072E7DF2C5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BE7B69B63A14C52",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:assembly_controller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CBF725CE62A5497",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1B8438DF2F514EA0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.66346d,
+      "y": 1.8932d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1657E045BFCB0D9A",
+      "title": "Pressure Chamber Valve",
+      "subtitle": "Complete the chamber",
+      "icon": {
+        "id": "pneumaticcraft:pressure_chamber_valve"
+      },
+      "description": [
+        "Include a valve in the Pressure Chamber shell and connect the compressor to it with Pressure Tubes. Use the manual to verify the hollow structure."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1039D4458E1AF6CB",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pressure_chamber_valve"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB0C054D3C56FDF",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1A85EB17B0BA66DB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.00018d,
+      "y": 19.55435d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1284E89052D927D8",
+      "title": "Pressure Chamber Interface",
+      "subtitle": "Complete the chamber",
+      "icon": {
+        "id": "pneumaticcraft:pressure_chamber_interface"
+      },
+      "description": [
+        "Use interfaces to insert and remove ingredients without breaking the chamber. Check orientation and extraction filters."
+      ],
+      "dependencies": [
+        "1657E045BFCB0D9A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13417260FF486B1E",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pressure_chamber_interface"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "164140CDB71C8D6A",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1654DF3B8934E564",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.00462d,
+      "y": 18.65235d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16D5EA1B0904681E",
+      "title": "Safety Tube Module",
+      "subtitle": "Complete the chamber",
+      "icon": {
+        "id": "pneumaticcraft:safety_tube_module"
+      },
+      "description": [
+        "Fit a Safety Tube Module and set a safe release pressure. Do not leave a fueled compressor running against a sealed network without control."
+      ],
+      "dependencies": [
+        "1284E89052D927D8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D682D46FB6AD7B1",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:safety_tube_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1652A9A2288B0538",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "12308275D2738962",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.00906d,
+      "y": 17.75035d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB76882E7B36326",
+      "title": "Yeast Culture Bucket",
+      "subtitle": "Complete the chamber",
+      "icon": {
+        "id": "pneumaticcraft:yeast_culture_bucket"
+      },
+      "description": [
+        "Process Water and a mushroom in the Thermopneumatic Processing Plant to make Yeast Culture fluid. JEI gives the temperature range. Maintain the culture for Ethanol production."
+      ],
+      "dependencies": [
+        "1665F2177B63B95A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13ABA7F92E2DD266",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:yeast_culture_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A48AE4E55CD3E77",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "12E10E2036776BC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.93244d,
+      "y": 9.74507d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1062CA1E9708AD67",
+      "title": "Compressed Iron Helmet",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:compressed_iron_helmet"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Compressed Iron Helmet. Item inputs include Leather Helmet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11A0FE67B6271AF8",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:compressed_iron_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16247C078DC937CD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1558A744F20A602A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.50198d,
+      "y": 17.27439d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1437D41AEE5C1B02",
+      "title": "Pneumatic Helmet",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:pneumatic_helmet"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Crafting Shaped Pressurizable processing to make Pneumatic Helmet. Item inputs include Compressed Iron Helmet, Air Canister, Finished PCB. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "169C7072E7DF2C5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1174EE1FE6FAC1D7",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pneumatic_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "190198AC317B31FE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12D7667C00DE0FCD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.64324d,
+      "y": 4.37836d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14202B64AF4BB251",
+      "title": "Advanced Air Compressor",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:advanced_air_compressor"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Compressor Upgrade Crafting processing to make Advanced Air Compressor. Item inputs include Air Compressor, Advanced Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "166F16B5A3528DBA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C7B1F1E1EF209AD",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:advanced_air_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "155C126E9B166134",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ECB58E73D33E737",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.37581d,
+      "y": 8.07869d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "102DDFCDCD4B8F60",
+      "title": "Advanced Liquid Compressor",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:advanced_liquid_compressor"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Compressor Upgrade Crafting processing to make Advanced Liquid Compressor. Item inputs include Liquid Compressor, Advanced Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14202B64AF4BB251"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "187A70A1A7F31E57",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:advanced_liquid_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B26605EA1B5FDC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "154656AD7F81AA5A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.06995d,
+      "y": 7.02914d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "166F16B5A3528DBA",
+      "title": "Advanced Pressure Tube",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:advanced_pressure_tube"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Assembly Laser processing to make Advanced Pressure Tube. Item inputs include Pressure Chamber Valve. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "185C8ED19C85B9DC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EF1552B337C1F78",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:advanced_pressure_tube"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1325A1F6314A8892",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C563DF43538B148",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.00071d,
+      "y": 9.83585d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "134B87AFA6E1A3D4",
+      "title": "Aerial Interface",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:aerial_interface"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Aerial Interface. Item inputs include Ender Pearl, Omnidirectional Hopper, Nether Star, Advanced Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "166F16B5A3528DBA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "124BB5B30C19CFDF",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:aerial_interface"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14FA1604EA129105",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1412209655D8CED4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.26408d,
+      "y": 11.15991d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1923A835A7A8B543",
+      "title": "Amadron Tablet",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:amadron_tablet"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Crafting Shaped Pressurizable processing to make Amadron Tablet. Item inputs include Air Canister, GPS Tool. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1984FD03C72A3DB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "173074A06C412B16",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:amadron_tablet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC7EA404F466CDC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F71A5D2A8CA44C5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.93524d,
+      "y": 6.58305d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "196742B6D55F6A02",
+      "title": "Aphorism Tile",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:aphorism_tile"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Aphorism Tile. Item inputs include Aphorism Tile. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "185C8ED19C85B9DC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "195C8B98DCE48105",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:aphorism_tile"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B72D044EEBF1F4D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E961E4E784054B5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.54395d,
+      "y": 9.75293d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E8DFC4781A8987D",
+      "title": "Assembly Drill",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:assembly_drill"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Assembly Drill. Item inputs include Finished PCB, Pneumatic Cylinder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "169C7072E7DF2C5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1313587046F8011B",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:assembly_drill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1889B7458726A0F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EDB17D14451BFF4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.63009d,
+      "y": 2.71131d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EBFCF083712C145",
+      "title": "Assembly IO Unit (export)",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:assembly_io_unit_export"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Assembly IO Unit (export). Item inputs include Assembly IO Unit (import). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "169C7072E7DF2C5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15499E5351443728",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:assembly_io_unit_export"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ADA7A8CE23F5B26",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BED0EBB89254A37",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.39411d,
+      "y": 5.53013d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1734FAA7E7F90CD5",
+      "title": "Assembly IO Unit (import)",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:assembly_io_unit_import"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Assembly IO Unit (import). Item inputs include Assembly IO Unit (export). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "169C7072E7DF2C5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CBC91A2D4E2071A",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:assembly_io_unit_import"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19F1DB8CA1465687",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DA5357F1E5CEE27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.04411d,
+      "y": 5.53013d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "135A5EA982040FBA",
+      "title": "Assembly Laser",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:assembly_laser"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Assembly Laser. Item inputs include Finished PCB, Pneumatic Cylinder, Red Stained Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "169C7072E7DF2C5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D55B2DBABDE3344",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:assembly_laser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "173A73E234F61346",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1616174759F277BF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.69411d,
+      "y": 5.53013d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15A1F7292FEBC2D5",
+      "title": "Assembly Platform",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:assembly_platform"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Assembly Platform. Item inputs include Finished PCB, Pneumatic Cylinder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "169C7072E7DF2C5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "132DAE8EB733FE02",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:assembly_platform"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D99A3D3759BFF9B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B8A6FE5AEBBAE6F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.74411d,
+      "y": 4.18013d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AA0438721DEF25E",
+      "title": "Biodiesel Bucket",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:biodiesel_bucket"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Biodiesel Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14AFCB23EDCFC37E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A150D1D63D100CF",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:biodiesel_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1292F24DBD0F4C3A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "154DE6EA8D314894",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.10423d,
+      "y": 9.46462d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1445E38FD4604389",
+      "title": "Camouflage Applicator",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:camo_applicator"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Crafting Shaped Pressurizable processing to make Camouflage Applicator. Item inputs include Air Canister, Lever. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "133B6578F6936783"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D5A148A86443270",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:camo_applicator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A7B7C9EE02104E1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E8A4DE9A108FD5F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.05051d,
+      "y": 10.90191d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "133B6578F6936783",
+      "title": "Charging Station",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:charging_station"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Charging Station. Item inputs include Brick, Reinforced Stone Slab, Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10EFBE7F7D90FD71"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "196651964E62F6C0",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:charging_station"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D04D3C906882A8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D7446CE4268910F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.15465d,
+      "y": 12.36112d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD38A29782FAAA5",
+      "title": "Cod n Chips",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:cod_n_chips"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Cod n Chips. Item inputs include Chips, Cooked Cod, Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F06F1763CFF9229"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13372FD5408E15FB",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:cod_n_chips"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E7A7A5D0CCE691",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E3ED20086BE1BBC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.41367d,
+      "y": 11.92351d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A47276B329B789F",
+      "title": "Crop Support",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:crop_support"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Crop Support. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B74A879FA4A157",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:crop_support"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "137E3208601B2042",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18BEFDD3BA5DFA4C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.00758d,
+      "y": 17.27439d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14F169109094F3B7",
+      "title": "Diesel Bucket",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:diesel_bucket"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Diesel Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17F60A237A61556A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12FB84CB15B4B40B",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:diesel_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1919970B00181676",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "186D22BEEC78A690",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.0527d,
+      "y": 5.99848d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18FAABB7513AB46A",
+      "title": "Diamond Drill Bit",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:drill_bit_diamond"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Diamond Drill Bit and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "106F18A8C0791E81"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "175CD4804B3A5CCF",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:drill_bit_diamond"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10C1C1EB0D95AECE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1615654A26E4D2E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.23875d,
+      "y": 4.41381d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C794FAF9DCD6C69",
+      "title": "Netherite Drill Bit",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:drill_bit_netherite"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Assembly Drill processing to make Netherite Drill Bit. Item inputs include Unassembled Netherite Drill Bit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18FAABB7513AB46A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B78E26088CD826F",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:drill_bit_netherite"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1912E6B0F2677AFF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C750E54254E7087",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.33178d,
+      "y": 3.62148d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1140CD28EA639EC4",
+      "title": "Electrostatic Compressor",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:electrostatic_compressor"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Electrostatic Compressor. Item inputs include Iron Bars, Advanced Air Compressor, Turbine Rotor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14202B64AF4BB251"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CAC13291746F47F",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:electrostatic_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C4A80136E40C529",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13B420D2FDAEE81F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.83482d,
+      "y": 5.61279d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F55BF60AD54A014",
+      "title": "Elevator Base",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:elevator_base"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Elevator Base. Item inputs include Pneumatic Cylinder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1984FD03C72A3DB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "160D65A6DEFA7BE4",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:elevator_base"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1502A150751BAA04",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14DE8F427EF6CDB1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.84313d,
+      "y": 9.38561d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FBBDD156B0F1EF6",
+      "title": "Empty PCB",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:empty_pcb"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Blast Empty PCB. Item inputs include Failed PCB. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1984FD03C72A3DB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19D693C30E2630AD",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:empty_pcb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "155A9B7B2359674D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "184AEFA7263EDB5A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.34229d,
+      "y": 7.93761d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FCBCBD20FF3082B",
+      "title": "Etching Acid Bucket",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:etching_acid_bucket"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Etching Acid Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15EA4066165E321D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "129B08BBE622EBC7",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:etching_acid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E2DA343113D9A62",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1885BE7CAA0E267B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.42441d,
+      "y": 4.68677d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14AFCB23EDCFC37E",
+      "title": "Ethanol Bucket",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:ethanol_bucket"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Ethanol Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1FB76882E7B36326"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "155AFB1589634B39",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:ethanol_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "118DBC49389F1895",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15CD32682ABEC31A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.10883d,
+      "y": 8.40863d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17BCEE9E847BB9FE",
+      "title": "Flux Compressor",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:flux_compressor"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Flux Compressor. Item inputs include Compressed Iron Gear, Finished PCB, Blast Furnace, Turbine Rotor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "166F16B5A3528DBA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12F605898B8623F5",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:flux_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17472459EDD365C3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17FD115BE6180B4A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.25069d,
+      "y": 10.95833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16BE23CF073C78C5",
+      "title": "Gas Lift",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:gas_lift"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Gas Lift. Item inputs include Reinforced Stone Slab, Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1402171CA7EC45AA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "179E69C45A09535A",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:gas_lift"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "134F3AA99DF694C9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AD78AC9C4E8191A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.96981d,
+      "y": 11.041d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EB38507C7245A2A",
+      "title": "Gasoline Bucket",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:gasoline_bucket"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Gasoline Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17F60A237A61556A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11FD8D66D7250D75",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:gasoline_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1998D1332F004B89",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "104435467092EE4B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.8451d,
+      "y": 6.63195d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "155588C514DC2117",
+      "title": "Minigun Ammo",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:gun_ammo"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Minigun Ammo. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10EFBE7F7D90FD71"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FCBBA8D3558DAF2",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:gun_ammo"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EC70D1AD84A8454",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A3D6CC6502241E6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.16448d,
+      "y": 13.52969d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AA8D13907A6F560",
+      "title": "Heat Sink",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:heat_sink"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Heat Sink. Item inputs include Iron Bars. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10F92EFA398FDD03"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C6AE4C7E926E899",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:heat_sink"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "122E2ECDBB392678",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C6D153983D53674",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.78683d,
+      "y": 8.40256d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1778FEA1E25884E8",
+      "title": "Pneumatic Jackhammer",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:jackhammer"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Pneumatic Jackhammer. Item inputs include Pneumatic Cylinder, Plastic Sheet, Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1984FD03C72A3DB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A025476F480477B",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:jackhammer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "135A256F286FC209",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AFA97FB8A7D9221",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.93524d,
+      "y": 7.93305d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10B3EC10E93F0717",
+      "title": "Kerosene Bucket",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:kerosene_bucket"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Kerosene Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17F60A237A61556A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F17F88EA293E931",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:kerosene_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E7D6181393DE6A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DB4273FDCB56CCA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.29695d,
+      "y": 6.45877d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10738814C435C263",
+      "title": "Kerosene Lamp",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:kerosene_lamp"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Kerosene Lamp. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10B3EC10E93F0717"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A8BBA00A2FD85E5",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:kerosene_lamp"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17953A434139B693",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CF59734C8AD97A6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.63593d,
+      "y": 5.315d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1832C67197E769FF",
+      "title": "Liquid Compressor",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:liquid_compressor"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Liquid Compressor. Item inputs include Air Compressor, Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "197F60AAFF372AF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "148907D2DFD4D588",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:liquid_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F4827EE06663B45",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B788FBDAD554091",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.07234d,
+      "y": 13.4244d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17DC61E93352CF92",
+      "title": "Liquid Hopper",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:liquid_hopper"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Liquid Hopper. Item inputs include Hopper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AD98BC1E00E73EC",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:liquid_hopper"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "164C2FE2638A0DA3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A394E57010B44EA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.79236d,
+      "y": 17.63103d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "132093ABA15BE2F3",
+      "title": "Logistics Configurator",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:logistics_configurator"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Crafting Shaped Pressurizable processing to make Logistics Configurator. Item inputs include Air Canister, Lever. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CD4C08E57435B26"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12C3C102038255A3",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:logistics_configurator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BAE7CD7E1A58F41",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11AB9D35DB5B1BAD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.76346d,
+      "y": 9.56198d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16FBFF49450CAFED",
+      "title": "LPG Bucket",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:lpg_bucket"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain LPG Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17F60A237A61556A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CD8C539E605B76E",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:lpg_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19BAC489C5E92A3F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D67BD12482BC1AF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.52875d,
+      "y": 7.27477d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "106F18A8C0791E81",
+      "title": "Lubricant Bucket",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:lubricant_bucket"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Lubricant Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14F169109094F3B7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AE4F0C71D1E1E9E",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:lubricant_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1950FFF85FB4FEEA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15C705ED014C17D4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.14573d,
+      "y": 5.20615d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B9C59D941717A55",
+      "title": "Manometer",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:manometer"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Crafting Shaped Pressurizable processing to make Manometer. Item inputs include Air Canister, Pressure Gauge. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "133B6578F6936783"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11F8955329F79B1D",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:manometer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C0A1A1AFCC9987A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15CD06A838A00C90",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.29949d,
+      "y": 10.90191d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9E8B98E377CD44",
+      "title": "Micromissiles",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:micromissiles"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Micromissiles. Item inputs include Fire Charge, Finished PCB, Tnt. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "169C7072E7DF2C5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18BAC09EB389F6EB",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:micromissiles"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "129CA94AE65BFAF3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "176462C78A978368",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.39411d,
+      "y": 4.18013d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19A8E2BB6ED14E4A",
+      "title": "Minigun",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:minigun"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Crafting Shaped Pressurizable processing to make Minigun. Item inputs include Air Canister, Cannon Barrel, Lever. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "155588C514DC2117"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EF86A750E09BAA9",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:minigun"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DA18D22E28C456C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1918D84F82BF3FF0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.69374d,
+      "y": 12.28776d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1402171CA7EC45AA",
+      "title": "Crude Oil Bucket",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:oil_bucket"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Crude Oil Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F283F1AFD6A0B3F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "135C5A6A92E0B09E",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:oil_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AD3A7E906837AAF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "164E99F8B90A2C5D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.99312d,
+      "y": 10.10514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "189A0C6EA6EB0765",
+      "title": "Omnidirectional Hopper",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:omnidirectional_hopper"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Omnidirectional Hopper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BF8DFD7F5737170",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:omnidirectional_hopper"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168DD4156056B712",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19B5FDD2AE5A7D20",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.68075d,
+      "y": 15.05521d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BBC21DCA20ADB22",
+      "title": "PCB Blueprint",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:pcb_blueprint"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain PCB Blueprint and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1FBBDD156B0F1EF6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19301CE91B83B010",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pcb_blueprint"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D4F5DCD4ABF9E64",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17D1141CCF8CC6A8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.34229d,
+      "y": 6.58761d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DD0415D067AC87A",
+      "title": "Red Plastic Construction Brick™",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:plastic_brick_red"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Red Plastic Construction Brick™. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1984FD03C72A3DB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16271D5A1AFDEB63",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:plastic_brick_red"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "117BD8DD534694A0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DF95E2D5167F008",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.28524d,
+      "y": 7.93305d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1703FE1E2D19C4B7",
+      "title": "Pneumatic Door",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:pneumatic_door"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Pneumatic Door. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1984FD03C72A3DB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13A7DC09B087A399",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pneumatic_door"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1587AF1F81B65CC8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1523D7E5A9A2BBCC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.49313d,
+      "y": 8.03561d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C1DB24190DEEADA",
+      "title": "Pneumatic Dynamo",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:pneumatic_dynamo"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Pneumatic Dynamo. Item inputs include Compressed Iron Gear, Finished PCB, Advanced Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "166F16B5A3528DBA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14F46F7C6F06EBB9",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pneumatic_dynamo"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10C6C5DAF884A12C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12F080042FD2A4F0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.65071d,
+      "y": 9.83585d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "103CD37722F0F117",
+      "title": "Pneumatic Wrench",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:pneumatic_wrench"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Crafting Shaped Pressurizable processing to make Pneumatic Wrench. Item inputs include Air Canister, Lever. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "133B6578F6936783"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "115E2FDE98CDF3B2",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pneumatic_wrench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "152E20E8B8F4694D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F40C21ED8073087",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.90467d,
+      "y": 13.4836d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17F60A237A61556A",
+      "title": "Refinery Controller",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:refinery"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Refinery Controller. Item inputs include Reinforced Stone Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14B9DFD86BF059D4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EE9A42F39E86D07",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:refinery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C50CD3F3FBD5A9C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BE81AF25BE2723F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.78519d,
+      "y": 7.08529d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14EB7AD2E12C0A9E",
+      "title": "Reinforced Pressure Tube",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:reinforced_pressure_tube"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Reinforced Pressure Tube and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1984FD03C72A3DB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11C7B0682E3139A9",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:reinforced_pressure_tube"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B54BAEA352E43E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D1EA8854E509091",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.63524d,
+      "y": 7.93305d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10EFBE7F7D90FD71",
+      "title": "Reinforced Stone",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:reinforced_stone"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Reinforced Stone. Item inputs include Reinforced Stone Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ECF92590A5E6F4A",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:reinforced_stone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C9FCE9E5679187A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "126C207FA5211FDD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.31811d,
+      "y": 15.15961d,
+      "shape": "square",
+      "size": 1.0d,
+      "min_required_dependencies": 1,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E6BF72250C6648C",
+      "title": "Sentry Turret",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:sentry_turret"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Sentry Turret. Item inputs include Minigun. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19A8E2BB6ED14E4A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B705A14212F367B",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:sentry_turret"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19DAC3544AF00816",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F167B2B9AD49658",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.223d,
+      "y": 11.04583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ABD0DF602B0CB32",
+      "title": "Solar Compressor",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:solar_compressor"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Solar Compressor. Item inputs include Block of Compressed Iron, Compressed Iron Gear, Finished PCB, Advanced Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "166F16B5A3528DBA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12C93A3B4D2AAB53",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:solar_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "114B87D775F70ECA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "190918BFB2482B78",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.61753d,
+      "y": 13.31508d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "178B8C348CE89984",
+      "title": "Sourdough",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:sourdough"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Sourdough. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB76882E7B36326"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1731779872B4E0C1",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:sourdough"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DEE03BA4F11E7BA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "145DC6576CBC6C4C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.09564d,
+      "y": 7.08375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1743EEFB0638CEB7",
+      "title": "Thermal Compressor",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:thermal_compressor"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Thermal Compressor. Item inputs include Air Compressor, Heavy Weighted Pressure Plate, Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "197F60AAFF372AF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B3DC95286FB1383",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:thermal_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B3870042D2966B7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10143D01D0B121E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.77403d,
+      "y": 10.89019d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A87418A68F485D2",
+      "title": "Transfer Gadget",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:transfer_gadget"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Transfer Gadget. Item inputs include Hopper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BC0C6534018A05C",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:transfer_gadget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F96972FE3A2A0F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B0F9299FE9D357F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.29807d,
+      "y": 18.75073d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14DE3A193E47C800",
+      "title": "Transistor",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:transistor"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Transistor and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1984FD03C72A3DB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10074005AA7AF075",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:transistor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "127A3574818BE1A6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D2550485C9FD0A9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.98524d,
+      "y": 7.93305d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F859E4DD168C82",
+      "title": "Tube Junction",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:tube_junction"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Tube Junction. Item inputs include Reinforced Brick Wall, Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12B65AE4C17440D5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "148CF081032E7197",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:tube_junction"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15F7BEB172DB2F90",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AB823C575F450B5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.49622d,
+      "y": 12.35079d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "118CB72F4D7F219B",
+      "title": "Unassembled PCB",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:unassembled_pcb"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Assembly Laser processing to make Unassembled PCB. Item inputs include Empty PCB. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FCBCBD20FF3082B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "173BBA9EC54728D5",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:unassembled_pcb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15BAAF81A10B7373",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10C4CBF2A98AD335",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.05708d,
+      "y": 3.49419d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15EA4066165E321D",
+      "title": "UV Light Box",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:uv_light_box"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft UV Light Box. Item inputs include PCB Blueprint, Redstone Lamp, Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BBC21DCA20ADB22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "182AE64A8BAE1D32",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:uv_light_box"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "197298383677F7A3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19AC564307DFAA83",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.34229d,
+      "y": 5.23761d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F06F1763CFF9229",
+      "title": "Vegetable Oil Bucket",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:vegetable_oil_bucket"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Vegetable Oil Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1665F2177B63B95A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CE1508E8F2E33F5",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:vegetable_oil_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13185DC1F648F9EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "118C9EA5B61D62CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.25307d,
+      "y": 9.73461d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10F92EFA398FDD03",
+      "title": "Vortex Tube",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:vortex_tube"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Vortex Tube. Item inputs include Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1402171CA7EC45AA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1804BB658952BEC4",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:vortex_tube"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1798C6E805C2DDAB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15A28A468AD29B63",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.78546d,
+      "y": 9.71982d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CD4C08E57435B26",
+      "title": "Logistics Core",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:logistics_core"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Logistics Core. Item inputs include Reinforced Brick Tile. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10EFBE7F7D90FD71"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C49CA75FF76D37F",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:logistics_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15ACF3B3CE2CDCED",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BD41A76D7A3D72A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.47489d,
+      "y": 12.36111d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "105B888A905B1DE6",
+      "title": "Capacitor",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:capacitor"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Capacitor and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1984FD03C72A3DB3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19DC10B9202DAA2A",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:capacitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "177E610EF64CF5BB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15BA0390A82D90E0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.28524d,
+      "y": 6.58305d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187207BDE17C4835",
+      "title": "Etching Tank",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:etching_tank"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Etching Tank. Item inputs include Reinforced Brick Slab, Reinforced Brick Wall. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15EA4066165E321D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "101CAA3391DA54DB",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:etching_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1607469F5023D7D6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "130C3870FA96098F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.35255d,
+      "y": 5.99262d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123703F2F31BB553",
+      "title": "Huge Fluid Tank",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:huge_tank"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Huge Fluid Tank. Item inputs include Reinforced Air Canister. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12C5F3A5E90CF126"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12528F471623BCE3",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:huge_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E80C609491F2091",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16FF23935A32B05B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.99435d,
+      "y": 13.72573d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C5F3A5E90CF126",
+      "title": "Large Fluid Tank",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:large_tank"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Large Fluid Tank. Item inputs include Advanced Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DE14FC1007E842F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10A07C89140F1605",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:large_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CB27FB8E8DC99F4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D05753B42DC241E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.7086d,
+      "y": 14.13721d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DE14FC1007E842F",
+      "title": "Medium Fluid Tank",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:medium_tank"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Medium Fluid Tank. Item inputs include Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18C4BF23D14B1BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12CFD4301E68FA82",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:medium_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10C152C1C518FD13",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140124E9E2C35B41",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.42284d,
+      "y": 14.5487d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1534795C1874D477",
+      "title": "Reinforced Chest",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:reinforced_chest"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Reinforced Chest. Item inputs include Reinforced Brick Wall. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10EFBE7F7D90FD71"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FFB7EBC68B00956",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:reinforced_chest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19706E5AB9BD7177",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1528342FC62CE750",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.79497d,
+      "y": 12.36111d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18C4BF23D14B1BB2",
+      "title": "Small Fluid Tank",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:small_tank"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Small Fluid Tank. Item inputs include Iron Bars. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FA6FB56996718C4",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:small_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138EE884C818769E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ABAD28586BE9C20",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.13708d,
+      "y": 14.96019d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E4A25EF55AE92E0",
+      "title": "Smart Chest",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:smart_chest"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Smart Chest. Item inputs include Reinforced Chest, Omnidirectional Hopper, Finished PCB. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1534795C1874D477"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D35056F5625C5E8",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:smart_chest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1500365A1561597B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1499DA362960CD69",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.22954d,
+      "y": 12.10248d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "150C92EACC586F3B",
+      "title": "Solar Cell",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:solar_cell"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Use Assembly Drill processing to make Solar Cell. Item inputs include Solar Wafer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "185C8ED19C85B9DC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D28A0E83992D6DC",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:solar_cell"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "139BCC74B1D4945F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14B0F6F52D0CFF74",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.18917d,
+      "y": 9.63583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B9DFD86BF059D4",
+      "title": "Heat Pipe",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:heat_pipe"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Heat Pipe. Item inputs include Thermal Lagging. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10F92EFA398FDD03"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A67361D354EB1C3",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:heat_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1431AF20CB2C65BA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A4A5277F45D382A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.46483d,
+      "y": 8.24178d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "111EA6BB90C0CB9E",
+      "title": "Armor Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:armor_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Armor Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BB1CF59F5A3B177",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:armor_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16DC67DC7B2C14D0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1638899CD5BAED9E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.31918d,
+      "y": 4.64173d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1015475D16262407",
+      "title": "Block Tracker Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:block_tracker_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Block Tracker Upgrade. Item inputs include Fermented Spider Eye, Pressure Chamber Wall. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C2C3B4762DF8455",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:block_tracker_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DD87B6F9DA9BE71",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D1317CD5F8F6F58",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.12662d,
+      "y": 3.13112d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D4F6F25E995027",
+      "title": "Charging Module",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:charging_module"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Charging Module. Item inputs include Charging Station, Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "133B6578F6936783"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19ECD0F4D2E42277",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:charging_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11C08531DFC66B4F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B09EFFEFDA39FAC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.16561d,
+      "y": 12.22391d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1793A1820DF4F317",
+      "title": "Charging Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:charging_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Charging Upgrade. Item inputs include Charging Module, Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EE37EBA635D8A23",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:charging_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1109E2B6E656F3A6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12D96306FE96713C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.64324d,
+      "y": 1.37836d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B95D88DEE95481C",
+      "title": "Coordinate Tracker Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:coordinate_tracker_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Coordinate Tracker Upgrade. Item inputs include GPS Tool. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FFBFDC43EB78754",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:coordinate_tracker_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19DC8687AF65E2D7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "133B74473BD13257",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.7176d,
+      "y": -2.92895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D32357B4CC86182",
+      "title": "Dispenser Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:dispenser_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Dispenser Upgrade. Item inputs include Dispenser. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F4EC5C48FD74F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1162FF50AD60AF49",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:dispenser_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15A096A356845686",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F7CBC9968F9AC53",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 21.3117d,
+      "y": 5.59976d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "156CD60BC2164654",
+      "title": "Elytra Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:elytra_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Elytra Upgrade. Item inputs include Elytra, End Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E0EA80549F9FA48",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:elytra_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19B475AAA65C91E3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E5233767EF007C2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.0676d,
+      "y": -2.92895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1639FB598A26CDA7",
+      "title": "Ender Visor Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:ender_visor_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Ender Visor Upgrade. Item inputs include Carved Pumpkin, Chorus Flower. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D1E45028E509BC6",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:ender_visor_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1607098BCAA6C477",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EF8E268DDCD1A9C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.6676d,
+      "y": -1.57895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F1C1EBE6EF2C39B",
+      "title": "Entity Tracker Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:entity_tracker_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Entity Tracker Upgrade. Item inputs include Fermented Spider Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1611A46123BDE82A",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:entity_tracker_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C50B79EA9F4668F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F918DA7F1433159",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.0176d,
+      "y": -1.57895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1104F9DFD0F1437F",
+      "title": "Flippers Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:flippers_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Flippers Upgrade. Item inputs include Black Wool. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13C0953F1BCD8FEF",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:flippers_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C5D2CBCF8A319E8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16B45F7E99555B9B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.3676d,
+      "y": -1.57895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1873CECBD37DE286",
+      "title": "Gilded Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:gilded_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Gilded Upgrade. Item inputs include Gilded Blackstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11883047143F3584",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:gilded_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A293F930815BBAD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "155B2FEC59B5DBE7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.7176d,
+      "y": -1.57895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17EFD3C6A40844A1",
+      "title": "Jet Boots Upgrade: Tier I",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:jet_boots_upgrade_1"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Jet Boots Upgrade: Tier I. Item inputs include Advanced Air Compressor, Advanced Pressure Tube, Vortex Cannon. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B083794D76D9B23",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:jet_boots_upgrade_1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE3F09FA4850E34",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16B0EF8E357102DE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.74134d,
+      "y": 1.26839d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187C7A0AD8FBD60F",
+      "title": "Jet Boots Upgrade: Tier II",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:jet_boots_upgrade_2"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Jet Boots Upgrade: Tier II. Item inputs include Pneumatic Cylinder, Feather, Jet Boots Upgrade: Tier I, Vortex Cannon. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17EFD3C6A40844A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1455176775145AA3",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:jet_boots_upgrade_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE6E9B5E539285E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "124AAE666D89658F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.74134d,
+      "y": -0.08161d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FC810E1AA0A6F0E",
+      "title": "Jet Boots Upgrade: Tier III",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:jet_boots_upgrade_3"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Jet Boots Upgrade: Tier III. Item inputs include Blaze Rod, Ghast Tear, Jet Boots Upgrade: Tier II, Vortex Cannon. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "187C7A0AD8FBD60F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16E36C5DF5E3CDE7",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:jet_boots_upgrade_3"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19FE2C1E0DD64B24",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "141BD9EADDB7A064",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.74134d,
+      "y": -1.43161d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B443E2DC6859FEA",
+      "title": "Jet Boots Upgrade: Tier IV",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:jet_boots_upgrade_4"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Jet Boots Upgrade: Tier IV. Item inputs include Phantom Membrane, Nether Star, Jet Boots Upgrade: Tier III, Vortex Cannon. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FC810E1AA0A6F0E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "134A15CE3FB32B06",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:jet_boots_upgrade_4"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "157E72CD43B5AAAD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BECB93DAD7D04CA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.74134d,
+      "y": -2.78161d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B70947515B6F49C",
+      "title": "Jet Boots Upgrade: Tier V",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:jet_boots_upgrade_5"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Jet Boots Upgrade: Tier V. Item inputs include Dragon Breath, Elytra, End Rod, Jet Boots Upgrade: Tier IV. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B443E2DC6859FEA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18BAFA9D33983E45",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:jet_boots_upgrade_5"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "106F4143D8A48A06",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CF40DD41090DECC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.74134d,
+      "y": -4.13161d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1593F1B7B19643E4",
+      "title": "Jumping Upgrade: Tier I",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:jumping_upgrade_1"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Jumping Upgrade: Tier I. Item inputs include Pneumatic Cylinder, Piston, Pressure Tube, Vortex Cannon. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15E6F797532FF0F6",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:jumping_upgrade_1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12150ACB7D93918B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19838B2A1E0B8C5E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.66468d,
+      "y": 1.31975d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1421C311BDF89DAF",
+      "title": "Jumping Upgrade: Tier II",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:jumping_upgrade_2"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Jumping Upgrade: Tier II. Item inputs include Pneumatic Cylinder, Piston, Slime Block, Jumping Upgrade: Tier I. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1593F1B7B19643E4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14D79820976AA442",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:jumping_upgrade_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10E74CA236240ED3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16AB2F3BFEB42E14",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.51821d,
+      "y": 0.60694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12B434F11C20E66C",
+      "title": "Jumping Upgrade: Tier III",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:jumping_upgrade_3"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Jumping Upgrade: Tier III. Item inputs include Pneumatic Cylinder, Piston, Jumping Upgrade: Tier II. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1421C311BDF89DAF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18CB5AE9A5644545",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:jumping_upgrade_3"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B85ADC266EC94EA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1497CA2C7E8B6FFC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.37173d,
+      "y": -0.10587d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C7D9DC7F3C1C50A",
+      "title": "Jumping Upgrade: Tier IV",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:jumping_upgrade_4"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Jumping Upgrade: Tier IV. Item inputs include Pneumatic Cylinder, Piston, Jumping Upgrade: Tier III. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12B434F11C20E66C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CB54A6957D348F6",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:jumping_upgrade_4"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "189661E8D59826E3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11E6C1293F1285D9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.22526d,
+      "y": -0.81868d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19A323E41D18436C",
+      "title": "Logistics Module",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:logistics_module"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Logistics Module. Item inputs include Logistics Core, Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CD4C08E57435B26"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1306623854FC0E4B",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:logistics_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1491B8AC4CDB7F27",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18D3E152C3AC5F44",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.30825d,
+      "y": 11.11391d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "161B9A28A14FF43C",
+      "title": "Magnet Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:magnet_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Magnet Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1844B443BBFFD1E3",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:magnet_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1273A119CB350368",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16E8548D67D7EF61",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.6676d,
+      "y": -0.22895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B07C8164B993F5F",
+      "title": "Module Expansion Card",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:module_expansion_card"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Module Expansion Card. Item inputs include Finished PCB. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19D4F6F25E995027"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16E73023FA77F73A",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:module_expansion_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A82F28C2126B64D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19CAB68F2FF8FE80",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.37087d,
+      "y": 10.19096d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1328779B3DD0B2A7",
+      "title": "Night Vision Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:night_vision_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Night Vision Upgrade. Item inputs include Pressure Chamber Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B05F92CE4843A79",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:night_vision_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14AE550EC6A90B57",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16FF0F8CD327BD3F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.0176d,
+      "y": -0.22895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "169C7072E7DF2C5F",
+      "title": "Finished PCB",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:printed_circuit_board"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Finished PCB. Item inputs include Capacitor, Transistor, Unassembled PCB. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "118CB72F4D7F219B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19CFA3C93939D5DB",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:printed_circuit_board"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A6275CFC120D8EC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "143147DF01008C10",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.68974d,
+      "y": 2.30162d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D27957CE8D5D9BE",
+      "title": "Programmer",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:programmer"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Programmer. Item inputs include Finished PCB, Black Stained Glass Pane, Turbine Rotor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "169C7072E7DF2C5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E64F9EC3182987A",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:programmer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15C917361A9DBA71",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "163997C165D3A73D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.04411d,
+      "y": 4.18013d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F36731DD9E516BB",
+      "title": "Radiation Shielding Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:radiation_shielding_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Radiation Shielding Upgrade. Item inputs include Module Radiation Shielding Unit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C6FE9CB34B90FFB",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:radiation_shielding_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13A55FCDC6FF4C18",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BE7AF13D98792F0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.3676d,
+      "y": -0.22895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "159F96F14672C133",
+      "title": "Range Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:range_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Range Upgrade. Item inputs include Bow. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F4EC5C48FD74F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E3B68AFF6188626",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:range_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "140293FC97ED452F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11AFE816ADBCF85D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.07292d,
+      "y": 0.7884d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "152C5125A8D7A317",
+      "title": "SCUBA Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:scuba_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft SCUBA Upgrade. Item inputs include Regulator Tube Module, Advanced Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12E105A8BCB4E241",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:scuba_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12EE4AED290DA6AB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "133C7EA2BF69DEEC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.7176d,
+      "y": -0.22895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11AA917A4D3E44F1",
+      "title": "Item Search Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:search_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Item Search Upgrade. Item inputs include Golden Carrot, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1775707BC04C2B47",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:search_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1906B95ED6DECE1D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18DF0BE93DA0BB93",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.0676d,
+      "y": -1.57895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12BC2C7F83047782",
+      "title": "Security Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:security_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Security Upgrade. Item inputs include Safety Tube Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "197F60AAFF372AF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C58FAD0AE633CF7",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:security_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F0719507670A84",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F58FF88EB492EFF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.60268d,
+      "y": 11.05469d,
+      "shape": "square",
+      "size": 1.0d,
+      "dependency_requirement": "all_started",
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12EF82DF39D66E4E",
+      "title": "Speed Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:speed_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Speed Upgrade. Item inputs include Sugar. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F4EC5C48FD74F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A9E4BE44FD1499D",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:speed_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C67E07B335E9AA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1104A543D1EBBC51",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.3623d,
+      "y": 1.15942d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12E0B223F8657AE3",
+      "title": "Stomp Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:stomp_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Stomp Upgrade. Item inputs include Tnt, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1437D41AEE5C1B02"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18324C6D85ED4ADE",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:stomp_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "140F8DCE7DF515A7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1067AFAE5F132932",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.0676d,
+      "y": -0.22895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BA5126FBEC5E682",
+      "title": "Upgrade Matrix",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:upgrade_matrix"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Obtain Upgrade Matrix and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1665F2177B63B95A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "184F9BCE563C9694",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:upgrade_matrix"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EAC44985AC56924",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A72ED8DF7185126",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.53682d,
+      "y": 7.55447d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CA9A673E257CD64",
+      "title": "Volume Upgrade",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:volume_upgrade"
+      },
+      "description": [
+        "Build an air network with Pressure Tubes and a compressor. Watch working pressure and heat, and fit a safety valve before leaving a compressor unattended. The PneumaticCraft manual explains machine interfaces.",
+        "Craft Volume Upgrade. Item inputs include Air Canister. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F4EC5C48FD74F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "190B4D5B17185DCC",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:volume_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17263DB9BD3194E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10B7C59F6C06DBF1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 21.50752d,
+      "y": 0.73264d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BD6E0CD1EBF2C24",
+      "title": "Compressed Iron Automation",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mysticalagriculture:compressed_iron_seeds)component(fuzzy:{\"minecraft:attribute_modifiers\":{modifiers:[]},\"minecraft:enchantments\":{levels:{}},\"minecraft:lore\":[],\"minecraft:max_stack_size\":64,\"minecraft:rarity\":\"common\",\"minecraft:repair_cost\":0,\"productivebees:bee_type\":\"productivebees:compressed_iron\"}))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mysticalagriculture:compressed_iron_seeds)component(fuzzy:{\"minecraft:attribute_modifiers\":{modifiers:[]},\"minecraft:enchantments\":{levels:{}},\"minecraft:lore\":[],\"minecraft:max_stack_size\":64,\"minecraft:rarity\":\"common\",\"minecraft:repair_cost\":0,\"productivebees:bee_type\":\"productivebees:compressed_iron\"}))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "19F6E405308B5B21",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160571E13CB0F41B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.79236d,
+      "y": 16.28103d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "dependency_requirement": "one_completed",
+      "min_required_dependencies": 1,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A593C6EC127AF97",
+      "title": "Understanding Pressure",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:air_compressor"
+      },
+      "description": [
+        "Learn about Understanding Pressure in the PneumaticCraft guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "197F60AAFF372AF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1D6B6C110DD5D67F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A663C2396BD4D49",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.25268d,
+      "y": 12.40469d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1962CCC8FAB67DC2",
+      "title": "Logistics Frames",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pneumaticcraft:logistics_frames)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1CD4C08E57435B26"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pneumaticcraft:logistics_frames)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "14B1532F85601BFD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ABA677C50D9FECA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.11346d,
+      "y": 9.56198d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "182DA5407B71DCF1",
+      "linked_quest": "11432DE38F39D5E5",
+      "x": 5.37403d,
+      "y": 17.90053d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1AB4592B23448686",
+      "linked_quest": "197F60AAFF372AF5",
+      "x": 7.99367d,
+      "y": 14.81333d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1AC0CCDC63470715",
+      "linked_quest": "12B65AE4C17440D5",
+      "x": 7.19747d,
+      "y": 13.67057d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1434D626278269F6",
+      "linked_quest": "1F283F1AFD6A0B3F",
+      "x": 7.81679d,
+      "y": 12.34857d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1119C9F194D9784B",
+      "linked_quest": "11A32FB6C6829E93",
+      "x": 5.25478d,
+      "y": 16.44103d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1264654B7A94A4B1",
+      "linked_quest": "1665F2177B63B95A",
+      "x": 8.72332d,
+      "y": 8.41261d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1C25EA97D36983E7",
+      "linked_quest": "16EF0C2C3C72215F",
+      "x": 10.57406d,
+      "y": 9.72155d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1A62D0B5E2FC286A",
+      "linked_quest": "1D9B79A8520219E6",
+      "x": 12.83374d,
+      "y": 10.55436d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1670D212D09BBAEB",
+      "linked_quest": "1984FD03C72A3DB3",
+      "x": 11.49313d,
+      "y": 9.38561d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "11ED4D1D81BE9526",
+      "linked_quest": "185C8ED19C85B9DC",
+      "x": 18.38337d,
+      "y": 10.95783d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "16204DC76311FA01",
+      "linked_quest": "1E0F4EC5C48FD74F",
+      "x": 13.6162d,
+      "y": 0.9065d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,3304 @@
+{
+  "id": "14665023BEB233B4",
+  "filename": "21_tables",
+  "title": "Extended Crafting",
+  "icon": {
+    "id": "extendedcrafting:ultimate_table"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 19,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "13ED1A230870D0FC",
+      "title": "Advanced Auto Crafting Table",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:advanced_auto_table"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Advanced Auto Crafting Table. Item inputs include Advanced Crafting Table, Crystaltine Component, Black Iron Ingot, Redstone Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F709C799187EA22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "136C9B964D2CDECB",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:advanced_auto_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D1E7A1166212151",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "196B694531D8E384",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.9984d,
+      "y": 0.33393d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "198D337A0164CE4F",
+      "title": "Advanced Catalyst",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:advanced_catalyst"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Advanced Catalyst. Item inputs include Black Iron Ingot, Advanced Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12097563CFF4282D",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:advanced_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF0BF2B4F932D29",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F98D6CB3361432B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.5829d,
+      "y": -2.00963d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FE7862457ABDFA2",
+      "title": "Advanced Component",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:advanced_component"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Advanced Component. Item inputs include Black Iron Slate, Luminessence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1A4CC305F35B45"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C517F80C3E2C8DA",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:advanced_component"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "156110BDD8CE1E8C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "118F5F00B83E3F24",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.5886d,
+      "y": 2.48946d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A2C1F4E84359049",
+      "title": "Auto Ender Crafter",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:auto_ender_crafter"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Auto Ender Crafter. Item inputs include Ender Crafter, Crystaltine Component, Black Iron Ingot, Redstone Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C59385F13E36EC3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "107924850218F27D",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:auto_ender_crafter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F9537F96E3C8469",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13B0824896A461D4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.38804d,
+      "y": 2.4048d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13E26B06F07C4128",
+      "title": "Auto Flux Crafter",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:auto_flux_crafter"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Auto Flux Crafter. Item inputs include Flux Crafter, Crystaltine Component, Black Iron Ingot, Redstone Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EC45A19AE4BA785"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AFFC480C7D4E1C8",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:auto_flux_crafter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17065908BD76D7E6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15D79A5A17626ABE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.56358d,
+      "y": -2.53103d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10F56CC0603072AE",
+      "title": "Basic Auto Crafting Table",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:basic_auto_table"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Basic Auto Crafting Table. Item inputs include Basic Crafting Table, Crystaltine Component, Black Iron Ingot, Redstone Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7443D73B582BCF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11EEF0024DBC1662",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:basic_auto_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1070645B6FF29D62",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12467B1233ED0DD6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.18304d,
+      "y": 5.01793d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B506126DCC84C4B",
+      "title": "Basic Catalyst",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:basic_catalyst"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Basic Catalyst. Item inputs include Black Iron Ingot, Basic Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F57F718B589A584",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:basic_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10073EC1B9F78839",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "155491E8D4C7D66A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.47118d,
+      "y": -0.16597d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F0C849858C3D680",
+      "title": "Basic Component",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:basic_component"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Basic Component. Item inputs include Black Iron Slate, Luminessence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1A4CC305F35B45"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1490FB0B2CB50DB5",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:basic_component"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1529519B28335072",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ED4C47628D84BD2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.47757d,
+      "y": 2.36227d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "195B8870B5F0C5DC",
+      "title": "Black Iron Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:black_iron_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Black Iron Block. Item inputs include Black Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D3964EC5AEB067",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:black_iron_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F8F9E98F682F3A6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140446909F401A68",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.27279d,
+      "y": 0.81418d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C1A4CC305F35B45",
+      "title": "Black Iron Slate",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:black_iron_slate"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Black Iron Slate. Item inputs include Black Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A46496814DE2DAD",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:black_iron_slate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AA67F749C4AC884",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16A44D6C02D42CB0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.2142d,
+      "y": 1.03821d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1893A79D21E83B28",
+      "title": "Quantum Compressor",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:compressor"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Quantum Compressor. Item inputs include Black Iron Frame, Elite Component, Black Iron Slate, Black Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E268EC035D70937"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "156341BB09DA726B",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E53758ABAC41536",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1857F1895D68D6FF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.74318d,
+      "y": 4.72527d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15946491EA4BEC1E",
+      "title": "Elite Auto Crafting Table",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:elite_auto_table"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Elite Auto Crafting Table. Item inputs include Elite Crafting Table, Crystaltine Component, Black Iron Ingot, Redstone Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB748D587C3998C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C6B8D7DFF1AC2B6",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_auto_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1384775A60FCE388",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10125E10D7EF197F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.30612d,
+      "y": 1.6542d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EB055BB7CE21CEC",
+      "title": "Elite Catalyst",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:elite_catalyst"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Elite Catalyst. Item inputs include Black Iron Ingot, Elite Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D486141C15B8156",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A5CFEAC16EAB84",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16B27E92D1E1A2A4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.35933d,
+      "y": -2.58005d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DBA319E0780F487",
+      "title": "Elite Component",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:elite_component"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Elite Component. Item inputs include Black Iron Slate, Luminessence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1A4CC305F35B45"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13D3AEE3EBD7B22B",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_component"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14C4922D77FD87EA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11D4FF12D54A461C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.71085d,
+      "y": 0.03818d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14CC11093A1799C5",
+      "title": "Ender Alternator",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ender_alternator"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ender Alternator. Item inputs include Ender Eye, Ender Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1869D67EFE17312F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FD70CF612267CF3",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_alternator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17445910D6263995",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14C5D6D17BBA8236",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.69382d,
+      "y": 2.1253d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "119757CDA3A8D59D",
+      "title": "Ender Catalyst",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ender_catalyst"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ender Catalyst. Item inputs include Black Iron Ingot, Ender Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18F6323CDFB44A33",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14183B0D3A85E1EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C90CDCDED98952B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.17054d,
+      "y": -6.34332d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CA7FBB4DCF83871",
+      "title": "Ender Component",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ender_component"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ender Component. Item inputs include Black Iron Slate, Luminessence, Ender Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1A4CC305F35B45"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1024A485A7FC83C1",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_component"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12CB7A1A9072018F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "106596275D286E58",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.28132d,
+      "y": 1.33073d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C59385F13E36EC3",
+      "title": "Ender Crafter",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ender_crafter"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ender Crafter. Item inputs include Ender Eye, Ender Ingot, Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1869D67EFE17312F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "115A59880ED0BD37",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_crafter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B565CB77765F53E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11A1AFC366AE25DD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.0826d,
+      "y": 0.80525d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B8C2360A7D896DF",
+      "title": "Ender Star",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ender_star"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ender Star. Item inputs include Ender Star Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "192212053064C1F1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CB716AAE45CB449",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_star"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1684BBC636F49FBC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BDE11D9CB6C400C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.05088d,
+      "y": 4.82376d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "192212053064C1F1",
+      "title": "Ender Star Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ender_star_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ender Star Block. Item inputs include Ender Star. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1171B023FEF1FC4E",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_star_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1764513B808557F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BFFFFB47181A1CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.32627d,
+      "y": 2.37477d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "143F8014D2DAEA5D",
+      "title": "Enhanced Ender Catalyst",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:enhanced_ender_catalyst"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Enhanced Ender Catalyst. Item inputs include Black Iron Ingot, Enhanced Ender Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C8B6068EEEB3DE2",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:enhanced_ender_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A1BF5A773882F37",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "129E1B2B3E506204",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.50018d,
+      "y": -5.02719d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18ACFAAF702C413D",
+      "title": "Enhanced Ender Component",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:enhanced_ender_component"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Enhanced Ender Component. Item inputs include Black Iron Slate, Luminessence, Enhanced Ender Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1A4CC305F35B45"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E60250B4794CDE0",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:enhanced_ender_component"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16F6398BA69B2DB8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EFA492E2D956668",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.44004d,
+      "y": 2.02345d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F648FDC8F0F2B04",
+      "title": "Enhanced Redstone Catalyst",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:enhanced_redstone_catalyst"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Enhanced Redstone Catalyst. Item inputs include Black Iron Ingot, Enhanced Redstone Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BF266156CFF56DC",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:enhanced_redstone_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F4CA672E09C680C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FD334979954796C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.0706d,
+      "y": -6.25075d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E0B6D117FFA458",
+      "title": "Enhanced Redstone Component",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:enhanced_redstone_component"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Enhanced Redstone Component. Item inputs include Black Iron Slate, Luminessence, Enhanced Redstone Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1A4CC305F35B45"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A0A1A8614C731B5",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:enhanced_redstone_component"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12BE7D89501B180F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "171A4011010D016F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.59877d,
+      "y": 2.71617d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E38E7881404EE64",
+      "title": "Flux Alternator",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:flux_alternator"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Flux Alternator. Item inputs include Redstone Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A55B5DC6F88F86"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17E0C1362E3E5BC4",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:flux_alternator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A9FC814D4647BB5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D8F76BCAFF06CF9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.92268d,
+      "y": -0.51599d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EC45A19AE4BA785",
+      "title": "Flux Crafter",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:flux_crafter"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Flux Crafter. Item inputs include Redstone Ingot, Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A55B5DC6F88F86"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B0447CA4E380AB5",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:flux_crafter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1508318D62DFAC37",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10E15D2BE6CC37A4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.24303d,
+      "y": -2.5324d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11E3BF285228AA70",
+      "title": "Flux Star",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:flux_star"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Flux Star. Item inputs include Flux Star Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "182489CE4ED26D85"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B8D41578362D3B",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:flux_star"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "197A0A7B4E1E62DF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17FAF2531593E12C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.26807d,
+      "y": 4.82351d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "182489CE4ED26D85",
+      "title": "Flux Star Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:flux_star_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Flux Star Block. Item inputs include Flux Star. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11C6FF3B0181F698",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:flux_star_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16235682A3FD1943",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1297696DDD4E7F48",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.26877d,
+      "y": 3.50346d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E268EC035D70937",
+      "title": "Black Iron Frame",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:frame"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Black Iron Frame. Item inputs include Black Iron Ingot, Black Iron Slate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "123597D5A5A1F390",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:frame"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "129D287A1B64475B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16E56B4E38A4B952",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.08473d,
+      "y": 2.01035d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "113202EFB2C26929",
+      "title": "Handheld Crafting Table",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:handheld_table"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Handheld Crafting Table. Item inputs include Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1044F5E2104D097B",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:handheld_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10EAB252B125CA97",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DC2908FC7B2DFFD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.64102d,
+      "y": -7.47432d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EFDF0770BC16EA5",
+      "title": "Nether Star Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:nether_star_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Nether Star Block. Item inputs include Nether Star. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11AA4C163C5F94DF",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:nether_star_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "100ED4FD630A93CF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "189A708A5763C8FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.13576d,
+      "y": -3.15047d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1040215551E6699E",
+      "title": "Pedestal",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:pedestal"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Pedestal. Item inputs include Black Iron Ingot, Black Iron Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A81339BE77948EA",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:pedestal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12EBDB4187E5F6CB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B416942AFC5F511",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.70619d,
+      "y": -4.37404d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DB1500CDFC34237",
+      "title": "Redstone Catalyst",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:redstone_catalyst"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Redstone Catalyst. Item inputs include Black Iron Ingot, Redstone Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A398CE85B32CED6",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:redstone_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16F25034D10DAF1E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17A804543DCB7D41",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.27661d,
+      "y": -5.59761d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E915BA3D78EAE83",
+      "title": "Redstone Component",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:redstone_component"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Redstone Component. Item inputs include Black Iron Slate, Luminessence, Redstone Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1A4CC305F35B45"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F490A4D3FF472C1",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:redstone_component"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14D41C8EF52C12A5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E78B8ADA4E7AC1D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.7575d,
+      "y": 3.40888d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1816E7CE78E4D3F2",
+      "title": "The Ultimate Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:the_ultimate_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft The Ultimate Block. Item inputs include The Ultimate Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1423B93C253F40C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "122F3CBDBCDA5193",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:the_ultimate_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "181632AA2D62F72A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12BC2A10747F3587",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.71332d,
+      "y": -3.85257d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AC261D90CC0FC29",
+      "title": "The Ultimate Catalyst",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:the_ultimate_catalyst"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft The Ultimate Catalyst. Item inputs include Black Iron Ingot, The Ultimate Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145F8C116792C7FB",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:the_ultimate_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B239BFA6FB394B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16EEE2552115352A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.84703d,
+      "y": -6.82118d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "157F8AE5C7814145",
+      "title": "The Ultimate Component",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:the_ultimate_component"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft The Ultimate Component. Item inputs include Black Iron Slate, Luminessence, The Ultimate Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1A4CC305F35B45"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "114C6AD149694233",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:the_ultimate_component"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "193237497EECBDFF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F3BFAFCCC4A054B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.97404d,
+      "y": 0.17201d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15A62AD56BD5C30A",
+      "title": "Ultimate Auto Crafting Table",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ultimate_auto_table"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ultimate Auto Crafting Table. Item inputs include Ultimate Crafting Table, Crystaltine Component, Black Iron Ingot, Redstone Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "188632E4069198F7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "140E415A83E7D268",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_auto_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B86CA835193C16A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "172CABC8787D3B6C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.89902d,
+      "y": 3.16124d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E7F692E0E29ADEA",
+      "title": "Ultimate Catalyst",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ultimate_catalyst"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ultimate Catalyst. Item inputs include Black Iron Ingot, Ultimate Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1698B2A6414414E1",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1671D8A7832A6835",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14A78CE402C1A33F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.41746d,
+      "y": -8.04474d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1465B32A5A3EF4C2",
+      "title": "Ultimate Component",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ultimate_component"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ultimate Component. Item inputs include Black Iron Slate, Luminessence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1A4CC305F35B45"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CDB18FBE97BE588",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_component"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1281EE688D2710E4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1637D8739950E8E4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.13276d,
+      "y": 0.86472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D09BA7B3EF9EFC0",
+      "title": "Black Iron Ingot",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:black_iron_ingot"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Black Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17766CF93EA52C9C",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:black_iron_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A5B8D7F7E4E30AA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "132B3C117F1698BA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": -0.45861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E1112046A838EE",
+      "title": "Black Iron Nugget",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:black_iron_nugget"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Black Iron Nugget. Item inputs include Black Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "197688DB49AC4501",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:black_iron_nugget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "173741C77272EBEB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1319A33672F3D1EF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.29417d,
+      "y": -5.68033d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B0463765CC27191",
+      "title": "Crafting Core",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:crafting_core"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Crafting Core. Item inputs include Black Iron Frame, Elite Component, Black Iron Slate, Black Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E268EC035D70937"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1548A7D55C8BD983",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:crafting_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D111ACD5B145F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11906FE5604BC986",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.37312d,
+      "y": 3.581d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14427C3EA183E7EA",
+      "title": "Crystaltine Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:crystaltine_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Crystaltine Block. Item inputs include Crystaltine Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1391CB3B67886C42"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1070DB648C20FBFA",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:crystaltine_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FBDF7213DD29557",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1201150211E7A311",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.39132d,
+      "y": -4.77768d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1830293EEE391793",
+      "title": "Crystaltine Catalyst",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:crystaltine_catalyst"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Crystaltine Catalyst. Item inputs include Black Iron Ingot, Crystaltine Component. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1180F7B025100928",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:crystaltine_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC3E5520DBC57B6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12626E6A99D68ACA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.86459d,
+      "y": -6.9039d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AC42406C83EF95E",
+      "title": "Crystaltine Component",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:crystaltine_component"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Crystaltine Component. Item inputs include Black Iron Slate, Luminessence, Crystaltine Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1A4CC305F35B45"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1949B8B6D3E97081",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:crystaltine_component"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "117CD468B33BA62B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F5260760064B815",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.90605d,
+      "y": 3.87489d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1391CB3B67886C42",
+      "title": "Crystaltine Ingot",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:crystaltine_ingot"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Crystaltine Ingot. Item inputs include Crystaltine Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "122CD4A0BDD542D8",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:crystaltine_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1802E2DEA710E0AC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "166D52459A489A67",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.28029d,
+      "y": -2.13429d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16AE29A7F4600E15",
+      "title": "Crystaltine Nugget",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:crystaltine_nugget"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Crystaltine Nugget. Item inputs include Crystaltine Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1391CB3B67886C42"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19E099F03DDE66F0",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:crystaltine_nugget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ED227631AD0C0B7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B68DB60F566D53D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.87247d,
+      "y": -3.45725d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1869D67EFE17312F",
+      "title": "Ender Ingot",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ender_ingot"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ender Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1731D85AECF82D45",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17289861D8E7DA01",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DEA626563C75022",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.40673d,
+      "y": 0.78809d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14386787D8DD4CDB",
+      "title": "Ender Ingot Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ender_ingot_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ender Ingot Block. Item inputs include Ender Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1869D67EFE17312F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17CB8CE6B82A20A8",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_ingot_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18844E56DB62F542",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19C575FF2CA17EC1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.88274d,
+      "y": 2.76482d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D7AE7D3E30063AF",
+      "title": "Ender Nugget",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ender_nugget"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Ender Nugget. Item inputs include Ender Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1869D67EFE17312F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C7BEB3D147407C1",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ender_nugget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19A53E4D1251F3D5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12360D5112C84DFD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.90114d,
+      "y": 2.4548d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18CBB58477833B36",
+      "title": "Enhanced Ender Ingot",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:enhanced_ender_ingot"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Enhanced Ender Ingot. Item inputs include Enhanced Ender Ingot Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C83F9381435EE64"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FEAD202BB5C1CA0",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:enhanced_ender_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F767401011AB22C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14579122A3AB6ABB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.43044d,
+      "y": -1.30079d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C83F9381435EE64",
+      "title": "Enhanced Ender Ingot Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:enhanced_ender_ingot_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Enhanced Ender Ingot Block. Item inputs include Enhanced Ender Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BBCFB91F3016F11",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:enhanced_ender_ingot_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "191B155B93397FC9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19DED2FB09E843AE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.08906d,
+      "y": -1.14852d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "117B95169BFBD98F",
+      "title": "Enhanced Ender Nugget",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:enhanced_ender_nugget"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Enhanced Ender Nugget. Item inputs include Enhanced Ender Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18CBB58477833B36"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "131E8D02052D18F9",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:enhanced_ender_nugget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B49061D9CEF9D42",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FF06753BBD67470",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.77183d,
+      "y": -1.45306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A976B52968FC900",
+      "title": "Enhanced Redstone Ingot",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:enhanced_redstone_ingot"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Enhanced Redstone Ingot. Item inputs include Enhanced Redstone Ingot Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B29896D0D910BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BA8B06003A76199",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:enhanced_redstone_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13BCEABF40FC6DC0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A12C3D1D6401F37",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.2725d,
+      "y": -3.42609d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B29896D0D910BB2",
+      "title": "Enhanced Redstone Ingot Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:enhanced_redstone_ingot_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Enhanced Redstone Ingot Block. Item inputs include Enhanced Redstone Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E54ADE0C02F132A",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:enhanced_redstone_ingot_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D6847E197BE523",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FA1F27E1964F98D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.08985d,
+      "y": -2.77506d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19054039A28F7CC5",
+      "title": "Enhanced Redstone Nugget",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:enhanced_redstone_nugget"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Enhanced Redstone Nugget. Item inputs include Enhanced Redstone Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A976B52968FC900"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D9910B7F01FD0CC",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:enhanced_redstone_nugget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18EE885BEA070BDF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15A096F4BF61BC93",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.45514d,
+      "y": -4.07713d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15FF8956C052C355",
+      "title": "Luminessence",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:luminessence"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Luminessence. Item inputs include Gunpowder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15BE3FD8AA04A88E",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:luminessence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "115735D8D15DA4DB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19CC82B16DAE167E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.30112d,
+      "y": 3.50347d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16F46A4F64C50B1F",
+      "title": "Luminessence Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:luminessence_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Luminessence Block. Item inputs include Luminessence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15FF8956C052C355"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B3E913E43CD2473",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:luminessence_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1631BC154A10142F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "105F0643AF8E88AB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.37288d,
+      "y": 4.653d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17A55B5DC6F88F86",
+      "title": "Redstone Ingot",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:redstone_ingot"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Redstone Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152A4D9BCE464CC8",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:redstone_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10212009B079766A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10FDF078FCF7ABA5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.40238d,
+      "y": -0.65473d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ACDB2CDA924566B",
+      "title": "Redstone Ingot Block",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:redstone_ingot_block"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Redstone Ingot Block. Item inputs include Redstone Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A55B5DC6F88F86"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "181C67EB30FCB8B3",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:redstone_ingot_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C63BC25F5A17611",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19495D9A9B9863D3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.22727d,
+      "y": -0.8632d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "139827D590153C2F",
+      "title": "Redstone Nugget",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:redstone_nugget"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft Redstone Nugget. Item inputs include Redstone Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A55B5DC6F88F86"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1926B668F08483EE",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:redstone_nugget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1897DDE2C3AE03B0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12F017C450461EC5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.53185d,
+      "y": -1.2104d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1423B93C253F40C6",
+      "title": "The Ultimate Ingot",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:the_ultimate_ingot"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft The Ultimate Ingot. Item inputs include The Ultimate Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D09BA7B3EF9EFC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145189F8DB063A0A",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:the_ultimate_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "139E7D24E2AB2A26",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BE3F453522CDEE8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.60229d,
+      "y": -2.13525d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "183CE2F370F27AF9",
+      "title": "The Ultimate Nugget",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:the_ultimate_nugget"
+      },
+      "description": [
+        "Larger crafting grids connect the main workshops. Use JEI’s Afterlight recipes for table tiers and late ProjectE; automated tables still need the same ingredients.",
+        "Craft The Ultimate Nugget. Item inputs include The Ultimate Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1423B93C253F40C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ECD1F244BAE7967",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:the_ultimate_nugget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14B2538A906702F7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "176FD321FDF858D0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.9227d,
+      "y": -2.53057d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1433C618BC304DC9",
+      "linked_quest": "1D220A3F4B042706",
+      "x": 7.90286d,
+      "y": -0.98635d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "13389F5D23D3ED1A",
+      "linked_quest": "10BF160CAAC32E6D",
+      "x": 7.90286d,
+      "y": -4.9489d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "11FAFED88DEAED01",
+      "linked_quest": "1A66DF2245192DF5",
+      "x": 5.07443d,
+      "y": 0.52008d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "15FAF5FB378F9C8E",
+      "linked_quest": "11CE2150D69A102A",
+      "x": 8.24853d,
+      "y": -3.62862d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1CAE66666789601C",
+      "linked_quest": "104E82C3C5252DAA",
+      "x": 9.31892d,
+      "y": 0.28488d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1078500A91634047",
+      "linked_quest": "1911FAD1811DD1EE",
+      "x": 10.89954d,
+      "y": 4.48324d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "17DE43A47863CA45",
+      "linked_quest": "12D46BB9E3471834",
+      "x": 10.89809d,
+      "y": 1.84055d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "11F6114CF26EBD5D",
+      "linked_quest": "1F7443D73B582BCF",
+      "x": 7.72354d,
+      "y": 5.01793d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "196F7BFFFAC3660F",
+      "linked_quest": "1F709C799187EA22",
+      "x": 6.5389d,
+      "y": 0.9453d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "12226C12BD40D06A",
+      "linked_quest": "1FB748D587C3998C",
+      "x": 7.84483d,
+      "y": 2.54338d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1CF377EA6DFB623B",
+      "linked_quest": "188632E4069198F7",
+      "x": 9.44183d,
+      "y": 3.16168d,
+      "size": 1.25d,
+      "shape": "diamond"
+    }
+  ],
+  "images": []
+}

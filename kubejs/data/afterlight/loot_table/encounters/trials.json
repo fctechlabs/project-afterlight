@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/corridor",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/entrance",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/intersection",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/intersection_barrel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_common",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_ominous",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_ominous_common",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_ominous_rare",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_ominous_unique",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_rare",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_unique",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

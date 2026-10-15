@@ -1,0 +1,1429 @@
+{
+  "id": "1DB6537C1F343255",
+  "filename": "62_logistics",
+  "title": "Basic Logistics",
+  "icon": {
+    "id": "pipez:item_pipe"
+  },
+  "group": "1907149C93679AEB",
+  "order_index": 40,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1EA62AC50D407FE1",
+      "title": "Part Importer Energy",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "integratedtunnels:part_importer_energy"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Part Importer Energy. Item inputs include Part Interface Energy, Input Variable Transformer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18EB1C050E9DEB54"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "190043ADDABC4983",
+          "type": "item",
+          "item": {
+            "id": "integratedtunnels:part_importer_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F0DCD09C56BDCF7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B14F323474483DE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.15694d,
+      "y": 0.67361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13CCC57031C3E032",
+      "title": "Part Importer Fluid",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "integratedtunnels:part_importer_fluid"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Part Importer Fluid. Item inputs include Part Interface Fluid, Input Variable Transformer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18EB1C050E9DEB54"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13844D7F2F8BDAF6",
+          "type": "item",
+          "item": {
+            "id": "integratedtunnels:part_importer_fluid"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "139E9DE97865A23B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B3FB35B1D0220DA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.50694d,
+      "y": 0.67361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15AEE94BCD743F77",
+      "title": "Part Importer Item",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "integratedtunnels:part_importer_item"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Part Importer Item. Item inputs include Part Interface Item, Input Variable Transformer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18EB1C050E9DEB54"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1530F3872AF8D762",
+          "type": "item",
+          "item": {
+            "id": "integratedtunnels:part_importer_item"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A6A85950C8C182",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1267A9E17F1FB08E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.85694d,
+      "y": 0.67361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FE08F40C4F30B9F",
+      "title": "Laser Node",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:laser_node"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Laser Node. Item inputs include Laser Connector. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DB8C40CB97B2E1F",
+          "type": "item",
+          "item": {
+            "id": "laserio:laser_node"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "145223E3D0713F9F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13C60B2811ED2130",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.24306d,
+      "y": 8.43056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13D3A7E6F97453F7",
+      "title": "Laser Wrench",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:laser_wrench"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Laser Wrench. Item inputs include Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1870AAE8E49F1E7C",
+          "type": "item",
+          "item": {
+            "id": "laserio:laser_wrench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B27FF8359F371B7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "135D6C4116B1BFB1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.19028d,
+      "y": 11.50694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8BA0569605E987",
+      "title": "Node Overclocker",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:overclocker_node"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Node Overclocker. Item inputs include Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17E97B9B6BBC3D0C",
+          "type": "item",
+          "item": {
+            "id": "laserio:overclocker_node"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E156D1C439A4974",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19A0D7A90E620ECB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.27361d,
+      "y": 9.78056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "134015AA5BF303A9",
+      "title": "Pipe Wrench",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "pipez:wrench"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Pipe Wrench. Item inputs include Flint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BFF8E455E013C7D",
+          "type": "item",
+          "item": {
+            "id": "pipez:wrench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11C05FAB68A9B850",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16D145BF9805DD9A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.95139d,
+      "y": 10.60417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16DC2C435933EC28",
+      "title": "Laser Connector",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:laser_connector"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Laser Connector. Item inputs include Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FE08F40C4F30B9F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11597585DFEE1C47",
+          "type": "item",
+          "item": {
+            "id": "laserio:laser_connector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A8DC8AB23971D05",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1014ECD23D9802B5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 5.13194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F7460E378372D47",
+      "title": "Energy Pipe",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "pipez:energy_pipe"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Energy Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "134015AA5BF303A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "164461AB4B66F1DB",
+          "type": "item",
+          "item": {
+            "id": "pipez:energy_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3101A2C7ECE0A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17DE7304DAD3E55A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.00417d,
+      "y": 7.53333d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13855EAFBA8C6E7A",
+      "title": "Fluid Pipe",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "pipez:fluid_pipe"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Fluid Pipe. Item inputs include Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "134015AA5BF303A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1951A26A40E5C77E",
+          "type": "item",
+          "item": {
+            "id": "pipez:fluid_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B649C75BB992788",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A6A8B5AEFE64ACD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.70417d,
+      "y": 7.53333d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14708CE5EDF18E9A",
+      "title": "Gas Pipe",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "pipez:gas_pipe"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Gas Pipe. Item inputs include Infused Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "134015AA5BF303A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F24C9F3C4756696",
+          "type": "item",
+          "item": {
+            "id": "pipez:gas_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1FA5A1BC6B7CF1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C98BA678DD38519",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.00417d,
+      "y": 8.88333d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FC84C108781E6E2",
+      "title": "Item Pipe",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "pipez:item_pipe"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Item Pipe. Item inputs include Dropper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "134015AA5BF303A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12A0B746EB06E01E",
+          "type": "item",
+          "item": {
+            "id": "pipez:item_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF97B018A7039BD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CBF2B3C9861A8DE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.5625d,
+      "y": 8.20833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CD2F22500D9A143",
+      "title": "Universal Pipe",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "pipez:universal_pipe"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Universal Pipe. Item inputs include Item Pipe, Energy Pipe, Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FC84C108781E6E2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "184E81EF15AC2B93",
+          "type": "item",
+          "item": {
+            "id": "pipez:universal_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC9ED474C473EEF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C2CC72EB70FA2B7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.5625d,
+      "y": 5.8125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B2BE62216AFEED1",
+      "title": "Chemical Card",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:card_chemical"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Chemical Card. Item inputs include Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19FB53D233ABA1E4",
+          "type": "item",
+          "item": {
+            "id": "laserio:card_chemical"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ED330A3D20EF61B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19C3BECBEFC76F3D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.49028d,
+      "y": 11.50694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17FB77A525FF19AE",
+      "title": "Card Cloner",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:card_cloner"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Card Cloner. Item inputs include Logic Chip, Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "158744CB543F7017",
+          "type": "item",
+          "item": {
+            "id": "laserio:card_cloner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1139A00CD3086FAF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12BD9F7BEC19B3CA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.34363d,
+      "y": 10.50691d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10270D7817977666",
+      "title": "Energy Card",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:card_energy"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Energy Card. Item inputs include Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1233BB3A0E47D9D6",
+          "type": "item",
+          "item": {
+            "id": "laserio:card_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15936FA94E710360",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1413C051829EB82A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.27361d,
+      "y": 8.43056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A6A90E25D44BA27",
+      "title": "Fluid Card",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:card_fluid"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Fluid Card. Item inputs include Bucket, Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A7CE563225F93BF",
+          "type": "item",
+          "item": {
+            "id": "laserio:card_fluid"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ECA0705C3A355F8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "102302448D308CC1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.43059d,
+      "y": 9.44729d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D28669C238830F3",
+      "title": "Card Holder",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:card_holder"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Card Holder. Item inputs include Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "190F1165476B9184",
+          "type": "item",
+          "item": {
+            "id": "laserio:card_holder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E731A9C3EBBB91",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A7BC32ADAA52181",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.62361d,
+      "y": 7.08056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FFC748CA8D0062A",
+      "title": "Item Card",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:card_item"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Item Card. Item inputs include Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12E40117F6F75B25",
+          "type": "item",
+          "item": {
+            "id": "laserio:card_item"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C4CC098BDCC2858",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C55CC6D45A2BA21",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.97361d,
+      "y": 8.43056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "102357F3D152963C",
+      "title": "Redstone Card",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:card_redstone"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Redstone Card. Item inputs include Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17CAEAC2A6931C84",
+          "type": "item",
+          "item": {
+            "id": "laserio:card_redstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E9275B7258DF2DD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D3B26605C520C6A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.62361d,
+      "y": 9.78056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DA4E70F8B3B1F0C",
+      "title": "Basic Filter",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:filter_basic"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Basic Filter. Item inputs include Basic Filter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18680D00808BDB48",
+          "type": "item",
+          "item": {
+            "id": "laserio:filter_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A50C4E0ECDD55E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D4C3197E61C12F4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.84028d,
+      "y": 8.43056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C5A0FC3B8724469",
+      "title": "Counting Filter",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:filter_count"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Counting Filter. Item inputs include Counting Filter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DA4E70F8B3B1F0C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "159B7928A3466F4A",
+          "type": "item",
+          "item": {
+            "id": "laserio:filter_count"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "183F38E292CBCBAE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10FB6CAFE7C8F0F4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.89306d,
+      "y": 5.13194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CF46B0094D9C87C",
+      "title": "Mod Filter",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:filter_mod"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Mod Filter. Item inputs include Mod Filter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DA4E70F8B3B1F0C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F6CBE95F9A6844E",
+          "type": "item",
+          "item": {
+            "id": "laserio:filter_mod"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "111DE3EEC5A135CC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "107D5EF88B88AE51",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.24306d,
+      "y": 5.13194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BD49027FF63E5C3",
+      "title": "Tag Filter",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:filter_tag"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Tag Filter. Item inputs include Tag Filter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DA4E70F8B3B1F0C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14F568E64B70F6CE",
+          "type": "item",
+          "item": {
+            "id": "laserio:filter_tag"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "122C017240F6F7F4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18994A3B4359E602",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.59306d,
+      "y": 5.13194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BA05CA03BAD80A2",
+      "title": "Logic Chip",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:logic_chip"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Smelt Logic Chip. Item inputs include Raw Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB51D3DDD14EFB0",
+          "type": "item",
+          "item": {
+            "id": "laserio:logic_chip"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AA6C392C5438507",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11D92BBAC1EE27B3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.84028d,
+      "y": 11.50694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15D79125371368A7",
+      "title": "Card Overclocker",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "laserio:overclocker_card"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Card Overclocker. Item inputs include Logic Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA05CA03BAD80A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B17853BDFA830B4",
+          "type": "item",
+          "item": {
+            "id": "laserio:overclocker_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ADF30EE5D50D489",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "115DCBE092AA199D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.97361d,
+      "y": 7.08056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FA316B25B9046E5",
+      "title": "Filter Destination Tool",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "id": "pipez:filter_destination_tool"
+      },
+      "description": [
+        "Connect a small test inventory first. Set the extracting side and destination filter, then confirm items reach the intended chest before attaching a larger farm.",
+        "Craft Filter Destination Tool. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "134015AA5BF303A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E293C6F438139E8",
+          "type": "item",
+          "item": {
+            "id": "pipez:filter_destination_tool"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F933CF3A2EA9284",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C7F36D657AEB5BA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.35417d,
+      "y": 7.53333d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15F2F30615A9CE04",
+      "title": "Logistics",
+      "subtitle": "Basic Logistics",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/wrench)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/wrench)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "13E938E07057C014",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159D7612DE6CC62D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.95139d,
+      "y": 8.20139d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "148409900F895900",
+      "linked_quest": "14F233B11D1B0FA8",
+      "x": 4.50694d,
+      "y": 3.89583d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1582AC122A8ABA08",
+      "linked_quest": "18EB1C050E9DEB54",
+      "x": 4.50694d,
+      "y": 2.39583d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

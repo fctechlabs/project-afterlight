@@ -1,0 +1,1246 @@
+{
+  "id": "1F6F97A898B0332F",
+  "filename": "68_mi_steam",
+  "title": "Modern Industrialization: Steam",
+  "icon": {
+    "id": "modern_industrialization:bronze_boiler"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 46,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1CE479D32EB04441",
+      "title": "Bronze Boiler",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:bronze_boiler"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Bronze Boiler. Item inputs include Bronze Tank, Fire Clay Bricks, Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "134FCAA54669CD46"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "137CDD5056B54117",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:bronze_boiler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1867944B118FCE7E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "186D9C20E8B6DE52",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.64583d,
+      "y": 14.53472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "136EDF544088187B",
+      "title": "Bronze Compressor",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:bronze_compressor"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Bronze Compressor. Item inputs include Forge Hammer, Bronze Machine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CE479D32EB04441"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F805DB3B707FAF",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:bronze_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5B32ADEC0C6843",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19DEA2F726DC6422",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.4375d,
+      "y": 12.13889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18CFFCAB272E7536",
+      "title": "Bronze Cutting Machine",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:bronze_cutting_machine"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Bronze Cutting Machine. Item inputs include Diamond, Bronze Machine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CE479D32EB04441"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "174ABF3E86BEF722",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:bronze_cutting_machine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "135B79A3C95B3F8E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "199B3B855E68AF3E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.0875d,
+      "y": 11.46389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ACDD8A25164A990",
+      "title": "Bronze Furnace",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:bronze_furnace"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Bronze Furnace. Item inputs include Furnace, Fire Clay Bricks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CE479D32EB04441"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D0C209523751C6E",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:bronze_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F5B834D255FBE07",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C9420C28BF3A7BB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.64583d,
+      "y": 15.88472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "134D1BD846A79A4F",
+      "title": "Bronze Macerator",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:bronze_macerator"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Bronze Macerator. Item inputs include Diamond, Bronze Machine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CE479D32EB04441"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F0247464CA190E",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:bronze_macerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1471BF6A44A7EB32",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13966897FC469FB0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.52335d,
+      "y": 15.28474d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "157341D6754B892E",
+      "title": "Bronze Mixer",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:bronze_mixer"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Bronze Mixer. Item inputs include Copper Rotor, Bronze Machine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CE479D32EB04441"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B5BBACFF47288B5",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:bronze_mixer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A748A55DF79F6F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FA5F5975502CCDF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.0875d,
+      "y": 12.81389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B611E5CDCA9E1CF",
+      "title": "Coke Oven",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:coke_oven"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Coke Oven. Item inputs include Bricks, Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CE479D32EB04441"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1030D20951968987",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:coke_oven"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19484C2EA057D66B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17D5CA388193158F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.4375d,
+      "y": 12.81389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F0B565352DE3527",
+      "title": "Copper Wire",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:copper_wire"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Use Wiremill processing to make Copper Wire. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14C5EEBA6B81CF9E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "153C5A357BAF565B",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:copper_wire"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E04F785B72AC58C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13ABB6E42081E98F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 1.95139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "134FCAA54669CD46",
+      "title": "Forge Hammer",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:forge_hammer"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Forge Hammer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1338E503E270E18F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12E75D4A98C12086",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:forge_hammer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1103CA5E191C019C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18A7A97CE111302A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.85417d,
+      "y": 16.03472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "183EBBA8357DFEFE",
+      "title": "Resistor",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:resistor"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Resistor. Item inputs include Paper, Copper Fine Wire. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14C5EEBA6B81CF9E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "107AAEDD1BCD8E30",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:resistor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BB1B71FF19E3A55",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18B6116DEEF5B197",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.65972d,
+      "y": 1.95139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ECC5573DC801377",
+      "title": "Rubber Sheet",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:rubber_sheet"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Obtain Rubber Sheet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14C5EEBA6B81CF9E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AED7829ACC5596B",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:rubber_sheet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A9FB6A0A2807440",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E74422567173069",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86806d,
+      "y": 1.95139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AE06DC17225054A",
+      "title": "Steam Blast Furnace",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:steam_blast_furnace"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Steam Blast Furnace. Item inputs include Fire Clay Bricks, Blast Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CE479D32EB04441"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1448E70389AFE2A9",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:steam_blast_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1859A45E71C6C83D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16A557482AED20D0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.64583d,
+      "y": 12.13889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "119D763856C8C52B",
+      "title": "Steam Mining Drill",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:steam_mining_drill"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Steam Mining Drill. Item inputs include Iron Large Plate, Furnace, Bucket, Diamond. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "134FCAA54669CD46"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1071F354F76C4BBE",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:steam_mining_drill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "156EB3B29C63746A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A720FA95BBF8ECC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.85417d,
+      "y": 14.53472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D0E49C1CF9CB5F",
+      "title": "Steam Quarry",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:steam_quarry"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Steam Quarry. Item inputs include Steel Large Plate, Invar Rotary Blade, Steel Machine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D942F9A1FEF03CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "135D2F5787BE8429",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:steam_quarry"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AE884CDE44EB065",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16BE6B6642456DB0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.39861d,
+      "y": 6.74306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17BD2B67C1CE5436",
+      "title": "Steel Machine Casing",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:steel_machine_casing"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Steel Machine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16485C1A787C7C9D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15FB6E2135571075",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:steel_machine_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E86E44CC0C5FB7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1346AE07F8C0D7F5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.84028d,
+      "y": 8.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "150F4A4EE6DD4B07",
+      "title": "Steel Packer",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:steel_packer"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Steel Packer. Item inputs include Steel Machine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D942F9A1FEF03CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B4BE66DD4E92BBA",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:steel_packer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11828E6111412238",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "149E4D2A59D8067C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.80139d,
+      "y": 3.67222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12EF1EE011084258",
+      "title": "Steel Unpacker",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:steel_unpacker"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Steel Unpacker. Item inputs include Steel Machine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D942F9A1FEF03CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C85FBDBD8D977F0",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:steel_unpacker"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BE23690814F0B31",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D7E90AAC748E3EC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.10139d,
+      "y": 5.02222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14C5EEBA6B81CF9E",
+      "title": "Steel Wiremill",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:steel_wiremill"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Steel Wiremill. Item inputs include Steel Machine Casing, Bronze Rotor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D942F9A1FEF03CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D4B990CFE45B62",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:steel_wiremill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B70AF0F81B5C53E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D194A9CC1A85571",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.65972d,
+      "y": 4.34722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C9CC0DADC98F7D1",
+      "title": "Steel Alloy Smelter",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "extended_industrialization:steel_alloy_smelter"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Steel Alloy Smelter. Item inputs include Steel Machine Casing, Bronze Rotor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D942F9A1FEF03CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14420F51F8978FAB",
+          "type": "item",
+          "item": {
+            "id": "extended_industrialization:steel_alloy_smelter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "135ABCC036F7970F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6E89B8E4FAA7C9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.45139d,
+      "y": 3.67222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16485C1A787C7C9D",
+      "title": "Uncooked Steel Dust",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:uncooked_steel_dust"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Uncooked Steel Dust. Item inputs include Coke Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "136EDF544088187B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "196E152B633384D7",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:uncooked_steel_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188025E445D7CEFC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C72794E8AFBF9C7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.4375d,
+      "y": 9.74306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14237C060BAD7903",
+      "title": "Analog Circuit",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:analog_circuit"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Analog Circuit. Item inputs include Inductor, Copper Wire, Resistor, Capacitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F0B565352DE3527"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D6D3BD387713C5",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:analog_circuit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A0EE51CACC57A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11280ECFD3002174",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EE6F9672F301846",
+      "title": "Steel Upgrade",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:steel_upgrade"
+      },
+      "description": [
+        "Begin with the Forge Hammer, bronze components, boilers, and steam machines. Keep boilers supplied with water and route steam to the correct machine face.",
+        "Craft Steel Upgrade. Item inputs include Bronze Rotor, Steel Machine Casing, Fire Clay Bricks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16485C1A787C7C9D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11582E73E9E87028",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:steel_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC97F42C139CAA8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10247F1F8CCD24CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.04861d,
+      "y": 8.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B5D8D2D2F6474E9",
+      "title": "Villager Trades",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:bronze_boiler"
+      },
+      "description": [
+        "Learn about Villager Trades in the Modern Industrialization: Steam guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "134FCAA54669CD46"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "101338A4AB04B049",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FFF0BE2AC8E2CF5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.0625d,
+      "y": 14.53472d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12CC6430E21D862E",
+      "title": "Multiblock Levels",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:bronze_boiler"
+      },
+      "description": [
+        "Learn about Multiblock Levels in the Modern Industrialization: Steam guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1AE06DC17225054A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1F4239FCB43D95C4",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12B0E66F25FA4802",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.64583d,
+      "y": 9.74306d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D942F9A1FEF03CC",
+      "title": "Steel Age",
+      "subtitle": "Modern Industrialization: Steam",
+      "icon": {
+        "id": "modern_industrialization:bronze_boiler"
+      },
+      "description": [
+        "Learn about Steel Age in the Modern Industrialization: Steam guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1EE6F9672F301846"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "13338DC05DE68D9C",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "100C3AE80C415B55",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.04861d,
+      "y": 6.74306d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1B502F5C67176EDF",
+      "linked_quest": "1338E503E270E18F",
+      "x": 4.85417d,
+      "y": 17.53472d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

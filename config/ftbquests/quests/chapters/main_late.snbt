@@ -1,0 +1,701 @@
+{
+  "id": "1F30992D12321EFD",
+  "filename": "main_late",
+  "title": "Chapter 5: Afterlight",
+  "icon": {
+    "id": "afterlight:afterlight_beacon"
+  },
+  "group": "1770D93DCD8CF55A",
+  "order_index": 5,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1727B5D2289C6085",
+      "title": "Ritual Brazier",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:ritual_brazier"
+      },
+      "description": [
+        "Craft a Ritual Brazier and build a separate fighting platform away from your home. The Summon Wilden ritual gives us a reliable way to collect Wilden parts in the sky."
+      ],
+      "dependencies": [
+        "19C9E869250CD45D"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1FB43DF3C96E44DE",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:ritual_brazier"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D5D9ADDB31CCFC1",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1F3B2134E8459017",
+          "type": "item",
+          "item": {
+            "id": "minecraft:cobblestone",
+            "count": 64
+          }
+        },
+        {
+          "id": "19BC9BEAFD177A8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0,
+      "y": 2,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F609BBC8005BD84",
+      "title": "Summon Wilden",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:ritual_wilden_summon"
+      },
+      "description": [
+        "No Wilden parts yet? Use the altertablet recipe: a Vexing Archwood Log, Emerald Block, Iron Sword, Bow, and Lapis Block. Place the tablet on the Brazier and activate the ritual without augments to summon ordinary Wilden."
+      ],
+      "dependencies": [
+        "1727B5D2289C6085"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1C3058434B5B7818",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:ritual_wilden_summon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "195F3165707F6806",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "12ABFEE5350579FE",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bread",
+            "count": 8
+          }
+        },
+        {
+          "id": "17E913BCC4E38C51",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.5d,
+      "y": 2,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E371292CB81FF64",
+      "title": "Wilden Horn",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:wilden_horn"
+      },
+      "description": [
+        "Defeat the summoned Wilden and collect their parts. Repeat the ordinary ritual until you have a Horn, Spike, and Wing. Save one of each for the Chimera summon."
+      ],
+      "dependencies": [
+        "1F609BBC8005BD84"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "19BCA102C3BD202D",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:wilden_horn"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138F8449E7EE236A",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1828A08F19EC579E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": 1,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DCDA51E7C9E946D",
+      "title": "Wilden Spike",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:wilden_spike"
+      },
+      "description": [
+        "Keep a Wilden Spike from the summoned mobs. We need all three different parts, not three copies of the same drop."
+      ],
+      "dependencies": [
+        "1F609BBC8005BD84"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1B5589D36C7D7842",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:wilden_spike"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19F74A9582781E19",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "12B8F8A0D0D84029",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": 2.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AE2364EEDFE762D",
+      "title": "Wilden Wing",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:wilden_wing"
+      },
+      "description": [
+        "Collect a Wilden Wing to finish the summoning ingredients. Prepare your arena and equipment before starting the next ritual."
+      ],
+      "dependencies": [
+        "1F609BBC8005BD84"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1F1BB403DE8B7692",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:wilden_wing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138223B295B85390",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1D7D807F98A5A989",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": 4,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16FE4EF595948851",
+      "title": "Wilden Tribute",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:wilden_tribute"
+      },
+      "description": [
+        "Place a fresh Summon Wilden tablet on the Brazier, add one Wilden Horn, Spike, and Wing, then activate it. Defeat the Wilden Chimera and keep its Tribute for the 9 x 9 Philosopher's Stone recipe. The fight destroys nearby blocks, so use your separate arena."
+      ],
+      "dependencies": [
+        "1E371292CB81FF64",
+        "1DCDA51E7C9E946D",
+        "1AE2364EEDFE762D"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "137661D5315A1BD3",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:wilden_tribute"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1874036D9E4403A8",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "120D87AA09F39D8A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.5d,
+      "y": 2.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1128BF65F66D7B96",
+      "title": "Abjuration Essence",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:abjuration_essence"
+      },
+      "description": [
+        "Use the essence recipe shown in JEI. Keep this material for the late Philosopher's Stone craft."
+      ],
+      "dependencies": [
+        "19C9E869250CD45D"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "171D38D81CC6D9BE",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:abjuration_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "144D5D7A89EC3F2C",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "10E0BAA664DA690C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C982EA759642715",
+      "title": "Philosopher's Stone",
+      "subtitle": "ProjectE",
+      "icon": {
+        "id": "projecte:philosophers_stone"
+      },
+      "description": [
+        "Bring your Wilden Tribute, Abjuration Essence, Awakened Core, and the remaining ingredients to the Ultimate Crafting Table. JEI shows the full 9 x 9 recipe. This is where our magic and factory branches unlock ProjectE together."
+      ],
+      "dependencies": [
+        "188632E4069198F7",
+        "19B956A0E7DFCD45",
+        "16FE4EF595948851",
+        "1128BF65F66D7B96"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1FBC9DCFDACEFE91",
+          "type": "item",
+          "item": {
+            "id": "projecte:philosophers_stone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19FD49E4C5FF9E04",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "1E6C080DB6E83F29",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6,
+      "y": 1,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1929C25C864C3A55",
+      "title": "Transmutation Table",
+      "subtitle": "ProjectE",
+      "icon": {
+        "id": "projecte:transmutation_table"
+      },
+      "description": [
+        "Craft the Transmutation Table in the 9 x 9 table. Learn ordinary resources; manufacturing milestones deliberately have no EMC."
+      ],
+      "dependencies": [
+        "1C982EA759642715"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "17DBE3E86568704B",
+          "type": "item",
+          "item": {
+            "id": "projecte:transmutation_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A6C235A06671AE0",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "16D4118438B15F68",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.5d,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E5467E4E3BD9E22",
+      "title": "Transmutation Tablet",
+      "subtitle": "ProjectE",
+      "icon": {
+        "id": "projecte:transmutation_tablet"
+      },
+      "description": [
+        "Craft the Transmutation Tablet through its late 9 x 9 recipe. Your learned EMC knowledge is the useful reward; it does not replace the earlier manufacturing journey."
+      ],
+      "dependencies": [
+        "1929C25C864C3A55"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "182895D9FC254961",
+          "type": "item",
+          "item": {
+            "id": "projecte:transmutation_tablet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1308D47A121187CD",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "16A35E99B97C50F6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1116EDF0C5C16F63",
+      "title": "Energy Condenser",
+      "subtitle": "ProjectE",
+      "icon": {
+        "id": "projecte:condenser_mk1"
+      },
+      "description": [
+        "Craft the Mk1 Condenser using the late table recipe. Choose a valid EMC target and provide items with EMC value."
+      ],
+      "dependencies": [
+        "1C982EA759642715"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "191F49E1C0BF5E22",
+          "type": "item",
+          "item": {
+            "id": "projecte:condenser_mk1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11FEF0CF1C921915",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1602830C2B6D38DF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.5d,
+      "y": 2.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11EF70C3C4A68FA8",
+      "title": "Energy Condenser MK2",
+      "subtitle": "ProjectE",
+      "icon": {
+        "id": "projecte:condenser_mk2"
+      },
+      "description": [
+        "Upgrade the Mk1 through its 9 x 9 recipe. Manufacturing milestone exclusions still apply to the faster condenser."
+      ],
+      "dependencies": [
+        "1116EDF0C5C16F63"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1648C20D97AFB8F6",
+          "type": "item",
+          "item": {
+            "id": "projecte:condenser_mk2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F8E58FA60B41064",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "166BCD449A9310B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": 2.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DEC929F5651ABC8",
+      "title": "Afterlight Beacon",
+      "subtitle": "Afterlight",
+      "icon": {
+        "id": "afterlight:afterlight_beacon"
+      },
+      "description": [
+        "Bring the two late ProjectE branches together in the final trophy craft. The Beacon celebrates the rebuilt world; it provides no earlier progression ingredient."
+      ],
+      "dependencies": [
+        "11EF70C3C4A68FA8",
+        "1E5467E4E3BD9E22"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "18E04DCDFC0D9D99",
+          "type": "item",
+          "item": {
+            "id": "afterlight:afterlight_beacon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19194A16CC5653A5",
+          "type": "xp",
+          "xp": 200
+        },
+        {
+          "id": "13E5F612061F19FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.5d,
+      "y": 1,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1BBDA2E69CE0D499",
+      "linked_quest": "188632E4069198F7",
+      "x": 4.5d,
+      "y": -2,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "17D9ED9163781700",
+      "linked_quest": "19C9E869250CD45D",
+      "x": 0,
+      "y": 0,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "189551113B04D4F7",
+      "linked_quest": "19B956A0E7DFCD45",
+      "x": 6,
+      "y": -2,
+      "size": 1.0d,
+      "shape": "diamond"
+    }
+  ],
+  "images": []
+}

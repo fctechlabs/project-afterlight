@@ -1,0 +1,1819 @@
+{
+  "id": "1C9D5BFF1E89252E",
+  "filename": "92_deeper",
+  "title": "Deeper and Darker",
+  "icon": {
+    "id": "deeperdarker:heart_of_the_deep"
+  },
+  "group": "15E451C383170371",
+  "order_index": 69,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "100904BA38D9E6A1",
+      "title": "Sonorous Staff",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:sonorous_staff"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Craft Sonorous Staff. Item inputs include Sculk Bone, Soul Crystal, Heart of the Deep. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AE327BEBAEFE0B2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C58F739AF141001",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:sonorous_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F5AAEFD973C1708",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "191E40F9A9B4FB98",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1852C1EF0478D270",
+      "title": "Warden Helmet",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:warden_helmet"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Use a Smithing Table to make Warden Helmet. Item inputs include Reinforced Echo Shard, Netherite Helmet, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D8A0592F1663CDB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E8B176127F25D85",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:warden_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F6B6E8CB2B3ACEF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E62C558489FD97A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.85139d,
+      "y": 2.84722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16553211C8EC50F8",
+      "title": "Bloom Berries",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:bloom_berries"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Bloom Berries and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D9182392014909F",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:bloom_berries"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188F303740B8CAA1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18F8B005207FD7EA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.49861d,
+      "y": 11.46528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ECD847AB4897C46",
+      "title": "Blooming Moss Block",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:blooming_moss_block"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Blooming Moss Block and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A4515D0A2DC0678",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:blooming_moss_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "126273D5F991B8EF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19F10EE5C6F71160",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38084d,
+      "y": 9.69751d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1526F681F7C00187",
+      "title": "Blooming Stem",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:blooming_stem"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Blooming Stem and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F71CA7A010ED938",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:blooming_stem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16077137540C8725",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D92FE9B806855FD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.89028d,
+      "y": 5.46806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19F405D14D1E725B",
+      "title": "Cobbled Gloomslate",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:cobbled_gloomslate"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Use Crushing processing to make Cobbled Gloomslate. Item inputs include Gloomslate Tiles. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A69E4752C5E2AD1",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:cobbled_gloomslate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E374D3769AAFAB1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12D3E04284C40563",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.24028d,
+      "y": 5.46806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A96BFCEBD613023",
+      "title": "Cobbled Sculk Stone",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:cobbled_sculk_stone"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Use Crushing processing to make Cobbled Sculk Stone. Item inputs include Sculk Stone Tiles. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DFB338FF540C3FE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12661ED0B9583D61",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:cobbled_sculk_stone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CA6B28DA6047F01",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "137B4538348C7A01",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.19028d,
+      "y": 7.49306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16BFD2A36D3A8E8D",
+      "title": "Echo Log",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:echo_log"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Echo Log and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DFB338FF540C3FE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18DF5D73A8D63D3E",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:echo_log"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C40EA48028615C7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C4125E02B6C8F71",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.84028d,
+      "y": 2.17222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DFB338FF540C3FE",
+      "title": "Echo Soil",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:echo_soil"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Echo Soil and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E7126E3B6B8096D",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:echo_soil"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A4AE6E0BCC71FA7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1151A94CC571F4FF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.84028d,
+      "y": 7.49306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1776530F1FBED9E3",
+      "title": "Gloomy Cactus",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:gloomy_cactus"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Gloomy Cactus and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B9CDC49244F9310",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:gloomy_cactus"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "177A6C884485DE1F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "102E80D206EC6098",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.84028d,
+      "y": 6.81806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1171097C844CDE15",
+      "title": "Glowing Roots",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:glowing_roots"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Glowing Roots and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "125DD381AC62E3FF",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:glowing_roots"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D5423C5D3CA1849",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14A15F32618A94DC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.54028d,
+      "y": 6.81806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FEE417C954CB21A",
+      "title": "Grime Ball",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:grime_ball"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Grime Ball and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "151541C59A87691A",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:grime_ball"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0DEC2252923402",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D885EB861D99B49",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.89028d,
+      "y": 6.81806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15B1B88DFB5C7E8E",
+      "title": "Heart of the Deep",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:heart_of_the_deep"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Heart of the Deep and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1FC2993850F85AF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B716BADD240EBA4",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:heart_of_the_deep"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1615642BA04DFF53",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA0F11F79821014",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.79861d,
+      "y": 11.46528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1612D3B9D08E0196",
+      "title": "Ice Lily",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:ice_lily"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Ice Lily and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B373C0C37D67E9A",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:ice_lily"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14247C56783D7992",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14703A4023F4BA47",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.59028d,
+      "y": 6.81806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8A0592F1663CDB",
+      "title": "Reinforced Echo Shard",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:reinforced_echo_shard"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Craft Reinforced Echo Shard. Item inputs include Warden Carapace, Echo Shard, Phantom Membrane. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1450ED79FADA48A6",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:reinforced_echo_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "104FCBF432609539",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10F57286581BAA81",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.20139d,
+      "y": 7.49306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13DF463919876F23",
+      "title": "Sculk Gleam",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:sculk_gleam"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Sculk Gleam and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DFB338FF540C3FE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "140AE26098A2B004",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:sculk_gleam"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "169BF64702537BAA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1573233BA42E1E7F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.49028d,
+      "y": 3.52222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1589609B96E6CAF9",
+      "title": "Sculk Tendrils",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:sculk_tendrils"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Sculk Tendrils and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1029A7E3910A981D",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:sculk_tendrils"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14AA14AA3B445881",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11F806B5AEE6E0F0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.54028d,
+      "y": 8.16806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F1B1777F5B839CF",
+      "title": "Sculk Transmitter",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:sculk_transmitter"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Sculk Transmitter and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15CBF560FE93D98A",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:sculk_transmitter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C3C386190F90EC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DDC3362DC6FE285",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.89028d,
+      "y": 8.16806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BA1D0573EB56C8F",
+      "title": "Sculk Vines",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:sculk_vines"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Sculk Vines and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1082C620457C8F20",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:sculk_vines"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D104F1EFD1516E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "148E243AF6B4EE72",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.24028d,
+      "y": 8.16806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11F5C7A2670CF5FF",
+      "title": "Soul Elytra",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:soul_elytra"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Craft Soul Elytra. Item inputs include Sculk Bone, Soul Crystal, Soul Dust, Elytra. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AE327BEBAEFE0B2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1956D7DB0F481B09",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:soul_elytra"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1017EF1BF4C72CCF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10156E70F3D94ED6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.65972d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12A1570984C61C9B",
+      "title": "Soundproof Glass",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:soundproof_glass"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Craft Soundproof Glass. Item inputs include Glass, Soul Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FD83DC748E59F9C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "112234EB26CF8C00",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:soundproof_glass"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15150AD293E76991",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1661BAE518932665",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.99306d,
+      "y": 2.84722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1981CDA1625C27E2",
+      "title": "Crystallized Amber",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:crystallized_amber"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Obtain Crystallized Amber and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1508EC14E4F3B68D",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:crystallized_amber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "142C2C4D685F6E86",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AD2211047855F91",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.59028d,
+      "y": 5.46806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12B2BB15C19A19F5",
+      "title": "Smithing Template",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:warden_upgrade_smithing_template"
+      },
+      "description": [
+        "Prepare for the Otherside and its hostile creatures. Obtain a Heart of the Deep and follow the mod’s portal requirements; take a reliable return route and avoid travelling unprepared.",
+        "Craft Smithing Template. Item inputs include Diamond, Sculk, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "198A1A94098B7ABD",
+          "type": "item",
+          "item": {
+            "id": "deeperdarker:warden_upgrade_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10B3A1BCA7417F25",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "115AA250CD4C52A7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.19028d,
+      "y": 9.51806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FC2993850F85AF5",
+      "title": "Kill the Warden",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "components": {
+          "ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
+        },
+        "id": "ftbquests:custom_icon"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "minecraft:warden",
+          "type": "kill",
+          "value": 1,
+          "id": "1386B916CD394302",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A11C7C16EE60D35",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.44861d,
+      "y": 11.46528d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10AA9F8CF0787E1E",
+      "title": "The Otherside",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "minecraft:sculk_vein"
+      },
+      "description": [
+        "Enter Otherside. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "15B1B88DFB5C7E8E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "deeperdarker:otherside",
+          "type": "dimension",
+          "id": "1D013DFC41D5F440",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11660EA91CFC29FD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.14861d,
+      "y": 11.46528d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AE327BEBAEFE0B2",
+      "title": "Shattered",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:heart_of_the_deep"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1DFB338FF540C3FE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "deeperdarker:shattered",
+          "type": "kill",
+          "value": 1,
+          "id": "19FFC8AAC5D07F89",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "108871B9A8960C89",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.04861d,
+      "y": 2.84722d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11F1339042D30638",
+      "title": "Sculk Centipede",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:heart_of_the_deep"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1DFB338FF540C3FE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "deeperdarker:sculk_centipede",
+          "type": "kill",
+          "value": 1,
+          "id": "16A50D92F03AFCC5",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AA48B2BF42CAB8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.19028d,
+      "y": 2.17222d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FD83DC748E59F9C",
+      "title": "Sculk Snapper",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:heart_of_the_deep"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "deeperdarker:sculk_snapper",
+          "type": "kill",
+          "value": 1,
+          "id": "19CC0E86A7E1E069",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14E0037B38E3F574",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.40972d,
+      "y": 7.49306d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1151DC0AD57A7439",
+      "title": "Angler Fish",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:heart_of_the_deep"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "deeperdarker:angler_fish",
+          "type": "kill",
+          "value": 1,
+          "id": "1C8A2302006FF278",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13479E878B5EB0F8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.84028d,
+      "y": 5.46806d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11CD9B42335E9B6A",
+      "title": "Sludge",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:heart_of_the_deep"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "deeperdarker:sludge",
+          "type": "kill",
+          "value": 1,
+          "id": "1ED563FBE4E11E9F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "114506C2688F7167",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.84028d,
+      "y": 9.51806d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12A583FA7D978A4C",
+      "title": "Shriek Worm",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:heart_of_the_deep"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "deeperdarker:shriek_worm",
+          "type": "kill",
+          "value": 1,
+          "id": "1F05016C5077DA78",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1472CD3716A80220",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.59028d,
+      "y": 8.16806d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123437FD3648F3F6",
+      "title": "Warden Weapons",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(deeperdarker:warden_sword)item(deeperdarker:warden_axe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1D8A0592F1663CDB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(deeperdarker:warden_sword)item(deeperdarker:warden_axe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "104BF050B2585BA4",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "167A94F8A2EFBB08",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.55139d,
+      "y": 2.84722d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1054E277F99F8D7C",
+      "title": "Warden Tools",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(deeperdarker:warden_pickaxe)item(deeperdarker:warden_shovel)item(deeperdarker:warden_hoe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1D8A0592F1663CDB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(deeperdarker:warden_pickaxe)item(deeperdarker:warden_shovel)item(deeperdarker:warden_hoe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "15DE08663190B9DE",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "174C5B0F2C895AED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.20139d,
+      "y": 2.84722d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "103BB3848A5CDBDE",
+      "title": "Gloomy Geyser",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:gloomy_geyser"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Deeper and Darker."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "observe_type": 0,
+          "timer": 0,
+          "to_observe": "deeperdarker:gloomy_geyser",
+          "type": "observation",
+          "id": "15C3C209766100BE",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1753239E81DA6692",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.19028d,
+      "y": 6.81806d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14898BA87B4A807D",
+      "title": "Sculk Jaw",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:sculk_jaw"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Deeper and Darker."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "observe_type": 0,
+          "timer": 0,
+          "to_observe": "deeperdarker:sculk_jaw",
+          "type": "observation",
+          "id": "1BA97EAB9FE2E965",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1608E42F433B051F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.84028d,
+      "y": 8.16806d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "188386502CECE22A",
+      "title": "Stalker",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:stalker_spawn_egg"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Deeper and Darker."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "observe_type": 0,
+          "timer": 0,
+          "to_observe": "deeperdarker:ancient_vase",
+          "type": "observation",
+          "id": "14ACA71DF898EC2A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18F0C9E23D054347",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.54028d,
+      "y": 9.51806d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D0A29A340BCE8D8",
+      "title": "Home, Sweet Home!",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "minecraft:grass_block"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Deeper and Darker."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "observe_type": 0,
+          "timer": 0,
+          "to_observe": "minecraft:reinforced_deepslate",
+          "type": "observation",
+          "id": "1A938264A6A89B9E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E559182B8DACD58",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.24028d,
+      "y": 6.81806d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "153428D1B09FB9A6",
+      "title": "Sculk Leech",
+      "subtitle": "Deeper and Darker",
+      "icon": {
+        "id": "deeperdarker:heart_of_the_deep"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "10AA9F8CF0787E1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "deeperdarker:sculk_leech",
+          "type": "kill",
+          "value": 1,
+          "id": "123374528063FE04",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FC141C6818ABB61",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.19028d,
+      "y": 8.16806d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

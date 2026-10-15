@@ -1,0 +1,17 @@
+name: Pack suggestion
+description: Suggest a specific improvement to Project Afterlight.
+title: "[Suggestion] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What player problem does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: Explain how this would work in skyblock and how it affects progression.
+    validations:
+      required: true

@@ -1,0 +1,2802 @@
+{
+  "id": "1790231BC8BA5FA7",
+  "filename": "89_twilight",
+  "title": "The Twilight Forest",
+  "icon": {
+    "id": "twilightforest:naga_trophy"
+  },
+  "group": "15E451C383170371",
+  "order_index": 66,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "15F47977FF8D0246",
+      "title": "Arctic Hood",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:arctic_helmet"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Arctic Hood. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1787A27CE5FE38C2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "146E2E87CF3E5207",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:arctic_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11ED42EEEDF27FA6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16B0464A26173179",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.53383d,
+      "y": 11.43131d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A10DCF69ECCE31D",
+      "title": "Diamond Minotaur Axe",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:diamond_minotaur_axe"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Diamond Minotaur Axe and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "19B746B7D870A04B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "163A6DC15AC1E3D1",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:diamond_minotaur_axe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1255F88306E21214",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1374E974956F89AD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.83732d,
+      "y": 4.8584d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D2AA1FF51B281A6",
+      "title": "Ender Bow",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:ender_bow"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Ender Bow and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C2FB563DC5D57B8",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:ender_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16215E884A98B812",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1171412668E5D99D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.34834d,
+      "y": 5.32084d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E691715D8FE1E7",
+      "title": "Fiery Helmet",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:fiery_helmet"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Fiery Helmet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D32C39A68CAA78"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B11DAF584A7BA36",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:fiery_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17C0DE546C705858",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1411F7DCE8DFFDBD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.93886d,
+      "y": 3.85078d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E91B2EE5308B28C",
+      "title": "Fiery Sword",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:fiery_sword"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Fiery Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D32C39A68CAA78"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BAD66CB3506F4E1",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:fiery_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "128B5A984AB30907",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1439AC68AA93223F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.58383d,
+      "y": 11.43131d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F68AB6589DDDBC2",
+      "title": "Giant's Pickaxe",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:giant_pickaxe"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Giant's Pickaxe. Item inputs include Giant Cobblestone, Giant Log. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12CCB7CF3DC788C8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F5F57AD0FCDFBFF",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:giant_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1130DFFE25524992",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C566F099D03F0CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.05701d,
+      "y": 8.63308d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17E63D4F0A32A91C",
+      "title": "Glass Sword",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:glass_sword"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Glass Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CE0E7EFF7110C0C",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:glass_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C6D0E6C6115B4F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F0127C99ED9B994",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.40903d,
+      "y": 4.26015d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E320A0645C39B40",
+      "title": "Ice Bow",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:ice_bow"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Ice Bow and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1362F1ED4F2F40DE",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:ice_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10CE6F5A068B56A3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D68424C0C31843C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.83904d,
+      "y": 6.83141d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "182EC96F13BC2AB5",
+      "title": "Ice Sword",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:ice_sword"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Ice Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D3BC6C06257BD7C",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:ice_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10CFAFE6B59A779B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FC21B41D5135496",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.16013d,
+      "y": 3.13225d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D4AFAC93F0E1D06",
+      "title": "Ironwood Helmet",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:ironwood_helmet"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Ironwood Helmet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14C341F2C509DE12",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:ironwood_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C7F4D076D61F79B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1871218F2FA5B7E6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.88383d,
+      "y": 12.78131d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "173E5C374FF50704",
+      "title": "Knightmetal Helmet",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:knightmetal_helmet"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Knightmetal Helmet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "165170B27DB7DB51"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16AAB698D456C8B4",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:knightmetal_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CCE511298E79978",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1944AF61F9C1AFA0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.04041d,
+      "y": 2.84317d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13D63CBA8B2E73A0",
+      "title": "Knightmetal Sword",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:knightmetal_sword"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Knightmetal Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "165170B27DB7DB51"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19FE73AE23C53A76",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:knightmetal_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "108D3524CB5CD8FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FC09E4DFB38A22E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.26196d,
+      "y": 2.68231d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B78183C301CE019",
+      "title": "Mazebreaker",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:mazebreaker_pickaxe"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Mazebreaker and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1744BE5841089AF4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C0334A6D2584010",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:mazebreaker_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D7E05E931D7EF8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1498B63C96862F76",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.89071d,
+      "y": 9.38131d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B8E90D260CC836",
+      "title": "Phantom Helmet",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:phantom_helmet"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Phantom Helmet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "165170B27DB7DB51"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14AA7EE4AEEDDE2B",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:phantom_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB4A162A35D1F30",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1758487F5311DE5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.53383d,
+      "y": 14.13131d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13DF1AFB2FB0D2C0",
+      "title": "Seeker Bow",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:seeker_bow"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Seeker Bow and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F879B3CF2617551"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1465BC021C24A099",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:seeker_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "103B482190A59916",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E54EE096019702D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45367d,
+      "y": 11.23179d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C4724546BDD38A6",
+      "title": "Steeleaf Helmet",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:steeleaf_helmet"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Steeleaf Helmet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18E3FDC969576806",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:steeleaf_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "177ECAED75D7C731",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11E2BFD491925A2A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.23383d,
+      "y": 14.13131d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9A224D9FD227EE",
+      "title": "Tri-Bow",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:triple_bow"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Tri-Bow and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F879B3CF2617551"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "134FC8CF911180CB",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:triple_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BB9B4C6CF7DAB42",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A4AD74DC3F6E424",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.56172d,
+      "y": 10.46047d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A8AE68EAAC69571",
+      "title": "Yeti Horned Helm",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:yeti_helmet"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Yeti Horned Helm. Item inputs include Alpha Yeti Fur. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1787A27CE5FE38C2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10FD3075386ED4E4",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:yeti_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "129C0E734AABC79B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "191DA076856ABAB9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.51854d,
+      "y": 10.77849d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1787A27CE5FE38C2",
+      "title": "Alpha Yeti Trophy",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:alpha_yeti_trophy"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Alpha Yeti Trophy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F7FA93CC318A473"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B5DD65D45DFBA05",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:alpha_yeti_trophy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C639D5720695F03",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17300C1340ED6CB2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.00192d,
+      "y": 9.53125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A59E30B3A22AE80",
+      "title": "Carminite Builder",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:carminite_builder"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Carminite Builder. Item inputs include Encased Towerwood Planks, Dispenser. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7FA93CC318A473"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1686F98B48908340",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:carminite_builder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12074D612BE4599A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FCFE0473290D4CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.27847d,
+      "y": 1.83762d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17BDB90F4F589C6D",
+      "title": "Charm of Keeping I",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:charm_of_keeping_1"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Charm of Keeping I and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1744BE5841089AF4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "136D1C063BB2D860",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:charm_of_keeping_1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E8650E2D842830",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18B7A4453D7BF7F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.25583d,
+      "y": 10.05948d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1121592FBFF65177",
+      "title": "Charm of Keeping II",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:charm_of_keeping_2"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Charm of Keeping II. Item inputs include Charm of Keeping I. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17BDB90F4F589C6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D255100039830E8",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:charm_of_keeping_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD39DDA073E0F66",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "182EF46AD0C5AF2E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.24281d,
+      "y": 10.98055d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B1EDBA5B06AF1D9",
+      "title": "Charm of Keeping III",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:charm_of_keeping_3"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Charm of Keeping III. Item inputs include Charm of Keeping II. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1121592FBFF65177"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19DBDFDFCB446543",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:charm_of_keeping_3"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CFE9FD09B9D769B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AB481CB2C82FE47",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.22978d,
+      "y": 11.90163d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1788D80DC024A351",
+      "title": "Charm of Life I",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:charm_of_life_1"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Charm of Life I and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EE8B1AA74253555",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:charm_of_life_1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "151871C7D6E0FC58",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1911840C5CD1F741",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.87859d,
+      "y": 6.90621d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10FAF6396636361A",
+      "title": "Charm of Life II",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:charm_of_life_2"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Charm of Life II. Item inputs include Charm of Life I. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1788D80DC024A351"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E6A9CB4317F6208",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:charm_of_life_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16116EEAB3F5DA72",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1989E33DB35ECC6F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.20059d,
+      "y": 6.90168d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13BB0570F67BADB1",
+      "title": "Scepter of Fortification",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:fortification_scepter"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Scepter of Fortification and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "170E29C2D80F642D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "163BC045FD85C8EB",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:fortification_scepter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15BB0EA9C022955D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E1EF699A4597663",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.64428d,
+      "y": 3.81207d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14D32C39A68CAA78",
+      "title": "Hydra Trophy",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:hydra_trophy"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Hydra Trophy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "19B746B7D870A04B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "115AEDD88ADCD4B1",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:hydra_trophy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1039AC669DAFF125",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19226900F2E20F42",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67549d,
+      "y": 5.17484d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "165170B27DB7DB51",
+      "title": "Knight Phantom Trophy",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:knight_phantom_trophy"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Knight Phantom Trophy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14D32C39A68CAA78"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "122CC1F13E044399",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:knight_phantom_trophy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "110CDFC24BBFA1AB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1443F99AF53C4B80",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.77704d,
+      "y": 4.16723d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13AAE73CF4B02F91",
+      "title": "Lamp of Cinders",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:lamp_of_cinders"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Lamp of Cinders and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F68AB6589DDDBC2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "134EE8689DE96F27",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:lamp_of_cinders"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138467D3B578C9B3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11A9D3D96024DC42",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.31889d,
+      "y": 7.50273d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "170E29C2D80F642D",
+      "title": "Twilight Lich Trophy",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:lich_trophy"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Twilight Lich Trophy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1282FC3CA95F9DF8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F74450D32CD4E6",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:lich_trophy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17FF65082E1281B7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "167DCD7FD29A75EF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.64428d,
+      "y": 6.81207d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A1C70593A41FAA",
+      "title": "Scepter of Life Draining",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:lifedrain_scepter"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Scepter of Life Draining and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "170E29C2D80F642D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1312DBE6D1F9EE26",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:lifedrain_scepter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E84B7E3A5C0028",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15639FC2D5D14141",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.55486d,
+      "y": 0.14063d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12CCB7CF3DC788C8",
+      "title": "Magic Beans",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:magic_beans"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Magic Beans and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F879B3CF2617551"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17F972B05C0C018B",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:magic_beans"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16522D40D0894180",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E9432B19A1EA059",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.07334d,
+      "y": 9.37119d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C114196454F464F",
+      "title": "Blank Magic Map",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:magic_map"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Blank Magic Map. Item inputs include Magic Map Focus. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18F28F9C250D0DF7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1778AB67B3D4DDDD",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:magic_map"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C36C7847609646F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AA3B145EA3BADA2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.25574d,
+      "y": 2.58166d,
+      "shape": "square",
+      "size": 1.0d,
+      "dependency_requirement": "one_completed",
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18F28F9C250D0DF7",
+      "title": "Magic Map Focus",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:magic_map_focus"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Magic Map Focus. Item inputs include Raven Feather, Torchberries. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13BCF43396E816DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D1CD2F00EF8C4FF",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:magic_map_focus"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BC4B9B05F2DFDF1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DDFF2D447D65E61",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.79419d,
+      "y": 3.85031d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1744BE5841089AF4",
+      "title": "Blank Maze Map",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:maze_map"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Blank Maze Map. Item inputs include Maze Map Focus. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "170E29C2D80F642D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E9157914FF2015",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:maze_map"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD4BE653250E47D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "155B32DFFF6D0B27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.37409d,
+      "y": 8.13407d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B746B7D870A04B",
+      "title": "Minoshroom Trophy",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:minoshroom_trophy"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Minoshroom Trophy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1744BE5841089AF4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1507C379298E5FF0",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:minoshroom_trophy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BA7C1E97BD0CAA1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1304CE172692EE15",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.57395d,
+      "y": 6.18246d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D86D3572BA9BC27",
+      "title": "Moonworm Queen",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:moonworm_queen"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Moonworm Queen and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1236C7D6EFD94487",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:moonworm_queen"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17025E62C2009BF7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "168FB613E8E3C703",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.99256d,
+      "y": 4.22968d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1282FC3CA95F9DF8",
+      "title": "Naga Trophy",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:naga_trophy"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Naga Trophy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1896F8EF7FBE35CA",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:naga_trophy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "137A627DD8CE9E99",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13C3407370FB1222",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.50396d,
+      "y": 7.24567d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "153B93C149FDD808",
+      "title": "Ore Magnet",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:ore_magnet"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Ore Magnet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11818212BCCB23BC",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:ore_magnet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1644F7E98ADD0FB6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BA516E8838C1803",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.34256d,
+      "y": 4.22968d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "177F7A430BD124CB",
+      "title": "Blank Maze/Ore Map",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:ore_map"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Blank Maze/Ore Map. Item inputs include Blank Maze Map. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1744BE5841089AF4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B934ACBE59FFB7E",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:ore_map"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188FEDCDF27994F7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1561FA3313366C23",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.72709d,
+      "y": 10.00347d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EE65B1AB489A4F5",
+      "title": "Peacock Feather Fan",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:peacock_feather_fan"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Peacock Feather Fan and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "155DCEC73A4182B8",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:peacock_feather_fan"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D4B5AAB06D5EE9D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16FBDBD56A3DC672",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.69256d,
+      "y": 4.22968d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BEF30D15B068106",
+      "title": "Magenta Castle Door",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:pink_castle_door"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Magenta Castle Door and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E225237854965CF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "169D5CB453252F67",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:pink_castle_door"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1295ECF7F63BC465",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "186090264AC82865",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.9418d,
+      "y": 8.97897d,
+      "shape": "square",
+      "size": 1.0d,
+      "dependency_requirement": "all_started",
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14D74A95A662928F",
+      "title": "Questing Ram Trophy",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:quest_ram_trophy"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Questing Ram Trophy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B1257BA48B886A1",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:quest_ram_trophy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B7DDC3EEC50DB32",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F0CCFF61DD7BF0E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.99256d,
+      "y": 5.57968d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13BCF43396E816DD",
+      "title": "Raven Feather",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:raven_feather"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Raven Feather. Item inputs include Generalized Twilight Prediction, Feather. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168DE218AA9E20C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D23FC51846AE90D",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:raven_feather"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12B471608A564D57",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E44907FEED41BD6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.33265d,
+      "y": 5.11896d,
+      "shape": "square",
+      "size": 1.0d,
+      "dependency_requirement": "one_completed",
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15518BFAAFF44F12",
+      "title": "Raw Venison",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:raw_venison"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Raw Venison and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E3319FFB969DC80",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:raw_venison"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A5CD50975A79B5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18FCBD67F3FEC69B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.34256d,
+      "y": 5.57968d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13B597AB5466261A",
+      "title": "Reappearing Block",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:reappearing_block"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Reappearing Block. Item inputs include Encased Towerwood Planks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7FA93CC318A473"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CDC76C717FBBF73",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:reappearing_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1667FAA1667F9AE3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "116E1952642B8950",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.69354d,
+      "y": 0.2257d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F879B3CF2617551",
+      "title": "Snow Queen Trophy",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:snow_queen_trophy"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Snow Queen Trophy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1787A27CE5FE38C2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13BEE5CC43173497",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:snow_queen_trophy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19A35DD347DFD099",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11E63DC5E53C6FA6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.20369d,
+      "y": 10.10931d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E225237854965CF",
+      "title": "Thorn Rose",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:thorn_rose"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Thorn Rose and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "13AAE73CF4B02F91"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA0609F7092FE58",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:thorn_rose"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C3D206E62EF8AE1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "147466640C6BD0D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.81146d,
+      "y": 8.24085d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "153F9B948B6E63A5",
+      "title": "Tree of Time Sapling",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:time_sapling"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Use Market processing to make Tree of Time Sapling. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BEF30D15B068106"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18D11CE10F466EEF",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:time_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1928CD1E7A2DF16B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CDF72B5F5FD8D93",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.67992d,
+      "y": 7.84862d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AC0C08B25214DA6",
+      "title": "Transformation Powder",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:transformation_powder"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Transformation Powder and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12E2CCFC5C3801B2",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:transformation_powder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15DAB3EF4F3CBB17",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "129AA750FEF2B97E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.69256d,
+      "y": 5.57968d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158ABCEB5C62C60A",
+      "title": "Scepter of Twilight",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:twilight_scepter"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Scepter of Twilight and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "170E29C2D80F642D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1632C5EA68EC0574",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:twilight_scepter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CF6A585074AB6B6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13D8B74C8BCE3C3A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.90486d,
+      "y": 0.14063d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F7FA93CC318A473",
+      "title": "Ur-Ghast Trophy",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:ur_ghast_trophy"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Ur-Ghast Trophy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "165170B27DB7DB51"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F271AB5F53E1ADD",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:ur_ghast_trophy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A37977DD228EAE5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D845F1C18108B61",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.87859d,
+      "y": 3.15962d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FE3C6960F3B9103",
+      "title": "Zombie Scepter",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:zombie_scepter"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Obtain Zombie Scepter and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "170E29C2D80F642D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CE3DAFA31DE28AC",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:zombie_scepter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF788EA446AAC0C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FEFCAD67614A118",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.20486d,
+      "y": 1.49063d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F7D7F49C1BA1FFA",
+      "title": "Naga Scale Tunic",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:naga_chestplate"
+      },
+      "description": [
+        "Make the Twilight Forest portal and follow its boss progression. Defeating an earlier boss removes protection from later areas; bring food, light, and spare equipment.",
+        "Craft Naga Scale Tunic. Item inputs include Naga Scale. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1282FC3CA95F9DF8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1713D7EE1B0E18F0",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:naga_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10692789555C5E9D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19B65545539904EB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.82802d,
+      "y": 7.50904d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1969FB0A92884628",
+      "title": "Welcome to the Twilight Forest!",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:naga_trophy"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in The Twilight Forest."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "twilightforest:root",
+          "criterion": "",
+          "type": "advancement",
+          "id": "14B423EA8B905447",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ECC0BFEFEC05162",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.6724d,
+      "y": 5.58421d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "168DE218AA9E20C0",
+      "title": "The Silence of the Forest",
+      "subtitle": "The Twilight Forest",
+      "icon": {
+        "id": "twilightforest:naga_trophy"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in The Twilight Forest."
+      ],
+      "dependencies": [
+        "1969FB0A92884628"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "twilightforest:twilight_hunter",
+          "criterion": "",
+          "type": "advancement",
+          "id": "1F47E94DD4AE16C2",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BD2F58AB54867F6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.8711d,
+      "y": 6.38761d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

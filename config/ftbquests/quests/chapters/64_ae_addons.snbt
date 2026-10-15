@@ -1,0 +1,2530 @@
+{
+  "id": "13D69044FE994710",
+  "filename": "64_ae_addons",
+  "title": "AE2 Additions",
+  "icon": {
+    "id": "extendedae:ex_pattern_provider"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 42,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1CEE3CE8D8FA5B44",
+      "title": "Quantum Data Entangler",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:data_entangler"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Quantum Data Entangler. Item inputs include Quantum Computer Core, 256M Quantum Computer Storage, Shattered Singularity, Quantum Crafting Unit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "188BA01E49FC2297"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "154316D29B54DA7F",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:data_entangler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D5E92776A09FD47",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10C312BFA42D34FD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.04861d,
+      "y": 1.65972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1015C5DAD6EBE03A",
+      "title": "Quantum Computer Accelerator",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:quantum_accelerator"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Quantum Computer Accelerator. Item inputs include Concurrent Processor, Shattered Singularity, Quantum Crafting Unit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10B254C09ECB73A0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A3DC0F9171D6789",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_accelerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10F3BA2BF75F0133",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14C16DE10EE9EDA0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.04861d,
+      "y": 2.25694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "181411C26FB26E03",
+      "title": "Quantum Crafter",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:quantum_crafter"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Quantum Crafter. Item inputs include Quantum Computer Accelerator, 64k ME Storage Component, Shattered Singularity, Quantum Crafting Unit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1015C5DAD6EBE03A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1992B87585A1684D",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_crafter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1629CA27FD8A69A9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1246671B78CE30C5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.54861d,
+      "y": 2.25694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12EB9316E5D298AE",
+      "title": "Quantum Computer Multi-Threader",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:quantum_multi_threader"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Quantum Computer Multi-Threader. Item inputs include Quantum Computer Accelerator, Quantum Computer Core, Shattered Singularity, Quantum Crafting Unit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "188BA01E49FC2297"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C6FC0F8EA341F02",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_multi_threader"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F1EB3F14D526ED4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "117704790A68EF8C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.04861d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C23723C481F4A20",
+      "title": "128M Quantum Computer Storage",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:quantum_storage_128"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft 128M Quantum Computer Storage. Item inputs include Quantum Storage Component, Shattered Singularity, Quantum Crafting Unit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10B254C09ECB73A0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1494385C70A46B13",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_storage_128"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1432020CDF59DDF4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D9562F855124B5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.04861d,
+      "y": 1.04861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DCE54639353D15E",
+      "title": "Quantum Computer Structural Glass",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:quantum_structure"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Quantum Computer Structural Glass. Item inputs include Quartz Glass, Sky Stone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12EB9316E5D298AE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "156FB38C1266F1F1",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_structure"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "158F1EEDF55B5FE1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FBD6E85A8751358",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.54861d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10B254C09ECB73A0",
+      "title": "Quantum Crafting Unit",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:quantum_unit"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Quantum Crafting Unit. Item inputs include Crafting Unit, Singularity, Concurrent Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CA85BB1819311E4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1294623157FD8ED8",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159024A49920A7DF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1869E28771884E11",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.54861d,
+      "y": 1.64583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A26C5B7D0E8CEAF",
+      "title": "Reaction Chamber",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:reaction_chamber"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Reaction Chamber. Item inputs include Bucket, Fluix Dust, Glowstone Dust, Matter Condenser. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16466B6A8CA26C81"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F1AC4330C8ABEA",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:reaction_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "162815E64D60E888",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "136EDD623023B7A7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.54861d,
+      "y": 1.64583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CA85BB1819311E4",
+      "title": "Shattered Singularity",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:shattered_singularity"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Use Reaction processing to make Shattered Singularity. Item inputs include Singularity, Sky Stone Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A26C5B7D0E8CEAF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E1F0199A0403CAB",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:shattered_singularity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14B90D448FB4563C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "112BDEC1FE5C0E5A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.04861d,
+      "y": 1.64583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "188002F12DB66FCE",
+      "title": "Fluix Block",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "ae2:fluix_block"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Fluix Block. Item inputs include Fluix Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B940B5496B39BBC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15CC162896C00D61",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluix_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16276B821EA5F71C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DDCFB9F57A00EB3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.47917d,
+      "y": 5.88194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1294383EABF94734",
+      "title": "ME Active Formation Plane",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:active_formation_plane"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Use Crystal Assembler processing to make ME Active Formation Plane. Item inputs include ME Formation Plane, Piston, Formation Core, ME Extended Export Bus. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1996AD9D0F400646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11EE7A48E19EE6A0",
+          "type": "item",
+          "item": {
+            "id": "extendedae:active_formation_plane"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F154290F73F3E9D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "133CA8F94CD0855A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.75196d,
+      "y": 7.76585d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CED2ADE090B8F50",
+      "title": "Assembler Matrix Frame",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:assembler_matrix_frame"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Assembler Matrix Frame. Item inputs include Lapis Lazuli, Extended Machine Frame. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D967541069D092"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EEBBB875225B642",
+          "type": "item",
+          "item": {
+            "id": "extendedae:assembler_matrix_frame"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F2E7F7D8E3C7983",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16C2188F65D2374F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.55556d,
+      "y": 6.49306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E7DC392AFBC4B04",
+      "title": "Assembler Matrix Pattern Core",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:assembler_matrix_pattern"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Use Crystal Assembler processing to make Assembler Matrix Pattern Core. Item inputs include Assembler Matrix Wall, Blue Lumen Paint Ball, Engineering Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CED2ADE090B8F50"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16C8724B9F73A4BE",
+          "type": "item",
+          "item": {
+            "id": "extendedae:assembler_matrix_pattern"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1423397783A93FE1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "121094070BA4299F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.90556d,
+      "y": 6.49306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16980FB106BCCA19",
+      "title": "ME Canner",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:caner"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Use Crystal Assembler processing to make ME Canner. Item inputs include Extended Machine Frame, ME Ingredient Buffer, Formation Core, Annihilation Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1996AD9D0F400646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F84B288AB8698F0",
+          "type": "item",
+          "item": {
+            "id": "extendedae:caner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BA42A9DB9E2D54B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "199DC28653D4569F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.20556d,
+      "y": 4.84861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C8632FE436DC82B",
+      "title": "Entro Seed",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:entro_seed"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Entro Seed. Item inputs include Sky Stone Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "188002F12DB66FCE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C085A451A32024",
+          "type": "item",
+          "item": {
+            "id": "extendedae:entro_seed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A477AEC5F4FEB7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12681D3753851C16",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.97917d,
+      "y": 6.49306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EF98A1D6DF2114A",
+      "title": "ME Extended Pattern Access Terminal",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:ex_pattern_access_part"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Use Crystal Assembler processing to make ME Extended Pattern Access Terminal. Item inputs include ME Pattern Access Terminal, Redstone Lamp, Logic Processor, Charged Quartz Fixture. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1996AD9D0F400646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "147255A5FCB81763",
+          "type": "item",
+          "item": {
+            "id": "extendedae:ex_pattern_access_part"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "105EEA7ECE9A293A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14018BE70498BC0E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.55556d,
+      "y": 4.84861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12D7C785F6AB13AF",
+      "title": "ME Wireless Connector",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:wireless_connect"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Use Crystal Assembler processing to make ME Wireless Connector. Item inputs include Extended Machine Frame, Wireless Receiver, Wireless Booster. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1996AD9D0F400646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "163C661246EDFEF6",
+          "type": "item",
+          "item": {
+            "id": "extendedae:wireless_connect"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13175BDDEFA07E2B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA6D9EA821FC62F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.55556d,
+      "y": 7.92361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E3A42D08F3D78D6",
+      "title": "ME Wireless Hub",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:wireless_hub"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Use Crystal Assembler processing to make ME Wireless Hub. Item inputs include ME Wireless Connector, Concurrent Processor, ME Quantum Link Chamber. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12D7C785F6AB13AF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "196A8FC4A73E5BA1",
+          "type": "item",
+          "item": {
+            "id": "extendedae:wireless_hub"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D646598EC13A6DC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19317C8A0E453A70",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.63194d,
+      "y": 7.92361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BCA65BBC2C51528",
+      "title": "Entro Bee",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "productivebees:configurable_honeycomb",
+        "components": {
+          "productivebees:bee_type": "productivebees:entro"
+        }
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Breed or convert the Entro Bee using its JEI bee recipes. Provide its flowering block, then collect its specific Honeycomb. This goal checks Entro Bee combs; ordinary honeycomb does not count."
+      ],
+      "dependencies": [
+        "1C8632FE436DC82B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1236AF06AE921F4F",
+          "type": "item",
+          "item": {
+            "id": "productivebees:configurable_honeycomb",
+            "components": {
+              "productivebees:bee_type": "productivebees:entro"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "176FE88E2618F654",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C0F464F209B3EBA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.47917d,
+      "y": 7.70139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "188BA01E49FC2297",
+      "title": "Quantum Computer Core",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:quantum_core"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Quantum Computer Core. Item inputs include Quantum Computer Accelerator, Shattered Singularity, Singularity, 256M Quantum Computer Storage. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C23723C481F4A20"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C4A661A56E4A3D1",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A9CA914142F7CB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "116FBD50EE474756",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.54861d,
+      "y": 1.04861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1996AD9D0F400646",
+      "title": "Crystal Assembler",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:crystal_assembler"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Crystal Assembler. Item inputs include Sky Stone Tank, Logic Processor, Extended Machine Frame, ME Crafting Terminal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C8632FE436DC82B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1872F3C05F95E5AC",
+          "type": "item",
+          "item": {
+            "id": "extendedae:crystal_assembler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1924A4998F624954",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16458520E482BAE8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.47917d,
+      "y": 6.49306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13C433706FCF239D",
+      "title": "Crystal Fixer",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:crystal_fixer"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Use Crystal Assembler processing to make Crystal Fixer. Item inputs include Extended Machine Frame, Quartz Fiber. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1996AD9D0F400646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18DADF0087BE9C9A",
+          "type": "item",
+          "item": {
+            "id": "extendedae:crystal_fixer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF0DB5D75F2220A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18D5EEF1DB4EF780",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.55556d,
+      "y": 3.49861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16DA11D06AA73E4C",
+      "title": "ME Void Cell",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:void_cell"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft ME Void Cell. Item inputs include Quartz Glass, Matter Condenser, Amethyst Shard, Overflow Destruction Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E874761AD0E9ABE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1628FD6D5D411B57",
+          "type": "item",
+          "item": {
+            "id": "extendedae:void_cell"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11688577E945930F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10B52D2DE5342E98",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.47917d,
+      "y": 5.28472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16BDC5882DE0383B",
+      "title": "Attack Speed Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:attack_speed_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Attack Speed Card. Item inputs include Quantum Upgrade Base Card, Quantum Processor, Acceleration Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145582D220B987E2",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:attack_speed_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1435E9E65A367725",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FA193075E9729DF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67361d,
+      "y": 8.9125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BFB0C167EEC6167",
+      "title": "Auto Feeding Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:auto_feeding_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Auto Feeding Card. Item inputs include Golden Carrot, Quantum Upgrade Base Card, Enchanted Golden Apple, Glistering Melon Slice. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "170F34CA7FB213A9",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:auto_feeding_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14E1C29CCE58BC5A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12E08D1BFACD157C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.70141d,
+      "y": 14.0322d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "122826B93E92EA69",
+      "title": "Auto Stock Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:auto_stock_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Auto Stock Card. Item inputs include Shulker Box, Quantum Upgrade Base Card, ME Controller, ME Wireless Access Point. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "122B52388F4C2069",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:auto_stock_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "144F1D108F1666DD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18880FF34900AED9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.68802d,
+      "y": 14.23378d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AF303F14A5127EF",
+      "title": "Evasion Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:evasion_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Evasion Card. Item inputs include Quantum Upgrade Base Card, Rabbit Hide, Quantum Alloy Plate, Acceleration Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "119CBBBAAB42EBF9",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:evasion_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "173F14FE064C5E69",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11379B855FE438C5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.82891d,
+      "y": 12.1597d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E96A33A88C4846C",
+      "title": "Flight Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:flight_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Flight Card. Item inputs include Quantum Upgrade Base Card, Elytra, Feather, Quantum Alloy Plate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EC1EAE5909D15FA",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:flight_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1422D51DB305A1C0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6FF4EDCC58F2A2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.04861d,
+      "y": 14.64583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F2BA58A0B20D260",
+      "title": "Flight Drift Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:flight_drift_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Flight Drift Card. Item inputs include Quantum Upgrade Base Card, Lodestone, Quantum Processor, Recovery Compass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E96A33A88C4846C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B41A70A7EA2BD65",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:flight_drift_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BB8E42FAC6FBC11",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1010F57E1B361912",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.14583d,
+      "y": 14.64583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10AEE14983BA58A6",
+      "title": "HP Buffer Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:hp_buffer_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft HP Buffer Card. Item inputs include Quantum Upgrade Base Card, 64k Portable Item Cell, ME Import Bus, ME Export Bus. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1385612A5BC23FFD",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:hp_buffer_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A9581E569B758A9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "156E98A1DDB3271F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 11.55972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B9585D5DB8ED8B",
+      "title": "Jump Height Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:jump_height_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Jump Height Card. Item inputs include Blaze Powder, Quantum Upgrade Base Card, End Crystal, Gunpowder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12185045F0F715F8",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:jump_height_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "128A935A5D935DE2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "110D56D42265D4D9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.42361d,
+      "y": 8.9125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14195E65D5DCC732",
+      "title": "Lava Immunity Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:lava_immunity_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Lava Immunity Card. Item inputs include Quantum Upgrade Base Card, Lava Bucket, Quartz Glass, Totem Of Undying. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DC3E88BF4CCF2FF",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:lava_immunity_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1468F8C76444F952",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14B2A286441001F3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67361d,
+      "y": 10.2625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15E364A73F8053D8",
+      "title": "Luck Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:luck_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Luck Card. Item inputs include Amethyst Block, Quantum Upgrade Base Card, Rabbit Foot, Nether Star. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AE93A8195F92F3F",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:luck_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BD6B5636BCED46F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19CE7696D6AE089D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.02361d,
+      "y": 10.2625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A662F531FC709CE",
+      "title": "Magnet Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:magnet_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Magnet Card. Item inputs include Quantum Alloy, Quantum Upgrade Base Card, Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BA0CBCFDB7DB093",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:magnet_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C8C8BD43E9BCA62",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C9EF3B62A16D88E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.72361d,
+      "y": 10.2625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D3ACF0E02E12C0",
+      "title": "Night Vision Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:night_vision_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Night Vision Card. Item inputs include Beacon, Quantum Upgrade Base Card, Glowstone Dust, Sea Lantern. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1000D2F89AAC72B5",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:night_vision_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D6C564F157449BA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "104B2400C08E7718",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.07361d,
+      "y": 10.2625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1327F3EFC7495A9B",
+      "title": "Pick Craft Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:pick_craft_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Pick Craft Card. Item inputs include Quantum Alloy, Crafting Table, Quantum Upgrade Base Card, Quantum Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B131DE1656174A",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:pick_craft_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E2684C2DBD544DB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "118BFA313C1A79CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.42361d,
+      "y": 10.2625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10ED6974B9872BFC",
+      "title": "Portable Workbench Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:portable_workbench_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Portable Workbench Card. Item inputs include Quantum Alloy, Cell Workbench, Quantum Upgrade Base Card, Quantum Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "100AE6138F48417A",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:portable_workbench_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16A5DA78424F93CA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1054C7734C3B0F08",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67361d,
+      "y": 11.6125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15B5E00A4D1E4631",
+      "title": "Quantum Upgrade Base Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:quantum_upgrade_base"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Quantum Upgrade Base Card. Item inputs include Quantum Alloy Plate, Quantum Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FFA1256938CB1FA",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:quantum_upgrade_base"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A3D1D68395DB548",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12E87E95C9320A67",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 12.90972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B27A5FE09A4DF53",
+      "title": "Reach Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:reach_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Reach Card. Item inputs include Quantum Upgrade Base Card, End Rod, Lightning Rod, Echo Shard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1627AC1B767B4F34",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:reach_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18BBB4B55633D3E5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18660C4D7B3078BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.02361d,
+      "y": 11.6125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B96F95008430E0E",
+      "title": "ME Recharging Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:recharging_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft ME Recharging Card. Item inputs include Quantum Upgrade Base Card, Dense Energy Cell, Energy Card, Quantum Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10FCA50E8D733DF7",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:recharging_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C960EB66F1F69A1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F92C5110E5A64FD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.37361d,
+      "y": 10.2625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1756F5E20F96FBA2",
+      "title": "Regeneration Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:regeneration_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Regeneration Card. Item inputs include Cake, Quantum Upgrade Base Card, Mushroom Stew, Cookie. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13ADE302D12E8788",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:regeneration_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11C379A2EF99E281",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12C4640B1C225C97",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.37361d,
+      "y": 11.6125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1716B2871DD9B1BE",
+      "title": "Sprint Speed Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:sprint_speed_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Sprint Speed Card. Item inputs include Acceleration Card, Quantum Upgrade Base Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ED9DD313BFACCE6",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:sprint_speed_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1C17B798B2DDF0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12056AB859306A30",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.72361d,
+      "y": 11.6125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B6096658C3CD9D4",
+      "title": "Step Assist Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:step_assist_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Step Assist Card. Item inputs include Quantum Upgrade Base Card, Quantum Alloy Stairs. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D135C546B9B426",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:step_assist_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "185B55E2F8C5544E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A5E239874F76AFA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.07361d,
+      "y": 11.6125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC9B1987B3B954B",
+      "title": "Strength Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:strength_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Strength Card. Item inputs include Quantum Upgrade Base Card, Diamond Sword, Fluix Sword, Netherite Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BE1B8E64691918F",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:strength_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C72D7525D8CC79",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CFE35CE248C46D7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.42361d,
+      "y": 11.6125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1694AE7E93E0E014",
+      "title": "Swim Speed Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:swim_speed_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Swim Speed Card. Item inputs include Oak Boat, Quantum Upgrade Base Card, Heart Of The Sea, Firework Rocket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11DF9FD7E52DFAB7",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:swim_speed_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13DA6931F9B95E0E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "100C1E45A51FABAC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67361d,
+      "y": 12.9625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "105CC74E0A3AB2D2",
+      "title": "Walk Speed Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:walk_speed_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Walk Speed Card. Item inputs include Acceleration Card, Quantum Upgrade Base Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F7C51A40199A2BF",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:walk_speed_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B36616B2ED46F2D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19DF38C3105819F4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.02361d,
+      "y": 12.9625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17F792BDA71CF103",
+      "title": "Water Breathing Card",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "advanced_ae:water_breathing_card"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Craft Water Breathing Card. Item inputs include Quantum Upgrade Base Card, Entropy Manipulator, Heart Of The Sea, Pufferfish. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15B5E00A4D1E4631"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1840C3E3B38AF6DD",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:water_breathing_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138C5BB68D3E6984",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A6FD04768CBB455",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.37361d,
+      "y": 12.9625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AF5AF226968E673",
+      "title": "Circuit Slicer",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:circuit_cutter"
+      },
+      "description": [
+        "Expand a working ME network with larger storage and crafting components. Check channel use, power consumption, and pattern compatibility before replacing an existing provider or assembler.",
+        "Use Crystal Assembler processing to make Circuit Slicer. Item inputs include Extended Machine Frame, Engineering Processor, Inscriber Calculation Press, Inscriber Engineering Press. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1996AD9D0F400646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1823739E333155AE",
+          "type": "item",
+          "item": {
+            "id": "extendedae:circuit_cutter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1985C28C29DFB2DE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E991D877EB168F4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.20556d,
+      "y": 3.49861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16D967541069D092",
+      "title": "Faster and Bigger: Extended Devices",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(extendedae:ex_import_bus_part)item(extendedae:ex_export_bus_part)item(extendedae:ex_charger)item(extendedae:ex_inscriber)item(extendedae:ex_molecular_assembler)item(extendedae:ex_drive)item(extendedae:ex_io_port)item(extendedae:ex_interface)item(extendedae:ex_pattern_provider))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1996AD9D0F400646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(extendedae:ex_import_bus_part)item(extendedae:ex_export_bus_part)item(extendedae:ex_charger)item(extendedae:ex_inscriber)item(extendedae:ex_molecular_assembler)item(extendedae:ex_drive)item(extendedae:ex_io_port)item(extendedae:ex_interface)item(extendedae:ex_pattern_provider))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "18486095C16879AC",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D47E18A2B14D4C7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.20556d,
+      "y": 6.49306d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E874761AD0E9ABE",
+      "title": "Non-Entro Things",
+      "subtitle": "AE2 Additions",
+      "icon": {
+        "id": "extendedae:ex_pattern_provider"
+      },
+      "description": [
+        "Learn about Non-Entro Things in the AE2 Additions guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "188002F12DB66FCE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1444E3C01F8E52B4",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1380DC9249683AD2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.97917d,
+      "y": 5.28472d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1A59CEFE933BD1A1",
+      "linked_quest": "16466B6A8CA26C81",
+      "x": 1.04861d,
+      "y": 1.64583d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "18C1A879A0CAE6F1",
+      "linked_quest": "1B940B5496B39BBC",
+      "x": 0.97917d,
+      "y": 5.88194d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

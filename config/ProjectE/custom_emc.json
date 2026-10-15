@@ -1,0 +1,157 @@
+{
+  "comment": "Afterlight preserves manufacturing milestones while allowing EMC for ordinary resources.",
+  "entries": [
+    {
+      "id": "actuallyadditions:empowered_restonia_crystal",
+      "emc": 0
+    },
+    {
+      "id": "afterlight:afterlight_beacon",
+      "emc": 0
+    },
+    {
+      "id": "ars_nouveau:abjuration_essence",
+      "emc": 0
+    },
+    {
+      "id": "ars_nouveau:earth_essence",
+      "emc": 0
+    },
+    {
+      "id": "ars_nouveau:manipulation_essence",
+      "emc": 0
+    },
+    {
+      "id": "ars_nouveau:wilden_tribute",
+      "emc": 0
+    },
+    {
+      "id": "draconicevolution:awakened_core",
+      "emc": 0
+    },
+    {
+      "id": "draconicevolution:awakened_draconium_block",
+      "emc": 0
+    },
+    {
+      "id": "draconicevolution:awakened_draconium_ingot",
+      "emc": 0
+    },
+    {
+      "id": "draconicevolution:crafting_core",
+      "emc": 0
+    },
+    {
+      "id": "enderio:end_steel_block",
+      "emc": 0
+    },
+    {
+      "id": "enderio:end_steel_ingot",
+      "emc": 0
+    },
+    {
+      "id": "enderio:end_steel_nugget",
+      "emc": 0
+    },
+    {
+      "id": "extendedcrafting:advanced_auto_table",
+      "emc": 0
+    },
+    {
+      "id": "extendedcrafting:advanced_table",
+      "emc": 0
+    },
+    {
+      "id": "extendedcrafting:elite_auto_table",
+      "emc": 0
+    },
+    {
+      "id": "extendedcrafting:elite_table",
+      "emc": 0
+    },
+    {
+      "id": "extendedcrafting:ultimate_auto_table",
+      "emc": 0
+    },
+    {
+      "id": "extendedcrafting:ultimate_table",
+      "emc": 0
+    },
+    {
+      "id": "forbidden_arcanus:deorum_block",
+      "emc": 0
+    },
+    {
+      "id": "forbidden_arcanus:deorum_ingot",
+      "emc": 0
+    },
+    {
+      "id": "forbidden_arcanus:deorum_nugget",
+      "emc": 0
+    },
+    {
+      "id": "forbidden_arcanus:eternal_stella",
+      "emc": 0
+    },
+    {
+      "id": "industrialforegoing:dissolution_chamber",
+      "emc": 0
+    },
+    {
+      "id": "industrialforegoing:fluid_extractor",
+      "emc": 0
+    },
+    {
+      "id": "industrialforegoing:machine_frame_advanced",
+      "emc": 0
+    },
+    {
+      "id": "industrialforegoing:machine_frame_simple",
+      "emc": 0
+    },
+    {
+      "id": "industrialforegoing:mob_slaughter_factory",
+      "emc": 0
+    },
+    {
+      "id": "industrialforegoing:ore_laser_base",
+      "emc": 0
+    },
+    {
+      "id": "mekanism:alloy_atomic",
+      "emc": 0
+    },
+    {
+      "id": "mekanism:alloy_reinforced",
+      "emc": 0
+    },
+    {
+      "id": "mekanism:steel_casing",
+      "emc": 0
+    },
+    {
+      "id": "projecte:condenser_mk1",
+      "emc": 0
+    },
+    {
+      "id": "projecte:condenser_mk2",
+      "emc": 0
+    },
+    {
+      "id": "projecte:dark_matter",
+      "emc": 0
+    },
+    {
+      "id": "projecte:philosophers_stone",
+      "emc": 0
+    },
+    {
+      "id": "projecte:transmutation_table",
+      "emc": 0
+    },
+    {
+      "id": "projecte:transmutation_tablet",
+      "emc": 0
+    }
+  ]
+}

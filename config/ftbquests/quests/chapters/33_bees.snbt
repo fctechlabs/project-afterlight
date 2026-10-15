@@ -1,0 +1,5882 @@
+{
+  "id": "193162EE160604E7",
+  "filename": "33_bees",
+  "title": "Productive Bees",
+  "icon": {
+    "id": "productivebees:advanced_oak_beehive"
+  },
+  "group": "131BB24FE37118D4",
+  "order_index": 25,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1231ECF142809EB2",
+      "title": "Bee Cage",
+      "subtitle": "A working apiary",
+      "icon": {
+        "id": "productivebees:bee_cage"
+      },
+      "description": [
+        "Use a Bee Cage to transport bees. Check JEI's bee information for nesting, breeding, and flower requirements."
+      ],
+      "dependencies": [
+        "1F7D423C00FFBA33"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FF58682EFCF8B3C",
+          "type": "item",
+          "item": {
+            "id": "productivebees:bee_cage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1521432DA93C5D83",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "147EBCD4AE4448E6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.28345d,
+      "y": -9.61947d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "136C0C94FA263700",
+      "title": "Honey Treat",
+      "subtitle": "A working apiary",
+      "icon": {
+        "id": "productivebees:honey_treat"
+      },
+      "description": [
+        "Honey Treats support bee interactions. Follow the specific bee's breeding recipe rather than assuming every pair works."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16A857499AD00D4C",
+          "type": "item",
+          "item": {
+            "id": "productivebees:honey_treat"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CB9AACA49B166F1",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "160323A56D5BA295",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.51d,
+      "y": -0.18719d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8267E49B25DB39",
+      "title": "Advanced Oak Beehive",
+      "subtitle": "A working apiary",
+      "icon": {
+        "id": "productivebees:advanced_oak_beehive"
+      },
+      "description": [
+        "Place an Advanced Beehive with a valid flower or feeding block nearby. Give bees space to return home and keep the area contained."
+      ],
+      "dependencies": [
+        "1D3D98F3B892A303"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14478946920A31DC",
+          "type": "item",
+          "item": {
+            "id": "productivebees:advanced_oak_beehive"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "171FC1F216C12770",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17D564BE391A7F85",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.188d,
+      "y": -0.18263d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E4FFAA87E19AD3A",
+      "title": "Oak Expansion Box",
+      "subtitle": "A working apiary",
+      "icon": {
+        "id": "productivebees:expansion_box_oak"
+      },
+      "description": [
+        "Attach an Expansion Box in the supported arrangement. Check hive contents and the bee's working conditions when output stops."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1890A389814A7960",
+          "type": "item",
+          "item": {
+            "id": "productivebees:expansion_box_oak"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FE11F2E73850C80",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1969410B35B1837C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.35185d,
+      "y": -2.86075d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1280A1D6EC5775FA",
+      "title": "Centrifuge",
+      "subtitle": "A working apiary",
+      "icon": {
+        "id": "productivebees:centrifuge"
+      },
+      "description": [
+        "Centrifuge the bee's combs into resources. Handle Honey and other outputs so a full tank does not stop processing."
+      ],
+      "dependencies": [
+        "1F7D423C00FFBA33"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CB561FF7DA231E3",
+          "type": "item",
+          "item": {
+            "id": "productivebees:centrifuge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E2C35370E656C6A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1AD01075B793A512",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.70546d,
+      "y": -11.32415d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D1C8C08D5ACB6E2",
+      "title": "Charged Redstone Crystal",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "appflux:charged_redstone"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Charged Redstone Crystal. Item inputs include Charged Redstone Crystal Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13C43BA89BF98738",
+          "type": "item",
+          "item": {
+            "id": "appflux:charged_redstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "123AE328C94CF48D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F292F04379C24DB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.04902d,
+      "y": -1.57051d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D2A4AC8D0FF70FC",
+      "title": "Air Essence",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "ars_nouveau:air_essence"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Use an Imbuement Chamber to make Air Essence. Item inputs include Feather, Wilden Wing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DF9D07283C82419",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:air_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AA7D75578312EA8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F8031094C8C0949",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.17606d,
+      "y": 0.87159d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B899A4116656C05",
+      "title": "Fire Essence",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "ars_nouveau:fire_essence"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Use an Imbuement Chamber to make Fire Essence. Item inputs include Flint And Steel, Torch, Gunpowder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11CC3E2EB4F6AF59",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:fire_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E63F912D0178F30",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15B22AA8F92A7B94",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.11239d,
+      "y": -0.24645d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A623E5E87489885",
+      "title": "Water Essence",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "ars_nouveau:water_essence"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Use an Imbuement Chamber to make Water Essence. Item inputs include Water Bucket, Snow Block, Kelp. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1703E9C110631650",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:water_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C8F4BB40058F1DF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14273F888B7CF0F7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.31242d,
+      "y": -1.7431d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "107383862E83E876",
+      "title": "Anglesite (PbSO4)",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "bigreactors:anglesite_crystal"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Anglesite (PbSO4) and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1144FF5401947890",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:anglesite_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F9DC98F67B1DE0B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10AFFF8748A21B38",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.5219d,
+      "y": 0.76567d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BCE4EC4A9EEC8D3",
+      "title": "Benitoite (BaTiSi3O9)",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "bigreactors:benitoite_crystal"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Benitoite (BaTiSi3O9) and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10D48AC4DA3A57CC",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:benitoite_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12FC33E7193E5EB0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1903D8712EE6AC4C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.89766d,
+      "y": -3.18881d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17F5080F7056E356",
+      "title": "Magentite Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "bigreactors:magentite_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Magentite Ingot. Item inputs include Magentite Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14FDF499444B8EEE",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:magentite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "136EFD39CF3CA547",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "112EB34D21C5C550",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.15461d,
+      "y": 2.71591d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18CE54D9E66DDD1D",
+      "title": "Ridiculite Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "bigreactors:ridiculite_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Use Reprocessor processing to make Ridiculite Ingot. Item inputs include Ludicrite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13DBA676B2B50CF8",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:ridiculite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "192D5F7640DD4787",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12999E48040C76A5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.29141d,
+      "y": 6.0431d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A5141FC71C8220",
+      "title": "Angry Redstone Block",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "chipped:angry_redstone_block"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Angry Redstone Block and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D8C114ABD8200CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B8D987BEEB6210E",
+          "type": "item",
+          "item": {
+            "id": "chipped:angry_redstone_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13C4D403884886E6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16B3246E0D583DD6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.68149d,
+      "y": 3.65522d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A0738A1EE419172",
+      "title": "Builder's Tea",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "create:builders_tea"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Use Keg Pouring processing to make Builder's Tea. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AF0C0DE768C8061",
+          "type": "item",
+          "item": {
+            "id": "create:builders_tea"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD2B10AB2E93C88",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B938AB160DB5B84",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.28198d,
+      "y": 2.21743d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10DFD1894429EAE5",
+      "title": "Rose Quartz",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "create:rose_quartz"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Rose Quartz. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E36B2E6F040FE20",
+          "type": "item",
+          "item": {
+            "id": "create:rose_quartz"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "193C2BE75A8E0ACF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "178CB0ED7130F77C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.63725d,
+      "y": 5.93719d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "186B9A4CD7883FAC",
+      "title": "Nugget of Super Experience",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "create_enchantment_industry:super_experience_nugget"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Nugget of Super Experience. Item inputs include Block of Super Experience. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D6067D2D2A15407",
+          "type": "item",
+          "item": {
+            "id": "create_enchantment_industry:super_experience_nugget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11C89E25B19EC5FC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CD860E5C35C6377",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.53133d,
+      "y": 4.59135d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1412F4693D75C208",
+      "title": "Awakened Draconium Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "draconicevolution:awakened_draconium_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Awakened Draconium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "151D1491139C2ACD",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19DEDCC5A1E8E9C2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CDDDF17067DB1CC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.21357d,
+      "y": 0.55383d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FD0887FA8AEEB47",
+      "title": "Draconium Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "draconicevolution:draconium_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Draconium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F18D0493B3A5D3C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B386457A348C237",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "102EDAED2EC4FB6F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.70285d,
+      "y": 1.47599d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "145BF63ADE559A86",
+      "title": "Pulsating Alloy Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "enderio:pulsating_alloy_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Pulsating Alloy Ingot. Item inputs include Pulsating Alloy Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "168ED85FAA96907F",
+          "type": "item",
+          "item": {
+            "id": "enderio:pulsating_alloy_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B0C72A5DE083B50",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11950A54E4CA18D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.26053d,
+      "y": 4.06175d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1873A39AF88E3C97",
+      "title": "Redstone Alloy Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "enderio:redstone_alloy_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Redstone Alloy Ingot. Item inputs include Redstone Alloy Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E286F6457B470BD",
+          "type": "item",
+          "item": {
+            "id": "enderio:redstone_alloy_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FA971B9AA8AA9EF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F9866C337CE1EE6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.59974d,
+      "y": 6.25494d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10B54FCCC89E4262",
+      "title": "Entro Crystal",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "extendedae:entro_crystal"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Entro Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12E6E55D166C32DC",
+          "type": "item",
+          "item": {
+            "id": "extendedae:entro_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C3E61A9103D32A0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16428BC7AC8D0881",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.3879d,
+      "y": 3.56327d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E8D031D0C9F601",
+      "title": "Weather Tolerance",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "components": {
+          "ftbquests:icon": "ftblibrary:icons/toggle_rain"
+        }
+      },
+      "description": [
+        "Bee genes affect activity times and weather tolerance. Check the Productive Bees guide before choosing bees for an exposed farm. This is a reference lesson; no icon item is required."
+      ],
+      "dependencies": [
+        "1D8C114ABD8200CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1FA27BCA6BDFF497"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A270BE3B64D6E05",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11A8405345AC1C7A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.30715d,
+      "y": 2.84984d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D44F9CAD62346B3",
+      "title": "Bee Activity",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "ftbquests:custom_icon",
+        "components": {
+          "ftbquests:icon": "ftblibrary:icons/toggle_day"
+        }
+      },
+      "description": [
+        "Bee genes affect activity times and weather tolerance. Check the Productive Bees guide before choosing bees for an exposed farm. This is a reference lesson; no icon item is required."
+      ],
+      "dependencies": [
+        "1D8C114ABD8200CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1840246896DA7CE9"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15B8EEF73A2EBD2C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A0DF2B0327AC575",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.80163d,
+      "y": 2.84984d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E5DCBBE8FC76919",
+      "title": "HOP Graphite Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "immersiveengineering:ingot_hop_graphite"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Use Crafting Shaped processing to make HOP Graphite Ingot. Item inputs include Hop Graphite Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F60D6CED15F5835",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:ingot_hop_graphite"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18A4A03DF01524E1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17D9B4A6EAB098F3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.77125d,
+      "y": 3.13959d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "148DF2BA209F4501",
+      "title": "Blazegold Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "justdirethings:blazegold_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Blast Blazegold Ingot. Item inputs include Raw Blazegold. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1900AF5DA4D62EE6",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazegold_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138D95F0138A8873",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FDE6C5577C2FFC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.59693d,
+      "y": 0.13015d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17FBD3FBD72A790B",
+      "title": "Eclipse Alloy Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "justdirethings:eclipsealloy_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Eclipse Alloy Ingot. Item inputs include Eclipse Alloy Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16CCFF3F7FCBA2C6",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "102ECDE58A98EC82",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BF45706EEDFCDC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.04869d,
+      "y": 1.37007d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12725DD23A583CE9",
+      "title": "Ferricore Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "justdirethings:ferricore_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Ferricore Ingot. Item inputs include Ferricore Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "115F6124B0401E88",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D36A9CB3B5FB952",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E1AEBDA12892ABB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.73374d,
+      "y": 3.45735d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18E318843452CCE3",
+      "title": "Sky Osmium Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "megacells:sky_osmium_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Sky Osmium Ingot. Item inputs include Sky Osmium Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1193D114F0C53F5D",
+          "type": "item",
+          "item": {
+            "id": "megacells:sky_osmium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CF50288164210D6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "188AEEBA023AE244",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.67477d,
+      "y": 5.61943d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "106E30C8675FE0D3",
+      "title": "Sky Steel Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "megacells:sky_steel_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Sky Steel Ingot. Item inputs include Sky Steel Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C2464221193BE6C",
+          "type": "item",
+          "item": {
+            "id": "megacells:sky_steel_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC92E407D2F0DDC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17FD68A2102B43FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.02061d,
+      "y": 5.51351d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EB0DD900925FCF6",
+      "title": "Refined Glowstone Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "mekanism:ingot_refined_glowstone"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Refined Glowstone Ingot. Item inputs include Refined Glowstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BFEB15314C263F5",
+          "type": "item",
+          "item": {
+            "id": "mekanism:ingot_refined_glowstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17DEC0C2763AEB16",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1134C41B1400CD7D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.94558d,
+      "y": 6.14902d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10AE468486804D24",
+      "title": "Liquid Lithium Bucket",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "mekanism:lithium_bucket"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Liquid Lithium Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BCE6058BBD8E9E3",
+          "type": "item",
+          "item": {
+            "id": "mekanism:lithium_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18AC01527145B81A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1841AFB1861020B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.46293d,
+      "y": 2.92775d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19F537B13C1337F5",
+      "title": "Breeze Rod",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:breeze_rod"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Use Crafting Shaped processing to make Breeze Rod. Item inputs include Breeze Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D29B3F4A4F27642",
+          "type": "item",
+          "item": {
+            "id": "minecraft:breeze_rod"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160A6540150AE68F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17A053A3095D12FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.94277d,
+      "y": 0.02423d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14066860F72D7ED6",
+      "title": "Brown Mushroom",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:brown_mushroom"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Brown Mushroom. Item inputs include Brown Shrooma. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB3ACA3DE9390CC",
+          "type": "item",
+          "item": {
+            "id": "minecraft:brown_mushroom"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A82C981B1F42231",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BCF465B19A48756",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.93614d,
+      "y": 2.32335d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F7D423C00FFBA33",
+      "title": "Honeycomb",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:honeycomb"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Honeycomb. Item inputs include Honeycomb Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "120F2CAC8F83F1A1",
+          "type": "item",
+          "item": {
+            "id": "minecraft:honeycomb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16C20B7DCA3510A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13358C13B5C52DFC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.78757d,
+      "y": -8.72138d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C638E459A8CB54",
+      "title": "Ice",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:ice"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Ice. Item inputs include Gray Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17BB7848289718E6",
+          "type": "item",
+          "item": {
+            "id": "minecraft:ice"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12082FA1AAEE0C1F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F2119F48B70753A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.11709d,
+      "y": 3.03367d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1663966C0988CE92",
+      "title": "Prismarine Shard",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:prismarine_shard"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Prismarine Shard. Item inputs include Guardian Spike. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1160DB9FAC6665DE",
+          "type": "item",
+          "item": {
+            "id": "minecraft:prismarine_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CF381DD464D77EB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15301912EC58578C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.56885d,
+      "y": 4.27359d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14F2EEAD77DA6565",
+      "title": "Red Mushroom",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:red_mushroom"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Red Mushroom. Item inputs include Red Shrooma. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199CBFB2D17453B2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:red_mushroom"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BFD88B01E565A33",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1880A1675E561084",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.2539d,
+      "y": 6.36086d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16B86271E1424882",
+      "title": "Shulker Shell",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:shulker_shell"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Shulker Shell and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "115BCA2DEAFE5B44",
+          "type": "item",
+          "item": {
+            "id": "minecraft:shulker_shell"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11BEB79C8128D904",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BF258A991AA6626",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.32893d,
+      "y": 5.72535d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11963C3F59987BB5",
+      "title": "Sponge",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:sponge"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Sponge. Item inputs include Wood Chippings, Slime Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14F49A7A83DE484B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:sponge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "174A1962C100D415",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16916E63963C239C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.93802d,
+      "y": 0.93985d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AA63F964AAB6833",
+      "title": "Warped Fungus",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:warped_fungus"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Use Market processing to make Warped Fungus. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "168E305FB3562D6B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:warped_fungus"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "197DC03BC3A5716E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16F87AFA57A6C776",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.43485d,
+      "y": 7.07118d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1249C81A82C259D3",
+      "title": "Zombie Head",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:zombie_head"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Use Head Cut processing to make Zombie Head. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB4EB733FBE53D2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:zombie_head"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159B5010B0FADBB5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C84493A6AA59A60",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.12653d,
+      "y": 6.85934d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F258E5B0C88DCBE",
+      "title": "Antimony Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "modern_industrialization:antimony_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Antimony Ingot. Item inputs include Block of Antimony. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B323DAD4492E0BA",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:antimony_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0685427C89F288",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13BF2A7A076E02E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.86774d,
+      "y": 0.65975d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8A00BF7BDBEC97",
+      "title": "Beryllium Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "modern_industrialization:beryllium_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Beryllium Ingot. Item inputs include Block of Beryllium. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15F4E6F1E90A9FED",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:beryllium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "156CE56B6BC83F5E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1463E158CDABF9AD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.90525d,
+      "y": 0.34199d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "192128D390F45AB4",
+      "title": "Chromium Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "modern_industrialization:chromium_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Chromium Ingot. Item inputs include Block of Chromium. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C23446563C52A7F",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:chromium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15D2A846E622A493",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "197A09E7929AC10A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.97366d,
+      "y": 2.00559d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13C5F07FC6362577",
+      "title": "Crude Oil Bucket",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "modern_industrialization:crude_oil_bucket"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Crude Oil Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "143388DEAD93F955",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:crude_oil_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE3E200412B98B4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "186A412D1EBF02E4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.01117d,
+      "y": 1.68783d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D4F893596BCD178",
+      "title": "Manganese Dust",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "modern_industrialization:manganese_dust"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Manganese Dust. Item inputs include Manganese Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "139794143C4A5876",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:manganese_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11FCAB955B77788F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "131D469BC6E5C909",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.49382d,
+      "y": 4.90911d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "120D874F39BCB1B2",
+      "title": "Monazite Dust",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "modern_industrialization:monazite_dust"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Monazite Dust. Item inputs include Block of Monazite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A49E3E72B77EFB0",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:monazite_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E3E68558EB85EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "108B7BEDD0DB7FAA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.18549d,
+      "y": 4.69727d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A9C5EFAD5C0F80A",
+      "title": "Soulium Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "mysticalagriculture:soulium_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Use Crafting Shaped processing to make Soulium Ingot. Item inputs include Soulium Nugget. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D851370CBB6DAF9",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:soulium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B873970AE7E35D0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10371DBBC3C634D9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.36644d,
+      "y": 5.40759d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16D4ECB9D2114374",
+      "title": "Adamant Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "oritech:adamant_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Adamant Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FFB4F2ACB9486CF",
+          "type": "item",
+          "item": {
+            "id": "oritech:adamant_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E22C87AA0CC889",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "173F8A51E88EB2A7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.83022d,
+      "y": 0.97751d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16A67EE07CF6F523",
+      "title": "Biosteel Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "oritech:biosteel_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Biosteel Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A8DF68B0078BEE5",
+          "type": "item",
+          "item": {
+            "id": "oritech:biosteel_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B537D97611452AA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13D18BA309290B6F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.25109d,
+      "y": 0.23607d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B8683C0EE83935C",
+      "title": "Energite Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "oritech:energite_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Energite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1727A0F2DEF10A0C",
+          "type": "item",
+          "item": {
+            "id": "oritech:energite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CE7E72CD720CB2F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DE5B6636BE81CB2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.04206d,
+      "y": 3.66919d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12585B6C3D91339C",
+      "title": "Low-Yield Nuclear Explosion Device",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "oritech:low_yield_nuke"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Low-Yield Nuclear Explosion Device. Item inputs include Dubious Container, Tnt, Uranium Pellet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "197FA6BD794DC36D",
+          "type": "item",
+          "item": {
+            "id": "oritech:low_yield_nuke"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "139F1BBCFFD482BC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B7D6F18264A8EB6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.80877d,
+      "y": 2.82183d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FF3B3584C073F9B",
+      "title": "Prometheum",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "oritech:prometheum_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Prometheum and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B472FA4640F313",
+          "type": "item",
+          "item": {
+            "id": "oritech:prometheum_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AD9899ED2BD87A7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "152502AE7E1EA985",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.91469d,
+      "y": 4.16767d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1167B2F3065C894A",
+      "title": "Sheol Fire Bucket",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "oritech:still_sheol_fire_bucket"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Sheol Fire Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C00B2F5606F7D76",
+          "type": "item",
+          "item": {
+            "id": "oritech:still_sheol_fire_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A65D7F974AC39AC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6F32960855D781",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.98309d,
+      "y": 5.83127d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D154DAB56378666",
+      "title": "Sulfuric Acid Bucket",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "oritech:still_sulfuric_acid_bucket"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Sulfuric Acid Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16182EB003DA3351",
+          "type": "item",
+          "item": {
+            "id": "oritech:still_sulfuric_acid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "189BAAD3D0F13851",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19F7433057AD253E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.0515d,
+      "y": 7.49486d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19DA1823E45B3D64",
+      "title": "Uranite Crystal",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "oritech:uranium_crystal"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Uranite Crystal and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D8D2E6F5D04C99E",
+          "type": "item",
+          "item": {
+            "id": "oritech:uranium_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1975DA55E0C92F28",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "109C64AFCF8435A7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.74317d,
+      "y": 7.28302d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "116199DF44C0D401",
+      "title": "Upgrade: Anti-Teleportation",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_anti_teleport"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Anti-Teleportation. Item inputs include Upgrade Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1763E0C22AE946DA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1238181C975E3DDE",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_anti_teleport"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188AA0B8A12CC263",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "113BAA86B987B346",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.95397d,
+      "y": -13.12904d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1763E0C22AE946DA",
+      "title": "Upgrade Base",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_base"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade Base. Item inputs include Honeycomb. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "136C0C94FA263700"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "141E219987350349",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_base"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188C2520C558E98B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B20EF838617B404",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.07232d,
+      "y": -7.75638d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17FFB3AF7F6D49EB",
+      "title": "Upgrade: Block",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_block"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Block. Item inputs include Upgrade: Productivity Beta, Item Frame. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1763E0C22AE946DA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17F3522BB9A85CD7",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198EB627955203E7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "198B65262837B3D1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.87599d,
+      "y": -10.18884d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "112233973078DB4E",
+      "title": "Upgrade: BaBee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_child"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: BaBee. Item inputs include Upgrade: AdultBee. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1763E0C22AE946DA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "101A3151A6CBEF53",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_child"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1960BAD802BB37BC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B371E0CAF1BA948",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.53015d,
+      "y": -10.08292d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D7A8D28CE1C8027",
+      "title": "Upgrade: Filter",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_entity_filter"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Filter. Item inputs include Upgrade: Filter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1763E0C22AE946DA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19D697C21ACDA064",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_entity_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E674C9B2F88382F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13838CA7C1BD244E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.3223d,
+      "y": -6.6339d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14225B304714EBE6",
+      "title": "Upgrade: Pokey pokey gene sampler",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_gene_sampler"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Pokey pokey gene sampler. Item inputs include Upgrade Base, Diamond Sword, Honey Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1763E0C22AE946DA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17729AC19CCF7FC1",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_gene_sampler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A9B41B339457F7C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BDDAFC72E4E8B26",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.63607d,
+      "y": -8.73709d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1232ADAEAF9BEA7A",
+      "title": "Upgrade: Productivity Alpha",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_productivity"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Productivity Alpha. Item inputs include Upgrade Base, Honey Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1763E0C22AE946DA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CB498E149220A06",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_productivity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E48927C84A3307D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19B5A10BD9B34344",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.39432d,
+      "y": -7.28982d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13992DF7C11C67A1",
+      "title": "Upgrade: Productivity Beta",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_productivity_2"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Productivity Beta. Item inputs include Upgrade Base, Honey Block, Upgrade: Productivity Alpha. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1232ADAEAF9BEA7A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D48D15B7F09C71A",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_productivity_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "161F9D0BFA3F53CE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12CF4B7141A5F079",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.74016d,
+      "y": -7.39574d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "139590AAEB5797B8",
+      "title": "Upgrade: Productivity Gamma",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_productivity_3"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Productivity Gamma. Item inputs include Upgrade: Simulator, Echo Shard, Upgrade: Productivity Beta. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13992DF7C11C67A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14A9BC08911B49A5",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_productivity_3"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12F5F8DB9F659B5E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E28F6CDFC6F2053",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.086d,
+      "y": -7.50166d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "177AB21D80B0C121",
+      "title": "Upgrade: Productivity Omega",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_productivity_4"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Productivity Omega. Item inputs include Upgrade: Block, Heart Of The Sea, Upgrade: Productivity Gamma. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "139590AAEB5797B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "165B696B746174DA",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_productivity_4"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C676D1C3D85A541",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB6A167F3ADC60E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.43184d,
+      "y": -7.60758d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19EA2D1B216F6A19",
+      "title": "Upgrade: Range",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_range"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Range. Item inputs include Upgrade Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1763E0C22AE946DA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ECD8006D1564F6F",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_range"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB3E27EF4B1804D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1148CC202FEA1B75",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.72232d,
+      "y": -7.75638d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A9ED9D2588D3716",
+      "title": "Upgrade: Simulator",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_simulator"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Simulator. Item inputs include Upgrade: Anti-Teleportation. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "116199DF44C0D401"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CE74155F9738C83",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_simulator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16F3C19E808CDDC1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B90A25B9DBC4D53",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.36132d,
+      "y": -13.12833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18AE947F9AECA464",
+      "title": "Upgrade: Speed",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_time"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Speed. Item inputs include Upgrade Base, Clock. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1763E0C22AE946DA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18CCF61FF86CB453",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_time"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DEED8CF0300CB43",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "199731CC7E033E10",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.04117d,
+      "y": -11.80704d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1871F1D1BA6289E1",
+      "title": "Upgrade: Speedier",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivelib:upgrade_time_2"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Upgrade: Speedier. Item inputs include Upgrade Base, Honey Block, Upgrade: Speed. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18AE947F9AECA464"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1893B03C55269D11",
+          "type": "item",
+          "item": {
+            "id": "productivelib:upgrade_time_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEAFE94915144FC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "122BA0C236BA1E09",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.44851d,
+      "y": -11.8081d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10ACC756AE9C7C0E",
+      "title": "Dimensional Shard",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "rftoolsbase:dimensionalshard"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Dimensional Shard. Item inputs include Prismarine Shard, Glowstone Dust, Diamond, Emerald. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130D9558FD4F0F91",
+          "type": "item",
+          "item": {
+            "id": "rftoolsbase:dimensionalshard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "121E0940042828A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11938D8B26568F5C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.35701d,
+      "y": 1.58191d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AFE9422610D4A94",
+      "title": "Uru Metal Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "sgearmetalworks:uru_metal_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Uru Metal Ingot. Item inputs include Uru Metal Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1712ECFE7F353CB6",
+          "type": "item",
+          "item": {
+            "id": "sgearmetalworks:uru_metal_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F9EE44F4F4BF07B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11F3DD75BA74B6AA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.08901d,
+      "y": 7.1771d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10C94EF4A84F3011",
+      "title": "Crimson Iron Ingot",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "silentgear:crimson_iron_ingot"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Blast Crimson Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "174B0BB54D7C786F",
+          "type": "item",
+          "item": {
+            "id": "silentgear:crimson_iron_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10E943AF194E256A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10A58AFAA255C7ED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.66533d,
+      "y": 1.79375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "174A44982FA9E0D2",
+      "title": "Bottler",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:bottler"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Bottler. Item inputs include Smooth Stone Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13D99BE7B9A355CC",
+          "type": "item",
+          "item": {
+            "id": "productivebees:bottler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19A14134E70D7AF4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "154D0CDC88EB9A6C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.23239d,
+      "y": 1.8086d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B478CC15F728572",
+      "title": "Breeding Chamber",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:breeding_chamber"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Breeding Chamber. Item inputs include Upgrade: BaBee, Rose Bush. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "106DFE9F9C197657",
+          "type": "item",
+          "item": {
+            "id": "productivebees:breeding_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1725B784E479C3B3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19EDF7A704768A62",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45137d,
+      "y": -1.50669d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A01E1278537340C",
+      "title": "Catcher",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:catcher"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Catcher. Item inputs include Dirt, Dispenser. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D6E45E984203D22",
+          "type": "item",
+          "item": {
+            "id": "productivebees:catcher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C6138F2505FE0C7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ABBAEC76137DBDB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.77327d,
+      "y": 2.75973d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB281072FE3C01C",
+      "title": "Dirt Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:coarse_dirt_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Dirt Nest. Item inputs include Dirt Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19BF0D7051DCF6F2",
+          "type": "item",
+          "item": {
+            "id": "productivebees:coarse_dirt_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D5CF87D7A1D6485",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "106FC202F44B0895",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.18316d,
+      "y": 9.45152d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1180BB3AD44DAAB1",
+      "title": "End Stone Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:end_stone_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft End Stone Nest. Item inputs include End Stone Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10F6104FAEA81362",
+          "type": "item",
+          "item": {
+            "id": "productivebees:end_stone_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16E0678B5587E78B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FC5A67CBACAC04B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.12453d,
+      "y": 10.35265d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A8398D3D256F163",
+      "title": "Feeding Slab",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:feeder"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Feeding Slab. Item inputs include Smooth Stone Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C2C4D5F9C28811E",
+          "type": "item",
+          "item": {
+            "id": "productivebees:feeder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11CA898B82391AC3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "176601801D8C8014",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.812d,
+      "y": -0.18263d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C6AF1224EDF5138",
+      "title": "Gene Indexer",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:gene_indexer"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Gene Indexer. Item inputs include Comparator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "141AB34D300AE1CE",
+          "type": "item",
+          "item": {
+            "id": "productivebees:gene_indexer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16137A0556666BF7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17F972C81A444F00",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.34273d,
+      "y": -3.87815d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "103D2DA72C178DFC",
+      "title": "Glowstone Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:glowstone_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Glowstone Nest. Item inputs include Glowstone Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "171F1D3273E65DD0",
+          "type": "item",
+          "item": {
+            "id": "productivebees:glowstone_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ABFBCEB5B9A8FE9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EBEEB6AD495E4C4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.11114d,
+      "y": 10.15107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB335625FFAB2F4",
+      "title": "Gravel Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:gravel_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Gravel Nest. Item inputs include Gravel Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "140AC3E8E3CAEB01",
+          "type": "item",
+          "item": {
+            "id": "productivebees:gravel_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A46DE53AF460AD8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11D9FDC55137A3F5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.51116d,
+      "y": 9.02859d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1661E6C5CFB95446",
+      "title": "Ghostly Comb",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:honeycomb_ghostly"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Ghostly Comb. Item inputs include Ghostly Comb Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A6065B1EF7A0C43",
+          "type": "item",
+          "item": {
+            "id": "productivebees:honeycomb_ghostly"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16CFC00F65A61283",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DC79C146DB643E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.42541d,
+      "y": 3.24551d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1660DFFD76A0D001",
+      "title": "Milky Comb",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:honeycomb_milky"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Milky Comb. Item inputs include Milky Comb Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199A5E7C968FE666",
+          "type": "item",
+          "item": {
+            "id": "productivebees:honeycomb_milky"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A40F4489D0F3E4E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10C3A877CBEA2D77",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.83966d,
+      "y": 4.80319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B6347812814B5E",
+      "title": "Powdery Comb",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:honeycomb_powdery"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Powdery Comb. Item inputs include Powdery Comb Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "168A8C831B587618",
+          "type": "item",
+          "item": {
+            "id": "productivebees:honeycomb_powdery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "153A5CC629813CE4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CEC0D04B484734C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.22301d,
+      "y": 4.37951d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F5E9664AC91808C",
+      "title": "BaBee Incubator",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:incubator"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft BaBee Incubator. Item inputs include Hay Block, Daylight Detector. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11200F1D889E8BA7",
+          "type": "item",
+          "item": {
+            "id": "productivebees:incubator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF8A21668DACE37",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13419EDB4475A487",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.34207d,
+      "y": 0.4866d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1751BC54675AE43A",
+      "title": "Bee Jar",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:jar_oak"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Bee Jar. Item inputs include Oak Button. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13209CFAD0BF6240",
+          "type": "item",
+          "item": {
+            "id": "productivebees:jar_oak"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14FF475DCB9762BF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12A8C074CA40647E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.188d,
+      "y": 4.81737d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "153D66368480B62B",
+      "title": "Nest Locator",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:nest_locator"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Nest Locator. Item inputs include Iron Bars, Note Block, Gold Nugget. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1441341D0531B0D4",
+          "type": "item",
+          "item": {
+            "id": "productivebees:nest_locator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13441D11303FA806",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13A9E17E414F77BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.11114d,
+      "y": 7.90611d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B071C1A1C4DBB72",
+      "title": "Nether Brick Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:nether_brick_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Nether Brick Nest. Item inputs include Nether Brick Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18C85DC238959703",
+          "type": "item",
+          "item": {
+            "id": "productivebees:nether_brick_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE6B2981ABE222E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16FFA729A5CCFA36",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.28908d,
+      "y": 10.79735d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16E6B748025457BF",
+      "title": "Nether Gold Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:nether_gold_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Nether Gold Nest. Item inputs include Nether Gold Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17E334B9665D7994",
+          "type": "item",
+          "item": {
+            "id": "productivebees:nether_gold_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "169183E270836792",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B274DF0BD4EB205",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.36116d,
+      "y": 9.02859d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EF0BA37BF41A94A",
+      "title": "Quartz Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:nether_quartz_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Quartz Nest. Item inputs include Quartz Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A33F778E45D6E5A",
+          "type": "item",
+          "item": {
+            "id": "productivebees:nether_quartz_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5B7C93C89ABF82",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10706A055634DFA3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.37343d,
+      "y": 11.48055d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15136FB6F603CD21",
+      "title": "Oak Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:oak_wood_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Oak Nest. Item inputs include Oak Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AF76F39E12291FF",
+          "type": "item",
+          "item": {
+            "id": "productivebees:oak_wood_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14AE31BAC34211CE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DC0C7DFE7C14EB6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.98076d,
+      "y": 10.58552d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "152AECFB2DE99183",
+      "title": "Obsidian Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:obsidian_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Obsidian Nest. Item inputs include Obsidian Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA1F77F5927EE2F",
+          "type": "item",
+          "item": {
+            "id": "productivebees:obsidian_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14AB78EF251AF27D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10558AA90800E85D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.3266d,
+      "y": 10.4796d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13C1DD06988EADC8",
+      "title": "Sand Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:sand_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Sand Nest. Item inputs include Sand Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "176259A2829C201F",
+          "type": "item",
+          "item": {
+            "id": "productivebees:sand_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEFA2F6BA97D0C8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FC7117231196EA4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.74084d,
+      "y": 12.03727d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "129A668E026CC603",
+      "title": "Slimy Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:slimy_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Slimy Nest. Item inputs include Slimy Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14C3A80E0CF17A37",
+          "type": "item",
+          "item": {
+            "id": "productivebees:slimy_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CC010DDD3161500",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E1B887DF3121BEF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.08668d,
+      "y": 11.93135d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10B54D30A75AD636",
+      "title": "Snow Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:snow_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Snow Nest. Item inputs include Snow Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17CFA7160F83A2BD",
+          "type": "item",
+          "item": {
+            "id": "productivebees:snow_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "141F2A373ED6D9DC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E2E28D182456532",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.43252d,
+      "y": 11.82543d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1548036D98AD2A3F",
+      "title": "Soul Sand Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:soul_sand_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Soul Sand Nest. Item inputs include Soul Sand Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16BF38BE60A24207",
+          "type": "item",
+          "item": {
+            "id": "productivebees:soul_sand_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "145FCBBAD7FE9107",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1618911D3471931A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.77836d,
+      "y": 11.71951d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18464B2479F7F3E9",
+      "title": "Stone Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:stone_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Stone Nest. Item inputs include Stone Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10FE92DF5B17836F",
+          "type": "item",
+          "item": {
+            "id": "productivebees:stone_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14D46B5CFD6CFC94",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F873165DF8D7651",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.50092d,
+      "y": 13.48903d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CDE6CE8954A02F6",
+      "title": "Reed Nest",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:sugar_cane_nest"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Reed Nest. Item inputs include Reed Nest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE6E59753F243D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16D850738179F6D7",
+          "type": "item",
+          "item": {
+            "id": "productivebees:sugar_cane_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1597DA686AB30633",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C7B4859342EEDD3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.395d,
+      "y": 12.14319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C1D8E1B906B265A",
+      "title": "Sugarbag Honeycomb",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:sugarbag_honeycomb"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Obtain Sugarbag Honeycomb and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1520B9F057C7E6DC",
+          "type": "item",
+          "item": {
+            "id": "productivebees:sugarbag_honeycomb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E069AA3416C54EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D2C0DE052D59132",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.35982d,
+      "y": 7.7067d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC0391FF767D4AA",
+      "title": "Treat on a Stick",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:treat_on_a_stick"
+      },
+      "description": [
+        "Provide the bee’s correct nest or hive and flowering block. Use JEI’s breeding, conversion, and centrifuge recipes to turn combs into resources. Protect the enclosure before releasing bees.",
+        "Craft Treat on a Stick. Item inputs include Fishing Rod, Honey Treat. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12200C78C685727E",
+          "type": "item",
+          "item": {
+            "id": "productivebees:treat_on_a_stick"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B10EC30DCD36DE4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FD615B9D4ABD527",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.39733d,
+      "y": 7.38894d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F52A126AA72FB05",
+      "title": "Mason Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:clay_ball"
+      },
+      "description": [
+        "Obtain a Mason Bee using its nest, breeding, or conversion route shown in JEI. Acquisition: Spawned using a Stone Nest. Keep the bee safe and mark this step complete after obtaining it."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "18FE607982303C95",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ABE1EF4A491B0D2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.28345d,
+      "y": -8.26947d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12E0EBFAE1D59A43",
+      "title": "Centrifuges",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(productivebees:centrifuge)item(productivebees:powered_centrifuge)item(productivebees:heated_centrifuge))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1D8267E49B25DB39"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(productivebees:centrifuge)item(productivebees:powered_centrifuge)item(productivebees:heated_centrifuge))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1DAEF27599FF1750",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CD756CFB88D603B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.13222d,
+      "y": -0.84699d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10F6B461987EFF2D",
+      "title": "Blue Banded Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:blue_dye"
+      },
+      "description": [
+        "Obtain a Blue Banded Bee using its nest, breeding, or conversion route shown in JEI. Acquisition: Spawned using a Wood Nest. Keep the bee safe and mark this step complete after obtaining it."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "12B731F99BC32502",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "165CE1CF29D7EE27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.63345d,
+      "y": -9.61947d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A7B7A83C3EF8B45",
+      "title": "Neon Cuckoo Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:advanced_oak_beehive"
+      },
+      "description": [
+        "Obtain a Neon Cuckoo Bee using its nest, breeding, or conversion route shown in JEI. Acquisition: Spawns in a nest that has a Blue Banded Bee. Keep the bee safe and mark this step complete after obtaining it."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "17DE8B6C2138D7C7",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E0D72681E10AEE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.63345d,
+      "y": -8.26947d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E0322D282E267D7",
+      "title": "Nomad Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:wooden_sword"
+      },
+      "description": [
+        "Obtain a Nomad Bee using its nest, breeding, or conversion route shown in JEI. Acquisition: Spawns in a nest that has an Ashy Mining Bee. Keep the bee safe and mark this step complete after obtaining it."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1360F203F5CAD9A6",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E89ECBE306E34AF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.98345d,
+      "y": -8.26947d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9DFB10EE66BA3E",
+      "title": "Reed Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:sugar_cane"
+      },
+      "description": [
+        "Obtain a Reed Bee using its nest, breeding, or conversion route shown in JEI. Acquisition: Spawns from a Reed Nest. Keep the bee safe and mark this step complete after obtaining it."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "115C79E3450E549B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "101BCCD03BBB59F6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.33345d,
+      "y": -8.26947d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1258BEE737B72FE3",
+      "title": "Sweat Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:snowball"
+      },
+      "description": [
+        "Obtain a Sweat Bee using its nest, breeding, or conversion route shown in JEI. Acquisition: Spawns from a Snow Nest. Keep the bee safe and mark this step complete after obtaining it."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1234FE0F97FAF889",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "124873E311D02E92",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.68345d,
+      "y": -8.26947d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18704E826C1F2E57",
+      "title": "Yellow Carpenter Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:yellow_dye"
+      },
+      "description": [
+        "Obtain a Yellow Carpenter Bee using its nest, breeding, or conversion route shown in JEI. Acquisition: Spawns from most Wood Nests. Keep the bee safe and mark this step complete after obtaining it."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "19FADDA3EFDF5921",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15FEA14302EA0611",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.28345d,
+      "y": -6.91947d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A299627D312566",
+      "title": "Dye Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:red_dye"
+      },
+      "description": [
+        "Obtain a Dye Bee using its nest, breeding, or conversion route shown in JEI. Acquisition: Lapis + Skeletal. Keep the bee safe and mark this step complete after obtaining it."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "182F2DD45D591115",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AFC5F17343C3FC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.33345d,
+      "y": -9.61947d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A72E9127D0740D4",
+      "title": "Farmer Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:iron_hoe"
+      },
+      "description": [
+        "Obtain a Farmer Bee using its nest, breeding, or conversion route shown in JEI. Acquisition: Lumber + Rancher. Keep the bee safe and mark this step complete after obtaining it."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1AB649150BEA4845",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15528631EAEA71CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.68345d,
+      "y": -9.61947d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D5491CF10696146",
+      "title": "Digger Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "minecraft:iron_shovel"
+      },
+      "description": [
+        "Obtain a Digger Bee using its nest, breeding, or conversion route shown in JEI. Acquisition: Spawned using a Gravel or Stone Nest. Keep the bee safe and mark this step complete after obtaining it."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1123E1E28C3A08CB",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1382F3F506CB4D9B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.98345d,
+      "y": -9.61947d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F2CFDDE14CAFD73",
+      "title": "Peridot Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(and(or(item(productivebees:configurable_honeycomb)item(productivebees:configurable_comb))component(fuzzy:{\"productivebees:bee_type\":\"productivebees:peridot\"}))and(item(productivebees:spawn_egg_configurable_bee)component(fuzzy:{\"minecraft:entity_data\":{id:\"productivebees:configurable_bee\",type:\"productivebees:peridot\"}}))and(or(item(productivebees:bee_cage)item(productivebees:sturdy_bee_cage))custom(productivebeescage/productivebees:peridot)))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(and(or(item(productivebees:configurable_honeycomb)item(productivebees:configurable_comb))component(fuzzy:{\"productivebees:bee_type\":\"productivebees:peridot\"}))and(item(productivebees:spawn_egg_configurable_bee)component(fuzzy:{\"minecraft:entity_data\":{id:\"productivebees:configurable_bee\",type:\"productivebees:peridot\"}}))and(or(item(productivebees:bee_cage)item(productivebees:sturdy_bee_cage))custom(productivebeescage/productivebees:peridot)))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "match_components": "fuzzy",
+          "type": "item",
+          "id": "1050C1A970BFC36C",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item_tag(productivebees:flowers/peridot)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "10FF558DCE8EBADF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FE17D56DDB47BB8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.87717d,
+      "y": 4.48543d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E1B07DA36572512",
+      "title": "Breeding and Converting Bees",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:advanced_oak_beehive"
+      },
+      "description": [
+        "Breeding combines two parent bees using their specified feeding items. Conversion changes one bee when it receives the required conversion item. Check both recipe categories in JEI and keep spare parent bees."
+      ],
+      "dependencies": [
+        "136C0C94FA263700"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1C9D4B05EBA720B2",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "137842E65D454AAB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.31239d,
+      "y": -0.24645d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11AE6E59753F243D",
+      "title": "Nest Spawning",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "id": "productivebees:advanced_oak_beehive"
+      },
+      "description": [
+        "Place a suitable Nest and use a Honey Treat on it to lure a bee. Check the required nest and dimension in JEI. Some bees live in nests and cannot move into an Advanced Hive. Mark this step complete after successfully luring a bee."
+      ],
+      "dependencies": [
+        "136C0C94FA263700"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "18B007B97FD45C5F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E49EAAC5DDBC0C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86116d,
+      "y": 9.02859d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A68A5DD46C77220",
+      "title": "Craftable flowers",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(minecraft:rose_bush)item(minecraft:peony)item(minecraft:lilac)item(minecraft:sunflower))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(minecraft:rose_bush)item(minecraft:peony)item(minecraft:lilac)item(minecraft:sunflower))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1B773E31BE4F8B3B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D1C0BC9B9833A11",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.31949d,
+      "y": 1.89967d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DDE4C0388E7B85E",
+      "title": "Sulfur Bee",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(and(or(item(productivebees:configurable_honeycomb)item(productivebees:configurable_comb))component(fuzzy:{\"productivebees:bee_type\":\"productivebees:sulfur\"}))and(item(productivebees:spawn_egg_configurable_bee)component(fuzzy:{\"minecraft:entity_data\":{id:\"productivebees:configurable_bee\",type:\"productivebees:sulfur\"}}))and(or(item(productivebees:bee_cage)item(productivebees:sturdy_bee_cage))custom(productivebeescage/productivebees:sulfur)))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E1B07DA36572512"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(and(or(item(productivebees:configurable_honeycomb)item(productivebees:configurable_comb))component(fuzzy:{\"productivebees:bee_type\":\"productivebees:sulfur\"}))and(item(productivebees:spawn_egg_configurable_bee)component(fuzzy:{\"minecraft:entity_data\":{id:\"productivebees:configurable_bee\",type:\"productivebees:sulfur\"}}))and(or(item(productivebees:bee_cage)item(productivebees:sturdy_bee_cage))custom(productivebeescage/productivebees:sulfur)))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "match_components": "fuzzy",
+          "type": "item",
+          "id": "108926AFDF531467",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item_tag(productivebees:flowers/sulfur)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1D86FF0D4FD23D0D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "108A970059E5D028",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.70566d,
+      "y": 7.60078d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8C114ABD8200CC",
+      "title": "Gene Samples",
+      "subtitle": "Productive Bees",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "item(productivebees:gene)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "174A44982FA9E0D2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item(productivebees:gene)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "132FEF45561899E0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15CD02A253B5806E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.55439d,
+      "y": 2.33322d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "17D67D87B26A5631",
+      "linked_quest": "1D3D98F3B892A303",
+      "x": -1.67385d,
+      "y": -2.79809d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1AF4E31B086C7BE8",
+      "linked_quest": "1135C51188FE04C8",
+      "x": 3.14798d,
+      "y": 5.01503d,
+      "size": 1.0d,
+      "shape": "square"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cataclysm:chests/abandoned",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cataclysm:chests/abandoned_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "cataclysm:chests/amethyst_nest_chest",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

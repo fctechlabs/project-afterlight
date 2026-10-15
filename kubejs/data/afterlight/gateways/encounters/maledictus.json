@@ -1,0 +1,35 @@
+{
+  "type": "gateways:normal",
+  "size": "large",
+  "color": "#794EA8",
+  "waves": [
+    {
+      "max_wave_time": 24000,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "entity": "cataclysm:maledictus",
+          "count": 1
+        }
+      ],
+      "rewards": []
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "afterlight:encounters/maledictus",
+      "rolls": 1,
+      "desc": "Maledictus supplies"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 8,
+    "leash_range": 128,
+    "remove_mobs_on_failure": true,
+    "fail_on_out_of_bounds": true,
+    "requires_nearby_player": true
+  }
+}

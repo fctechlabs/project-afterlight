@@ -1,0 +1,4788 @@
+{
+  "id": "13BA9BFF4E61000A",
+  "filename": "76_iron_spells",
+  "title": "Iron’s Spells and Spellbooks",
+  "icon": {
+    "id": "irons_spellbooks:inscription_table"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 54,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "120B8C73E8370391",
+      "title": "Archevoker Hat",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:archevoker_helmet"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Archevoker Hat. Item inputs include Evocation Rune, Arcane Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "191488C2B022B904"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16534A6FDB17A381",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:archevoker_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B7987638A2C2A44",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "172BF657C52C5FB0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.8149d,
+      "y": -0.73099d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FDE23EFB640E3CA",
+      "title": "The Blood Staff",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:blood_staff"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain The Blood Staff and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FC7799A9FBD4C4B",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:blood_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D54E01938713E9A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "178F44B43224E128",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.55261d,
+      "y": 9.40093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1422F4342A9AD4A4",
+      "title": "Cryomancer Hood",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:cryomancer_helmet"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Cryomancer Hood. Item inputs include Ice Rune, Arcane Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BCE612BAAAB6E50"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EF7994CF4BE08EF",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:cryomancer_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1282D405E49A12B3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140D06C8B9876E68",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.08719d,
+      "y": -3.27481d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "198B0DB07EB6A182",
+      "title": "Cultist Hood",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:cultist_helmet"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Cultist Hood. Item inputs include Blood Rune, Arcane Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "185DFDC02AA604F0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "106EC51201F71478",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:cultist_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AD0E97FEA712B93",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16053598CB75F047",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.84299d,
+      "y": 2.19893d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19BB0C6753F86DCA",
+      "title": "Electromancer Hat",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:electromancer_helmet"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Electromancer Hat. Item inputs include Lightning Rune, Arcane Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1746F9ECF9662EDE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FD9A4B02728D00B",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:electromancer_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1106CBF0FFC8F8A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11FB79515D00A8FA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.192d,
+      "y": 3.99791d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12735E2A6D77FE60",
+      "title": "Graybeard Staff",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:graybeard_staff"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Graybeard Staff. Item inputs include Wooden Shovel, Arcane Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "136E448EB382169A",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:graybeard_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1A91B25D3CE4D6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B374DB064C84A2A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.62463d,
+      "y": 9.84841d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1480C2CBC5DBE8F6",
+      "title": "Ice Staff",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:ice_staff"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Ice Staff. Item inputs include Frosted Helve, Permafrost Shard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1856473D896CF8E7",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:ice_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12F01B44583D7170",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14817F09030DCA96",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.55261d,
+      "y": 8.05093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16FE18EF70E37E10",
+      "title": "Plagued Mask",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:plagued_helmet"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Plagued Mask. Item inputs include Nature Rune, Arcane Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15581F372665AD05"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "184ED042B3FFB527",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:plagued_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1481CC759EEE9B31",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BABAB25E6CFE732",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.474d,
+      "y": 1.6654d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "108B4F37D9C3B35D",
+      "title": "Priest Mask",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:priest_helmet"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Priest Mask. Item inputs include Holy Rune, Arcane Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A027E01A4E9479D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16E8AA54D0DCB725",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:priest_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1855C923C017B652",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10BE8C2150BE1110",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.14731d,
+      "y": -3.39934d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B6A128B51338CD0",
+      "title": "Pyrium Staff",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:pyrium_staff"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Pyrium Staff. Item inputs include Arcane Cloth. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10CA565826C1997A",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:pyrium_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D9A31F9B6BA5E81",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10C38EA082080D5E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.61124d,
+      "y": 10.04999d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C13877D70119553",
+      "title": "Pyromancer Hat",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:pyromancer_helmet"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Pyromancer Hat. Item inputs include Fire Rune, Arcane Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "189DB0F9D752CC3A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11A4463E453553DD",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:pyromancer_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BE0ACDEF7399E06",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D8359B766E1634E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.41386d,
+      "y": -3.8666d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B4D5B08A2372387",
+      "title": "Shadow-Walker Mask",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:shadowwalker_helmet"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Shadow-Walker Mask. Item inputs include Ender Rune, Arcane Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D092FC2A93E4CD0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E888C406D2A05F9",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:shadowwalker_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1921C09504AF2976",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10C655847C3FB4B3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.88037d,
+      "y": -3.26411d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "181CC77443DD7870",
+      "title": "Boots of Speed",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:speed_boots"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Boots of Speed. Item inputs include Archevoker Boots, Mithril Weave, Feather, Divine Soulshard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "120B8C73E8370391"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18284DA36A596AD8",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:speed_boots"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E6030E9A37BA7B5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "144D1C69D6335862",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.14693d,
+      "y": -3.73137d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "121C322CDF7BDFCF",
+      "title": "Alchemist Cauldron",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:alchemist_cauldron"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Alchemist Cauldron. Item inputs include Arcane Essence, Cinder Essence, Cauldron. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DF5206012C37595",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:alchemist_cauldron"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10E89FEA57912F4B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F2389DB0232057A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.24253d,
+      "y": 13.03093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19680943EBAD909B",
+      "title": "Amethyst Rapier",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:amethyst_rapier",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [
+              {
+                "id": "irons_spellbooks:echoing_strikes",
+                "index": 0,
+                "level": 5,
+                "locked": 1
+              }
+            ],
+            "maxSpells": 1,
+            "mustEquip": 0,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Amethyst Rapier. Item inputs include Amethyst Shard, Chain, Weapon Parts. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "125CF43C39FFD007"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18A142B14C542C19",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:amethyst_rapier",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [
+                  {
+                    "id": "irons_spellbooks:echoing_strikes",
+                    "index": 0,
+                    "level": 5,
+                    "locked": 1
+                  }
+                ],
+                "maxSpells": 1,
+                "mustEquip": 0,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17C081B3EDB2E825",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BB9DC70B6E17F6D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.77432d,
+      "y": 8.25343d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D3E60EF0C8EC3D8",
+      "title": "Ancient Knowledge Fragment",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:ancient_knowledge_fragment"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Ancient Knowledge Fragment and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "166402C49D60B571",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:ancient_knowledge_fragment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1919D2FDE3C487FB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10881E650CEF656C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.16227d,
+      "y": 2.97448d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A3FC4F1760A21F7",
+      "title": "Arcane Anvil",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:arcane_anvil"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Arcane Anvil. Item inputs include Anvil, Polished Deepslate, Amethyst Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15192A363225C299",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:arcane_anvil"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17FCF530B0589B26",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18C1EB11FECF08C2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.60253d,
+      "y": 11.35093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1926DABDA43BB39A",
+      "title": "Artificer's Cane",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:artificer_cane"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Artificer's Cane. Item inputs include Crimson Planks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "120AA30889580142",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:artificer_cane"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D7A9ABA40555590",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BF68BE9E3CFA5CE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.61124d,
+      "y": 7.40187d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "109CDA3507F522C0",
+      "title": "Blank Runestone",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:blank_rune"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Blank Runestone. Item inputs include Shriving Stone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10CC35AAB810FF04",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:blank_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17BABD733E8A84CE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1086E8D5355969C4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.25026d,
+      "y": 0.5986d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1946C02F47CF3886",
+      "title": "Blaze Instruction Manual",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:blaze_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 10,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Blaze Instruction Manual and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "135528E5BAED50C4",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:blaze_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 10,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F26F1FFE42F1476",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19F29FCC52EE944A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.66352d,
+      "y": 0.86249d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "185DFDC02AA604F0",
+      "title": "Blood Rune",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:blood_rune"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Blood Rune. Item inputs include Blank Runestone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "109CDA3507F522C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "164657B49571F186",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:blood_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1657045B6E5EC441",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19448FF33FFDF84F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.51893d,
+      "y": 1.93556d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "140824C79DCAAF30",
+      "title": "Boreal Blade",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:boreal_blade",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [
+              {
+                "id": "irons_spellbooks:frostbite",
+                "index": 0,
+                "level": 3,
+                "locked": 1
+              }
+            ],
+            "maxSpells": 1,
+            "mustEquip": 0,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Boreal Blade. Item inputs include Ice Venom Vial, Weapon Parts, Ice. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "125CF43C39FFD007"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "190990C91809C1F2",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:boreal_blade",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [
+                  {
+                    "id": "irons_spellbooks:frostbite",
+                    "index": 0,
+                    "level": 3,
+                    "locked": 1
+                  }
+                ],
+                "maxSpells": 1,
+                "mustEquip": 0,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "127D75A8EC1ADDDA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11E4E4BE9F5F6D86",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.20234d,
+      "y": 10.00591d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D5E1E049B79FC2A",
+      "title": "Cinderous Soulcaller",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:cinderous_soulcaller"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Cinderous Soulcaller. Item inputs include Echo Shard, Cinder Essence, Netherite Scrap. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F185021F98FCAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "159B540C0B7E45D3",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:cinderous_soulcaller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172B8759E7A79B28",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "141B84B2DA936AE4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.71503d,
+      "y": 6.27957d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A0DD8C4F50EBF31",
+      "title": "Common Ink",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:common_ink"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Use Alchemist Cauldron Empty processing to make Common Ink. Item inputs include Glass Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12D8EE4CE7242C7E",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:common_ink"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F844113908ACA38",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F7B10833455B746",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.24253d,
+      "y": 11.35093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184F8CC906ACD650",
+      "title": "Flimsy Journal",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:copper_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 5,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Flimsy Journal. Item inputs include String, Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10ADACC95497A601",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:copper_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 5,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12BE62750DA08443",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EEA1816B0C81600",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.53402d,
+      "y": 0.23174d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1808E88E14731BB1",
+      "title": "Vampiric Spell Book",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:cursed_doll_spell_book",
+        "components": {
+          "irons_spellbooks:affinity_data": {
+            "bonuses": {
+              "irons_spellbooks:blood_slash": 1,
+              "irons_spellbooks:blood_step": 1
+            }
+          },
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 10,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Vampiric Spell Book. Item inputs include Ruined Book, Bloody Vellum, Arcane Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E4EAF40251B4EEE",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:cursed_doll_spell_book",
+            "components": {
+              "irons_spellbooks:affinity_data": {
+                "bonuses": {
+                  "irons_spellbooks:blood_slash": 1,
+                  "irons_spellbooks:blood_step": 1
+                }
+              },
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 10,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A403FD394D802B6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "127034D771B03B25",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.53402d,
+      "y": 1.58174d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C7C1AF19FD0496D",
+      "title": "Decrepit Scythe",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:decrepit_scythe"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Decrepit Scythe and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "163704915941F011"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1608C23D4E7F7E58",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:decrepit_scythe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13C274067B06BE41",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18E817E078DB0A75",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.41503d,
+      "y": 6.27957d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "161C5105202BC6F7",
+      "title": "Enchanted Spell Book",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:diamond_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 10,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Enchanted Spell Book. Item inputs include Enchanted Book, Arcane Cloth, Hogskin. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C6EE01176D24065",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:diamond_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 10,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F681936822A1BCD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EA02159C854A327",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.60283d,
+      "y": -0.1982d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "163704915941F011",
+      "title": "Divine Soulshard",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:divine_soulshard"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Divine Soulshard and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D5E1E049B79FC2A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E9CAC1B1D1E433E",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:divine_soulshard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "149D56BEFBAFCB48",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10BF0FD2E64BCB54",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.06503d,
+      "y": 6.27957d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "138CD3B87B7CCB67",
+      "title": "Dragonskin Spell Book",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:dragonskin_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 12,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Dragonskin Spell Book. Item inputs include Ruined Book, Dragonskin. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D3FAA3F102147EC",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:dragonskin_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 12,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1102B2E51BA1969C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11BE61E6489C41F8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.80441d,
+      "y": -1.21159d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16F2105D4CAE6034",
+      "title": "Druidic Tome",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:druidic_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 10,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Druidic Tome. Item inputs include Rotten Spell Book, Amethyst Cluster, Honey Bottle, Spore Blossom. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10D961F4506EF320"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1608A56B7A2A9C40",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:druidic_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 10,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E8925318C05C7D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "189CDFFEFAD3C49F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.41003d,
+      "y": -3.13318d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D2B923C0290206F",
+      "title": "Eldritch Manuscript",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:eldritch_manuscript"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Eldritch Manuscript. Item inputs include Echo Shard, Ancient Knowledge Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D3E60EF0C8EC3D8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "186058A1B646CE55",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:eldritch_manuscript"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18E522C52B534D15",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "145EC5606E877DC9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.41003d,
+      "y": 2.20912d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D092FC2A93E4CD0",
+      "title": "Ender Rune",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:ender_rune"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Ender Rune. Item inputs include Blank Runestone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "109CDA3507F522C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "168056499E6D1844",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:ender_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11E387A8F1E02210",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "125CC15AE739B725",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.25029d,
+      "y": -2.04403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B3162E32F696B3",
+      "title": "Epic Ink",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:epic_ink"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Use Alchemist Cauldron Empty processing to make Epic Ink. Item inputs include Glass Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1949F665827E4C4B",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:epic_ink"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "128A8CC67D79DE2F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B3D8D84BAB7222F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.92253d,
+      "y": 13.03093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "191488C2B022B904",
+      "title": "Evocation Rune",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:evocation_rune"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Evocation Rune. Item inputs include Blank Runestone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "109CDA3507F522C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "122EB7CCA42F7557",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:evocation_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F5ADFAA16F2436E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18DC3899911AC862",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.25122d,
+      "y": -0.7234d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12FE67D662EA9024",
+      "title": "Grimoire of Evokation",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:evoker_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [
+              {
+                "id": "irons_spellbooks:fang_strike",
+                "index": 0,
+                "level": 6,
+                "locked": 1
+              },
+              {
+                "id": "irons_spellbooks:fang_ward",
+                "index": 1,
+                "level": 4,
+                "locked": 1
+              },
+              {
+                "id": "irons_spellbooks:summon_vex",
+                "index": 2,
+                "level": 4,
+                "locked": 1
+              }
+            ],
+            "maxSpells": 10,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Grimoire of Evokation and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10FA6A8665D65C20",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:evoker_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [
+                  {
+                    "id": "irons_spellbooks:fang_strike",
+                    "index": 0,
+                    "level": 6,
+                    "locked": 1
+                  },
+                  {
+                    "id": "irons_spellbooks:fang_ward",
+                    "index": 1,
+                    "level": 4,
+                    "locked": 1
+                  },
+                  {
+                    "id": "irons_spellbooks:summon_vex",
+                    "index": 2,
+                    "level": 4,
+                    "locked": 1
+                  }
+                ],
+                "maxSpells": 10,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BCEEB8400A84A3B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12EF4AF1A669FC70",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.92689d,
+      "y": -1.81157d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "189DB0F9D752CC3A",
+      "title": "Fire Rune",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:fire_rune"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Fire Rune. Item inputs include Blank Runestone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "109CDA3507F522C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E6262C45CF7FE0B",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:fire_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BC24FEB649F03AA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1814D53D929C0D2E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.74261d,
+      "y": 0.61356d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10B31BE2B02D49E9",
+      "title": "Apprentice's Spell Book",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:gold_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 8,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Apprentice's Spell Book. Item inputs include Arcane Essence, Hogskin. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FE49B4C90047081",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:gold_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 8,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ECD6F81DBAA51D0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F96B03FC66D7D98",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.6541d,
+      "y": 0.81122d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A027E01A4E9479D",
+      "title": "Holy Rune",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:holy_rune"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Holy Rune. Item inputs include Blank Runestone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "109CDA3507F522C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15A09544D0555F4E",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:holy_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A99528A9FA5D63B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FBA76C039D6938F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.82576d,
+      "y": -0.70696d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BCE612BAAAB6E50",
+      "title": "Ice Rune",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:ice_rune"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Ice Rune. Item inputs include Blank Runestone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "109CDA3507F522C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "185126FEFAB3251E",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:ice_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "161A5EB003A222E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D589E058855BB27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.57057d,
+      "y": -2.02757d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1904669E8FC82AC4",
+      "title": "Frostbranded Book",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:ice_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 12,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Frostbranded Book. Item inputs include Mithril Scrap, Ruined Book, Arcane Cloth, Ice Venom Vial. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E044D19C7D37A9",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:ice_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 12,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "161AAEF96FFBD152",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13DF6A51D434FE16",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.47493d,
+      "y": -0.9493d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BB4418C746A4931",
+      "title": "Icy Fang",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:icy_fang"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Icy Fang and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "18A5404CF8CE86F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E8A1F83A17EE03",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:icy_fang"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10BEAAC1F14AADB8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12823C55AE8F56E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.34244d,
+      "y": 6.19087d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A2003A6C2FE9038",
+      "title": "Inscription Table",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:inscription_table"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Inscription Table. Item inputs include Book. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "193905EC2169D6D5",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:inscription_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FB4FF398A08A896",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1201666BAC2BDF18",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.56253d,
+      "y": 11.35093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1756A3B8477248DF",
+      "title": "Ironbound Tome",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:iron_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 6,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Ironbound Tome. Item inputs include Chain, Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D8558DB97723FA9",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:iron_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 6,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A47ACE437B62A0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14B2CBD3D957085B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.31582d,
+      "y": -2.54024d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1537CE75209C7F2B",
+      "title": "Decrepit Flamberge",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:keeper_flamberge"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Decrepit Flamberge and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F185021F98FCAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18F9AD4AA9E8FE35",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:keeper_flamberge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15A26A6C95F31E31",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E0BBBA0B1F6EB01",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.06503d,
+      "y": 4.87115d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1590DDF0A39DDA29",
+      "title": "Legendary Ink",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:legendary_ink"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Use Alchemist Cauldron Empty processing to make Legendary Ink. Item inputs include Glass Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AF02E36DD9D9DCA",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:legendary_ink"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC48C9F4975E1F5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1271A6BFED9D24EB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.92253d,
+      "y": 11.35093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1746F9ECF9662EDE",
+      "title": "Lightning Rune",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:lightning_rune"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Lightning Rune. Item inputs include Blank Runestone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "109CDA3507F522C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C9167E6909FD845",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:lightning_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E3766ECA1BC09F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17BE56A96F01CB32",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.19693d,
+      "y": 1.91924d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15D22BB9A6999649",
+      "title": "Magehunter",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:magehunter"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Magehunter and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "135A61A301571EC4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "125CCE79248202F0",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:magehunter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FBCE56D3DC63585",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17CC1AD5A15AF5E8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.46503d,
+      "y": 9.67093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15DB581BC3178CF5",
+      "title": "Arcane Cloth",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:magic_cloth"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Arcane Cloth. Item inputs include Arcane Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16AB0E27992C0E96",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:magic_cloth"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C8D023FDFF6F8D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C2753B5CA317D98",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.96858d,
+      "y": -1.55341d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15581F372665AD05",
+      "title": "Nature Rune",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:nature_rune"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Nature Rune. Item inputs include Blank Runestone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "109CDA3507F522C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FD8D9CEE58B4D58",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:nature_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "111521A78AD7D1E4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "120EE42C45EBA215",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.124d,
+      "y": 1.6654d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18228A6BEC612E94",
+      "title": "Necronomicon",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:necronomicon_spell_book",
+        "components": {
+          "irons_spellbooks:affinity_data": {
+            "bonuses": {
+              "irons_spellbooks:raise_dead": 2
+            }
+          },
+          "irons_spellbooks:spell_container": {
+            "data": [
+              {
+                "id": "irons_spellbooks:blood_slash",
+                "index": 0,
+                "level": 5,
+                "locked": 1
+              },
+              {
+                "id": "irons_spellbooks:blood_step",
+                "index": 1,
+                "level": 5,
+                "locked": 1
+              },
+              {
+                "id": "irons_spellbooks:ray_of_siphoning",
+                "index": 2,
+                "level": 5,
+                "locked": 1
+              },
+              {
+                "id": "irons_spellbooks:blaze_storm",
+                "index": 3,
+                "level": 5,
+                "locked": 1
+              }
+            ],
+            "maxSpells": 10,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Necronomicon and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E148B1D67CAB27A",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:necronomicon_spell_book",
+            "components": {
+              "irons_spellbooks:affinity_data": {
+                "bonuses": {
+                  "irons_spellbooks:raise_dead": 2
+                }
+              },
+              "irons_spellbooks:spell_container": {
+                "data": [
+                  {
+                    "id": "irons_spellbooks:blood_slash",
+                    "index": 0,
+                    "level": 5,
+                    "locked": 1
+                  },
+                  {
+                    "id": "irons_spellbooks:blood_step",
+                    "index": 1,
+                    "level": 5,
+                    "locked": 1
+                  },
+                  {
+                    "id": "irons_spellbooks:ray_of_siphoning",
+                    "index": 2,
+                    "level": 5,
+                    "locked": 1
+                  },
+                  {
+                    "id": "irons_spellbooks:blaze_storm",
+                    "index": 3,
+                    "level": 5,
+                    "locked": 1
+                  }
+                ],
+                "maxSpells": 10,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AAF20BF495C672D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1651C2B286D4A3F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.92689d,
+      "y": -0.46157d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CE2F5B244D65322",
+      "title": "Ancient Codex",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:netherite_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 12,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Ancient Codex. Item inputs include Ruined Book, Arcane Cloth, Blood Vial, Bottle o' Lightning. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12F146510BD5A577",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:netherite_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 12,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEAA59EC20EA24D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BDF82E660E2AD90",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.53402d,
+      "y": -1.11826d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18E2012B70F8FF3D",
+      "title": "Rare Ink",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:rare_ink"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Use Alchemist Cauldron Empty processing to make Rare Ink. Item inputs include Glass Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A325CCF6235944C",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:rare_ink"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B013C8A6476EA04",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10A0F01F080814D7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.56253d,
+      "y": 13.03093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "135A61A301571EC4",
+      "title": "Raw Mithril",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:raw_mithril"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Raw Mithril and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D41695A6540A105",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:raw_mithril"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13926A34E0785869",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AD4882B91743462",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.06503d,
+      "y": 9.67093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10D961F4506EF320",
+      "title": "Rotten Spell Book",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:rotten_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 8,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Rotten Spell Book and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D19C57A73A47A9",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:rotten_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 8,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17FCAAB409F46215",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "125C38976053A6EB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.01003d,
+      "y": -3.13317d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DE632EBF1E7A703",
+      "title": "Scroll Forge",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:scroll_forge"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Scroll Forge. Item inputs include Polished Deepslate, Crying Obsidian. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FE89AA5AF4E95FD",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:scroll_forge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11870747BFA9E674",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13A53778A39F6ACF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.96253d,
+      "y": 11.35093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11C281456DA6D3C7",
+      "title": "Spellbreaker",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:spellbreaker",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [
+              {
+                "id": "irons_spellbooks:counterspell",
+                "index": 0,
+                "level": 1,
+                "locked": 1
+              }
+            ],
+            "maxSpells": 1,
+            "mustEquip": 0,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Spellbreaker. Item inputs include Weapon Parts. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "125CF43C39FFD007"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16CE660B508407D5",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:spellbreaker",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [
+                  {
+                    "id": "irons_spellbooks:counterspell",
+                    "index": 0,
+                    "level": 1,
+                    "locked": 1
+                  }
+                ],
+                "maxSpells": 1,
+                "mustEquip": 0,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A6F59054BB8FF19",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D1DE722990C6FB2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.18895d,
+      "y": 10.20749d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F36E97354AF7DCB",
+      "title": "Uncommon Ink",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:uncommon_ink"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Use Alchemist Cauldron Empty processing to make Uncommon Ink. Item inputs include Glass Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11B5666222E9945C",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:uncommon_ink"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "152E450DEC49E12D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "163F374C9B9C15AC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.28253d,
+      "y": 11.35093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AA0E4022A2DCC3C",
+      "title": "Villager Bible",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:villager_spell_book",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 10,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Villager Bible and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F181A4B5634E138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EEA3F13857969D6",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:villager_spell_book",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 10,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11BC3D3A6B137CAD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C661197376C3939",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.88402d,
+      "y": 1.58174d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "125CF43C39FFD007",
+      "title": "Weapon Parts",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:weapon_parts"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Weapon Parts. Item inputs include Arcane Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "135A61A301571EC4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E0DFC6CDA19F97F",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:weapon_parts"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "144E8642A50DEEF1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F4096B625F5E3BF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.45232d,
+      "y": 8.88343d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CAA987598FEA0F3",
+      "title": "Ominous Bottle",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "minecraft:ominous_bottle"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Ominous Bottle and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16FB3D3DDEA062BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12B3721107FD4913",
+          "type": "item",
+          "item": {
+            "id": "minecraft:ominous_bottle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "176998924C851BFD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "168BA5A3F58D694B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.04753d,
+      "y": 3.51831d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F181A4B5634E138",
+      "title": "Paper",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "minecraft:paper"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "101199B544EF77F4",
+          "type": "item",
+          "item": {
+            "id": "minecraft:paper"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17B48AAF46CF0368",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10A8FA567B3024F6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.92689d,
+      "y": -0.46157d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EDF5458A586736C",
+      "title": "Arcane Essence",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:arcane_essence"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Arcane Essence and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152C33984267BE5D",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:arcane_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "135E80325C30C37F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14DD8697C25C39D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.64253d,
+      "y": 11.35093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F4CAA36BF9974B0",
+      "title": "Rod o' Lightning",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:lightning_rod"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Rod o' Lightning and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12313824691EC319",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:lightning_rod"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D55CF17199E977F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15A429E769EF2C75",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.62463d,
+      "y": 7.60345d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D148DBBF1BF0D3",
+      "title": "Pyrium Ingot",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:pyrium_ingot"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Obtain Pyrium Ingot and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14B2865F6C16AA8A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1292D0C3A93C5112",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:pyrium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE19DCC858FFC7C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DB6DACCB89D75F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.46503d,
+      "y": 3.58093d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FCBA1991CDB072C",
+      "title": "Lightbringer Chestplate",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:paladin_chestplate",
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 1,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        }
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Lightbringer Chestplate. Item inputs include Priest Robes, Divine Soulshard, Mithril Weave. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "108B4F37D9C3B35D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D5CD20B08D044C6",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:paladin_chestplate",
+            "components": {
+              "irons_spellbooks:spell_container": {
+                "data": [],
+                "maxSpells": 1,
+                "mustEquip": 1,
+                "spellWheel": 1
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A9BFC13365FF484",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14A7ECFA83893A76",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.26979d,
+      "y": -2.64932d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E00B8B6AD627FE7",
+      "title": "Blood Upgrade Orb",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:blood_upgrade_orb"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Blood Upgrade Orb. Item inputs include Empty Upgrade Orb, Blood Rune. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "185DFDC02AA604F0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10670F8BDEB5B04C",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:blood_upgrade_orb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1699536BD957DAD0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "190EC7E98CCF4056",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.01918d,
+      "y": 3.25596d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10F7C816707F6362",
+      "title": "Ender Upgrade Orb",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:ender_upgrade_orb"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Ender Upgrade Orb. Item inputs include Empty Upgrade Orb, Ender Rune. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D092FC2A93E4CD0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130B5BFD5B3BD856",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:ender_upgrade_orb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "110BF648FBC05FD7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14F262A2779472CA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.88531d,
+      "y": -3.36434d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C7F9EB735248B95",
+      "title": "Evocation Upgrade Orb",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:evocation_upgrade_orb"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Evocation Upgrade Orb. Item inputs include Empty Upgrade Orb, Evocation Rune. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "191488C2B022B904"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E99305F30B66680",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:evocation_upgrade_orb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "156A1FB44F99FA47",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A773BF3F93B9887",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.14753d,
+      "y": 1.05295d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18BCE3D30433015F",
+      "title": "Fire Upgrade Orb",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:fire_upgrade_orb"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Fire Upgrade Orb. Item inputs include Empty Upgrade Orb, Fire Rune. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "189DB0F9D752CC3A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B11125913614A68",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:fire_upgrade_orb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1078821B2156B996",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11DDC2C778FEE91D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.06379d,
+      "y": 1.12888d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13243DF61E627DBF",
+      "title": "Holy Upgrade Orb",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:holy_upgrade_orb"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Holy Upgrade Orb. Item inputs include Empty Upgrade Orb, Holy Rune. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A027E01A4E9479D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "108A8CF041E8F340",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:holy_upgrade_orb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15C2350F02B25429",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "192DFB45DC147F00",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.19886d,
+      "y": -0.63629d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B0F2730F48CB76",
+      "title": "Ice Upgrade Orb",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:ice_upgrade_orb"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Ice Upgrade Orb. Item inputs include Empty Upgrade Orb, Ice Rune. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BCE612BAAAB6E50"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18FE11388C8C4E5D",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:ice_upgrade_orb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10CB75A4F61F9C78",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D4DD916283C8A13",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.89151d,
+      "y": -2.21392d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13C0C5C4F8E81346",
+      "title": "Lightning Upgrade Orb",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:lightning_upgrade_orb"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Lightning Upgrade Orb. Item inputs include Empty Upgrade Orb, Lightning Rune. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1746F9ECF9662EDE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1273B72659D26F53",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:lightning_upgrade_orb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E44FEA2D7D6857",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C325B168721F7EE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.38333d,
+      "y": 3.25609d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C2DBC0A22EED1FE",
+      "title": "Nature Upgrade Orb",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:nature_upgrade_orb"
+      },
+      "description": [
+        "Use the Arcane Anvil and Inscription Table for spell equipment and scroll work. Equip a spellbook, manage mana, and try a low-level spell before spending rare scrolls.",
+        "Craft Nature Upgrade Orb. Item inputs include Empty Upgrade Orb, Nature Rune. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15581F372665AD05"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "159273503950FBE7",
+          "type": "item",
+          "item": {
+            "id": "irons_spellbooks:nature_upgrade_orb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C32C131C289050B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15389824916C48BB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.36549d,
+      "y": 2.9874d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16FB3D3DDEA062BC",
+      "title": "The Dead King",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "18A5404CF8CE86F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "irons_spellbooks:dead_king",
+          "type": "kill",
+          "value": 1,
+          "id": "1CF8FAA6ECEF675B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EFA1C7D5A9886B1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.64753d,
+      "y": 3.51887d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D492182379795D",
+      "title": "Archevoker",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "minecraft:totem_of_undying"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "18A5404CF8CE86F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "irons_spellbooks:archevoker",
+          "type": "kill",
+          "value": 1,
+          "id": "16CD3A6106542AE1",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198288AC87593F27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.28381d,
+      "y": 6.16499d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A5E2EA2B9D5B693",
+      "title": "Apothecarist",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:healing"
+          }
+        },
+        "id": "minecraft:potion"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "18A5404CF8CE86F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "irons_spellbooks:apothecarist",
+          "type": "kill",
+          "value": 1,
+          "id": "15F7776738BA9BC9",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168AE3AE7F7DDFBD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.34244d,
+      "y": 4.84087d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D150D8DDF1B8E3",
+      "title": "Pyromancer",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "minecraft:fire_charge"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "18A5404CF8CE86F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "irons_spellbooks:pyromancer",
+          "type": "kill",
+          "value": 1,
+          "id": "1D4B30FCD825A00D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1793D2B6A30BF087",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.69638d,
+      "y": 5.1043d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18B36E40385F2D1D",
+      "title": "Cryomancer",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "minecraft:snowball"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "18A5404CF8CE86F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "irons_spellbooks:cryomancer",
+          "type": "kill",
+          "value": 1,
+          "id": "1B61E7CB256F42DC",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AE0641FEC46F298",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.50382d,
+      "y": 3.59369d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F185021F98FCAE1",
+      "title": "Ancient Knight",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "irons_spellbooks:armor_pile"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "14B2865F6C16AA8A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "irons_spellbooks:citadel_keeper",
+          "type": "kill",
+          "value": 1,
+          "id": "1492C10A74EA5716",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3E0E00486965C6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.56253d,
+      "y": 4.95912d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "dependency_requirement": "one_completed",
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F4B0F8F182B545D",
+      "title": "Priest",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "minecraft:golden_apple"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "18A5404CF8CE86F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "irons_spellbooks:priest",
+          "type": "kill",
+          "value": 1,
+          "id": "1A617371258B21C5",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13DCC68FBAD74B2F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.69244d,
+      "y": 6.19087d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A5404CF8CE86F8",
+      "title": "Adventure Time!",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "minecraft:grass_block"
+      },
+      "description": [
+        "Enter Overworld. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:overworld",
+          "type": "dimension",
+          "id": "126E1E72835A5647",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EBE465A9019F088",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.02044d,
+      "y": 4.84093d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B2865F6C16AA8A",
+      "title": "On a Highway to...",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "id": "minecraft:netherrack"
+      },
+      "description": [
+        "Enter The Nether. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:the_nether",
+          "type": "dimension",
+          "id": "19BFD84C74791A81",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F8D587241916164",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.06503d,
+      "y": 3.5507d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D0F9C562621A8DA",
+      "title": "Necromancers",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "components": {
+          "irons_spellbooks:spell_container": {
+            "data": [],
+            "maxSpells": 1,
+            "mustEquip": 1,
+            "spellWheel": 1
+          }
+        },
+        "id": "irons_spellbooks:tarnished_helmet"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "18A5404CF8CE86F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "irons_spellbooks:necromancer",
+          "type": "kill",
+          "value": 5,
+          "id": "1E58A138CB407F0B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEE9ABDF4B5601F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.53706d,
+      "y": 3.59369d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "196BBF46E86C981C",
+      "title": "Wizard Gear",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(irons_spellbooks:wizard_helmet)item(irons_spellbooks:wizard_helmet)item(irons_spellbooks:wizard_chestplate)item(irons_spellbooks:wizard_leggings)item(irons_spellbooks:wizard_boots))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "15DB581BC3178CF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(irons_spellbooks:wizard_helmet)item(irons_spellbooks:wizard_helmet)item(irons_spellbooks:wizard_chestplate)item(irons_spellbooks:wizard_leggings)item(irons_spellbooks:wizard_boots))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1339499CC4722395",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10DE59CFAE4BD8EC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.13753d,
+      "y": -2.87387d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A355F06B452C7BD",
+      "title": "Wandering Magician Outfit",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(irons_spellbooks:wandering_magician_helmet)item(irons_spellbooks:wandering_magician_chestplate)item(irons_spellbooks:wandering_magician_leggings)item(irons_spellbooks:wandering_magician_boots))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "15DB581BC3178CF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(irons_spellbooks:wandering_magician_helmet)item(irons_spellbooks:wandering_magician_chestplate)item(irons_spellbooks:wandering_magician_leggings)item(irons_spellbooks:wandering_magician_boots))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "117588A35535ECE0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D6ED96E5E5FC191",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.28869d,
+      "y": -1.55054d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FDAA9ABD8E5C7A8",
+      "title": "Scarecrow Outfit",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(irons_spellbooks:pumpkin_helmet)item(irons_spellbooks:pumpkin_chestplate)item(irons_spellbooks:pumpkin_leggings)item(irons_spellbooks:pumpkin_boots))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "15DB581BC3178CF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(irons_spellbooks:pumpkin_helmet)item(irons_spellbooks:pumpkin_chestplate)item(irons_spellbooks:pumpkin_leggings)item(irons_spellbooks:pumpkin_boots))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1B4216CC3EFC4765",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E654C6BCAC2A439",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.13753d,
+      "y": -0.23001d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E4FCFCBF5EE0FC4",
+      "title": "Netherite Battlemage Armor",
+      "subtitle": "Iron’s Spells and Spellbooks",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(irons_spellbooks:netherite_mage_helmet)item(irons_spellbooks:netherite_mage_chestplate)item(irons_spellbooks:netherite_mage_leggings)item(irons_spellbooks:netherite_mage_boots))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "196BBF46E86C981C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(irons_spellbooks:netherite_mage_helmet)item(irons_spellbooks:netherite_mage_chestplate)item(irons_spellbooks:netherite_mage_leggings)item(irons_spellbooks:netherite_mage_boots))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "180FDA337B35F878",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1256530992D2C9DF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.53753d,
+      "y": -2.87254d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1F471237D23F4C4E",
+      "linked_quest": "1DCB0312E8D29911",
+      "x": 16.87461d,
+      "y": 8.72593d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

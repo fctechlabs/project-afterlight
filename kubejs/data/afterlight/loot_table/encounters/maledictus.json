@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "cataclysm:chests/frosted_prison_treasure",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

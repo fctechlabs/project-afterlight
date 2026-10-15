@@ -1,0 +1,2498 @@
+{
+  "id": "18653A985D496821",
+  "filename": "69_mi_electric",
+  "title": "Modern Industrialization: Electric",
+  "icon": {
+    "id": "modern_industrialization:assembler"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 47,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1C926FED2B294665",
+      "title": "Advanced Machine Hull",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:advanced_machine_hull"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Advanced Machine Hull. Item inputs include Silicon Battery, Electronic Circuit, Advanced Machine Casing, Electrum Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AFFE3AC001AFE07"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14DD10EE5C0C7EDE",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:advanced_machine_hull"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E4222F33A76419D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A206651B7CC6A8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.52026d,
+      "y": 1.58202d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D1B54BB6573E675",
+      "title": "AND Gate",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:and_gate"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft AND Gate. Item inputs include Resistor, Op Amp, Aluminum Wire. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13309459102E24DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B2B2279768603A",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:and_gate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C22B54EAA459F7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BD30E55A54DD19D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.20288d,
+      "y": -1.01375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10C1D43DC118F3EB",
+      "title": "Assembler",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:assembler"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Assembler. Item inputs include Robot Arm, Analog Circuit, Conveyor, Basic Machine Hull. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA6A5D56F1E25D7",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:assembler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1728912FF3CFE850",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18F9AB3C2DA5075E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.38376d,
+      "y": 5.78089d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "120CAC625AD0ADD8",
+      "title": "Basic Machine Hull",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:basic_machine_hull"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Basic Machine Hull. Item inputs include Analog Circuit, Tin Cable, Redstone Battery, Steel Machine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D0DC8525439224E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A0889B47226B646",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:basic_machine_hull"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E7729C6F6E1E29",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18FBA3D1C04E74E5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.52965d,
+      "y": 3.61772d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1602360EB57B5230",
+      "title": "Centrifuge",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:centrifuge"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Centrifuge. Item inputs include Large Motor, Basic Machine Hull, Electrum Cable, Large Pump. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1775B2333EEC964E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1770778F9AF6CB96",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:centrifuge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1441BDE1AEABA25C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17352D03C981EA9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.40965d,
+      "y": 3.39778d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "140E3FF6395CF9CF",
+      "title": "Chemical Reactor",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:chemical_reactor"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Chemical Reactor. Item inputs include Aluminum Rotor, Large Pump, Basic Machine Hull, Electronic Circuit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1775B2333EEC964E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1913A58A2E594A4C",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:chemical_reactor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19F35D9CA943021B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A8217F5CE82A687",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.77173d,
+      "y": 2.07578d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E3945D5447ABF6",
+      "title": "Diode",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:diode"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Diode. Item inputs include Electrum Fine Wire. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1471DB7BF57AE5F0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BEEF9A651325610",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:diode"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BAD55C5FB3B7BCC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12D58F2B5865A4BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.28359d,
+      "y": 3.45555d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17D1ACB4559773CE",
+      "title": "Distillery",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:distillery"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Distillery. Item inputs include Large Pump, Basic Machine Hull, Electronic Circuit, Electrum Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1775B2333EEC964E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E293EFC3D3BB5B8",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:distillery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13AAF50B894BE157",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1397A60D3BCC31C9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.96445d,
+      "y": 6.65165d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1381BBA9D0698BC6",
+      "title": "Electric Blast Furnace",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:electric_blast_furnace"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electric Blast Furnace. Item inputs include Magnetic Cupronickel Wire, Basic Machine Hull, Blast Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AD0BFABBAF0790F",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:electric_blast_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EB10B3915A8806",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "176D8C98591F4BAF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.31173d,
+      "y": 6.63672d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EF503FC6EE45A03",
+      "title": "Electric Compressor",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:electric_compressor"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electric Compressor. Item inputs include Piston, Basic Machine Hull, Tin Cable, Analog Circuit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1681F839247AE5F0",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:electric_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF23FB877B152BC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195DFB2E66E78775",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.71175d,
+      "y": 5.51424d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "111D8BD5143078C4",
+      "title": "Electric Cutting Machine",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:electric_cutting_machine"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electric Cutting Machine. Item inputs include Invar Rotary Blade, Basic Machine Hull, Conveyor, Motor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "176AAEE2FE2DFC7F",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:electric_cutting_machine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C810A4B852D9A28",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "133F6C960E85533E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.4945d,
+      "y": 4.83142d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16AB1CD874661DB4",
+      "title": "Electric Furnace",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:electric_furnace"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electric Furnace. Item inputs include Magnetic Cupronickel Wire, Basic Machine Hull, Tin Cable, Analog Circuit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "160325421E489B2B",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:electric_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16CC058F05019F8F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19E7C581A05E347F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.84211d,
+      "y": 1.5911d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1471DB7BF57AE5F0",
+      "title": "Electric Mixer",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:electric_mixer"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electric Mixer. Item inputs include Motor, Basic Machine Hull, Tin Rotor, Analog Circuit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F0D7866DDD685F2",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:electric_mixer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C90135A575EFADB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1890621ED9B867B3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.5151d,
+      "y": 4.00862d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B6D7A1424D2348",
+      "title": "Electric Packer",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:electric_packer"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electric Packer. Item inputs include Robot Arm, Analog Circuit, Conveyor, Basic Machine Hull. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1933997DA85FC675",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:electric_packer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "183D367F0D1B1AD2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F1DAF2B03EEC543",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.19147d,
+      "y": 2.84319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15F2EC5E8AAF20A2",
+      "title": "Electric Unpacker",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:electric_unpacker"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electric Unpacker. Item inputs include Motor, Analog Circuit, Conveyor, Basic Machine Hull. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14716D4D7CC74368",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:electric_unpacker"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C340C46B7AACD7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1476DA7167E11340",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.54147d,
+      "y": 2.84319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D5E2831A1D5F216",
+      "title": "Electric Wiremill",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:electric_wiremill"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electric Wiremill. Item inputs include Tin Cable, Analog Circuit, Basic Machine Hull, Motor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A5EDC565C8042DA",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:electric_wiremill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "181DE45B3558236B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13271F22DEF4C098",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.89147d,
+      "y": 2.84319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BBC6F12F9A35FE5",
+      "title": "Electrolyzer",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:electrolyzer"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electrolyzer. Item inputs include Magnetic Cupronickel Wire, Basic Machine Hull, Electronic Circuit, Large Pump. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1775B2333EEC964E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1201705CBEA05765",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:electrolyzer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1216D004EF528DA0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10BBEBCFA21DCF01",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.66485d,
+      "y": 5.32894d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16AD21B35ACBCE93",
+      "title": "Helium Bucket",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:helium_bucket"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Obtain Helium Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17D1ACB4559773CE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "106F96D5368FB2DA",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:helium_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "184F445CFD8DCDD1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195D15CF8995AC27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.64245d,
+      "y": 6.65094d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12B64DC5072A529F",
+      "title": "Hydrochloric Acid Bucket",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:hydrochloric_acid_bucket"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Obtain Hydrochloric Acid Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "140E3FF6395CF9CF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "127AA968CE15F569",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:hydrochloric_acid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15384785FA29D65C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11C7DEAAAD0AE17D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.27283d,
+      "y": 0.75555d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D00A297F042BDD",
+      "title": "LV Diesel Generator",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:lv_diesel_generator"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft LV Diesel Generator. Item inputs include Basic Machine Hull, Pump, Tin Cable, Analog Circuit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B253E645DF3EABE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C37ACF8FFF81445",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:lv_diesel_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FA3E2125884A455",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "126CD703C66CB0BD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.17217d,
+      "y": 3.19588d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C85E90F8DDF4B00",
+      "title": "Oil Drilling Rig",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:oil_drilling_rig"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Oil Drilling Rig. Item inputs include Steel Large Plate, Electronic Circuit, Large Pump, Advanced Machine Hull. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1775B2333EEC964E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F5EE4D71B94545",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:oil_drilling_rig"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10D125C3899BCC5D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18AF5C179424F13B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.01485d,
+      "y": 5.32894d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13309459102E24DD",
+      "title": "Op Amp",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:op_amp"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Op Amp. Item inputs include Resistor, Transistor, Diode. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11DAB880A7AC049D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BD4EF0D9F5E3884",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:op_amp"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1154357DF3AB0FA6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F385C51ACEA6D0E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.1665d,
+      "y": -0.14864d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F4A01D42EA0075",
+      "title": "Piston",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:piston"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Piston. Item inputs include Motor, Tin Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "120CAC625AD0ADD8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11C481430DCD66EB",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:piston"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D8AC7980E5D224E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10BE20299ECB5DD8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.21347d,
+      "y": 3.63995d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13D760C9427654C5",
+      "title": "Polarizer",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:polarizer"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Polarizer. Item inputs include Tin Wire, Basic Machine Hull, Tin Cable, Inductor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15E77B92CED31D4A",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:polarizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159CC876C1DD9A58",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18ACB73A7A4CC2C7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.84147d,
+      "y": 4.19319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AEE4487E0B0E3BC",
+      "title": "Polyethylene Bucket",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:polyethylene_bucket"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Obtain Polyethylene Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "140E3FF6395CF9CF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14208F9ED56E7E1B",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:polyethylene_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC0B046DB83157E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10C23D08EB025FEB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.09373d,
+      "y": 1.58158d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1775B2333EEC964E",
+      "title": "Robot Arm",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:robot_arm"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Robot Arm. Item inputs include Motor, Tin Cable, Piston, Analog Circuit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AFFE3AC001AFE07"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C4FCD5167184E31",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:robot_arm"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12DB58457F11ED93",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DDA0C48D4DAA6AF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.73165d,
+      "y": 3.64554d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1583173B0171B5D1",
+      "title": "Sulfuric Acid Bucket",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:sulfuric_acid_bucket"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Obtain Sulfuric Acid Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "140E3FF6395CF9CF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "114E72F5DFB0A2D5",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:sulfuric_acid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1813DAA1583CBCAD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A967F05D18C02F0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.77244d,
+      "y": -0.56473d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DEB76D2D5533F4A",
+      "title": "Sulfuric Light Fuel Bucket",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:sulfuric_light_fuel_bucket"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Obtain Sulfuric Light Fuel Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17D1ACB4559773CE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10636B695857A2AA",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:sulfuric_light_fuel_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14918D4CD19EAF44",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12C8A32A65E8BC57",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.15722d,
+      "y": 7.97184d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "189A26C855FC8F19",
+      "title": "Vacuum Freezer",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:vacuum_freezer"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Vacuum Freezer. Item inputs include Electronic Circuit, Advanced Machine Hull, Large Pump, Aluminum Large Plate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1775B2333EEC964E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F6556E06220168",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:vacuum_freezer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "178AAC45023B00F5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "134DB5546AF8E826",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.36485d,
+      "y": 5.32894d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F2158BED075F022",
+      "title": "Electric Alloy Smelter",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "extended_industrialization:electric_alloy_smelter"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electric Alloy Smelter. Item inputs include Analog Circuit, Basic Machine Hull, Tin Rotor, Magnetic Cupronickel Wire. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1030D41173DF7BB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B28BD7801612DD4",
+          "type": "item",
+          "item": {
+            "id": "extended_industrialization:electric_alloy_smelter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1991A2DDB4D5A2F4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1179F291410E9D93",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.84147d,
+      "y": 1.49319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AB43650FAAB2637",
+      "title": "Chromium Crushed Dust",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:chromium_crushed_dust"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Use Centrifuge processing to make Chromium Crushed Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1602360EB57B5230"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1929DA8155951BBF",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:chromium_crushed_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F564295CA02D3CE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1225DC3C1BC22406",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.86902d,
+      "y": 3.36542d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "116B7B751EA55434",
+      "title": "Chromium Dust",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:chromium_dust"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Chromium Dust. Item inputs include Chromium Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F8D5C58DFEF03C5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199DEEC4ACE4BCED",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:chromium_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18ACE639A259E79A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DE683934892E85B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.63216d,
+      "y": 7.25786d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F8D5C58DFEF03C5",
+      "title": "Manganese Crushed Dust",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:manganese_crushed_dust"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Obtain Manganese Crushed Dust and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1602360EB57B5230"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17C5A0C38DE53442",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:manganese_crushed_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17B146256ADFA2B9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19DE3D9CA0E618CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.32181d,
+      "y": 6.09731d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11DAB880A7AC049D",
+      "title": "P-Doped Silicon Plate",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:silicon_p_doped_plate"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Obtain P-Doped Silicon Plate and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1AEE4487E0B0E3BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18753FC7D1A53297",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:silicon_p_doped_plate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "163FC33E004DE9DD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B842D58642DDABC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.13012d,
+      "y": 0.71647d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1786A664BE09FAF4",
+      "title": "Stainless Steel Dust",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:stainless_steel_dust"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Stainless Steel Dust. Item inputs include Stainless Steel Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "116B7B751EA55434"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CF8A7687E1B0E1B",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:stainless_steel_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E95F4EE10CF6B8A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EFE43F504BBF568",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.47161d,
+      "y": 6.56821d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1661E28C2FEE24D6",
+      "title": "Stainless Steel Hot Ingot",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:stainless_steel_hot_ingot"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Use Blast Furnace processing to make Stainless Steel Hot Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1786A664BE09FAF4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13262DDB0E07C8C0",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:stainless_steel_hot_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F8CE88B60293690",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11642A3FE3E4B20F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.16126d,
+      "y": 5.40766d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12203B78B1E2A61C",
+      "title": "Stainless Steel Ingot",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:stainless_steel_ingot"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Stainless Steel Ingot. Item inputs include Block of Stainless Steel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1661E28C2FEE24D6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15CA221EED25CA24",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:stainless_steel_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BEE23749D24E2FB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D79E803BA63E63E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0007d,
+      "y": 4.71801d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D988B5D1C45CE8",
+      "title": "Yttrium Dust",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:yttrium_dust"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Yttrium Dust. Item inputs include Block of Yttrium. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1602360EB57B5230"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B8954ADAF60D9A8",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:yttrium_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13554C16CB2AFBCA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BA5B023C3307790",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45146d,
+      "y": 2.68197d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D0DC8525439224E",
+      "title": "Battery Alloy Ingot",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:battery_alloy_ingot"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Battery Alloy Ingot. Item inputs include Block of Battery Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14237C060BAD7903"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1963DE1B74A20335",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:battery_alloy_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "177B1FB4297EACA3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FECA6C6E8FDFD92",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.29167d,
+      "y": 4.96055d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1800B79F84064EE4",
+      "title": "LV Steam Turbine",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:lv_steam_turbine"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft LV Steam Turbine. Item inputs include Analog Circuit, Motor, Basic Machine Hull, Tin Rotor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B253E645DF3EABE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "101A33E735B493BE",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:lv_steam_turbine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16B50F5988398033",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1244A89DCDA50411",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.17233d,
+      "y": 4.51607d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "179C8021715A79B8",
+      "title": "Advanced Upgrade",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:advanced_upgrade"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Use Assembler processing to make Advanced Upgrade. Item inputs include Basic Upgrade, Large Motor, Large Pump, Electronic Circuit Board. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C926FED2B294665"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "157D9A62C3B69DA6",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:advanced_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16AB760333E5808E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11A279062A93491D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.18376d,
+      "y": 0.17119d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "160F3C9C669FD8F3",
+      "title": "Basic Upgrade",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:basic_upgrade"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Use Assembler processing to make Basic Upgrade. Item inputs include Conveyor, Motor, Robot Arm, Analog Circuit Board. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10C1D43DC118F3EB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15788EC480134C55",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:basic_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16EBA6305331CD88",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CE49ACB23D22DFE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.78972d,
+      "y": 7.10406d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DAA8061080E7091",
+      "title": "Digital Circuit",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:digital_circuit"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Digital Circuit. Item inputs include OR Gate, Electronic Circuit, NOT Gate, AND Gate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12203B78B1E2A61C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "121BE97C96FD6FFC",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:digital_circuit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B9CEF0A909F2E5E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A3DD29744C97E00",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.68895d,
+      "y": 5.87856d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AFFE3AC001AFE07",
+      "title": "Electronic Circuit",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:electronic_circuit"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Electronic Circuit. Item inputs include Diode, Analog Circuit, Transistor, Electronic Circuit Board. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14E3945D5447ABF6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "131447463D812329",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:electronic_circuit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120FF6F2F6889907",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "150247A7DDD7D77C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.05208d,
+      "y": 2.90249d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1497E762E5813CE1",
+      "title": "Overdrive Module",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:overdrive_module"
+      },
+      "description": [
+        "Electric machines introduce circuits, motors, and chemical processing. Check voltage compatibility and build renewable component lines before scaling the workshop.",
+        "Craft Overdrive Module. Item inputs include Diode, Transistor, Electrum Fine Wire, Electronic Circuit Board. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10C1D43DC118F3EB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D69FE75AC1966F4",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:overdrive_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12FBC4C46F12D1F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B9F47573AB3D766",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.4291d,
+      "y": 7.10289d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B253E645DF3EABE",
+      "title": "Electricity Generation",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:assembler"
+      },
+      "description": [
+        "Learn about Electricity Generation in the Modern Industrialization: Electric guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "120CAC625AD0ADD8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1FD3DF06017F7B95",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1274511C3CCB1A18",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.85033d,
+      "y": 3.75117d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16226AFAAB2B7FD8",
+      "title": "Electricity Transfer",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:assembler"
+      },
+      "description": [
+        "Learn about Electricity Transfer in the Modern Industrialization: Electric guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "120CAC625AD0ADD8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "10301A216CC329F4",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FDD642D0A52DD6E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.21225d,
+      "y": 2.1506d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D988508E1333C84",
+      "title": "LV Cables",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(modern_industrialization:silver_cable)item(modern_industrialization:copper_cable)item(modern_industrialization:tin_cable))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "16226AFAAB2B7FD8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(modern_industrialization:silver_cable)item(modern_industrialization:copper_cable)item(modern_industrialization:tin_cable))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "13717CF34D38DB94",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F7CBEB2DEACEBE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.21229d,
+      "y": 0.8286d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18CDE08934CE5969",
+      "title": "LV-MV Transformers",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(modern_industrialization:lv_mv_transformer)item(modern_industrialization:mv_lv_transformer))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "16226AFAAB2B7FD8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(modern_industrialization:lv_mv_transformer)item(modern_industrialization:mv_lv_transformer))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1A5C77F6162757F3",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "123E6CBA670C4C16",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.53251d,
+      "y": 1.28255d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1030D41173DF7BB2",
+      "title": "Read this carefully",
+      "subtitle": "Modern Industrialization: Electric",
+      "icon": {
+        "id": "modern_industrialization:assembler"
+      },
+      "description": [
+        "Learn about Read this carefully in the Modern Industrialization: Electric guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "12F4A01D42EA0075"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "17B177B0D39AFCED",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1985C550828FAA8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.06175d,
+      "y": 5.51424d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "18670F74BB199318",
+      "linked_quest": "14237C060BAD7903",
+      "x": 14.72139d,
+      "y": 6.28255d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

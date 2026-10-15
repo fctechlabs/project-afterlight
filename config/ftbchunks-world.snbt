@@ -1,0 +1,16 @@
+{
+  "disable_protection": false,
+  "no_wilderness": false,
+  "require_game_stage": false,
+  "claiming": {
+    "max_claimed_chunks": 256,
+    "hard_team_claim_limit": 256,
+    "party_limit_mode": "largest",
+    "max_idle_days_before_unclaim": 0.0
+  },
+  "force_loading": {
+    "max_force_loaded_chunks": 16,
+    "hard_team_force_limit": 16,
+    "force_load_mode": "never"
+  }
+}

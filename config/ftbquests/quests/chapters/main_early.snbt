@@ -1,0 +1,1575 @@
+{
+  "id": "13B7D2CBFFB3BCFB",
+  "filename": "main_early",
+  "title": "Chapter 1: Starting Out",
+  "icon": {
+    "id": "minecraft:oak_sapling"
+  },
+  "group": "1770D93DCD8CF55A",
+  "order_index": 1,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1D56B6A8952A2710",
+      "title": "Getting Wood",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:oak_log"
+      },
+      "description": [
+        "Collect Oak Logs and preserve the saplings. Every basic resource chain begins with a renewable tree supply."
+      ],
+      "dependencies": [],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1B09F9F680119DA1",
+          "type": "item",
+          "item": {
+            "id": "minecraft:oak_log"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "194A7071DAB47023",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AFBCA57CF7D6E49",
+          "type": "item",
+          "item": {
+            "id": "minecraft:oak_sapling",
+            "count": 2
+          }
+        },
+        {
+          "id": "1FDECC25BC751527",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0,
+      "y": 0,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "163A58D6301801F6",
+      "title": "A place to craft",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:crafting_table"
+      },
+      "description": [
+        "Turn logs into planks and make a Crafting Table. Keep the last sapling and enough wood to restart safely."
+      ],
+      "dependencies": [
+        "1D56B6A8952A2710"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "165BB4ADC86AA6B4",
+          "type": "item",
+          "item": {
+            "id": "minecraft:crafting_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB55C6D9541F9AB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1936D2BC81188823",
+          "type": "item",
+          "item": {
+            "id": "minecraft:apple",
+            "count": 4
+          }
+        },
+        {
+          "id": "18408D186EDBCB0E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.5d,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16D47479ED0FE5AC",
+      "title": "Spare Saplings",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:oak_sapling"
+      },
+      "description": [
+        "Collect and replant an Oak Sapling. Store a spare before breaking the last tree; the quest-book emergency button can help recover a lost start."
+      ],
+      "dependencies": [
+        "1D56B6A8952A2710"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "17203A9777CCB04A",
+          "type": "item",
+          "item": {
+            "id": "minecraft:oak_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1065CD92A93112B5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1814EF55EC164D18",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0,
+      "y": 1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18524CDD78AE532F",
+      "title": "Oak Barrel",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:oak_barrel"
+      },
+      "description": [
+        "Place an Oak Barrel and add compostable leaves or spare saplings. Wait for the compost to become Dirt."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "12BF40580D1A1A90",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:oak_barrel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F6B1534BF163723",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "143429A0C16A92E8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2,
+      "y": 1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BFBB8C68F8176BA",
+      "title": "Renewable Dirt",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:dirt"
+      },
+      "description": [
+        "Collect the Dirt from the barrel. Keep some for sieving and some for expanding your growing platform."
+      ],
+      "dependencies": [
+        "18524CDD78AE532F"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "123F6FBA40B0A882",
+          "type": "item",
+          "item": {
+            "id": "minecraft:dirt"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BFF415C5BD1B31F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "142F8A70E825046B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:sugar_cane",
+            "count": 1
+          }
+        },
+        {
+          "id": "1D83B717138B0499",
+          "type": "item",
+          "item": {
+            "id": "minecraft:cactus",
+            "count": 1
+          }
+        },
+        {
+          "id": "16E482E499C8E4E9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.5d,
+      "y": 1,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CAF2D54DD9F2F22",
+      "title": "Crook",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:crook"
+      },
+      "description": [
+        "Use a Crook to break leaves and collect Silkworms. Keep an uninfested tree for ordinary saplings."
+      ],
+      "dependencies": [
+        "163A58D6301801F6"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1980CDE280ADD78C",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:crook"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ACFCAEEAC4AE21C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B6F87B754D38147",
+          "type": "item",
+          "item": {
+            "id": "minecraft:wheat_seeds",
+            "count": 2
+          }
+        },
+        {
+          "id": "130529BFBD873660",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.5d,
+      "y": 1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E3D4DD43C8C3D7",
+      "title": "Silkworm",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:silkworm"
+      },
+      "description": [
+        "Apply a Silkworm to leaves and let the infestation spread. Harvest the fully infested leaves for String."
+      ],
+      "dependencies": [
+        "1CAF2D54DD9F2F22"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1DEC8EA11A993DF3",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:silkworm"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "186FC7286ABED4B4",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D9E65FAEC677097",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.5d,
+      "y": 3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D7D7225DECD54F8",
+      "title": "String",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:string"
+      },
+      "description": [
+        "Harvest String from fully infested leaves. String becomes your first mesh and later supplies Wool without waiting for sheep."
+      ],
+      "dependencies": [
+        "10E3D4DD43C8C3D7"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "14B2339F36AEA284",
+          "type": "item",
+          "item": {
+            "id": "minecraft:string"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D86BE6FCB1D4A3C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1ECABC40E6F1811A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0,
+      "y": 3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15A39A6BC95979AF",
+      "title": "String Mesh",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:string_mesh"
+      },
+      "description": [
+        "Craft a String Mesh from your renewable String. Insert it into a Sieve before attempting to sift Dirt."
+      ],
+      "dependencies": [
+        "1D7D7225DECD54F8"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1AC1ED988D25D5B9",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:string_mesh"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12D821A95CF919E7",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1EF0FD412553449C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2,
+      "y": 3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11432DE38F39D5E5",
+      "title": "Sieves and Meshes",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:oak_sieve"
+      },
+      "description": [
+        "Put the String Mesh into the Sieve and sift Dirt. Stone Pebbles become Cobblestone, while seeds start the farm. Follow Dirt to Diamonds for the next branch."
+      ],
+      "dependencies": [
+        "15A39A6BC95979AF",
+        "17B04D482BA8B291"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1C7B80B621427F96",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:oak_sieve"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B860210EC642FE2",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1A789A046D327C2E",
+          "type": "item",
+          "item": {
+            "id": "minecraft:gravel",
+            "count": 8
+          }
+        },
+        {
+          "id": "1FFBB057E6F6D5C8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6,
+      "y": 0,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "141961AFF66C11B1",
+      "title": "Pebbles from Dirt",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:stone_pebble"
+      },
+      "description": [
+        "Right-click Dirt or Grass with an empty hand to gather Stone Pebbles. Combine the pebbles into Cobblestone. A sieve is not needed for this first stone supply."
+      ],
+      "dependencies": [
+        "1D56B6A8952A2710"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B6558F34AF91E19",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:stone_pebble"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AE8506480E240C7",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "162E205D45278B0A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C3BAB05028E4E8E",
+      "title": "Your first Cobblestone",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:cobblestone"
+      },
+      "description": [
+        "Sieve Dirt for Stone Pebbles, then combine them into Cobblestone. Save some for tools and a Furnace."
+      ],
+      "dependencies": [
+        "141961AFF66C11B1"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1CFB1EFFF507647A",
+          "type": "item",
+          "item": {
+            "id": "minecraft:cobblestone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EF6818B5C685BBA",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1656DFA1098C66D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19E54A8E84060DB3",
+      "title": "Wooden Hammer",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:wooden_hammer"
+      },
+      "description": [
+        "An Ex Deorum Hammer breaks Cobblestone into Gravel, then Sand, then Dust. Each material has a different sieve loot table."
+      ],
+      "dependencies": [
+        "1C3BAB05028E4E8E"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "12A6F40ADED34D42",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:wooden_hammer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15AF809A32B42F33",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "19A6000539CF3A9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B04D482BA8B291",
+      "title": "Gravel is your ore supply",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:gravel"
+      },
+      "description": [
+        "Hammer Cobblestone into Gravel. Sieve it for ore pieces and raw metals; use JEI to compare mesh tiers."
+      ],
+      "dependencies": [
+        "19E54A8E84060DB3"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1743EF569128279B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:gravel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A85F13296383A7E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1B35C712A53C08ED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12D1444A35137672",
+      "title": "Sand opens new loot",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:sand"
+      },
+      "description": [
+        "Hammer Gravel into Sand. Keep a separate supply for sieving, Glass, and later machine recipes."
+      ],
+      "dependencies": [
+        "17B04D482BA8B291"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "17FAD3012E4122E0",
+          "type": "item",
+          "item": {
+            "id": "minecraft:sand"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F900FB4EFFE0DC3",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "164B8332DEA938C6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6,
+      "y": -3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B4CC49AED1916D4",
+      "title": "Dust",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:dust"
+      },
+      "description": [
+        "Hammer Sand into Dust. Sieve it for Redstone and Bone Meal, or put it into a water-filled barrel for Clay."
+      ],
+      "dependencies": [
+        "12D1444A35137672"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "13D580FEC7F066C9",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FBD56FF0752AAE1",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1942158370E6F6A0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6,
+      "y": -4.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17D1830D1BDF6A38",
+      "title": "Flint",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:flint"
+      },
+      "description": [
+        "Break Gravel or use its conversion recipe in JEI to collect Flint. It upgrades the mesh and supplies the first knife."
+      ],
+      "dependencies": [
+        "11432DE38F39D5E5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AD11A078FF17D58",
+          "type": "item",
+          "item": {
+            "id": "minecraft:flint"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14DC96C27A894B3C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1583070F50FE69E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.5d,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17D2E321F8C3E089",
+      "title": "Flint Mesh",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:flint_mesh"
+      },
+      "description": [
+        "Upgrade the String Mesh with Flint. Better meshes change the available drops, not just the speed."
+      ],
+      "dependencies": [
+        "17D1830D1BDF6A38"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15ABC260D572B7AC",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:flint_mesh"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EA1A94EE88826A0",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1B562C7A5CC96E51",
+          "type": "item",
+          "item": {
+            "id": "minecraft:gravel",
+            "count": 16
+          }
+        },
+        {
+          "id": "1023A0AB8E36DC16",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EF1A92DBDA39CB2",
+      "title": "Iron Ore Chunk",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:iron_ore_chunk"
+      },
+      "description": [
+        "Sieve Gravel with a suitable mesh and combine the pieces according to JEI. Smelt Iron Ore Chunks into Iron Ingots."
+      ],
+      "dependencies": [
+        "17D2E321F8C3E089"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E94832523F3898D",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:iron_ore_chunk"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1447FD7BA8BEA949",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1774786AF97369EB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.5d,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B92BE821DB9381E",
+      "title": "Iron Mesh",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:iron_mesh"
+      },
+      "description": [
+        "Use your first Iron to upgrade a mesh. Afterlight adds raw Osmium, Tin, Lead, Silver, Nickel, Aluminum, and Uranium to Gravel sieving."
+      ],
+      "dependencies": [
+        "17D2E321F8C3E089"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1710BE523E06038B",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:iron_mesh"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BDA12191A2AC1CB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1ADDF075DB15D128",
+          "type": "item",
+          "item": {
+            "id": "minecraft:sand",
+            "count": 16
+          }
+        },
+        {
+          "id": "1C700F0524AC2A44",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.5d,
+      "y": 1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A0E8414922A369",
+      "title": "Smelt the first metals",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:furnace"
+      },
+      "description": [
+        "Build a Furnace and turn ore pieces into smeltable resources shown in JEI. Smelt logs into Charcoal to avoid relying on scarce Coal."
+      ],
+      "dependencies": [
+        "1C3BAB05028E4E8E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "154D7AF915111412",
+          "type": "item",
+          "item": {
+            "id": "minecraft:furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B1231466A35C2BB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "18BEA9B5720DB547",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2,
+      "y": -3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1371C2B735A5165B",
+      "title": "Charcoal",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:charcoal"
+      },
+      "description": [
+        "Smelt logs in a Furnace using planks as the first fuel. Charcoal supplies torches, campfires, and early generators."
+      ],
+      "dependencies": [
+        "10A0E8414922A369"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D42D68E14405789",
+          "type": "item",
+          "item": {
+            "id": "minecraft:charcoal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A21AF3A86857609",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "134858A4D5D0C98B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.5d,
+      "y": -3,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A7187C177D221A3",
+      "title": "Oak Crucible",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:oak_crucible"
+      },
+      "description": [
+        "Put leaves into an Oak Crucible to collect Water. An Oak Barrel can also collect rain; neither start needs a hidden starter chest."
+      ],
+      "dependencies": [
+        "163A58D6301801F6"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1E22070A21248BDD",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:oak_crucible"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EB3B06A1FC1503",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "11F57BFFB27EB2F9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "192F732EBF3F3F56",
+      "title": "Keep a spare water source",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:water_bucket"
+      },
+      "description": [
+        "Transfer the Water into a bucket when you have Iron. Make a two-source infinite pool and keep it away from exposed Lava."
+      ],
+      "dependencies": [
+        "1A7187C177D221A3"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1D287C1AA4CB1C59",
+          "type": "item",
+          "item": {
+            "id": "minecraft:water_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A512219679E1147",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "15B0531B9475F71E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "161F6E3E4252F95F",
+      "title": "Clay",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:clay_ball"
+      },
+      "description": [
+        "Fill a barrel with Water and add one Dust block. Take out the Clay, then craft it into Clay Balls for Porcelain."
+      ],
+      "dependencies": [
+        "1B4CC49AED1916D4",
+        "192F732EBF3F3F56"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1876721111A9134E",
+          "type": "item",
+          "item": {
+            "id": "minecraft:clay_ball"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "170D644AA2313C32",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "131AEB72607FD3C3",
+          "type": "item",
+          "item": {
+            "id": "minecraft:clay_ball",
+            "count": 8
+          }
+        },
+        {
+          "id": "19011DD782243148",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6,
+      "y": -6,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F3D529C027444C",
+      "title": "Porcelain Clay Ball",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:porcelain_clay_ball"
+      },
+      "description": [
+        "Combine Clay and Bone Meal using the recipe. Dust sieving supplies Bone Meal before a mob farm is ready."
+      ],
+      "dependencies": [
+        "161F6E3E4252F95F"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "163DC5A5B1314DAB",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:porcelain_clay_ball"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1464ED53E38D14BB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "15C8D4726307EB70",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.5d,
+      "y": -6,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1734590F8DF9C746",
+      "title": "Unfired Porcelain Crucible",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:unfired_porcelain_crucible"
+      },
+      "description": [
+        "Craft an Unfired Porcelain Crucible. It must be smelted before it can melt Cobblestone."
+      ],
+      "dependencies": [
+        "12F3D529C027444C"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1C01266994019187",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:unfired_porcelain_crucible"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ACA481DAFA864CE",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1DBA5319E768DE07",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": -6,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1261343DFACF399B",
+      "title": "Porcelain Crucible",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:porcelain_crucible"
+      },
+      "description": [
+        "Smelt the Crucible and place a valid heat source beneath it. Insert Cobblestone and inspect the melting rate."
+      ],
+      "dependencies": [
+        "1734590F8DF9C746"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1936353A26163E41",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:porcelain_crucible"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DB2539274640C01",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "182E015F8B4A64F6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.5d,
+      "y": -6,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1800162D3834E7B9",
+      "title": "Renewable Lava",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:lava_bucket"
+      },
+      "description": [
+        "Collect the melted Lava. Keep this Crucible running for your cobble generator, Nether portal, and early fuel needs."
+      ],
+      "dependencies": [
+        "1261343DFACF399B"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1CE252E55FD1DE41",
+          "type": "item",
+          "item": {
+            "id": "minecraft:lava_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1059C9CE7015B980",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "16FFE3E8910DAE4C",
+          "type": "item",
+          "item": {
+            "id": "minecraft:cobblestone",
+            "count": 32
+          }
+        },
+        {
+          "id": "1779A0FD9CCFADB8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0,
+      "y": -6,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "122BE203CCA6A545",
+      "title": "Stone Block Generator",
+      "subtitle": "Chapter 1: Starting Out",
+      "icon": {
+        "id": "cobblegengalore:block_gen_stone"
+      },
+      "description": [
+        "The Stone generator from CobbleGen Galore keeps Cobblestone flowing without repeated manual mining. Check its recipe and output behavior in JEI."
+      ],
+      "dependencies": [
+        "1800162D3834E7B9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18518754754A35B5",
+          "type": "item",
+          "item": {
+            "id": "cobblegengalore:block_gen_stone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16617E78DF7BC8CC",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1DEB5D716EF97EEB",
+          "type": "item",
+          "item": {
+            "id": "minecraft:torch",
+            "count": 16
+          }
+        },
+        {
+          "id": "1303D9FDB5854B09",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.5d,
+      "y": -4.5d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

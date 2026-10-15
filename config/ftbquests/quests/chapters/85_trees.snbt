@@ -1,0 +1,1676 @@
+{
+  "id": "1767DD703E573EC2",
+  "filename": "85_trees",
+  "title": "Productive Trees",
+  "icon": {
+    "id": "productivetrees:black_locust_sapling"
+  },
+  "group": "131BB24FE37118D4",
+  "order_index": 63,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1F1EE9ADF9961691",
+      "title": "Sawmill",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:sawmill"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Craft Sawmill. Item inputs include Stonecutter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D366F71985CCCE9",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:sawmill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12AE64024EE4E49E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15306582D0B6CDDE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.83181d,
+      "y": -8.72597d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11BFD713045F9E1C",
+      "title": "Stripper",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:stripper"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Craft Stripper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19FCFF6AB05912B4",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:stripper"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10B7248CB417EC41",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BC5EA81B44539DD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.35639d,
+      "y": -9.96236d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "152465CF94AAD025",
+      "title": "Asai Palm Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:asai_palm_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Asai Palm Sapling. Item inputs include Date Palm Leaves, Black Cherry Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1922CF6451FC827E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D8F45CD0691A606",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:asai_palm_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F92D0892F6B93AA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DB179DE9833E10F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.07167d,
+      "y": -13.47958d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14F78F17F35FAEFE",
+      "title": "Balsa Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:balsa_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Balsa Sapling. Item inputs include Teak Leaves, Acacia Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12AA1425C324A0C1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "108DFAD40930A0CB",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:balsa_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14213891F3AD8A5E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "144152A0C06C3042",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.35139d,
+      "y": -4.86194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "111B68A9D0ED03F7",
+      "title": "Balsam Fir Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:balsam_fir_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Balsam Fir Sapling. Item inputs include Alder Leaves, European Larch Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "156D0C5C85912656",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:balsam_fir_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18CCAC5F7AD3878F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CFDBCC421C62ABA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.23139d,
+      "y": -11.19861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D4072D1AB411A54",
+      "title": "Beliy Naliv Apple Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:beliy_naliv_apple_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Beliy Naliv Apple Sapling. Item inputs include Golden Delicious Apple Leaves, Granny Smith Apple Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF01A852DE090F0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18471423575DA421",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:beliy_naliv_apple_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "142C0438938F36C5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17B7AD5C8C7C4CD3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.15472d,
+      "y": -17.86528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11F88E665D0B6620",
+      "title": "Black Cherry Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:black_cherry_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Black Cherry Sapling. Item inputs include Ceylon Ebony Leaves, Sour Cherry Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A55E641637509FC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130D33F0066C5480",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:black_cherry_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1926814A6F748388",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1113F98959C8137B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": -9.14722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C0B78EB9456323B",
+      "title": "Ceylon Ebony Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:ceylon_ebony_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Ceylon Ebony Sapling. Item inputs include Kapok Leaves, Dark Oak Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E3FC73F970A8998"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17CE7C1576C76E34",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:ceylon_ebony_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10BEC6B28DF522A8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B121F224CC54B95",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.72833d,
+      "y": -5.61069d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C038FD57EFDB601",
+      "title": "Cherry Plum Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:cherry_plum_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Cherry Plum Sapling. Item inputs include Plum Leaves, Cherry Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A55E641637509FC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E24203DB5403C5",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:cherry_plum_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138B4DE3A96D3062",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A888836BDE6DA28",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.9245d,
+      "y": -6.78986d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D78A37477E08F9",
+      "title": "Cinnamon Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:cinnamon_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Cinnamon Sapling. Item inputs include Rosewood Leaves, Teak Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B2654EB1AAAD9A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11B13E0ED5F9F831",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:cinnamon_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16E13AED8BCBFEB3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1014137CEF3B8118",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.62792d,
+      "y": -0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A39838296B68FDB",
+      "title": "Coconut Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:coconut_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Coconut Sapling. Item inputs include Brazil Nut Leaves, Balsa Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14F78F17F35FAEFE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1750DF081B91BE60",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:coconut_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C99655A34FD009C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "170C92C151234FBD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.91486d,
+      "y": -2.80347d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1922CF6451FC827E",
+      "title": "Date Palm Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:date_palm_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Date Palm Sapling. Item inputs include Papaya Leaves, Cacao Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D563636A23FDF68",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:date_palm_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "149B64E5CE2054CF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1205BD206A328C42",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.99514d,
+      "y": -11.81264d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15B9C03D14B0E233",
+      "title": "Flowering Crabapple Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:flowering_crabapple_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Flowering Crabapple Sapling. Item inputs include Sweet Crabapple Leaves, Flowering Azalea Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CCCB5F7B8CDB334"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13091FB944867767",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:flowering_crabapple_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DEF8AE3705983F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C1E37420A19CA6B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.07778d,
+      "y": -13.58528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BF01A852DE090F0",
+      "title": "Golden Delicious Apple Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:golden_delicious_apple_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Golden Delicious Apple Sapling. Item inputs include Red Delicious Apple Leaves, Granny Smith Apple Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D208AB796443040"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "170E690280AA8CF0",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:golden_delicious_apple_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D566130351BCA5E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B5F7AA0E6DD141B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.31681d,
+      "y": -15.72917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D208AB796443040",
+      "title": "Granny Smith Apple Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:granny_smith_apple_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Granny Smith Apple Sapling. Item inputs include Red Delicious Apple Leaves, Cherry Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18870A2BFEA39C62"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15E4ADBDE0BA634A",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:granny_smith_apple_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "136FE2AA26609067",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1966B557F2FFFE0C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.41097d,
+      "y": -13.6525d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E3FC73F970A8998",
+      "title": "Kapok Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:kapok_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Kapok Sapling. Item inputs include Teak Leaves, Jungle Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12AA1425C324A0C1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14B430D3F86C81C3",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:kapok_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1002EC2C64B6C330",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "109183FC54480973",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.97736d,
+      "y": -6.63361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B2654EB1AAAD9A1",
+      "title": "Mahogany Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:mahogany_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Mahogany Sapling. Item inputs include Yellow Meranti Leaves, Kapok Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C0B78EB9456323B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C482EA9D9ED3F97",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:mahogany_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D1EC5319DFFC991",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "123D3C0C1E9F375B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.52847d,
+      "y": -3.25208d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1585E48E9EF9B401",
+      "title": "Myrtle Ebony Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:myrtle_ebony_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Myrtle Ebony Sapling. Item inputs include Ceylon Ebony Leaves, Persimmon Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C0B78EB9456323B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E78C02C0C320017",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:myrtle_ebony_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A5E28AA993CB8B9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10F25C13584B17E9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.7625d,
+      "y": -7.40944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D327D4838E6F972",
+      "title": "Prairie Crabapple Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:prairie_crabapple_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Prairie Crabapple Sapling. Item inputs include Red Delicious Apple Leaves, Birch Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18870A2BFEA39C62"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E6A0CEE77D6BAC5",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:prairie_crabapple_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1262D1EA0631019D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "100DC5BD1232B5DC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.89722d,
+      "y": -13.16278d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18BB0BC0176ADEF6",
+      "title": "Purpleheart Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:purpleheart_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Purpleheart Sapling. Item inputs include Brazilwood Leaves, Kapok Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B2654EB1AAAD9A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F9B32DCC03346B4",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:purpleheart_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16A1AB4E5CB3E246",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "112703612AE95D8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.35417d,
+      "y": -3.38389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18870A2BFEA39C62",
+      "title": "Red Delicious Apple Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:red_delicious_apple_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Red Delicious Apple Sapling. Item inputs include Cherry Leaves, Oak Leaves, Dark Oak Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D48DB39AAE6ACA8",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:red_delicious_apple_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B86CA2927FBB6A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB8042CCB0BA467",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.75889d,
+      "y": -11.28931d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C68A9F219CE1686",
+      "title": "Red Maple Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:red_maple_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Red Maple Sapling. Item inputs include Silver Lime Leaves, European Larch Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F13605B5E4D7478",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:red_maple_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "106AEEB7104F1059",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17E19FC9EF877519",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.84292d,
+      "y": -9.96819d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C35B5E4588A9F2",
+      "title": "Rubber Tree Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:rubber_tree_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Rubber Tree Sapling. Item inputs include Sweetgum Leaves, Loblolly Pine Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1381A43FA025B9FC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "198741E969AE7177",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:rubber_tree_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19796F636B2A8CB0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18D5FEAEE33EB5FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.84437d,
+      "y": -11.51264d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123EE8DEB40D6A4D",
+      "title": "Silver Fir Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:silver_fir_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Silver Fir Sapling. Item inputs include Balsam Fir Leaves, Bull Pine Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "111B68A9D0ED03F7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FACF11EEA190A43",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:silver_fir_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E6EE1BC3680DE77",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12821D9E874674C4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.71722d,
+      "y": -12.58847d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A4E1F04652E0FCF",
+      "title": "Silver Lime Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:silver_lime_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Silver Lime Sapling. Item inputs include Oak Leaves, Birch Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13035BBC7DD72E47",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:silver_lime_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C2BA925F63835A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15D8B9669EC8CB77",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.15181d,
+      "y": -7.99014d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A55E641637509FC",
+      "title": "Sour Cherry Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:sour_cherry_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Sour Cherry Sapling. Item inputs include White Willow Leaves, Cherry Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A4E1F04652E0FCF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1441DEDF86B3BCE7",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:sour_cherry_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "105FC2DE40244474",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D38B293AAC20F03",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.69431d,
+      "y": -8.35139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "181D08C14871474A",
+      "title": "Sparkle Cherry Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:sparkle_cherry_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Sparkle Cherry Sapling. Item inputs include Firecracker Leaves, Soul Tree Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "152465CF94AAD025"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16DAB1D760B9A79F",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:sparkle_cherry_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11D9D06D4DFB27D3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10FB1D0F4ABEF5F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.76722d,
+      "y": -15.48333d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12CBAE02EA276ABB",
+      "title": "Sugar Apple Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:sugar_apple_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Sugar Apple Sapling. Item inputs include Pecan Leaves, Wild Cherry Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "153C2B2993DC810A",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:sugar_apple_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1199FBFD5255EEE3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D3E6DDCBDBF4A65",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.91014d,
+      "y": -6.89847d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1381A43FA025B9FC",
+      "title": "Sugar Maple Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:sugar_maple_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Sugar Maple Sapling. Item inputs include European Larch Leaves, Red Maple Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C68A9F219CE1686"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14D257107544FCC4",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:sugar_maple_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1551B54B0318D2AA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F6A964C95CCD575",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.85792d,
+      "y": -10.74069d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CCCB5F7B8CDB334",
+      "title": "Sweet Crabapple Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:sweet_crabapple_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Sweet Crabapple Sapling. Item inputs include Red Delicious Apple Leaves, Sugar Maple Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18870A2BFEA39C62"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A4C182B8C576C8F",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:sweet_crabapple_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11355D1F34A93ED3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "191707F7543637C0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.65542d,
+      "y": -12.14389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12AA1425C324A0C1",
+      "title": "Teak Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:teak_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Teak Sapling. Item inputs include Dark Oak Leaves, Jungle Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E6E8F2B7AEE602B",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:teak_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B97ADF37AD44411",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E1D25FA1B5E48E7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.89153d,
+      "y": -7.41875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1602E5057E10F8C5",
+      "title": "Walnut Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:walnut_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Walnut Sapling. Item inputs include Silver Lime Leaves, Cherry Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A4E1F04652E0FCF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "137532DEAC73F69D",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:walnut_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1747907D0B33D03B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15D139AD839EBCDF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.79778d,
+      "y": -6.21d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11FF43AEEA525F89",
+      "title": "Wild Cherry Sapling",
+      "subtitle": "Productive Trees",
+      "icon": {
+        "id": "productivetrees:wild_cherry_sapling"
+      },
+      "description": [
+        "Grow parent trees and follow the breeding recipes to obtain new saplings. Give each species enough space; use the correct harvesting tool for fruit, sap, or timber.",
+        "Use Tree Pollination processing to make Wild Cherry Sapling. Item inputs include Silver Lime Leaves, Cherry Leaves. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A4E1F04652E0FCF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B2E5FA6F5912147",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:wild_cherry_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1397AB0D28319453",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CCFA2E6093A58B7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.10986d,
+      "y": -5.22861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "13DF6E6C75AA47F2",
+      "linked_quest": "16D47479ED0FE5AC",
+      "x": 7.04778d,
+      "y": -9.11458d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

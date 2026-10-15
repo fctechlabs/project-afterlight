@@ -1,0 +1,2434 @@
+{
+  "id": "1F7E0888421A581C",
+  "filename": "79_apothic",
+  "title": "Apothic Enchanting",
+  "icon": {
+    "id": "minecraft:enchanting_table"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 57,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "14619D7FA7457713",
+      "title": "God-Fused Pearl",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apotheosis:god_fused_pearl"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Use Infusion processing to make God-Fused Pearl. Item inputs include Godforged Pearl. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D0E762DE1963570"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "160EFB86B7A40962",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:god_fused_pearl"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EC3D2DAFF22CEF6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AE3F3BCB8451808",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.41807d,
+      "y": -3.24568d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E37B033AF3D0116",
+      "title": "Apothic Enchanting Table",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:apothic_enchanting_table"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Apothic Enchanting Table. Item inputs include Diamond, Obsidian. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15F83AB226A48E57",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:apothic_enchanting_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3BBA37ED27F064",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D9069A192E1E118",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.63209d,
+      "y": 3.28832d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19CA01C27A08AFC9",
+      "title": "Basic Bookshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:basic_bookshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Basic Bookshelf. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E37B033AF3D0116"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12D23E5D2DAEE188",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:basic_bookshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "186A6066D18F6F0F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16C74AAA61937FFA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.0352d,
+      "y": 6.5086d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18E2035A344EA497",
+      "title": "Beeshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:beeshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Beeshelf. Item inputs include Beehive, Honeycomb, Honey Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19CA01C27A08AFC9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "193AD70ACE309CCC",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:beeshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "126227A873FD69FB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19102CA7F9578926",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.5806d,
+      "y": 7.43772d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "144CB17ADBBB447D",
+      "title": "Blazing Hellshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:blazing_hellshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Blazing Hellshelf. Item inputs include Blaze Powder, Fire Charge, Infused Hellshelf. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "161F9BAF49821066"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D43A6736737BEA",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:blazing_hellshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1580B35B373BD6B0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18FDB235DE06EB61",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.44872d,
+      "y": 2.98173d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1208978996801DE1",
+      "title": "Deepshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:deepshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Use Infusion processing to make Deepshelf. Item inputs include Dormant Deepshelf. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B5A3B33532252EE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17E4C33BDAE9B619",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:deepshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C42EAB1BC3CCD4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13E6E64270817BAF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.98571d,
+      "y": 6.39557d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D0E762DE1963570",
+      "title": "Draconic Endshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:draconic_endshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Draconic Endshelf. Item inputs include Dragon Head, Endshelf. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A621ED6CCC07111"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A1EDD428822732C",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:draconic_endshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "183B89CA1C403C01",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16AB92080DD3F07E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.12768d,
+      "y": -2.84893d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C0D267EA63C1745",
+      "title": "Echoing Deepshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:echoing_deepshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Echoing Deepshelf. Item inputs include Echo Shard, Deepshelf. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1208978996801DE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BC3CAAF37241254",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:echoing_deepshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16D6F6200DA45826",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13CAD85F2108A2FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.91044d,
+      "y": 5.06965d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1152C2BF3BB9ACA6",
+      "title": "Echoing Sculkshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:echoing_sculkshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Echoing Sculkshelf. Item inputs include Warden Tendril, Echoing Deepshelf, Sculk, Sculk Catalyst. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C0D267EA63C1745"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B6F57B7263980E0",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:echoing_sculkshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14E3F2EAEA07E3B2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "130F91C47A5A0433",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.23608d,
+      "y": 4.81434d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BAEDA4656885DAB",
+      "title": "Ender Lead",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:ender_lead"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Use Infusion processing to make Ender Lead. Item inputs include Flimsy Ender Lead. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18DE1513624FA4C8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14DEB2C087B10D32",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:ender_lead"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10BA3BC19741664E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB520BC8DBF8219",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.13335d,
+      "y": 8.13989d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14982C8E4443517D",
+      "title": "Library of Alexandria",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:ender_library"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Use Keep Nbt Infusion processing to make Library of Alexandria. Item inputs include Enchantment Library. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16F1AD41F73B5B7C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F291F80DD44849",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:ender_library"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AE1E024CE051842",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1426D953C325F518",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.1033d,
+      "y": 9.4595d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A621ED6CCC07111",
+      "title": "Endshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:endshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Endshelf. Item inputs include End Stone Bricks, Infused Dragon's Breath. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CB64988F4840EF9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D0868168F5626C7",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:endshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1479277F0A130810",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14BFA43AC2D1DA25",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.78505d,
+      "y": -0.99815d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12AC511287F4624D",
+      "title": "Tome of Extraction",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:extraction_tome"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Use Infusion processing to make Tome of Extraction. Item inputs include Tome of Superior Scrapping. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "105A762B1D0DE2B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15D76ECD072D23B6",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:extraction_tome"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12BBF8F9D6C5219A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15F80B6D715A9340",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.62755d,
+      "y": 4.56408d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18DE1513624FA4C8",
+      "title": "Flimsy Ender Lead",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:flimsy_ender_lead"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Flimsy Ender Lead. Item inputs include Lead, Gold Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D12B26A4E92CFC6",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:flimsy_ender_lead"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "128F7A3321E14CFF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12625C0E157DCA65",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.46077d,
+      "y": 8.52742d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "163BCE6F11751EBA",
+      "title": "Geode-Encased Bookshelf of Stability",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:geode_shelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Geode-Encased Bookshelf of Stability. Item inputs include Calcite, Budding Amethyst. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E37B033AF3D0116"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BBB0373B0D64D8F",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:geode_shelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D168421D5E727A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A33B3B7B760C1E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.25484d,
+      "y": 1.22636d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A364CF2EE87B409",
+      "title": "Glowing Hellshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:glowing_hellshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Glowing Hellshelf. Item inputs include Glowstone, Infused Hellshelf. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "161F9BAF49821066"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D9FC9EB4EEAFC6B",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:glowing_hellshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12182D9DAAEAC4C5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A57BA5916948CE3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.80266d,
+      "y": 2.62169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CC0C497AD78F0BD",
+      "title": "Heart-Forged Seashelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:heart_seashelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Heart-Forged Seashelf. Item inputs include Heart Of The Sea, Infused Seashelf, Prismarine Shard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A7183C3E20372EB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "151C4F84EA14A441",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:heart_seashelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B971E4021FE3E01",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A73969D6AF3A187",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.34941d,
+      "y": 7.94734d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "105A762B1D0DE2B8",
+      "title": "Tome of Superior Scrapping",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:improved_scrap_tome"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Use Infusion processing to make Tome of Superior Scrapping. Item inputs include Tome of Scrapping. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1175991A1CF706F9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C70A4F1BEB3CA40",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:improved_scrap_tome"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159E287079ACE171",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E1B0DBBE1DA8D9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.31809d,
+      "y": 4.23574d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1185C61B397C18B9",
+      "title": "Inert Trident",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:inert_trident"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Inert Trident. Item inputs include Heart Of The Sea, Nautilus Shell. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1479CD1C12B844B2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1016009F815089C8",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:inert_trident"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160A1098FBC4E8D5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F5F7B4C3ACB9207",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.94977d,
+      "y": 3.76876d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB64988F4840EF9",
+      "title": "Infused Dragon's Breath",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:infused_breath"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Use Infusion processing to make Infused Dragon's Breath. Item inputs include Dragon Breath. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "163BCE6F11751EBA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D45CCCFD1E84B57",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:infused_breath"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10389FD32C38A79E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "142B8EA473660056",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.01995d,
+      "y": 0.11411d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "161F9BAF49821066",
+      "title": "Infused Hellshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:infused_hellshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Use Infusion processing to make Infused Hellshelf. Item inputs include Hellshelf. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1479CD1C12B844B2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB7898AC32BC710",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:infused_hellshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "121B7947F89B6823",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B5568831D39A850",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.12672d,
+      "y": 2.35832d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A7183C3E20372EB",
+      "title": "Infused Seashelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:infused_seashelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Use Infusion processing to make Infused Seashelf. Item inputs include Seashelf. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "177F273EF2FBED1D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1563BFB532C7AA5C",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:infused_seashelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17106749F8E43D1F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B312F0F22D52BA2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.35585d,
+      "y": 5.90123d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16F1AD41F73B5B7C",
+      "title": "Enchantment Library",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:library"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Enchantment Library. Item inputs include Ender Chest, Enchanting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15C024CB1458AAEE",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:library"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D3A0A2C3D0CB017",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16C9B97EC980EE72",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.78277d,
+      "y": 9.45803d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DDEDD4B6C952B06",
+      "title": "Tome of the Others",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:other_tome"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Tome of the Others. Item inputs include Book, Blaze Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1643FE3D44F04D1B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19AC59BFBF321E6D",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:other_tome"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ABF8FCA09DC49C6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "120EC96C5E686FC9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.91816d,
+      "y": 1.29825d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13BAB196225B7820",
+      "title": "Pearlescent Endshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:pearl_endshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Pearlescent Endshelf. Item inputs include Endshelf, End Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A621ED6CCC07111"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19FDF885F73DF8AC",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:pearl_endshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "165F29E2A87E9D01",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B4D9D4C19F1F899",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.09028d,
+      "y": -1.53201d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19F55F093035F979",
+      "title": "Enchanting Table of the Raven",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:raven_enchanting_table"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Enchanting Table of the Raven. Item inputs include God-Fused Pearl, Apothic Enchanting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14619D7FA7457713"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D5B2E9F099FED73",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:raven_enchanting_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ADD8A949F19B412",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1789C26B0F832E7F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.70845d,
+      "y": -3.64242d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1175991A1CF706F9",
+      "title": "Tome of Scrapping",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:scrap_tome"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Tome of Scrapping. Item inputs include Anvil, Book. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1643FE3D44F04D1B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19E9C08F5B140855",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:scrap_tome"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A2CF105F6F5DA41",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1915E258097231BB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.00862d,
+      "y": 3.90739d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "177F273EF2FBED1D",
+      "title": "Seashelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:seashelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Seashelf. Item inputs include Prismarine Bricks, Pufferfish. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E37B033AF3D0116"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18166D6FAFF48C58",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:seashelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CA10EA57BC0A134",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10CBB47285801B02",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.86413d,
+      "y": 5.01176d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D025935051F4A08",
+      "title": "Hellshelf of Sight",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:sightshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Hellshelf of Sight. Item inputs include Ender Eye, Infused Hellshelf, Spyglass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "161F9BAF49821066"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11CD21C694DA2355",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:sightshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "152D242D7AB34EDB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1569864BBFC49568",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.39009d,
+      "y": 1.03426d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14416EDA0516240B",
+      "title": "Soul-Touched Deepshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:soul_touched_deepshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Soul-Touched Deepshelf. Item inputs include Soul Lantern, Deepshelf, Sculk. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1208978996801DE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "108697795979325B",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:soul_touched_deepshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10ABFB266D717DCE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "178ABFC9757A666B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.30771d,
+      "y": 6.39258d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "107F059A4D251E92",
+      "title": "Soul-Touched Sculkshelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:soul_touched_sculkshelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Soul-Touched Sculkshelf. Item inputs include Warden Tendril, Soul-Touched Deepshelf, Sculk, Sculk Catalyst. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14416EDA0516240B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "164C261EE26E33DE",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:soul_touched_sculkshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12AF54C4A2B69B3F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B64FC103D352160",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.62793d,
+      "y": 6.39042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1643FE3D44F04D1B",
+      "title": "Book",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "minecraft:book"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Book. Item inputs include Paper, Canvas. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E37B033AF3D0116"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E48A3F2AC5C7E1",
+          "type": "item",
+          "item": {
+            "id": "minecraft:book"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "190105AF847669B3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14BD5C29F9B47881",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.68812d,
+      "y": 3.86845d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E82A28F675760F",
+      "title": "Budding Amethyst",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "minecraft:budding_amethyst"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Budding Amethyst. Item inputs include Amethyst Block, Quartz. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B5A3B33532252EE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B5464FD0B71E532",
+          "type": "item",
+          "item": {
+            "id": "minecraft:budding_amethyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17B474D4DA4375B2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F4D48071AD2E693",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.59024d,
+      "y": 4.66289d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "117D52696A6E02DF",
+      "title": "Echo Shard",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "minecraft:echo_shard"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Echo Shard. Item inputs include Gray Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C6F4CE26CE38C91"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19977EE02BC85B76",
+          "type": "item",
+          "item": {
+            "id": "minecraft:echo_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F67B18F56D7992B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "156F59C11BADE514",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.09028d,
+      "y": -0.21001d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E1E77A8067F638",
+      "title": "Honey Bottle",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "minecraft:honey_bottle"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Honey Bottle. Item inputs include Glass Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0F4EC5C48FD74F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17423E66A47C47CB",
+          "type": "item",
+          "item": {
+            "id": "minecraft:honey_bottle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17DF7DFA9C6E4054",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12FE985DB17B1457",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.78901d,
+      "y": 2.9763d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D1091F84F54A69",
+      "title": "Gem Case of House Fabergé",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apotheosis:ender_gem_case"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Use Keep Nbt Infusion processing to make Gem Case of House Fabergé. Item inputs include Gem Case. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146E318770CB60D6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "148B60D60708DA64",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:ender_gem_case"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17752C83B6E9312B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C5085A9DB0914C3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.26857d,
+      "y": 6.65625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "146E318770CB60D6",
+      "title": "Gem Case",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apotheosis:gem_case"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Gem Case. Item inputs include Basalt, Gem Cutting Table, Ender Chest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16AF32C75DB0D403",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:gem_case"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B1EAC77105A85D4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F86A0B4BEFE5B71",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.94817d,
+      "y": 6.65625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E24982252476519",
+      "title": "Crystalline Seashelf",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:crystal_seashelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Crystalline Seashelf. Item inputs include Infused Seashelf, Prismarine Crystals. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A7183C3E20372EB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A3D28AAD4DE999A",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:crystal_seashelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12282582A167CAB8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1737B7EAFE80A6C6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.99744d,
+      "y": 6.8199d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "199AD8189C0E6A96",
+      "title": "Seashelf of Aquatic Filtration",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "apothic_enchanting:filtering_shelf"
+      },
+      "description": [
+        "Build an enchanting library around Eterna, Quanta, and Arcana. Read the table’s statistics after changing shelves; use extraction and library tools to preserve useful enchantments.",
+        "Craft Seashelf of Aquatic Filtration. Item inputs include Prismarine Bricks, Infused Seashelf, Prismarine Brick Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A7183C3E20372EB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F04C2B11A95397B",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:filtering_shelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13DE73A176A72267",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DBDC6C81E1749F5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.63918d,
+      "y": 5.94341d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14853B81A96E1660",
+      "title": "Unbreakable Charms",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(and(item_tag(curios:charm)mod(apotheosis)))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "116C089E62E235F6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(and(item_tag(curios:charm)mod(apotheosis)))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1E40A27531065624",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "171E67A5DD16CD88",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.88736d,
+      "y": 4.30373d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10D27A074335C1DE",
+      "title": "Armor Tomes",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(apothic_enchanting:helmet_tome)item(apothic_enchanting:chestplate_tome)item(apothic_enchanting:leggings_tome)item(apothic_enchanting:boots_tome))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1643FE3D44F04D1B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(apothic_enchanting:helmet_tome)item(apothic_enchanting:chestplate_tome)item(apothic_enchanting:leggings_tome)item(apothic_enchanting:boots_tome))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1112F4C67BEE36A8",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CBC249B809C7BEA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.56816d,
+      "y": 1.29825d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "138A63701201DF53",
+      "title": "Weapon Tomes",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(apothic_enchanting:weapon_tome)item(apothic_enchanting:bow_tome))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1643FE3D44F04D1B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(apothic_enchanting:weapon_tome)item(apothic_enchanting:bow_tome))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1FA4056D42ABF5C6",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB53785EA0F6366",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.56816d,
+      "y": 2.64825d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EFF5D54EAED8163",
+      "title": "Tool Tomes",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(apothic_enchanting:pickaxe_tome)item(apothic_enchanting:fishing_tome))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1643FE3D44F04D1B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(apothic_enchanting:pickaxe_tome)item(apothic_enchanting:fishing_tome))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1E9534961FC5DF43",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D16D375EF87B56A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.26816d,
+      "y": 1.29825d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1479CD1C12B844B2",
+      "title": "The Frontier Calls",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "components": {
+          "gateways:gateway": "apotheosis:tiered/frontier"
+        },
+        "id": "gateways:gate_pearl"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Apothic Enchanting."
+      ],
+      "dependencies": [
+        "1943CF101413BC26"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "apotheosis:progression/frontier",
+          "criterion": "",
+          "type": "advancement",
+          "id": "1BA5FA105FC86CC7",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "165EC57ADAB84DB3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.65255d,
+      "y": 5.23769d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B5A3B33532252EE",
+      "title": "Ascent to 60",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "components": {
+          "gateways:gateway": "apotheosis:tiered/ascent"
+        },
+        "id": "gateways:gate_pearl"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Apothic Enchanting."
+      ],
+      "dependencies": [
+        "13E6031126806A0E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "apotheosis:progression/ascent",
+          "criterion": "",
+          "type": "advancement",
+          "id": "122A0AF02872B30E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B26C06858ED2AA1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.66549d,
+      "y": 6.40576d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1943CF101413BC26",
+      "title": "A Gate",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "minecraft:oak_fence_gate"
+      },
+      "description": [
+        "Enter Overworld. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "177F273EF2FBED1D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:overworld",
+          "type": "dimension",
+          "id": "11FB6C7CD8CF889E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12D426427565E956",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.94955d,
+      "y": 5.08376d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13E6031126806A0E",
+      "title": "Another Gate",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "id": "minecraft:oak_fence_gate"
+      },
+      "description": [
+        "Enter Overworld. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "1E24982252476519"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:overworld",
+          "type": "dimension",
+          "id": "1852AF15709F201B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "148CB36FCE0736EE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.33146d,
+      "y": 6.61283d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C6F4CE26CE38C91",
+      "title": "To reach the Summit",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "components": {
+          "gateways:gateway": "apotheosis:tiered/summit"
+        },
+        "id": "gateways:gate_pearl"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Apothic Enchanting."
+      ],
+      "dependencies": [
+        "1E37B033AF3D0116"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "apotheosis:progression/summit",
+          "criterion": "",
+          "type": "advancement",
+          "id": "1E32E5E657C1BA5D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "150467B531A88DF6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.763d,
+      "y": 2.54645d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "116C089E62E235F6",
+      "title": "Ahh, Pinnacle, at last",
+      "subtitle": "Apothic Enchanting",
+      "icon": {
+        "components": {
+          "gateways:gateway": "apotheosis:tiered/pinnacle"
+        },
+        "id": "gateways:gate_pearl"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Apothic Enchanting."
+      ],
+      "dependencies": [
+        "1152C2BF3BB9ACA6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "apotheosis:progression/pinnacle",
+          "criterion": "",
+          "type": "advancement",
+          "id": "197D107600A3A060",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E8D3E3A45661D61",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.56172d,
+      "y": 4.55903d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1716F799F31E996F",
+      "linked_quest": "1E0F4EC5C48FD74F",
+      "x": 12.46878d,
+      "y": 2.97814d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

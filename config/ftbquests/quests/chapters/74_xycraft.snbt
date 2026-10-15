@@ -1,0 +1,1212 @@
+{
+  "id": "19B875AFE283C58B",
+  "filename": "74_xycraft",
+  "title": "XyCraft",
+  "icon": {
+    "id": "xycraft_machines:fabricator"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 52,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1E795A1EBA9DFD04",
+      "title": "Collector",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:collector"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Collector. Item inputs include Item Port. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18742844894FA5AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ABF32CC4CCA56A1",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:collector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C99D2291615009F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16CD8BFE0D854486",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.33056d,
+      "y": 0.67361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "116EAF507FAE2D71",
+      "title": "Extractor",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:extractor"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Extractor. Item inputs include Pointed Dripstone, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16EA2C2D0E511C8D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11CF8FC0233B2820",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:extractor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FC79DC06187044A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C8E7595A2A9505E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 4.52083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "192351F5D8A54118",
+      "title": "Fabricator",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:fabricator"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Fabricator. Item inputs include Machine Base, Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18742844894FA5AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11C986B6232EFC94",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:fabricator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B73E4FAFCFBD66F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "150DFCAF37CFCE91",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.08743d,
+      "y": 1.0833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "137FD207D11EE9D1",
+      "title": "Fluid Void",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:fluid_void"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Fluid Void. Item inputs include Machine Base, Iron Bars, Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4325DFADEF1E73"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14782D5E9E6E221A",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:fluid_void"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "142216231D8BA4CA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1042198CF0F9EE06",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.95139d,
+      "y": 3.3125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "178D3FB6EAD8916E",
+      "title": "Hydro Pump",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:hydro_pump"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Hydro Pump. Item inputs include Fluid Port, Water Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA65341EDF2C45A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1515661F98BAD835",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:hydro_pump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10E06A921716D69F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18DA978CD5374A58",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67778d,
+      "y": 2.10417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ADB6CD1F9F966D6",
+      "title": "Item IO",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:item_io"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Item IO. Item inputs include Machine Base, Item Port. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA65341EDF2C45A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17B886E33AE512C9",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:item_io"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A5CC117EAA2C16E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F5B46388CBE3B29",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.02778d,
+      "y": 2.10417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14D19EE09094B1D8",
+      "title": "Light Field",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:light_field"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Light Field. Item inputs include Machine Base, Glowstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4325DFADEF1E73"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "173F9E778D409882",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:light_field"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B66A6ACD38E2F28",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A6896976320D574",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67778d,
+      "y": 5.1125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F4325DFADEF1E73",
+      "title": "Machine Base",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:machine_base"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Machine Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16EA2C2D0E511C8D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A83DF79F5D1147C",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:machine_base"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A51E8DC5121C0B7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B3CAB10659380C7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 3.3125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A8EC47D20DA5C26",
+      "title": "Accelerated Planter",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:planter"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Accelerated Planter. Item inputs include Machine Base, Water Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4325DFADEF1E73"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "175EFC642634D9C7",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:planter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C458959088D404",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AE5B79DC7350FDB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.67778d,
+      "y": 3.7625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BA65341EDF2C45A",
+      "title": "Fluid Port",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:port_fluid"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Fluid Port. Item inputs include Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16EA2C2D0E511C8D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E663670CAE9AA83",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:port_fluid"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D612CF31D2B0649",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DF8121B3A8DC85D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 2.10417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F282D3B46A6E425",
+      "title": "Item Port",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:port_item"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Item Port. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16EA2C2D0E511C8D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19D98D4D3F1F2BB3",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:port_item"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "140D989424AEACE7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CCFE8E7B7D262AB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 0.78472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18742844894FA5AD",
+      "title": "Soaryn Box",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:soaryn_box"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Soaryn Box. Item inputs include Item Port. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F282D3B46A6E425"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18195AD92ED76130",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:soaryn_box"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19C4D6D6D87073BE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6AD4819A1D3E12",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.02778d,
+      "y": 0.67361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1848BFDDCE4D601F",
+      "title": "Balloon on a Stick",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:stake"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Balloon on a Stick. Item inputs include Lead. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B580E3E2C9CE2DD",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:stake"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "100492AC33C18974",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15AC17856B889EF9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.85417d,
+      "y": 6.34028d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17EB6AB34D31E955",
+      "title": "Valve",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:valve"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Valve. Item inputs include Machine Base, Fluid Port. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA65341EDF2C45A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "126E53EBAEEBF9C9",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:valve"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "122E03A1A36892A0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1392EFE21933EBD9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.37778d,
+      "y": 2.10417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9642ED3A5A0E2D",
+      "title": "Void Container",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:void_container"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Void Container. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18742844894FA5AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "167FEFC6F05A0842",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:void_container"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10AE25D6DC6EAD5E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1273BFE461CA6F9C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.03056d,
+      "y": 0.67361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "176F9EF90BB2E169",
+      "title": "Water Block",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:water_block"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Water Block. Item inputs include Machine Base, Iron Bars, Water Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4325DFADEF1E73"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10A5ED4D79680631",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:water_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D225AB8E7C3055",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C698ADA341F612E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.02778d,
+      "y": 5.1125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16EA2C2D0E511C8D",
+      "title": "Kivi",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_world:kivi"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Use a Stonecutter to make Kivi. Item inputs include Kivi. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EB3DBE7EC2D9F73",
+          "type": "item",
+          "item": {
+            "id": "xycraft_world:kivi"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D208CC79C382E8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13EA012F1DE2A620",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 2.70139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8E46D3950468EC",
+      "title": "Ignition Plate",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_machines:ignition_plate"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Ignition Plate. Item inputs include Machine Base, Iron Bars. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4325DFADEF1E73"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1131B2FBA3611261",
+          "type": "item",
+          "item": {
+            "id": "xycraft_machines:ignition_plate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15D55C50214DECA4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195147FAED404C56",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.37778d,
+      "y": 3.7625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "165A4A67DD6011AA",
+      "title": "Blue Xychorium Gem",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_world:xychorium_gem_blue"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Blue Xychorium Gem. Item inputs include Blue Xychorium Gem Storage. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154CE6A5BB510BC3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17A57C737EEC813B",
+          "type": "item",
+          "item": {
+            "id": "xycraft_world:xychorium_gem_blue"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FECE0741F011168",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12DD75A3DF761005",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.26111d,
+      "y": 7.58194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11F7AD5320699E7B",
+      "title": "Dark Xychorium Gem",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_world:xychorium_gem_dark"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Dark Xychorium Gem. Item inputs include Dark Xychorium Gem Storage. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154CE6A5BB510BC3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FA0FA1E4685A741",
+          "type": "item",
+          "item": {
+            "id": "xycraft_world:xychorium_gem_dark"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1666186A2528EC36",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1400B396521ADEA5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.41224d,
+      "y": 9.00696d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18FD78CA7C4F2E42",
+      "title": "Green Xychorium Gem",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_world:xychorium_gem_green"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Green Xychorium Gem. Item inputs include Green Xychorium Gem Storage. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154CE6A5BB510BC3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1650FB3E32E22F08",
+          "type": "item",
+          "item": {
+            "id": "xycraft_world:xychorium_gem_green"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DBA17E0907450FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F0C2CFBD84FB1D0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.21066d,
+      "y": 7.99357d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A46E48BBD4F874C",
+      "title": "Light Xychorium Gem",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_world:xychorium_gem_light"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Light Xychorium Gem. Item inputs include Light Xychorium Gem Storage. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154CE6A5BB510BC3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F2DF36F1B81C0AE",
+          "type": "item",
+          "item": {
+            "id": "xycraft_world:xychorium_gem_light"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "186906B4A53B59AC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1170B3EC9F1B4E23",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.26111d,
+      "y": 8.93194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "111D4177C7EC4F6E",
+      "title": "Red Xychorium Gem",
+      "subtitle": "XyCraft",
+      "icon": {
+        "id": "xycraft_world:xychorium_gem_red"
+      },
+      "description": [
+        "XyCraft supplies compact crafting and fluid-handling tools. Check machine faces and recipe rules, then connect inputs and outputs to a small test supply.",
+        "Craft Red Xychorium Gem. Item inputs include Red Xychorium Gem Storage. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154CE6A5BB510BC3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16607DB49BE50B6F",
+          "type": "item",
+          "item": {
+            "id": "xycraft_world:xychorium_gem_red"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1865B35590C712BE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1829FF03A6209063",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.27135d,
+      "y": 6.93288d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "154CE6A5BB510BC3",
+      "title": "XyCraft",
+      "subtitle": "XyCraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems/xychorium)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems/xychorium)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1178C4ED04BBE87F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CE26452A903AF5C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.53472d,
+      "y": 8.25694d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

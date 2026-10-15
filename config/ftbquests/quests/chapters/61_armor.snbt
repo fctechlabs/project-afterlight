@@ -1,0 +1,1953 @@
+{
+  "id": "15C5ADDA7B6FBA29",
+  "filename": "61_armor",
+  "title": "Armor",
+  "icon": {
+    "id": "minecraft:diamond_chestplate"
+  },
+  "group": "1907149C93679AEB",
+  "order_index": 39,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "14E5161ABACEFA42",
+      "title": "Aethermancer's Hat",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "ars_elemental:air_hat"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Use Armor Upgrade processing to make Aethermancer's Hat. Item inputs include Mark of Mastery, Netherite Ingot, Air Essence, Arcanist's Hat. This recipe also uses 7000 Source. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EB98C4A0C53097C",
+          "type": "item",
+          "item": {
+            "id": "ars_elemental:air_hat"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "183C2D05671B4DC9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CF04373BD9E1C02",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.24306d,
+      "y": 18.53472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "119299D17D5D4BE9",
+      "title": "Aquamancer's Hat",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "ars_elemental:aqua_hat"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Use Armor Upgrade processing to make Aquamancer's Hat. Item inputs include Mark of Mastery, Netherite Ingot, Water Essence, Arcanist's Hat. This recipe also uses 7000 Source. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12BD144BCE485483",
+          "type": "item",
+          "item": {
+            "id": "ars_elemental:aqua_hat"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "114F4AA1AB20648D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10AB705AA10276EF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.40972d,
+      "y": 18.53472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C5687488861F75",
+      "title": "Geomancer's Hat",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "ars_elemental:earth_hat"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Use Armor Upgrade processing to make Geomancer's Hat. Item inputs include Mark of Mastery, Netherite Ingot, Earth Essence, Arcanist's Hat. This recipe also uses 7000 Source. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18948BB63ACF4F19",
+          "type": "item",
+          "item": {
+            "id": "ars_elemental:earth_hat"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "127EBC31D7797B5B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19F0026A46A15AB1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.04861d,
+      "y": 17.52083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E2A96DE69C9C2EA",
+      "title": "Pyromancer's Hat",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "ars_elemental:fire_hat"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Use Armor Upgrade processing to make Pyromancer's Hat. Item inputs include Mark of Mastery, Netherite Ingot, Fire Essence, Arcanist's Hat. This recipe also uses 7000 Source. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12BDEA39CAACA755",
+          "type": "item",
+          "item": {
+            "id": "ars_elemental:fire_hat"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B532ABF1E759AC9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1846950981D658DD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.24306d,
+      "y": 17.52083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10B76F6A48CCB9C3",
+      "title": "Arcanist's Hat",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "ars_nouveau:arcanist_hood"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Use the Enchanting Apparatus to make Arcanist's Hat. Item inputs include Magebloom Fiber, Iron Helmet. This recipe also uses 0 Source. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19EB94ED8BA293F7",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:arcanist_hood"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FF390E91713707B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18CC098CCB331417",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.40972d,
+      "y": 17.52083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1300053AB6D90B26",
+      "title": "Battlemage's Hood",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "ars_nouveau:battlemage_hood"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Use the Enchanting Apparatus to make Battlemage's Hood. Item inputs include Magebloom Fiber, Diamond Helmet. This recipe also uses 0 Source. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12818465F36D79F4",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:battlemage_hood"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "185571F23F4A1DE5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F880B3C02137E28",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.04861d,
+      "y": 16.50694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14280D8445AFB07A",
+      "title": "Sorceror's Collar",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "ars_nouveau:sorcerer_hood"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Use the Enchanting Apparatus to make Sorceror's Collar. Item inputs include Magebloom Fiber, Golden Helmet. This recipe also uses 0 Source. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11861503B6ABC5A0",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:sorcerer_hood"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17961DE103A1480B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB1160385A678FA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.24306d,
+      "y": 16.50694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13011CE5DE25E229",
+      "title": "Random Armor Trim",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "exdeorum:random_armor_trim"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Use Compressed Sieve processing to make Random Armor Trim. Item inputs include Golden Mesh. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1901813373834477",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:random_armor_trim"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E52C9B7AB9E4559",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F6C34FF1D02496D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.04861d,
+      "y": 15.49306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1562A3159E20DE89",
+      "title": "Hazmat Mask",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "mekanism:hazmat_mask"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Craft Hazmat Mask. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19302A8C38EB42B4",
+          "type": "item",
+          "item": {
+            "id": "mekanism:hazmat_mask"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A95ADAB5772CE25",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19411559AA752A83",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.40972d,
+      "y": 8.32639d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "126637463B924B04",
+      "title": "Amethyst Shard",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:amethyst_shard"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Craft Amethyst Shard. Item inputs include Gray Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D5A6907E63F3DF9",
+          "type": "item",
+          "item": {
+            "id": "minecraft:amethyst_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D8569AAB6C53296",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "168D3A5B4DBC87E7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.24306d,
+      "y": 7.3125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12DC18BAE043B944",
+      "title": "Bolt Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:bolt_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Bolt Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E67C02C77843B9",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bolt_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D230143A1BD31AF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AD16DF4151A7A14",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.39861d,
+      "y": 13.99306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED196FAF0D4055C",
+      "title": "Coast Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:coast_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Coast Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14C61185373F44F0",
+          "type": "item",
+          "item": {
+            "id": "minecraft:coast_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17A79516D844F308",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12A0B1D8BB012C65",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.92613d,
+      "y": 14.74308d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1338E503E270E18F",
+      "title": "Copper Ingot",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:copper_ingot"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Smelt Copper Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FDF282107543148",
+          "type": "item",
+          "item": {
+            "id": "minecraft:copper_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19C4ADF4A71CDADA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D9576711ABA1A23",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.40972d,
+      "y": 7.3125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16B59721F74D7593",
+      "title": "Dune Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:dune_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Dune Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CDA93EE631745B6",
+          "type": "item",
+          "item": {
+            "id": "minecraft:dune_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13BF0D0180A3BD5D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17C4C01F5D7297B0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.10927d,
+      "y": 15.05372d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D99008B14CA11A5",
+      "title": "Emerald",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:emerald"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Craft Emerald. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F759E774994FAC7",
+          "type": "item",
+          "item": {
+            "id": "minecraft:emerald"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1293679F89671FFA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11CAEBE4E7931D49",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.04861d,
+      "y": 6.28472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BD641542D63B7A7",
+      "title": "Eye Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:eye_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Eye Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1587C3B38F819B60",
+          "type": "item",
+          "item": {
+            "id": "minecraft:eye_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "109ADF66ADE050AF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F0DCD00D0ADD9A8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.98896d,
+      "y": 13.58337d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D4B51CF83C3A39",
+      "title": "Flow Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:flow_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Flow Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "193137906644B255",
+          "type": "item",
+          "item": {
+            "id": "minecraft:flow_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B3312F273823FA1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19D11F8DFC30C60A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.19666d,
+      "y": 16.7647d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A204B9F1363F34F",
+      "title": "Gold Ingot",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:gold_ingot"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Smelt Gold Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17A51BD9AEAF5F68",
+          "type": "item",
+          "item": {
+            "id": "minecraft:gold_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B8BCED729F0773B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "185D2CD10D1B1A45",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.24306d,
+      "y": 6.28472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15AE87A96D4F750B",
+      "title": "Host Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:host_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Host Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17DE7AC475F8B0E3",
+          "type": "item",
+          "item": {
+            "id": "minecraft:host_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B16168F354D0A17",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11044456A9B81B5F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.90056d,
+      "y": 16.7647d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A8958F60F0ED0E9",
+      "title": "Iron Ingot",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Smelt Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "125F18981B0B8661",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "181AC0414A9EDE97",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C25BC018A11E526",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.40972d,
+      "y": 6.28472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E0F4EC5C48FD74F",
+      "title": "Lapis Lazuli",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:lapis_lazuli"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Craft Lapis Lazuli. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D30C6673524B205",
+          "type": "item",
+          "item": {
+            "id": "minecraft:lapis_lazuli"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B205EAB5B2FBFF9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1788FD24850FE5D7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.04861d,
+      "y": 5.27083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B7EEF1765EF2EE2",
+      "title": "Netherite Ingot",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:netherite_ingot"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Smelt Netherite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11C23A7DB573A6B6",
+          "type": "item",
+          "item": {
+            "id": "minecraft:netherite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C7C06B994AEFA19",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DFEDFAEA6B3B0AD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.24306d,
+      "y": 5.27083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D958E3631B1F86E",
+      "title": "Quartz",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:quartz"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Craft Quartz. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11CDD3862C720D1E",
+          "type": "item",
+          "item": {
+            "id": "minecraft:quartz"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15925E139C43D99F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19F05948740E660A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.40972d,
+      "y": 5.27083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15FC017BC7035EA2",
+      "title": "Raiser Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:raiser_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Raiser Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F0ECCAC315D6403",
+          "type": "item",
+          "item": {
+            "id": "minecraft:raiser_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "108BE48F070C3477",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1478E5D13127BA8A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.61586d,
+      "y": 14.67588d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FD1F15A3D0EF4CA",
+      "title": "Redstone",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:redstone"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Craft Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17B46E229DD9A980",
+          "type": "item",
+          "item": {
+            "id": "minecraft:redstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1451BF4036850360",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140578E136EEF907",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.04861d,
+      "y": 4.25694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17265BC8D6938727",
+      "title": "Rib Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:rib_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Rib Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FFE9DE6CF5B48CF",
+          "type": "item",
+          "item": {
+            "id": "minecraft:rib_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1999EA177BE2E07B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "109245689D52CCB6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.04861d,
+      "y": 8.99306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E73D0582C100C1E",
+      "title": "Sentry Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:sentry_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Sentry Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13EFC8D8750AC470",
+          "type": "item",
+          "item": {
+            "id": "minecraft:sentry_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10DB3AA80D871CD3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A059467E212C0E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.37361d,
+      "y": 10.91667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CF45D0DDCA8A7DF",
+      "title": "Shaper Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:shaper_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Shaper Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A80C329671BD95C",
+          "type": "item",
+          "item": {
+            "id": "minecraft:shaper_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13890BFE18361400",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16826D3BF9FA4EC6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.72361d,
+      "y": 10.91667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14930422A2FF75CD",
+      "title": "Silence Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:silence_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Silence Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D7EFA621BCBC3A2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:silence_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13A16FC6D1811DB1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D91652BF0DDED7F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.07361d,
+      "y": 10.91667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BEA1038C4FB86AF",
+      "title": "Smithing Table",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:smithing_table"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Craft Smithing Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F272EF85723E32D",
+          "type": "item",
+          "item": {
+            "id": "minecraft:smithing_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E64794CFB27B6CD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CDA918874006436",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.24306d,
+      "y": 4.25694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1034AFF1E1D52672",
+      "title": "Snout Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:snout_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Snout Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DC876E233A947AB",
+          "type": "item",
+          "item": {
+            "id": "minecraft:snout_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10B16B017E58740B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17A787E9D79B3557",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.42361d,
+      "y": 10.91667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EFD30381AC41E6C",
+      "title": "Spire Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:spire_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Spire Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "146169DBABAB6A62",
+          "type": "item",
+          "item": {
+            "id": "minecraft:spire_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1166C4930F8F04F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B362AC23522F360",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.67361d,
+      "y": 12.26667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "180B969911D1BC93",
+      "title": "Tide Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:tide_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Tide Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C57C9DABA767BE2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:tide_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198913FCE5A75A11",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10E256BBDD2D7D3A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02361d,
+      "y": 12.26667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BB8DDB7DE8D2463",
+      "title": "Vex Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:vex_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Vex Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EB2A394DBEF4F0C",
+          "type": "item",
+          "item": {
+            "id": "minecraft:vex_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "129A2931AB770D55",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DA81C53B73C270B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.37361d,
+      "y": 12.26667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "197197604978BF54",
+      "title": "Ward Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:ward_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Ward Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1553CD0695C7EBDF",
+          "type": "item",
+          "item": {
+            "id": "minecraft:ward_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "137EAE339B0D879B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "166403C37F6201BC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.72361d,
+      "y": 12.26667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15120E28328DA3CC",
+      "title": "Wayfinder Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:wayfinder_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Obtain Wayfinder Armor Trim Smithing Template and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17A72E6C1318BD0C",
+          "type": "item",
+          "item": {
+            "id": "minecraft:wayfinder_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F68BC352A9DF916",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "168207793EA7EF57",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.07361d,
+      "y": 12.26667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CEBEB82426BDE31",
+      "title": "Wild Armor Trim Smithing Template",
+      "subtitle": "Armor",
+      "icon": {
+        "id": "minecraft:wild_armor_trim_smithing_template"
+      },
+      "description": [
+        "Prepare protection before visiting dangerous dimensions. Equipment may need charging or special repairs; check the item’s tooltip before relying on it.",
+        "Use Ritual processing to make Wild Armor Trim Smithing Template. Item inputs include Diamond Block, Mossy Cobblestone, Jungle Sapling, Bamboo. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EEAC51CE8226E2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E6F2ABA6244409",
+          "type": "item",
+          "item": {
+            "id": "minecraft:wild_armor_trim_smithing_template"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "167F1A7DC6B1D028",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1769D816823F643D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.42361d,
+      "y": 12.26667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1512525CCF00F3E8",
+      "title": "Diving Armor",
+      "subtitle": "Armor",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(create:copper_diving_helmet)item(create:netherite_diving_helmet))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(create:copper_diving_helmet)item(create:netherite_diving_helmet))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1213C1B4A899CE7A",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(create:copper_diving_boots)item(create:netherite_diving_boots))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1B2A81DC85415702",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(create:copper_backtank)item(create:netherite_backtank))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1160ADE0B907E1CA",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10C789EDA2710FC8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.04861d,
+      "y": 1.34028d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EEAC51CE8226E2B",
+      "title": "Occultism OR Random Armor Trim",
+      "subtitle": "Armor",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(occultism:dictionary_of_spirits)item(exdeorum:random_armor_trim))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "13011CE5DE25E229"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(occultism:dictionary_of_spirits)item(exdeorum:random_armor_trim))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1C83B1A408F6881D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1267CBF700D29300",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.04861d,
+      "y": 13.99306d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

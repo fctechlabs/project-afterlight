@@ -1,0 +1,735 @@
+{
+  "id": "198AB41B0365C52B",
+  "filename": "30_power",
+  "title": "Power",
+  "icon": {
+    "id": "powah:energizing_orb"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 21,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "15C9177A084910A8",
+      "title": "Basic Energy Cube",
+      "subtitle": "Choose a power supply",
+      "icon": {
+        "id": "mekanism:basic_energy_cube"
+      },
+      "description": [
+        "An Energy Cube smooths uneven generation. Set its input and output sides to match the factory."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A96501D5E52EC69",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_energy_cube"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11FB7DF4A643C7B7",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "14C98B5E2E447C41",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 3.96528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "143F859A96398256",
+      "title": "Basic Universal Cable",
+      "subtitle": "Choose a power supply",
+      "icon": {
+        "id": "mekanism:basic_universal_cable"
+      },
+      "description": [
+        "Universal Cables carry FE between compatible machines. Check connection modes, machine sides, and buffer contents when power stops."
+      ],
+      "dependencies": [
+        "1FD1F15A3D0EF4CA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F5BC9D241A13F9",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_universal_cable"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13417F777487DD02",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "151FC7BA052B1549",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.17361d,
+      "y": 3.0625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED3096DB3A39ECC",
+      "title": "Basic Flux Storage",
+      "subtitle": "Power",
+      "icon": {
+        "id": "fluxnetworks:basic_flux_storage"
+      },
+      "description": [
+        "Choose generation for the resources you can renew. Match cable capacity to demand and place a buffer near machines that draw large bursts of energy.",
+        "Craft Basic Flux Storage. Item inputs include Flux Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19CAB819025D7BA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17013960BEACFBBA",
+          "type": "item",
+          "item": {
+            "id": "fluxnetworks:basic_flux_storage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1250ED33F33C0BFA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1309D9195C6747CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.55972d,
+      "y": 0.67222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CE7651AD406ED61",
+      "title": "Flux Controller",
+      "subtitle": "Power",
+      "icon": {
+        "id": "fluxnetworks:flux_controller"
+      },
+      "description": [
+        "Choose generation for the resources you can renew. Match cable capacity to demand and place a buffer near machines that draw large bursts of energy.",
+        "Craft Flux Controller. Item inputs include Flux Core, Flux Block, Flux Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19CAB819025D7BA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19BCF876D18A523C",
+          "type": "item",
+          "item": {
+            "id": "fluxnetworks:flux_controller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19328B422F1639A3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BD6BFA342270E5C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.90972d,
+      "y": 0.67222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F711884DFD3AC9C",
+      "title": "Flux Plug",
+      "subtitle": "Power",
+      "icon": {
+        "id": "fluxnetworks:flux_plug"
+      },
+      "description": [
+        "Choose generation for the resources you can renew. Match cable capacity to demand and place a buffer near machines that draw large bursts of energy.",
+        "Craft Flux Plug. Item inputs include Flux Core, Flux Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1130EE4AFAC2AC57"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "110C7D73760F1D85",
+          "type": "item",
+          "item": {
+            "id": "fluxnetworks:flux_plug"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FA4394441044651",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18E4949097234806",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.13893d,
+      "y": 3.4899d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1168CD6AD50C7153",
+      "title": "Flux Point",
+      "subtitle": "Power",
+      "icon": {
+        "id": "fluxnetworks:flux_point"
+      },
+      "description": [
+        "Choose generation for the resources you can renew. Match cable capacity to demand and place a buffer near machines that draw large bursts of energy.",
+        "Craft Flux Point. Item inputs include Flux Core, Redstone Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19CAB819025D7BA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ED2A9D40D8F9F06",
+          "type": "item",
+          "item": {
+            "id": "fluxnetworks:flux_point"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1213FB29406FC37C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F89D074BDCD7964",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.25972d,
+      "y": 0.67222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F21948BAC7B1BAA",
+      "title": "Coal",
+      "subtitle": "Power",
+      "icon": {
+        "id": "minecraft:coal"
+      },
+      "description": [
+        "Choose generation for the resources you can renew. Match cable capacity to demand and place a buffer near machines that draw large bursts of energy.",
+        "Craft Coal. Item inputs include Tiny Coal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FD1F15A3D0EF4CA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16A9B07FD10D3A08",
+          "type": "item",
+          "item": {
+            "id": "minecraft:coal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1708828DB9739EE9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "107F4851BA33ADE4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38194d,
+      "y": 3.0625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1130EE4AFAC2AC57",
+      "title": "Flux Core",
+      "subtitle": "Power",
+      "icon": {
+        "id": "fluxnetworks:flux_core"
+      },
+      "description": [
+        "Choose generation for the resources you can renew. Match cable capacity to demand and place a buffer near machines that draw large bursts of energy.",
+        "Craft Flux Core. Item inputs include Obsidian, Flux Dust, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11B353C083C8CEE3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1392D7540B56DC3C",
+          "type": "item",
+          "item": {
+            "id": "fluxnetworks:flux_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "186DF676BD377CD6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1659F0CAF6F4EC31",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.18051d,
+      "y": 4.44065d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B353C083C8CEE3",
+      "title": "Flux Dust",
+      "subtitle": "Power",
+      "icon": {
+        "id": "fluxnetworks:flux_dust"
+      },
+      "description": [
+        "Choose generation for the resources you can renew. Match cable capacity to demand and place a buffer near machines that draw large bursts of energy.",
+        "Obtain Flux Dust and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10E0E13BEBEB3DB4",
+          "type": "item",
+          "item": {
+            "id": "fluxnetworks:flux_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1867C04FB963B400",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "148C4ECA4132D575",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.22209d,
+      "y": 5.39141d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "176C781E05D8091D",
+      "title": "Mekanism: Renewable Energy",
+      "subtitle": "Power",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanismgenerators:solar_generator)item(mekanismgenerators:advanced_solar_generator)item(mekanismgenerators:wind_generator))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1F21948BAC7B1BAA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanismgenerators:solar_generator)item(mekanismgenerators:advanced_solar_generator)item(mekanismgenerators:wind_generator))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "19C38FBC6AA438CC",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B340FFBBE587F4F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38194d,
+      "y": 1.5625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B657E8ED4785036",
+      "title": "Pipez: Upgrades",
+      "subtitle": "Power",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(pipez:basic_upgrade)item(pipez:improved_upgrade)item(pipez:advanced_upgrade)item(pipez:ultimate_upgrade))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1F7460E378372D47"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(pipez:basic_upgrade)item(pipez:improved_upgrade)item(pipez:advanced_upgrade)item(pipez:ultimate_upgrade))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "12C03A39FF5699A2",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10214F183E794ACD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.39583d,
+      "y": 2.3125d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C78F845199FDE6C",
+      "title": "More Power Storage",
+      "subtitle": "Power",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_provider)item(mekanism:advanced_induction_provider)item(mekanism:elite_induction_provider)item(mekanism:ultimate_induction_provider))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "15C9177A084910A8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_provider)item(mekanism:advanced_induction_provider)item(mekanism:elite_induction_provider)item(mekanism:ultimate_induction_provider))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1B393DB6303ECA0A",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_cell)item(mekanism:advanced_induction_cell)item(mekanism:elite_induction_cell)item(mekanism:ultimate_induction_cell))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "11C56BEF69264D7E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EC37913B9109353",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 1.34722d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19CAB819025D7BA7",
+      "title": "The First Network",
+      "subtitle": "Power",
+      "icon": {
+        "id": "powah:energizing_orb"
+      },
+      "description": [
+        "Learn about The First Network in the Power guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1F711884DFD3AC9C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1E408AC887E0A52C",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F69B4EAD3A0DCAD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.09735d,
+      "y": 2.53915d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "115D73400F8E8955",
+      "title": "The Flux Networks UI",
+      "subtitle": "Power",
+      "icon": {
+        "id": "powah:energizing_orb"
+      },
+      "description": [
+        "Learn about The Flux Networks UI in the Power guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "19CAB819025D7BA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1FC399D3609F9DFD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BD7E6732AB71152",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.55972d,
+      "y": 2.02222d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1453777BF22F8F46",
+      "linked_quest": "1A8958F60F0ED0E9",
+      "x": 2.17361d,
+      "y": 5.6875d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1CC85284773313BF",
+      "linked_quest": "1FD1F15A3D0EF4CA",
+      "x": 7.77083d,
+      "y": 4.5625d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1FBA8F40B124B3DA",
+      "linked_quest": "1F7460E378372D47",
+      "x": 9.39583d,
+      "y": 3.8125d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

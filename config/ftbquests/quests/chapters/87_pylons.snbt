@@ -1,0 +1,603 @@
+{
+  "id": "1290CB97ADF4D613",
+  "filename": "87_pylons",
+  "title": "Pylons",
+  "icon": {
+    "id": "pylons:infusion_pylon"
+  },
+  "group": "11571B65BE4FCDDE",
+  "order_index": 64,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1E2F01CD1C96AB3E",
+      "title": "Diamond Hoe",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "minecraft:diamond_hoe"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Use Sized Upgrade Recipe processing to make Diamond Hoe. Item inputs include Golden Hoe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152DA237A8DF7DF1",
+          "type": "item",
+          "item": {
+            "id": "minecraft:diamond_hoe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1317EE13D5E78378",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11A1E734EC318B65",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.61806d,
+      "y": 4.15972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F2EA0475B75DAF3",
+      "title": "Polished Blackstone",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "minecraft:polished_blackstone"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Use Crushing processing to make Polished Blackstone. Item inputs include Cracked Polished Blackstone Bricks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F9C5F161D907D18",
+          "type": "item",
+          "item": {
+            "id": "minecraft:polished_blackstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B76A4F845C6BAE1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18A6AD284FF77252",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.16569d,
+      "y": 4.72931d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1578312E7818A32B",
+      "title": "Expulsion Pylon",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "pylons:expulsion_pylon"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Craft Expulsion Pylon. Item inputs include Polished Blackstone, Diamond Block, Iron Bars, Quartz Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C42B97513288581"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1765628D15A50182",
+          "type": "item",
+          "item": {
+            "id": "pylons:expulsion_pylon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "137ABC81A66C2C51",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12D4BB10166F3E22",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.52681d,
+      "y": 4.72931d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F29DE53C3D3F5B6",
+      "title": "Harvester Pylon",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "pylons:harvester_pylon"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Craft Harvester Pylon. Item inputs include Polished Blackstone, Hay Block, Iron Bars, Quartz Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F2EA0475B75DAF3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152F44CEA127DDF8",
+          "type": "item",
+          "item": {
+            "id": "pylons:harvester_pylon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BBB7E4A723559CA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "176DD9F374437A93",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.8125d,
+      "y": 3.60417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158962C3B9D7452A",
+      "title": "Infusion Pylon",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "pylons:infusion_pylon"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Craft Infusion Pylon. Item inputs include Polished Blackstone, Emerald Block, Iron Bars, Quartz Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16F2F9C5ADC119BE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B16755660AFFC6E",
+          "type": "item",
+          "item": {
+            "id": "pylons:infusion_pylon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A2A3D2C1202E89D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1903F2364B167536",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.80454d,
+      "y": 2.59042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11EF853405805682",
+      "title": "Interdiction Pylon",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "pylons:interdiction_pylon"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Craft Interdiction Pylon. Item inputs include Polished Blackstone, Netherite Block, Iron Bars, Quartz Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CB10EABAE5BF521"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D024549C0EC13BB",
+          "type": "item",
+          "item": {
+            "id": "pylons:interdiction_pylon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12475A6AE6B5B744",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1776FD9A805BD882",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.16569d,
+      "y": 2.59042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11E374B6089655B7",
+      "title": "Protection Pylon",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "pylons:protection_pylon"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Craft Protection Pylon. Item inputs include Polished Blackstone, Honeycomb Block, Iron Bars, Quartz Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14CE30DE22586707"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F4199CB079654B",
+          "type": "item",
+          "item": {
+            "id": "pylons:protection_pylon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14C00E68BF6555E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "154EBD6DAED3AF51",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.52681d,
+      "y": 2.59042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14CE30DE22586707",
+      "title": "Block Filter",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "pylons:block_filter"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Craft Block Filter. Item inputs include Honeycomb, Cyan Terracotta. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15D7FA8FF4A589CC",
+          "type": "item",
+          "item": {
+            "id": "pylons:block_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18F05070E24D5394",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1927F32C3BBFA609",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.17361d,
+      "y": 1.46528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB10EABAE5BF521",
+      "title": "Lifeless Filter",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "pylons:lifeless_filter"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Craft Lifeless Filter. Item inputs include Cyan Terracotta. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E0C89A063DA9709",
+          "type": "item",
+          "item": {
+            "id": "pylons:lifeless_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1488E2C310241A36",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13DA1B05606A3FDD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.8125d,
+      "y": 1.46528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1374AFB437B6CCA7",
+      "title": "Mob Filter",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "pylons:mob_filter"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Craft Mob Filter. Item inputs include Mob Filter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1329A94522D5BC11",
+          "type": "item",
+          "item": {
+            "id": "pylons:mob_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10F7757A6631747E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13FABCB4A0F735F5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.61806d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C42B97513288581",
+      "title": "Player Filter",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "pylons:player_filter"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Craft Player Filter. Item inputs include Player Filter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E1F05BFBB2B408",
+          "type": "item",
+          "item": {
+            "id": "pylons:player_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CF5AE50023E5BA2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12C59B200C3C1827",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.17361d,
+      "y": 3.60417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16F2F9C5ADC119BE",
+      "title": "Potion Filter",
+      "subtitle": "Pylons",
+      "icon": {
+        "id": "pylons:potion_filter"
+      },
+      "description": [
+        "Configure the pylon’s working area and required contents. Check durability, fuel, or charged-filter requirements before using it to run a farm or maintain an effect.",
+        "Craft Potion Filter. Item inputs include Potion Filter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "156FF3787F1B7528",
+          "type": "item",
+          "item": {
+            "id": "pylons:potion_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19F05996EF0C19F4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "109A986C33579C1A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 1.46528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

@@ -1,0 +1,3410 @@
+{
+  "id": "1F96AE4ACBDD8548",
+  "filename": "16_foregoing",
+  "title": "Industrial Foregoing",
+  "icon": {
+    "id": "industrialforegoing:machine_frame_advanced"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 14,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1958207BDBF352B3",
+      "title": "Plant Sower",
+      "subtitle": "Put the factory to work - optional",
+      "icon": {
+        "id": "industrialforegoing:plant_sower"
+      },
+      "description": [
+        "Place and configure a Plant Sower below the growing area. Supply seeds and power, then check its working area before scaling up."
+      ],
+      "dependencies": [
+        "111A419DE5BD6C92"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14CA04D186742921",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:plant_sower"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F59A523FB2D469D",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1FCFF2C396F54CC3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.32386d,
+      "y": 9.30898d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14FCE03BDFDAD95C",
+      "title": "Plant Gatherer",
+      "subtitle": "Put the factory to work - optional",
+      "icon": {
+        "id": "industrialforegoing:plant_gatherer"
+      },
+      "description": [
+        "Give the Plant Gatherer power and output space. Match its range to the farm, and ensure replanted crops can still grow."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "195A0E286EC74004",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:plant_gatherer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CCCCF67C2264B7D",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1719C95B9A278051",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.88429d,
+      "y": 13.16389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B5C8BFA4FCB2711",
+      "title": "Ore Laser Base",
+      "subtitle": "Put the factory to work - optional",
+      "icon": {
+        "id": "industrialforegoing:ore_laser_base"
+      },
+      "description": [
+        "Pair the Ore Laser Base with powered Laser Drills. Biome, depth, and lens rules still apply; check JEI before choosing the setup location."
+      ],
+      "dependencies": [
+        "111A419DE5BD6C92"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1129145A69902F5E",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:ore_laser_base"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1942A4EA5EAA9A80",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1E07BDE5F826755F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.00334d,
+      "y": 9.27729d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "111A419DE5BD6C92",
+      "title": "Pity Machine Frame",
+      "subtitle": "Rubber and mob fluids",
+      "icon": {
+        "id": "industrialforegoing:machine_frame_pity"
+      },
+      "description": [
+        "The first frame is crafted before the Dissolution Chamber upgrades. Keep the frame sequence visible in JEI."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F2CA2A6C9FED294",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:machine_frame_pity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F8BDCBC3BD3FB14",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "19D35C6B93DE62EC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.1618d,
+      "y": 10.60141d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15192C923BB0205D",
+      "title": "Advanced Pattern Encoder",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "advanced_ae:adv_pattern_encoder"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Advanced Pattern Encoder. Item inputs include Engineering Processor, Charged Certus Quartz Crystal, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F0609A8D218A106"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BF5B675BB0E2C0E",
+          "type": "item",
+          "item": {
+            "id": "advanced_ae:adv_pattern_encoder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D5B5FAFB5387CA9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E9149DA7D70038B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.69974d,
+      "y": 3.5394d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13C6FC0502B74628",
+      "title": "Animal Rancher",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:animal_rancher"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Animal Rancher. Item inputs include Bucket, Shears. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15484BD2842EC29C",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:animal_rancher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D7B545934C4469D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A44C063FA06DF57",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.0136d,
+      "y": 13.1439d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1943BFA70B8D310F",
+      "title": "Bioreactor",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:bioreactor"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Bioreactor. Item inputs include Brick, Sugar. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CDAC28BD2C922EF",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:bioreactor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188CE68CB6D82308",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C734A3267E3BD96",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.6896d,
+      "y": 15.39313d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DF7974CCF5F8ACD",
+      "title": "Block Placer",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:block_placer"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Block Placer. Item inputs include Dropper, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FA16AEAC7DE3F93",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:block_placer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15059BAACC5AF83F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12F386705B7E420F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.19512d,
+      "y": 15.39313d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14FC8F86F0749A97",
+      "title": "Conveyor Belt",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:conveyor"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Conveyor Belt. Item inputs include Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "151C0FB0E97C65B2",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:conveyor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11AD595802AD9D60",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EFCFA5EABB26860",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.2049d,
+      "y": 13.16389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "143E5764164B819E",
+      "title": "Enchantment Applicator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:enchantment_applicator"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Enchantment Applicator. Item inputs include Anvil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "196B3A7713C058ED",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:enchantment_applicator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "136F308091E6F9D8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19ADD390B5663CF8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.84285d,
+      "y": 9.91754d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CEC1FBD9DF0A263",
+      "title": "Enchantment Extractor",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:enchantment_extractor"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Enchantment Extractor. Item inputs include Book, Diamond, Nether Bricks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A3F1304F42CEF81",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:enchantment_extractor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "186586D42553A734",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "127DC8A458CCB81E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.4397d,
+      "y": 8.38138d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F4B5873ED63ABDE",
+      "title": "Enchantment Factory",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:enchantment_factory"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Enchantment Factory. Item inputs include Book, Diamond, Obsidian. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CB6BF904A387FFE",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:enchantment_factory"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16B762C9F1BC1B84",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15F76FC667ADDDAC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.71495d,
+      "y": 9.16644d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DC96F29F043B070",
+      "title": "Enchantment Sorter",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:enchantment_sorter"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Enchantment Sorter. Item inputs include Book, Enchanted Book, Ender Pearl. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "196D86B7CDF800D3",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:enchantment_sorter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F62176D24D3485A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C66C4AA876DD1FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.04286d,
+      "y": 5.74695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1480E1AD21F515B1",
+      "title": "Ether Gas Bucket",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:ether_gas_bucket"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Obtain Ether Gas Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "195A7F2561996235"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D3EA3C9C5EF747",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:ether_gas_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C4DCC4D3321ADB1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FB5AED815AD5497",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.95939d,
+      "y": 4.96641d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD382D70313F114",
+      "title": "Fermentation Station",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:fermentation_station"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Fermentation Station. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D220A3F4B042706"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10FBF140DFBD5792",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:fermentation_station"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CD8A1524EC0DD9C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14097B309D880A37",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.18393d,
+      "y": 10.36173d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1640F6756CD72465",
+      "title": "Fluid Placer",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:fluid_placer"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Fluid Placer. Item inputs include Water Bucket, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18CC481BB4F3FA00",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:fluid_placer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FFC4890A4CE4A41",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BAC9F705D9334DC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.0136d,
+      "y": 14.4939d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "153B4756D3AC919B",
+      "title": "Fluid Sieving Machine",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:fluid_sieving_machine"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Fluid Sieving Machine. Item inputs include Pink Slime, Iron Bars. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C4F3B11D175D24"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13230F7D4F7F1AAD",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:fluid_sieving_machine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1585A933AB1E578C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11C74F3A1A26FA6E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.31396d,
+      "y": 6.87361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CCD44BECE8F7E5A",
+      "title": "Hydroponic Bed",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:hydroponic_bed"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Hydroponic Bed. Item inputs include Fertilizer, Dirt, Iron Hoe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D220A3F4B042706"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DA271ADADD3D0D6",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:hydroponic_bed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15BFEC9AA5DE2D2C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18F157250CD62D04",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.33714d,
+      "y": 8.65417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C4E7027370C15C7",
+      "title": "Infinity Charger",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:infinity_charger"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Infinity Charger. Item inputs include Redstone Block, Repeater. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DE3320190B7F66"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19E6B9C3CA26F73C",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:infinity_charger"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E9E8ECE3373608B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D1CD4D67A9FBFD5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.62495d,
+      "y": 9.65417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11757421142B3D75",
+      "title": "Infinity Trident",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:infinity_trident",
+        "components": {
+          "industrialforegoing:infinity_can_charge": 1,
+          "industrialforegoing:infinity_item_power": 0,
+          "industrialforegoing:infinity_item_selected_tier": "poor",
+          "industrialforegoing:infinity_item_special": 0,
+          "industrialforegoing:infinity_trident_channeling": 0,
+          "industrialforegoing:infinity_trident_loyalty": 0,
+          "industrialforegoing:infinity_trident_riptide": 0
+        }
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Use the Dissolution Chamber to make Infinity Trident. Item inputs include Diamond Block, Trident, Diamond Hoe, Range Addon Tier 11. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C4E7027370C15C7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12105C015B5654E3",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:infinity_trident",
+            "components": {
+              "industrialforegoing:infinity_can_charge": 1,
+              "industrialforegoing:infinity_item_power": 0,
+              "industrialforegoing:infinity_item_selected_tier": "poor",
+              "industrialforegoing:infinity_item_special": 0,
+              "industrialforegoing:infinity_trident_channeling": 0,
+              "industrialforegoing:infinity_trident_loyalty": 0,
+              "industrialforegoing:infinity_trident_riptide": 0
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "195CF42B04660CFC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AABFAAFB49AC8DF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.67152d,
+      "y": 6.87361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "195A7F2561996235",
+      "title": "Laser Drill",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:laser_drill"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Laser Drill. Item inputs include Piston, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17AD30C289474E86",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:laser_drill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F233F45AB5C0AFB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C8AA7B59B7161B7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.20189d,
+      "y": 6.47636d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "168C5547F34D1F87",
+      "title": "Supreme Machine Frame",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:machine_frame_supreme"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Use the Dissolution Chamber to make Supreme Machine Frame. Item inputs include Netherite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1480E1AD21F515B1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19DE7648E0D27DAE",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:machine_frame_supreme"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17813C5A5538EF50",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DED7E4A1B2D2976",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.95939d,
+      "y": 3.64441d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CACD78853138EE0",
+      "title": "Marine Fisher",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:marine_fisher"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Marine Fisher. Item inputs include Bucket, Fishing Rod, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D220A3F4B042706"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152ECEC8262EDAC0",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:marine_fisher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10869ED0B955979D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "175079A94B7F059B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.39242d,
+      "y": 7.44336d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17DC2145CC12A2A4",
+      "title": "Material StoneWork Factory",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:material_stonework_factory"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Material StoneWork Factory. Item inputs include Pink Slime, Crafting Table, Furnace, Diamond Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C4F3B11D175D24"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F4B7B25BCA5D841",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:material_stonework_factory"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F820F6D3B28BAA3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "126E113842796E03",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.99196d,
+      "y": 6.87361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1243295CC945FB3C",
+      "title": "Meat Feeder",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:meat_feeder"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Meat Feeder. Item inputs include Glass Bottle, Plastic. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DE3320190B7F66"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E8795F93A5665BC",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:meat_feeder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FF174AF93C9F0D7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16A2B9CBCD8C5C91",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.94543d,
+      "y": 9.65417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C14A88EC786C693",
+      "title": "Mob Crusher",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mob_crusher"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Mob Crusher. Item inputs include Book, Redstone, Iron Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "166133F853F452DE",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mob_crusher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "190212A744137F94",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F325C862E3C9011",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.44286d,
+      "y": 5.74695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "190334976E6AAE0C",
+      "title": "Mob Detector",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mob_detector"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Mob Detector. Item inputs include Comparator, Observer, Repeater. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D220A3F4B042706"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "107F1AE4B47A3542",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mob_detector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A5A72B9FF901DE6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13F4667FE7EBB5D0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.74242d,
+      "y": 7.44336d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13804D3A1D9A1162",
+      "title": "Mob Duplicator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mob_duplicator"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Mob Duplicator. Item inputs include Magma Cream, Emerald, Redstone, Nether Wart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1773B5EED8332498",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mob_duplicator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13ECAB4F34B897F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "146996B3EEF49122",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.79286d,
+      "y": 5.74695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B8A06E885A08063",
+      "title": "Mob Imprisonment Tool",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mob_imprisonment_tool"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Mob Imprisonment Tool. Item inputs include Ghast Tear. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10983E662D5644D7",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mob_imprisonment_tool"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11714C64D6ACEEC6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13CE8C60871D58F9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.27566d,
+      "y": 16.6226d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184E7AF80BFB16E2",
+      "title": "Crimed Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_crimed"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Crimed Mycelial Generator. Item inputs include Nether Wart Block, Crimson Fungus, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "120043543B0E9395",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_crimed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "177B2E69B06D59F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15CD8797D1532276",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.04286d,
+      "y": 4.39695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "169B576A312BDC66",
+      "title": "Culinary Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_culinary"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Culinary Mycelial Generator. Item inputs include Cooked Beef, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D220A3F4B042706"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F08C3C7CD3771C4",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_culinary"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "150A9C2297A742FC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A762C6F4BF3037E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.39242d,
+      "y": 6.09336d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13C3ABD6E8AE530F",
+      "title": "Death Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_death"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Death Mycelial Generator. Item inputs include Rotten Flesh, Bone, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1927F2A433B463FC",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_death"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17014D2C1F7C636C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F207F6266123D54",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.39286d,
+      "y": 4.39695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "126325B6612A88FD",
+      "title": "Disenchantment Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_disenchantment"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Disenchantment Mycelial Generator. Item inputs include Book, Grindstone, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D60D55CB8053A92",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_disenchantment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C9CB251596B7EEE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C9515E10AE9F60D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.74286d,
+      "y": 4.39695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B3E601ED6F2AA8",
+      "title": "Ender Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_ender"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Ender Mycelial Generator. Item inputs include Ender Pearl, Ender Eye, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11F36F9B556D774C",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_ender"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1136DE1C5BCEE4A5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EB3E4EFAD836750",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.39286d,
+      "y": 5.74695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11550EA38BD440E4",
+      "title": "Explosive Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_explosive"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Explosive Mycelial Generator. Item inputs include Tnt, Redstone Torch, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E444EAB0969E461",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_explosive"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3863BFBA81C08C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "114E083A9F75814C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.74286d,
+      "y": 5.74695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F038D4F3012E3C5",
+      "title": "Frosty Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_frosty"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Frosty Mycelial Generator. Item inputs include Snowball, Ice, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D220A3F4B042706"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1656B77AE96F50DE",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_frosty"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B44DB201EF78243",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EFDFDA54CF50509",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.09242d,
+      "y": 6.09336d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "116C4EFBC27DC969",
+      "title": "Furnace Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_furnace"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Furnace Mycelial Generator. Item inputs include Furnace, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D220A3F4B042706"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15225B92DE13F8F5",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FC7006EFF64FAFA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C8FE18693DE98A7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.44242d,
+      "y": 6.09336d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1471E9654D1EC0E5",
+      "title": "Halitosis Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_halitosis"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Halitosis Mycelial Generator. Item inputs include Purpur Block, End Rod, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168C5547F34D1F87"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E570F56DA476C7",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_halitosis"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D9001CCBC36C9C2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D22EC27ABC296E8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.30939d,
+      "y": 3.64441d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D5F4F01E7E179B3",
+      "title": "Magma Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_magma"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Magma Mycelial Generator. Item inputs include Lava Bucket, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D890F86C1728A8",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_magma"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C9446F7D1176373",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "111DA2215B3C0A46",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.09286d,
+      "y": 5.74695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D28DAE492E265B9",
+      "title": "Meatallurgic Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_meatallurgic"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Meatallurgic Mycelial Generator. Item inputs include Liquid Meat Bucket, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168C5547F34D1F87"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11BB625CE0C13984",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_meatallurgic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D17A9E626489B0F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17153E938DD7FC11",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.40641d,
+      "y": 1.99305d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16A2C1169573CF60",
+      "title": "Netherstar Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_netherstar"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Netherstar Mycelial Generator. Item inputs include Wither Skeleton Skull, Nether Star, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168C5547F34D1F87"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14A92DDA23986E23",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_netherstar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "186CF9B0D2BB542A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1713E378DE14C3FD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.42841d,
+      "y": 0.86796d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "130D3C443DAB84DC",
+      "title": "Pink Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_pink"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Pink Mycelial Generator. Item inputs include Pink Wool, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D220A3F4B042706"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "160FCC1D46BDDB53",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_pink"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB48E923FC1010A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F935D24696D24D2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.09242d,
+      "y": 7.44336d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C38E9FBB7614C14",
+      "title": "Potion Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_potion"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Potion Mycelial Generator. Item inputs include Nether Wart, Brewing Stand, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17E3D7E35C847B61",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_potion"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1878530F532EBEA8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "132CDF820FA2F40F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.04286d,
+      "y": 7.09695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "182B1C8366BBB63D",
+      "title": "Mycelial Reactor",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_reactor"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Use the Dissolution Chamber to make Mycelial Reactor. Item inputs include Netherite Ingot, Nether Star. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168C5547F34D1F87"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BAFA1D8244D0739",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_reactor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13B593FAC08A9B58",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A6A55274C5BCF9A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.83691d,
+      "y": 4.39443d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17DF71D315DCAD6A",
+      "title": "Rocket Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_rocket"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Rocket Mycelial Generator. Item inputs include Gunpowder, Paper, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "160FCFA00C904B2C",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_rocket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11C7A9EA4FA50F59",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A9E682B25884116",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.74286d,
+      "y": 7.09695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13F2DD55AD0AD7AB",
+      "title": "Slimey Mycelial Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mycelial_slimey"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Slimey Mycelial Generator. Item inputs include Slime Block, Milk Bucket, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1129CC30D0459E44",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mycelial_slimey"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15410AAC49A8F3BE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15697BD745BE8340",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.09286d,
+      "y": 7.09695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C4F3B11D175D24",
+      "title": "Pink Slime",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:pink_slime"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Pink Slime. Item inputs include Pink Slime Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DE3320190B7F66"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB7D44AE33EED57",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:pink_slime"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19EC5919ADA12255",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FCB207B347117F3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.26743d,
+      "y": 9.65417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F2A342739C4A98B",
+      "title": "Pitiful Generator",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:pitiful_generator"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Pitiful Generator. Item inputs include Furnace, Iron Bars, Cobblestone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "111A419DE5BD6C92"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1617D8B8C88DE033",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:pitiful_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A671C241A307C3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B23665078A3F9B7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.66675d,
+      "y": 9.27941d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "155295AAD7841326",
+      "title": "Plant Fertilizer",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:plant_fertilizer"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Plant Fertilizer. Item inputs include Glass Bottle, Leather, Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1179B784CE429678"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DF7F0B8C49C908E",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:plant_fertilizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10112F48440BCDD1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EA0158D35E2C486",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.66883d,
+      "y": 11.61441d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F0609A8D218A106",
+      "title": "Potion Brewer",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:potion_brewer"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Potion Brewer. Item inputs include Repeater, Brewing Stand. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19DA926875B9B22F",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:potion_brewer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D66970FF4E2C69",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15B39F6988B15B22",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.27971d,
+      "y": 2.37361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19479A9332E6ABB8",
+      "title": "Purple Laser Lens",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:purple_laser_lens"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Use the Dissolution Chamber to make Purple Laser Lens. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "174E54D3C696D6B6",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:purple_laser_lens"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "117AAD6D16F355FC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16DB7091CAA8E324",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.39286d,
+      "y": 7.09695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1179B784CE429678",
+      "title": "Sewer",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:sewer"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Sewer. Item inputs include Brick, Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16D1FEEF9E03B52D",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:sewer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C369B6E3F4794A5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "139AA620C7F8AB47",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.5269d,
+      "y": 13.16389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AF4EE0D9A169EAF",
+      "title": "Sludge Refiner",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:sludge_refiner"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Sludge Refiner. Item inputs include Bucket, Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F397B8961715686",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:sludge_refiner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A77C3CED678D07A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E515146586CF133",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.94236d,
+      "y": 14.87651d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "128E52C295465D53",
+      "title": "Stasis Chamber",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:stasis_chamber"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Stasis Chamber. Item inputs include Ghast Tear, Piston, Soul Sand. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "135366181DDADE32",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:stasis_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17A0AF0555DFD5F6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1280AC64CB476D1D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.44286d,
+      "y": 7.09695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D1CB4FFEB06FD8F",
+      "title": "Washing Factory",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:washing_factory"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Washing Factory. Item inputs include Furnace, Meat Feeder, Pink Slime Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "119E7BB1C5BD4BEC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12098CC1992DE595",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:washing_factory"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "143E26A96B95F670",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CD79B7BDBEF756E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.6344d,
+      "y": 6.87361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15354A50AA9D7799",
+      "title": "Wither Builder",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:wither_builder"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Wither Builder. Item inputs include Nether Star, Soul Sand, Wither Skeleton Skull. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168C5547F34D1F87"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15E0A257A87B34C1",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:wither_builder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12370F0C17B1DCB9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FD42CA91C191CDE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.72841d,
+      "y": 2.21796d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17C5EDB9D85B07C6",
+      "title": "Hydroponic Simulation Processor",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:hydroponic_simulation_processor",
+        "components": {
+          "industrialforegoing:hydroponic_simulation_processor": {
+
+          }
+        }
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Hydroponic Simulation Processor. Item inputs include Comparator, Observer, Repeater. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CCD44BECE8F7E5A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15A2215A8C6B0C9B",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:hydroponic_simulation_processor",
+            "components": {
+              "industrialforegoing:hydroponic_simulation_processor": {
+
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11D53BA2590B12CC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13B77013EC7CABFB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.24662d,
+      "y": 7.56652d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "119E7BB1C5BD4BEC",
+      "title": "Pink Slime Ingot",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:pink_slime_ingot"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Use the Dissolution Chamber to make Pink Slime Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15DE3320190B7F66"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "109A9009FD9E6D8A",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:pink_slime_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C113D272DCE119",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "192C1E3FD5A0985E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.58791d,
+      "y": 9.65417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B162C7088F67C4",
+      "title": "Item Transporter",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:item_transporter_type"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Item Transporter. Item inputs include Piston, Ender Pearl. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "111A419DE5BD6C92"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "101E1758D4EA1681",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:item_transporter_type"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EAF4DA8B739E125",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A329CEB55CE4517",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.31675d,
+      "y": 9.27941d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D2E4776CE79FE8B",
+      "title": "Conveyor Bouncing Upgrade",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:conveyor_bouncing_upgrade"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Conveyor Bouncing Upgrade. Item inputs include Conveyor Belt, Piston, Slime Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14FC8F86F0749A97"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1594C2F335FBFD1C",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:conveyor_bouncing_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B6BB97F044D50E4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "105F644598018F36",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.02635d,
+      "y": 11.40903d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C33F5240E07F704",
+      "title": "Conveyor Insertion Upgrade",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:conveyor_insertion_upgrade"
+      },
+      "description": [
+        "Check each machine’s working area before running it. Supply its required fluids and energy, and give every output a destination. Range addons can increase both coverage and resource use.",
+        "Craft Conveyor Insertion Upgrade. Item inputs include Conveyor Belt, Hopper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14FC8F86F0749A97"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "156586F5EFA7FC2E",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:conveyor_insertion_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BD707DDCD692732",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19A6AE6BE9234431",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.34683d,
+      "y": 11.61283d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C6DE4998CA50439",
+      "title": "The Mycelial Reactor",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:machine_frame_advanced"
+      },
+      "description": [
+        "Learn about The Mycelial Reactor in the Industrial Foregoing guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1D28DAE492E265B9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1DE791A7D17642E5",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1061020618C0CA89",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.93403d,
+      "y": -0.45404d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13CE604E0A1A0057",
+      "title": "Understanding Ether Gas",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:machine_frame_advanced"
+      },
+      "description": [
+        "Learn about Understanding Ether Gas in the Industrial Foregoing guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "195A7F2561996235"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "19E66059DD6213BD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14AB202CFA12EBDC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.27952d,
+      "y": 4.72014d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F83015C3951630B",
+      "title": "Latex and Plastic? Huh?",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:machine_frame_advanced"
+      },
+      "description": [
+        "Learn about Latex and Plastic? Huh? in the Industrial Foregoing guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1C09A2BC8FB0FE49"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1DD6088694159679",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "178741506DDD138A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.60695d,
+      "y": 17.09635d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B59E2071AAF1C83",
+      "title": "Upgrades",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(industrialforegoing:range_addon_tier_0)item(industrialforegoing:range_addon_tier_1)item(industrialforegoing:range_addon_tier_2)item(industrialforegoing:range_addon_tier_3)item(industrialforegoing:range_addon_tier_4)item(industrialforegoing:range_addon_tier_5)item(industrialforegoing:range_addon_tier_6)item(industrialforegoing:range_addon_tier_7)item(industrialforegoing:range_addon_tier_8)item(industrialforegoing:range_addon_tier_9)item(industrialforegoing:range_addon_tier_10)item(industrialforegoing:range_addon_tier_11)item(industrialforegoing:speed_addon_tier_1)item(industrialforegoing:speed_addon_tier_2)item(industrialforegoing:efficiency_addon_tier_1)item(industrialforegoing:efficiency_addon_tier_2)item(industrialforegoing:processing_addon_tier_1)item(industrialforegoing:processing_addon_tier_2))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "13BB32EE1BE1E624"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(industrialforegoing:range_addon_tier_0)item(industrialforegoing:range_addon_tier_1)item(industrialforegoing:range_addon_tier_2)item(industrialforegoing:range_addon_tier_3)item(industrialforegoing:range_addon_tier_4)item(industrialforegoing:range_addon_tier_5)item(industrialforegoing:range_addon_tier_6)item(industrialforegoing:range_addon_tier_7)item(industrialforegoing:range_addon_tier_8)item(industrialforegoing:range_addon_tier_9)item(industrialforegoing:range_addon_tier_10)item(industrialforegoing:range_addon_tier_11)item(industrialforegoing:speed_addon_tier_1)item(industrialforegoing:speed_addon_tier_2)item(industrialforegoing:efficiency_addon_tier_1)item(industrialforegoing:efficiency_addon_tier_2)item(industrialforegoing:processing_addon_tier_1)item(industrialforegoing:processing_addon_tier_2))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1D1691AB52CDC529",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1495701FEC5EF8BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.98931d,
+      "y": 11.61127d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D338D03768A34F2",
+      "title": "Wrenches that work with IF Machines",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(supplementaries:wrench)item(enderio:yeta_wrench)item(immersiveengineering:hammer)item(justdirethings:ferricore_wrench)item(pneumaticcraft:pneumatic_wrench))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "111A419DE5BD6C92"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(supplementaries:wrench)item(enderio:yeta_wrench)item(immersiveengineering:hammer)item(justdirethings:ferricore_wrench)item(pneumaticcraft:pneumatic_wrench))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F44BB525F46FE21",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14ED703ED959DAC9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.01675d,
+      "y": 9.27941d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "18035B52498A18A6",
+      "linked_quest": "143784710561F643",
+      "x": 7.86042d,
+      "y": 20.56499d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "11417669481F33F9",
+      "linked_quest": "16466B6A8CA26C81",
+      "x": 10.90526d,
+      "y": 11.60971d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1E2E47832F7F2CF3",
+      "linked_quest": "1CE198356B788F3B",
+      "x": 12.22563d,
+      "y": 11.40929d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1C54DB89C7FB42FA",
+      "linked_quest": "1C09A2BC8FB0FE49",
+      "x": 7.86042d,
+      "y": 19.10742d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1558164DC84156C1",
+      "linked_quest": "19B4C76498C9D749",
+      "x": 7.28101d,
+      "y": 17.65112d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1AFE7282DB7C3723",
+      "linked_quest": "177914F9597532F7",
+      "x": 7.28495d,
+      "y": 16.33284d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1A11E3A96551E2EE",
+      "linked_quest": "1C27232107CE5427",
+      "x": 7.44236d,
+      "y": 14.87651d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "116F3D51A809B8CF",
+      "linked_quest": "13BB32EE1BE1E624",
+      "x": 7.98501d,
+      "y": 13.28279d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1C20DAC0F1882220",
+      "linked_quest": "1D220A3F4B042706",
+      "x": 9.4473d,
+      "y": 11.68579d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "10AA03EF89704A90",
+      "linked_quest": "19F69FB0D1A0E451",
+      "x": 9.44342d,
+      "y": 13.16389d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "18E35554E2C30CE2",
+      "linked_quest": "15DE3320190B7F66",
+      "x": 14.1118d,
+      "y": 11.40903d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1B105833752A353D",
+      "linked_quest": "1BF3F08B58EBB12C",
+      "x": 12.16691d,
+      "y": 9.65417d,
+      "size": 1.25d,
+      "shape": "diamond"
+    }
+  ],
+  "images": []
+}

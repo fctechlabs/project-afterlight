@@ -1,0 +1,19 @@
+{
+  "version": 13,
+  "default_consume_items": false,
+  "default_reward_team": true,
+  "default_autoclaim_rewards": "disabled",
+  "progression_mode": "linear",
+  "detection_delay": 20,
+  "grid_scale": 0.5d,
+  "show_lock_icons": true,
+  "drop_book_on_death": false,
+  "drop_loot_crates": false,
+  "emergency_items": [
+    {
+      "id": "minecraft:oak_sapling",
+      "count": 2
+    }
+  ],
+  "emergency_items_cooldown": 300
+}

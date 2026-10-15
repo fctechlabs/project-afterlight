@@ -1,0 +1,2880 @@
+{
+  "id": "15C1EEC1231E2EE7",
+  "filename": "91_undergarden",
+  "title": "The Undergarden",
+  "icon": {
+    "id": "undergarden:catalyst"
+  },
+  "group": "15E451C383170371",
+  "order_index": 68,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "16279F222440F3B3",
+      "title": "Ancient Helmet",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:ancient_helmet"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Ancient Helmet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "11F0DE5758F8A2BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CE7523898F341FE",
+          "type": "item",
+          "item": {
+            "id": "undergarden:ancient_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18394801894FD5E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E705E34864BE246",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.50972d,
+      "y": 6.52222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CF05388123F77A5",
+      "title": "Cloggrum Battleaxe",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:cloggrum_battleaxe"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Cloggrum Battleaxe and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "183AA7D8FB8C9083"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "183B651345889F6C",
+          "type": "item",
+          "item": {
+            "id": "undergarden:cloggrum_battleaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "161FBBE90A0579A3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13CAE560A4502BFC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 5.84722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CE60681EB25A2A6",
+      "title": "Cloggrum Helmet",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:cloggrum_helmet"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Cloggrum Helmet. Item inputs include Cloggrum Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "183AA7D8FB8C9083"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A467F7FD668DC5A",
+          "type": "item",
+          "item": {
+            "id": "undergarden:cloggrum_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "158124E6E4C67686",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17A94D6A09E7B115",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.0625d,
+      "y": 12.51667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A3688F8AA5E942E",
+      "title": "Cloggrum Pickaxe",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:cloggrum_pickaxe"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Cloggrum Pickaxe. Item inputs include Cloggrum Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "183AA7D8FB8C9083"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "177DC18D126B75CD",
+          "type": "item",
+          "item": {
+            "id": "undergarden:cloggrum_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EA13C33C8AB66EB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D7C945890FD4E8F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.31248d,
+      "y": 10.04419d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184F0BA0E12BEFD3",
+      "title": "Forgotten Battleaxe",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:forgotten_battleaxe"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Use a Smithing Table to make Forgotten Battleaxe. Item inputs include Forgotten Ingot, Cloggrum Battleaxe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1777AE6ECAF3C0A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "179412F38A9573DE",
+          "type": "item",
+          "item": {
+            "id": "undergarden:forgotten_battleaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14716114E0436815",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A386CD6BD81D1B2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.65972d,
+      "y": 5.84722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C53B60BEF155D3C",
+      "title": "Forgotten Pickaxe",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:forgotten_pickaxe"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Use a Smithing Table to make Forgotten Pickaxe. Item inputs include Forgotten Ingot, Cloggrum Pickaxe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1777AE6ECAF3C0A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F8A173E9844E06",
+          "type": "item",
+          "item": {
+            "id": "undergarden:forgotten_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1635F0108E1F3AC9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EA2E44F5B1BA319",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86806d,
+      "y": 5.84722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1199691CF0B3E469",
+      "title": "Froststeel Helmet",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:froststeel_helmet"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Froststeel Helmet. Item inputs include Froststeel Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11648E4968B2EE1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17BFA921BACFD01A",
+          "type": "item",
+          "item": {
+            "id": "undergarden:froststeel_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11CDAAF1329286BE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16F377E25CEE9337",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.55972d,
+      "y": 5.17222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A2822021B3604C2",
+      "title": "Froststeel Sword",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:froststeel_sword"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Froststeel Sword. Item inputs include Froststeel Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11648E4968B2EE1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "101B2706835C7777",
+          "type": "item",
+          "item": {
+            "id": "undergarden:froststeel_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BA7FC2A61B9C1F4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "103A9CD8EF299B29",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.50972d,
+      "y": 5.17222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BDAD41F1D92ED57",
+      "title": "Utherium Helmet",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:utherium_helmet"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Utherium Helmet. Item inputs include Utherium Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F3E8E189F3C3F9B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18021F706509BF2B",
+          "type": "item",
+          "item": {
+            "id": "undergarden:utherium_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1696FB90451EA8D6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DF055D0B56121AB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.21806d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F6BDFDB02135F8",
+      "title": "Utherium Sword",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:utherium_sword"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Utherium Sword. Item inputs include Utherium Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F3E8E189F3C3F9B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "158BF9E7AD316C99",
+          "type": "item",
+          "item": {
+            "id": "undergarden:utherium_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5B31E1CF3A09AA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13CF84E09241A7B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.544d,
+      "y": 0.71476d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1317C0A6CD4C39B1",
+      "title": "Blisterberry",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:blisterberry"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Blisterberry and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB14129EC139CA3",
+          "type": "item",
+          "item": {
+            "id": "undergarden:blisterberry"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13EDD68A6A43D86A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FB7029CC9D9E9FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.81528d,
+      "y": 15.59028d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F7C51C0A62B9A0A",
+      "title": "Blisterbomb",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:blisterbomb"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Blisterbomb. Item inputs include Rotten Blisterberry, Twistytwig. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C6114F2B6AB5E5",
+          "type": "item",
+          "item": {
+            "id": "undergarden:blisterbomb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1443E54C6DA8551F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140414FADE6CDA02",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.3428d,
+      "y": 16.3403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BD5A25DE02341D3",
+      "title": "Blood Mushroom",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:blood_mushroom"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Blood Mushroom and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "102C876375A4BC47",
+          "type": "item",
+          "item": {
+            "id": "undergarden:blood_mushroom"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17FA2EF9783574CF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18CAE408F2AE71EF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.14122d,
+      "y": 15.32691d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "134249CD98BA1B3A",
+      "title": "Catalyst",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Catalyst. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1717BDBADABBE900",
+          "type": "item",
+          "item": {
+            "id": "undergarden:catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D563D3EE62F0106",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EB2A0821D9E75ED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.46528d,
+      "y": 17.09028d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11DBA6E70B167BC4",
+      "title": "Crumbling Catalyst",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:crumbling_catalyst"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Crumbling Catalyst. Item inputs include Depthrock. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1777AE6ECAF3C0A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19EA8E60938D84F4",
+          "type": "item",
+          "item": {
+            "id": "undergarden:crumbling_catalyst"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1397EDC363328BE6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BDFE377F107A67A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.07639d,
+      "y": 5.84722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BEDC9C1E5F4856C",
+      "title": "Mysterious Mask",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:denizen_mask"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Mysterious Mask and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "178472489FDF99A5",
+          "type": "item",
+          "item": {
+            "id": "undergarden:denizen_mask"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DCBC60681FB7B5A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E81CDC4CBE1E693",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.52594d,
+      "y": 16.65094d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "180ED5EAF08DCF63",
+      "title": "Mysterious Totem",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:denizen_totem"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Use Infuser Conversion processing to make Mysterious Totem. Item inputs include Ancient Root. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F805DDEE0E101C3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E032D1C5F4441E1",
+          "type": "item",
+          "item": {
+            "id": "undergarden:denizen_totem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19042C467F37F859",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "125F9589FCEFA1EC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.65972d,
+      "y": 1.95139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DACE1CDF4100726",
+      "title": "Droopfruit",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:droopvine_item"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Droopfruit and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1573A9AF13B98C74",
+          "type": "item",
+          "item": {
+            "id": "undergarden:droopvine_item"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C8EC72D48B92B05",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1044B43EC2EEFEFC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.98036d,
+      "y": 14.10536d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14432A077CBC0A1A",
+      "title": "Glitterkelp",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:glitterkelp"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Glitterkelp and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15266C037FA43D47",
+          "type": "item",
+          "item": {
+            "id": "undergarden:glitterkelp"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "149DC3FA242F9FDC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "180B042C9765C061",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.01332d,
+      "y": 16.07801d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1220865D47512CC6",
+      "title": "Gloomgourd",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:gloomgourd"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Gloomgourd and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DD228BEED2DEE41",
+          "type": "item",
+          "item": {
+            "id": "undergarden:gloomgourd"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12F846DF60DADEB2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13031D4CAF32D399",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.56806d,
+      "y": 9.81667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EC5291F3C32F035",
+      "title": "Grongle Sapling",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:grongle_sapling"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Grongle Sapling and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CD06C8E3AB187E9",
+          "type": "item",
+          "item": {
+            "id": "undergarden:grongle_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16497439B15AE600",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1756DE50E6768D04",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.61806d,
+      "y": 9.81667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F792CF1CD318C0F",
+      "title": "Gronglet",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:gronglet"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Gronglet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "126A1531F2810365",
+          "type": "item",
+          "item": {
+            "id": "undergarden:gronglet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120565E0C0AD744A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17C475118D2BD4E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.96806d,
+      "y": 9.81667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BDC3DBFD49C964C",
+      "title": "Indigo Mushroom",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:indigo_mushroom"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Indigo Mushroom and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16F28E91CACD6F88",
+          "type": "item",
+          "item": {
+            "id": "undergarden:indigo_mushroom"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D4F5B4240224864",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17BB65015AC98F44",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.21806d,
+      "y": 11.16667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DA652E2839435F1",
+      "title": "Infuser",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:infuser"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Infuser. Item inputs include Dreadrock, Utheric Cluster. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F805DDEE0E101C3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19FB2EF87894AE08",
+          "type": "item",
+          "item": {
+            "id": "undergarden:infuser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1778AA98C87BE596",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12181B43FDAD324B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86806d,
+      "y": 1.95139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D1B1A18C7847C5B",
+      "title": "Ink Mushroom",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:ink_mushroom"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Ink Mushroom and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11FB95EEAF36DFA5",
+          "type": "item",
+          "item": {
+            "id": "undergarden:ink_mushroom"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1392FE4698715D46",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B31532E923BF9D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.56806d,
+      "y": 11.16667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F805DDEE0E101C3",
+      "title": "Rogdorium",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:rogdorium"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Smelt Rogdorium. Item inputs include Dreadrock Rogdorium Ore. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C53B60BEF155D3C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12BA0980895E3DBD",
+          "type": "item",
+          "item": {
+            "id": "undergarden:rogdorium"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C8170310EF3D75D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "163A0470C283EEB1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86806d,
+      "y": 3.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB2C0359416344D",
+      "title": "Slingshot",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:slingshot"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Slingshot. Item inputs include Twistytwig. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "162D6242DED906FA",
+          "type": "item",
+          "item": {
+            "id": "undergarden:slingshot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1744AB8C278FB1F8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16BF81CE3E5D834A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.51806d,
+      "y": 13.86667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB6D12C416730F7",
+      "title": "Smogstem Sapling",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:smogstem_sapling"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Smogstem Sapling and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B3A96860F680F90",
+          "type": "item",
+          "item": {
+            "id": "undergarden:smogstem_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A0C81D3B1494FC1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FF4AEEBAE843E23",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.86806d,
+      "y": 13.86667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "135B22139A6763C7",
+      "title": "Spear",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:spear"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Spear. Item inputs include Rogdorium. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F805DDEE0E101C3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BA07B1E2F4F4EFC",
+          "type": "item",
+          "item": {
+            "id": "undergarden:spear"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10D12B39D6C4CE05",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19EEEE3B3B88E5DD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.07639d,
+      "y": 1.95139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19C1A66F6EFBFE5D",
+      "title": "Underbeans",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:underbeans"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Underbeans and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A5D9412115D2414",
+          "type": "item",
+          "item": {
+            "id": "undergarden:underbeans"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1748074D9FA1B22B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DBF25072A4B32B0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.91806d,
+      "y": 13.86667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19691D5767642EAF",
+      "title": "Veiled Mushroom",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:veil_mushroom"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Veiled Mushroom and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BE157F887A3F23A",
+          "type": "item",
+          "item": {
+            "id": "undergarden:veil_mushroom"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18272D24BF044B2F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AA0E880E1DF7E6C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.26806d,
+      "y": 13.86667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F03C106D95D65EC",
+      "title": "Wigglewood Sapling",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:wigglewood_sapling"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Obtain Wigglewood Sapling and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BBF2BCB76E8496F",
+          "type": "item",
+          "item": {
+            "id": "undergarden:wigglewood_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AEFA580C8ECBD8E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EFB54DA91AFE9EA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.96806d,
+      "y": 13.86667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "183AA7D8FB8C9083",
+      "title": "Cloggrum Ingot",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:cloggrum_ingot"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Smelt Cloggrum Ingot. Item inputs include Depthrock Cloggrum Ore. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145A0A6D3B40D2C1",
+          "type": "item",
+          "item": {
+            "id": "undergarden:cloggrum_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11E1DE3CA16A314C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15BCDC6857EE3F3C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.0625d,
+      "y": 11.16667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1777AE6ECAF3C0A2",
+      "title": "Forgotten Ingot",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:forgotten_ingot"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Craft Forgotten Ingot. Item inputs include Block of Forgotten Metal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BFAE5E41ADEC2AC",
+          "type": "item",
+          "item": {
+            "id": "undergarden:forgotten_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC133BEF00E067E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CD3D0C2F3E9AA7C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86806d,
+      "y": 11.16667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11648E4968B2EE1F",
+      "title": "Froststeel Ingot",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:froststeel_ingot"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Smelt Froststeel Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D1792ACDD242844",
+          "type": "item",
+          "item": {
+            "id": "undergarden:froststeel_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1882348CABECD8E5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B6949E4A7C03F0B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.86806d,
+      "y": 9.81667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13A402B6036EEE91",
+      "title": "Regalium Crystal",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:regalium_crystal"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Smelt Regalium Crystal. Item inputs include Depthrock Regalium Ore. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18A84C6DE70BEA8E",
+          "type": "item",
+          "item": {
+            "id": "undergarden:regalium_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15C7808135298D29",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "141445BE0F50C3EF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.86806d,
+      "y": 12.51667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F3E8E189F3C3F9B",
+      "title": "Utherium Crystal",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:utherium_crystal"
+      },
+      "description": [
+        "Build a stone-brick portal frame and activate it with the Catalyst. Bring lighting, food, and room for new ores; compare the dimension’s materials and equipment in JEI.",
+        "Blast Utherium Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DA652E2839435F1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12A55DBCF4D01CE0",
+          "type": "item",
+          "item": {
+            "id": "undergarden:utherium_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "106F3CC8CABA0682",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1635FA35038D2062",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86806d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "168796780F8936B6",
+      "title": "Welcome to the Undergarden!",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:goo_ball"
+      },
+      "description": [
+        "Enter Undergarden. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "134249CD98BA1B3A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "undergarden:undergarden",
+          "type": "dimension",
+          "id": "1AFD24169F74A0B8",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10DD19E8E885AF74",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.46528d,
+      "y": 15.59028d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1877F29551FECFB4",
+      "title": "Rotling",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:rotling",
+          "type": "kill",
+          "value": 1,
+          "id": "1D55FDE9B6763DDE",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0923CEE60F0EE0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.91806d,
+      "y": 12.51667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19FEABE86DD80999",
+      "title": "Rotwalker",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:rotwalker",
+          "type": "kill",
+          "value": 1,
+          "id": "171C131F529C6A54",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14848EB784D3D48E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.26806d,
+      "y": 12.51667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1460CAB9DE152251",
+      "title": "Rotbeast",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:rotbeast",
+          "type": "kill",
+          "value": 1,
+          "id": "1710ED6AC10D9990",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DD496D14743BE5F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.21806d,
+      "y": 12.51667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BB49B6B2C6FC70B",
+      "title": "Muncher",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:muncher",
+          "type": "kill",
+          "value": 1,
+          "id": "1CA976787311A204",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "169F3A8132B9D91E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.26806d,
+      "y": 11.16667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184E3B7EC130FE80",
+      "title": "Stoneborn",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:stoneborn",
+          "type": "kill",
+          "value": 1,
+          "id": "10DDB7601CA9FAA4",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15C17EECB2BE0939",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.56806d,
+      "y": 13.86667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1936BB12B867529B",
+      "title": "Gloomper",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:gloomper",
+          "type": "kill",
+          "value": 1,
+          "id": "1F77668374E76A6A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E23DCC7F4EAD43",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.91806d,
+      "y": 9.81667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14F9C6B73E0658F2",
+      "title": "Nargoyle",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:nargoyle",
+          "type": "kill",
+          "value": 1,
+          "id": "173F6F50FBA346A3",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BCC0CB8E7120500",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.51806d,
+      "y": 12.51667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "111348B3FCC0A975",
+      "title": "Scintling",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:scintling",
+          "type": "kill",
+          "value": 1,
+          "id": "1FBB14E08E2364AD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AF25E5C70363A1B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.96806d,
+      "y": 12.51667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CF731AC9990E8E7",
+      "title": "Sploogie",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:sploogie",
+          "type": "kill",
+          "value": 1,
+          "id": "1ECBCEF195FEF2C3",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F8C78F8CD57E055",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.21806d,
+      "y": 13.86667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D82850A2E17A5F6",
+      "title": "Gwibling",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:gwibling",
+          "type": "kill",
+          "value": 1,
+          "id": "170AAEBB35EA311A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C0EDD78EC3509B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.86806d,
+      "y": 11.16667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "136917658E4A4AF9",
+      "title": "Gwib",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:gwib",
+          "type": "kill",
+          "value": 1,
+          "id": "1A5B59B42DBB6B20",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "150733704A8517D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.51806d,
+      "y": 11.16667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1165C6F5D65333FD",
+      "title": "Mog",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:mog",
+          "type": "kill",
+          "value": 1,
+          "id": "1B5C853E74AE0E94",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C7DBD6D89C640C9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.91806d,
+      "y": 11.16667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F2E387777ADB45B",
+      "title": "S'Mog",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:smog_mog",
+          "type": "kill",
+          "value": 1,
+          "id": "15579F909401B9BA",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15C6C08A6D2A8C7E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.61806d,
+      "y": 12.51667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11F0DE5758F8A2BD",
+      "title": "Forgotten",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:forgotten",
+          "type": "kill",
+          "value": 3,
+          "id": "1EE6FA5B163D5860",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19A0339DE7ED97FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.07639d,
+      "y": 11.16667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "172D637E735D2D60",
+      "title": "Forgotten Guardian",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:forgotten_guardian",
+          "type": "kill",
+          "value": 1,
+          "id": "15D8DF7D1BA57026",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F22D669A478CA58",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.96806d,
+      "y": 8.46667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10CDCDE217F293FC",
+      "title": "Forgotten Minions",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:forgotten_block"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in The Undergarden."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "icon": {
+            "components": {
+              "draconicevolution:soul_id": "undergarden:minion"
+            },
+            "id": "draconicevolution:mob_soul"
+          },
+          "observation_type": "entity_type",
+          "observe_type": 5,
+          "timer": 0,
+          "to_observe": "undergarden:minion",
+          "type": "observation",
+          "id": "18FB52F52C2C5FC2",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CB712F4473D5CC3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.51806d,
+      "y": 9.81667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1685DB591A6D395E",
+      "title": "Dweller",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:dweller",
+          "type": "kill",
+          "value": 1,
+          "id": "152CBF5AC919E739",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10A3A9B3EA7EFD33",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.61806d,
+      "y": 8.46667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A8E761E1CB7DAB",
+      "title": "Brutes",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:brute",
+          "type": "kill",
+          "value": 1,
+          "id": "147887805CFEAB77",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "114EFA7E65FC027B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.56806d,
+      "y": 8.46667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D70106BFACE36C5",
+      "title": "Warning",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "immersiveengineering:warning_sign_attention"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in The Undergarden."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "undergarden:undergarden/contract_utheric_infection",
+          "criterion": "",
+          "type": "advancement",
+          "id": "160F91FFB3A2339D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EE281AC4FCE8A17",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.61806d,
+      "y": 13.86667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "142A09002EC21046",
+      "title": "Rotbelcher",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:rotbelcher",
+          "type": "kill",
+          "value": 1,
+          "id": "1FB5DE868FBC2837",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12953C73C55B76D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.56806d,
+      "y": 12.51667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13B28FE82F84E9CA",
+      "title": "Denizen",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:denizen",
+          "type": "kill",
+          "value": 1,
+          "id": "18A432A0202DF7E0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12AB074875D7146E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.91806d,
+      "y": 8.46667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13FD9EA23E368875",
+      "title": "Greater Dweller",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:greater_dweller",
+          "type": "kill",
+          "value": 1,
+          "id": "1BE616916CF3E993",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEA7D98D388CC20",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.26806d,
+      "y": 9.81667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10C9092A4691D2E7",
+      "title": "Mysterious Pots",
+      "subtitle": "The Undergarden",
+      "icon": {
+        "id": "undergarden:catalyst"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "168796780F8936B6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "undergarden:mysterious_pot",
+          "type": "kill",
+          "value": 1,
+          "id": "1BB38ADD569C1883",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F8F938B7D8C5075",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.96806d,
+      "y": 11.16667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

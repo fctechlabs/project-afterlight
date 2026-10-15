@@ -1,0 +1,2534 @@
+{
+  "id": "1151D1AF878E1F50",
+  "filename": "73_railcraft",
+  "title": "Railcraft",
+  "icon": {
+    "id": "minecraft:minecart"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 51,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "14D1D9F3AF993AFF",
+      "title": "Minecart",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "minecraft:minecart"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Minecart. Item inputs include Minecart Contraption. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11269C68539AB970"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F7B96000C5B50E2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:minecart"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11F090D38AC86CA4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ECE259A5E3C89A5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.08872d,
+      "y": 7.76485d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11269C68539AB970",
+      "title": "Rail",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "minecraft:rail"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Rail. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11C3D3A54D77C6A9",
+          "type": "item",
+          "item": {
+            "id": "minecraft:rail"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EFC5965E202ED16",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C43AB74E9BE4099",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.01568d,
+      "y": 3.66667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E4578DC01CAA7E",
+      "title": "Abandoned Track",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:abandoned_track"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Abandoned Track. Item inputs include Standard Rail, Wooden Tie. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13BCF359DD77488E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16AD68DD2E6315FF",
+          "type": "item",
+          "item": {
+            "id": "railcraft:abandoned_track"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EF78C06F0006898",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1302370E2CD6B99B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.82382d,
+      "y": 1.91114d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17F2D8ED575D7C64",
+      "title": "Advanced Item Loader",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:advanced_item_loader"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Advanced Item Loader. Item inputs include Redstone, Item Loader, Steel Shovel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BE61752E3971BAD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D94DA0D484FD1A",
+          "type": "item",
+          "item": {
+            "id": "railcraft:advanced_item_loader"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19D95689DA8E342E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6F12B1BA0E5047",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.94401d,
+      "y": 8.95529d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16DECCAE95888921",
+      "title": "Advanced Item Unloader",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:advanced_item_unloader"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Advanced Item Unloader. Item inputs include Redstone, Item Unloader, Steel Shovel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AB7FFB700D86F5E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17077EC030771457",
+          "type": "item",
+          "item": {
+            "id": "railcraft:advanced_item_unloader"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19A2779B0A2CE4BF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1335C7D1D95954E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.38337d,
+      "y": 7.44193d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1843BCE2A1F62327",
+      "title": "Blast Furnace Bricks",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:blast_furnace_bricks"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Blast Furnace Bricks. Item inputs include Soul Sand, Nether Brick, Magma Cream. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15A2C6245AFEA5A8",
+          "type": "item",
+          "item": {
+            "id": "railcraft:blast_furnace_bricks"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "113C246EAC66DAC5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F742CDC51CC32D5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.42435d,
+      "y": 15.33948d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11DA5A281FC14143",
+      "title": "Cart Dispenser",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:cart_dispenser"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Cart Dispenser. Item inputs include Dispenser, Minecart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D1D9F3AF993AFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EFDA00947899AD7",
+          "type": "item",
+          "item": {
+            "id": "railcraft:cart_dispenser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EE703A9A7AED787",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1536DF7D1DEFA985",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.55182d,
+      "y": 10.18486d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ACC7F4701564397",
+      "title": "Coke Oven Bricks",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:coke_oven_bricks"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Coke Oven Bricks. Item inputs include Sand, Brick, Clay. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E8F36DAA4E1D263",
+          "type": "item",
+          "item": {
+            "id": "railcraft:coke_oven_bricks"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D65F296B708A226",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A90F00F6088D043",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.54595d,
+      "y": 11.42922d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C84653900A623C",
+      "title": "Coupler Track Kit",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:coupler_track_kit"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Coupler Track Kit. Item inputs include Track Parts, Lead. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16B2B16A82F222C5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C989B5C2474CB33",
+          "type": "item",
+          "item": {
+            "id": "railcraft:coupler_track_kit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14476367156D20B8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1482C7C453DE0DE1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.98085d,
+      "y": 0.27381d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184BFEE0BAA36C61",
+      "title": "Crusher",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:crusher"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Crusher. Item inputs include Diamond, Piston, Charge Motor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14FE1C02F4607BCB",
+          "type": "item",
+          "item": {
+            "id": "railcraft:crusher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D2C0B7D414BBEC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "153F3E99FE737A7D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.89595d,
+      "y": 11.42922d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C365D1A565EFF3",
+      "title": "Electric Locomotive",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:electric_locomotive"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Electric Locomotive. Item inputs include Redstone Lamp, Charge Motor, Nickel-Iron Battery, Nickel-Zinc Battery. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13513F4904E75536"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1917A6A1F5E0D29A",
+          "type": "item",
+          "item": {
+            "id": "railcraft:electric_locomotive"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BA21DAE403A27F3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BCC26356BDD079B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.72569d,
+      "y": -1.38285d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13513F4904E75536",
+      "title": "Electric Track",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:electric_track"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Electric Track. Item inputs include Electric Rail, Stone Railbed. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13BCF359DD77488E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EDC9A84FDC57371",
+          "type": "item",
+          "item": {
+            "id": "railcraft:electric_track"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF97BC035ED1615",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B9BE66AA060A553",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.85069d,
+      "y": -1.37644d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19A96CC38F6F6990",
+      "title": "Fluid Loader",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:fluid_loader"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Fluid Loader. Item inputs include Glass, Hopper, Detector Track Kit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D1D9F3AF993AFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18011BF490009E49",
+          "type": "item",
+          "item": {
+            "id": "railcraft:fluid_loader"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13978DCD1E06B17D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18A8ED08065AD48B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.49024d,
+      "y": 11.84d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "151AE02B3428037A",
+      "title": "Fluid Unloader",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:fluid_unloader"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Fluid Unloader. Item inputs include Glass, Detector Track Kit, Hopper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19A96CC38F6F6990"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17B7AE84B987EE25",
+          "type": "item",
+          "item": {
+            "id": "railcraft:fluid_unloader"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17CA7091803F0876",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1795B432361BB2D9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.08586d,
+      "y": 14.36764d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10644610594D3824",
+      "title": "Frame",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:frame"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Frame. Item inputs include Rebar. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D1D9F3AF993AFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18945C71BBC4A7D9",
+          "type": "item",
+          "item": {
+            "id": "railcraft:frame"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "109B586618456863",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17717771095F8D80",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.4279d,
+      "y": 9.01209d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1059CCC6EF089191",
+      "title": "High Speed Electric Track",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:high_speed_electric_track"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft High Speed Electric Track. Item inputs include High Speed Rail, Stone Railbed, Electric Rail. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13BCF359DD77488E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B24931A3A33628",
+          "type": "item",
+          "item": {
+            "id": "railcraft:high_speed_electric_track"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120F7332687421B0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1731AFCBF78D6B7B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.85069d,
+      "y": -4.02772d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14944E497C9E2DFE",
+      "title": "High Speed Track",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:high_speed_track"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft High Speed Track. Item inputs include High Speed Rail, Stone Railbed. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13BCF359DD77488E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18DEC92A56BEABEE",
+          "type": "item",
+          "item": {
+            "id": "railcraft:high_speed_track"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1781DE0962CF783E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AF84F097D2287CA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.0254d,
+      "y": 0.89775d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1998A83786A77AE8",
+      "title": "Iron Spike Maul",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:iron_spike_maul"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Iron Spike Maul. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11269C68539AB970"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D46D31ED12469C",
+          "type": "item",
+          "item": {
+            "id": "railcraft:iron_spike_maul"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CA91528F8524992",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D79086BE66AE312",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.04112d,
+      "y": 5.12397d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BE61752E3971BAD",
+      "title": "Item Loader",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:item_loader"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Item Loader. Item inputs include Cobblestone, Hopper, Item Cart Detector. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D1D9F3AF993AFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "102DA759D3E18F84",
+          "type": "item",
+          "item": {
+            "id": "railcraft:item_loader"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEF17E00AB47ED1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A2C82FA71E5EDED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.08711d,
+      "y": 8.91943d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AB7FFB700D86F5E",
+      "title": "Item Unloader",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:item_unloader"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Item Unloader. Item inputs include Cobblestone, Item Cart Detector, Hopper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D1D9F3AF993AFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17DC1F6E2988631B",
+          "type": "item",
+          "item": {
+            "id": "railcraft:item_unloader"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14F135FD8394CA3A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E146732F2A1AF72",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.01503d,
+      "y": 8.37202d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19594A7196C1086F",
+      "title": "Manual Rolling Machine",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:manual_rolling_machine"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Manual Rolling Machine. Item inputs include Piston, Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152E148336FC6AB4",
+          "type": "item",
+          "item": {
+            "id": "railcraft:manual_rolling_machine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1960E80B3B3DDB99",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F84B67FC3781C60",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.53992d,
+      "y": 15.41424d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "104A479332DD41A8",
+      "title": "One-Way Track Kit",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:one_way_track_kit"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft One-Way Track Kit. Item inputs include Track Parts, Stone Pressure Plate, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16B2B16A82F222C5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17866ED422A96991",
+          "type": "item",
+          "item": {
+            "id": "railcraft:one_way_track_kit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E4926505807578B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13A9F042A7A3CA78",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.33085d,
+      "y": 0.27381d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F258681A153E805",
+      "title": "Powered Rolling Machine",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:powered_rolling_machine"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Powered Rolling Machine. Item inputs include Piston, Crafting Table, Charge Motor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19594A7196C1086F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1734FE05312928BC",
+          "type": "item",
+          "item": {
+            "id": "railcraft:powered_rolling_machine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17B6A47CC08EA5C7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DF4ABF756965555",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.18919d,
+      "y": 14.21556d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "195BB264E935DE61",
+      "title": "Reinforced Track",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:reinforced_track"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Reinforced Track. Item inputs include Reinforced Rail, Stone Railbed. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13BCF359DD77488E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "127A65E9651C1370",
+          "type": "item",
+          "item": {
+            "id": "railcraft:reinforced_track"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "151E61AC68E896C4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "198E0424349FFEC3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.5007d,
+      "y": -2.67772d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17EE1FB691583184",
+      "title": "Routing Track Kit",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:routing_track_kit"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Routing Track Kit. Item inputs include Track Parts, Ticket, Golden Ticket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16B2B16A82F222C5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "163B0321F217E616",
+          "type": "item",
+          "item": {
+            "id": "railcraft:routing_track_kit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A0490945C08C686",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C57E45DA6DDB666",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.68085d,
+      "y": 0.27381d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A33A1AAA4D6BBF0",
+      "title": "Seasons Crowbar",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:seasons_crowbar"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Obtain Seasons Crowbar and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13C76905720681C3",
+          "type": "item",
+          "item": {
+            "id": "railcraft:seasons_crowbar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159BECDC0E62BD6D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D396622087C3503",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86719d,
+      "y": 15.42098d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12A8AD1D2C39E3E4",
+      "title": "Steam Locomotive",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:steam_locomotive"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Steam Locomotive. Item inputs include Blast Furnace Bricks, Iron Bars, Minecart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D1D9F3AF993AFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1784F814A33967F7",
+          "type": "item",
+          "item": {
+            "id": "railcraft:steam_locomotive"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CF6B1EB86665B4F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "120625341583BFF1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.00957d,
+      "y": 7.28758d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "122CE71F05C42EA3",
+      "title": "Steam Oven",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:steam_oven"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Steam Oven. Item inputs include Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10127080CD70F8DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15468D60525FA8D4",
+          "type": "item",
+          "item": {
+            "id": "railcraft:steam_oven"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "157035F08A91EECF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1421C3DEA694A87E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.22477d,
+      "y": 12.8998d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F6B52BCDFAD5306",
+      "title": "Steel Crowbar",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:steel_crowbar"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Steel Crowbar. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11269C68539AB970"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D083139B2EEC42",
+          "type": "item",
+          "item": {
+            "id": "railcraft:steel_crowbar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "110803B71413585F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C4AD295E4554316",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.74398d,
+      "y": 3.70788d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C4E913CF7196493",
+      "title": "Strap Iron Track",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:strap_iron_track"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Strap Iron Track. Item inputs include Wooden Rail, Wooden Railbed. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13BCF359DD77488E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA26088FD3C538E",
+          "type": "item",
+          "item": {
+            "id": "railcraft:strap_iron_track"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1763A35CBA82809D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A48D467ABC7FF9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.85069d,
+      "y": -2.67772d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A0F9FC77CE272C",
+      "title": "Switch Track Lever",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:switch_track_lever"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Switch Track Lever. Item inputs include Bone Meal, Piston, Lever, Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1595E443D65880A0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1515D8D83BB58F96",
+          "type": "item",
+          "item": {
+            "id": "railcraft:switch_track_lever"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "178665EAEDBAD624",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1509466C3A02BA37",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.6405d,
+      "y": 4.79987d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16B2B16A82F222C5",
+      "title": "Track Parts",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:track_parts"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Use Rolling processing to make Track Parts. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11269C68539AB970"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EAC763063D4D732",
+          "type": "item",
+          "item": {
+            "id": "railcraft:track_parts"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B3E504281BBB4DD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EE2B74E27D919EE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.30632d,
+      "y": 2.48155d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E12059464668889",
+      "title": "Train Dispenser",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:train_dispenser"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Train Dispenser. Item inputs include Redstone, Cart Dispenser. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11DA5A281FC14143"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10FB4A9A53AD0215",
+          "type": "item",
+          "item": {
+            "id": "railcraft:train_dispenser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ECAE6DAC9266E9B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D20023CE32F8D2C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.5394d,
+      "y": 11.27729d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18B0311C9C939D22",
+      "title": "Tunnel Bore",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:tunnel_bore"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Tunnel Bore. Item inputs include Minecart, Furnace, Chest Minecart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CA2A38FD3505125"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DAB94CFE9560A37",
+          "type": "item",
+          "item": {
+            "id": "railcraft:tunnel_bore"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10151B2241D264FB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "163EB632736A2BF4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.38402d,
+      "y": 6.11993d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1077A4B773705136",
+      "title": "Whistle Track Kit",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:whistle_track_kit"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Whistle Track Kit. Item inputs include Track Parts, Note Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16B2B16A82F222C5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "162FEF112924DC39",
+          "type": "item",
+          "item": {
+            "id": "railcraft:whistle_track_kit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17822A7948C5ACE7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AFBC03531C16772",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.03085d,
+      "y": 1.62381d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1514AFF76914950E",
+      "title": "Turbine Rotor",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:turbine_rotor"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Turbine Rotor. Item inputs include Turbine Disk. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10127080CD70F8DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1662EED67DB4A199",
+          "type": "item",
+          "item": {
+            "id": "railcraft:turbine_rotor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C31485E30701586",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D294BA209FBB153",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.21795d,
+      "y": 11.5778d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B53D71C4DD20DBB",
+      "title": "Water Tank Siding",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "railcraft:water_tank_siding"
+      },
+      "description": [
+        "Plan the railway before placing special tracks. Give trains a safe stopping area, then add routing, loading, and fuel systems. Use small test routes to check signals and destinations.",
+        "Craft Water Tank Siding. Item inputs include Slime Ball. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "161F7361AC1F018A",
+          "type": "item",
+          "item": {
+            "id": "railcraft:water_tank_siding"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16A100D7D8120FD6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F429B7BCCD6BCD2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.19595d,
+      "y": 12.77922d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13BCF359DD77488E",
+      "title": "Rails!",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:wooden_rail)item(railcraft:standard_rail)item(railcraft:advanced_rail)item(railcraft:reinforced_rail)item(railcraft:high_speed_rail)item(railcraft:electric_rail))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "11269C68539AB970"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:wooden_rail)item(railcraft:standard_rail)item(railcraft:advanced_rail)item(railcraft:reinforced_rail)item(railcraft:high_speed_rail)item(railcraft:electric_rail))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1EE953275B74559A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B653CF11D020CBD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.29866d,
+      "y": 1.16112d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1595E443D65880A0",
+      "title": "Wye Tracks",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:abandoned_wye_track)item(railcraft:iron_wye_track)item(railcraft:strap_iron_wye_track)item(railcraft:reinforced_wye_track)item(railcraft:electric_wye_track)item(railcraft:high_speed_wye_track)item(railcraft:high_speed_electric_wye_track))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1998A83786A77AE8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:abandoned_wye_track)item(railcraft:iron_wye_track)item(railcraft:strap_iron_wye_track)item(railcraft:reinforced_wye_track)item(railcraft:electric_wye_track)item(railcraft:high_speed_wye_track)item(railcraft:high_speed_electric_wye_track))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F118881DDC93F6A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C52C9D1406F00E9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.85069d,
+      "y": 2.5048d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13ECB1145134759F",
+      "title": "Turnout Tracks",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:abandoned_turnout_track)item(railcraft:iron_turnout_track)item(railcraft:strap_iron_turnout_track)item(railcraft:reinforced_turnout_track)item(railcraft:electric_turnout_track)item(railcraft:high_speed_turnout_track)item(railcraft:high_speed_electric_turnout_track))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1998A83786A77AE8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:abandoned_turnout_track)item(railcraft:iron_turnout_track)item(railcraft:strap_iron_turnout_track)item(railcraft:reinforced_turnout_track)item(railcraft:electric_turnout_track)item(railcraft:high_speed_turnout_track)item(railcraft:high_speed_electric_turnout_track))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1EAFA0A2D39BD664",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16AC120A45541689",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.85069d,
+      "y": 5.05926d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "114C6F5F5CAE5A78",
+      "title": "Junction Tracks",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:abandoned_junction_track)item(railcraft:iron_junction_track)item(railcraft:strap_iron_junction_track)item(railcraft:reinforced_junction_track)item(railcraft:electric_junction_track)item(railcraft:high_speed_junction_track)item(railcraft:high_speed_electric_junction_track))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1998A83786A77AE8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:abandoned_junction_track)item(railcraft:iron_junction_track)item(railcraft:strap_iron_junction_track)item(railcraft:reinforced_junction_track)item(railcraft:electric_junction_track)item(railcraft:high_speed_junction_track)item(railcraft:high_speed_electric_junction_track))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1EC2094E326501EE",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1247111207F252D1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.85069d,
+      "y": 3.73726d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CA2A38FD3505125",
+      "title": "Tunnel Bore, Bore Head",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:iron_tunnel_bore_head)item(railcraft:bronze_tunnel_bore_head)item(railcraft:steel_tunnel_bore_head)item(railcraft:diamond_tunnel_bore_head))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "14D1D9F3AF993AFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:iron_tunnel_bore_head)item(railcraft:bronze_tunnel_bore_head)item(railcraft:steel_tunnel_bore_head)item(railcraft:diamond_tunnel_bore_head))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F12C1959DD66FC4",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C9D9BC79C87EBDF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.29979d,
+      "y": 7.56931d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED3B4438AB4964A",
+      "title": "New Carts",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:tank_minecart)item(railcraft:energy_minecart))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "14D1D9F3AF993AFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:tank_minecart)item(railcraft:energy_minecart))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "18D78F8A0FDE05D8",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11CED06278BA2184",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.2112d,
+      "y": 8.51487d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10B6921BEBA8D767",
+      "title": "Carts and Tracks",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:track_layer)item(railcraft:track_relayer)item(railcraft:track_remover)item(railcraft:track_undercutter))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "14D1D9F3AF993AFF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:track_layer)item(railcraft:track_relayer)item(railcraft:track_remover)item(railcraft:track_undercutter))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1787E798E5324987",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17718FE97A4BD802",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.00957d,
+      "y": 5.93758d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E600103F8CCA197",
+      "title": "Track Kits for stopping Carts",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:locking_track_kit)item(railcraft:gated_track_kit)item(railcraft:buffer_stop_track_kit))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "16B2B16A82F222C5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:locking_track_kit)item(railcraft:gated_track_kit)item(railcraft:buffer_stop_track_kit))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "142A608450E4FB36",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F159E982BD2796C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.33085d,
+      "y": 1.62381d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1444384547A1BEE1",
+      "title": "Track Kits for moving Carts",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:transition_track_kit)item(railcraft:booster_track_kit)item(railcraft:control_track_kit)item(railcraft:throttle_track_kit)item(railcraft:launcher_track_kit))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "16B2B16A82F222C5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:transition_track_kit)item(railcraft:booster_track_kit)item(railcraft:control_track_kit)item(railcraft:throttle_track_kit)item(railcraft:launcher_track_kit))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "180838F18F1718E2",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D8D0D87EB19C1AB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.03085d,
+      "y": 0.27381d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11470DDEE45BAE01",
+      "title": "Track Kits for using Redstone",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:activator_track_kit)item(railcraft:detector_track_kit))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "16B2B16A82F222C5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:activator_track_kit)item(railcraft:detector_track_kit))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1BD149288B292A56",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198E89480F0BE748",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.68085d,
+      "y": 1.62381d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F97F229B9E03E01",
+      "title": "Track Kits for moving entities",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:embarking_track_kit)item(railcraft:disembarking_track_kit)item(railcraft:dumping_track_kit))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "16B2B16A82F222C5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:embarking_track_kit)item(railcraft:disembarking_track_kit)item(railcraft:dumping_track_kit))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1D19315D4D067997",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E65083CA03B5242",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.98085d,
+      "y": 1.62381d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10127080CD70F8DD",
+      "title": "Boilers",
+      "subtitle": "Railcraft",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(railcraft:low_pressure_steam_boiler_tank)item(railcraft:high_pressure_steam_boiler_tank))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1A8958F60F0ED0E9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:low_pressure_steam_boiler_tank)item(railcraft:high_pressure_steam_boiler_tank))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "15396053FBDD7B11",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(railcraft:solid_fueled_firebox)item(railcraft:fluid_fueled_firebox))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "152DA4735E043F1B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15C842C5ED3D4B92",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86192d,
+      "y": 14.09898d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A98AD840563AF5",
+      "title": "Color Legend",
+      "subtitle": "Railcraft",
+      "icon": {
+        "id": "minecraft:minecart"
+      },
+      "description": [
+        "Learn about Color Legend in the Railcraft guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1805713E8CD38216",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16610D5CE511E310",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.3185d,
+      "y": 4.77465d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "12D2A84D628E14B2",
+      "linked_quest": "1A8958F60F0ED0E9",
+      "x": 0.94097d,
+      "y": 14.09224d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

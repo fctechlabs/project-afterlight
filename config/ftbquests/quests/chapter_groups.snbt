@@ -1,0 +1,32 @@
+{
+  "chapter_groups": [
+    {
+      "id": "1770D93DCD8CF55A",
+      "title": "Main Quests"
+    },
+    {
+      "id": "1907149C93679AEB",
+      "title": "The Basics"
+    },
+    {
+      "id": "15B6D172F32874EB",
+      "title": "Technology"
+    },
+    {
+      "id": "1C597D90078AA969",
+      "title": "Magic"
+    },
+    {
+      "id": "131BB24FE37118D4",
+      "title": "Resource Production"
+    },
+    {
+      "id": "11571B65BE4FCDDE",
+      "title": "Building and Utilities"
+    },
+    {
+      "id": "15E451C383170371",
+      "title": "Exploration"
+    }
+  ]
+}

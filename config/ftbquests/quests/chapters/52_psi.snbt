@@ -1,0 +1,2896 @@
+{
+  "id": "18D05DD43ADBC9B6",
+  "filename": "52_psi",
+  "title": "Psi",
+  "icon": {
+    "id": "psi:cad_assembler"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 34,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1D0762E6E95736D9",
+      "title": "CAD Assembler",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_assembler"
+      },
+      "description": [
+        "Start with an iron CAD. The assembler combines a chassis, core, and socket; Psi’s own tutorial controls spell-piece unlocks."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C27A67E504F6424",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_assembler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15AF5EEDEAD7CD74",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1650FD3345EA23B9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.83583d,
+      "y": 1.44715d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14331928C53C6065",
+      "tasks": [
+        {
+          "id": "1DEE3035BA309F43",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_assembly_iron"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C8F6513DF3039D1",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1776846431CE5034",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Iron CAD Assembly",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_assembly_iron"
+      },
+      "description": [
+        "Prepare the first CAD chassis. Inspect each component in the assembler before committing to the build."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 10.50171d,
+      "y": 1.93585d,
+      "dependencies": [
+        "1D0762E6E95736D9"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C34EDF50B2D9B97",
+      "tasks": [
+        {
+          "id": "111A908BE5F59132",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_core_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FA364EA079796BB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D88E6A1FB10CD58",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Basic CAD Core",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_core_basic"
+      },
+      "description": [
+        "The core limits spell complexity. Begin with a small spell and upgrade when its requirements exceed this core."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 10.80919d,
+      "y": 3.48693d,
+      "dependencies": [
+        "1D0762E6E95736D9"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E40B84A01129D9B",
+      "tasks": [
+        {
+          "id": "1D9BDA0AD8BB3A63",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_socket_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17DBFE5FD1ACC47E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "11297488408CE896",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Basic CAD Socket",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_socket_basic"
+      },
+      "description": [
+        "The socket holds spell bullets. Choose a simple bullet for the first CAD."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 10.94236d,
+      "y": 5.05459d,
+      "dependencies": [
+        "1D0762E6E95736D9"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B6BB7B81E88CD38",
+      "title": "Your First CAD",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad",
+        "components": {
+          "psi:components": [
+            "psi:cad_assembly_iron",
+            "psi:cad_core_basic",
+            "psi:cad_socket_basic",
+            "minecraft:air",
+            "minecraft:air"
+          ]
+        }
+      },
+      "description": [
+        "Assemble and equip a CAD. Follow Psi’s built-in tutorial before attempting advanced spell pieces."
+      ],
+      "dependencies": [
+        "14331928C53C6065",
+        "1C34EDF50B2D9B97",
+        "1E40B84A01129D9B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FCD4B341B490E23",
+          "type": "item",
+          "item": {
+            "id": "psi:cad"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15F829ED24EBEEDA",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1B2268BE5EA578FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.91388d,
+      "y": 3.51735d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16357EF6E847D9AA",
+      "title": "Spell Programmer",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:programmer"
+      },
+      "description": [
+        "Place the programmer and use it to assemble a spell. Its error display identifies incompatible inputs and excessive cost."
+      ],
+      "dependencies": [
+        "1B6BB7B81E88CD38"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16E68F6268670CCB",
+          "type": "item",
+          "item": {
+            "id": "psi:programmer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1850BFD321D0D067",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "198E74D53122B0A1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.59328d,
+      "y": 4.07721d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1994BC722AD18A01",
+      "tasks": [
+        {
+          "id": "1C2ECD2FD3AAF69E",
+          "type": "item",
+          "item": {
+            "id": "psi:spell_bullet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DA1A1B5A3DF5F22",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "168A45AAAA8675CE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Spell Bullet",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:spell_bullet"
+      },
+      "description": [
+        "Store a valid program in a spell bullet, then install it in the CAD. A blank bullet is only a container."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.68192d,
+      "y": 5.61585d,
+      "dependencies": [
+        "16357EF6E847D9AA"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12046849F3E9A36E",
+      "tasks": [
+        {
+          "id": "1DA3FDBDB11A5456",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "130E79FE896CA064",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "13F9AB8A43A21719",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Cast a Working Spell",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad",
+        "components": {
+          "psi:components": [
+            "psi:cad_assembly_iron",
+            "psi:cad_core_basic",
+            "psi:cad_socket_basic",
+            "minecraft:air",
+            "minecraft:air"
+          ]
+        }
+      },
+      "description": [
+        "Program, install, and cast one valid spell. Confirm that it does what you intended, then mark this lesson complete."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.94215d,
+      "y": 7.3242d,
+      "dependencies": [
+        "1994BC722AD18A01"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1266722435F376CA",
+      "title": "Psidust",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psidust"
+      },
+      "description": [
+        "Unlock the introductory infusion trick in Psi’s tutorial and use it to produce Psidust."
+      ],
+      "dependencies": [
+        "12046849F3E9A36E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11CCE66EEF077BDE",
+          "type": "item",
+          "item": {
+            "id": "psi:psidust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E86C5265F8D8C1",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "161281F54B5B5F96",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.61583d,
+      "y": 8.6462d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13AF1BE04913F57E",
+      "tasks": [
+        {
+          "id": "1FAAD45D6B2C1A0F",
+          "type": "item",
+          "item": {
+            "id": "psi:psimetal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1706562165830E77",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1672655C1F8C5326",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Psimetal",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal"
+      },
+      "description": [
+        "Continue the infusion lessons and produce Psimetal. This opens stronger CAD hardware and Psi tools."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 9.30483d,
+      "y": 9.99055d,
+      "dependencies": [
+        "1266722435F376CA"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19CB0F1CD7311802",
+      "tasks": [
+        {
+          "id": "10CB694560A2363D",
+          "type": "item",
+          "item": {
+            "id": "psi:psigem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14123145124387C4",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "102B9813A5492787",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Psigem",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psigem"
+      },
+      "description": [
+        "Reach the appropriate infusion lesson and make Psigem. Advanced component recipes use this material."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 12.03804d,
+      "y": 9.21521d,
+      "dependencies": [
+        "13AF1BE04913F57E"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "174376F0806B05BC",
+      "tasks": [
+        {
+          "id": "1AA66A3F87C8446D",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_assembly_gold"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A98E1E79445A582",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1EBB0AC1E8D383C6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Gold CAD Assembly",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_assembly_gold"
+      },
+      "description": [
+        "Compare this chassis with the iron assembly in the assembler. Choose hardware for the spell you intend to run."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 10.50008d,
+      "y": 0.31597d,
+      "dependencies": [
+        "14331928C53C6065"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17EE073178E87AE6",
+      "tasks": [
+        {
+          "id": "1B7BA83DA60A8867",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_assembly_psimetal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1385749B716E3A61",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "159C5EDEFCE773EF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Psimetal CAD Assembly",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_assembly_psimetal"
+      },
+      "description": [
+        "Upgrade the chassis and rebuild the CAD with compatible components."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 8.6763d,
+      "y": 11.78147d,
+      "dependencies": [
+        "13AF1BE04913F57E"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B866229E712150D",
+      "tasks": [
+        {
+          "id": "19DB1BE80E8836AE",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_core_conductive"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11E56B92ECD7C6A3",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1CEDD04415580F76",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Conductive Core",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_core_conductive"
+      },
+      "description": [
+        "Compare the core’s statistics with your existing spell. A different core changes the program limits."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.86622d,
+      "y": 11.77992d,
+      "dependencies": [
+        "13AF1BE04913F57E"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "126A0504F50403D6",
+      "tasks": [
+        {
+          "id": "1718E26DE6F3D8B6",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_core_radiative"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F41F029702501A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "16FCE59A1975FB03",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Radiative Core",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_core_radiative"
+      },
+      "description": [
+        "Build another core option and compare it in the assembler. Upgrade to solve a specific spell limit."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.49707d,
+      "y": 13.10192d,
+      "dependencies": [
+        "1B866229E712150D"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "180AF43C8032F80F",
+      "tasks": [
+        {
+          "id": "10A0234CBDD23B30",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_core_overclocked"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "112BC1C16938F62A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "158563D7DC493519",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Overclocked Core",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_core_overclocked"
+      },
+      "description": [
+        "Prepare a higher-tier core for more demanding programs."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 15.11417d,
+      "y": 6.84279d,
+      "dependencies": [
+        "19CB0F1CD7311802"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16A28D3BFE022764",
+      "tasks": [
+        {
+          "id": "1992E14ED818846E",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_core_hyperclocked"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12FA3952807DCD61",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "13819E9D6AA05CCF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Hyperclocked Core",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_core_hyperclocked"
+      },
+      "description": [
+        "Use the top core tier when the program needs it. Check all CAD statistics after rebuilding."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 16.61042d,
+      "y": 7.07165d,
+      "dependencies": [
+        "180AF43C8032F80F"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B92508136B67B05",
+      "tasks": [
+        {
+          "id": "198C425D1C4C5C1C",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_battery_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10C5CAEE2F2AACD8",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "193BB0753193F34A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Basic Battery",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_battery_basic"
+      },
+      "description": [
+        "Add a battery for additional casting capacity. Watch your available Psi during repeated casts."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 9.17897d,
+      "y": 2.17907d,
+      "dependencies": [
+        "1B6BB7B81E88CD38"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AAB43421A1C3353",
+      "tasks": [
+        {
+          "id": "169FF2130DCA50CB",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_battery_extended"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15BF026E4A4E010E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D6C010D8D1FA6A6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Extended Battery",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_battery_extended"
+      },
+      "description": [
+        "Increase the CAD’s stored capacity and test a sequence of casts."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 8.51879d,
+      "y": 1.00151d,
+      "dependencies": [
+        "1B92508136B67B05"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CE27F7FB57055E5",
+      "tasks": [
+        {
+          "id": "1CBDEE98A07BB80F",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_battery_ultradense"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12331CE8DF8184D6",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "145FB891A3BDC523",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ultradense Battery",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_battery_ultradense"
+      },
+      "description": [
+        "Build the highest battery tier for demanding spell sequences."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.85861d,
+      "y": -0.17606d,
+      "dependencies": [
+        "1AAB43421A1C3353"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "125844A60E77D53F",
+      "tasks": [
+        {
+          "id": "1CDCBF4383883DD7",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_socket_large"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D17C74045A96F7E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "19484495D4984547",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Large Socket",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_socket_large"
+      },
+      "description": [
+        "Increase the number of installed spell bullets and practice selecting between them."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 12.26436d,
+      "y": 5.20977d,
+      "dependencies": [
+        "1E40B84A01129D9B"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AAD05373E2D2E94",
+      "tasks": [
+        {
+          "id": "1F8C20391F88D6DC",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_socket_huge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16A5A2868D424DC5",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D65219DB00C3854",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Huge Socket",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_socket_huge"
+      },
+      "description": [
+        "Keep more utility spells available in one CAD."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 13.59783d,
+      "y": 4.99916d,
+      "dependencies": [
+        "125844A60E77D53F"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1894E96BD200E82D",
+      "tasks": [
+        {
+          "id": "129DACF7B96740CB",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_socket_transmissive"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12347641B9C0D9D6",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1B32C3D542B5D497",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Transmissive Socket",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_socket_transmissive"
+      },
+      "description": [
+        "Read this socket’s description before rebuilding. It supports a different way of supplying programs."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 14.9313d,
+      "y": 4.78856d,
+      "dependencies": [
+        "1AAD05373E2D2E94"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ECAB985F0A5E83E",
+      "tasks": [
+        {
+          "id": "1115CD47FE6D1DAA",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_socket_signaling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E5B580337396EAF",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "13A6DEC629A6C8FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Signaling Socket",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_socket_signaling"
+      },
+      "description": [
+        "Explore signaling behavior with a small, safe test program."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 16.26477d,
+      "y": 4.57796d,
+      "dependencies": [
+        "1894E96BD200E82D"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "101B65947EA97018",
+      "tasks": [
+        {
+          "id": "13B18E946A5DE173",
+          "type": "item",
+          "item": {
+            "id": "psi:spell_bullet_projectile"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16DDA46D23A878BC",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "10C4D64005D1AF93",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Projectile Spell Bullet",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:spell_bullet_projectile"
+      },
+      "description": [
+        "Try a projectile form on a disposable target. The execution position differs from an ordinary bullet."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.10098d,
+      "y": 6.1398d,
+      "dependencies": [
+        "1994BC722AD18A01"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1765AF6EA1637A0E",
+      "tasks": [
+        {
+          "id": "12ACEF1350EE9565",
+          "type": "item",
+          "item": {
+            "id": "psi:spell_bullet_grenade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14369A97B3255077",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "15CF1CC2DC82EC5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Grenade Spell Bullet",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:spell_bullet_grenade"
+      },
+      "description": [
+        "Test the delayed form away from machines and other players."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 4.1823d,
+      "y": 6.12776d,
+      "dependencies": [
+        "101B65947EA97018"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17E9B5C9E973166C",
+      "tasks": [
+        {
+          "id": "19111FDE865FFDCA",
+          "type": "item",
+          "item": {
+            "id": "psi:spell_bullet_mine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "199F8FC51BA8E645",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1E05ABE2D4A3AC09",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Mine Spell Bullet",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:spell_bullet_mine"
+      },
+      "description": [
+        "Set up a controlled activation area and confirm the trigger behavior."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.09652d,
+      "y": 4.82029d,
+      "dependencies": [
+        "1994BC722AD18A01"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16325056426D75EB",
+      "tasks": [
+        {
+          "id": "104C757500B82600",
+          "type": "item",
+          "item": {
+            "id": "psi:detonator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DFC9E9A697E6253",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "14D82AC2E724A28E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Detonator",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:detonator"
+      },
+      "description": [
+        "Use the detonator with an appropriate installed program and test its activation range."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 4.45336d,
+      "y": 4.80576d,
+      "dependencies": [
+        "17E9B5C9E973166C"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "146B8A50C9DF3EFA",
+      "tasks": [
+        {
+          "id": "11203AFD0456CE68",
+          "type": "item",
+          "item": {
+            "id": "psi:spell_bullet_circle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "174AE78ABFA45511",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "13B89825AE521655",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Circle Spell Bullet",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:spell_bullet_circle"
+      },
+      "description": [
+        "Experiment with a repeated spatial pattern. Limit the effect while learning the form."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 5.95069d,
+      "y": 3.49854d,
+      "dependencies": [
+        "1994BC722AD18A01"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B01E98E4AB9113E",
+      "tasks": [
+        {
+          "id": "16B00D6C8B6014D7",
+          "type": "item",
+          "item": {
+            "id": "psi:spell_bullet_loop"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1181C4B70199B422",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "10E2432D101468FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Loop Spell Bullet",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:spell_bullet_loop"
+      },
+      "description": [
+        "Budget Psi for repeated execution. Stop the loop before it exhausts your reserves."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 4.63042d,
+      "y": 3.48575d,
+      "dependencies": [
+        "146B8A50C9DF3EFA"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D2A6B807DCD626F",
+      "tasks": [
+        {
+          "id": "13D276024121A982",
+          "type": "item",
+          "item": {
+            "id": "psi:spell_bullet_charge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11E5AC8B70884B92",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "10D09D36FD94C6C4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Charge Spell Bullet",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:spell_bullet_charge"
+      },
+      "description": [
+        "Test a charged casting form and compare it with a normal spell bullet."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.36695d,
+      "y": 3.73078d,
+      "dependencies": [
+        "1994BC722AD18A01"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F73C3D887C7FF92",
+      "tasks": [
+        {
+          "id": "106C112D35DC0294",
+          "type": "item",
+          "item": {
+            "id": "psi:spell_drive"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "183620D220AE579A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D2B5E5936485273",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Spell Drive",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:spell_drive"
+      },
+      "description": [
+        "Save a useful program before editing it. Keep separate copies of working and experimental spells."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.44889d,
+      "y": 2.17803d,
+      "dependencies": [
+        "16357EF6E847D9AA"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17A5E8C4F01797E2",
+      "tasks": [
+        {
+          "id": "19CEDA0DF7B2743D",
+          "type": "item",
+          "item": {
+            "id": "psi:vector_ruler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A214B0EE29DFF6D",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "12BD5924BBB0B7CC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Vector Ruler",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:vector_ruler"
+      },
+      "description": [
+        "Use the ruler to investigate positions and directions for a program."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.53661d,
+      "y": 0.85734d,
+      "dependencies": [
+        "16357EF6E847D9AA"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14A8B469097631E7",
+      "tasks": [
+        {
+          "id": "1F19870FFC67C5E9",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1104EF781F484D52",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1061D3EA9C857224",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "A Controlled Mining Spell",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_pickaxe"
+      },
+      "description": [
+        "Create a spell that breaks only the targeted test block. Confirm its position and limits before using it at your base."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 9.29215d,
+      "y": 7.3242d,
+      "dependencies": [
+        "12046849F3E9A36E"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D55B2427B57BD07",
+      "tasks": [
+        {
+          "id": "19BCB7833F05F802",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FAB7B66E2D21C03",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1BF1E712B4642287",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "A Building Spell",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_shovel"
+      },
+      "description": [
+        "Create a controlled block-placement spell and verify which inventory slot supplies its blocks."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.62015d,
+      "y": 7.46081d,
+      "dependencies": [
+        "12046849F3E9A36E"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "154A47BAD7D1EBE8",
+      "tasks": [
+        {
+          "id": "116D939B3C5489C5",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12F2F055C42D1147",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1C9CC9C60DCCE914",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "A Movement Spell",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_exosuit_boots"
+      },
+      "description": [
+        "Test a movement spell over a platform with a safe landing area. Keep a normal route home."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.42553d,
+      "y": 8.57144d,
+      "dependencies": [
+        "12046849F3E9A36E"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17646F6171A4BA49",
+      "tasks": [
+        {
+          "id": "1EBA15A2374274E4",
+          "type": "item",
+          "item": {
+            "id": "psi:psimetal_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A4978564EB7F9C0",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1DCF32B5DF1C21E4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Psimetal Pickaxe",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_pickaxe"
+      },
+      "description": [
+        "Build a Psi tool and read how it interacts with spell bullets before using it."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 2.57015d,
+      "y": 8.81081d,
+      "dependencies": [
+        "13AF1BE04913F57E"
+      ],
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1631A359584BDE41",
+      "tasks": [
+        {
+          "id": "1895C332BD4CFC5A",
+          "type": "item",
+          "item": {
+            "id": "psi:psimetal_axe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11852285C1DCE32A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1B7026EB43B2CB38",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Psimetal Axe",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_axe"
+      },
+      "description": [
+        "Try a second tool with a program suited to its work."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 2.57015d,
+      "y": 7.46081d,
+      "dependencies": [
+        "17646F6171A4BA49"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12FA543F17BC582E",
+      "tasks": [
+        {
+          "id": "13DB69A683486E13",
+          "type": "item",
+          "item": {
+            "id": "psi:psimetal_shovel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A3ACDA7AED4D06",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1F72A898BDC96C2A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Psimetal Shovel",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_shovel"
+      },
+      "description": [
+        "Prepare a digging tool and test it on a small patch first."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 3.92015d,
+      "y": 8.81081d,
+      "dependencies": [
+        "17646F6171A4BA49"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AC17B59CBAFB6E4",
+      "tasks": [
+        {
+          "id": "1F2AAC7B69B701E0",
+          "type": "item",
+          "item": {
+            "id": "psi:psimetal_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D5D843A7B21FC70",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1E835EB679668AE8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Psimetal Sword",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_sword"
+      },
+      "description": [
+        "Build a combat tool and test the spell interaction in a controlled arena."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 1.44767d,
+      "y": 9.56083d,
+      "dependencies": [
+        "17646F6171A4BA49"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "139665DC5F74DA29",
+      "tasks": [
+        {
+          "id": "11D38094C94846F8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1574092D3DF328FC",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1BE82ED8FE6043C8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Advanced Infusion",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psigem"
+      },
+      "description": [
+        "Complete the relevant higher-level Psi tutorial lessons before attempting ebony and ivory infusion."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 13.36004d,
+      "y": 9.74322d,
+      "dependencies": [
+        "19CB0F1CD7311802"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16D71F3D95F471DC",
+      "tasks": [
+        {
+          "id": "10576F02646A3F19",
+          "type": "item",
+          "item": {
+            "id": "psi:ebony_substance"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CB82B89FCF0ED16",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1803DA40B1F0DC75",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ebony Substance",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:ebony_substance"
+      },
+      "description": [
+        "Use the matching unlocked infusion trick and its specified ingredients."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 13.78465d,
+      "y": 11.07091d,
+      "dependencies": [
+        "139665DC5F74DA29"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16374E191B25E18B",
+      "tasks": [
+        {
+          "id": "1B362D30935BEB2A",
+          "type": "item",
+          "item": {
+            "id": "psi:ivory_substance"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DA49D4AF00CEB89",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "16B5AC76C9224AA3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ivory Substance",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:ivory_substance"
+      },
+      "description": [
+        "Follow the matching ivory infusion lesson and check its conditions."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 14.68092d,
+      "y": 9.74891d,
+      "dependencies": [
+        "139665DC5F74DA29"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1180B615A9B66791",
+      "tasks": [
+        {
+          "id": "1989206D5AB9167D",
+          "type": "item",
+          "item": {
+            "id": "psi:ebony_psimetal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1259DB1C54C92ACB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1EC8B205078DE3B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ebony Psimetal",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:ebony_psimetal"
+      },
+      "description": [
+        "Make the ebony material through Psi’s infusion route."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 13.98445d,
+      "y": 12.40604d,
+      "dependencies": [
+        "16D71F3D95F471DC"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "193FF1DA5662BBC1",
+      "tasks": [
+        {
+          "id": "123EC4B59FE12B29",
+          "type": "item",
+          "item": {
+            "id": "psi:ivory_psimetal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E4B3D03C003868C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D2D4973B0FBC41E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ivory Psimetal",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:ivory_psimetal"
+      },
+      "description": [
+        "Make the ivory material through Psi’s infusion route."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 16.01237d,
+      "y": 9.52591d,
+      "dependencies": [
+        "16374E191B25E18B"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "185A9FB668634CB7",
+      "tasks": [
+        {
+          "id": "1BEDD6FC45967969",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_assembly_ebony_psimetal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16C4D3C9AF064A9B",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1581FDFB198FD1D4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ebony CAD Assembly",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_assembly_ebony_psimetal"
+      },
+      "description": [
+        "Compare the late-game chassis with your existing CAD before rebuilding."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 14.18425d,
+      "y": 13.74117d,
+      "dependencies": [
+        "1180B615A9B66791"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EE56BFF4844284D",
+      "tasks": [
+        {
+          "id": "14D722B481A94996",
+          "type": "item",
+          "item": {
+            "id": "psi:cad_assembly_ivory_psimetal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10ADA5DDD24A1022",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1087FA37F1C2F734",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ivory CAD Assembly",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:cad_assembly_ivory_psimetal"
+      },
+      "description": [
+        "Try the alternate late-game chassis and compare its statistics."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 17.34382d,
+      "y": 9.3029d,
+      "dependencies": [
+        "193FF1DA5662BBC1"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11F2A2463D92669C",
+      "tasks": [
+        {
+          "id": "198B15132C2AE8D3",
+          "type": "item",
+          "item": {
+            "id": "psi:psimetal_exosuit_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11763AFB3FE81309",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "18BD4534C8807994",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Exosuit Helmet",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_exosuit_helmet"
+      },
+      "description": [
+        "Build the first exosuit piece. Read the equipment’s spell and sensor requirements."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.98283d,
+      "y": 10.13178d,
+      "dependencies": [
+        "13AF1BE04913F57E"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C9F58E2AEBF1CD",
+      "tasks": [
+        {
+          "id": "1BC5DAB985AD2EB7",
+          "type": "item",
+          "item": {
+            "id": "psi:psimetal_exosuit_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "151247D5043E3F8F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1203F035F2F4D0B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Exosuit Chestplate",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_exosuit_chestplate"
+      },
+      "description": [
+        "Prepare the chest piece for your exosuit setup."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.63533d,
+      "y": 10.21384d,
+      "dependencies": [
+        "11F2A2463D92669C"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17CE5F05ADD2A81E",
+      "tasks": [
+        {
+          "id": "142D1424974D55B5",
+          "type": "item",
+          "item": {
+            "id": "psi:psimetal_exosuit_leggings"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16FEC52945842AA0",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "102195736A6DBE0A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Exosuit Leggings",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_exosuit_leggings"
+      },
+      "description": [
+        "Complete another armor slot before testing the set."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 5.28782d,
+      "y": 10.2959d,
+      "dependencies": [
+        "12C9F58E2AEBF1CD"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15A2A599F457DCDD",
+      "tasks": [
+        {
+          "id": "1A705AD3F90730AF",
+          "type": "item",
+          "item": {
+            "id": "psi:psimetal_exosuit_boots"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EFFFE02BBF13796",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "19A1707F841D2479",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Exosuit Boots",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:psimetal_exosuit_boots"
+      },
+      "description": [
+        "Finish the armor set and check its installed components."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 3.94032d,
+      "y": 10.37796d,
+      "dependencies": [
+        "17CE5F05ADD2A81E"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13DA122669AF46E0",
+      "tasks": [
+        {
+          "id": "192E6CEF2803A1DE",
+          "type": "item",
+          "item": {
+            "id": "psi:exosuit_controller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15ECC58FBA399ACD",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "103C283542E68250",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Exosuit Controller",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:exosuit_controller"
+      },
+      "description": [
+        "Configure the controller for your equipment. Start with a harmless triggered effect."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 2.59282d,
+      "y": 10.46002d,
+      "dependencies": [
+        "15A2A599F457DCDD"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16D55EEF6C88A8DE",
+      "tasks": [
+        {
+          "id": "12DF15E838D593C8",
+          "type": "item",
+          "item": {
+            "id": "psi:exosuit_sensor_trigger"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10CD168407114EFE",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "12EA635DB12DEBCA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Trigger Sensor",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:exosuit_sensor_trigger"
+      },
+      "description": [
+        "Test explicit activation before adding environmental sensors."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 4.0784d,
+      "y": 12.39778d,
+      "dependencies": [
+        "13DA122669AF46E0"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18742BE5FFFC298A",
+      "tasks": [
+        {
+          "id": "173D5221FD66E2A6",
+          "type": "item",
+          "item": {
+            "id": "psi:exosuit_sensor_heat"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B689244F1B1B98E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "167C5B92993FAF43",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Heat Sensor",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:exosuit_sensor_heat"
+      },
+      "description": [
+        "Use a safe heat source to test when the sensor activates."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 0.05755d,
+      "y": 11.78146d,
+      "dependencies": [
+        "13DA122669AF46E0"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D33EBE1E32AE4B8",
+      "tasks": [
+        {
+          "id": "1D969B41A5323679",
+          "type": "item",
+          "item": {
+            "id": "psi:exosuit_sensor_light"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1352135C5009937A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1EE076A4A273FDC3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Light Sensor",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:exosuit_sensor_light"
+      },
+      "description": [
+        "Test the sensor in bright and dark conditions."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 1.40755d,
+      "y": 11.78146d,
+      "dependencies": [
+        "13DA122669AF46E0"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17C4797917EDFCCD",
+      "tasks": [
+        {
+          "id": "1B04677AF02BE231",
+          "type": "item",
+          "item": {
+            "id": "psi:exosuit_sensor_stress"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E6D82F96F519010",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1C88FEB64A2FD831",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Stress Sensor",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:exosuit_sensor_stress"
+      },
+      "description": [
+        "Read the sensor description and test its trigger under controlled conditions."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 2.75755d,
+      "y": 11.78146d,
+      "dependencies": [
+        "13DA122669AF46E0"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "160060EC746BB073",
+      "tasks": [
+        {
+          "id": "1BC8271EA4558268",
+          "type": "item",
+          "item": {
+            "id": "psi:exosuit_sensor_water"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1496D37B14E26D8F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17DFF0A12B8A96B8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Water Sensor",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:exosuit_sensor_water"
+      },
+      "description": [
+        "Check water-triggered behavior in a shallow, enclosed pool."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 0.09282d,
+      "y": 10.46002d,
+      "dependencies": [
+        "13DA122669AF46E0"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18BD64666F2AEB17",
+      "tasks": [
+        {
+          "id": "107781090E14BEB9",
+          "type": "item",
+          "item": {
+            "id": "psi:flash_ring"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13BDC7815F5BEDC2",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1A31DAFF2C91A722",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Flash Ring",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:flash_ring"
+      },
+      "description": [
+        "Explore another way of accessing your spell setup. Read the item’s instructions before use."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 11.08722d,
+      "y": 12.34236d,
+      "dependencies": [
+        "19CB0F1CD7311802"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FACF599342F201F",
+      "tasks": [
+        {
+          "id": "1B1DAABE131BDFA0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1341391C721A639C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1F9E74FB7B6AEAAA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "A Working Triggered Spell",
+      "subtitle": "Spell Engineering",
+      "icon": {
+        "id": "psi:exosuit_controller"
+      },
+      "description": [
+        "Equip the configured gear and verify one automatic effect. Confirm that the trigger behaves safely before enabling it around your base."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 3.33423d,
+      "y": 14.45346d,
+      "dependencies": [
+        "16D55EEF6C88A8DE"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

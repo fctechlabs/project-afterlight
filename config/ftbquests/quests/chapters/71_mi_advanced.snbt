@@ -1,0 +1,1246 @@
+{
+  "id": "1677C8561A2E6587",
+  "filename": "71_mi_advanced",
+  "title": "Modern Industrialization: Advanced",
+  "icon": {
+    "id": "modern_industrialization:quantum_circuit"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 49,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "155244879B3D63B6",
+      "title": "Quantum Boots",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:quantum_boots"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Packer processing to make Quantum Boots. Item inputs include Netherite Boots, Quantum Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15F9C02B7DEAD5E7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F2B7DEF2D4929A9",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:quantum_boots"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3DD4A168086264",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10AEDE075A0437B2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.17778d,
+      "y": 2.02222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11AB342E166D5AEB",
+      "title": "Quantum Helmet",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:quantum_helmet"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Packer processing to make Quantum Helmet. Item inputs include Netherite Helmet, Quantum Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15F9C02B7DEAD5E7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BAC5F560A8D2DF0",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:quantum_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C73590CCF20901A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "171D495CF0CB5ECF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.96801d,
+      "y": 2.59446d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD58BBF4341A949",
+      "title": "Quantum Leggings",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:quantum_leggings"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Packer processing to make Quantum Leggings. Item inputs include Netherite Leggings, Quantum Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15F9C02B7DEAD5E7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FBA42E3EB953D21",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:quantum_leggings"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A5537751041B244",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14DB6E32154F4125",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.17778d,
+      "y": 0.67222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A053FB894C6E901",
+      "title": "Quantum Sword",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:quantum_sword"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Packer processing to make Quantum Sword. Item inputs include Netherite Sword, Quantum Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15F9C02B7DEAD5E7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D9F5DCDF5B6739",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:quantum_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11F26202CE0D9064",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C0D4F774E877A10",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.45139d,
+      "y": 3.84722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C18E2282F5967FA",
+      "title": "Cryofluid Bucket",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:cryofluid_bucket"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Obtain Cryofluid Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "189A26C855FC8F19"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "110157FA892392BF",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:cryofluid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C96A6E29957DDD6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EE1C3439EDAD797",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.70139d,
+      "y": 1.90278d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B228CAD2752227D",
+      "title": "Helium 3 Bucket",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:helium_3_bucket"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Obtain Helium 3 Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1602360EB57B5230"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14EBF3EB454562F6",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:helium_3_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1A94980DE12A48",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C8F126B68461CC5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 5.59722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CD7E494E3B09336",
+      "title": "Nuke",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:nuke"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Assembler processing to make Nuke. Item inputs include Industrial TNT, Plutonium Ingot, Processing Unit, Nuclear Alloy Plate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15FB1FD83D6FACAD",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:nuke"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B075D326B1CDF26",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AF0C88B065E23D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 6.61111d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A059083CA763D22",
+      "title": "Quantum Machine Hull",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:quantum_machine_hull"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Craft Quantum Machine Hull. Item inputs include Plutonium Battery, Quantum Circuit, Quantum Machine Casing, Superconductor Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DC1E41ADB8BD174"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F5D0BAAB2A56B9",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:quantum_machine_hull"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14044D67833C6F77",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D3BB54A5168A2B7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.95139d,
+      "y": 2.55556d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17553BC2D549838A",
+      "title": "Qubit",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:qubit"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Assembler processing to make Qubit. Item inputs include Arithmetic Logic Unit, Superconductor Wire. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E7115105A969402"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "174D671600F4AD41",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:qubit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C090817EFF81720",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15556E43DDC0610A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.20139d,
+      "y": 3.375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B2511D5FCED1233",
+      "title": "Singularity",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:singularity"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Obtain Singularity and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E9B41B8B6E3251C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CA4B10565E74275",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:singularity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E8B2BD6D39705A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1063A7A575B90705",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.28472d,
+      "y": 4.98611d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1466657E5675B7FD",
+      "title": "Small Heat Exchanger",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:small_heat_exchanger"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Craft Small Heat Exchanger. Item inputs include Stainless Steel Large Plate, Advanced Pump. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "148287D8509220CD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E4C36007EB244E",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:small_heat_exchanger"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C6653C9C59FF9FD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B94AD90F369E28F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.78472d,
+      "y": 6.61111d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E9B41B8B6E3251C",
+      "title": "Ultradense Metal Ball",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:ultradense_metal_ball"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Craft Ultradense Metal Ball. Item inputs include Tungsten Large Plate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1ABFF84B05844018"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13AF100B41E92922",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:ultradense_metal_ball"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19112C151982DD38",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13CC054D16134C46",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.78472d,
+      "y": 4.98611d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17A4F8E69B461D33",
+      "title": "Annealed Copper Ingot",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:annealed_copper_ingot"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Craft Annealed Copper Ingot. Item inputs include Block of Annealed Copper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EAA1DAD57AAC646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "174E4B9FB4940E13",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:annealed_copper_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11F7AF651DF2E357",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1068EB0C5EF74801",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.95139d,
+      "y": 2.65278d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B98111204A99626",
+      "title": "Carbon Dust",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:carbon_dust"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Craft Carbon Dust. Item inputs include Carbon Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1602360EB57B5230"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BC50E273E6CF28A",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:carbon_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C4DCB81F52A4A56",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1255F3DF0B6FE054",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 4.38889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14BA54A73DDFA344",
+      "title": "Carbon Plate",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:carbon_plate"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Compressor processing to make Carbon Plate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B98111204A99626"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "156811606DE27E99",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:carbon_plate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16927D53F3117C55",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10F60E644B53B016",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.45139d,
+      "y": 4.38889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E961DF2C66D6442",
+      "title": "Cooling Cell",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:cooling_cell"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Assembler processing to make Cooling Cell. Item inputs include Small Heat Exchanger. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1466657E5675B7FD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F2FEEE61947DA2",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:cooling_cell"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EAE6068FD0E44B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FF3826C96E68047",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.28472d,
+      "y": 6.61111d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CA03C1CBBC558DA",
+      "title": "Plutonium Battery",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:plutonium_battery"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Craft Plutonium Battery. Item inputs include Superconductor Cable, Battery Alloy Curved Plate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1067D0C2F6A4884A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10AB4EDFF8C65122",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:plutonium_battery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D022ED34928C28",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DE9D3C1F638B106",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.53812d,
+      "y": 2.06973d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E51B908C611F33",
+      "title": "Quantum Chestplate",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:quantum_chestplate"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Packer processing to make Quantum Chestplate. Item inputs include Netherite Chestplate, Quantum Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15F9C02B7DEAD5E7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1694367043D0F687",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:quantum_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E906A577EF5F696",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1106365F8833566F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.45139d,
+      "y": 1.34722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1067D0C2F6A4884A",
+      "title": "Superconductor Cable",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:superconductor_cable"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Craft Superconductor Cable. Item inputs include Superconductor EU Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E7115105A969402"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19D99F0FBE8E3C27",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:superconductor_cable"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1540FC882FA3722B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1075DD62A130716F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.21158d,
+      "y": 2.3203d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E7115105A969402",
+      "title": "Superconductor Ingot",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:superconductor_ingot"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Craft Superconductor Ingot. Item inputs include Superconductor Nugget. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A4F8E69B461D33"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E2675F3F480537",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:superconductor_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16BA28096A09A892",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FA24784B844C7F3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.45139d,
+      "y": 2.65278d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DC1E41ADB8BD174",
+      "title": "Quantum Circuit",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:quantum_circuit"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Craft Quantum Circuit. Item inputs include Processing Unit, Cooling Cell, Qubit, Quantum Circuit Board. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F38352006845DA3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19D61BC43B4FD871",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:quantum_circuit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F9B4B5A230DC93F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13C280A575401F35",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.1912d,
+      "y": 1.56859d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F38352006845DA3",
+      "title": "Quantum Circuit Board",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:quantum_circuit_board"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Assembler processing to make Quantum Circuit Board. Item inputs include Superconductor Cable, Plutonium Battery, Processing Unit Board. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CA03C1CBBC558DA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12BAA97F5AF6C3BC",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:quantum_circuit_board"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D522C4ECAD5845C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C7AD8292035CE6C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.86466d,
+      "y": 1.81916d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15F9C02B7DEAD5E7",
+      "title": "Quantum Upgrade",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:quantum_upgrade"
+      },
+      "description": [
+        "Advanced industrial machinery needs a stable component and energy supply. Check the guidebook for multiblock construction and JEI for voltage, processing time, and fluid requirements.",
+        "Use Assembler processing to make Quantum Upgrade. Item inputs include Highly Advanced Upgrade, Quantum Circuit, Singularity, Quantum Circuit Board. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11AE293A3B2A332E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1882D1F36EC06022",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:quantum_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD53F117B3BC421",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1887350ABB9F5D10",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.45139d,
+      "y": 1.34722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11AE293A3B2A332E",
+      "title": "UU Matter",
+      "subtitle": "Modern Industrialization: Advanced",
+      "icon": {
+        "id": "modern_industrialization:quantum_circuit"
+      },
+      "description": [
+        "Learn about UU Matter in the Modern Industrialization: Advanced guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1DC1E41ADB8BD174"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "16AE7278E315D5E8",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188E2C68F11A2AE0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.95139d,
+      "y": 1.34722d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1F9BE7A3EF59B279",
+      "linked_quest": "189A26C855FC8F19",
+      "x": 1.20139d,
+      "y": 1.90278d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1E2463420C55181C",
+      "linked_quest": "1602360EB57B5230",
+      "x": 0.45139d,
+      "y": 4.98611d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1C0A808884B0D9C5",
+      "linked_quest": "148287D8509220CD",
+      "x": 11.28472d,
+      "y": 6.61111d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "12E6C7943DC1B479",
+      "linked_quest": "1ABFF84B05844018",
+      "x": 11.28472d,
+      "y": 4.98611d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "16D39178F2B5C61E",
+      "linked_quest": "1EAA1DAD57AAC646",
+      "x": 4.45139d,
+      "y": 2.65278d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

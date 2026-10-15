@@ -1,0 +1,1331 @@
+{
+  "id": "11B464A4841E24C4",
+  "filename": "main_mid",
+  "title": "Chapter 3: Working Together",
+  "icon": {
+    "id": "industrialforegoing:machine_frame_advanced"
+  },
+  "group": "1770D93DCD8CF55A",
+  "order_index": 3,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "165B5EE6BF822B01",
+      "title": "Vexing Archwood Sapling",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:purple_archwood_sapling"
+      },
+      "description": [
+        "Combine an Oak Sapling with an Amethyst Shard to make a Vexing Archwood Sapling. Grow it on your island; its logs and planks start your Ars workshop. JEI shows recipes for the other colors."
+      ],
+      "dependencies": [],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "18BF8B46FB5590B8",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:purple_archwood_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CED53743B4C3E0F",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "188D6360B44E477D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -10.0d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A990C9758648E60",
+      "title": "Imbuement Chamber",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:imbuement_chamber"
+      },
+      "description": [
+        "Build an Imbuement Chamber and follow the Source Gem recipe. Later recipes can benefit from a nearby Source supply."
+      ],
+      "dependencies": [
+        "165B5EE6BF822B01"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "12BB2F191468AFB4",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:imbuement_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "115B6B9C7CD997C2",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1B36DB0BC55E9C84",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.5d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19C9E869250CD45D",
+      "title": "Source Gem",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:source_gem"
+      },
+      "description": [
+        "Make Source Gems from the Imbuement Chamber recipe. Keep a renewable supply for jars, links, and essences."
+      ],
+      "dependencies": [
+        "1A990C9758648E60"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1D95AFBF0281E71B",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:source_gem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172447DD3D7662A3",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1E7D88D8A70774BA",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:sourceberry_bush",
+            "count": 1
+          }
+        },
+        {
+          "id": "16F0432158819E1C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.0d,
+      "y": 0.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1250C2120AC73DB0",
+      "title": "Agronomic Sourcelink",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:agronomic_sourcelink"
+      },
+      "description": [
+        "An Agronomic Sourcelink collects Source from nearby crop growth. Supply it with an active farm instead of waiting beside an empty field."
+      ],
+      "dependencies": [
+        "19C9E869250CD45D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A2AEBB810744EA0",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:agronomic_sourcelink"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C864B9B918400A3",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1A57285F9C704D99",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.0d,
+      "y": 1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C5D5333161EB2CD",
+      "title": "Source Jar",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:source_jar"
+      },
+      "description": [
+        "Put a Source Jar in range of the link and workshop. Check transfer range and jar contents when a recipe stalls."
+      ],
+      "dependencies": [
+        "1250C2120AC73DB0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA1283D4CC7F416",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:source_jar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "197F9A2A1F10B501",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "13C02589492868ED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.5d,
+      "y": 1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CE198356B788F3B",
+      "title": "Earth Essence",
+      "subtitle": "Ars Nouveau",
+      "icon": {
+        "id": "ars_nouveau:earth_essence"
+      },
+      "description": [
+        "Use the imbuement recipe for Earth Essence. This is the Ars material required by Industrial Foregoing Advanced Frames."
+      ],
+      "dependencies": [
+        "19C9E869250CD45D"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "144EB0E005D6C5BE",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:earth_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D0731128E5473A",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1C325331746AD4BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.0d,
+      "y": 0.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EFE0A54B27A7EFA",
+      "title": "Certus Quartz Crystal",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:certus_quartz_crystal"
+      },
+      "description": [
+        "Check the skyblock acquisition recipes for Certus Quartz. Save crystal stock for processors and your storage network."
+      ],
+      "dependencies": [],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1877EE0102BBE81F",
+          "type": "item",
+          "item": {
+            "id": "ae2:certus_quartz_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "145BADF5D7F20DF5",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1F9CD4B6BE282D14",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -10.0d,
+      "y": -6.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B940B5496B39BBC",
+      "title": "Fluix Crystal",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:fluix_crystal"
+      },
+      "description": [
+        "Use the Fluix conversion shown in JEI. Keep the ingredients together until the conversion finishes."
+      ],
+      "dependencies": [
+        "1EFE0A54B27A7EFA"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "10C22EDC1006BFB0",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluix_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C555068D678606D",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1C2630A68E1C2BC8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.5d,
+      "y": -6.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C7ABCD2731D35CD",
+      "title": "Inscriber",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:inscriber"
+      },
+      "description": [
+        "Power an Inscriber and make the printed processor parts. AE2 processors are useful before the late crafting gates."
+      ],
+      "dependencies": [
+        "1B940B5496B39BBC"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "18DF17F34499D6C7",
+          "type": "item",
+          "item": {
+            "id": "ae2:inscriber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C258F62A63C444B",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "19DB7BFCD1745E55",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.0d,
+      "y": -6.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1437B9610CF68EAE",
+      "title": "Inscriber Logic Press",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:logic_processor_press"
+      },
+      "description": [
+        "Use the pack's reachable press recipe shown in JEI. Keep presses in the Inscriber; they are reusable tooling."
+      ],
+      "dependencies": [
+        "1C7ABCD2731D35CD"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1690E6E8F6796797",
+          "type": "item",
+          "item": {
+            "id": "ae2:logic_processor_press"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19528F257AB2E44D",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1ABD40ECB19C7F7D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.5d,
+      "y": -6.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C2208D0D4034DB9",
+      "title": "Printed Logic Circuit",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:printed_logic_processor"
+      },
+      "description": [
+        "Use Gold with the Logic Press. The printed circuit must still be combined with Printed Silicon and Redstone."
+      ],
+      "dependencies": [
+        "1437B9610CF68EAE"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "177F809299A86282",
+          "type": "item",
+          "item": {
+            "id": "ae2:printed_logic_processor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13A4BC9DE32B7FC5",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "13D84D3CD8E1DBCD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.25d,
+      "y": -6.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DBFB7000AFEF1CC",
+      "title": "Silicon",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:silicon"
+      },
+      "description": [
+        "Use the reachable Silicon recipe in JEI. Printed Silicon is the shared bottom component of all three processor types."
+      ],
+      "dependencies": [
+        "1EFE0A54B27A7EFA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17BCD983D4F1E8EF",
+          "type": "item",
+          "item": {
+            "id": "ae2:silicon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C2F2BB82C642DCC",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1B981E97360FB207",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.0d,
+      "y": -9.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B2BCD21B236A4AE",
+      "title": "Inscriber Silicon Press",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:silicon_press"
+      },
+      "description": [
+        "Craft the Silicon Press using the skyblock recipe. Like the other presses, it is reusable in the Inscriber."
+      ],
+      "dependencies": [
+        "1C7ABCD2731D35CD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17AB771D15549C50",
+          "type": "item",
+          "item": {
+            "id": "ae2:silicon_press"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1576F5A7A1C96EA3",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "19F4E0A4E36EC450",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.5d,
+      "y": -7.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DAB8539C643EED1",
+      "title": "Printed Silicon",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:printed_silicon"
+      },
+      "description": [
+        "Print Silicon, then combine it with Redstone and the matching printed circuit to finish a processor."
+      ],
+      "dependencies": [
+        "1B2BCD21B236A4AE",
+        "1DBFB7000AFEF1CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C62F350974E19ED",
+          "type": "item",
+          "item": {
+            "id": "ae2:printed_silicon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DA656168080ECDD",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1F7211FC8C986E75",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.0d,
+      "y": -7.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16466B6A8CA26C81",
+      "title": "Logic Processor",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:logic_processor"
+      },
+      "description": [
+        "Finish a Logic Processor in the Inscriber. It contributes to Industrial Foregoing Advanced Frames, End Portal Frames, and late ProjectE crafts."
+      ],
+      "dependencies": [
+        "1C2208D0D4034DB9",
+        "1DAB8539C643EED1"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "133F7201ADAA72CC",
+          "type": "item",
+          "item": {
+            "id": "ae2:logic_processor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C304DB9F9ADA027",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "18AD4FB3F6B03B50",
+          "type": "item",
+          "item": {
+            "id": "minecraft:glass",
+            "count": 16
+          }
+        },
+        {
+          "id": "13CBF372AEC838D9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.5d,
+      "y": -3.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19F69FB0D1A0E451",
+      "title": "Mob Slaughter Factory",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:mob_slaughter_factory"
+      },
+      "description": [
+        "Power this machine facing a contained mob area. Route Liquid Meat and Pink Slime into separate tanks so a full output cannot stop production."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14CC53A51EB9A09D",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:mob_slaughter_factory"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "130B6D1C86491ED7",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "103EB2041668C581",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.5d,
+      "y": -3.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15DE3320190B7F66",
+      "title": "Pink Slime Bucket",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:pink_slime_bucket"
+      },
+      "description": [
+        "Collect a bucket of Pink Slime from the Mob Slaughter Factory. This is the fluid used by the Advanced Machine Frame recipe; reserve the exact amount shown in JEI."
+      ],
+      "dependencies": [
+        "19F69FB0D1A0E451"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "164DF16C7261083B",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:pink_slime_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BCE3EE2F0C66478",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1DD6067DBBD45B8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.5d,
+      "y": -3.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BF3F08B58EBB12C",
+      "title": "Advanced Machine Frame",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:machine_frame_advanced"
+      },
+      "description": [
+        "Make an Advanced Frame with the Simple Frame, Pink Slime, AE2 Logic Processor, Ars Earth Essence, and the remaining ingredients shown in JEI."
+      ],
+      "dependencies": [
+        "1D220A3F4B042706",
+        "15DE3320190B7F66",
+        "16466B6A8CA26C81",
+        "1CE198356B788F3B"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "187BCAEE1C7E4453",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:machine_frame_advanced"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CB7DFFD044A38E4",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1EC5384471FBA63A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": 0.0d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10C36E0AAAEEF782",
+      "title": "Atomic Reconstructor",
+      "subtitle": "Actually Additions",
+      "icon": {
+        "id": "actuallyadditions:atomic_reconstructor"
+      },
+      "description": [
+        "Power the Atomic Reconstructor and place the correct ingredient in its beam. Check the conversion recipes in JEI."
+      ],
+      "dependencies": [],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "14779DAF4DB87A54",
+          "type": "item",
+          "item": {
+            "id": "actuallyadditions:atomic_reconstructor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1420AD719B1BC4AE",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1B7ADE76A2205DB6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.5d,
+      "y": 3.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16171E420825E14D",
+      "title": "Restonia Crystal",
+      "subtitle": "Actually Additions",
+      "icon": {
+        "id": "actuallyadditions:restonia_crystal"
+      },
+      "description": [
+        "Convert Redstone into Restonia Crystals. The ordinary crystal is not the Empowered Restonia used by Afterlight's later crafts."
+      ],
+      "dependencies": [
+        "10C36E0AAAEEF782"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "148A0102E187474C",
+          "type": "item",
+          "item": {
+            "id": "actuallyadditions:restonia_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "153BD815225255BB",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1026A7FC7FDA7ADC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.0d,
+      "y": 3.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A482B267961807D",
+      "title": "Display Stand",
+      "subtitle": "Actually Additions",
+      "icon": {
+        "id": "actuallyadditions:display_stand"
+      },
+      "description": [
+        "Place four Display Stands around the Empowerer in the arrangement. Each stand needs its ingredient and power."
+      ],
+      "dependencies": [
+        "16171E420825E14D"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "187D1783608C25BA",
+          "type": "item",
+          "item": {
+            "id": "actuallyadditions:display_stand"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DABEF7A012B575A",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1B9E07DD17D572F8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.0d,
+      "y": 4.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18EEC46D63480A13",
+      "title": "Empowerer",
+      "subtitle": "Actually Additions",
+      "icon": {
+        "id": "actuallyadditions:empowerer"
+      },
+      "description": [
+        "Put Restonia in the center and the four matching ingredients on the stands. Check all power connections if the recipe does not start."
+      ],
+      "dependencies": [
+        "1A482B267961807D"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1081F1397C59FCC3",
+          "type": "item",
+          "item": {
+            "id": "actuallyadditions:empowerer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "153FEF4D1BC1AF13",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1771C660B09D2717",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.5d,
+      "y": 4.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A66DF2245192DF5",
+      "title": "Empowered Restonia Crystal",
+      "subtitle": "Actually Additions",
+      "icon": {
+        "id": "actuallyadditions:empowered_restonia_crystal"
+      },
+      "description": [
+        "Produce Empowered Restonia Crystal. It contributes to the Advanced Crafting Table and the late Philosopher's Stone."
+      ],
+      "dependencies": [
+        "18EEC46D63480A13"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1D1AB12C8E9B0CD1",
+          "type": "item",
+          "item": {
+            "id": "actuallyadditions:empowered_restonia_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1820A9607EA01654",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1893CEB0EE577200",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.5d,
+      "y": 3.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11CE2150D69A102A",
+      "title": "Deorum Ingot",
+      "subtitle": "Forbidden and Arcanus",
+      "icon": {
+        "id": "forbidden_arcanus:deorum_ingot"
+      },
+      "description": [
+        "Make Deorum through its recipe. Deorum joins the industrial materials in the Advanced Crafting Table."
+      ],
+      "dependencies": [],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1C395C5484317770",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:deorum_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1181B0EC431688C5",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "175DEB8B00D67F6F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.5d,
+      "y": -1.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F7443D73B582BCF",
+      "title": "Basic Crafting Table",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:basic_table"
+      },
+      "description": [
+        "Build the Basic Crafting Table. JEI identifies which recipes use the table rather than a vanilla crafting grid."
+      ],
+      "dependencies": [],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1C73313D5AA51137",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:basic_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CDFD3B57FF394F0",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "130DB70CCB9A646B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.5d,
+      "y": 0.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F709C799187EA22",
+      "title": "Advanced Crafting Table",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:advanced_table"
+      },
+      "description": [
+        "Combine the earlier table with Simple Frames, Steel Casings, Empowered Restonia, and Deorum shown in JEI. The linked milestones show where each material comes from."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D",
+        "11CE2150D69A102A",
+        "1A66DF2245192DF5",
+        "1D220A3F4B042706",
+        "1F7443D73B582BCF"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "171B8B5D6A5D7DB7",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:advanced_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "129F5F689D5E5CEB",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1DEBCD705C3AA292",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.0d,
+      "y": 0.0d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "10472BE4B611BB05",
+      "linked_quest": "1D220A3F4B042706",
+      "x": 3.0d,
+      "y": 0.0d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "15ED4ABFF22868C1",
+      "linked_quest": "10BF160CAAC32E6D",
+      "x": 7.5d,
+      "y": 1.5d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1347B85788ED66F5",
+      "linked_quest": "1C27232107CE5427",
+      "x": -10.0d,
+      "y": -3.0d,
+      "size": 1.0d,
+      "shape": "diamond"
+    }
+  ],
+  "images": []
+}

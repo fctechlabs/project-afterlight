@@ -1,0 +1,1435 @@
+{
+  "id": "17F3505ABD933B72",
+  "filename": "77_mahou",
+  "title": "Mahou Tsukai",
+  "icon": {
+    "id": "mahoutsukai:spell_cloth"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 55,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1610DC6C96DDC164",
+      "title": "Mystic Staff of Explosive Mana Condensation",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:mystic_staff"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Mystic Staff of Explosive Mana Condensation and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14FA1EF08A001C5A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DEA14BC1C483E0A",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:mystic_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15094B9F315FA462",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E65816E83EB456C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.59446d,
+      "y": 2.20412d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "148E3825AB05FFFA",
+      "title": "Mystic Staff of Spatial Disorientation",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:spatial_disorientation_staff"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Mystic Staff of Spatial Disorientation and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14FA1EF08A001C5A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C67276F540C5FF2",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:spatial_disorientation_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1651847554C17F56",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16EC74BA75F55A4E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.02316d,
+      "y": 1.95087d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12923367237A08B2",
+      "title": "Emrys",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:staff_emrys"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Emrys and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12931CA62814DD97",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:staff_emrys"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E1BF73EFC9F855",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B0C135E6162A8BB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.4375d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1931B0DAAC98B4B9",
+      "title": "Bow of Weapon Projectiles",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:weapon_projectile_bow",
+        "components": {
+          "mahoutsukai:colors_mahou": {
+            "colors": []
+          }
+        }
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Bow of Weapon Projectiles and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14FA1EF08A001C5A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14D196BD7968F9CF",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:weapon_projectile_bow",
+            "components": {
+              "mahoutsukai:colors_mahou": {
+                "colors": []
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11FE72C991E3C151",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1575394B02B6D657",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.96944d,
+      "y": 1.6875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C33B327A03FFA66",
+      "title": "Bow",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "minecraft:bow"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Bow and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15AA76A4AA42D011"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1546288DB88ADFE0",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "162DE1625FB22E95",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18BF61086FAF816D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.31944d,
+      "y": 10.89583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8D7CEB088EDB12",
+      "title": "Attuned Emerald",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:attuned_emerald"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Craft Attuned Emerald. Item inputs include Attuner, Emerald. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB18DDCB0145892"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F6745A57177D8B",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:attuned_emerald"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B16A5FC39F2C751",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "146F982E40CB24B7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.88317d,
+      "y": 4.1122d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB18DDCB0145892",
+      "title": "Attuner",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:attuner"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Craft Attuner. Item inputs include Gold Ingot, Lapis Lazuli. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4D5833A6B3055F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B68E1C94F65A2C2",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:attuner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B2B65930B624216",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18271BB31D0E723F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 7.27083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "155C32BEDABF00E7",
+      "title": "Caliburn",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:caliburn",
+        "components": {
+          "mahoutsukai:sword_mahou": {
+            "attackDamage": 3.0d,
+            "innateCap": 60.0d
+          }
+        }
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Caliburn and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F806729A4F3B47A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C0C2B4B06542437",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:caliburn",
+            "components": {
+              "mahoutsukai:sword_mahou": {
+                "attackDamage": 3.0d,
+                "innateCap": 60.0d
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1088F759E1558B2E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1384C4562917838B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.78682d,
+      "y": 3.96694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "122C947510B3AC40",
+      "title": "Clarent",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:clarent"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Clarent and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "19E5F8656347B714"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "193FFA2184913986",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:clarent"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "115B6D141927F9AE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C73EC635F80E25B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.4375d,
+      "y": 11.90972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19C9713970C90976",
+      "title": "Morgan",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:morgan",
+        "components": {
+          "mahoutsukai:colors_mahou": {
+            "colors": []
+          },
+          "mahoutsukai:sword_mahou": {
+            "attackDamage": 3.0d,
+            "innateCap": 60.0d
+          }
+        }
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Morgan and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C33F522E395A423"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "138910A2CF667E29",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:morgan",
+            "components": {
+              "mahoutsukai:colors_mahou": {
+                "colors": []
+              },
+              "mahoutsukai:sword_mahou": {
+                "attackDamage": 3.0d,
+                "innateCap": 60.0d
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC969A1CDEDDC91",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "138EEB6CE4B22E06",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.93208d,
+      "y": 5.87059d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "132F94F15817C0DF",
+      "title": "Mortar and Pestle",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:mortar_and_pestle"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Craft Mortar and Pestle. Item inputs include Mortar, Pestle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4D5833A6B3055F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1583F29CED4BC322",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:mortar_and_pestle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C5423F77496C145",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11C1C2AF9A509E5A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 3.88194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F806729A4F3B47A",
+      "title": "Murky Water",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:murky_bucket"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Murky Water and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D8D7CEB088EDB12"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1792DDF0C6B94325",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:murky_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15246FB609DCAF78",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16B894C1A57C80A4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.76236d,
+      "y": 3.08774d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11E656D6D886F809",
+      "title": "Nobu",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:nobu",
+        "components": {
+          "mahoutsukai:colors_mahou": {
+            "colors": []
+          }
+        }
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Nobu and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C33B327A03FFA66"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "109D672F44500FB8",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:nobu",
+            "components": {
+              "mahoutsukai:colors_mahou": {
+                "colors": []
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A59AB8668DAD692",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AF3D6BED6987EC2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.39583d,
+      "y": 10.89583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15AA76A4AA42D011",
+      "title": "Powdered Diamond",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:powdered_diamond"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Craft Powdered Diamond. Item inputs include Diamond, Hammer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB18DDCB0145892"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B4C38CCBA8D0F29",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:powdered_diamond"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "196CE4EFE813A642",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E69445B4FB0D20A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.34722d,
+      "y": 9.6875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14FA1EF08A001C5A",
+      "title": "Powdered Gold",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:powdered_gold"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Craft Powdered Gold. Item inputs include Gold Ingot, Hammer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "132F94F15817C0DF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "184A3B052133BF29",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:powdered_gold"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "113E25D0812C94FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CFC78D8B408C482",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.34722d,
+      "y": 1.6875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B390ACFD42B16A7",
+      "title": "Powdered Iron",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:powdered_iron"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Craft Powdered Iron. Item inputs include Iron Ingot, Hammer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB18DDCB0145892"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DF0AF53ABC1B0B1",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:powdered_iron"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AD40D893804E0D1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17BA6C90D0E11634",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.34722d,
+      "y": 8.47917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17D3F721283C8D64",
+      "title": "Powdered Quartz",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:powdered_quartz"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Craft Powdered Quartz. Item inputs include Quartz, Hammer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB18DDCB0145892"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16B500963DFCD285",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:powdered_quartz"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18A2574FEBE0DE7D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "113A13FAD816DBDC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.34722d,
+      "y": 7.27083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D3DDBB98A1EAD0D",
+      "title": "Crimson Black Keys of Proximity Projection",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:proximity_projection_keys"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Crimson Black Keys of Proximity Projection and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15AA76A4AA42D011"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "117FC21E7ADF2575",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:proximity_projection_keys"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "121A5272CFF9AFB7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12ABA0CC3A7C8545",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.31944d,
+      "y": 9.6875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15B317499BD924B9",
+      "title": "Replica",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:replica",
+        "components": {
+          "mahoutsukai:replica_mahou": {
+            "friendly": 1,
+            "slot": 0,
+            "types": []
+          }
+        }
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Replica and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "189DE3538ED1A8D2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1860B58A13965D3D",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:replica",
+            "components": {
+              "mahoutsukai:replica_mahou": {
+                "friendly": 1,
+                "slot": 0,
+                "types": []
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "181E0D21E7BF0A2C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12B0D1CC35D9FE7A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.89583d,
+      "y": 8.47917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "176B342F686A5710",
+      "title": "Scroll of Damage Exchange",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:scroll_damage_exchange"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Scroll of Damage Exchange and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C95B0AE03628CDD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BFB359ED2FB3CC1",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:scroll_damage_exchange"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1581AE0AC0E95B62",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AFF97DC4E9FF5F3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.39583d,
+      "y": 9.6875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "189DE3538ED1A8D2",
+      "title": "Scroll of the Mystic Eyes of Death Collection",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:scroll_death_collection"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Scroll of the Mystic Eyes of Death Collection and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C95B0AE03628CDD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12485586D63BA920",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:scroll_death_collection"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18441C8EE877AE78",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1276C1BD13432AB6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.39583d,
+      "y": 8.47917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17E3FDA5A8C6060E",
+      "title": "Scroll of Immunity Exchange",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:scroll_immunity_exchange"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Obtain Scroll of Immunity Exchange and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C95B0AE03628CDD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1641CBB45CCCAAAE",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:scroll_immunity_exchange"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E4B176D3215835F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C2C04C68ADE47C9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.39583d,
+      "y": 7.27083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10867E74A14216B3",
+      "title": "Spell Cloth",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:spell_cloth"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Craft Spell Cloth. Item inputs include White Wool, Dagger. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4D5833A6B3055F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A3C2CB66C49C38A",
+          "type": "item",
+          "item": {
+            "id": "mahoutsukai:spell_cloth"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C008CB10FD4F887",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA68BE6ED0C595F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 2.67361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C33F522E395A423",
+      "title": "Nether Star",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Craft Nether Star. Item inputs include Nether Star Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "155C32BEDABF00E7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "123003E9A0C819C8",
+          "type": "item",
+          "item": {
+            "id": "minecraft:nether_star"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A4D14D77C65920",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DA17FD20880E7B8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.90762d,
+      "y": 4.99139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C95B0AE03628CDD",
+      "title": "Shield",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "minecraft:shield"
+      },
+      "description": [
+        "Use Mahou Tsukai’s guidebook to prepare a magic circle with its required catalysts. Watch Mahou costs and regeneration; place damaging rituals away from your home.",
+        "Craft Shield. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15AA76A4AA42D011"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19AAB06A5C2B6C28",
+          "type": "item",
+          "item": {
+            "id": "minecraft:shield"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "176D2644BC000518",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6ABA034B79EE42",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.31944d,
+      "y": 8.47917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F4D5833A6B3055F",
+      "title": "Mahou Tsukai",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:mahoujin_projector"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in Mahou Tsukai."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "mahoutsukai:root",
+          "criterion": "",
+          "type": "advancement",
+          "id": "1D8C0737B37CFB66",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "189BD4AF7A8AE64E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 3.88194d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16926C9F15D20983",
+      "title": "Maxed out Morgan",
+      "subtitle": "Mahou Tsukai",
+      "icon": {
+        "id": "mahoutsukai:spell_cloth"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "19C9713970C90976"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "minecraft:villager",
+          "type": "kill",
+          "value": 10,
+          "id": "1E350D568E4EF988",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "117DDCDA9992E55A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.81128d,
+      "y": 4.84614d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "187E2BE7621FC5E9",
+      "linked_quest": "1DCB0312E8D29911",
+      "x": 5.9375d,
+      "y": 0.45139d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1AF67C9192EC2D62",
+      "linked_quest": "19E5F8656347B714",
+      "x": 5.9375d,
+      "y": 11.90972d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

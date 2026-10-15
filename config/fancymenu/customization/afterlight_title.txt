@@ -1,0 +1,369 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = true
+  is_enabled = true
+  randommode = false
+  layout_index = 0
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/navy.png
+  background_type = image
+  instance_identifier = afterlight_navy_title_screen
+  slide = false
+  repeat_texture = false
+  parallax = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  apply_vanilla_background_blur = false
+  show_screen_background_overlay_on_custom_background = false
+}
+
+element {
+  element_type = image
+  instance_identifier = afterlight_approved_art
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}-((({"placeholder":"guiheight"}*0.92)+({"placeholder":"guiwidth"}*0.64)-abs(({"placeholder":"guiheight"}*0.92)-(({"placeholder":"guiwidth"}*0.64))))/2)-12","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiheight"}-((({"placeholder":"guiheight"}*0.92)+({"placeholder":"guiwidth"}*0.64)-abs(({"placeholder":"guiheight"}*0.92)-(({"placeholder":"guiwidth"}*0.64))))/2))/2","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiheight"}*0.92)+({"placeholder":"guiwidth"}*0.64)-abs(({"placeholder":"guiheight"}*0.92)-(({"placeholder":"guiwidth"}*0.64))))/2","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiheight"}*0.92)+({"placeholder":"guiwidth"}*0.64)-abs(({"placeholder":"guiheight"}*0.92)-(({"placeholder":"guiwidth"}*0.64))))/2","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  source = [source:local]/config/fancymenu/assets/project-afterlight-menu.png
+  image_tint = #FFFFFF
+  repeat_texture = false
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = afterlight_mode
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.045","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*0.5-108","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiwidth"}*0.275)+248-abs(({"placeholder":"guiwidth"}*0.275)-(248)))/2","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"18","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  source = SKYBLOCK
+  source_mode = direct
+  base_color = #EFC168
+  scale = 1.0
+  shadow = false
+  interactable = false
+  enable_scrolling = false
+  text_border = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.045","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*0.5-76+0","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiwidth"}*0.275)+248-abs(({"placeholder":"guiwidth"}*0.275)-(248)))/2","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"24","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  is_hidden = false
+  navigatable = true
+  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/button-hover.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.045","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*0.5-76+29","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiwidth"}*0.275)+248-abs(({"placeholder":"guiwidth"}*0.275)-(248)))/2","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"24","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  is_hidden = false
+  navigatable = true
+  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/button-hover.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.045","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*0.5-76+58","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiwidth"}*0.275)+248-abs(({"placeholder":"guiwidth"}*0.275)-(248)))/2","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"24","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  is_hidden = false
+  navigatable = true
+  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/button-hover.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.045","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*0.5-76+87","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiwidth"}*0.275)+248-abs(({"placeholder":"guiwidth"}*0.275)-(248)))/2","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"24","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  is_hidden = false
+  navigatable = true
+  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/button-hover.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.045","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*0.5-76+116","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiwidth"}*0.275)+248-abs(({"placeholder":"guiwidth"}*0.275)-(248)))/2","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"24","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  is_hidden = false
+  navigatable = true
+  backgroundnormal = [source:local]/config/fancymenu/assets/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/button-hover.png
+  nine_slice_custom_background = true
+  nine_slice_border_x = 3
+  nine_slice_border_y = 3
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376388
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.045+0","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*0.5+76","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"24","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"20","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  is_hidden = false
+  navigatable = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604388
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.045+28","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}*0.5+76","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"24","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"20","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  is_hidden = false
+  navigatable = true
+  automated_button_clicks = 0
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = afterlight_release
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.045","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-24","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiwidth"}*0.275)+248-abs(({"placeholder":"guiwidth"}*0.275)-(248)))/2","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"24","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  source = PUBLIC ALPHA%n%0.1.0-alpha.14
+  source_mode = direct
+  base_color = #B9C9E1
+  scale = 0.75
+  shadow = false
+  interactable = false
+  enable_scrolling = false
+  text_border = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_realms_notification_icons_widget
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_branding_widget
+  is_hidden = true
+  automated_button_clicks = 0
+}
+

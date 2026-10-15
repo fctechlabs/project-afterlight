@@ -1,0 +1,158 @@
+{
+  "id": "1AC0DF31295C0939",
+  "filename": "42_utilities",
+  "title": "Useful Tools",
+  "icon": {
+    "id": "waystones:waystone"
+  },
+  "group": "11571B65BE4FCDDE",
+  "order_index": 30,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1E4B831002B3E0DF",
+      "title": "Basic Magnet",
+      "subtitle": "Around the island - optional",
+      "icon": {
+        "id": "simplemagnets:basicmagnet"
+      },
+      "description": [
+        "A Basic Magnet helps collect nearby drops before they fall off the island. Turn it off around setups that need items to stay on the ground."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12C1819084442067",
+          "type": "item",
+          "item": {
+            "id": "simplemagnets:basicmagnet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E82D23956ADB4F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17B09D4002F0B6EE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1346AF2A831D4944",
+      "title": "Waystone",
+      "subtitle": "Around the island - optional",
+      "icon": {
+        "id": "waystones:waystone"
+      },
+      "description": [
+        "Place and activate Waystones to travel between places you have visited. The skyblock menu still handles island creation and invitations."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "140401348F77CB9A",
+          "type": "item",
+          "item": {
+            "id": "waystones:waystone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12753159DA826912",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "18EAC717435DF19E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.46528d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC12649BF674AEC",
+      "title": "Time in a Bottle",
+      "subtitle": "Around the island - optional",
+      "icon": {
+        "id": "tiab:time_in_a_bottle"
+      },
+      "description": [
+        "Carry the bottle to store time, then spend it to speed up compatible blocks. Try a small production job first; it is an optional convenience."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19E53531FC1542CA",
+          "type": "item",
+          "item": {
+            "id": "tiab:time_in_a_bottle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "145172D9A52F7EB1",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1A0EEB9195B61069",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.47917d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

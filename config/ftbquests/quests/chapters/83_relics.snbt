@@ -1,0 +1,3323 @@
+{
+  "id": "15DE6555AB972D4E",
+  "filename": "83_relics",
+  "title": "Relics",
+  "icon": {
+    "id": "relics:hunting_belt"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 61,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1F035D64BD0A72DD",
+      "title": "Chef's Hat",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:chef_hat",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "satiety": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "chance": {
+
+                    },
+                    "healing": {
+                      "initialQuality": 2
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Chef's Hat and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CD9F9CD2F68F414",
+          "type": "item",
+          "item": {
+            "id": "relics:chef_hat",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "satiety": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "chance": {
+
+                        },
+                        "healing": {
+                          "initialQuality": 2
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EBC2EE1980D13E8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10228D1E5CC0FC90",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.37083d,
+      "y": 9.89583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "100BE03C576CA5BF",
+      "title": "Chorus Staff",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:chorus_staff",
+        "components": {
+          "relics:chorus_staff/charge": 4,
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "blink": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "cooldown": {
+                      "initialQuality": 5
+                    },
+                    "distance": {
+                      "initialQuality": 10
+                    },
+                    "max_charge": {
+                      "initialQuality": 3
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Chorus Staff and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D2FA7B077158AB1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B720348F3FB22AF",
+          "type": "item",
+          "item": {
+            "id": "relics:chorus_staff",
+            "components": {
+              "relics:chorus_staff/charge": 4,
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "blink": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "cooldown": {
+                          "initialQuality": 5
+                        },
+                        "distance": {
+                          "initialQuality": 10
+                        },
+                        "max_charge": {
+                          "initialQuality": 3
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15FCF2215DD32279",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D74CE1BD6B0B44B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.50421d,
+      "y": 8.06668d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1133F748FDFD692B",
+      "title": "Clot of Time",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:clot_of_time",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "rewind": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "time": {
+                      "initialQuality": 4
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Clot of Time and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D2FA7B077158AB1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AE98194C8E811C5",
+          "type": "item",
+          "item": {
+            "id": "relics:clot_of_time",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "rewind": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "time": {
+                          "initialQuality": 4
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B30C5ABE1D3490F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17FE5E484B121A00",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.67083d,
+      "y": 6.81944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14FF88E064D95742",
+      "title": "Cut Glass Boot",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:cut_glass_boot",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "glass": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "capacity": {
+                      "initialQuality": 4
+                    },
+                    "max_fluids": {
+                      "initialQuality": 10
+                    },
+                    "speed": {
+
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Cut Glass Boot and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "118752EC53B74158",
+          "type": "item",
+          "item": {
+            "id": "relics:cut_glass_boot",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "glass": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "capacity": {
+                          "initialQuality": 4
+                        },
+                        "max_fluids": {
+                          "initialQuality": 10
+                        },
+                        "speed": {
+
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "162F74C2EE1AA1A0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "164E35F0A892B88D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.67083d,
+      "y": 9.89583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10C2DFF30657462F",
+      "title": "Experience Disperser",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:experience_disperser",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "dispersion": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "distribution_ratio": {
+                      "initialQuality": 6
+                    },
+                    "player_xp_ratio": {
+                      "initialQuality": 2
+                    },
+                    "same_item_bonus": {
+                      "initialQuality": 9
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Experience Disperser and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F17EA3B93048976",
+          "type": "item",
+          "item": {
+            "id": "relics:experience_disperser",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "dispersion": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "distribution_ratio": {
+                          "initialQuality": 6
+                        },
+                        "player_xp_ratio": {
+                          "initialQuality": 2
+                        },
+                        "same_item_bonus": {
+                          "initialQuality": 9
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11E5463A0B664BB4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10DFFEEABC289AFD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.94216d,
+      "y": 8.5069d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B6DC1354C4D9D93",
+      "title": "Ghostly Mantle",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:ghostly_mantle",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "fog": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "air_loss": {
+                      "initialQuality": 5
+                    },
+                    "duration": {
+                      "initialQuality": 4
+                    },
+                    "radius": {
+                      "initialQuality": 1
+                    },
+                    "suffocation_damage": {
+                      "initialQuality": 7
+                    },
+                    "tremor": {
+                      "initialQuality": 8
+                    }
+                  }
+                },
+                "gaze": {
+                  "lock": {
+                    "breaks": 0
+                  },
+                  "points": 0,
+                  "stats": {
+                    "charges": {
+                      "initialQuality": 5
+                    },
+                    "damage": {
+                      "initialQuality": 8
+                    },
+                    "range": {
+                      "initialQuality": 10
+                    },
+                    "weakness": {
+                      "initialQuality": 5
+                    }
+                  }
+                },
+                "spectral_escape": {
+                  "lock": {
+                    "breaks": 0
+                  },
+                  "points": 0,
+                  "stats": {
+                    "cooldown": {
+                      "initialQuality": 2
+                    },
+                    "damage": {
+                      "initialQuality": 1
+                    },
+                    "duration": {
+                      "initialQuality": 1
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Ghostly Mantle and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "13618F6398FA4D2D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "158D5EF0240AF002",
+          "type": "item",
+          "item": {
+            "id": "relics:ghostly_mantle",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "fog": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "air_loss": {
+                          "initialQuality": 5
+                        },
+                        "duration": {
+                          "initialQuality": 4
+                        },
+                        "radius": {
+                          "initialQuality": 1
+                        },
+                        "suffocation_damage": {
+                          "initialQuality": 7
+                        },
+                        "tremor": {
+                          "initialQuality": 8
+                        }
+                      }
+                    },
+                    "gaze": {
+                      "lock": {
+                        "breaks": 0
+                      },
+                      "points": 0,
+                      "stats": {
+                        "charges": {
+                          "initialQuality": 5
+                        },
+                        "damage": {
+                          "initialQuality": 8
+                        },
+                        "range": {
+                          "initialQuality": 10
+                        },
+                        "weakness": {
+                          "initialQuality": 5
+                        }
+                      }
+                    },
+                    "spectral_escape": {
+                      "lock": {
+                        "breaks": 0
+                      },
+                      "points": 0,
+                      "stats": {
+                        "cooldown": {
+                          "initialQuality": 2
+                        },
+                        "damage": {
+                          "initialQuality": 1
+                        },
+                        "duration": {
+                          "initialQuality": 1
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "175910A1F7F223F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1982BF5F6AD0EC02",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.72644d,
+      "y": 8.06668d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D16B8F7D6EA5656",
+      "title": "Glitchy Mantle",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:glitchy_mantle",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "distortion": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "miss_chance": {
+                      "initialQuality": 1
+                    }
+                  }
+                },
+                "glitch": {
+                  "lock": {
+                    "breaks": 0
+                  },
+                  "points": 0,
+                  "stats": {
+                    "fall_damage": {
+                      "initialQuality": 3
+                    },
+                    "phase_time": {
+                      "initialQuality": 1
+                    },
+                    "stability_time": {
+                      "initialQuality": 4
+                    }
+                  }
+                },
+                "illusion": {
+                  "lock": {
+                    "breaks": 0
+                  },
+                  "points": 0,
+                  "stats": {
+                    "duration": {
+                      "initialQuality": 1
+                    },
+                    "echo_radius": {
+                      "initialQuality": 6
+                    },
+                    "interval": {
+                      "initialQuality": 3
+                    },
+                    "stun": {
+                      "initialQuality": 5
+                    },
+                    "stun_radius": {
+                      "initialQuality": 9
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Glitchy Mantle and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D2FA7B077158AB1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "164A9B855B03C0CB",
+          "type": "item",
+          "item": {
+            "id": "relics:glitchy_mantle",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "distortion": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "miss_chance": {
+                          "initialQuality": 1
+                        }
+                      }
+                    },
+                    "glitch": {
+                      "lock": {
+                        "breaks": 0
+                      },
+                      "points": 0,
+                      "stats": {
+                        "fall_damage": {
+                          "initialQuality": 3
+                        },
+                        "phase_time": {
+                          "initialQuality": 1
+                        },
+                        "stability_time": {
+                          "initialQuality": 4
+                        }
+                      }
+                    },
+                    "illusion": {
+                      "lock": {
+                        "breaks": 0
+                      },
+                      "points": 0,
+                      "stats": {
+                        "duration": {
+                          "initialQuality": 1
+                        },
+                        "echo_radius": {
+                          "initialQuality": 6
+                        },
+                        "interval": {
+                          "initialQuality": 3
+                        },
+                        "stun": {
+                          "initialQuality": 5
+                        },
+                        "stun_radius": {
+                          "initialQuality": 9
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E441470D94EC38",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1465AE2D9112A3F4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.27081d,
+      "y": 5.69696d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11EDEC9346D5DC98",
+      "title": "Golden Tooth",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:golden_tooth"
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Golden Tooth and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16FD4A225F97AA67"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14C5FC0EF1B386CB",
+          "type": "item",
+          "item": {
+            "id": "relics:golden_tooth"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17EF9EE0195D236C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11E636886C2E97DF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19178C3305A4B96E",
+      "title": "Hunting Belt",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:hunting_belt",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "pack": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "damage_modifier": {
+                      "initialQuality": 3
+                    },
+                    "pet_radius": {
+                      "initialQuality": 6
+                    },
+                    "resistance_per_pet": {
+                      "initialQuality": 7
+                    },
+                    "revival_cost": {
+                      "initialQuality": 4
+                    }
+                  }
+                },
+                "slots": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "amount": {
+                      "initialQuality": 4
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Hunting Belt and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D40925770DD75C",
+          "type": "item",
+          "item": {
+            "id": "relics:hunting_belt",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "pack": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "damage_modifier": {
+                          "initialQuality": 3
+                        },
+                        "pet_radius": {
+                          "initialQuality": 6
+                        },
+                        "resistance_per_pet": {
+                          "initialQuality": 7
+                        },
+                        "revival_cost": {
+                          "initialQuality": 4
+                        }
+                      }
+                    },
+                    "slots": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "amount": {
+                          "initialQuality": 4
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DAAC692A6B1C88F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B89F48E9F9CAC2B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.50417d,
+      "y": 5.46944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16D5AC42F94BE62D",
+      "title": "Jellyfish Necklace",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:jellyfish_necklace",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "regeneration": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "max_health": {
+                      "initialQuality": 1
+                    },
+                    "regeneration": {
+                      "initialQuality": 10
+                    }
+                  }
+                },
+                "shock": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "bounces": {
+                      "initialQuality": 9
+                    },
+                    "cooldown": {
+                      "initialQuality": 8
+                    },
+                    "damage": {
+                      "initialQuality": 9
+                    },
+                    "damage_modifier": {
+                      "initialQuality": 9
+                    },
+                    "distance": {
+                      "initialQuality": 7
+                    },
+                    "duration": {
+                      "initialQuality": 6
+                    },
+                    "knockback": {
+                      "initialQuality": 4
+                    },
+                    "paralysis": {
+                      "initialQuality": 10
+                    },
+                    "radius": {
+                      "initialQuality": 5
+                    },
+                    "rings": {
+                      "initialQuality": 4
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Jellyfish Necklace and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15AE26851EA50D0A",
+          "type": "item",
+          "item": {
+            "id": "relics:jellyfish_necklace",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "regeneration": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "max_health": {
+                          "initialQuality": 1
+                        },
+                        "regeneration": {
+                          "initialQuality": 10
+                        }
+                      }
+                    },
+                    "shock": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "bounces": {
+                          "initialQuality": 9
+                        },
+                        "cooldown": {
+                          "initialQuality": 8
+                        },
+                        "damage": {
+                          "initialQuality": 9
+                        },
+                        "damage_modifier": {
+                          "initialQuality": 9
+                        },
+                        "distance": {
+                          "initialQuality": 7
+                        },
+                        "duration": {
+                          "initialQuality": 6
+                        },
+                        "knockback": {
+                          "initialQuality": 4
+                        },
+                        "paralysis": {
+                          "initialQuality": 10
+                        },
+                        "radius": {
+                          "initialQuality": 5
+                        },
+                        "rings": {
+                          "initialQuality": 4
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A4E284083275BD2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "126632957D08BFB2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.45417d,
+      "y": 6.81944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17D889EC3BF99F8A",
+      "title": "Kinetic Belt",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:kinetic_belt",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "gliding": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "damage": {
+                      "initialQuality": 3
+                    },
+                    "efficiency": {
+                      "initialQuality": 6
+                    },
+                    "resistance": {
+                      "initialQuality": 1
+                    }
+                  }
+                },
+                "slots": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "amount": {
+                      "initialQuality": 5
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Kinetic Belt and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D2FA7B077158AB1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1900CFE3240CDC93",
+          "type": "item",
+          "item": {
+            "id": "relics:kinetic_belt",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "gliding": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "damage": {
+                          "initialQuality": 3
+                        },
+                        "efficiency": {
+                          "initialQuality": 6
+                        },
+                        "resistance": {
+                          "initialQuality": 1
+                        }
+                      }
+                    },
+                    "slots": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "amount": {
+                          "initialQuality": 5
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5C815848B22804",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "115105D4B244D24C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.25417d,
+      "y": 3.52222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A01AE6387B3A93C",
+      "title": "Leafy Mantle",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:leafy_mantle",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "camouflage": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "absorption": {
+                      "initialQuality": 10
+                    },
+                    "cooldown": {
+
+                    },
+                    "heal": {
+                      "initialQuality": 6
+                    }
+                  }
+                },
+                "revival": {
+                  "lock": {
+                    "breaks": 0
+                  },
+                  "points": 0,
+                  "stats": {
+                    "damage": {
+                      "initialQuality": 4
+                    },
+                    "heal": {
+                      "initialQuality": 8
+                    },
+                    "paralysis": {
+                      "initialQuality": 4
+                    },
+                    "radius": {
+                      "initialQuality": 4
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Leafy Mantle and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15C24709A1E16040",
+          "type": "item",
+          "item": {
+            "id": "relics:leafy_mantle",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "camouflage": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "absorption": {
+                          "initialQuality": 10
+                        },
+                        "cooldown": {
+
+                        },
+                        "heal": {
+                          "initialQuality": 6
+                        }
+                      }
+                    },
+                    "revival": {
+                      "lock": {
+                        "breaks": 0
+                      },
+                      "points": 0,
+                      "stats": {
+                        "damage": {
+                          "initialQuality": 4
+                        },
+                        "heal": {
+                          "initialQuality": 8
+                        },
+                        "paralysis": {
+                          "initialQuality": 4
+                        },
+                        "radius": {
+                          "initialQuality": 4
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14FB96ACABE97726",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D35D05211877FD2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.80417d,
+      "y": 6.81944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16EA933068A3B7CD",
+      "title": "Midnight Mantle",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:midnight_mantle",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "constellation": {
+                  "lock": {
+                    "breaks": 0
+                  },
+                  "points": 0,
+                  "stats": {
+                    "constellation_radius": {
+                      "initialQuality": 7
+                    },
+                    "explosion_damage": {
+                      "initialQuality": 10
+                    },
+                    "explosion_radius": {
+                      "initialQuality": 8
+                    },
+                    "star_chance": {
+                      "initialQuality": 4
+                    },
+                    "star_lifetime": {
+                      "initialQuality": 6
+                    },
+                    "stun_duration": {
+                      "initialQuality": 5
+                    },
+                    "tremor_duration": {
+                      "initialQuality": 3
+                    }
+                  }
+                },
+                "invisibility": {
+                  "lock": {
+                    "breaks": 0
+                  },
+                  "points": 0,
+                  "stats": {
+                    "brightness": {
+                      "initialQuality": 5
+                    },
+                    "cooldown": {
+                      "initialQuality": 7
+                    },
+                    "damage": {
+                      "initialQuality": 1
+                    }
+                  }
+                },
+                "phase": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "attack_damage": {
+                      "initialQuality": 10
+                    },
+                    "attack_speed": {
+                      "initialQuality": 8
+                    },
+                    "duration": {
+                      "initialQuality": 4
+                    },
+                    "health_regeneration": {
+                      "initialQuality": 2
+                    },
+                    "max_health": {
+                      "initialQuality": 9
+                    },
+                    "modifier": {
+                      "initialQuality": 2
+                    }
+                  }
+                },
+                "starfall": {
+                  "lock": {
+                    "breaks": 0
+                  },
+                  "points": 0,
+                  "stats": {
+                    "bounce_chance": {
+                      "initialQuality": 2
+                    },
+                    "chance": {
+                      "initialQuality": 1
+                    },
+                    "damage": {
+                      "initialQuality": 1
+                    },
+                    "radius": {
+                      "initialQuality": 1
+                    },
+                    "stun": {
+                      "initialQuality": 4
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Midnight Mantle and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D2FA7B077158AB1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B05AAF5232488CB",
+          "type": "item",
+          "item": {
+            "id": "relics:midnight_mantle",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "constellation": {
+                      "lock": {
+                        "breaks": 0
+                      },
+                      "points": 0,
+                      "stats": {
+                        "constellation_radius": {
+                          "initialQuality": 7
+                        },
+                        "explosion_damage": {
+                          "initialQuality": 10
+                        },
+                        "explosion_radius": {
+                          "initialQuality": 8
+                        },
+                        "star_chance": {
+                          "initialQuality": 4
+                        },
+                        "star_lifetime": {
+                          "initialQuality": 6
+                        },
+                        "stun_duration": {
+                          "initialQuality": 5
+                        },
+                        "tremor_duration": {
+                          "initialQuality": 3
+                        }
+                      }
+                    },
+                    "invisibility": {
+                      "lock": {
+                        "breaks": 0
+                      },
+                      "points": 0,
+                      "stats": {
+                        "brightness": {
+                          "initialQuality": 5
+                        },
+                        "cooldown": {
+                          "initialQuality": 7
+                        },
+                        "damage": {
+                          "initialQuality": 1
+                        }
+                      }
+                    },
+                    "phase": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "attack_damage": {
+                          "initialQuality": 10
+                        },
+                        "attack_speed": {
+                          "initialQuality": 8
+                        },
+                        "duration": {
+                          "initialQuality": 4
+                        },
+                        "health_regeneration": {
+                          "initialQuality": 2
+                        },
+                        "max_health": {
+                          "initialQuality": 9
+                        },
+                        "modifier": {
+                          "initialQuality": 2
+                        }
+                      }
+                    },
+                    "starfall": {
+                      "lock": {
+                        "breaks": 0
+                      },
+                      "points": 0,
+                      "stats": {
+                        "bounce_chance": {
+                          "initialQuality": 2
+                        },
+                        "chance": {
+                          "initialQuality": 1
+                        },
+                        "damage": {
+                          "initialQuality": 1
+                        },
+                        "radius": {
+                          "initialQuality": 1
+                        },
+                        "stun": {
+                          "initialQuality": 4
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "126BD68A64F334E8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C86196AE6D9EA7E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.60417d,
+      "y": 3.52222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16FD4A225F97AA67",
+      "title": "Piglin Mask",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:piglin_mask",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "barter": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "items_count": {
+                      "initialQuality": 9
+                    },
+                    "trades": {
+                      "initialQuality": 3
+                    }
+                  }
+                },
+                "looting": {
+                  "lock": {
+                    "breaks": 0
+                  },
+                  "points": 0,
+                  "stats": {
+                    "attack_damage": {
+                      "initialQuality": 7
+                    },
+                    "attack_speed": {
+                      "initialQuality": 8
+                    },
+                    "chance": {
+                      "initialQuality": 8
+                    },
+                    "duration": {
+                      "initialQuality": 5
+                    },
+                    "health": {
+                      "initialQuality": 9
+                    }
+                  }
+                },
+                "neutrality": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Piglin Mask and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "13618F6398FA4D2D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A14F19D3ABD9475",
+          "type": "item",
+          "item": {
+            "id": "relics:piglin_mask",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "barter": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "items_count": {
+                          "initialQuality": 9
+                        },
+                        "trades": {
+                          "initialQuality": 3
+                        }
+                      }
+                    },
+                    "looting": {
+                      "lock": {
+                        "breaks": 0
+                      },
+                      "points": 0,
+                      "stats": {
+                        "attack_damage": {
+                          "initialQuality": 7
+                        },
+                        "attack_speed": {
+                          "initialQuality": 8
+                        },
+                        "chance": {
+                          "initialQuality": 8
+                        },
+                        "duration": {
+                          "initialQuality": 5
+                        },
+                        "health": {
+                          "initialQuality": 9
+                        }
+                      }
+                    },
+                    "neutrality": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17A9CDB125E7578E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18A6834A9B35956E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 2.84722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1257BAA18656C5BD",
+      "title": "Reflective Necklace",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:reflective_necklace",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "reflection": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "bounces": {
+                      "initialQuality": 7
+                    },
+                    "chance": {
+                      "initialQuality": 1
+                    },
+                    "damage": {
+                      "initialQuality": 6
+                    },
+                    "lifetime": {
+                      "initialQuality": 9
+                    },
+                    "piercings": {
+                      "initialQuality": 7
+                    },
+                    "stun": {
+                      "initialQuality": 10
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Reflective Necklace and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "13618F6398FA4D2D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19ACEB579886EFA1",
+          "type": "item",
+          "item": {
+            "id": "relics:reflective_necklace",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "reflection": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "bounces": {
+                          "initialQuality": 7
+                        },
+                        "chance": {
+                          "initialQuality": 1
+                        },
+                        "damage": {
+                          "initialQuality": 6
+                        },
+                        "lifetime": {
+                          "initialQuality": 9
+                        },
+                        "piercings": {
+                          "initialQuality": 7
+                        },
+                        "stun": {
+                          "initialQuality": 10
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1517D2E4328879B9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F0A3071E05EB0EC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.89306d,
+      "y": 6.81944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B425127021E5D93",
+      "title": "Rider Flute",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:rider_flute",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "stable": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "heal": {
+                      "initialQuality": 6
+                    },
+                    "max_slots": {
+                      "initialQuality": 3
+                    },
+                    "resistance": {
+                      "initialQuality": 1
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Rider Flute and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F12A799A3722D22",
+          "type": "item",
+          "item": {
+            "id": "relics:rider_flute",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "stable": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "heal": {
+                          "initialQuality": 6
+                        },
+                        "max_slots": {
+                          "initialQuality": 3
+                        },
+                        "resistance": {
+                          "initialQuality": 1
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17FB8FB48AEB770C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C2C77782AAFA766",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.15417d,
+      "y": 6.81944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13572B6A811932A3",
+      "title": "Ring of the Seven Deadly Sins",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:ring_of_the_seven_deadly_sins",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "envy": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "incoming_damage_multiplier": {
+                      "initialQuality": 8
+                    },
+                    "outgoing_damage_multiplier": {
+                      "initialQuality": 7
+                    }
+                  }
+                },
+                "gluttony": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "early_multiplier": {
+                      "initialQuality": 2
+                    },
+                    "late_multiplier": {
+                      "initialQuality": 9
+                    }
+                  }
+                },
+                "greed": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "chance": {
+                      "initialQuality": 3
+                    },
+                    "looting": {
+
+                    },
+                    "luck": {
+                      "initialQuality": 5
+                    }
+                  }
+                },
+                "lust": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "amount": {
+                      "initialQuality": 1
+                    },
+                    "time": {
+                      "initialQuality": 6
+                    }
+                  }
+                },
+                "pride": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "multiplier": {
+                      "initialQuality": 9
+                    }
+                  }
+                },
+                "sloth": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "speed": {
+                      "initialQuality": 8
+                    },
+                    "time": {
+                      "initialQuality": 8
+                    }
+                  }
+                },
+                "wrath": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "early_multiplier": {
+                      "initialQuality": 8
+                    },
+                    "late_multiplier": {
+                      "initialQuality": 10
+                    },
+                    "window": {
+                      "initialQuality": 10
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Ring of the Seven Deadly Sins and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "13618F6398FA4D2D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1710E7EA53E2B058",
+          "type": "item",
+          "item": {
+            "id": "relics:ring_of_the_seven_deadly_sins",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "envy": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "incoming_damage_multiplier": {
+                          "initialQuality": 8
+                        },
+                        "outgoing_damage_multiplier": {
+                          "initialQuality": 7
+                        }
+                      }
+                    },
+                    "gluttony": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "early_multiplier": {
+                          "initialQuality": 2
+                        },
+                        "late_multiplier": {
+                          "initialQuality": 9
+                        }
+                      }
+                    },
+                    "greed": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "chance": {
+                          "initialQuality": 3
+                        },
+                        "looting": {
+
+                        },
+                        "luck": {
+                          "initialQuality": 5
+                        }
+                      }
+                    },
+                    "lust": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "amount": {
+                          "initialQuality": 1
+                        },
+                        "time": {
+                          "initialQuality": 6
+                        }
+                      }
+                    },
+                    "pride": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "multiplier": {
+                          "initialQuality": 9
+                        }
+                      }
+                    },
+                    "sloth": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "speed": {
+                          "initialQuality": 8
+                        },
+                        "time": {
+                          "initialQuality": 8
+                        }
+                      }
+                    },
+                    "wrath": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "early_multiplier": {
+                          "initialQuality": 8
+                        },
+                        "late_multiplier": {
+                          "initialQuality": 10
+                        },
+                        "window": {
+                          "initialQuality": 10
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14909D93C16566A6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D9A26B200DD8F3A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.59306d,
+      "y": 2.17222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B1818DCDDC73A26",
+      "title": "Roller Skate",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:roller_skate",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "skating": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "damage": {
+
+                    },
+                    "ignite": {
+
+                    },
+                    "resistance": {
+                      "initialQuality": 2
+                    },
+                    "speed": {
+                      "initialQuality": 9
+                    },
+                    "step_height": {
+                      "initialQuality": 9
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Roller Skate and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FA90D9DA0AF43BA",
+          "type": "item",
+          "item": {
+            "id": "relics:roller_skate",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "skating": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "damage": {
+
+                        },
+                        "ignite": {
+
+                        },
+                        "resistance": {
+                          "initialQuality": 2
+                        },
+                        "speed": {
+                          "initialQuality": 9
+                        },
+                        "step_height": {
+                          "initialQuality": 9
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "111E49AE0987ECDE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F46938E7891C38E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.50417d,
+      "y": 6.81944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16A816D67E6A3D4A",
+      "title": "Shield of Retaliation",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:shield_of_retaliation",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "retaliation": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "cooldown": {
+                      "initialQuality": 4
+                    },
+                    "extension": {
+                      "initialQuality": 10
+                    },
+                    "miss_damage": {
+                      "initialQuality": 6
+                    },
+                    "miss_duration": {
+
+                    },
+                    "projectile_damage": {
+                      "initialQuality": 9
+                    },
+                    "stun": {
+                      "initialQuality": 3
+                    },
+                    "stun_radius": {
+                      "initialQuality": 5
+                    },
+                    "window": {
+                      "initialQuality": 7
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Shield of Retaliation and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "13618F6398FA4D2D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130BC59D5027A32A",
+          "type": "item",
+          "item": {
+            "id": "relics:shield_of_retaliation",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "retaliation": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "cooldown": {
+                          "initialQuality": 4
+                        },
+                        "extension": {
+                          "initialQuality": 10
+                        },
+                        "miss_damage": {
+                          "initialQuality": 6
+                        },
+                        "miss_duration": {
+
+                        },
+                        "projectile_damage": {
+                          "initialQuality": 9
+                        },
+                        "stun": {
+                          "initialQuality": 3
+                        },
+                        "stun_radius": {
+                          "initialQuality": 5
+                        },
+                        "window": {
+                          "initialQuality": 7
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10F230CC513EE5EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A850C20433CA235",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.89306d,
+      "y": 3.52222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B4EC6B80FCA2F63",
+      "title": "Sphere of Self-Sacrifice",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:sphere_of_self_sacrifice",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "sacrifice": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "resistance": {
+                      "initialQuality": 5
+                    },
+                    "stacks": {
+                      "initialQuality": 5
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Sphere of Self-Sacrifice and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "13618F6398FA4D2D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EAF9C382C4E00E9",
+          "type": "item",
+          "item": {
+            "id": "relics:sphere_of_self_sacrifice",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "sacrifice": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "resistance": {
+                          "initialQuality": 5
+                        },
+                        "stacks": {
+                          "initialQuality": 5
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E05A223A7322885",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1486C50FA6191C50",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.24306d,
+      "y": 3.52222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C2A5E600349B48",
+      "title": "Springy Boot",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "relics:springy_boot",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "bounce": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "damage": {
+                      "initialQuality": 3
+                    },
+                    "damage_modifier": {
+                      "initialQuality": 1
+                    },
+                    "power": {
+                      "initialQuality": 10
+                    },
+                    "radius": {
+                      "initialQuality": 8
+                    },
+                    "stun": {
+                      "initialQuality": 5
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find relics while exploring, equip them, and read their ability conditions. Their experience and upgrades reward using the relic’s own mechanics.",
+        "Obtain Springy Boot and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EFBB2892189E988",
+          "type": "item",
+          "item": {
+            "id": "relics:springy_boot",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "bounce": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "damage": {
+                          "initialQuality": 3
+                        },
+                        "damage_modifier": {
+                          "initialQuality": 1
+                        },
+                        "power": {
+                          "initialQuality": 10
+                        },
+                        "radius": {
+                          "initialQuality": 8
+                        },
+                        "stun": {
+                          "initialQuality": 5
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138E72CEA7D4E219",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12F28C64825EF134",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.45417d,
+      "y": 8.16944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B6D149873938BC0",
+      "title": "Overworld",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "minecraft:grass_block"
+      },
+      "description": [
+        "Enter Overworld. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:overworld",
+          "icon": {
+            "id": "minecraft:grass_block"
+          },
+          "type": "dimension",
+          "id": "13583A910261B4EA",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1386F0044A3B55BD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.02083d,
+      "y": 9.89583d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13618F6398FA4D2D",
+      "title": "The Nether",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "minecraft:netherrack"
+      },
+      "description": [
+        "Enter The Nether. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:the_nether",
+          "icon": {
+            "id": "minecraft:netherrack"
+          },
+          "type": "dimension",
+          "id": "15880DBC98CF02D0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F40249719E55442",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.24306d,
+      "y": 6.81944d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D2FA7B077158AB1",
+      "title": "The End",
+      "subtitle": "Relics",
+      "icon": {
+        "id": "minecraft:end_stone"
+      },
+      "description": [
+        "Enter The End. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "1B6D149873938BC0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:the_end",
+          "icon": {
+            "id": "minecraft:end_stone"
+          },
+          "type": "dimension",
+          "id": "14770805CCE96C68",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1354BCA3110170E9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.02083d,
+      "y": 6.81944d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

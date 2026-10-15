@@ -1,0 +1,14 @@
+{
+  "islandDistance": 4096,
+  "surface": false,
+  "preventScheduledTicks": false,
+  "biomes": {
+    "minecraft:overworld": {
+      "allow_list": false,
+      "elements": [
+        "minecraft:*ocean*",
+        "minecraft:mushroom_fields"
+      ]
+    }
+  }
+}

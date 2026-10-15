@@ -1,0 +1,3227 @@
+{
+  "id": "137DF61F38760AAE",
+  "filename": "70_mi_digital",
+  "title": "Modern Industrialization: Digital",
+  "icon": {
+    "id": "modern_industrialization:digital_circuit"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 48,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "160EB7433B6A8337",
+      "title": "Processing Array",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "extended_industrialization:processing_array"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Processing Array. Item inputs include Robot Arm, Clean Stainless Steel Machine Casing, Digital Circuit, Assembler. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D475D7D2FC2BD7D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BB6C2DE8BED3932",
+          "type": "item",
+          "item": {
+            "id": "extended_industrialization:processing_array"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1251C4CBBE68E463",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C3C48108F5DA10D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.08403d,
+      "y": 7.60625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19C613B675243A4C",
+      "title": "Acetylene Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:acetylene_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Acetylene Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B34B484E3E8AC98"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AAB7EA1254B85A1",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:acetylene_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C804AA7559CBB5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A5C700E52D2F2CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.6954d,
+      "y": 8.02824d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "148287D8509220CD",
+      "title": "Advanced Pump",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:advanced_pump"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Advanced Pump. Item inputs include Advanced Motor, Stainless Steel Rotor, Stainless Steel Bolt. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DAA8061080E7091"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CA6D6E1B57D068A",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:advanced_pump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12BFF7F8A0822F82",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16293EE4D87EC337",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.4125d,
+      "y": 6.82738d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10CB3D9B8EFE2B0C",
+      "title": "Air Intake",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:air_intake"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Air Intake. Item inputs include Stainless Steel Rotor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D475D7D2FC2BD7D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D8FD9E024F4300D",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:air_intake"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "116577331527B386",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14237E454B6BBE68",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.75184d,
+      "y": 11.90505d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14510D77A5975A41",
+      "title": "Deuterium Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:deuterium_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Deuterium Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "152C363D5BBF58D2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B8D19E1CF7A3C11",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:deuterium_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DADAEF9A2CC8EB3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E63217B11815F6F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.33779d,
+      "y": 1.39043d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EE861397587488B",
+      "title": "Distillation Tower",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:distillation_tower"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Distillation Tower. Item inputs include Advanced Pump, Turbo Machine Hull, Digital Circuit, Distillery. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D475D7D2FC2BD7D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EC3A2A2A38D9DE4",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:distillation_tower"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C50CCF36F5479BF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17B302231092AF90",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.05555d,
+      "y": 6.24627d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "183FA021BEDCD0DB",
+      "title": "Heat Exchanger",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:heat_exchanger"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Heat Exchanger. Item inputs include Small Heat Exchanger, Turbo Machine Hull, Stainless Steel Pipe Machine Casing, Frostproof Machine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D475D7D2FC2BD7D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F4341346D159A1F",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:heat_exchanger"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "115ED4CBDD05DA29",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "193FC19BE24AADA4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.40555d,
+      "y": 4.92913d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B59967DC62F8A74",
+      "title": "Heavy Water Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:heavy_water_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Heavy Water Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14510D77A5975A41"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1734054AFA7EF24B",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:heavy_water_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FB6B5131BA07686",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17862841BD695D80",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.67995d,
+      "y": 1.24518d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16D433F4A4B5D008",
+      "title": "Highly Advanced Machine Hull",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:highly_advanced_machine_hull"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Highly Advanced Machine Hull. Item inputs include Cadmium Battery, Processing Unit, Highly Advanced Machine Casing, Annealed Copper Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13CBC985539C9811"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "121A1DB3BF3AE384",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:highly_advanced_machine_hull"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD920A1BD323E3C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18A2F146D9044D86",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.85225d,
+      "y": 9.10278d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13056BADE349E4DD",
+      "title": "Implosion Compressor",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:implosion_compressor"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Implosion Compressor. Item inputs include Advanced Motor, Titanium Large Plate, Turbo Machine Hull, Blastproof Alloy Large Plate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D6B56906E856C2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D278A35EEC7FCB6",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:implosion_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10F5A13383AFAD2A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1885C1B28CE509F5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.25744d,
+      "y": 4.18404d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EAA1DAD57AAC646",
+      "title": "Kanthal Coil",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:kanthal_coil"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Kanthal Coil. Item inputs include Kanthal Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "118AC3704FBFB9F3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CDAAF4CAA1BAC2C",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:kanthal_coil"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A7483BAA3B99A66",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1515669F900A57AF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.53316d,
+      "y": -0.5133d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1994EA0B6FBC3D71",
+      "title": "Large Advanced Motor",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:large_advanced_motor"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Large Advanced Motor. Item inputs include Processing Unit, Advanced Motor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13CBC985539C9811"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "137DBA9BAEA5BDC2",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:large_advanced_motor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DA4666FD85E8B42",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FBEB09E41F28A0F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.71608d,
+      "y": 7.77685d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "152C363D5BBF58D2",
+      "title": "Nuclear Reactor",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:nuclear_reactor"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Nuclear Reactor. Item inputs include Nuclear Alloy Large Plate, Highly Advanced Machine Hull, Processing Unit, Cadmium Control Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CFBC6751DE23ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130E601EC76F5D96",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:nuclear_reactor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A14FC3A7A5A9FEA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E3A3D46250AB55C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.30864d,
+      "y": 1.52083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "142A35398D1ECBD2",
+      "title": "Oxygen Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:oxygen_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Oxygen Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "10CB3D9B8EFE2B0C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "151F9FA3E7B45E3D",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:oxygen_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CF8C402335BB9EC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DDFFAC7D464D7CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.75367d,
+      "y": 12.80994d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B5B518365C4C96",
+      "title": "Polyvinyl Chloride Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:polyvinyl_chloride_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Polyvinyl Chloride Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "167567C587A1F630"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19560EFD2D2CC458",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:polyvinyl_chloride_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1802805DF61EB827",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1302376023C06715",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.90941d,
+      "y": 8.70295d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13CBC985539C9811",
+      "title": "Processing Unit",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:processing_unit"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Processing Unit. Item inputs include Digital Circuit, Random Access Memory, Memory Management Unit, Arithmetic Logic Unit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DE6BE6BB59CBE01"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DA5E6015ABF257A",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:processing_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13B36C9AC720CE40",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "193CCE693AC419BC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.58412d,
+      "y": 10.48894d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DE6BE6BB59CBE01",
+      "title": "Processing Unit Board",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:processing_unit_board"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Use Assembler processing to make Processing Unit Board. Item inputs include Annealed Copper Cable, Cadmium Battery, Digital Circuit Board. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11B5B518365C4C96"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1424DBBFAB474B00",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:processing_unit_board"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13AD4D99BC44F6BE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "164179E7189C701A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.35376d,
+      "y": 9.9333d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "192D3DF5722CD487",
+      "title": "Random Access Memory",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:random_access_memory"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Random Access Memory and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1ADC6FADD25AE8CF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "103AC80EC98467E7",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:random_access_memory"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A9D0A544339DFF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "112B16CC5B58015E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.45555d,
+      "y": 6.24627d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CDAD7DFD9F6611F",
+      "title": "Raw Tungsten",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:raw_tungsten"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Raw Tungsten. Item inputs include Block of Raw Tungsten. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DAA8061080E7091"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B2EF87AB4AFD2E7",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:raw_tungsten"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "149AD87DACF5998A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "141CB0C03A936DD9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.23225d,
+      "y": 5.50538d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B2AD8FD20752FCD",
+      "title": "Silicon Wafer",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:silicon_wafer"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Silicon Wafer and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "173090DC25B9DA6F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E71D6DEEF73FBFC",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:silicon_wafer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "148EF6715FF9D5C7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "168F8ECCED76DB87",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.75735d,
+      "y": 14.61971d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B34B484E3E8AC98",
+      "title": "Steam-Cracked Light Fuel Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:steam_cracked_light_fuel_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Steam-Cracked Light Fuel Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D475D7D2FC2BD7D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16FECEAE5730989E",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:steam_cracked_light_fuel_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EB13AD357D7FEDF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C4C3449255D791D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.46505d,
+      "y": 7.4726d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16131EFF04044348",
+      "title": "Styrene Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:styrene_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Styrene Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1EE861397587488B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "186E52B6933D3BBF",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:styrene_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D103CEA4007913E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17DD2455D26219DB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.40555d,
+      "y": 6.24627d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED11B2C9B764269",
+      "title": "Styrene-Butadiene Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:styrene_butadiene_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Styrene-Butadiene Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16131EFF04044348"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EF414B47CA89A1F",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:styrene_butadiene_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D19D719E84CB088",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1824AC085BC718B3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75555d,
+      "y": 6.24627d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ADC6FADD25AE8CF",
+      "title": "Styrene-Butadiene Rubber Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:styrene_butadiene_rubber_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Styrene-Butadiene Rubber Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1ED11B2C9B764269"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FCC59526328994E",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:styrene_butadiene_rubber_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19F3EE0357948870",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A475C8176ABF5D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.10555d,
+      "y": 6.24627d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158E9A0ACAF15073",
+      "title": "Toluene Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:toluene_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Toluene Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "103C7C6C14872DEC",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:toluene_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14580328B2988BDC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E1AB7231E1FF0D4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.94803d,
+      "y": 11.13351d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D0A1F80938B0FAF",
+      "title": "Tritium Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:tritium_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Tritium Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B59967DC62F8A74"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D42C0BEA7802EB",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:tritium_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1821B7425A7BAA3F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "156F49A35C52476F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.02211d,
+      "y": 1.09993d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D475D7D2FC2BD7D",
+      "title": "Turbo Machine Hull",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:turbo_machine_hull"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Turbo Machine Hull. Item inputs include Sodium Battery, Digital Circuit, Turbo Machine Casing, Aluminum Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "148287D8509220CD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "181AEF419E84F1EE",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:turbo_machine_hull"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A7890EECF43C188",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10949CFA04787D3B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.08403d,
+      "y": 6.25625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "167567C587A1F630",
+      "title": "Vinyl Chloride Bucket",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:vinyl_chloride_bucket"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Vinyl Chloride Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "19C613B675243A4C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1434DCA5B720DD0F",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:vinyl_chloride_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "135658C8B17B6BD2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17CA3D3436A8B5E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.13976d,
+      "y": 9.25859d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D6B56906E856C2B",
+      "title": "Blastproof Alloy Plate",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:blastproof_alloy_plate"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Use Compressor processing to make Blastproof Alloy Plate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "128870181452BC50"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11A30AA5650BF4B0",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:blastproof_alloy_plate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1208BE2049F24291",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F0259A79C517D1D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.3697d,
+      "y": 3.16698d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17CFBC6751DE23ED",
+      "title": "Cadmium Control Rod",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:cadmium_control_rod"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Use Assembler processing to make Cadmium Control Rod. Item inputs include Blastproof Alloy Curved Plate, Large Motor, Robot Arm. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "109A7C9B79B9CA13"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "166F4B0F3F383067",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:cadmium_control_rod"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18F94D8C05EF1D6D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18AC70878C94F10B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.29157d,
+      "y": 2.40857d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E4A3A721065DC84",
+      "title": "HE Mox Dust",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:he_mox_dust"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft HE Mox Dust. Item inputs include HE Mox Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EF3B536CF3D4AB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "112E4A94A14F8ABE",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:he_mox_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F9011139DEFCF93",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D71FBB9C4AAAFA7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.76861d,
+      "y": 0.31911d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13EEE3DDD4196703",
+      "title": "Depleted HE Mox Fuel Rod",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:he_mox_fuel_rod_depleted"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Depleted HE Mox Fuel Rod and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1062A24251E16B8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A4DC79169A9D70F",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:he_mox_fuel_rod_depleted"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11742AD7A1904071",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13ACF58C36BC59EE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.38943d,
+      "y": -0.32996d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D022B7C6281F4E3",
+      "title": "HE Uranium Dust",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:he_uranium_dust"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft HE Uranium Dust. Item inputs include HE Uranium Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EF3B536CF3D4AB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "148917B3CB88874F",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:he_uranium_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15217126B20D1181",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10C4DB5014FFFC53",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.40555d,
+      "y": 1.63831d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "179F14E484B2DB4A",
+      "title": "Depleted HE Uranium Fuel Rod",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:he_uranium_fuel_rod_depleted"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Depleted HE Uranium Fuel Rod and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14B59F869216ED32"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1959EE9A15FEEB8C",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:he_uranium_fuel_rod_depleted"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13B4C8CA6FA4C507",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BBB0CD9FE7DA792",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.10555d,
+      "y": 1.63831d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1710EC9BD2B8A216",
+      "title": "Industrial TNT",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:industrial_tnt"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Industrial TNT and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "158E9A0ACAF15073"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11838260AC1498F9",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:industrial_tnt"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17CDF522E32BE834",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D42D14D18F154EA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.27003d,
+      "y": 11.13857d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E7C96BBDD368239",
+      "title": "Kanthal Dust",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:kanthal_dust"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Kanthal Dust. Item inputs include Kanthal Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DAA8061080E7091"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FBB7E297CC4A9F6",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:kanthal_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F47CF2761D78A7B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D718F7596BFE44E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.48196d,
+      "y": 2.14991d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED6C75A62F18873",
+      "title": "Kanthal Hot Ingot",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:kanthal_hot_ingot"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Use Blast Furnace processing to make Kanthal Hot Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E7C96BBDD368239"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14C5A92DC27DF65A",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:kanthal_hot_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "133B8AE58D259683",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1282113687007850",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.49903d,
+      "y": 1.26218d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "118AC3704FBFB9F3",
+      "title": "Kanthal Ingot",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:kanthal_ingot"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Kanthal Ingot. Item inputs include Block of Kanthal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1ED6C75A62F18873"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C68741597EF7577",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:kanthal_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17826A557AE58C28",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "125A797AA449C690",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.5161d,
+      "y": 0.37444d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FDCAB726F4A2E73",
+      "title": "LE Mox Dust",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:le_mox_dust"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft LE Mox Dust. Item inputs include LE Mox Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EF3B536CF3D4AB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B9C20E248A6FB3C",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:le_mox_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CEA75FE7AA7CE67",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D5FEAA1F9B75D53",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.76726d,
+      "y": -1.65069d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14A3AB3D1A768B41",
+      "title": "Depleted LE Mox Fuel Rod",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:le_mox_fuel_rod_depleted"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Depleted LE Mox Fuel Rod and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1BF62E8918A4555E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1383F9017B4298F4",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:le_mox_fuel_rod_depleted"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "137BC5D8D21E8E18",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FED331BFECE6DE7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.18673d,
+      "y": -2.84909d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1216A5A3C2B431BD",
+      "title": "LE Uranium Dust",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:le_uranium_dust"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft LE Uranium Dust. Item inputs include LE Uranium Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EF3B536CF3D4AB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11DF52F1EC65169F",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:le_uranium_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168FDBFA717655F2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F9103CCE0DAE7AA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.44514d,
+      "y": 2.96031d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E46C5B073849FED",
+      "title": "Depleted LE Uranium Fuel Rod",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:le_uranium_fuel_rod_depleted"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Depleted LE Uranium Fuel Rod and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16DD7D88EBCC1996"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1314F7BE381CC8",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:le_uranium_fuel_rod_depleted"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "199ABFE21ED9DA05",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "112B382DC96A4D6C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.06596d,
+      "y": 3.60938d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1200183385AC01B6",
+      "title": "Memory Management Unit",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:memory_management_unit"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Memory Management Unit. Item inputs include Silicon Wafer, Platinum Fine Wire. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B2AD8FD20752FCD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AC957F8985DC099",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:memory_management_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19A5A1602E435E55",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C7790D98775E788",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.75919d,
+      "y": 15.5246d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "128870181452BC50",
+      "title": "Mixed Blastproof Ingot",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:mixed_ingot_blastproof"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Mixed Blastproof Ingot and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "12972D4D483FB24C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C98A931C6B1FFCA",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:mixed_ingot_blastproof"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19A12C4DBC0817AC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11DDAB01110C34F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.38677d,
+      "y": 2.27924d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "173090DC25B9DA6F",
+      "title": "Monocrystalline Silicon",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:monocrystalline_silicon"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Monocrystalline Silicon and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "142A35398D1ECBD2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "162BC05F9607A273",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:monocrystalline_silicon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1645B0B35196C9DA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E2C93AA1EED8C76",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75551d,
+      "y": 13.71483d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "109A7C9B79B9CA13",
+      "title": "Nuclear Alloy Plate",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:nuclear_alloy_plate"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Nuclear Alloy Plate and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "13056BADE349E4DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10CAD504C11A8864",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:nuclear_alloy_plate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F76A4555D81D8A1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CE073D181DCD80D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.2745d,
+      "y": 3.29631d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EE831D4DF3288AB",
+      "title": "Plutonium Tiny Dust",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:plutonium_tiny_dust"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Plutonium Tiny Dust. Item inputs include Plutonium Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EA2F6D47D35A457"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D3F36DFFDF2F53C",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:plutonium_tiny_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13CE0C23144180EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A0072A41C0047AA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.1734d,
+      "y": -0.58774d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1965DA65FCEFCC8D",
+      "title": "Soldering Alloy Dust",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:soldering_alloy_dust"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Soldering Alloy Dust. Item inputs include Block of Soldering Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C7995E007B6BAED",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:soldering_alloy_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1492502CB306F04B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B1564BDE34A528C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.60903d,
+      "y": 12.46057d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13CBA2193CE5FE0A",
+      "title": "Titanium Hot Ingot",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:titanium_hot_ingot"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Use Blast Furnace processing to make Titanium Hot Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EAA1DAD57AAC646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "168957868E597C57",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:titanium_hot_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1282191F52014D71",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C4EF0591A000867",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.4209d,
+      "y": 0.50377d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12972D4D483FB24C",
+      "title": "Titanium Ingot",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:titanium_ingot"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Titanium Ingot. Item inputs include Block of Titanium. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13CBA2193CE5FE0A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1482620ADA78BCBC",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:titanium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18F4CF357622BCE6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13319DE4C9319937",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.40383d,
+      "y": 1.3915d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EDEA564F8073E3D",
+      "title": "Tungsten Dust",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:tungsten_dust"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Tungsten Dust. Item inputs include Tungsten Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CDAD7DFD9F6611F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13A4D94538E1AE8E",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:tungsten_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "147C7284566A1637",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12CA94B908BD2668",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.58225d,
+      "y": 5.50538d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ABFF84B05844018",
+      "title": "Tungsten Ingot",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:tungsten_ingot"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Tungsten Ingot. Item inputs include Block of Tungsten. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D9FB2979C61EF30"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1336191FC1D436E3",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:tungsten_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D1D5D77C169DB27",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C9D7D90BAB4FFC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.63225d,
+      "y": 5.50538d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9FB2979C61EF30",
+      "title": "Tungsten Nugget",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:tungsten_nugget"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Tungsten Nugget. Item inputs include Tungsten Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E25464C8FD70EF6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FE9E9D93CA08EE2",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:tungsten_nugget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D1536301A3B49A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1210380C4E7F3129",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.28225d,
+      "y": 5.50538d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E25464C8FD70EF6",
+      "title": "Tungsten Tiny Dust",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:tungsten_tiny_dust"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Tungsten Tiny Dust. Item inputs include Tungsten Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EDEA564F8073E3D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14F1E41916B08FD7",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:tungsten_tiny_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EE61EE4276DB56B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E89266D56778942",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.93225d,
+      "y": 5.50538d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EF3B536CF3D4AB4",
+      "title": "Uranium 238 Tiny Dust",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:uranium_238_tiny_dust"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Craft Uranium 238 Tiny Dust. Item inputs include Uranium 238 Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "152C363D5BBF58D2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16092639181B2925",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:uranium_238_tiny_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FAA51CF05C453B0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1730DFA07E676E9E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.08403d,
+      "y": 3.4434d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EA2F6D47D35A457",
+      "title": "Depleted Uranium Fuel Rod",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:uranium_fuel_rod_depleted"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Obtain Depleted Uranium Fuel Rod and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B8C365B78A2782B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F00027F8292BCD",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:uranium_fuel_rod_depleted"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "195D8D0E8199A846",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "146AE697AC1AA04C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.90154d,
+      "y": -0.13511d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "113BC10757BC9A36",
+      "title": "Highly Advanced Upgrade",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:highly_advanced_upgrade"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Use Assembler processing to make Highly Advanced Upgrade. Item inputs include Large Advanced Motor, Large Advanced Pump, Turbo Upgrade, Processing Unit Board. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1994EA0B6FBC3D71"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D7595B4E92880BA",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:highly_advanced_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15B04901CEDE8E5C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D1C3B180AB0056A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.03808d,
+      "y": 7.78078d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B9FDF8A7AEFD9A2",
+      "title": "Turbo Upgrade",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:turbo_upgrade"
+      },
+      "description": [
+        "Build on the electric workshop with advanced circuits and materials. Batch intermediate components, and keep fluid pipelines and machine recipes separated to prevent contamination.",
+        "Use Assembler processing to make Turbo Upgrade. Item inputs include Advanced Motor, Advanced Pump, Advanced Upgrade, Digital Circuit Board. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D475D7D2FC2BD7D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18CD7E1717B01E4E",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:turbo_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12A24FCC23A6F999",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "143B4C7866EB6FB9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.96155d,
+      "y": 7.00627d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B8C365B78A2782B",
+      "title": "Modern Industrialization: Digital Materials",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(modern_industrialization:uranium_fuel_rod)item(modern_industrialization:uranium_fuel_rod_double)item(modern_industrialization:uranium_fuel_rod_quad))",
+          "minecraft:custom_name": "\"Uranium Rods\""
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "152C363D5BBF58D2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(modern_industrialization:uranium_fuel_rod)item(modern_industrialization:uranium_fuel_rod_double)item(modern_industrialization:uranium_fuel_rod_quad))",
+              "minecraft:custom_name": "\"Uranium Rods\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "14499D2EC5B8B479",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1101CC4EF8E241C9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.62968d,
+      "y": 0.31752d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B59F869216ED32",
+      "title": "Modern Industrialization: Digital Materials",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(modern_industrialization:he_uranium_fuel_rod)item(modern_industrialization:he_uranium_fuel_rod_double)item(modern_industrialization:he_uranium_fuel_rod_quad))",
+          "minecraft:custom_name": "\"HE Uranium Rods\""
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1D022B7C6281F4E3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(modern_industrialization:he_uranium_fuel_rod)item(modern_industrialization:he_uranium_fuel_rod_double)item(modern_industrialization:he_uranium_fuel_rod_quad))",
+              "minecraft:custom_name": "\"HE Uranium Rods\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "190831124B7673ED",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1955F0C7C02FBD76",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75555d,
+      "y": 1.63831d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16DD7D88EBCC1996",
+      "title": "Modern Industrialization: Digital Materials",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(modern_industrialization:le_uranium_fuel_rod)item(modern_industrialization:le_uranium_fuel_rod_double)item(modern_industrialization:le_uranium_fuel_rod_quad))",
+          "minecraft:custom_name": "\"LE Uranium Rods\""
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1216A5A3C2B431BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(modern_industrialization:le_uranium_fuel_rod)item(modern_industrialization:le_uranium_fuel_rod_double)item(modern_industrialization:le_uranium_fuel_rod_quad))",
+              "minecraft:custom_name": "\"LE Uranium Rods\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1595684640F77254",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18A87A0E0A0E7DAA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75555d,
+      "y": 3.28484d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BF62E8918A4555E",
+      "title": "Modern Industrialization: Digital Materials",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(modern_industrialization:le_mox_fuel_rod)item(modern_industrialization:le_mox_fuel_rod_double)item(modern_industrialization:le_mox_fuel_rod_quad))",
+          "minecraft:custom_name": "\"LE Mox Rods\""
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1FDCAB726F4A2E73"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(modern_industrialization:le_mox_fuel_rod)item(modern_industrialization:le_mox_fuel_rod_double)item(modern_industrialization:le_mox_fuel_rod_quad))",
+              "minecraft:custom_name": "\"LE Mox Rods\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1BC2D46FDB34DC9A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C62797B1374EAB3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.97699d,
+      "y": -2.24989d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1062A24251E16B8B",
+      "title": "Modern Industrialization: Digital Materials",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(modern_industrialization:he_mox_fuel_rod)item(modern_industrialization:he_mox_fuel_rod_double)item(modern_industrialization:he_mox_fuel_rod_quad))",
+          "minecraft:custom_name": "\"HE Mox Rods\""
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E4A3A721065DC84"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(modern_industrialization:he_mox_fuel_rod)item(modern_industrialization:he_mox_fuel_rod_double)item(modern_industrialization:he_mox_fuel_rod_quad))",
+              "minecraft:custom_name": "\"HE Mox Rods\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "18DAB08F099A558C",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "119DAEFF6EE92393",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.07902d,
+      "y": -0.00542d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184CEC07BBF997BF",
+      "title": "Bypass Trick",
+      "subtitle": "Modern Industrialization: Digital",
+      "icon": {
+        "id": "modern_industrialization:digital_circuit"
+      },
+      "description": [
+        "Learn about Bypass Trick in the Modern Industrialization: Digital guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1EE831D4DF3288AB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "17C81ACE853A413F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1299E0670A52E49B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.44526d,
+      "y": -1.04037d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "16CC89CE76C3D211",
+      "linked_quest": "1DAA8061080E7091",
+      "x": -0.33975d,
+      "y": 5.50706d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Afterlight compatibility repairs"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "create_enchantment_industry",
+        "path": "data_maps/fluid/unit/experience\\.json"
+      }
+    ]
+  }
+}

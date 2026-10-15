@@ -1,0 +1,5415 @@
+{
+  "id": "11E9697110DFE8D2",
+  "filename": "65_powah",
+  "title": "Powah",
+  "icon": {
+    "id": "powah:energizing_orb"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 43,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1F5A92F88DB347A5",
+      "title": "Dielectric Paste",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:dielectric_paste"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Dielectric Paste. Item inputs include Clay Ball, Lava Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A5A9B50DE23BB52"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BE181140DB7C7EE",
+          "type": "item",
+          "item": {
+            "id": "powah:dielectric_paste"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E7E6991DE84FE9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1670EC42D08AE995",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18C99C2BA1F8A2FF",
+      "title": "Ender Gate (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_gate_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Gate (Basic). Item inputs include Ender Gate (Basic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19DF991C38601007"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18AC780795D99ED5",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_gate_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "158FCF6679A9DA10",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6C737748F3BF29",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.26721d,
+      "y": 0.34324d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C22D41FEF719F6E",
+      "title": "Ender Gate (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_gate_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Gate (Blazing). Item inputs include Ender Gate (Blazing). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14FAC8CE18EE837C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13124533E954F769",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_gate_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D6F1156E512F2EC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17F482FA9CA087A7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.44025d,
+      "y": -1.16307d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14FAC8CE18EE837C",
+      "title": "Ender Gate (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_gate_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Gate (Hardened). Item inputs include Ender Gate (Hardened). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18C99C2BA1F8A2FF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F71DEDD00727D9A",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_gate_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3DC90B7B205681",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13A62BE315FC68DF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.60689d,
+      "y": 0.17661d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E7C9BFC9735EB4A",
+      "title": "Ender Gate (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_gate_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Gate (Niotic). Item inputs include Ender Gate (Niotic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C22D41FEF719F6E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10DE043A6A89C161",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_gate_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "166F158733263D2E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1601B908B87B0667",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.10058d,
+      "y": -0.99644d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F801A28ECB7C513",
+      "title": "Ender Gate (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_gate_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Gate (Nitro). Item inputs include Ender Gate (Nitro). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A937B5969B243DE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B8A69DCAC0AAEF1",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_gate_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A0E5F70ED9AE1B4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F7A238F414C2568",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.59427d,
+      "y": -2.16948d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A937B5969B243DE",
+      "title": "Ender Gate (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_gate_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Gate (Spirited). Item inputs include Ender Gate (Spirited). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E7C9BFC9735EB4A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B4FB4672C7BA698",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_gate_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EAD879DA4AEAFAF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11C8A3EF8AEE2655",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.7609d,
+      "y": -0.8298d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19DF991C38601007",
+      "title": "Ender Gate (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_gate_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Gate (Starter). Item inputs include Ender Gate (Starter). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1243C1BADB828096",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_gate_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "190B2EA97AC46DA9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E201FB527A147D5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.92753d,
+      "y": 0.50987d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B2C37EF1C4BD902",
+      "title": "Energizing Orb",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energizing_orb"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energizing Orb. Item inputs include Dielectric Casing, Dielectric Rod (Horizontal). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B567950F6D9A2B",
+          "type": "item",
+          "item": {
+            "id": "powah:energizing_orb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BC8C50A49AF4EA3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17E2573C24E0D14B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.99827d,
+      "y": -5.81216d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1731E241DD5810C4",
+      "title": "Energy Discharger (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_discharger_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Discharger (Basic). Item inputs include Basic Capacitor, Dielectric Casing, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10A76C964A7DDD2B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11EF3E56713DD55C",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_discharger_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1259BFFEA32B4A0A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10234288C5A1E6EF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.7678d,
+      "y": -0.65092d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E906A3C7B8BEE74",
+      "title": "Energy Discharger (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_discharger_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Discharger (Blazing). Item inputs include Blazing Capacitor, Dielectric Casing, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DE639648E790D2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15DD918109AB081D",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_discharger_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "116B31485EB5539C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10BC9BA30FEEC743",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.76055d,
+      "y": -7.78585d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "112B5D0CC8D44FF4",
+      "title": "Energy Discharger (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_discharger_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Discharger (Hardened). Item inputs include Hardened Capacitor, Dielectric Casing, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "154C793830F68A0B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A726B06AD338B50",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_discharger_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F77C48D0DFE12E1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15DF9564520ED60E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.02338d,
+      "y": -8.03367d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD0D032AF23D1EA",
+      "title": "Energy Discharger (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_discharger_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Discharger (Niotic). Item inputs include Niotic Capacitor, Dielectric Casing, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14E73C51CD89A3D5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DF11354426D5817",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_discharger_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E71FAAB23519568",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A127E043679C1B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.54792d,
+      "y": -8.51088d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1954BBDCCB508549",
+      "title": "Energy Discharger (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_discharger_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Discharger (Nitro). Item inputs include Nitro Capacitor, Dielectric Casing, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17DE4DDEF7667613"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "157DB60792FEEF90",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_discharger_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A34A2D72CB8DB57",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17B8F019D9652BDC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.51114d,
+      "y": -9.10698d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "113A503726A9B499",
+      "title": "Energy Discharger (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_discharger_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Discharger (Spirited). Item inputs include Spirited Capacitor, Dielectric Casing, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FF7B055DDC4A54"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E0EDE9883BB0F5",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_discharger_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FAEE6883A629B98",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13DEAF95BA0A2206",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.19053d,
+      "y": -9.10603d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "146185C53D76F9C9",
+      "title": "Energy Discharger (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_discharger_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Discharger (Starter). Item inputs include Basic Capacitor (Tiny), Dielectric Casing, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A1A10291BE6A20C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A02D9BD5F0CFBD5",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_discharger_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11112E4073AB046E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B793B66E9A07E44",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.47677d,
+      "y": -6.49828d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1871ADFA5F66C6E8",
+      "title": "Energy Hopper (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_hopper_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Hopper (Basic). Item inputs include Basic Capacitor, Dielectric Casing, Energy Hopper (Starter), Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F21E426AAAEC8B2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F69370D82259C1",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_hopper_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1628C2A54E6C7014",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F43DAB5BFF77B8D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.6491d,
+      "y": -4.51306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "138D1BBA2F1D255B",
+      "title": "Energy Hopper (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_hopper_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Hopper (Blazing). Item inputs include Blazing Capacitor, Dielectric Casing, Energy Hopper (Hardened), Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B53D5F62597C772"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15D42A39744279A1",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_hopper_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F90A07F159F603C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A9E6FEF681EF24F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.48895d,
+      "y": -4.00322d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B53D5F62597C772",
+      "title": "Energy Hopper (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_hopper_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Hopper (Hardened). Item inputs include Hardened Capacitor, Dielectric Casing, Energy Hopper (Basic), Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1871ADFA5F66C6E8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17E7067753F9A8EF",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_hopper_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F6CBF4617719FB1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "148AF9AAF85F6C55",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.82394d,
+      "y": -5.17807d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "148C5C27E8520A51",
+      "title": "Energy Hopper (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_hopper_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Hopper (Niotic). Item inputs include Niotic Capacitor, Dielectric Casing, Energy Hopper (Blazing), Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "138D1BBA2F1D255B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C178F558AC9D76",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_hopper_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5F268B9990D2B4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1541C8E573EB6B6D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.31411d,
+      "y": -3.33822d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BEB1440961A48C4",
+      "title": "Energy Hopper (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_hopper_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Hopper (Nitro). Item inputs include Nitro Capacitor, Dielectric Casing, Energy Hopper (Spirited), Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3FADD50AB37DF6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "171F36A73B35259D",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_hopper_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1925661DA72978B7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1161CF1775F1A7E5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.80427d,
+      "y": -1.49836d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A3FADD50AB37DF6",
+      "title": "Energy Hopper (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_hopper_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Hopper (Spirited). Item inputs include Spirited Capacitor, Dielectric Casing, Energy Hopper (Niotic), Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "148C5C27E8520A51"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12C6F6B1B1444909",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_hopper_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11ECE85FFD8BB81A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10A05DD602D3CB8C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.13926d,
+      "y": -2.67321d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F21E426AAAEC8B2",
+      "title": "Energy Hopper (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_hopper_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Hopper (Starter). Item inputs include Basic Capacitor (Tiny), Dielectric Casing, Hopper, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A1A10291BE6A20C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E592A81FEAAD4A9",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_hopper_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "181FA1820155ECEF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11C6AE11FD97C91D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.47425d,
+      "y": -3.84806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FE3763F4F81A8E4",
+      "title": "Furnator (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:furnator_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Furnator (Basic). Item inputs include Basic Capacitor, Dielectric Casing, Furnator (Starter), Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB70DB7D994343C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14BBD92F2F91C07A",
+          "type": "item",
+          "item": {
+            "id": "powah:furnator_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "105555A80D3FA057",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "189670A603CE90FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.61274d,
+      "y": 9.52125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A18F511AABE5CD6",
+      "title": "Furnator (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:furnator_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Furnator (Blazing). Item inputs include Blazing Crystal, Blazing Capacitor, Dielectric Casing, Furnator (Hardened). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1058379B206A0699"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ED3CB043F3E37F5",
+          "type": "item",
+          "item": {
+            "id": "powah:furnator_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FBAF43FC20D5F2D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14FBD91B547B9847",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.52156d,
+      "y": 9.55909d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1058379B206A0699",
+      "title": "Furnator (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:furnator_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Furnator (Hardened). Item inputs include Hardened Capacitor, Dielectric Casing, Furnator (Basic), Energized Steel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FE3763F4F81A8E4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18DC3907DBD87DD3",
+          "type": "item",
+          "item": {
+            "id": "powah:furnator_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120C6054D8717944",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11941C414B903E2A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.54823d,
+      "y": 10.49458d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D4B1ABDBF940E2C",
+      "title": "Furnator (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:furnator_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Furnator (Niotic). Item inputs include Niotic Capacitor, Dielectric Casing, Furnator (Blazing), Niotic Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A18F511AABE5CD6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FA838986FC28FDC",
+          "type": "item",
+          "item": {
+            "id": "powah:furnator_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "113390388B6FFAA3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14B9D3139BCBA84F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.58607d,
+      "y": 8.58577d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1516AA359C379D30",
+      "title": "Furnator (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:furnator_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Furnator (Nitro). Item inputs include Nitro Capacitor, Dielectric Casing, Furnator (Spirited), Nitro Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C134FF521C7CCDA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DFCE5D27B01A4CC",
+          "type": "item",
+          "item": {
+            "id": "powah:furnator_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "166A74B2B32A77B0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A2CBE7E973A5A2A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.62391d,
+      "y": 6.67695d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C134FF521C7CCDA",
+      "title": "Furnator (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:furnator_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Furnator (Spirited). Item inputs include Spirited Capacitor, Dielectric Casing, Furnator (Niotic), Spirited Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D4B1ABDBF940E2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "112880A9AB2831A7",
+          "type": "item",
+          "item": {
+            "id": "powah:furnator_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1931CFAB167F66E2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13AC4649EA8E65A2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.65059d,
+      "y": 7.61244d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB70DB7D994343C",
+      "title": "Furnator (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:furnator_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Furnator (Starter). Item inputs include Basic Capacitor (Tiny), Dielectric Casing, Furnace, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13476E0F30B1C624",
+          "type": "item",
+          "item": {
+            "id": "powah:furnator_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12FBBD595D9BD01A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19DC89349B6860E9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.67726d,
+      "y": 8.54793d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E351A8006D1AC2",
+      "title": "Magmator (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:magmator_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Magmator (Basic). Item inputs include Basic Capacitor, Dielectric Casing, Magmator (Starter), Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "106BF060ADB9E1E8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B33F2823F927306",
+          "type": "item",
+          "item": {
+            "id": "powah:magmator_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E7B9200214DA669",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "199030598CA2CF07",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.94329d,
+      "y": -4.46933d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "157DDB0DD6E0FC42",
+      "title": "Magmator (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:magmator_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Magmator (Blazing). Item inputs include Blazing Crystal, Blazing Capacitor, Dielectric Casing, Magmator (Hardened). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16159659F137A724"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13FC23C1FFEC0EDA",
+          "type": "item",
+          "item": {
+            "id": "powah:magmator_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14C9C12E3874C016",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E90E757F028F2CD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -10.41231d,
+      "y": -6.32001d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16159659F137A724",
+      "title": "Magmator (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:magmator_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Magmator (Hardened). Item inputs include Hardened Capacitor, Dielectric Casing, Magmator (Basic), Energized Steel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14E351A8006D1AC2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F73D01646E0FB8F",
+          "type": "item",
+          "item": {
+            "id": "powah:magmator_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C0817900EF4D450",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C1EC5B4EC34E938",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -11.10314d,
+      "y": -5.16016d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10F474F512196E64",
+      "title": "Magmator (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:magmator_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Magmator (Niotic). Item inputs include Niotic Capacitor, Dielectric Casing, Magmator (Blazing), Niotic Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "157DDB0DD6E0FC42"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13A12E27BF2C82B0",
+          "type": "item",
+          "item": {
+            "id": "powah:magmator_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A10DA5C6AE9EB2E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "141D410EBB44779B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.25246d,
+      "y": -5.62918d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B63A0A5FCDA1F7",
+      "title": "Magmator (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:magmator_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Magmator (Nitro). Item inputs include Nitro Capacitor, Dielectric Casing, Magmator (Spirited), Nitro Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E5883EE8C8AF21D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "184138F98D87E94D",
+          "type": "item",
+          "item": {
+            "id": "powah:magmator_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1443690DDDC92527",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195BCDA5DFEF7AA1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.40178d,
+      "y": -6.09821d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E5883EE8C8AF21D",
+      "title": "Magmator (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:magmator_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Magmator (Spirited). Item inputs include Spirited Capacitor, Dielectric Casing, Magmator (Niotic), Spirited Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10F474F512196E64"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18220A569DC83B4B",
+          "type": "item",
+          "item": {
+            "id": "powah:magmator_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F06D23BB0FFDBA3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "149C5A36A27FF31A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.09261d,
+      "y": -4.93836d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "106BF060ADB9E1E8",
+      "title": "Magmator (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:magmator_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Magmator (Starter). Item inputs include Basic Capacitor (Tiny), Dielectric Casing, Bucket, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "172C8B6BDA608287",
+          "type": "item",
+          "item": {
+            "id": "powah:magmator_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A2027C989AFCBE0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "132C80A42FA32D3D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.78343d,
+      "y": -3.7785d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A32457359D2192D",
+      "title": "Player Transmitter (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:player_transmitter_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Player Transmitter (Basic). Item inputs include Dielectric Casing, Basic Capacitor, Player Transmitter (Starter), Dielectric Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17E40F1D59E48B9C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1624891B7A970730",
+          "type": "item",
+          "item": {
+            "id": "powah:player_transmitter_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F858963F58D12C8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CAF7CA6EDAC6846",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.55179d,
+      "y": -8.45212d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A11A876C4EDEB9B",
+      "title": "Player Transmitter (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:player_transmitter_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Player Transmitter (Blazing). Item inputs include Dielectric Casing, Blazing Capacitor, Player Transmitter (Hardened), Dielectric Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E247A2D4190ED7A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "162E3A0932B46E4D",
+          "type": "item",
+          "item": {
+            "id": "powah:player_transmitter_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15BB471B3CC84BB6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DC3154D300A0363",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.23776d,
+      "y": -10.33531d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E247A2D4190ED7A",
+      "title": "Player Transmitter (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:player_transmitter_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Player Transmitter (Hardened). Item inputs include Dielectric Casing, Hardened Capacitor, Player Transmitter (Basic), Dielectric Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A32457359D2192D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12D91C63FC15D243",
+          "type": "item",
+          "item": {
+            "id": "powah:player_transmitter_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17747D9CF154A717",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A181DDF71952C92",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.33637d,
+      "y": -9.55073d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "115A464D5579BFDF",
+      "title": "Player Transmitter (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:player_transmitter_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Player Transmitter (Niotic). Item inputs include Dielectric Casing, Niotic Capacitor, Player Transmitter (Blazing), Dielectric Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A11A876C4EDEB9B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11CF2ECD83F55164",
+          "type": "item",
+          "item": {
+            "id": "powah:player_transmitter_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A8E584431124AC6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B4E4ACA76784DEF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.45318d,
+      "y": -9.2367d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "135C4A15DB643A2F",
+      "title": "Player Transmitter (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:player_transmitter_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Player Transmitter (Nitro). Item inputs include Dielectric Casing, Nitro Capacitor, Player Transmitter (Spirited), Dielectric Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E2A3673FD739940"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "116904226AA1A0BB",
+          "type": "item",
+          "item": {
+            "id": "powah:player_transmitter_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "105BC74A7E346981",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19AEC6E186AD273F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.57d,
+      "y": -8.92267d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E2A3673FD739940",
+      "title": "Player Transmitter (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:player_transmitter_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Player Transmitter (Spirited). Item inputs include Dielectric Casing, Spirited Capacitor, Player Transmitter (Niotic), Dielectric Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "115A464D5579BFDF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A923B690BA2CCB0",
+          "type": "item",
+          "item": {
+            "id": "powah:player_transmitter_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "132E5CF9425ED551",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F0B19BCA54E2F64",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.6686d,
+      "y": -8.13809d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17E40F1D59E48B9C",
+      "title": "Player Transmitter (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:player_transmitter_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Player Transmitter (Starter). Item inputs include Dielectric Casing, Basic Capacitor (Tiny), Player Aerial Pearl, Dielectric Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19176D0B7CBF22A0",
+          "type": "item",
+          "item": {
+            "id": "powah:player_transmitter_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19D1F1449158316C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13CBDA01D0085E09",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.76721d,
+      "y": -7.35352d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13944C7F5FD2CB4B",
+      "title": "Reactor (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:reactor_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Reactor (Basic). Item inputs include Basic Capacitor (Large), Reactor (Starter), Uraninite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10F364925867CE6B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14179BD5C1ABDE04",
+          "type": "item",
+          "item": {
+            "id": "powah:reactor_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15FC18D8E58C73A7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1197E78B842D883D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.69952d,
+      "y": 9.05347d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1934E3D0961444AD",
+      "title": "Reactor (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:reactor_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Reactor (Blazing). Item inputs include Blazing Capacitor, Reactor (Hardened), Uraninite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13A3494FD1719948"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16DB14EF01598AF6",
+          "type": "item",
+          "item": {
+            "id": "powah:reactor_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C7671DA23E301B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13F73FBDA03F68FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.11593d,
+      "y": 10.87127d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13A3494FD1719948",
+      "title": "Reactor (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:reactor_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Reactor (Hardened). Item inputs include Hardened Capacitor, Reactor (Basic), Uraninite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13944C7F5FD2CB4B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C01DC92F299E955",
+          "type": "item",
+          "item": {
+            "id": "powah:reactor_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1118DC1BFBC27534",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1074437DC926A98E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.31663d,
+      "y": 10.25417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12487B73EE04035F",
+      "title": "Reactor (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:reactor_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Reactor (Niotic). Item inputs include Niotic Capacitor, Reactor (Blazing), Uraninite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1934E3D0961444AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1028A7D25C122011",
+          "type": "item",
+          "item": {
+            "id": "powah:reactor_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "130D3503EB387F4A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15392FC0D4E6C336",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.49882d,
+      "y": 9.67057d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13F24D7AE503CF0B",
+      "title": "Reactor (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:reactor_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Reactor (Nitro). Item inputs include Nitro Capacitor, Reactor (Spirited), Uraninite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1ACDEFB40BA949F9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E0297CDCB780588",
+          "type": "item",
+          "item": {
+            "id": "powah:reactor_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11342FF0D0D920C9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "175ED88123BF0BAC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.68101d,
+      "y": 9.08698d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ACDEFB40BA949F9",
+      "title": "Reactor (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:reactor_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Reactor (Spirited). Item inputs include Spirited Capacitor, Reactor (Niotic), Uraninite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12487B73EE04035F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A8B32712B6717AB",
+          "type": "item",
+          "item": {
+            "id": "powah:reactor_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B65BD71A9E9A500",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F2AB296245D8BDD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.88171d,
+      "y": 8.46988d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10F364925867CE6B",
+      "title": "Reactor (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:reactor_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Reactor (Starter). Item inputs include Dielectric Casing, Basic Capacitor (Tiny), Uraninite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "178774DB72AFCB3C",
+          "type": "item",
+          "item": {
+            "id": "powah:reactor_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19FCC4CC75C45012",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1252B40E4803096F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.08241d,
+      "y": 7.85277d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1863FD6338442B3F",
+      "title": "Solar Panel (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:solar_panel_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Solar Panel (Basic). Item inputs include Basic Capacitor, Dielectric Casing, Iron Ingot, Solar Panel (Starter). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15D03070792EF7AF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EF872938FE028D4",
+          "type": "item",
+          "item": {
+            "id": "powah:solar_panel_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "185A316DB4779428",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F1A2168C260C3FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.27752d,
+      "y": 8.08563d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1250C25A739B0DCF",
+      "title": "Solar Panel (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:solar_panel_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Solar Panel (Blazing). Item inputs include Blazing Crystal, Blazing Capacitor, Dielectric Casing, Solar Panel (Hardened). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15645D50971503B3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "144A4D9013AD1E0D",
+          "type": "item",
+          "item": {
+            "id": "powah:solar_panel_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "171F3E6CA7F7EA56",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "101D37782252CD56",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.01277d,
+      "y": 9.51581d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15645D50971503B3",
+      "title": "Solar Panel (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:solar_panel_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Solar Panel (Hardened). Item inputs include Hardened Capacitor, Dielectric Casing, Energized Steel, Solar Panel (Basic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1863FD6338442B3F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13FAB3C0BD9361E5",
+          "type": "item",
+          "item": {
+            "id": "powah:solar_panel_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "165056331FAC0987",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12A0834F4CDF4412",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.36024d,
+      "y": 9.43309d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "138DB7C3292DC134",
+      "title": "Solar Panel (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:solar_panel_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Solar Panel (Niotic). Item inputs include Niotic Crystal, Niotic Capacitor, Dielectric Casing, Solar Panel (Blazing). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1250C25A739B0DCF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1057FE3E6D44F9A9",
+          "type": "item",
+          "item": {
+            "id": "powah:solar_panel_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18E7A0950B6ED8ED",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FFD29E879D140D4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.93006d,
+      "y": 8.16834d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A35416D9FE1C75B",
+      "title": "Solar Panel (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:solar_panel_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Solar Panel (Nitro). Item inputs include Nitro Capacitor, Dielectric Casing, Nitro Crystal, Solar Panel (Spirited). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4E63D578FC1E10"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19EDE5D27236F83E",
+          "type": "item",
+          "item": {
+            "id": "powah:solar_panel_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CFED99377973A63",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B2C12CC4B0A5BC6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.50012d,
+      "y": 6.90359d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F4E63D578FC1E10",
+      "title": "Solar Panel (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:solar_panel_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Solar Panel (Spirited). Item inputs include Spirited Capacitor, Dielectric Casing, Spirited Crystal, Solar Panel (Niotic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "138DB7C3292DC134"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "117BD8B78AB39EA8",
+          "type": "item",
+          "item": {
+            "id": "powah:solar_panel_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "183031CFD226769E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CFCCE4D6C8D552D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.84734d,
+      "y": 6.82088d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15D03070792EF7AF",
+      "title": "Solar Panel (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:solar_panel_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Solar Panel (Starter). Item inputs include Basic Capacitor (Tiny), Dielectric Casing, Dielectric Paste, Photoelectric Pane. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A6BA6F81D02B74F",
+          "type": "item",
+          "item": {
+            "id": "powah:solar_panel_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1248462E74A5D863",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19C9F774685CB68B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.19481d,
+      "y": 6.73816d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "154C793830F68A0B",
+      "title": "Energized Steel",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:steel_energized"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Use an Energizing Orb and powered Rods to make Energized Steel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B2C37EF1C4BD902"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A4F401E9C5A5FE9",
+          "type": "item",
+          "item": {
+            "id": "powah:steel_energized"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18A4E96B2897FB77",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16B4102352C82803",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.57089d,
+      "y": -7.18297d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E4B0ADCA5045760",
+      "title": "Thermo Generator (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:thermo_generator_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Thermo Generator (Basic). Item inputs include Basic Capacitor, Dielectric Casing, Dielectric Paste, Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DE43490B035A19F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16B5527323525E50",
+          "type": "item",
+          "item": {
+            "id": "powah:thermo_generator_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE1E3062C6BF8E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1176F7CE381FA83D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.30206d,
+      "y": 1.364d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19088FC2283F5EF1",
+      "title": "Thermo Generator (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:thermo_generator_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Thermo Generator (Blazing). Item inputs include Blazing Capacitor, Dielectric Casing, Blazing Crystal, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AB5A1C26F4D57A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "158D5251AE03938B",
+          "type": "item",
+          "item": {
+            "id": "powah:thermo_generator_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FC190E73F311CED",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15E7140FBEB4455E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.24446d,
+      "y": 3.02439d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AB5A1C26F4D57A9",
+      "title": "Thermo Generator (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:thermo_generator_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Thermo Generator (Hardened). Item inputs include Hardened Capacitor, Dielectric Casing, Energized Steel, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4B0ADCA5045760"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "157651A52573004C",
+          "type": "item",
+          "item": {
+            "id": "powah:thermo_generator_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13A351B31F16E865",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1374432DC8157E2D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.60345d,
+      "y": 1.723d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1416BAAECA720B9C",
+      "title": "Thermo Generator (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:thermo_generator_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Thermo Generator (Niotic). Item inputs include Niotic Capacitor, Dielectric Casing, Niotic Crystal, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19088FC2283F5EF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13563E5C0D7D1919",
+          "type": "item",
+          "item": {
+            "id": "powah:thermo_generator_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11D86CD194589D05",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1655210C8A9D50EF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.94306d,
+      "y": 2.6654d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EECED2C128DA636",
+      "title": "Thermo Generator (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:thermo_generator_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Thermo Generator (Nitro). Item inputs include Nitro Capacitor, Dielectric Casing, Nitro Crystal, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144DCF322277C362"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16F68B04032552FE",
+          "type": "item",
+          "item": {
+            "id": "powah:thermo_generator_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C2663DCA00A28EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "157EE8C557BD1E1C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.28268d,
+      "y": 3.60779d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "144DCF322277C362",
+      "title": "Thermo Generator (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:thermo_generator_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Thermo Generator (Spirited). Item inputs include Spirited Capacitor, Dielectric Casing, Spirited Crystal, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1416BAAECA720B9C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "155AF26DC86EEC36",
+          "type": "item",
+          "item": {
+            "id": "powah:thermo_generator_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D7C1BA88DD36098",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "178EFC8CBCB627EA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.64167d,
+      "y": 2.3064d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DE43490B035A19F",
+      "title": "Thermo Generator (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:thermo_generator_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Thermo Generator (Starter). Item inputs include Basic Capacitor (Tiny), Dielectric Casing, Dielectric Paste, Thermo Plate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16F7440F95E35C1A",
+          "type": "item",
+          "item": {
+            "id": "powah:thermo_generator_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E683661F8079E01",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10F341BB026F23FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.00067d,
+      "y": 1.00501d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A5A9B50DE23BB52",
+      "title": "Uraninite",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:uraninite"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Use an Energizing Orb and powered Rods to make Uraninite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C8AE6A9AF012612",
+          "type": "item",
+          "item": {
+            "id": "powah:uraninite"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11F25B6D804F534E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FEA7E4A83662F55",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.14457d,
+      "y": 0.99183d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DE639648E790D2E",
+      "title": "Blazing Crystal",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:crystal_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Use an Energizing Orb and powered Rods to make Blazing Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B2C37EF1C4BD902"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19403340B0F838C2",
+          "type": "item",
+          "item": {
+            "id": "powah:crystal_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1998D8F911FB77C8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "181D1CAF02899EC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.44549d,
+      "y": -7.78498d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E73C51CD89A3D5",
+      "title": "Niotic Crystal",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:crystal_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Use an Energizing Orb and powered Rods to make Niotic Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B2C37EF1C4BD902"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1E1E9FF291D9A4",
+          "type": "item",
+          "item": {
+            "id": "powah:crystal_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "165BE19C41CEB71F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BC47DD07A975C17",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.26253d,
+      "y": -7.18888d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17DE4DDEF7667613",
+      "title": "Nitro Crystal",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:crystal_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Nitro Crystal. Item inputs include Block Of Nitro Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B2C37EF1C4BD902"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D2E40BE685FC49A",
+          "type": "item",
+          "item": {
+            "id": "powah:crystal_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13DCF3A5EF87F51C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BEA5F485FB25A78",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.12349d,
+      "y": -7.78603d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16FF7B055DDC4A54",
+      "title": "Spirited Crystal",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:crystal_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Use an Energizing Orb and powered Rods to make Spirited Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B2C37EF1C4BD902"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13FD34F88C30F3D8",
+          "type": "item",
+          "item": {
+            "id": "powah:crystal_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EC36E3ACD4F66D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16B803C954CD9313",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.55368d,
+      "y": -7.13416d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B325F9F8E244A4",
+      "title": "Energizing Rod (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energizing_rod_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energizing Rod (Basic). Item inputs include Basic Capacitor, Dielectric Casing, Energizing Rod (Starter). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1174DBE310FF2BF2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EC8B92E5CD50FD0",
+          "type": "item",
+          "item": {
+            "id": "powah:energizing_rod_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1CB42049479E25",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1432495AD92D6234",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.78774d,
+      "y": 8.12773d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13E089A2422F0B63",
+      "title": "Energizing Rod (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energizing_rod_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energizing Rod (Blazing). Item inputs include Blazing Capacitor, Dielectric Casing, Energizing Rod (Hardened). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13B5639169370FEE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1054670831CBAA6A",
+          "type": "item",
+          "item": {
+            "id": "powah:energizing_rod_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DA3E785E892F2CE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19E92365FA8FE7DB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.52052d,
+      "y": 8.92927d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13B5639169370FEE",
+      "title": "Energizing Rod (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energizing_rod_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energizing Rod (Hardened). Item inputs include Dielectric Casing, Energizing Rod (Basic), Hardened Capacitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17B325F9F8E244A4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F75252FD7766F9E",
+          "type": "item",
+          "item": {
+            "id": "powah:energizing_rod_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EB2214DA17C2E92",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "171A41D3BCF872D1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.25335d,
+      "y": 9.39489d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E9F841F51A1C7A8",
+      "title": "Energizing Rod (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energizing_rod_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energizing Rod (Niotic). Item inputs include Niotic Capacitor, Dielectric Casing, Energizing Rod (Blazing). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13E089A2422F0B63"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A6F3AA36937DBDD",
+          "type": "item",
+          "item": {
+            "id": "powah:energizing_rod_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FAD7CACE32CE374",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15F737555309ECA1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.0549d,
+      "y": 7.66211d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A9DB62FFE6955B9",
+      "title": "Energizing Rod (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energizing_rod_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energizing Rod (Nitro). Item inputs include Nitro Capacitor, Dielectric Casing, Energizing Rod (Spirited). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F974F6D1D569DCB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17DF6A485903E592",
+          "type": "item",
+          "item": {
+            "id": "powah:energizing_rod_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14F17DCE8813DBB4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "116076E616C50E27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.85645d,
+      "y": 5.92933d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F974F6D1D569DCB",
+      "title": "Energizing Rod (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energizing_rod_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energizing Rod (Spirited). Item inputs include Spirited Capacitor, Dielectric Casing, Energizing Rod (Niotic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E9F841F51A1C7A8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BAD5DBF41735948",
+          "type": "item",
+          "item": {
+            "id": "powah:energizing_rod_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18DA43BE356FDBD7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17BC5EF1C3E85288",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.58928d,
+      "y": 6.39495d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1174DBE310FF2BF2",
+      "title": "Energizing Rod (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energizing_rod_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energizing Rod (Starter). Item inputs include Basic Capacitor (Tiny), Dielectric Casing, Dielectric Rod, Quartz. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12FB502C2714CA7C",
+          "type": "item",
+          "item": {
+            "id": "powah:energizing_rod_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A3EDF8DFA76C236",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BE9F9A4B8C54125",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.32212d,
+      "y": 6.86057d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "119CEB7E45E15C13",
+      "title": "Battery (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:battery_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Battery (Basic). Item inputs include Battery (Starter), Basic Capacitor (Large), Iron Ingot, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18D03A3A8B74A494"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D7CBA097FADD7C",
+          "type": "item",
+          "item": {
+            "id": "powah:battery_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18CC66F66D283F69",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EC276B10E6EF317",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.56038d,
+      "y": -10.29256d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16E8A669F8ADE97E",
+      "title": "Battery (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:battery_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Battery (Blazing). Item inputs include Battery (Hardened), Blazing Capacitor, Blazing Crystal, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A32853604946079"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "193F9160B949E55E",
+          "type": "item",
+          "item": {
+            "id": "powah:battery_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14EBA8629E9267D9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B33A2564D763E1C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.40023d,
+      "y": -9.78272d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A32853604946079",
+      "title": "Battery (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:battery_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Battery (Hardened). Item inputs include Battery (Basic), Hardened Capacitor, Energized Steel, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "119CEB7E45E15C13"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11619D9C71EAB79D",
+          "type": "item",
+          "item": {
+            "id": "powah:battery_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13B051C9AF751D71",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F15AF3346BF29E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.73522d,
+      "y": -10.95756d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B967E5D86EC8C70",
+      "title": "Battery (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:battery_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Battery (Niotic). Item inputs include Battery (Blazing), Niotic Capacitor, Niotic Crystal, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16E8A669F8ADE97E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "167606F771961924",
+          "type": "item",
+          "item": {
+            "id": "powah:battery_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10A8E1DA98C3F668",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "110D07261AE9F874",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.22539d,
+      "y": -9.11771d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D6F2724AFE86C26",
+      "title": "Battery (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:battery_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Battery (Nitro). Item inputs include Battery (Spirited), Nitro Capacitor, Nitro Crystal, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16A64CD2915AF04B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F1077C6DF163B38",
+          "type": "item",
+          "item": {
+            "id": "powah:battery_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A8DF5950861695B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1083F0331D56A848",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.71555d,
+      "y": -7.27785d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16A64CD2915AF04B",
+      "title": "Battery (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:battery_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Battery (Spirited). Item inputs include Battery (Niotic), Spirited Capacitor, Spirited Crystal, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B967E5D86EC8C70"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13EB7F1D3E12E255",
+          "type": "item",
+          "item": {
+            "id": "powah:battery_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CBB69AD6FEFC9AF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12089FDC5B5FAE3C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.05054d,
+      "y": -8.4527d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D03A3A8B74A494",
+      "title": "Battery (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:battery_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Battery (Starter). Item inputs include Redstone Block, Basic Capacitor, Dielectric Paste. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A1A10291BE6A20C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1600F46C91F6AB95",
+          "type": "item",
+          "item": {
+            "id": "powah:battery_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "191DD71E4C46CA68",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19080712974F6FFC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38553d,
+      "y": -9.62755d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A76C964A7DDD2B",
+      "title": "Basic Capacitor",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:capacitor_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Basic Capacitor. Item inputs include Iron Ingot, Dielectric Paste, Redstone Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A98AC9FB74CE48A",
+          "type": "item",
+          "item": {
+            "id": "powah:capacitor_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AE4A8D64C6A6918",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16A2CA78514348D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.86811d,
+      "y": -0.09182d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A1A10291BE6A20C",
+      "title": "Basic Capacitor (Tiny)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:capacitor_basic_tiny"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Basic Capacitor (Tiny). Item inputs include Basic Capacitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EFC36EF350CB620",
+          "type": "item",
+          "item": {
+            "id": "powah:capacitor_basic_tiny"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18BC053AB82D4F1E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B639765E92582C4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.39004d,
+      "y": -1.46321d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F84EDD828E90C44",
+      "title": "Ender Cell (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_cell_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Cell (Basic). Item inputs include Ender Cell (Basic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "165D2EF9FF245B9C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "167C58E9ECBDE1C0",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_cell_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B3242012300EB9B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12F6D4F083D2D3A5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.71428d,
+      "y": 4.8412d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B32CD0367576740",
+      "title": "Ender Cell (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_cell_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Cell (Blazing). Item inputs include Ender Cell (Blazing). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CF8488B2141AC12"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15F8B7B44F39C741",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_cell_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CE7662B67EBD889",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C4A16526703F06A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.47747d,
+      "y": 4.10896d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CF8488B2141AC12",
+      "title": "Ender Cell (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_cell_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Cell (Hardened). Item inputs include Ender Cell (Hardened). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F84EDD828E90C44"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E796560518367C6",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_cell_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "119AEC4959EF7774",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1436BD660AA4BEA6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.96199d,
+      "y": 5.35667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D3F5540F8929B19",
+      "title": "Ender Cell (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_cell_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Cell (Niotic). Item inputs include Ender Cell (Niotic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B32CD0367576740"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152F0637CCA5A5B8",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_cell_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "194428394564F557",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E811E6A4548DC5E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.22976d,
+      "y": 3.59349d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DDFBB66B3974250",
+      "title": "Ender Cell (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_cell_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Cell (Nitro). Item inputs include Ender Cell (Nitro). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DE59C34F55DF97A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F90B4F473A821D1",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_cell_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17969B85666F5158",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AB2CD6FA76FE732",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.49752d,
+      "y": 1.8303d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DE59C34F55DF97A",
+      "title": "Ender Cell (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_cell_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Cell (Spirited). Item inputs include Ender Cell (Spirited). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D3F5540F8929B19"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DB1B635DBD77C5A",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_cell_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "152A68E19B7E43C1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14F08FCDD4274BB4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.98204d,
+      "y": 3.07801d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "165D2EF9FF245B9C",
+      "title": "Ender Cell (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:ender_cell_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Ender Cell (Starter). Item inputs include Ender Cell (Starter). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1005A846EA2141A8",
+          "type": "item",
+          "item": {
+            "id": "powah:ender_cell_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1383FA2A72EDFD75",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EEC02957C859922",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.46657d,
+      "y": 4.32573d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B393C7A07CAB43",
+      "title": "Energy Cell (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cell_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cell (Basic). Item inputs include Basic Capacitor, Dielectric Casing, Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1818263A367F034B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "175A9EC5AAB41F5E",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cell_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16B997703FAD3542",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19C77FAD8163B520",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.97907d,
+      "y": -7.78139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E29F51F9E157AC",
+      "title": "Energy Cell (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cell_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cell (Blazing). Item inputs include Blazing Crystal, Energy Cell (Hardened), Dielectric Casing, Blazing Capacitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCD9F5292F1528E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B8F69797185497A",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cell_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B1F1E08CB4CFA19",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13017AB9DC75CAA8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.9349d,
+      "y": -9.37974d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DCD9F5292F1528E",
+      "title": "Energy Cell (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cell_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cell (Hardened). Item inputs include Energy Cell (Basic), Dielectric Casing, Energized Steel, Hardened Capacitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11B393C7A07CAB43"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E990FE2AAB49F8",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cell_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13DC1C8DC06D89A8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "168E50E48F537146",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.25616d,
+      "y": -9.10265d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AA0A1D268398F67",
+      "title": "Energy Cell (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cell_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cell (Niotic). Item inputs include Niotic Crystal, Energy Cell (Blazing), Dielectric Casing, Niotic Capacitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10E29F51F9E157AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AC528465662E3C7",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cell_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "173CCE298CC3B19B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "100BD5EA49FBD622",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.65781d,
+      "y": -8.05848d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16C2172508B4F519",
+      "title": "Energy Cell (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cell_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cell (Nitro). Item inputs include Nitro Crystal, Energy Cell (Spirited), Dielectric Casing, Nitro Capacitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3F1B5F9E0DA3F4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E305CAF62596902",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cell_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE6EF0595C1DC6D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E9D6AB99B923A7B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.05947d,
+      "y": -7.01431d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A3F1B5F9E0DA3F4",
+      "title": "Energy Cell (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cell_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cell (Spirited). Item inputs include Spirited Crystal, Energy Cell (Niotic), Dielectric Casing, Spirited Capacitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AA0A1D268398F67"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F4C5EBBD9DAE48",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cell_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "128E33FD582702E0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15905F6D5D0B5D16",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.38072d,
+      "y": -6.73722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1818263A367F034B",
+      "title": "Energy Cell (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cell_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cell (Starter). Item inputs include Basic Capacitor (Tiny), Dielectric Casing, Iron Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A3C0BAAAA35BF27",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cell_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C67777FD795B0F9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11B5DCC4722E0CAD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.70198d,
+      "y": -6.46013d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EFC678BD0A3F620",
+      "title": "Energy Cable (Basic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cable_basic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cable (Basic). Item inputs include Basic Capacitor, Dielectric Rod (Horizontal), Energy Cable (Starter). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DB7D25DE1EEC11F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16E68208C99FFB4A",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cable_basic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "131188B71A80B544",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12AFBA1216CA1698",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.78909d,
+      "y": 4.27917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "130B0C797BF8F3E3",
+      "title": "Energy Cable (Blazing)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cable_blazing"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cable (Blazing). Item inputs include Blazing Capacitor, Dielectric Rod (Horizontal), Energy Cable (Hardened). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12F795991C0A69C3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12D5D5568773EEA5",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cable_blazing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1161202E80FD9763",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1711C8176045F027",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.98501d,
+      "y": 6.17828d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F795991C0A69C3",
+      "title": "Energy Cable (Hardened)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cable_hardened"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cable (Hardened). Item inputs include Hardened Capacitor, Dielectric Rod (Horizontal), Energy Cable (Basic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EFC678BD0A3F620"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130F49D0D10D5E36",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cable_hardened"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17CCCABE35926E62",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FF60A134780F289",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.83661d,
+      "y": 5.13077d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14F110EC2CD5F87B",
+      "title": "Energy Cable (Niotic)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cable_niotic"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cable (Niotic). Item inputs include Niotic Capacitor, Dielectric Rod (Horizontal), Energy Cable (Blazing). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "130B0C797BF8F3E3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F78C978E304C6EA",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cable_niotic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13F6B6205B08BE00",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B7B6B4DE377DBA4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.93749d,
+      "y": 5.32668d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "147DB02DF9E4C695",
+      "title": "Energy Cable (Nitro)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cable_nitro"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cable (Nitro). Item inputs include Nitro Capacitor, Dielectric Rod (Horizontal), Energy Cable (Spirited). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D7A2A34816FFF26"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1250FD70504BB39A",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cable_nitro"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D8E1D8C731D00E7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13F6ED9F7B9DFD4E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.03838d,
+      "y": 5.52259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D7A2A34816FFF26",
+      "title": "Energy Cable (Spirited)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cable_spirited"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cable (Spirited). Item inputs include Spirited Capacitor, Dielectric Rod (Horizontal), Spirited Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14F110EC2CD5F87B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F1C8DFD77A9C4F",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cable_spirited"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BA7277FA09ACE8F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C24F0E1A8B7A053",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.88999d,
+      "y": 4.47508d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DB7D25DE1EEC11F",
+      "title": "Energy Cable (Starter)",
+      "subtitle": "Powah",
+      "icon": {
+        "id": "powah:energy_cable_starter"
+      },
+      "description": [
+        "Powah offers several generator tiers and wireless charging. Energizing requires an Orb and powered Energizing Rods; use a buffer so a craft does not drain the rest of the base.",
+        "Craft Energy Cable (Starter). Item inputs include Dielectric Rod (Horizontal), Iron Nugget, Basic Capacitor (Tiny). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F5A92F88DB347A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ADE794AAC758E8E",
+          "type": "item",
+          "item": {
+            "id": "powah:energy_cable_starter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12A6F4881DF6F226",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1328C46E0AA8CF5F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.74159d,
+      "y": 3.42757d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

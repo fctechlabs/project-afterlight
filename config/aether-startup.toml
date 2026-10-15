@@ -1,0 +1,3 @@
+[Gui]
+    #Keep branded loading screens clear of random trivia.
+    "Enables random trivia" = false

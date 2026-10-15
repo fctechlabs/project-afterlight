@@ -1,0 +1,2674 @@
+{
+  "id": "18D8348EA902940C",
+  "filename": "34_mobs",
+  "title": "Mob Resources",
+  "icon": {
+    "id": "hostilenetworks:deep_learner"
+  },
+  "group": "131BB24FE37118D4",
+  "order_index": 26,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1081B25DEA0D9268",
+      "title": "Deep Learner",
+      "subtitle": "Train, simulate, fabricate",
+      "icon": {
+        "id": "hostilenetworks:deep_learner"
+      },
+      "description": [
+        "Put the correct Data Model into the Deep Learner and carry it during matching kills. Check the model's training progress."
+      ],
+      "dependencies": [
+        "1FD1F15A3D0EF4CA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ABC36FF8EBC6973",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:deep_learner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F170DAD3879EA5D",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "13B007D978C868AD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.77778d,
+      "y": 11.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E86989E2DF51A3A",
+      "title": "Prediction Matrix",
+      "subtitle": "Train, simulate, fabricate",
+      "icon": {
+        "id": "hostilenetworks:prediction_matrix"
+      },
+      "description": [
+        "Prediction Matrices are consumed by simulation. Establish a repeatable supply before running several chambers."
+      ],
+      "dependencies": [
+        "1FD1F15A3D0EF4CA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ACCDA40174309F9",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction_matrix"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F9F2D62BCC71D4D",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "147A94FCBFDC49DD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.98611d,
+      "y": 11.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12E91D5534CF4223",
+      "title": "Simulation Chamber",
+      "subtitle": "Train, simulate, fabricate",
+      "icon": {
+        "id": "hostilenetworks:sim_chamber"
+      },
+      "description": [
+        "Give the Simulation Chamber power, a trained model, and Prediction Matrices. Pristine output depends on model quality."
+      ],
+      "dependencies": [
+        "1BE347DBA144D14E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16EFE98D12EEBE44",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:sim_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198001E58CCB8A01",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1ED2F892FB78D714",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.79167d,
+      "y": 9.74306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F81A6172FB8772A",
+      "title": "Loot Fabricator",
+      "subtitle": "Train, simulate, fabricate",
+      "icon": {
+        "id": "hostilenetworks:loot_fabricator"
+      },
+      "description": [
+        "The Loot Fabricator turns suitable pristine matter into selected mob drops. It is an optional alterto repeated manual mob farming."
+      ],
+      "dependencies": [
+        "12E91D5534CF4223"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DDC4A624AB5CC76",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:loot_fabricator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C34A8090B08BC5E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1640280D89AF1165",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.40278d,
+      "y": 8.02083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15122529D6DF054C",
+      "title": "A Separate Mob Platform",
+      "subtitle": "Before simulation",
+      "icon": {
+        "id": "minecraft:cobblestone"
+      },
+      "description": [
+        "Build a dark, contained spawning area away from your lit base. Use safe access and collection before adding powered mob machines."
+      ],
+      "dependencies": [
+        "1FD1F15A3D0EF4CA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B658BCF1AE6C52",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1221155A34F3EAAB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1615D06A92C45916",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.19444d,
+      "y": 11.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BE347DBA144D14E",
+      "title": "Model Framework",
+      "subtitle": "Before simulation",
+      "icon": {
+        "id": "hostilenetworks:blank_data_model"
+      },
+      "description": [
+        "Use the blank model on a supported mob to select its type. Put the model in the Deep Learner and carry it while earning the required kills."
+      ],
+      "dependencies": [
+        "1FD1F15A3D0EF4CA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10AF5097329FA883",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:blank_data_model"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188B8CC463519511",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "102C8DF05A98E0C6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.40278d,
+      "y": 11.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17261B82AC3F944D",
+      "title": "Blaze Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:blaze"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Blaze Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Blaze Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FC69E59184BC040",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:blaze"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D61B8E04B853562",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "197A23C84D53E396",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.66615d,
+      "y": 9.34489d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C87E4EE2215E201",
+      "title": "Ender Dragon Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Ender Dragon Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Ender Dragon Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1728E8926C5BFE65",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CEEAE60C3A4520A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14400A68ECE4002B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.65276d,
+      "y": 9.14331d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CEDE5611FDC09FD",
+      "title": "Drowned Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:drowned"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Drowned Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Drowned Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EF18C0F846E7722",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:drowned"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "143BCD73070E1B87",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E90EA528A88B4C5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.90278d,
+      "y": 8.02083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C2964B8677C8165",
+      "title": "Vindicator Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:vindicator"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Vindicator Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Vindicator Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BFB72D57A2D49FB",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:vindicator"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "113F839AAF50BDA0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "101B31B83E9233DE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.77778d,
+      "y": 4.725d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1486826A4FDC5C3E",
+      "title": "Cod Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:cod"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Cod Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Cod Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D0F0F2152A54988",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:cod"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF7389418C390A8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E8F61E7554EBBD1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.63114d,
+      "y": 9.16888d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1963D074A4154299",
+      "title": "Sheep Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:sheep"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Sheep Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Sheep Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E98979BDBF05B60",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:sheep"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "126E45F77F05025B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AE32CDA8797CDC3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.17442d,
+      "y": 6.87278d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DA12A75506956B3",
+      "title": "Spider Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:spider"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Spider Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Spider Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C5FC9BF7B16E907",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:spider"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EC42F797790FAB2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18DF32661CC0158D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.07778d,
+      "y": 4.725d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14850B5C6C7313B0",
+      "title": "Wither Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:wither"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Wither Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Wither Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E61239A5694C6D",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:wither"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E5257A36DB1493C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BF34FBE02D1AB62",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 6.075d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15795CF59302F030",
+      "title": "Ars Nouveau/Wilden Mobs Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:ars_nouveau/wilden_mobs"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Ars Nouveau/Wilden Mobs Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Ars Nouveau/Wilden Mobs Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E3159A032A1D105",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:ars_nouveau/wilden_mobs"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12D607452B94E8DC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16A05DAB139AD421",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.67778d,
+      "y": 0.675d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1930FF5C8B5A131A",
+      "title": "Bat Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:bat"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Bat Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Bat Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15E99743DA3EB1DC",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:bat"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E8B2E97FBB0223D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AF785A5FC3AAAEA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 0.675d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EC5C689DFBAF464",
+      "title": "Ghast Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:ghast"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Ghast Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Ghast Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EF2B858E6182EA6",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:ghast"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F6491938108FB5C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B19FF1BCB54570E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.42778d,
+      "y": 2.025d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "153709D30FEEA9A9",
+      "title": "Polar Bear Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:polar_bear"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Polar Bear Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Polar Bear Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A2B5031CA9A1EC3",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:polar_bear"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1342DC858A52AC9D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "130506835427E5EE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.42778d,
+      "y": 3.375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11C5F7799400242F",
+      "title": "Enderman Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:enderman"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Enderman Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Enderman Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C433A00D419955D",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:enderman"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B9E91AD09D7887D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BDB9A61D97D2AB9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.72778d,
+      "y": 2.025d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A18F68D2BC863DA",
+      "title": "Zombie Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:zombie"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Zombie Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Zombie Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14285165340837EE",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:zombie"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "149AC04E49A112FD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E3A6F0B168DF125",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.72778d,
+      "y": 6.075d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DC1A5396E09665A",
+      "title": "Warden Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:warden"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Warden Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Warden Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17E617719EE96659",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:warden"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "166BC280F4AAC7FD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16A405DFF32FCBE6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.12778d,
+      "y": 4.725d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "150B9647D8462EFF",
+      "title": "Slime Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:slime"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Slime Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Slime Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1063A405CB5C54D8",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:slime"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16510AB93E6E753A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19C79742D3DC5AE5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.37778d,
+      "y": 4.725d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B0E073ABC34DA7",
+      "title": "Zombified Piglin Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:zombified_piglin"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Zombified Piglin Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Zombified Piglin Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EAC21153E9AD0BD",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:zombified_piglin"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12A24A09ACBDCCFD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FCE84C1142B677C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.07778d,
+      "y": 6.075d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A149D501D2F4BB9",
+      "title": "Hoglin Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:hoglin"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Hoglin Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Hoglin Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C916463AFAEA2B0",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:hoglin"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1809C9175627F600",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18BABCB4BF92C229",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.67778d,
+      "y": 3.375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15460F29D0C2F063",
+      "title": "Cow Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:cow"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Cow Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Cow Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DB38023A210A96C",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:cow"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "142E88A1E09611B8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1400072EDCF8E8A1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.42778d,
+      "y": 0.675d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DD0F14424D4AF11",
+      "title": "Magma Cube Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:magma_cube"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Magma Cube Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Magma Cube Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C87C1EB78AF69D7",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:magma_cube"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15EE19B9680260B4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F93D8ADD941971A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.37778d,
+      "y": 3.375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13F564ED516F895D",
+      "title": "Snow Golem Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:snow_golem"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Snow Golem Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Snow Golem Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "161B0A3CC79CE2C6",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:snow_golem"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "103D674CBC7282A5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "179726A5282570E0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.72778d,
+      "y": 4.725d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158B5F9B6D2E3E74",
+      "title": "Rabbit Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:rabbit"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Rabbit Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Rabbit Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "163A24F48B6F6B1D",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:rabbit"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B2ABE01FFF2CB27",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10075CC8BB4522DE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.77778d,
+      "y": 3.375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1711AF94BEA40C0C",
+      "title": "Glow Squid Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:glow_squid"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Glow Squid Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Glow Squid Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "103AB31EC529668C",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:glow_squid"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FBEFB835F4570DF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A91DF82C0053096",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.77778d,
+      "y": 2.025d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D67DD756558114",
+      "title": "Phantom Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:phantom"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Phantom Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Phantom Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1465BFFB949378D3",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:phantom"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1984170AB5E68586",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1146B1CEF7BE31DA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.72778d,
+      "y": 3.375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D190BF85912F25D",
+      "title": "Evoker Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:evoker"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Evoker Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Evoker Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16CBADF32F2D5E99",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:evoker"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CBC7C3986EE332C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C7CAE82C73E9FF4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.07778d,
+      "y": 2.025d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AAF0D3C7FE07CCC",
+      "title": "Guardian Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:guardian"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Guardian Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Guardian Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "128C91D90858F786",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:guardian"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "126DD1D1996E8FC9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "181C5A0603D46CCD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.12778d,
+      "y": 2.025d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14388B056BBB7DC4",
+      "title": "Witch Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:witch"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Witch Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Witch Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A702709CBA7B680",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:witch"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A5BA997D45E9B44",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18429C5B0BB9A5A4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.67778d,
+      "y": 6.075d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16746B90B96EE9F3",
+      "title": "Shulker Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:shulker"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Shulker Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Shulker Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1700223484291FC6",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:shulker"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10411C6FB4A34561",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "192D5533199EAA34",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.67778d,
+      "y": 4.725d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "178FD8FF64FDCE24",
+      "title": "Iron Golem Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:iron_golem"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Iron Golem Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Iron Golem Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11EEE1FC6DD730BF",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:iron_golem"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "163F96D6CA3B87B6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C7017859A9AA8A8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 3.375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ABF3DF9BE15548F",
+      "title": "Pig Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:pig"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Pig Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Pig Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E4F259BBCA46BD4",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:pig"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14C9440A572E8C30",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B131E4A61F0F61F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.07778d,
+      "y": 3.375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16E2E08F468FE2E2",
+      "title": "Chicken Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:chicken"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Chicken Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Chicken Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15406BEA2E0773DD",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:chicken"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F31ADC51FACE514",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1758533024D598C6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.72778d,
+      "y": 0.675d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AEC604E297CC592",
+      "title": "Wither Skeleton Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Wither Skeleton Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Wither Skeleton Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FBFEADFB0141168",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C7516753A434F7E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "105B04195D7C9AB9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.37778d,
+      "y": 6.075d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13177CF7C9E0D704",
+      "title": "Elder Guardian Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:elder_guardian"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Elder Guardian Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Elder Guardian Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15A7D92DE8A3E17E",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:elder_guardian"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10914DB95836A407",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E7B1BE847EAC34A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 2.025d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F5E66DBFF65609C",
+      "title": "Skeleton Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:skeleton"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Skeleton Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Skeleton Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12F69CCBD253E4BD",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:skeleton"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EBFB37C72AB4D92",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15E9AE218A3D0261",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 4.725d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16E0715A05BF1A4F",
+      "title": "Creeper Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:creeper"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Creeper Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Creeper Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12D29A70F08DF7F6",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:creeper"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B5A958CD2C437F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA15F301A968A78",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.77778d,
+      "y": 0.675d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10AB5FB2232AF464",
+      "title": "Squid Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:prediction",
+        "components": {
+          "hostilenetworks:data_model": "hostilenetworks:squid"
+        }
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Train the Squid Data Model in a Deep Learner, then run it with Prediction Matrix in a Simulation Chamber. Collect the Squid Prediction for this goal; another mob’s prediction does not count."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "187BAC8EF84454EB",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:prediction",
+            "components": {
+              "hostilenetworks:data_model": "hostilenetworks:squid"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DFDA8B0D169E018",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C24CAB7057A9178",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.42778d,
+      "y": 4.725d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F5B30EA38F23CCC",
+      "title": "Data Center",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:data_center"
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Craft Data Center. Item inputs include Echo Shard, Loot Fabricator, Nether Star, Simulation Chamber. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F81A6172FB8772A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D3C0CE1BF2B1B6B",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:data_center"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F5CD45AA5406D74",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1591A233B280B9A3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.12778d,
+      "y": 0.675d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1098B0BAC494B56C",
+      "title": "%s Data Model",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:data_model"
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Obtain %s Data Model and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1BE347DBA144D14E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15C96BE2CAF506FF",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:data_model"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F80B31E34A9A8F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "139032BEEB8EA500",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.0d,
+      "y": 9.74306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17439DBA493B0400",
+      "title": "Generalized Ender Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:end_prediction"
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Craft Generalized Ender Prediction. Item inputs include End Stone, Generalized Nether Prediction. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12E91D5534CF4223"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18123130B7CB0BB1",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:end_prediction"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AF48FD1FB0DB5A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "121F507C38EC8809",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.84444d,
+      "y": 8.02083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1298F7F13322173D",
+      "title": "Generalized Nether Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:nether_prediction"
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Craft Generalized Nether Prediction. Item inputs include Netherrack, Generalized Overworld Prediction. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12E91D5534CF4223"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A4791E81A3E59F1",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:nether_prediction"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1278AAAA10BE3987",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18AA5544772D831D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.19444d,
+      "y": 8.02083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11E2054A3C1A59F5",
+      "title": "Generalized Overworld Prediction",
+      "subtitle": "Mob Resources",
+      "icon": {
+        "id": "hostilenetworks:overworld_prediction"
+      },
+      "description": [
+        "Train Data Models in a Deep Learner while defeating the matching mob. Simulations need a trained model, energy, and Prediction Matrix; process predictions in a Loot Fabricator.",
+        "Obtain Generalized Overworld Prediction and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "12E91D5534CF4223"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F2867C5ADE76AC3",
+          "type": "item",
+          "item": {
+            "id": "hostilenetworks:overworld_prediction"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CB351B542825513",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13C44D3D8B9B8170",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.54444d,
+      "y": 8.02083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D39556425082F9D",
+      "title": "Blaze Rods",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:blaze_rod"
+      },
+      "description": [
+        "Blaze Rods are an optional mob drop for recipes that specifically need rods. The main workshop uses sieved Blaze Powder and Magma Blocks, so this collection does not gate your first machines."
+      ],
+      "dependencies": [
+        "14128FA0C5CC7FFD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11C5E0DE4B75D39A",
+          "type": "item",
+          "item": {
+            "id": "minecraft:blaze_rod"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10FF16FF22778AF2",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "164D05984F19AB97",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": -1.5d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "111B6BE6097D4728",
+      "linked_quest": "1FD1F15A3D0EF4CA",
+      "x": 5.58333d,
+      "y": 12.74306d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1E9498897E0FAD0A",
+      "linked_quest": "14128FA0C5CC7FFD",
+      "x": -0.25d,
+      "y": 0.0d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

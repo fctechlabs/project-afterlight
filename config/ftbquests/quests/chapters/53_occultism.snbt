@@ -1,0 +1,3014 @@
+{
+  "id": "1D60B7BE1DD85180",
+  "filename": "53_occultism",
+  "title": "Occultism",
+  "icon": {
+    "id": "occultism:book_of_calling_djinni_manage_machine"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 35,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1B4A0C8ED28761B4",
+      "title": "The ritual handbook",
+      "subtitle": "Spirits and storage",
+      "icon": {
+        "id": "occultism:dictionary_of_spirits"
+      },
+      "description": [
+        "Use the Dictionary of Spirits for the ritual circles and spirit tiers. Occultism supplies no required Afterlight campaign ingredient."
+      ],
+      "dependencies": [
+        "16DB647B394B4E1B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14CBF0CD50BE3BB0",
+          "type": "item",
+          "item": {
+            "id": "occultism:dictionary_of_spirits"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15ACCD3BCF0379F8",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1813B6CD11D72FDA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.21918d,
+      "y": 6.27403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9C1BA1D72D61C6",
+      "title": "White Chalk",
+      "subtitle": "Spirits and storage",
+      "icon": {
+        "id": "occultism:chalk_white"
+      },
+      "description": [
+        "Use the correct chalk and circle from the dictionary. Verify every symbol and ingredient before activating the ritual."
+      ],
+      "dependencies": [
+        "16DB647B394B4E1B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B48FC5C0D884AC7",
+          "type": "item",
+          "item": {
+            "id": "occultism:chalk_white"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16C42431156A7A58",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17D5A5AA69C95BB8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.46945d,
+      "y": 10.23734d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D7B0E260D29605E",
+      "title": "Spirit Attuned Crystal",
+      "subtitle": "Spirits and storage",
+      "icon": {
+        "id": "occultism:spirit_attuned_crystal"
+      },
+      "description": [
+        "Follow the crystal recipe and its spirit requirements. Use the dictionary to identify the next ritual tier."
+      ],
+      "dependencies": [
+        "176261118FC8C200"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16F4425789D4FC6D",
+          "type": "item",
+          "item": {
+            "id": "occultism:spirit_attuned_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10B7DDE34022071F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1AD549E68D32E5F5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.64467d,
+      "y": 5.42231d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D781E1AE5185471",
+      "title": "Dimensional Storage Actuator",
+      "subtitle": "Spirits and storage",
+      "icon": {
+        "id": "occultism:storage_controller"
+      },
+      "description": [
+        "Build and form the storage system. Spirit storage is an alteryou can explore without diverting the campaign into ritual gates."
+      ],
+      "dependencies": [
+        "16DB647B394B4E1B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "144AB09C4ED97E89",
+          "type": "item",
+          "item": {
+            "id": "occultism:storage_controller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11FD3F46D4C73F25",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1094EF52D0D0F454",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.46945d,
+      "y": 7.59469d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17308BF0EFF9845E",
+      "title": "Rainbow Chalk",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:chalk_rainbow"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Rainbow Chalk. Item inputs include Void Chalk. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "112123B5673AFC2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13DBB48BF35A1B1B",
+          "type": "item",
+          "item": {
+            "id": "occultism:chalk_rainbow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "199F915DF93E8E29",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11FAEFCFCF7D5DF8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.71945d,
+      "y": 7.22819d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "171B9FC13E9C06A9",
+      "title": "Iesnium Pickaxe",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:iesnium_pickaxe"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Iesnium Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BF079A586145CFA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D1336A7542ABED9",
+          "type": "item",
+          "item": {
+            "id": "occultism:iesnium_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1204627C503F9BC5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10BD6F6A866D87BD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.40278d,
+      "y": 9.90208d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19CC926998862850",
+      "title": "Silver Sacrificial Bowl",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:silver_sacrificial_bowl"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Silver Sacrificial Bowl. Item inputs include Sacrificial Bowl. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "116F7C928A692F47"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A468955BE58B68A",
+          "type": "item",
+          "item": {
+            "id": "occultism:silver_sacrificial_bowl"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "137D5DE768C0A7DB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A1D10D302669A4D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.81597d,
+      "y": 7.00966d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1199FFBCED7D54D1",
+      "title": "Sacrificial Altar",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "ars_ocultas:altar"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use the Enchanting Apparatus to make Sacrificial Altar. Item inputs include Silver Ingot, Drygmy Token, Sourcestone, Containment Jar. This recipe also uses 5000 Source. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1537F01CD43B623F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1990175A8FBB0811",
+          "type": "item",
+          "item": {
+            "id": "ars_ocultas:altar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C029E948A41EE4B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10E6B7F3B2777478",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.27639d,
+      "y": 10.51571d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F28E362D1CD3C2E",
+      "title": "Flint And Steel",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "minecraft:flint_and_steel"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Obtain Flint And Steel and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B4A0C8ED28761B4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13568BC3DAAD978B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:flint_and_steel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EA46BE29F52B56",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BD846949AF8E293",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.34635d,
+      "y": 5.53107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1758C469D0710525",
+      "title": "Gilded Blackstone",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "minecraft:gilded_blackstone"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Metallurgic Infusing processing to make Gilded Blackstone. Item inputs include Blackstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B7E8203B95F7CB1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19D2B86673D087F8",
+          "type": "item",
+          "item": {
+            "id": "minecraft:gilded_blackstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "114A1595261A1646",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A15DCA7F612E7C3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.29304d,
+      "y": 8.04989d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1537F01CD43B623F",
+      "title": "Honey Block",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "minecraft:honey_block"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Honey Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1061DC147CE7FC05"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "151F95E3FBE89082",
+          "type": "item",
+          "item": {
+            "id": "minecraft:honey_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "180E8B8C3DB65BA7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1695534410E219B0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.12292d,
+      "y": 7.39375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FD63C317530B75A",
+      "title": "Phantom Membrane",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "minecraft:phantom_membrane"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Phantom Membrane. Item inputs include Leather, Bone Meal, String. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1061DC147CE7FC05"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E9AA6BFE535868",
+          "type": "item",
+          "item": {
+            "id": "minecraft:phantom_membrane"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F9E9D050907B573",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1917384FFB9BBEE1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.07508d,
+      "y": 5.58067d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "176261118FC8C200",
+      "title": "Butcher Knife",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:butcher_knife"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Butcher Knife. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBCE65AE9794EF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1676EBE15DB3A694",
+          "type": "item",
+          "item": {
+            "id": "occultism:butcher_knife"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DEE7B47C45493FC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18EC5791126BA1A1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.29467d,
+      "y": 5.42231d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14C80FE8E1F92324",
+      "title": "Void Chalk",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:chalk_void"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Void Chalk. Item inputs include Chalk Brush, White Chalk, Light Gray Chalk, Gray Chalk. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17308BF0EFF9845E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "170C5261D575B2D5",
+          "type": "item",
+          "item": {
+            "id": "occultism:chalk_void"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10B0321676F816E5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12D6EEEEC5B94303",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.98406d,
+      "y": 7.70068d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "112123B5673AFC2C",
+      "title": "Impure White Chalk",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:chalk_white_impure"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Impure White Chalk. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBCE65AE9794EF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C9C7CBD54EB6252",
+          "type": "item",
+          "item": {
+            "id": "occultism:chalk_white_impure"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "161DBB632885E245",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15E93C744A1BFF2E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.45483d,
+      "y": 6.75569d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "116F7C928A692F47",
+      "title": "Impure Yellow Chalk",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:chalk_yellow_impure"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Impure Yellow Chalk. Item inputs include Impure White Chalk. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1204B7460F523BA7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A34A3CB8FFB8337",
+          "type": "item",
+          "item": {
+            "id": "occultism:chalk_yellow_impure"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF3AE7CE51A3A07",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16021F2555F4E5C8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.69467d,
+      "y": 5.42231d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17CC6C714521E3BE",
+      "title": "Crushed Ice",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:crushed_ice"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Obtain Crushed Ice and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1BE353000F22A650"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B5AB1317729DDB3",
+          "type": "item",
+          "item": {
+            "id": "occultism:crushed_ice"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D62D04FFD9CF18D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1471671D05FCE08B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.27639d,
+      "y": 3.29396d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B7E8203B95F7CB1",
+      "title": "Cursed Honey",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:cursed_honey"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Cursed Honey. Item inputs include Book of Binding: Djinni (Bound), Honeycomb, Honey Block, Honey Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1537F01CD43B623F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DC09266D5B7FE88",
+          "type": "item",
+          "item": {
+            "id": "occultism:cursed_honey"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "163EAB2DBF7A3F5F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1436BF9D14D297B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.27639d,
+      "y": 9.19527d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18038E87D3FE78AC",
+      "title": "Demon's Dream Fruit",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:datura"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Obtain Demon's Dream Fruit and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16DB647B394B4E1B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "196ACB44A957BF46",
+          "type": "item",
+          "item": {
+            "id": "occultism:datura"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1658930B2DA1F1CD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16BEB1964A229893",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.46945d,
+      "y": 8.91669d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16DB647B394B4E1B",
+      "title": "Demon's Dream Seeds",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:datura_seeds"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Obtain Demon's Dream Seeds and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FF76E6098025F47",
+          "type": "item",
+          "item": {
+            "id": "occultism:datura_seeds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FDEF4B6CFABEF3D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "171AC7200E7A2635",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.31579d,
+      "y": 7.76328d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13CD975D524801ED",
+      "title": "Demonic Meat",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:demonic_meat"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Obtain Demonic Meat and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1758C469D0710525"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F7887D344E00727",
+          "type": "item",
+          "item": {
+            "id": "occultism:demonic_meat"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13F5B5644259C6A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14EE2AF6D7B95998",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.61504d,
+      "y": 8.04989d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1033C8363F68B599",
+      "title": "Dimensional Crystal Matrix",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:dimensional_matrix"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Dimensional Crystal Matrix. Item inputs include Book of Binding: Djinni (Bound), Quartz Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "116F7C928A692F47"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EBAA3368FB27B06",
+          "type": "item",
+          "item": {
+            "id": "occultism:dimensional_matrix"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BB41B338BC551B5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB15C014F53CE13",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.51667d,
+      "y": 5.68766d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DD07D83C38F62FC",
+      "title": "Dimensional Mineshaft",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:dimensional_mineshaft"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Dimensional Mineshaft. Item inputs include Book of Binding: Djinni (Bound), Otherstone, Otherrock, Spirit Attuned Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "171B9FC13E9C06A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "189F1C55C146B788",
+          "type": "item",
+          "item": {
+            "id": "occultism:dimensional_mineshaft"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19996A160B40EEBF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "139DB7BA05A2CC8F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.75278d,
+      "y": 9.90208d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B40F091740968A",
+      "title": "Gray Paste",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:gray_paste"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Gray Paste. Item inputs include Book of Binding: Djinni (Bound), Clay Ball, Phantom Membrane. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FD63C317530B75A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A8CCEFCCD32ABC3",
+          "type": "item",
+          "item": {
+            "id": "occultism:gray_paste"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A78341C7935A017",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1518FA6D08BBE77C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.27639d,
+      "y": 7.87484d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187370DF3A0D70CC",
+      "title": "Iesnium Anvil",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:iesnium_anvil"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Iesnium Anvil. Item inputs include Book of Binding: Marid (Bound), Anvil, Marid Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A6EFEB5C0D7AC5C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB3B5748B8920A7",
+          "type": "item",
+          "item": {
+            "id": "occultism:iesnium_anvil"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11481A2317828988",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1370430CC35D783F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.27639d,
+      "y": -1.98794d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BE353000F22A650",
+      "title": "Block of Iesnium",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:iesnium_block"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Block of Iesnium. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13EE9F6EFCF823C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15159EDBDCF7E85A",
+          "type": "item",
+          "item": {
+            "id": "occultism:iesnium_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D59C85BCA4FA6BC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FD4846D9E147990",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.13878d,
+      "y": 2.93968d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BF079A586145CFA",
+      "title": "Iesnium Ore",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:iesnium_ore"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Obtain Iesnium Ore and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B523C8B06DE75BB",
+          "type": "item",
+          "item": {
+            "id": "occultism:iesnium_ore"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1703252F1DFB09CF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "142BFD3C38A8A8A4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.05278d,
+      "y": 9.90208d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D76138726ECDD36",
+      "title": "Nature Paste",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:nature_paste"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Nature Paste. Item inputs include Book of Binding: Foliot (Bound). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F62F485B4695ECA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13DBBE3760E52074",
+          "type": "item",
+          "item": {
+            "id": "occultism:nature_paste"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F58A7B9E891E284",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AEB53944FF62196",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.81947d,
+      "y": 4.3652d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A9D8EB6AC9DC5E1",
+      "title": "Otherstone",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:otherstone"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Smelt Otherstone. Item inputs include Othercobblestone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F28E362D1CD3C2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "181309DAA7C83F1D",
+          "type": "item",
+          "item": {
+            "id": "occultism:otherstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A504DA0EE687CBA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E806442FFF5FDE3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.47351d,
+      "y": 4.78811d,
+      "shape": "square",
+      "size": 1.0d,
+      "dependency_requirement": "one_completed",
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E8D52999017CABE",
+      "title": "Otherworld Goggles",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:otherworld_goggles"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Otherworld Goggles. Item inputs include Lens Frame, Infused Lenses. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F62F485B4695ECA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14DDE21CC3500423",
+          "type": "item",
+          "item": {
+            "id": "occultism:otherworld_goggles"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B9A135DF763DF13",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1300F0528BB07472",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.40164d,
+      "y": 0.58371d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158ABEAB4376F216",
+      "title": "Purified Ink",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:purified_ink"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Spirit Fire processing to make Purified Ink. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBCE65AE9794EF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1251E663C0757772",
+          "type": "item",
+          "item": {
+            "id": "occultism:purified_ink"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168CE849FE72A2B8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ECF06179351E042",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.85881d,
+      "y": 7.80311d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F62F485B4695ECA",
+      "title": "Ritual Recipes",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:ritual_dummy/custom_ritual_craft"
+      },
+      "description": [
+        "Ritual entries in JEI describe a process rather than an item to collect. Follow the actual ritual ingredients and equipment shown there. This reference lesson does not require a ritual placeholder item."
+      ],
+      "dependencies": [
+        "116F7C928A692F47"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1BF2F0C218628920"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC9CC24DE8E8957",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E3B64A3342AEE67",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.14353d,
+      "y": 4.10183d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B14BBC4A14D6E6B",
+      "title": "Ritual Recipes",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:ritual_dummy/custom_ritual_possess"
+      },
+      "description": [
+        "Ritual entries in JEI describe a process rather than an item to collect. Follow the actual ritual ingredients and equipment shown there. This reference lesson does not require a ritual placeholder item."
+      ],
+      "dependencies": [
+        "13EE9F6EFCF823C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "12CD41EBE6496553"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17818BC72079C37D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DC5224A19A8F38E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.42635d,
+      "y": 1.61768d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13D38D34A543335E",
+      "title": "Apprentice Ritual Satchel",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:ritual_satchel_t1"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Apprentice Ritual Satchel. Item inputs include Book of Binding: Foliot (Bound), Hopper, Dispenser. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F62F485B4695ECA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FE6E6F6874AFFDB",
+          "type": "item",
+          "item": {
+            "id": "occultism:ritual_satchel_t1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10C76956BC8A761F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B23FF525B1D858E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.02105d,
+      "y": 3.35181d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB4C9E8EDC10F78",
+      "title": "Artisanal Ritual Satchel",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:ritual_satchel_t2"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Artisanal Ritual Satchel. Item inputs include Book of Binding: Afrit (Bound), Apprentice Ritual Satchel, Afrit Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F62F485B4695ECA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12F55D2A3CBF0691",
+          "type": "item",
+          "item": {
+            "id": "occultism:ritual_satchel_t2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "151C86600AF9A997",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D66E3B4A0AA90FA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75164d,
+      "y": -0.76629d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BCE0BA62CA354F7",
+      "title": "Storage Accessor",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:storage_remote"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Storage Accessor. Item inputs include Book of Binding: Djinni (Bound), Inert Storage Accessor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1033C8363F68B599"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12D240084845B04A",
+          "type": "item",
+          "item": {
+            "id": "occultism:storage_remote"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18DE6BF962F9B3E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E77F843F42E2F91",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.96945d,
+      "y": 8.54717d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DE8DDA538419C70",
+      "title": "Prismarine Crystals",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "minecraft:prismarine_crystals"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Prismarine Crystals. Item inputs include Guardian Spike. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B521D912180DEB7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "184531F6148AB421",
+          "type": "item",
+          "item": {
+            "id": "minecraft:prismarine_crystals"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5634C93A38A734",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1732B07F47A112BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.63129d,
+      "y": 2.58363d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E9A155E398BA33D",
+      "title": "Afrit Essence",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:afrit_essence"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Afrit Essence. Item inputs include Book of Binding: Afrit (Bound), Flint And Steel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11C670145B3811CD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17647AF47F21FB7D",
+          "type": "item",
+          "item": {
+            "id": "occultism:afrit_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CC9B00D5F60FDB8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16907EDCF389C484",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.61667d,
+      "y": 6.72789d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A6EFEB5C0D7AC5C",
+      "title": "Amethyst Dust",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:amethyst_dust"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Obtain Amethyst Dust and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "13EE9F6EFCF823C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14D2B3A452229003",
+          "type": "item",
+          "item": {
+            "id": "occultism:amethyst_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18EA073262E3A236",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "143B0C47F3941EC1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.42364d,
+      "y": 0.29702d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1882D6C9C435F388",
+      "title": "Cruelty Essence",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:cruelty_essence"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Cruelty Essence. Item inputs include Book of Binding: Marid (Bound), Pointed Dripstone, Rabbit Foot, Armadillo Scute. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B14BBC4A14D6E6B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C63F6919032A752",
+          "type": "item",
+          "item": {
+            "id": "occultism:cruelty_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11DEEB34254617FB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16ECDE01BBC7848A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.27639d,
+      "y": -0.66749d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F2528CB449FAF7B",
+      "title": "Divination Rod",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:divination_rod"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Divination Rod. Item inputs include Spirit Attuned Gem. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A9D8EB6AC9DC5E1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12A1BB05CF71C2A2",
+          "type": "item",
+          "item": {
+            "id": "occultism:divination_rod"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F761E5C24CB187",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B7103CFEFE817EB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.62315d,
+      "y": 8.06445d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1811547388A97673",
+      "title": "Dragonyst Dust",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:dragonyst_dust"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Dragonyst Dust. Item inputs include Book of Binding: Marid (Bound), End Crystal, Dragon Breath. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BE353000F22A650"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "120D55C82B129010",
+          "type": "item",
+          "item": {
+            "id": "occultism:dragonyst_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D624F222036528B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DFF029246726966",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.27639d,
+      "y": 1.97499d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "100F3053C6853349",
+      "title": "Echo Dust",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:echo_dust"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Obtain Echo Dust and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1BE353000F22A650"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B95BE8334C53DF2",
+          "type": "item",
+          "item": {
+            "id": "occultism:echo_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14C878A067865E72",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "128571190A7A9757",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.27639d,
+      "y": 0.65299d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11C670145B3811CD",
+      "title": "Iesnium Ingot",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:iesnium_ingot"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Smelt Iesnium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B7E8203B95F7CB1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E57267CC2F6C70E",
+          "type": "item",
+          "item": {
+            "id": "occultism:iesnium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D407B3E5DA62A89",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA1E077C7A86BC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.29467d,
+      "y": 6.72789d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13EE9F6EFCF823C4",
+      "title": "Marid Essence",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:marid_essence"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Marid Essence. Item inputs include Book of Binding: Marid (Bound), Conduit, Prismarine Shard, Ghast Tear. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DE8DDA538419C70"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ECA9F19D09C3714",
+          "type": "item",
+          "item": {
+            "id": "occultism:marid_essence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18048132A3B54B3F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B05A1C99B16A5BA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.79787d,
+      "y": 1.90422d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1061DC147CE7FC05",
+      "title": "Research Fragment Dust",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:research_fragment_dust"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Research Fragment Dust. Item inputs include Book of Binding: Foliot (Bound), Experience Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F62F485B4695ECA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14842B8015E3B6F8",
+          "type": "item",
+          "item": {
+            "id": "occultism:research_fragment_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1013EF4D5BC62082",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11F3473DC88A7B59",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.26108d,
+      "y": 5.74011d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F54A92F5FE3A4E7",
+      "title": "Soul Gem",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:soul_gem"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Soul Gem. Item inputs include Book of Binding: Djinni (Bound), Fragile Soul Gem. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FD63C317530B75A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F45F168753CAD1A",
+          "type": "item",
+          "item": {
+            "id": "occultism:soul_gem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1866651FE64A8D7E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "181FF0847F3CA265",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.44037d,
+      "y": 5.23304d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B0BF191DDBA6A6",
+      "title": "Trinity Gem",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:trinity_gem"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Trinity Gem. Item inputs include Soul Gem, Afrit Essence, Marid Essence, Cruelty Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F54A92F5FE3A4E7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1989FA55BFEB7E02",
+          "type": "item",
+          "item": {
+            "id": "occultism:trinity_gem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FF1B9EF0F9FCB46",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "190BDB579F169233",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.75464d,
+      "y": 4.9245d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B521D912180DEB7",
+      "title": "Witherite Dust",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:witherite_dust"
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Use Ritual processing to make Witherite Dust. Item inputs include Book of Binding: Afrit (Bound), Wither Skeleton Skull, Wither Rose. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F62F485B4695ECA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1EB67E852FD02A",
+          "type": "item",
+          "item": {
+            "id": "occultism:witherite_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "193DCC4D8BFD1307",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F2EC96B4826C37C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.46471d,
+      "y": 3.26304d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DA8C1A56BD0320D",
+      "title": "Book of Binding: Foliot (Bound)",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:book_of_binding_bound_foliot",
+        "components": {
+          "occultism:spirit_name": "Grimzirryne"
+        }
+      },
+      "description": [
+        "Occultism is optional. Use the Dictionary of Spirits for chalk circles, sacrifices, and summoned workers. Keep ritual space clear and prepare storage before summoning an operator.",
+        "Craft Book of Binding: Foliot (Bound). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D7B0E260D29605E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19F57ED20F245B07",
+          "type": "item",
+          "item": {
+            "id": "occultism:book_of_binding_bound_foliot",
+            "components": {
+              "occultism:spirit_name": "Grimzirryne"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E854CA00B0C2284",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1175261B2CD50A01",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.99467d,
+      "y": 5.42231d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10EC0E644E037C3E",
+      "title": "Preparing for a Ritual: Bowls",
+      "subtitle": "Occultism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(occultism:sacrificial_bowl)item(occultism:dark_sacrificial_bowl))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DBCE65AE9794EF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "count": 4,
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(occultism:sacrificial_bowl)item(occultism:dark_sacrificial_bowl))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1B36F1DB1B852243",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(occultism:golden_sacrificial_bowl)item(occultism:dark_golden_sacrificial_bowl))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "174361452E92EDBD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "139B7DEA3F706450",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.75486d,
+      "y": 9.05215d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CBE292BF0B7CB8D",
+      "title": "Upgrading Our Magical Storage",
+      "subtitle": "Occultism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(occultism:storage_stabilizer_tier1)item(occultism:storage_stabilizer_tier2)item(occultism:storage_stabilizer_tier3)item(occultism:storage_stabilizer_tier4)item(occultism:storage_stabilizer_tier5)item(occultism:storage_stabilizer_tier1_dark)item(occultism:storage_stabilizer_tier2_dark)item(occultism:storage_stabilizer_tier3_dark)item(occultism:storage_stabilizer_tier4_dark)item(occultism:storage_stabilizer_tier5_dark))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1033C8363F68B599"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(occultism:storage_stabilizer_tier1)item(occultism:storage_stabilizer_tier2)item(occultism:storage_stabilizer_tier3)item(occultism:storage_stabilizer_tier4)item(occultism:storage_stabilizer_tier5)item(occultism:storage_stabilizer_tier1_dark)item(occultism:storage_stabilizer_tier2_dark)item(occultism:storage_stabilizer_tier3_dark)item(occultism:storage_stabilizer_tier4_dark)item(occultism:storage_stabilizer_tier5_dark))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1C94629A19E8391A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E4A366DBDEB9BF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.96945d,
+      "y": 7.22647d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B472FDA11BD4E27",
+      "title": "Familiars",
+      "subtitle": "Occultism",
+      "icon": {
+        "components": {
+          "ftbquests:icon": "occultism:textures/gui/book/familiar_headless_ratman.png"
+        },
+        "id": "ftbquests:custom_icon"
+      },
+      "description": [
+        "Learn about Familiars in the Occultism guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1DBCE65AE9794EF5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1BBE654E7EDF1ADC",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19A6602E5CD16B33",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.62338d,
+      "y": 4.10119d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "143ED05F907EE7C7",
+      "title": "Chalk Repair",
+      "subtitle": "Occultism",
+      "icon": {
+        "components": {
+          "ftbquests:icon": "occultism:block/chalk_glyph/0"
+        },
+        "id": "ftbquests:custom_icon"
+      },
+      "description": [
+        "Learn about Chalk Repair in the Occultism guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1FD63C317530B75A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "141E9F244FA68B35",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "191FBDCCD60656E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.27639d,
+      "y": 6.55439d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1470B7ACE356E252",
+      "title": "Repairing Items",
+      "subtitle": "Occultism",
+      "icon": {
+        "components": {
+          "ftbquests:icon": "occultism:block/chalk_glyph/7"
+        },
+        "id": "ftbquests:custom_icon"
+      },
+      "description": [
+        "Learn about Repairing Items in the Occultism guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1F62F485B4695ECA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1B0227F25E749688",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18AEBC8E409506B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75164d,
+      "y": 0.58371d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12B1E48E96582B3A",
+      "title": "Osorin's Unbound Calling",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:ritual_dummy/custom_ritual_misc"
+      },
+      "description": [
+        "Learn about Osorin's Unbound Calling in the Occultism guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "17CC6C714521E3BE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1CA189B30DEF6C41",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "162C8EB68C30A858",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.38926d,
+      "y": 3.6993d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1575E10B6A52E369",
+      "title": "Iesnium Ritual Bowl",
+      "subtitle": "Occultism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(occultism:iesnium_sacrificial_bowl)item(occultism:dark_iesnium_sacrificial_bowl))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1F62F485B4695ECA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(occultism:iesnium_sacrificial_bowl)item(occultism:dark_iesnium_sacrificial_bowl))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F3783AC63E78DAD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BB8EF3EE2C1792C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.96945d,
+      "y": 4.65447d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C7982AF2A251963",
+      "title": "Eldritch Chalice",
+      "subtitle": "Occultism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(occultism:celestial_chalice)item(occultism:eldritch_chalice))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1575E10B6A52E369"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(occultism:celestial_chalice)item(occultism:eldritch_chalice))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "185DBD499EA71CBB",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F6CF29FA01E6927",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.11837d,
+      "y": 4.26033d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EC6CFFC79592BF8",
+      "title": "What's Next?",
+      "subtitle": "Occultism",
+      "icon": {
+        "components": {
+          "ftbquests:icon": "occultism:textures/gui/book/infusion.png"
+        },
+        "id": "ftbquests:custom_icon"
+      },
+      "description": [
+        "Learn about What's Next? in the Occultism guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "17B0BF191DDBA6A6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1CFBC12A73025071",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E28B5C0DA723F42",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.0689d,
+      "y": 4.61596d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DBCE65AE9794EF5",
+      "title": "The Basics of Rituals",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "minecraft:book"
+      },
+      "description": [
+        "Learn about The Basics of Rituals in the Occultism guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1A9D8EB6AC9DC5E1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "117803DBA99276E9",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10973AB6B347EC7A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.79815d,
+      "y": 6.74245d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1204B7460F523BA7",
+      "title": "Foreword on Pentacles",
+      "subtitle": "Occultism",
+      "icon": {
+        "id": "occultism:book_of_calling_djinni_manage_machine"
+      },
+      "description": [
+        "Learn about Foreword on Pentacles in the Occultism guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1DA8C1A56BD0320D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "14008DDBEBD44EBC",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "167C271A67458B3A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.34467d,
+      "y": 5.42231d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

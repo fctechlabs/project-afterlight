@@ -1,0 +1,3925 @@
+{
+  "id": "111EC0B31C178B38",
+  "filename": "63_mek_reactors",
+  "title": "Mekanism Reactors",
+  "icon": {
+    "id": "mekanismgenerators:fission_reactor_casing"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 41,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "18946ED751629621",
+      "title": "MekaSuit Boots",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:mekasuit_boots"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft MekaSuit Boots. Item inputs include Netherite Boots, Basic Induction Cell, HDPE Sheet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C165B7106B2A5D3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "178A47DB87317479",
+          "type": "item",
+          "item": {
+            "id": "mekanism:mekasuit_boots"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13284E987D014D54",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "101C7897A443F0AF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75966d,
+      "y": 4.14807d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1588E6083F0D30E7",
+      "title": "Antiprotonic Nucleosynthesizer",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:antiprotonic_nucleosynthesizer"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Antiprotonic Nucleosynthesizer. Item inputs include Atomic Alloy, Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C165B7106B2A5D3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1758D0E6F674E570",
+          "type": "item",
+          "item": {
+            "id": "mekanism:antiprotonic_nucleosynthesizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C0F19D80C248663",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18143DDFDDA42C4C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.05966d,
+      "y": 4.14807d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13574DC652E8087A",
+      "title": "Atomic Disassembler",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:atomic_disassembler"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Use Mek Data processing to make Atomic Disassembler. Item inputs include Energy Tablet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C327AC60EF555E6",
+          "type": "item",
+          "item": {
+            "id": "mekanism:atomic_disassembler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EB2DEAFF98D7109",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18723ADD5C83AFAC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.09846d,
+      "y": 7.03223d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D572664A9526604",
+      "title": "Boiler Casing",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:boiler_casing"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Boiler Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BE3C61A1CC92A7C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "168691F2FC7D17F1",
+          "type": "item",
+          "item": {
+            "id": "mekanism:boiler_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "180B76A02113B9F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "164B90997D7B82DB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.45555d,
+      "y": 6.24817d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BE3C61A1CC92A7C",
+      "title": "Boiler Valve",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:boiler_valve"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Boiler Valve. Item inputs include Boiler Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113F625CE3C606A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "185D48743E4A46D7",
+          "type": "item",
+          "item": {
+            "id": "mekanism:boiler_valve"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "144B44432278961A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D1EF08D8D759ECD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.13456d,
+      "y": 7.03462d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16FCDDE5C650C1E7",
+      "title": "Isotopic Centrifuge",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:isotopic_centrifuge"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Use Mek Data processing to make Isotopic Centrifuge. Item inputs include Basic Chemical Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CF4E21EF8902406"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B5489325FAEC2BF",
+          "type": "item",
+          "item": {
+            "id": "mekanism:isotopic_centrifuge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ED74F17613E8FA6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195515B17DB3D93B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.45966d,
+      "y": 2.44901d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EAD2015AEB64A91",
+      "title": "Laser",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:laser"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Use Mek Data processing to make Laser. Item inputs include Energy Tablet, Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "146422094CC7C7D4",
+          "type": "item",
+          "item": {
+            "id": "mekanism:laser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15DB4DE92FC2ABF8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "186099B80CC51C20",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.63781d,
+      "y": 15.43691d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1287A221B4416E67",
+      "title": "Laser Amplifier",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:laser_amplifier"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Use Mek Data processing to make Laser Amplifier. Item inputs include Basic Energy Cube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EAD2015AEB64A91"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E80B432804B76D0",
+          "type": "item",
+          "item": {
+            "id": "mekanism:laser_amplifier"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1038DCC94A0CF359",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BE200BAD2084B36",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.98781d,
+      "y": 15.43691d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15758BA91B2D2F75",
+      "title": "Meka-Tool",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:meka_tool"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Meka-Tool. Item inputs include Atomic Disassembler, Basic Induction Cell, HDPE Sheet, Configurator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13574DC652E8087A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18A936E554B35DC6",
+          "type": "item",
+          "item": {
+            "id": "mekanism:meka_tool"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A493A6A79778201",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "165C5D366B538EF9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.77646d,
+      "y": 7.02673d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CBC028570F66CDC",
+      "title": "MekaSuit Bodyarmor",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:mekasuit_bodyarmor"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft MekaSuit Bodyarmor. Item inputs include Netherite Chestplate, Basic Induction Cell, HDPE Sheet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C165B7106B2A5D3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10EDE4A557EFCF0A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:mekasuit_bodyarmor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18A1ABD3E4CB5A02",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F1AEE5A65E30F88",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.40967d,
+      "y": 4.14807d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F5E402960DB7796",
+      "title": "MekaSuit Pants",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:mekasuit_pants"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft MekaSuit Pants. Item inputs include Netherite Leggings, Basic Induction Cell, HDPE Sheet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C165B7106B2A5D3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1893CC87FB5CC451",
+          "type": "item",
+          "item": {
+            "id": "mekanism:mekasuit_pants"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1632829EC604706B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A4A34268A140C5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.20966d,
+      "y": 2.44901d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16FD01527AE2E3AD",
+      "title": "Modification Station",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:modification_station"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Modification Station. Item inputs include HDPE Sheet, Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17F8757DBFB546BB",
+          "type": "item",
+          "item": {
+            "id": "mekanism:modification_station"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A9DA9144AD4F885",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E7FDAE37B2A367F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.91758d,
+      "y": 10.86684d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C165B7106B2A5D3",
+      "title": "Antimatter Pellet",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:pellet_antimatter"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Use Crystallizing processing to make Antimatter Pellet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "159D15D4EE0FBE1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C250EB6A377DEC7",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pellet_antimatter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12DD8E3C3EE65B43",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "114522F6931738E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.85966d,
+      "y": 2.44901d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A8B7A00721CB649",
+      "title": "Plutonium Pellet",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:pellet_plutonium"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Obtain Plutonium Pellet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16FCDDE5C650C1E7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D40AD08821F992",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pellet_plutonium"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EFC909B29357808",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "127A33875BD05A7D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.80966d,
+      "y": 2.44901d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1917E3DBB70F11F9",
+      "title": "Polonium Pellet",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:pellet_polonium"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Obtain Polonium Pellet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16BB9417287DF138"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18E6C9A3F37547C1",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pellet_polonium"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C25A51A006AAE9E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D1526B76F371321",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.96742d,
+      "y": 1.14382d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19A14ADFA5D2AB55",
+      "title": "Portable QIO Dashboard",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:portable_qio_dashboard"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Portable QIO Dashboard. Item inputs include QIO Dashboard, Teleportation Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10D154C5AB6BD7C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A88BBD0586DA925",
+          "type": "item",
+          "item": {
+            "id": "mekanism:portable_qio_dashboard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "121C97117CDC3A2C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB2C4B5630A66EE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.30774d,
+      "y": -0.3325d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "132FC945457336F4",
+      "title": "Pressure Disperser",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:pressure_disperser"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Pressure Disperser. Item inputs include Iron Bars. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19A897DA1AEE1680"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C12F382AB11D5C",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pressure_disperser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "101915E76C88B885",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1256064331C8D846",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.13467d,
+      "y": -1.49615d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10D154C5AB6BD7C4",
+      "title": "QIO Dashboard",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:qio_dashboard"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft QIO Dashboard. Item inputs include Teleportation Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FF5CE27945B2057"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B6F0EA7C0CDD65B",
+          "type": "item",
+          "item": {
+            "id": "mekanism:qio_dashboard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1937D8A63B40D822",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17C831CEE07D08CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.98574d,
+      "y": -0.16625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FF5CE27945B2057",
+      "title": "QIO Drive Array",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:qio_drive_array"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Use Mek Data processing to make QIO Drive Array. Item inputs include Teleportation Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1510CB80F4BFC968",
+          "type": "item",
+          "item": {
+            "id": "mekanism:qio_drive_array"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14BF6437EE43413A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1949B3EF3219FAF4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.33522d,
+      "y": 0.07211d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FDB3661C9C613A4",
+      "title": "QIO Exporter",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:qio_exporter"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft QIO Exporter. Item inputs include Piston, Teleportation Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FF5CE27945B2057"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A28DBC32C9A225F",
+          "type": "item",
+          "item": {
+            "id": "mekanism:qio_exporter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A56C267BC86863A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19878B56574246F3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.76362d,
+      "y": -1.24989d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158BCD8D916AE341",
+      "title": "Robit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:robit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Use Mek Data processing to make Robit. Item inputs include Energy Tablet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E85698115E6403E",
+          "type": "item",
+          "item": {
+            "id": "mekanism:robit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10EA70E035D559B2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17D7239F5263BF04",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.99702d,
+      "y": 15.43623d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16BB9417287DF138",
+      "title": "Solar Neutron Activator",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:solar_neutron_activator"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Solar Neutron Activator. Item inputs include HDPE Sheet, Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CF4E21EF8902406"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18AC2F72302E4855",
+          "type": "item",
+          "item": {
+            "id": "mekanism:solar_neutron_activator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1828A8712F9E9B6A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16CB4D3AED5ED5AF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.64542d,
+      "y": 1.15087d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "159D15D4EE0FBE1E",
+      "title": "SPS Casing",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:sps_casing"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft SPS Casing. Item inputs include HDPE Sheet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B1F01839A93BDCB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1680098F23B9E577",
+          "type": "item",
+          "item": {
+            "id": "mekanism:sps_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "101352C3EECE9209",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F4D5EB0847F4929",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.50966d,
+      "y": 2.44901d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B1F01839A93BDCB",
+      "title": "SPS Port",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:sps_port"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft SPS Port. Item inputs include SPS Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A8B7A00721CB649"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F19FA34DBAA4297",
+          "type": "item",
+          "item": {
+            "id": "mekanism:sps_port"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "140A936429D93F35",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E37BB48C55EE91B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.15967d,
+      "y": 2.44901d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1367320255BD21A2",
+      "title": "Supercharged Coil",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:supercharged_coil"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Supercharged Coil. Item inputs include Laser. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1917E3DBB70F11F9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1201F28E801E7E0B",
+          "type": "item",
+          "item": {
+            "id": "mekanism:supercharged_coil"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "146D95C3540B524A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "180B676325DF06D7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.28783d,
+      "y": -0.16627d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1782B3B241188EBD",
+      "title": "Superheating Element",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:superheating_element"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Superheating Element. Item inputs include Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "155EBA1A08FB0F32",
+          "type": "item",
+          "item": {
+            "id": "mekanism:superheating_element"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1666590E10D9E113",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C864010B820A3D7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.95788d,
+      "y": 16.74949d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "125ADE76828F928A",
+      "title": "Fission Fuel Assembly",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:fission_fuel_assembly"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Fission Fuel Assembly. Item inputs include Basic Chemical Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14B2DCDAC88CD18A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "146C4660DEF7B652",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fission_fuel_assembly"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10E114CD3A16B401",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12559D2783F76671",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.35448d,
+      "y": 15.43503d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "124B34A1E4EB5191",
+      "title": "Fission Reactor Casing",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:fission_reactor_casing"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Fission Reactor Casing. Item inputs include Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15A296BC0F61BA77"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C75E90DB6F74F70",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fission_reactor_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F734A1FCFA6374E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C4FD45A865FBF23",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.48161d,
+      "y": 1.13896d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "111A0B22AB391C96",
+      "title": "Fission Reactor Port",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:fission_reactor_port"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Fission Reactor Port. Item inputs include Fission Reactor Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "166F5BFD03296502",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fission_reactor_port"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C4A823471F3037A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AC17ABF160942FA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.63588d,
+      "y": 16.75496d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BBAF9C1A8F1F422",
+      "title": "Fusion Reactor Controller",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:fusion_reactor_controller"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Fusion Reactor Controller. Item inputs include Fusion Reactor Frame, Basic Chemical Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18D53E7959C567E2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A49531E39A21CC3",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fusion_reactor_controller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C5129BF06DD14E3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1220786B83DBA521",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.60983d,
+      "y": 1.14535d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D53E7959C567E2",
+      "title": "Fusion Reactor Port",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:fusion_reactor_port"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Fusion Reactor Port. Item inputs include Fusion Reactor Frame. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1917E3DBB70F11F9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D05969F2779C02",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fusion_reactor_port"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1BB414651A9FAF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1433722C0049D635",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.28783d,
+      "y": 1.15573d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "168CC33BF67939D8",
+      "title": "Laser Focus Matrix",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:laser_focus_matrix"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Laser Focus Matrix. Item inputs include Reactor Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1287A221B4416E67"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1578730A74E9F69C",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:laser_focus_matrix"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3533699AB080B5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14287DFB8C923C54",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.33781d,
+      "y": 15.43691d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B1A39B15B8118F3",
+      "title": "Daylight Detector",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "minecraft:daylight_detector"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Daylight Detector. Item inputs include Glass, Nightfall Spider Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15A296BC0F61BA77"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D884E07AADC0E6",
+          "type": "item",
+          "item": {
+            "id": "minecraft:daylight_detector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "114CDC58AD6AF09F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B2C178E3954F844",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.94717d,
+      "y": 3.68886d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1598A10B0CD95CC8",
+      "title": "Ultimate Trash Can",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "trashcans:ultimate_trash_can"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Ultimate Trash Can. Item inputs include Item Trash Can, Liquid Trash Can, Energy Trash Can. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19A897DA1AEE1680"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CEA6F5071C4B94D",
+          "type": "item",
+          "item": {
+            "id": "trashcans:ultimate_trash_can"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D8DBBFDA66C137F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "190502B7D501C452",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.83467d,
+      "y": -1.49615d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19A897DA1AEE1680",
+      "title": "Basic Chemical Tank",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:basic_chemical_tank"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Basic Chemical Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "124B34A1E4EB5191"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AD2DB158B289659",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_chemical_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF88C49BF84DEE9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11DD7EF7B2BB35A4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.80627d,
+      "y": -0.18348d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CF4E21EF8902406",
+      "title": "Radioactive Waste Barrel",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:radioactive_waste_barrel"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Radioactive Waste Barrel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "124B34A1E4EB5191"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10218188F4A563B3",
+          "type": "item",
+          "item": {
+            "id": "mekanism:radioactive_waste_barrel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1134861A6A7E5517",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B50AA64F8A83443",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.80361d,
+      "y": 1.13852d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E4C5296A74E7DD7",
+      "title": "Turbine Casing",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:turbine_casing"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Turbine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F2303E89A5D6696"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "113E372EC45923FE",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:turbine_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1302C4732BE146C7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12E65166572D0111",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.64567d,
+      "y": -0.17676d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F2303E89A5D6696",
+      "title": "Turbine Rotor",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:turbine_rotor"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Turbine Rotor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19A897DA1AEE1680"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E06C4539BB5287C",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:turbine_rotor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F93EAFD70344E5E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15162C4C73D9DB46",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.32366d,
+      "y": -0.17113d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16E80DD05516FAB7",
+      "title": "Turbine Valve",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:turbine_valve"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Turbine Valve. Item inputs include Turbine Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19A897DA1AEE1680"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DBCAC8A13A69CD9",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:turbine_valve"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D9ACBCFC5CEA32D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14025EA113D108D3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.48466d,
+      "y": -1.49615d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "165F92B4462D1068",
+      "title": "Induction Casing",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:induction_casing"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Induction Casing. Item inputs include Energy Tablet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E1AD50DB7CE6F32"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17AC123B3042F69D",
+          "type": "item",
+          "item": {
+            "id": "mekanism:induction_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D8B6BFF35CCAB27",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1015041EAE4D01F4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.41937d,
+      "y": 7.01334d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E1AD50DB7CE6F32",
+      "title": "Induction Port",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:induction_port"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Induction Port. Item inputs include Induction Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "121609352726F40B",
+          "type": "item",
+          "item": {
+            "id": "mekanism:induction_port"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16BBB3F43DEA5BE6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18518A7AEED3938C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.7402d,
+      "y": 7.0143d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1033D2D6F6D4CAD1",
+      "title": "Module Attack Amplification Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_attack_amplification_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Attack Amplification Unit. Item inputs include Iron Sword, HDPE Sheet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17CAC614BABC1884",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_attack_amplification_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15B0426F577CEBD7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A325F5E693DFD5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.6676d,
+      "y": 11.98932d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C5E30245378759",
+      "title": "Module Blasting Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_blasting_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Blasting Unit. Item inputs include Tnt, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1892DC6A7CD6C9ED",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_blasting_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12EEC1F3331DD502",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18DDAD3009EA3F8C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.91758d,
+      "y": 9.51684d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DE053D578C1D82D",
+      "title": "Module Charge Distribution Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_charge_distribution_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Charge Distribution Unit. Item inputs include Basic Induction Provider, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199D05C57D4D4AD7",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_charge_distribution_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "108BFCE2B31D40EC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EB3788E54BF37ED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.62494d,
+      "y": 12.33802d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB2BCD987E3230C",
+      "title": "Module Color Modulation Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_color_modulation_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Color Modulation Unit. Item inputs include Laser, HDPE Sheet, Pigment Mixer, Painting Machine. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B0B60C85E98B918",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_color_modulation_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11759C19D9FE3745",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "137425964D021AE2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.97824d,
+      "y": 9.80618d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1988ACA0F6D90F0D",
+      "title": "Module Dosimeter Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_dosimeter_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Dosimeter Unit. Item inputs include Dosimeter, HDPE Sheet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15890C99FE9A72C1",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_dosimeter_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A14081F40DFBDB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B3C82ED6C17A679",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.50285d,
+      "y": 13.8092d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "173573EBCF599D54",
+      "title": "Module Electrolytic Breathing Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_electrolytic_breathing_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Electrolytic Breathing Unit. Item inputs include Electrolytic Core, HDPE Sheet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E69FC3E3267A0D4",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_electrolytic_breathing_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "175D6EB235F207E1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "181A7A3DADC151EB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.89558d,
+      "y": 8.72107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC1CDF9486ADFBE",
+      "title": "Module Elytra Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_elytra_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Elytra Unit. Item inputs include HDPE Reinforced Elytra, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1796838F111211E9",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_elytra_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14838E0AF5CE6F73",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1872BCFEF4C39721",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.24558d,
+      "y": 8.72107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "115F2DB4E3F9E4E2",
+      "title": "Module Energy Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_energy_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Energy Unit. Item inputs include Basic Induction Cell, HDPE Sheet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F3F344C0BA4A059",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_energy_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "142A4047808D746D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19FA0D6156DB074D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.59558d,
+      "y": 8.72107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11FBCFFBF4003E02",
+      "title": "Module Excavation Escalation Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_excavation_escalation_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Excavation Escalation Unit. Item inputs include Iron Pickaxe, HDPE Sheet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14BA275D10AC65C6",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_excavation_escalation_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FF53D6797447538",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "100B748843A8DB3B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.14558d,
+      "y": 10.07107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17EEE3AADAF471E5",
+      "title": "Module Farming Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_farming_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Farming Unit. Item inputs include Iron Hoe, HDPE Sheet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DB6C66888D52D5D",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_farming_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1859F3A2E6F41F12",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CF0AE1EB6F6D76D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.49558d,
+      "y": 10.07107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F1AB21004ECDAD6",
+      "title": "Module Fortune Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_fortune_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Fortune Unit. Item inputs include Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "176F981C06BBD52E",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_fortune_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "185A5BE4C5FD58C3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D9F00C3A846666C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.84558d,
+      "y": 10.07107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16B8321406F5B0F1",
+      "title": "Module Frost Walker Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_frost_walker_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Frost Walker Unit. Item inputs include Liquid Hydrogen Bucket, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D154127A11C86C7",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_frost_walker_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "114CD0D8114989F6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C75076E89DDA4FF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.19558d,
+      "y": 10.07107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1452A7FF0D792F86",
+      "title": "Module Geiger Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_geiger_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Geiger Unit. Item inputs include Geiger Counter, HDPE Sheet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "175A2634784ED6EF",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_geiger_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14418727FB292F90",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A0CD48AC94FA662",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.54558d,
+      "y": 10.07107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FCEB6F48B4C1DBB",
+      "title": "Module Gravitational Modulating Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_gravitational_modulating_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Gravitational Modulating Unit. Item inputs include Ultimate Induction Provider, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12AFD9A57088304A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_gravitational_modulating_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1781AB869D29D5C2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1117DE280B9367F1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.46562d,
+      "y": 10.37911d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1144551796AF0EBC",
+      "title": "Module Gyroscopic Stabilization Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_gyroscopic_stabilization_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Gyroscopic Stabilization Unit. Item inputs include Obsidian, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BCFB8F2CB02BEEE",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_gyroscopic_stabilization_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C75CF2504226DE5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1460C66F8548745D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.59558d,
+      "y": 10.07107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13C17788865BB612",
+      "title": "Module Hydraulic Propulsion Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_hydraulic_propulsion_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Hydraulic Propulsion Unit. Item inputs include Free Runners, Armored Free Runners, Energy Tablet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F9C872633BADA0E",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_hydraulic_propulsion_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1081ACC3678DE3B2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15F4DC876EFE26A6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.14558d,
+      "y": 11.42107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17F507AA7DD10ECE",
+      "title": "Module Hydrostatic Repulsor Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_hydrostatic_repulsor_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Hydrostatic Repulsor Unit. Item inputs include Lightning Rod, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1266D6A5B10C2CF3",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_hydrostatic_repulsor_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14E9F7AF413D3CDC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14B68E4755C7D466",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.49558d,
+      "y": 11.42107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12273CFFC282A9EF",
+      "title": "Module Inhalation Purification Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_inhalation_purification_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Inhalation Purification Unit. Item inputs include Hazmat Mask, Module Base, Scuba Mask. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C79E64C16FFF2FC",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_inhalation_purification_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18898D77B2E2EE9C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1375014ABE7C5AAA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.84558d,
+      "y": 11.42107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B47E8CDFABC7034",
+      "title": "Module Jetpack Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_jetpack_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Jetpack Unit. Item inputs include Jetpack, Armored Jetpack, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10D4C9C9F55A17AF",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_jetpack_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18EB3865ADFDB745",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "199720A45731DFD3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.19558d,
+      "y": 11.42107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "137920C82E0E1CA3",
+      "title": "Module Laser Dissipation Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_laser_dissipation_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Laser Dissipation Unit. Item inputs include Laser Amplifier, HDPE Sheet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A9D7ECA59B1FCEC",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_laser_dissipation_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11BE2122B7DDD6B8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16A3EAAC5015A02B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.54558d,
+      "y": 11.42107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "194F4F00E3AA5DA0",
+      "title": "Module Locomotive Boosting Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_locomotive_boosting_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Locomotive Boosting Unit. Item inputs include Diamond Leggings, Energy Tablet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "140B7D4BB891A7B0",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_locomotive_boosting_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17FB12E4CAC6BECA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14EAC7BF938413C2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.89558d,
+      "y": 11.42107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19EAF399A3E83E28",
+      "title": "Module Magnetic Attraction Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_magnetic_attraction_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Magnetic Attraction Unit. Item inputs include Iron Bars, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16AD85FAEAADF76C",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_magnetic_attraction_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10513D0A0BA4D7A1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B9AFE1DD954367F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.24558d,
+      "y": 11.42107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E7C109528B01E29",
+      "title": "Module Motorized Servo Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_motorized_servo_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Motorized Servo Unit. Item inputs include Blue Ice, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "190B5FCA6F29A02F",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_motorized_servo_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FC259185AE383F2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B2E86EB42475774",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.59558d,
+      "y": 11.42107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "172C1A025C756922",
+      "title": "Module Nutritional Injection Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_nutritional_injection_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Nutritional Injection Unit. Item inputs include Canteen, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16B01BD5BF5968E5",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_nutritional_injection_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E8C50E027E6DDB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "177CC81B6CABD26C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.14558d,
+      "y": 12.77107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CE82411DE25E917",
+      "title": "Module Radiation Shielding Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_radiation_shielding_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Radiation Shielding Unit. Item inputs include HDPE Sheet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EDB61423739C42A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_radiation_shielding_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1781A5EC63FB571A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12322E2AD1A27A7E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.49558d,
+      "y": 12.77107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11F20F04C2EAD269",
+      "title": "Module Shearing Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_shearing_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Shearing Unit. Item inputs include Shears, HDPE Sheet, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1432863676C6656E",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_shearing_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D9DD3D39EA70B88",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16961787AFCEBD86",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.84558d,
+      "y": 12.77107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "179FBBD4321BD619",
+      "title": "Module Silk Touch Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_silk_touch_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Silk Touch Unit. Item inputs include Diamond Pickaxe, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17BB69021CFE42B2",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_silk_touch_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "193F05A3282A5C61",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1551E24364947D6D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.19558d,
+      "y": 12.77107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "173AB95D3E6E5133",
+      "title": "Module Soul Surfer Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_soul_surfer_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Soul Surfer Unit. Item inputs include Free Runners, Armored Free Runners, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D4356768E8584AE",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_soul_surfer_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CA3D264AA94B732",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16D343CE81242A44",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.89558d,
+      "y": 12.77107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1892C04804DE5765",
+      "title": "Module Teleportation Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_teleportation_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Teleportation Unit. Item inputs include Teleportation Core, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11BCC41BB4028AA2",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_teleportation_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17A5468EC019F5F8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13F1E4FB40457E56",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.24558d,
+      "y": 12.77107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DBDEE4288E4476F",
+      "title": "Module Vein Mining Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_vein_mining_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Vein Mining Unit. Item inputs include Diamond Pickaxe, Module Base, Diamond Shovel, Diamond Axe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14CE944F77319752",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_vein_mining_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D9C89F9CB9D9D3F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13B03A191C756BD4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.59558d,
+      "y": 12.77107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "147ED0A152CB832E",
+      "title": "Module Vision Enhancement Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanism:module_vision_enhancement_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Vision Enhancement Unit. Item inputs include Emerald, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B94BD36A31AEF0F",
+          "type": "item",
+          "item": {
+            "id": "mekanism:module_vision_enhancement_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C7C27D2A74B0B74",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C5662A191FAB9F0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.14558d,
+      "y": 14.12107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15A296BC0F61BA77",
+      "title": "Fission Reactor Logic Adapter",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:fission_reactor_logic_adapter"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Fission Reactor Logic Adapter. Item inputs include Fission Reactor Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CDEC812D0385190"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14B02C21E4E2531C",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:fission_reactor_logic_adapter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AFD07F5E15330C6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EF138BDFD13897F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.69717d,
+      "y": 2.45155d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A37123334D58CB2",
+      "title": "Module Geothermal Generator Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:module_geothermal_generator_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Geothermal Generator Unit. Item inputs include Heat Generator, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10A4701E286856F6",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:module_geothermal_generator_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A57BC62063C9791",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FDAD9D5C4045317",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.89558d,
+      "y": 10.07107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18F440D74D60A0AB",
+      "title": "Module Solar Recharging Unit",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "id": "mekanismgenerators:module_solar_recharging_unit"
+      },
+      "description": [
+        "Build and test cooling before starting a reactor. Fission produces radioactive waste; use suitable chemical transport and keep the waste system contained. Fusion and antimatter are optional engineering projects.",
+        "Craft Module Solar Recharging Unit. Item inputs include Advanced Solar Generator, Module Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16FD01527AE2E3AD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1DC6FD8B0ABBFD",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:module_solar_recharging_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B79D0ADD3533D5E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ADB240AB680E277",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.54558d,
+      "y": 12.77107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F049F5B892EF8FB",
+      "title": "QIO Drives",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:qio_drive_base)item(mekanism:qio_drive_hyper_dense)item(mekanism:qio_drive_time_dilating)item(mekanism:qio_drive_supermassive))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1FF5CE27945B2057"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:qio_drive_base)item(mekanism:qio_drive_hyper_dense)item(mekanism:qio_drive_time_dilating)item(mekanism:qio_drive_supermassive))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "160B9F2B95CB9EE1",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A3036AA081230DB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.50972d,
+      "y": 1.39246d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1445BCE32CB17709",
+      "title": "Induction Cells",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_cell)item(mekanism:advanced_induction_cell)item(mekanism:elite_induction_cell)item(mekanism:ultimate_induction_cell))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_cell)item(mekanism:advanced_induction_cell)item(mekanism:elite_induction_cell)item(mekanism:ultimate_induction_cell))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "187C9F2747BA5A89",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1515134D12975E0A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.67648d,
+      "y": 15.43415d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DF01662516A14BA",
+      "title": "Induction Providers",
+      "subtitle": "Mekanism Reactors",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_provider)item(mekanism:advanced_induction_provider)item(mekanism:elite_induction_provider)item(mekanism:ultimate_induction_provider))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_induction_provider)item(mekanism:advanced_induction_provider)item(mekanism:elite_induction_provider)item(mekanism:ultimate_induction_provider))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "192EDA89E2EC6468",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3DDC3BC45BBB89",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.3176d,
+      "y": 15.43346d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1563314B41CD8691",
+      "linked_quest": "113F625CE3C606A5",
+      "x": 4.45555d,
+      "y": 7.40041d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "189872EB3527F567",
+      "linked_quest": "14B2DCDAC88CD18A",
+      "x": 3.03393d,
+      "y": 15.44307d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "18A658CCEE129971",
+      "linked_quest": "1CDEC812D0385190",
+      "x": 4.69717d,
+      "y": 5.01086d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

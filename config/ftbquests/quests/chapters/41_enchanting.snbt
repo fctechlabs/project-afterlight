@@ -1,0 +1,1692 @@
+{
+  "id": "1A9F6E88428BC463",
+  "filename": "41_enchanting",
+  "title": "Enchanting and Gear",
+  "icon": {
+    "id": "minecraft:enchanting_table"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 29,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1E84756167BACC5E",
+      "title": "Choose equipment you enjoy",
+      "subtitle": "Build the enchanting room",
+      "icon": {
+        "id": "minecraft:enchanting_table"
+      },
+      "description": [
+        "Build the Enchanting Table. Afterlight does not require a particular armor set or weapon ladder."
+      ],
+      "dependencies": [
+        "17F50ED5C57EF4E8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10DBEA507CF6D3BA",
+          "type": "item",
+          "item": {
+            "id": "minecraft:enchanting_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14351E65CAB5C651",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "173AE3228660C470",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.03791d,
+      "y": 12.69895d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "197EB44CF5A8AB8D",
+      "title": "Learn the shelf statistics",
+      "subtitle": "Build the enchanting room",
+      "icon": {
+        "id": "minecraft:bookshelf"
+      },
+      "description": [
+        "Apothic Enchanting shelves alter Eterna, Quanta, and Arcana. Read the displayed statistics rather than simply adding every shelf you own."
+      ],
+      "dependencies": [
+        "1E84756167BACC5E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "122EECC232A92C4A",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bookshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1743806CCF9AD305",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1645989FC2CD3952",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.28115d,
+      "y": 12.1728d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1418C01F5972BA28",
+      "title": "Hellshelf",
+      "subtitle": "Build the enchanting room",
+      "icon": {
+        "id": "apothic_enchanting:hellshelf"
+      },
+      "description": [
+        "Use Hellshelf recipes to improve the room. Compare the enchantment preview and statistics before spending your levels."
+      ],
+      "dependencies": [
+        "197EB44CF5A8AB8D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "114E275CD5723428",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:hellshelf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12205DEF2C7805E7",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "14934859666831C2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.5244d,
+      "y": 11.64665d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B7E0311EC9D4514",
+      "title": "Repair what you use",
+      "subtitle": "Build the enchanting room",
+      "icon": {
+        "id": "minecraft:anvil"
+      },
+      "description": [
+        "An Anvil combines, repairs, and renames equipment under the rules. Keep upgrades practical for the dimension you are exploring."
+      ],
+      "dependencies": [
+        "1418C01F5972BA28"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CF89974482E158B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:anvil"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FEB4887C520682F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "137C890AC01D9A3C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.76765d,
+      "y": 11.12049d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "164BD90ACE591112",
+      "title": "Rune of Immolation",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:burning_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Immolation and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E72AC5D4C9C4960"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "196779EF1C6954AB",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:burning_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A883BE9685C6106",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BA3F97FBA96D860",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.23338d,
+      "y": 10.53891d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1065D38407144296",
+      "title": "Rune of Echoes",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:echoing_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Echoes and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1926BEE968FDB8F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F70864E655D440D",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:echoing_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17AACC9769FF5240",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18E239AC31DE3FEB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 6.66944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CC38FC137F14A05",
+      "title": "Rune of Defiance",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:ignore_conditions_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Defiance and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1926BEE968FDB8F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "141C42C17DD4A4AB",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:ignore_conditions_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D49FBA85FEA6BE2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BA8AB0DED0AE213",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.9053d,
+      "y": 6.06946d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1342C555FC708D64",
+      "title": "Rune of Perpetual Twilight",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:ignore_light_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Perpetual Twilight and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E72AC5D4C9C4960"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C369E3C1B3CADA4",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:ignore_light_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18A129077E35579A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A2886357462911F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.4d,
+      "y": 9.29167d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F38038567E5E47F",
+      "title": "Rune of Solitude",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:ignore_players_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Solitude and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1926BEE968FDB8F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10A53BB913B9CB60",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:ignore_players_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "169290613E506535",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "185112A3A103333E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.67778d,
+      "y": 2.02222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1926BEE968FDB8F8",
+      "title": "Infused Spawner Rune",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:infused_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Infused Spawner Rune and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E72AC5D4C9C4960"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15A29BE26BB81E9A",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:infused_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120755A599106863",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "175A3638603E098C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 5.31944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C3A1FD3D1D55227",
+      "title": "Rune of Debilitation",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:initial_health_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Debilitation and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E72AC5D4C9C4960"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1017A577127A4184",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:initial_health_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF40F16D908D04F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1546897F8D54B367",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.16111d,
+      "y": 3.96944d,
+      "shape": "square",
+      "size": 1.0d,
+      "dependency_requirement": "one_completed",
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C6B313830B5FC35",
+      "title": "Rune of Stupor",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:no_ai_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Stupor and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1926BEE968FDB8F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1990BE55188F4F2E",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:no_ai_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FEA8EE82BFF47C3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "121BFA3F0BCFFDB5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 2.02222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1097334D79EB3E85",
+      "title": "Rune of Control",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:redstone_control_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Control and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E72AC5D4C9C4960"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "107D33665AF57143",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:redstone_control_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12BAFECEED333234",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BA69F1D2E0EBC1A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.68934d,
+      "y": 8.23101d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19CB63D596C54529",
+      "title": "Rune of Silence",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:silent_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Silence and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E72AC5D4C9C4960"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E587E3A44C5C2BE",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:silent_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EE1166F9D538E0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EAFE2CFA3903599",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.81111d,
+      "y": 5.31944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CFD0211BBAE6D90",
+      "title": "Rune of Spawning Range",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:spawn_range_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Spawning Range and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E72AC5D4C9C4960"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "124FD4C779F53565",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:spawn_range_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "152CDE053D0443DC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12BB8A97A2F58E9B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.16111d,
+      "y": 5.31944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F95FFD36CC87ECE",
+      "title": "Spawner Chain",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:spawner_chain"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Spawner Chain and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "17F50ED5C57EF4E8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E18000447953E6",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:spawner_chain"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E61316DA1F28BDF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19B18DABBC23D674",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.93056d,
+      "y": 11.90972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E72AC5D4C9C4960",
+      "title": "Spawner Rune",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Spawner Rune and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F95FFD36CC87ECE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B169EA8B5A1BAED",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A0F52086C127A0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EAA74E2598D6473",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.75d,
+      "y": 9.29167d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "169472B2741A0EF2",
+      "title": "Rune of Youth",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:youthful_spawner_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Rune of Youth and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E72AC5D4C9C4960"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E74C417ADE70427",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:youthful_spawner_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "140F4EDD6563E617",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1906E47CFDAAE25D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.51111d,
+      "y": 5.31944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1706DB1D86E29C01",
+      "title": "Occult Ender Lead",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apothic_enchanting:occult_ender_lead"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Use Infusion processing to make Occult Ender Lead. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11F7DC22C9DEFB7B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "168A22452BAA6304",
+          "type": "item",
+          "item": {
+            "id": "apothic_enchanting:occult_ender_lead"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "164A0080D93C331F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E66B331964EC4E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.19167d,
+      "y": 9.96667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D683E81EA9D9218",
+      "title": "Source Spawner",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "ars_additions:source_spawner"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Use the Enchanting Apparatus to make Source Spawner. Item inputs include Focus of Summoning, Conjuration Essence, Drygmy Charm. This recipe also uses 0 Source. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CE1C2E38E9EB511"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB3E9E428E43B6E",
+          "type": "item",
+          "item": {
+            "id": "ars_additions:source_spawner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19BADE249159A16E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "109D0E7952553D65",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.08611d,
+      "y": 5.60278d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C4F6FBC452F8F6",
+      "title": "Stabilized Mob Spawner",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "draconicevolution:stabilized_spawner"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Stabilized Mob Spawner and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1CE1C2E38E9EB511"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "191122BDFDF6E8CE",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:stabilized_spawner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "190B59B49FEB8BFC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BBDFCCF5DA99E97",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.38611d,
+      "y": 6.95278d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17F50ED5C57EF4E8",
+      "title": "Spawner",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "minecraft:spawner"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Spawner and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D9B90E93D252BA7",
+          "type": "item",
+          "item": {
+            "id": "minecraft:spawner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E4694B906CD54C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F359F64C478E58F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.83333d,
+      "y": 13.63194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "119052C2342824B2",
+      "title": "Entity Spawner",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "mob_grinding_utils:entity_spawner"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Craft Entity Spawner. Item inputs include Ender Eye, Piston, Solid XP. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CE1C2E38E9EB511"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15246873D08BC417",
+          "type": "item",
+          "item": {
+            "id": "mob_grinding_utils:entity_spawner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EA26365E26B594C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "125C5F73B69E75B9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.38611d,
+      "y": 5.60278d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17642C09C1525CEF",
+      "title": "Mob Swab",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "mob_grinding_utils:mob_swab"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Craft Mob Swab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11F7DC22C9DEFB7B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14B50EABC15CDEA9",
+          "type": "item",
+          "item": {
+            "id": "mob_grinding_utils:mob_swab"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A00BCFBE22D8462",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18B062BF837A267F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.89167d,
+      "y": 8.61667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158098CACDD3B114",
+      "title": "Pressurized Spawner",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "pneumaticcraft:pressurized_spawner"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Craft Pressurized Spawner. Item inputs include Empty Spawner, Advanced Pressure Tube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CE1C2E38E9EB511"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F777E2A2D0FD427",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pressurized_spawner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120F241E9D0D5F1C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "150DEBFE965471AD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.73611d,
+      "y": 5.60278d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D5BA5A6A162D609",
+      "title": "Spawner Agitator",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "pneumaticcraft:spawner_agitator"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Craft Spawner Agitator. Item inputs include Ghast Tear. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17F50ED5C57EF4E8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB838A12D19088A",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:spawner_agitator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C0001BBE167267",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15A36023C3FCAD8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.23611d,
+      "y": 11.90972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15AC5E23033F660B",
+      "title": "Wayfarer's Spawner Upgrade Rune",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:ascent_spawner_upgrade_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Wayfarer's Spawner Upgrade Rune and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E72AC5D4C9C4960"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18BF6D2530CCB02D",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:ascent_spawner_upgrade_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "190FC3162F2BDA67",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B0E87A05CD37E32",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.46111d,
+      "y": 6.66944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E04BC49CACF0BB3",
+      "title": "Frontiersman's Spawner Upgrade Rune",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:frontier_spawner_upgrade_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Frontiersman's Spawner Upgrade Rune and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E72AC5D4C9C4960"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12B7D1DD709F7835",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:frontier_spawner_upgrade_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "163F3E6FB729C4D8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18F832D44D1BD4F8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.00391d,
+      "y": 10.45837d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17694095CDB0A042",
+      "title": "Thundering Spawner Upgrade Rune",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:pinnacle_spawner_upgrade_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Thundering Spawner Upgrade Rune and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1926BEE968FDB8F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F3DB9DB9BA0C1E0",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:pinnacle_spawner_upgrade_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16BBDFA20BC6A5F7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C94AD483D561136",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.37778d,
+      "y": 2.02222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B83A89FB8F34CC",
+      "title": "Mountaineer's Spawner Upgrade Rune",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "apotheosis:summit_spawner_upgrade_rune"
+      },
+      "description": [
+        "Combine enchantments, affixes, sockets, and accessories to suit the job. Check compatibility and repair costs before spending rare materials on an upgrade.",
+        "Obtain Mountaineer's Spawner Upgrade Rune and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1926BEE968FDB8F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "194BF4E90993E06E",
+          "type": "item",
+          "item": {
+            "id": "apotheosis:summit_spawner_upgrade_rune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1563E6B1F7F85996",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D800E3EB2D182D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.37778d,
+      "y": 5.31944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11F7DC22C9DEFB7B",
+      "title": "Spawn Eggs",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "minecraft:creeper_spawn_egg"
+      },
+      "description": [
+        "Learn about Spawn Eggs in the Enchanting and Gear guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "17F50ED5C57EF4E8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1D2842B49ED39844",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CFA49F756B7A14F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.44444d,
+      "y": 11.90972d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10197C9C07084622",
+      "title": "Capturing Books",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "item(minecraft:enchanted_book)or(component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":1}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":2}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":3}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":4}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":5}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":6}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":7}}))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "11F7DC22C9DEFB7B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item(minecraft:enchanted_book)or(component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":1}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":2}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":3}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":4}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":5}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":6}})component(fuzzy:{\"minecraft:stored_enchantments\":{\"apothic_spawners:capturing\":7}}))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1A09C851DFEA971D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "123E3B748F2DB9F1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.56692d,
+      "y": 11.1597d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E84DB9A8B5D45F5",
+      "title": "Mob Charm Fragments",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "item(reliquary:mob_charm_fragment)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "11F7DC22C9DEFB7B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item(reliquary:mob_charm_fragment)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "145082AA8AD627D6",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CB97F723401CA02",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.54167d,
+      "y": 8.61667d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CE1C2E38E9EB511",
+      "title": "Other Spawners",
+      "subtitle": "Enchanting and Gear",
+      "icon": {
+        "id": "minecraft:enchanting_table"
+      },
+      "description": [
+        "Learn about Other Spawners in the Enchanting and Gear guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1D355E1449BC9560",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "162E274A674DB350",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.73611d,
+      "y": 8.67361d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

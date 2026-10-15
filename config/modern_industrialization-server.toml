@@ -1,0 +1,3 @@
+# Documentation is available when needed instead of being given on join or respawn.
+spawnWithGuideBook = false
+respawnWithGuideBook = false

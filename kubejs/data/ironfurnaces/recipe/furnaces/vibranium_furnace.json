@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ironfurnaces:allthemodium_furnace"
+    },
+    {
+      "item": "ironfurnaces:upgrade_vibranium"
+    }
+  ],
+  "result": {
+    "id": "ironfurnaces:vibranium_furnace",
+    "count": 1
+  }
+}

@@ -1,0 +1,2415 @@
+{
+  "id": "11F5443591F0364B",
+  "filename": "03_food",
+  "title": "Food and Farming",
+  "icon": {
+    "id": "farmersdelight:cooking_pot"
+  },
+  "group": "1907149C93679AEB",
+  "order_index": 7,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1615AC9CB516BF0A",
+      "title": "Your first harvest",
+      "subtitle": "Grow and cook",
+      "icon": {
+        "id": "minecraft:wheat"
+      },
+      "description": [
+        "Sieve Dirt for seeds. Plant Wheat beside Water and save enough seeds to replant before turning the harvest into food."
+      ],
+      "dependencies": [
+        "1BFBB8C68F8176BA"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "13639A080547CE58",
+          "type": "item",
+          "item": {
+            "id": "minecraft:wheat"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B18EF21FBF8C602",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1AC66D2E411D03A6",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bread",
+            "count": 8
+          }
+        },
+        {
+          "id": "1EB9675FD4513B9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.29861d,
+      "y": 20.54861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1241E7C2115E6C3F",
+      "title": "Food you can replace",
+      "subtitle": "Grow and cook",
+      "icon": {
+        "id": "minecraft:bread"
+      },
+      "description": [
+        "Three Wheat make Bread. A small farm is enough to get started; expand it before long trips into the Nether."
+      ],
+      "dependencies": [
+        "1615AC9CB516BF0A"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "155F8FBC9C03ED85",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bread"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A812A77D437DA5F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1C1AD27FD5C8510B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.70139d,
+      "y": 19.04861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16649CFD4C6592DB",
+      "title": "Flint Knife",
+      "subtitle": "Grow and cook",
+      "icon": {
+        "id": "farmersdelight:flint_knife"
+      },
+      "description": [
+        "A Farmer's Delight Knife opens cutting-board recipes and useful harvest drops. Choose any reachable knife material later."
+      ],
+      "dependencies": [
+        "17D1830D1BDF6A38"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1209DAA6C5054DC0",
+          "type": "item",
+          "item": {
+            "id": "farmersdelight:flint_knife"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10059A773800FE98",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17926B45CF2A2B3B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38194d,
+      "y": 21.29861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16F57F2F6CDA8F42",
+      "title": "Cutting Board",
+      "subtitle": "Grow and cook",
+      "icon": {
+        "id": "farmersdelight:cutting_board"
+      },
+      "description": [
+        "Place food on a Cutting Board and use the matching tool. JEI shows the cuts and any extra ingredients."
+      ],
+      "dependencies": [
+        "16649CFD4C6592DB"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1720992EA85B5BCB",
+          "type": "item",
+          "item": {
+            "id": "farmersdelight:cutting_board"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172F344E98F79C02",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "18D3FEA8260CD6B9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38194d,
+      "y": 19.79861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "159C0BF0BE8D9973",
+      "title": "Cooking Pot",
+      "subtitle": "Grow and cook",
+      "icon": {
+        "id": "farmersdelight:cooking_pot"
+      },
+      "description": [
+        "Place a Cooking Pot above a valid heat source and supply ingredients plus bowls where required. Pick one renewable meal rather than collecting every food."
+      ],
+      "dependencies": [
+        "16F57F2F6CDA8F42"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1B414D83CF740BB2",
+          "type": "item",
+          "item": {
+            "id": "farmersdelight:cooking_pot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1007A20DC9E0C9AC",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1E0DEC577D9E6F49",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bowl",
+            "count": 16
+          }
+        },
+        {
+          "id": "142F023C638A14CC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38194d,
+      "y": 18.29861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A6C0A667E57E91C",
+      "title": "Sleep and set a home",
+      "subtitle": "Make it comfortable",
+      "icon": {
+        "id": "minecraft:white_bed"
+      },
+      "description": [
+        "Craft Wool from renewable String if sheep are not available yet. Keep the bed in a safe part of the island."
+      ],
+      "dependencies": [
+        "1D7D7225DECD54F8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EF42065F01DC10E",
+          "type": "item",
+          "item": {
+            "id": "minecraft:white_bed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DD7C3010B29002C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "16619DC50881A53F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.17361d,
+      "y": 19.79861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19E432C004D84F1F",
+      "title": "Cooking Table",
+      "subtitle": "Make it comfortable",
+      "icon": {
+        "id": "cookingforblockheads:cooking_table"
+      },
+      "description": [
+        "The Cooking Table shows meals your connected kitchen can make. Use it to plan a food supply from ingredients you already grow."
+      ],
+      "dependencies": [
+        "1081E112F26CFBA4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F4096B8F9BBA4BE",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:cooking_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19953ECE52F6499F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "13B1F0D151A4C558",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.17361d,
+      "y": 14.28472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17BE196F58F99456",
+      "title": "Sink",
+      "subtitle": "Make it comfortable",
+      "icon": {
+        "id": "cookingforblockheads:sink"
+      },
+      "description": [
+        "Add a Sink to the connected kitchen. Check the kitchen layout and available ingredients when a recipe is missing."
+      ],
+      "dependencies": [
+        "19E432C004D84F1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB9F3C64B6FBFD4",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:sink"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC7843F4EFB0914",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "10944203D08A6332",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 11.88889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1909B38F75753E54",
+      "title": "Iron Hoe",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:iron_hoe"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Use Sized Upgrade Recipe processing to make Iron Hoe. Item inputs include Stone Hoe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F722D5DC58688C3",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_hoe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3B8328BE85D5C6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F510F05BF3A9F2C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38194d,
+      "y": 14.88194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "154B88FA6D830819",
+      "title": "Kitchen Counter",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "cookingforblockheads:counter"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Kitchen Counter. Item inputs include Terracotta. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19E432C004D84F1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1940FB1D61AF26D8",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:counter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B7F5BD5764EA2B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "196F3B06D4BE4C84",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.23472d,
+      "y": 12.56389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19010E4AC6647B82",
+      "title": "Cow in a Jar",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "cookingforblockheads:cow_jar"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Obtain Cow in a Jar and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "19E432C004D84F1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AE956BAD6E04EA5",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:cow_jar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1077352AB9EEEDBB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B2321472A04DB0A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.52361d,
+      "y": 14.28472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1081E112F26CFBA4",
+      "title": "Cooking for Blockheads II",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "cookingforblockheads:crafting_book"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Cooking for Blockheads II. Item inputs include Cooking for Blockheads I, Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B55D6B22DD2EB8E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C0C3B8CBA9BACD5",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:crafting_book"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "155440ECE649E607",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17C538B5BCBD547C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.17361d,
+      "y": 15.78472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19FE4564F048ABB6",
+      "title": "Heating Unit",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "cookingforblockheads:heating_unit"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Heating Unit. Item inputs include Comparator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19E432C004D84F1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "177285EE85A45D35",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:heating_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E81BED4FB9703D9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10B00CF3526FE80C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.05113d,
+      "y": 15.03474d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E67307B65D4C4F",
+      "title": "Ice Unit",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "cookingforblockheads:ice_unit"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Ice Unit. Item inputs include Comparator, Snowball. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19E432C004D84F1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CD10DFDE07DEE6C",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:ice_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17AA4C552F1FAA1B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1935C067447EDC97",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.84955d,
+      "y": 14.02135d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B55D6B22DD2EB8E",
+      "title": "Cooking for Blockheads I",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "cookingforblockheads:recipe_book"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Smelt Cooking for Blockheads I. Item inputs include Cooking for Blockheads. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A2C867E95E928B7",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:recipe_book"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E67179ECF11690F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E38A5BDC56AC763",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.77083d,
+      "y": 17.28472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "181823ECE3ECCCA3",
+      "title": "Fridge",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "cookingforblockheads:white_fridge"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Fridge. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19E432C004D84F1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199B91B945AB67F9",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:white_fridge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D49C5330FF9F1FC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11EF446EF69CE409",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.66802d,
+      "y": 15.95143d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15552152ADE34616",
+      "title": "Oven",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "cookingforblockheads:white_oven"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Oven. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19E432C004D84F1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "198315A4953D64BE",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:white_oven"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15D256D56687210A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F83A035DE6581A0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.58472d,
+      "y": 12.56389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17C779EF4C236DF6",
+      "title": "Chicken Nest",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "farmingforblockheads:chicken_nest"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Chicken Nest. Item inputs include Hay Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10A8D8C93B33301A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15573CB268240FFE",
+          "type": "item",
+          "item": {
+            "id": "farmingforblockheads:chicken_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1692EC7541FAA226",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10004DBC97E8DD4D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.96528d,
+      "y": 12.63194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1285DBD3B78F04B5",
+      "title": "Green Fertilizer",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "farmingforblockheads:green_fertilizer"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Green Fertilizer. Item inputs include Gold Nugget, Wheat Seeds, Wheat. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "155C5B1D4662AB67"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18096528B4C7723A",
+          "type": "item",
+          "item": {
+            "id": "farmingforblockheads:green_fertilizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13128385C0D3F56F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10053E2E9CE73C3F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.82361d,
+      "y": 6.97917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13AEBC701FBE91F5",
+      "title": "Market",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "farmingforblockheads:market"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Market. Item inputs include Red Wool. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "151A307F0E6DFE5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13C53D5813579E87",
+          "type": "item",
+          "item": {
+            "id": "farmingforblockheads:market"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1772D5E82450888B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F21D43E3C9A4EB4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.3125d,
+      "y": 6.22917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A3B2C5ADF6DBF36",
+      "title": "Red Fertilizer",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "farmingforblockheads:red_fertilizer"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Red Fertilizer. Item inputs include Bone Meal, Gold Nugget, Wheat Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "155C5B1D4662AB67"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1228F8CA83D0A549",
+          "type": "item",
+          "item": {
+            "id": "farmingforblockheads:red_fertilizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AE0F405D80E371F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "127493A0A25A3B9D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.17361d,
+      "y": 6.97917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CA58F3C18BBCBCE",
+      "title": "Yellow Fertilizer",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "farmingforblockheads:yellow_fertilizer"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Yellow Fertilizer. Item inputs include Dirt, Wheat Seeds. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "155C5B1D4662AB67"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1671EE4178CFB913",
+          "type": "item",
+          "item": {
+            "id": "farmingforblockheads:yellow_fertilizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12DBD31D099AA992",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1066D2BFC28CC08D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.52361d,
+      "y": 6.97917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "174AE1B2F47A697F",
+      "title": "Apple",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:apple"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Apple. Item inputs include Crate of Red Delicious Apples. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E0B867C623A6EA2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:apple"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A0BEEE4F564960F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B7555D016D9BB3E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.36806d,
+      "y": 8.47917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "155C5B1D4662AB67",
+      "title": "Bone Meal",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:bone_meal"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Bone Meal. Item inputs include Wilden Horn. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E5DE04245C7F08",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bone_meal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1005465198A0D4F5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "172C1284B35258D9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.17361d,
+      "y": 8.70139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AE38FC02F04A1BC",
+      "title": "Cake",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:cake"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Cake. Item inputs include Sugar. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1615AC9CB516BF0A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13BB1EF72154A116",
+          "type": "item",
+          "item": {
+            "id": "minecraft:cake"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E6525B92629907",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A1E5790B550CB0F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.90972d,
+      "y": 19.04861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "132150AC36276C25",
+      "title": "Carrot",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:carrot"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Carrot. Item inputs include Carrot Crate. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1909B38F75753E54"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BC284BF5C9E3C59",
+          "type": "item",
+          "item": {
+            "id": "minecraft:carrot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12FF93AE8A980851",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1679CA5CA9C9856D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38194d,
+      "y": 13.38194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "177A5C5AB3254D59",
+      "title": "Cod",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:cod"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Use Crafting Shaped processing to make Cod. Item inputs include Fish Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A380C034BB0FBA6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F7C4AC8EBC03AA3",
+          "type": "item",
+          "item": {
+            "id": "minecraft:cod"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "153C94441B4944D5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10CAEFE700FDB66A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.70139d,
+      "y": 2.21528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A8D8C93B33301A",
+      "title": "Egg",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:egg"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Use Circuit Cutter processing to make Egg. Item inputs include MDDyue. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "187BC1CE46A9421B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "136A112A2E4F5E28",
+          "type": "item",
+          "item": {
+            "id": "minecraft:egg"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B5669C03E472F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F6311FED9955D81",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.17361d,
+      "y": 14.13194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC7FA1CBAACF6CA",
+      "title": "Enchanted Golden Apple",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:enchanted_golden_apple"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Enchanted Golden Apple. Item inputs include Apple. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "174AE1B2F47A697F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10ECE96097DA62C7",
+          "type": "item",
+          "item": {
+            "id": "minecraft:enchanted_golden_apple"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CD6F697046553AA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "194068DF8639A29E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.77083d,
+      "y": 6.97917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B6D54CAF173D74",
+      "title": "Feather",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:feather"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Feather. Item inputs include Fluffy Feather. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10A8D8C93B33301A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B53CFACDEF4BB1B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:feather"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188AB07686922EFD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19703E34D6EA8592",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.17361d,
+      "y": 12.63194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187BC1CE46A9421B",
+      "title": "Lead",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:lead"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Lead. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12A40FE9CD3AE5B6",
+          "type": "item",
+          "item": {
+            "id": "minecraft:lead"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D698456EA821A98",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1630339045D44C9D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.77083d,
+      "y": 15.63194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C8103B01BA93F1A",
+      "title": "Leather",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:leather"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Leather. Item inputs include Wilden Wing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "187BC1CE46A9421B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19CBBAB05C1DD998",
+          "type": "item",
+          "item": {
+            "id": "minecraft:leather"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11AC004EFC9E47E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A8A97243005E4CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.38194d,
+      "y": 14.13194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A4415C51F6EFCF9",
+      "title": "Milk Bucket",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:milk_bucket"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Milk Bucket. Item inputs include Milk, Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C8103B01BA93F1A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11C8032C988EC328",
+          "type": "item",
+          "item": {
+            "id": "minecraft:milk_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18616ACF2DFE0D59",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B6571580A4A29A3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.38194d,
+      "y": 12.63194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15A0F7C9404E3038",
+      "title": "Sugar",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:sugar"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Sugar. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "182CE8DBE0E5000C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ABEBA1A4C35B1B5",
+          "type": "item",
+          "item": {
+            "id": "minecraft:sugar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "103988ACD9720D1E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A8BA0095338894D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38194d,
+      "y": 1.46528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "182CE8DBE0E5000C",
+      "title": "Sugar Cane",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:sugar_cane"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Use Market processing to make Sugar Cane. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113029B0796873C4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13C4BC8DF3C1AD81",
+          "type": "item",
+          "item": {
+            "id": "minecraft:sugar_cane"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B93E63495F4DC7B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "181E322B3CE5EC96",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38194d,
+      "y": 2.96528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "151A307F0E6DFE5F",
+      "title": "White Wool",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:white_wool"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft White Wool. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC3AD6F5901CE11"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F0092396B1CC424",
+          "type": "item",
+          "item": {
+            "id": "minecraft:white_wool"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BB48EB3BA6613C3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DD1355184699D85",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.3125d,
+      "y": 7.72917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ECAF4E45F2C6874",
+      "title": "Supremium Apple",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "mysticalagradditions:supremium_apple"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Use Item Casting processing to make Supremium Apple. Item inputs include Golden Apple. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1620499AEAE5C820",
+          "type": "item",
+          "item": {
+            "id": "mysticalagradditions:supremium_apple"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "147A1EA20730BB3A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1904457014B1AF8B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.17361d,
+      "y": 3.71528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A380C034BB0FBA6",
+      "title": "Fishing Rod",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:fishing_rod"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Obtain Fishing Rod and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "159E3713C5C8527D",
+          "type": "item",
+          "item": {
+            "id": "minecraft:fishing_rod"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F1EBA623744DA71",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB0160E9B0039E6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.29861d,
+      "y": 3.71528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18830735F5545836",
+      "title": "Fishing Rod",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "minecraft:fishing_rod",
+        "components": {
+          "minecraft:enchantments": {
+            "levels": {
+              "minecraft:luck_of_the_sea": 3,
+              "minecraft:lure": 3,
+              "minecraft:mending": 1,
+              "minecraft:unbreaking": 3
+            }
+          }
+        }
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Obtain Fishing Rod and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1A380C034BB0FBA6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F64F567D12C80B2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:fishing_rod",
+            "components": {
+              "minecraft:enchantments": {
+                "levels": {
+                  "minecraft:luck_of_the_sea": 3,
+                  "minecraft:lure": 3,
+                  "minecraft:mending": 1,
+                  "minecraft:unbreaking": 3
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E9BDB8E8B351340",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C05BD1244FD450C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.90972d,
+      "y": 2.21528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EF936768719523B",
+      "title": "Kitchen Cabinet",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "cookingforblockheads:cabinet"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Kitchen Cabinet. Item inputs include Bone Meal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19E432C004D84F1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13833A9074DA5238",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:cabinet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BA27B6D744514AF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B92B55290436417",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.88472d,
+      "y": 12.56389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CEFEEBB9D981173",
+      "title": "Cooking for Blockheads",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "cookingforblockheads:no_filter_edition"
+      },
+      "description": [
+        "Grow renewable ingredients and turn them into meals. Farmer’s Delight uses its Cutting Board and Cooking Pot; Cooking for Blockheads connects a kitchen to stored ingredients.",
+        "Craft Cooking for Blockheads. Item inputs include Cooking for Blockheads I. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B55D6B22DD2EB8E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "146A206BF8882819",
+          "type": "item",
+          "item": {
+            "id": "cookingforblockheads:no_filter_edition"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C9A168BEA01CE58",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "182ECFF4578A3F15",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.38194d,
+      "y": 15.78472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123A70A531BEE790",
+      "title": "Productive Farming",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "farmersdelight:cooking_pot"
+      },
+      "description": [
+        "Learn about Productive Farming in the Food and Farming guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1ECAF4E45F2C6874"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "13943BD83367AB64",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10020F5981CF5103",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.17361d,
+      "y": 2.21528d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F17E12180BAD331",
+      "title": "Productive Trees",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "id": "farmersdelight:cooking_pot"
+      },
+      "description": [
+        "Learn about Productive Trees in the Food and Farming guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "16D47479ED0FE5AC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "198730E00E41C9FE",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1559FBE8BDC633CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.57639d,
+      "y": 8.47917d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "114A26DFAE58EF65",
+      "title": "MA Apples",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mysticalagradditions:inferium_apple)item(mysticalagradditions:prudentium_apple)item(mysticalagradditions:tertium_apple)item(mysticalagradditions:imperium_apple)item(mysticalagradditions:supremium_apple)item(mysticalagradditions:insanium_apple))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1BC7FA1CBAACF6CA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mysticalagradditions:inferium_apple)item(mysticalagradditions:prudentium_apple)item(mysticalagradditions:tertium_apple)item(mysticalagradditions:imperium_apple)item(mysticalagradditions:supremium_apple)item(mysticalagradditions:insanium_apple))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1B97EBEFDFEE9DF1",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C4971F5BE49E110",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.17361d,
+      "y": 5.47917d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F1B9F5263A3FDF7",
+      "title": "Gilded Foods",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(minecraft:golden_apple)item(minecraft:golden_carrot))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "174AE1B2F47A697F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(minecraft:golden_apple)item(minecraft:golden_carrot))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "19F837BF5EE034AF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FDE23D77FED6A5D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.97917d,
+      "y": 6.97917d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11DC20DB464A81D0",
+      "title": "Gem Apples",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(bhc:relic_apple)item(pickletweaks:emerald_apple)item(pickletweaks:diamond_apple))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1BC7FA1CBAACF6CA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(bhc:relic_apple)item(pickletweaks:emerald_apple)item(pickletweaks:diamond_apple))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1A8DD73858C96A2F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E322683AA2EC6E4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38194d,
+      "y": 5.47917d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16D5A251995478DE",
+      "title": "Farmer's Delight Tools",
+      "subtitle": "Food and Farming",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(farmersdelight:cooking_pot)item(farmersdelight:stove)item(farmersdelight:cutting_board)item(cookingforblockheads:cutting_board)item(farmersdelight:skillet))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(farmersdelight:cooking_pot)item(farmersdelight:stove)item(farmersdelight:cutting_board)item(cookingforblockheads:cutting_board)item(farmersdelight:skillet))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "17ACB05F1841A94D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F5A60958615C3B1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.3125d,
+      "y": 0.45139d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1870FC2697043A36",
+      "linked_quest": "1BFBB8C68F8176BA",
+      "x": 3.29861d,
+      "y": 22.04861d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "185A7530905D5CC3",
+      "linked_quest": "16D47479ED0FE5AC",
+      "x": 8.96528d,
+      "y": 9.97917d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1F337B22DE58CBFD",
+      "linked_quest": "113029B0796873C4",
+      "x": 8.38194d,
+      "y": 4.46528d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "109A2A1624C68770",
+      "linked_quest": "1BC3AD6F5901CE11",
+      "x": 3.3125d,
+      "y": 9.22917d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "114E21806523A9AF",
+      "linked_quest": "17D1830D1BDF6A38",
+      "x": 8.38194d,
+      "y": 22.79861d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1EEF39260D932240",
+      "linked_quest": "1D7D7225DECD54F8",
+      "x": 12.17361d,
+      "y": 21.29861d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

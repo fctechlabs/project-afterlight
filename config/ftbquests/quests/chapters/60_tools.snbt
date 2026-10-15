@@ -1,0 +1,1848 @@
+{
+  "id": "1EAD899918FBD4B9",
+  "filename": "60_tools",
+  "title": "Tools",
+  "icon": {
+    "id": "minecraft:diamond_pickaxe"
+  },
+  "group": "1907149C93679AEB",
+  "order_index": 38,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1E7F4B295F3D70F5",
+      "title": "Fluix Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "ae2:fluix_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Use a Smithing Table to make Fluix Sword. Item inputs include Fluix Block, Fluix Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E8829014F3F2DD0",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluix_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11F3480FA4EC9645",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1459C49AF5AB1496",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.81292d,
+      "y": 7.26458d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18E036A9F7098CF8",
+      "title": "Draco Arcanus Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "forbidden_arcanus:draco_arcanus_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Obtain Draco Arcanus Pickaxe and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1256EFC1C48B8309",
+          "type": "item",
+          "item": {
+            "id": "forbidden_arcanus:draco_arcanus_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159A127994B69027",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "112004D751B80354",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.46292d,
+      "y": 5.91458d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1474F8D229C16BE3",
+      "title": "Eclipse Alloy Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "justdirethings:eclipsealloy_pickaxe",
+        "components": {
+          "justdirethings:forge_energy": 500000
+        }
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Eclipse Alloy Pickaxe. Item inputs include Eclipse Alloy Ingot, Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10FF2A5BFBB02498",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_pickaxe",
+            "components": {
+              "justdirethings:forge_energy": 500000
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172209E5A4038DC4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EA934AE6521013A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.44722d,
+      "y": 7.26625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15A577A27210339B",
+      "title": "Lapis Lazuli Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "mekanismtools:lapis_lazuli_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Lapis Lazuli Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12D96B2BA2B80A37",
+          "type": "item",
+          "item": {
+            "id": "mekanismtools:lapis_lazuli_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13C8F5170E005CA1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1482742C28431F26",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.31222d,
+      "y": 2.02222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "125EAD003D6D54EB",
+      "title": "Lapis Lazuli Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "mekanismtools:lapis_lazuli_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Lapis Lazuli Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18DC05787CAE1CDB",
+          "type": "item",
+          "item": {
+            "id": "mekanismtools:lapis_lazuli_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18E904A0FF9FFAEC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C88AA9C545F4D2E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.56294d,
+      "y": 4.7921d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18E9A77E6680BB22",
+      "title": "Osmium Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "mekanismtools:osmium_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Osmium Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "140F66833092BD91",
+          "type": "item",
+          "item": {
+            "id": "mekanismtools:osmium_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10F5688B375D6BBA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13AF495C09496E95",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.31627d,
+      "y": 4.91455d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A05975DA1B16683",
+      "title": "Refined Obsidian Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "mekanismtools:refined_obsidian_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Refined Obsidian Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18A543E8B390B760",
+          "type": "item",
+          "item": {
+            "id": "mekanismtools:refined_obsidian_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15CA569C4F517D70",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13B377137C159EB7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.96222d,
+      "y": 2.02222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16770283F2AED803",
+      "title": "Refined Obsidian Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "mekanismtools:refined_obsidian_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Refined Obsidian Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1282527EA54B197E",
+          "type": "item",
+          "item": {
+            "id": "mekanismtools:refined_obsidian_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16F7D2BC600CC0AC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14FA29DA2A285A5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.75307d,
+      "y": 5.11094d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DD5F6B615567A2C",
+      "title": "Steel Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "mekanismtools:steel_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Steel Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "161CCBD155DD30A6",
+          "type": "item",
+          "item": {
+            "id": "mekanismtools:steel_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A66D30FE6991A6B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "158BD7F1280814CD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.66222d,
+      "y": 2.02222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "120C05ABCBA137A1",
+      "title": "Ancient Debris",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:ancient_debris"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Blast Ancient Debris. Item inputs include Pyrium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C41EA36A21F21A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19BD6BC7050E2346",
+          "type": "item",
+          "item": {
+            "id": "minecraft:ancient_debris"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16D0E5916DA786E2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "121A85626FB2C5BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.80454d,
+      "y": 5.88208d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A6DB9184252665A",
+      "title": "Diamond Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:diamond_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Use Sized Upgrade Recipe processing to make Diamond Pickaxe. Item inputs include Golden Pickaxe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1661DEC05E1C450B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:diamond_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15CA939F3823F859",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "102956BF60772D7D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.32639d,
+      "y": 6.39514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19E5F8656347B714",
+      "title": "Diamond Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:diamond_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Use Sized Upgrade Recipe processing to make Diamond Sword. Item inputs include Golden Sword, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E64F0E0798D5B00",
+          "type": "item",
+          "item": {
+            "id": "minecraft:diamond_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13EA20B3CC48186F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D6BB315F1D84907",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.67639d,
+      "y": 6.39514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12CE89995BAB8E56",
+      "title": "Golden Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:golden_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Use Sized Upgrade Recipe processing to make Golden Pickaxe. Item inputs include Iron Pickaxe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14C51DD290299252",
+          "type": "item",
+          "item": {
+            "id": "minecraft:golden_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DD733DEA04A1117",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A4AF32A4625B5D5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.81292d,
+      "y": 5.91458d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1454F3A1DB627831",
+      "title": "Golden Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:golden_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Use Sized Upgrade Recipe processing to make Golden Sword. Item inputs include Iron Sword, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "192EA65AE0557452",
+          "type": "item",
+          "item": {
+            "id": "minecraft:golden_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D29146A1660041",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C72F0760B79237E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.81292d,
+      "y": 0.91458d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F0085046E7F2BFD",
+      "title": "Iron Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:iron_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Use Sized Upgrade Recipe processing to make Iron Pickaxe. Item inputs include Stone Pickaxe, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FC151AF51B68F2E",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "149D9E13786E133E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "109C731FE99D6AAE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.4795d,
+      "y": 0.92576d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B79A8A692DB3AD",
+      "title": "Iron Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:iron_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Use Sized Upgrade Recipe processing to make Iron Sword. Item inputs include Stone Sword, Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "175EB11A4BF019E0",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19CC002FFC30067A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "172A81950CBCF0FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.32639d,
+      "y": 7.74514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D308A54DD5E9F65",
+      "title": "Netherite Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:netherite_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Obtain Netherite Pickaxe and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1789CF1BF7E98F7E",
+          "type": "item",
+          "item": {
+            "id": "minecraft:netherite_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A84B9783FFB5415",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10AA292169E0EBDB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.67639d,
+      "y": 7.74514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DC09A68A4E8025A",
+      "title": "Netherite Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:netherite_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Obtain Netherite Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15AAD8CB26F2F80B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:netherite_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168E33999438898B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D60D4501352F544",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.02639d,
+      "y": 7.74514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15E77BD64903FB86",
+      "title": "Raw Iron",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:raw_iron"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Use Forge Hammer processing to make Raw Iron. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C3BAB05028E4E8E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BD3D9BBEF1D9B00",
+          "type": "item",
+          "item": {
+            "id": "minecraft:raw_iron"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D0A9B064460E914",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "142171FA28E6DBD5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.16569d,
+      "y": 5.88208d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DCB0312E8D29911",
+      "title": "Stick",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:stick"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B10447D7E92C8D5",
+          "type": "item",
+          "item": {
+            "id": "minecraft:stick"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A0B6B71256CDE9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "137ABBF5A2D26BBA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.81292d,
+      "y": 5.91458d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D82D0ED14B559A9",
+      "title": "Stone Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:stone_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Obtain Stone Pickaxe and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B3955C53311D900",
+          "type": "item",
+          "item": {
+            "id": "minecraft:stone_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1359B066E0244FEB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C6FF4F16B2858BF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.37639d,
+      "y": 7.74514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1275936B956D8C0B",
+      "title": "Stone Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:stone_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Obtain Stone Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1344042C6045D676",
+          "type": "item",
+          "item": {
+            "id": "minecraft:stone_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17C3732A9CAB57B2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17F3843E61DBB6B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.72639d,
+      "y": 7.74514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B68F3F310A8A75C",
+      "title": "Wooden Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:wooden_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Obtain Wooden Pickaxe and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "165FCEDD21CBAF1A",
+          "type": "item",
+          "item": {
+            "id": "minecraft:wooden_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15B786D33FEA8D99",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BC965F73004A679",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.32639d,
+      "y": 9.09514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "104B9F3B26087395",
+      "title": "Wooden Sword",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "minecraft:wooden_sword"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Obtain Wooden Sword and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D971FDCAE26A526",
+          "type": "item",
+          "item": {
+            "id": "minecraft:wooden_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B27E79A2DC3F614",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "102229F2ECCFA519",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.67639d,
+      "y": 9.09514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "122056FC17AC918D",
+      "title": "Prometheum Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "oritech:promethium_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Prometheum Pickaxe. Item inputs include Destroyer Block, Prometheum. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1D4B7680E542D7",
+          "type": "item",
+          "item": {
+            "id": "oritech:promethium_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "110B5B67AEBECA5D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FD5C7F32DF060BC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.44722d,
+      "y": 9.96625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11E2487295A3517E",
+      "title": "Emerald Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "pickletweaks:emerald_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Emerald Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17B86B2DB6FD0B5B",
+          "type": "item",
+          "item": {
+            "id": "pickletweaks:emerald_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "131CB892E0BD5C58",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1710E106637415A0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.79722d,
+      "y": 7.26625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BBCEB64F82730A0",
+      "title": "Flint Pickaxe",
+      "subtitle": "Tools",
+      "icon": {
+        "id": "pickletweaks:flint_pickaxe"
+      },
+      "description": [
+        "Choose a tool for the task and keep a backup. Repair or charge it before a long trip; inventory upgrades and powered tools are optional conveniences.",
+        "Craft Flint Pickaxe. Item inputs include Flint. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "104B2976D6E5762A",
+          "type": "item",
+          "item": {
+            "id": "pickletweaks:flint_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18320F8712CF807A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18B01E87F091CC22",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.74722d,
+      "y": 8.61625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AC53203DEDB1A94",
+      "title": "Mekanism Iron Pickaxes",
+      "subtitle": "Tools",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanismtools:steel_pickaxe)item(mekanismtools:refined_glowstone_pickaxe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanismtools:steel_pickaxe)item(mekanismtools:refined_glowstone_pickaxe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "18FA9AFFC43687DE",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "108D0133A0745AB4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.79722d,
+      "y": 8.61625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "159E3EE1F4DAEA7F",
+      "title": "Mystical Agriculture Pickaxes",
+      "subtitle": "Tools",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_pickaxe)item(mysticalagriculture:prudentium_pickaxe)item(mysticalagriculture:tertium_pickaxe)item(mysticalagriculture:imperium_pickaxe)item(mysticalagriculture:supremium_pickaxe)item(mysticalagriculture:awakened_supremium_pickaxe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_pickaxe)item(mysticalagriculture:prudentium_pickaxe)item(mysticalagriculture:tertium_pickaxe)item(mysticalagriculture:imperium_pickaxe)item(mysticalagriculture:supremium_pickaxe)item(mysticalagriculture:awakened_supremium_pickaxe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1179B447EF59A705",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17831E9B4BB31F51",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.74722d,
+      "y": 9.96625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AB1AD44BDDC5F0F",
+      "title": "AE2 Pickaxes",
+      "subtitle": "Tools",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(ae2:fluix_pickaxe)item(ae2:certus_quartz_pickaxe)item(ae2:nether_quartz_pickaxe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(ae2:fluix_pickaxe)item(ae2:certus_quartz_pickaxe)item(ae2:nether_quartz_pickaxe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "198781A524D73CC0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E049CA90F40A05A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.39722d,
+      "y": 7.26625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "122D6427FDFB2F10",
+      "title": "Occultism Pickaxes",
+      "subtitle": "Tools",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(occultism:infused_pickaxe)item(occultism:iesnium_pickaxe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(occultism:infused_pickaxe)item(occultism:iesnium_pickaxe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "132829DCEC0D2274",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F938393820EACF3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.09722d,
+      "y": 9.96625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C19F7FF8947C4FA",
+      "title": "Just Dire Things Diamond Pickaxes",
+      "subtitle": "Tools",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(justdirethings:blazegold_pickaxe)item(justdirethings:celestigem_pickaxe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(justdirethings:blazegold_pickaxe)item(justdirethings:celestigem_pickaxe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "163BFEF30EF18440",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CCBE7284AEBC459",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.44722d,
+      "y": 8.61625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "146BAD2CBC3F0774",
+      "title": "Quartz Swords",
+      "subtitle": "Tools",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(ae2:nether_quartz_sword)item(ae2:certus_quartz_sword))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(ae2:nether_quartz_sword)item(ae2:certus_quartz_sword))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1A77AB1D18609507",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1559E07BDAAD497A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.79722d,
+      "y": 9.96625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1696AB7C8F73C200",
+      "title": "Mekanism Iron Swords",
+      "subtitle": "Tools",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanismtools:refined_glowstone_sword)item(mekanismtools:bronze_sword))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanismtools:refined_glowstone_sword)item(mekanismtools:bronze_sword))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "129706D0B2954B10",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "184FA54FB5AA8523",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.39722d,
+      "y": 9.96625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B2BCE328C94EDFD",
+      "title": "Attuned Soulium Daggers",
+      "subtitle": "Tools",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mysticalagriculture:passive_soulium_dagger)item(mysticalagriculture:hostile_soulium_dagger))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mysticalagriculture:passive_soulium_dagger)item(mysticalagriculture:hostile_soulium_dagger))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "14C05AFEFE6C58EC",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15367C8332DE345E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.74722d,
+      "y": 7.26625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13D794FE620CC6DF",
+      "title": "Entry Draconic Pickaxes",
+      "subtitle": "Tools",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(draconicevolution:draconic_pickaxe)item(draconicevolution:wyvern_pickaxe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(draconicevolution:draconic_pickaxe)item(draconicevolution:wyvern_pickaxe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1C4A6E9220939483",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11F63CB2E78AF5EB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.39722d,
+      "y": 8.61625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1C631978EAA657B5",
+      "linked_quest": "1C41EA36A21F21A9",
+      "x": 0.45139d,
+      "y": 4.75694d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "14860095476DCEBA",
+      "linked_quest": "1C3BAB05028E4E8E",
+      "x": 1.8125d,
+      "y": 4.75694d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

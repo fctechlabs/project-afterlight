@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/ocean_ruin_cold",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/ocean_ruin_warm",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/buried_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/shipwreck_map",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/shipwreck_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/shipwreck_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/underwater_ruin_big",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/underwater_ruin_small",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

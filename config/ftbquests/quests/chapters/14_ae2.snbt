@@ -1,0 +1,3885 @@
+{
+  "id": "11EF90D60EC63470",
+  "filename": "14_ae2",
+  "title": "Applied Energistics 2",
+  "icon": {
+    "id": "ae2:controller"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 12,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1E80B307CE94693E",
+      "title": "Energy Acceptor",
+      "subtitle": "A network you can use",
+      "icon": {
+        "id": "ae2:energy_acceptor"
+      },
+      "description": [
+        "An Energy Acceptor converts FE for the AE2 network. Keep the network powered while inserting and removing items."
+      ],
+      "dependencies": [
+        "1B940B5496B39BBC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15E22C0FFD5B34B8",
+          "type": "item",
+          "item": {
+            "id": "ae2:energy_acceptor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1833956E15C218E2",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "173CD54C01BE35E5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.52944d,
+      "y": 4.90722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E6EA8BF41AA9553",
+      "title": "ME Drive",
+      "subtitle": "A network you can use",
+      "icon": {
+        "id": "ae2:drive"
+      },
+      "description": [
+        "Place a Drive on the network and insert an item storage cell. Watch both the cell's capacity and item-type limit."
+      ],
+      "dependencies": [
+        "16F8C67BF217B24C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "169F5BA20E9DBDEA",
+          "type": "item",
+          "item": {
+            "id": "ae2:drive"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "119E5DA9E58EA321",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "19CD134FD32D4936",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.71364d,
+      "y": 5.61966d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AB6E5BC25FA1760",
+      "title": "1k ME Item Storage Cell",
+      "subtitle": "A network you can use",
+      "icon": {
+        "id": "ae2:item_storage_cell_1k"
+      },
+      "description": [
+        "A small cell is enough to start. Keep bulk Cobblestone and common sieve outputs in external storage to save cell space."
+      ],
+      "dependencies": [
+        "168FAC5052E96A14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E966A03508C4CD0",
+          "type": "item",
+          "item": {
+            "id": "ae2:item_storage_cell_1k"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10E47C7201ACBA4A",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1280C9B50288B138",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.25347d,
+      "y": 10.11008d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11B107227F2F4445",
+      "title": "ME Crafting Terminal",
+      "subtitle": "A network you can use",
+      "icon": {
+        "id": "ae2:crafting_terminal"
+      },
+      "description": [
+        "Connect a Crafting Terminal to a powered network. If it is offline, check cable connectivity, power, and channel usage."
+      ],
+      "dependencies": [
+        "12A39091975222B4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F83E5F2A40038E2",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_terminal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E82DF4178125710",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "14E8D6EBD8189FF8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.13093d,
+      "y": -1.88423d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "160CA210F0B780D7",
+      "title": "ME Pattern Encoding Terminal",
+      "subtitle": "A network you can use",
+      "icon": {
+        "id": "ae2:pattern_encoding_terminal"
+      },
+      "description": [
+        "Use a Pattern Encoding Terminal to encode a reachable recipe. Start with one repeated component so troubleshooting stays simple."
+      ],
+      "dependencies": [
+        "11B107227F2F4445"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "154DB9445C377796",
+          "type": "item",
+          "item": {
+            "id": "ae2:pattern_encoding_terminal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEB709508F3EA95",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1DA11A4E8AA7F248",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.39259d,
+      "y": -2.36455d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B53535C4395BC84",
+      "title": "Molecular Assembler",
+      "subtitle": "A network you can use",
+      "icon": {
+        "id": "ae2:molecular_assembler"
+      },
+      "description": [
+        "Pair a Molecular Assembler with the correct pattern provider and crafting CPU. Request a small craft and check where the ingredients stop."
+      ],
+      "dependencies": [
+        "160CA210F0B780D7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DFD6E94E28537BD",
+          "type": "item",
+          "item": {
+            "id": "ae2:molecular_assembler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ED41FE4283999BB",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1A05585807D0FEE5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.65426d,
+      "y": -2.84487d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12850794B5D49A52",
+      "title": "Inscriber Calculation Press",
+      "subtitle": "Processor components",
+      "icon": {
+        "id": "ae2:calculation_processor_press"
+      },
+      "description": [
+        "Use Certus Quartz with the Calculation Press. Add Printed Silicon and Redstone to finish a Calculation Processor."
+      ],
+      "dependencies": [
+        "1C7ABCD2731D35CD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F2AC758AF19A2D",
+          "type": "item",
+          "item": {
+            "id": "ae2:calculation_processor_press"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C38EF943E55F6D",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "13A3AA5A4F33E961",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.03441d,
+      "y": 1.82738d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A91DC851BC1752",
+      "title": "Calculation Processor",
+      "subtitle": "Processor components",
+      "icon": {
+        "id": "ae2:calculation_processor"
+      },
+      "description": [
+        "Calculation Processors support storage and crafting components. Keep a small stock alongside Logic and Engineering Processors."
+      ],
+      "dependencies": [
+        "1FB9216683A9A378"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1839EE86A7A867FC",
+          "type": "item",
+          "item": {
+            "id": "ae2:calculation_processor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F33BBDC4FCB6104",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "18499C0F0C5913FF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.66079d,
+      "y": 2.45358d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "160E167E5BC081CF",
+      "title": "Fluix ME Glass Cable",
+      "subtitle": "Finish the first autocrafter",
+      "icon": {
+        "id": "ae2:fluix_glass_cable"
+      },
+      "description": [
+        "Connect the Energy Acceptor, Drive, terminal, and crafting parts. A connected appearance does not guarantee enough channels or power."
+      ],
+      "dependencies": [
+        "1B940B5496B39BBC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C9927D0A2B8978A",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluix_glass_cable"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10AF9F4446AB9447",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "154D6C1009A6F3C7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.96274d,
+      "y": 0.24182d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8C3A62A0D28202",
+      "title": "Blank Pattern",
+      "subtitle": "Finish the first autocrafter",
+      "icon": {
+        "id": "ae2:blank_pattern"
+      },
+      "description": [
+        "Encode a crafting or processing pattern for one recipe. Processing patterns describe machine inputs and outputs rather than a crafting-grid recipe."
+      ],
+      "dependencies": [
+        "16466B6A8CA26C81"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1234B0D712261FE4",
+          "type": "item",
+          "item": {
+            "id": "ae2:blank_pattern"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "163A2A037A666AC2",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "141991E290192553",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.76094d,
+      "y": -0.02165d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15D0A530CFCD53A1",
+      "title": "ME Pattern Provider",
+      "subtitle": "Finish the first autocrafter",
+      "icon": {
+        "id": "ae2:pattern_provider"
+      },
+      "description": [
+        "Place a Pattern Provider beside a Molecular Assembler for crafting patterns, or beside the correct machine input for processing patterns."
+      ],
+      "dependencies": [
+        "1D8C3A62A0D28202"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19AF01B2879E9E3A",
+          "type": "item",
+          "item": {
+            "id": "ae2:pattern_provider"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11CAC1BBABD8BAB6",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1BF5D9EFB0C50802",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.78561d,
+      "y": -0.9006d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19C1D63320F17F88",
+      "title": "1k Crafting Storage",
+      "subtitle": "Finish the first autocrafter",
+      "icon": {
+        "id": "ae2:1k_crafting_storage"
+      },
+      "description": [
+        "Build a valid crafting CPU with Crafting Storage. Keep its blocks in one rectangular structure and request a small test craft."
+      ],
+      "dependencies": [
+        "15D0A530CFCD53A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EF8472ED36DE246",
+          "type": "item",
+          "item": {
+            "id": "ae2:1k_crafting_storage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E14C03586D91B31",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1B57107E6251B01C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.81028d,
+      "y": -1.77955d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123151969ED2C987",
+      "title": "Charged Staff",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:charged_staff"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Charged Staff. Item inputs include Charged Certus Quartz Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168FAC5052E96A14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1962884853DB1730",
+          "type": "item",
+          "item": {
+            "id": "ae2:charged_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1911AE1545D63C9C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "130562A607C52692",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.50347d,
+      "y": 8.78985d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "108F48792F2BAB8E",
+      "title": "ME Annihilation Plane",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:annihilation_plane"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Annihilation Plane. Item inputs include Annihilation Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DC9F907F5098801"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130DBE30CC376C65",
+          "type": "item",
+          "item": {
+            "id": "ae2:annihilation_plane"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CF2CCF2FFA2284B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F407F3266FEE473",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.97517d,
+      "y": 3.90589d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A5340C22878BBA8",
+      "title": "Charger",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:charger"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Charger. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EA96B6716636213"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C378AE196EDAA18",
+          "type": "item",
+          "item": {
+            "id": "ae2:charger"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10F721F284BE004D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1962B4AEF2D30392",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.99062d,
+      "y": 14.73516d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "108D38BEF262373F",
+      "title": "Color Applicator",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:color_applicator"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Color Applicator. Item inputs include Formation Core, 4k ME Storage Component, Energy Cell. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AE02683A605F8C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C04D29D0F6B174B",
+          "type": "item",
+          "item": {
+            "id": "ae2:color_applicator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14671C0C387B5420",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "163CFED78F842805",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.84544d,
+      "y": 5.31369d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1404B7D5CDAFBFCA",
+      "title": "Matter Condenser",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:condenser"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Matter Condenser. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168FAC5052E96A14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D6D83B5ECC206D9",
+          "type": "item",
+          "item": {
+            "id": "ae2:condenser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160C6922FA985D26",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16BD5C001BECC5A2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.30332d,
+      "y": 6.44452d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "102E3A228D6E1AD9",
+      "title": "ME Controller",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:controller"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Controller. Item inputs include Sky Stone Block, Fluix Crystal, Engineering Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AE02683A605F8C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "123E649DBA0B6AA4",
+          "type": "item",
+          "item": {
+            "id": "ae2:controller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BD4422510B5C5EB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12F90D59DA576351",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.59548d,
+      "y": 4.32715d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A34395A0F0B8BDB",
+      "title": "Crafting Co-Processing Unit",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:crafting_accelerator"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Crafting Co-Processing Unit. Item inputs include Crafting Unit, Engineering Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EE4D3AC6275F6EB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15853384C2EC6423",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_accelerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "140B44858AB91343",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B4F66955BACABD2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.94257d,
+      "y": 10.3939d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18865C85F5A7737B",
+      "title": "Crafting Monitor",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:crafting_monitor"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Crafting Monitor. Item inputs include Crafting Unit, ME Storage Monitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A34395A0F0B8BDB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FF31A4BED59A518",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_monitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD87FEC6CD2284E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AEFB9B38EA0F391",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.24636d,
+      "y": 10.74407d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17E878CA893EC896",
+      "title": "ME Formation Plane",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:formation_plane"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Formation Plane. Item inputs include Formation Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13EB1F45D2D13411"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14B9454410A696E5",
+          "type": "item",
+          "item": {
+            "id": "ae2:formation_plane"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17BF9DA0E14728F9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "175A988A80B1CB3A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.63018d,
+      "y": 5.04028d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17588FA39D50993A",
+      "title": "Growth Accelerator",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:growth_accelerator"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Growth Accelerator. Item inputs include Fluix ME Glass Cable, Quartz Glass, Fluix Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0C1DD668E4D9E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14B32380FA385626",
+          "type": "item",
+          "item": {
+            "id": "ae2:growth_accelerator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18E888B10C8D0361",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F74ACB32CEC7CF8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.51389d,
+      "y": 8.76674d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16160AAFE92D4EF9",
+      "title": "ME IO Port",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:io_port"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME IO Port. Item inputs include ME Drive, Fluix ME Glass Cable, Logic Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C2BA3B31BBA8918"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "100B680484263341",
+          "type": "item",
+          "item": {
+            "id": "ae2:io_port"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1424F29C52E93DF0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DF56ACDF652058F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.46176d,
+      "y": 2.26083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CBF4E3F935934BA",
+      "title": "ME Level Emitter",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:level_emitter"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Level Emitter. Item inputs include Redstone Torch, Calculation Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0C1DD668E4D9E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F128AB3906A5E15",
+          "type": "item",
+          "item": {
+            "id": "ae2:level_emitter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "181358018D39A0B3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ACCEFB004506B34",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.63768d,
+      "y": 12.06788d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "198DDD121FF954AA",
+      "title": "ME P2P Tunnel",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:me_p2p_tunnel"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME P2P Tunnel. Item inputs include Engineering Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114C6A734F46F19D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E45314092E1569",
+          "type": "item",
+          "item": {
+            "id": "ae2:me_p2p_tunnel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19884580A83C8E47",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "109B609E6902C480",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.90311d,
+      "y": 5.2609d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DE2205B57402BD5",
+      "title": "Network Tool",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:network_tool"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Network Tool. Item inputs include Calculation Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12A39091975222B4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "159CB4A43FF8DE55",
+          "type": "item",
+          "item": {
+            "id": "ae2:network_tool"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF935DFBD531A6D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6EB7233506D949",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.25347d,
+      "y": -0.56391d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12DAD596C4693ED7",
+      "title": "ME Quantum Ring",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:quantum_ring"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Quantum Ring. Item inputs include Logic Processor, Engineering Processor, Energy Cell. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11E47379352F6EEE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "125E34B18BB8065E",
+          "type": "item",
+          "item": {
+            "id": "ae2:quantum_ring"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "100DF710DD6F251F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E61CD59684C3557",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.90045d,
+      "y": 7.18269d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EA96B6716636213",
+      "title": "Certus Quartz Cluster",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:quartz_cluster"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Obtain Certus Quartz Cluster and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F0A717282D3C128",
+          "type": "item",
+          "item": {
+            "id": "ae2:quartz_cluster"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D8B510D25B6E1AA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BA4C343256A4AA3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.31568d,
+      "y": 12.06607d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FF7C9BBED3D9E78",
+      "title": "Quartz Fiber",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:quartz_fiber"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Quartz Fiber. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114C6A734F46F19D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1112FE0814CF7A77",
+          "type": "item",
+          "item": {
+            "id": "ae2:quartz_fiber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12D323E6F5295F92",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A99E9DB7BA1E8BD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.51317d,
+      "y": 6.29429d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11E47379352F6EEE",
+      "title": "Singularity",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:singularity"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Use Reaction processing to make Singularity. Item inputs include Matter Ball. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1404B7D5CDAFBFCA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18FFC575082F87BA",
+          "type": "item",
+          "item": {
+            "id": "ae2:singularity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11C96FA8D04ED4C7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19D38D84679853F1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.60188d,
+      "y": 6.81361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16E176FB0F25745E",
+      "title": "Spatial IO Port",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:spatial_io_port"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Spatial IO Port. Item inputs include Fluix ME Glass Cable, ME IO Port, Engineering Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "160E167E5BC081CF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1151FAABECBD7D0F",
+          "type": "item",
+          "item": {
+            "id": "ae2:spatial_io_port"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F816313D69BF016",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "111B4A91405907B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.21134d,
+      "y": -0.2715d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E8F9E86D92AA779",
+      "title": "Spatial Pylon",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:spatial_pylon"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Spatial Pylon. Item inputs include Quartz Glass, Fluix ME Glass Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16E176FB0F25745E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D5493110640F97D",
+          "type": "item",
+          "item": {
+            "id": "ae2:spatial_pylon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E39906BAED2AC7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BBDE5C0F278EED1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.45994d,
+      "y": -0.78481d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16929E16200F03A2",
+      "title": "ME Wireless Access Point",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:wireless_access_point"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Wireless Access Point. Item inputs include Wireless Receiver, Calculation Processor, Fluix ME Glass Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "102E3A228D6E1AD9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A915289D4C7724F",
+          "type": "item",
+          "item": {
+            "id": "ae2:wireless_access_point"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1137E9B33A7A09C6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1269AFA64D93AA41",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.93617d,
+      "y": 4.16887d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "151F46E20C3841D5",
+      "title": "Fluix Dust",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:fluix_dust"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Use Inscriber processing to make Fluix Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EA96B6716636213"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "141B03B676A0F6BD",
+          "type": "item",
+          "item": {
+            "id": "ae2:fluix_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16FC27B6051B9078",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1087B7F4C902D34F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.34062d,
+      "y": 14.73516d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15738FDA45A59A41",
+      "title": "16k ME Storage Component",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:cell_component_16k"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft 16k ME Storage Component. Item inputs include Calculation Processor, 4k ME Storage Component, Quartz Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17213FAE151241DF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15AB33FFBE4AC6F9",
+          "type": "item",
+          "item": {
+            "id": "ae2:cell_component_16k"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10AA5A5F0701D53F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10E778A4657B44C4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.44222d,
+      "y": 2.44407d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "168FAC5052E96A14",
+      "title": "1k ME Storage Component",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:cell_component_1k"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft 1k ME Storage Component. Item inputs include Logic Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16466B6A8CA26C81"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17A181C8B8C699BB",
+          "type": "item",
+          "item": {
+            "id": "ae2:cell_component_1k"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "189F7D15C155CEEA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1833CD5E3FD6660A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.82197d,
+      "y": 4.16016d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1718E1F0FAC68398",
+      "title": "256k ME Storage Component",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:cell_component_256k"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft 256k ME Storage Component. Item inputs include Calculation Processor, 64k ME Storage Component, Quartz Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17C82EB89E85E2D8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "108ED57F8D697A13",
+          "type": "item",
+          "item": {
+            "id": "ae2:cell_component_256k"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "167E7CADB705C469",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D110ACE98BD7547",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.10762d,
+      "y": 3.37757d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17213FAE151241DF",
+      "title": "4k ME Storage Component",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:cell_component_4k"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft 4k ME Storage Component. Item inputs include Calculation Processor, 1k ME Storage Component, Quartz Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "168FAC5052E96A14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15EFEADA85EC2DA4",
+          "type": "item",
+          "item": {
+            "id": "ae2:cell_component_4k"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18A6F8EA7DC546AD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C49DF4E8F588955",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.14276d,
+      "y": 2.81001d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17C82EB89E85E2D8",
+      "title": "64k ME Storage Component",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:cell_component_64k"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft 64k ME Storage Component. Item inputs include Calculation Processor, 16k ME Storage Component, Quartz Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15738FDA45A59A41"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C062F00B105930",
+          "type": "item",
+          "item": {
+            "id": "ae2:cell_component_64k"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1908148F64AA459A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "129928A228C6AD46",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.74167d,
+      "y": 2.07812d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158C72E67B3B9415",
+      "title": "Cell Workbench",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:cell_workbench"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Cell Workbench. Item inputs include Calculation Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C2BA3B31BBA8918"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19D5F884A81ED75B",
+          "type": "item",
+          "item": {
+            "id": "ae2:cell_workbench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "130E315E54AD17A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B8E0E530FE95DE6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.25347d,
+      "y": 0.75612d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C2BA3B31BBA8918",
+      "title": "ME Chest",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:chest"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Chest. Item inputs include ME Terminal, Fluix ME Glass Cable. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16466B6A8CA26C81"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "188610AABEC48E80",
+          "type": "item",
+          "item": {
+            "id": "ae2:chest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18B8925E77EB7D6C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16D9C5FA98078DFB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.61191d,
+      "y": 3.17746d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A160751A62ACE8",
+      "title": "Energy Cell",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:energy_cell"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Energy Cell. Item inputs include Quartz Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E80B307CE94693E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15452D8C18D0488B",
+          "type": "item",
+          "item": {
+            "id": "ae2:energy_cell"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D8F51FC01564A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18B971D8CF56502C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.31687d,
+      "y": 6.00378d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A31F783DBE1D518",
+      "title": "MEGA Bulk Item Storage Cell",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "megacells:bulk_item_cell"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft MEGA Bulk Item Storage Cell. Item inputs include Vibrant Quartz Glass, Sky Stone Dust, MEGA Bulk Storage Component, Netherite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AB6E5BC25FA1760"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16092EC02A69CDDF",
+          "type": "item",
+          "item": {
+            "id": "megacells:bulk_item_cell"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15ACC977B7AB9FD2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18CBF4221B52E08E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 19.36332d,
+      "y": 7.11228d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD337A66342C8A2",
+      "title": "16M MEGA Storage Component",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "megacells:cell_component_16m"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft 16M MEGA Storage Component. Item inputs include Accumulation Processor, 4M MEGA Storage Component, Vibrant Quartz Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B23E54D19ED56D6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D02715D7CB0DD37",
+          "type": "item",
+          "item": {
+            "id": "megacells:cell_component_16m"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11E6039D9EBF5FBF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1509C68413AF8075",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.87466d,
+      "y": 5.40892d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1198AE6FCCEC40FA",
+      "title": "1M MEGA Storage Component",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "megacells:cell_component_1m"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft 1M MEGA Storage Component. Item inputs include Sky Stone Dust, Accumulation Processor, 256k ME Storage Component, Vibrant Quartz Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1718E1F0FAC68398"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11A4670C45C3A1E7",
+          "type": "item",
+          "item": {
+            "id": "megacells:cell_component_1m"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "134A7EAF4AE44BA2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D0AAA6B80D45024",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.80816d,
+      "y": 3.74352d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10EF64B9D968494B",
+      "title": "256M MEGA Storage Component",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "megacells:cell_component_256m"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft 256M MEGA Storage Component. Item inputs include Matter Ball, Accumulation Processor, 64M MEGA Storage Component, Vibrant Quartz Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B7D7AA497027068"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12F0802784FF904F",
+          "type": "item",
+          "item": {
+            "id": "megacells:cell_component_256m"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CC4749E1B603320",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17C2752BF6DA2A86",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.47357d,
+      "y": 4.67703d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B23E54D19ED56D6",
+      "title": "4M MEGA Storage Component",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "megacells:cell_component_4m"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft 4M MEGA Storage Component. Item inputs include Accumulation Processor, 1M MEGA Storage Component, Vibrant Quartz Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1198AE6FCCEC40FA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18A0C5F8ACCA6937",
+          "type": "item",
+          "item": {
+            "id": "megacells:cell_component_4m"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1654F9E15703965F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18080D9983BBAFE8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.50871d,
+      "y": 4.10947d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B7D7AA497027068",
+      "title": "64M MEGA Storage Component",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "megacells:cell_component_64m"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft 64M MEGA Storage Component. Item inputs include Matter Ball, Accumulation Processor, 16M MEGA Storage Component, Vibrant Quartz Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AD337A66342C8A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA026F623A0E8C1",
+          "type": "item",
+          "item": {
+            "id": "megacells:cell_component_64m"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17608E89DD6E294A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AA241FB2AD8C113",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.17411d,
+      "y": 5.04297d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "164DC96B3D3697B1",
+      "title": "Cable Anchor",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:cable_anchor"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Use Quartz Cutting processing to make Cable Anchor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AE02683A605F8C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14DAA6549F1A090E",
+          "type": "item",
+          "item": {
+            "id": "ae2:cable_anchor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B64C30910C1CE9D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "129E01EA598F46D0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.45425d,
+      "y": 9.71696d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13EB1F45D2D13411",
+      "title": "ME Export Bus",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:export_bus"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Export Bus. Item inputs include Formation Core, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114C6A734F46F19D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11F5A9DE27F16FEE",
+          "type": "item",
+          "item": {
+            "id": "ae2:export_bus"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "184C5A6B0B1AAA6E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AC441CEBBF5C471",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.53184d,
+      "y": 4.16558d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DC9F907F5098801",
+      "title": "ME Import Bus",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:import_bus"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Import Bus. Item inputs include Annihilation Core, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114C6A734F46F19D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152E0733DC14E347",
+          "type": "item",
+          "item": {
+            "id": "ae2:import_bus"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EB98229A1A69DA5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14D737B99A6F88E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.88111d,
+      "y": 3.29748d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E0C1DD668E4D9E0",
+      "title": "ME Pattern Access Terminal",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:pattern_access_terminal"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Pattern Access Terminal. Item inputs include Engineering Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AE02683A605F8C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14CAD2B6C458146F",
+          "type": "item",
+          "item": {
+            "id": "ae2:pattern_access_terminal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E4A1987CAB172D8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C7DD13EA605F914",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.04756d,
+      "y": 7.93488d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10071B46C4E1AE37",
+      "title": "ME Storage Bus",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:storage_bus"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Storage Bus. Item inputs include Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114C6A734F46F19D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C0D2DFBE8A3450E",
+          "type": "item",
+          "item": {
+            "id": "ae2:storage_bus"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19821A2AF4948C55",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A6C414331DDC93C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.6962d,
+      "y": 6.92861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12A39091975222B4",
+      "title": "ME Terminal",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:terminal"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft ME Terminal. Item inputs include Formation Core, Logic Processor, Annihilation Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16466B6A8CA26C81"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10AA6ACB4222BEC8",
+          "type": "item",
+          "item": {
+            "id": "ae2:terminal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16096F6DB301727F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17787EFA5C7F1A7E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.14106d,
+      "y": 1.51357d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DD7669859CD4B38",
+      "title": "Wireless Terminal",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:wireless_terminal"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Wireless Terminal. Item inputs include Wireless Receiver, ME Terminal, Dense Energy Cell. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16929E16200F03A2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AFB12E1068DD22E",
+          "type": "item",
+          "item": {
+            "id": "ae2:wireless_terminal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A9B24857B93A4DC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15F38439A28FFACE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.27686d,
+      "y": 4.0106d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AF5B9C864C7C242",
+      "title": "Capacity Card",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:capacity_card"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Capacity Card. Item inputs include Basic Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10071B46C4E1AE37"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1377CCBC19750FCC",
+          "type": "item",
+          "item": {
+            "id": "ae2:capacity_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D37FF827356B06",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16EA84F98B2E0A5D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.97875d,
+      "y": 7.34999d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19ED5CD9D3F57402",
+      "title": "Crafting Card",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:crafting_card"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Crafting Card. Item inputs include Crafting Table, Basic Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "191D12F62D631FCC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB95F9DE62B3D60",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A88362CF8A2A1ED",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FAE3A519D61D430",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.9744d,
+      "y": 13.42056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "157DA27648737F40",
+      "title": "Energy Card",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:energy_card"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Energy Card. Item inputs include Dense Energy Cell, Advanced Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18A160751A62ACE8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1950B7F3CEF12884",
+          "type": "item",
+          "item": {
+            "id": "ae2:energy_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10427C5B7A55A0AD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15CDEBD7FCC621F7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.1043d,
+      "y": 7.10035d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B5A801A28999996",
+      "title": "Equal Distribution Card",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:equal_distribution_card"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Equal Distribution Card. Item inputs include Advanced Card, Calculation Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "158C72E67B3B9415"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CCE417030BCC316",
+          "type": "item",
+          "item": {
+            "id": "ae2:equal_distribution_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "114272DE7DFAABC8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1750E91E71397D6E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.11513d,
+      "y": 1.35107d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12634B87E262D91B",
+      "title": "Fuzzy Card",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:fuzzy_card"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Fuzzy Card. Item inputs include Advanced Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AF5B9C864C7C242"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1623BB9342E775DC",
+          "type": "item",
+          "item": {
+            "id": "ae2:fuzzy_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "174CFC9A028AFFB9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "107EF99C548F1457",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.2613d,
+      "y": 7.77138d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "147954B330B1D18E",
+      "title": "Memory Card",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:memory_card"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Memory Card. Item inputs include Calculation Processor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "198DDD121FF954AA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F34AA472FBD4A72",
+          "type": "item",
+          "item": {
+            "id": "ae2:memory_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19E58F9FDF188CAB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1575877E94E418E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.2559d,
+      "y": 6.54818d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "191D12F62D631FCC",
+      "title": "Redstone Card",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:redstone_card"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Redstone Card. Item inputs include Redstone Torch, Basic Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CBF4E3F935934BA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17EB9AB7B817BF8B",
+          "type": "item",
+          "item": {
+            "id": "ae2:redstone_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D4AF92C50E45DD5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16D2F0EEF659F56E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.80604d,
+      "y": 12.74422d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F891F81E012BC05",
+      "title": "Acceleration Card",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:speed_card"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Acceleration Card. Item inputs include Advanced Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B53535C4395BC84"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B109D9C0CD4DA7",
+          "type": "item",
+          "item": {
+            "id": "ae2:speed_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F1956965390A3C8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "110CB957B802DA94",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.91592d,
+      "y": -3.32519d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A3BB8A4325EB68F",
+      "title": "Overflow Destruction Card",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:void_card"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Overflow Destruction Card. Item inputs include Calculation Processor, Basic Card. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "158C72E67B3B9415"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "133FAC7ED62E4098",
+          "type": "item",
+          "item": {
+            "id": "ae2:void_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "102E9064B64FD379",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F99D143F366736E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.79313d,
+      "y": 1.95486d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11FBD824529C525B",
+      "title": "Infinity Range Booster",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "aeinfinitybooster:infinity_card"
+      },
+      "description": [
+        "Keep the ME network powered and check channels before expanding. Storage cells hold contents; buses and interfaces connect inventories. Use autocrafting patterns for processing recipes after the machines work manually.",
+        "Craft Infinity Range Booster. Item inputs include Ender Eye, Netherite Ingot, Wireless Booster, Nether Star. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DD7669859CD4B38"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "139D6AD1B2EFBDED",
+          "type": "item",
+          "item": {
+            "id": "aeinfinitybooster:infinity_card"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12B4A2A141EDF06A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1815D2583DDFAA86",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.61755d,
+      "y": 3.85232d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AE02683A605F8C6",
+      "title": "Basic Cabling",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "item_tag(ae2:glass_cable)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1B940B5496B39BBC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item_tag(ae2:glass_cable)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "10CD943EACB3D909",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item_tag(ae2:covered_cable)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "optional_task": true,
+          "type": "item",
+          "id": "167A146565DA62CD",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item_tag(ae2:covered_dense_cable)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "optional_task": true,
+          "type": "item",
+          "id": "14A5408AFEE7175B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E13B8D619215CC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.58207d,
+      "y": 6.63775d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC06198C25EDC24",
+      "title": "Advanced Cabling",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "item_tag(ae2:smart_cable)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1AE02683A605F8C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item_tag(ae2:smart_cable)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1AEA590C94A5E361",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item_tag(ae2:smart_dense_cable)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "175022523D0DDF3F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1843EFEDC7284153",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.10425d,
+      "y": 9.71696d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "114C6A734F46F19D",
+      "title": "The IO",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "item_tag(ae2:interface)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1AE02683A605F8C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item_tag(ae2:interface)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1AC260E7503BD34B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16E0628249600C1F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.04864d,
+      "y": 6.61484d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B41FB3BE1BA5DCD",
+      "title": "Quartz Wrench",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "item_tag(ae2:quartz_wrench)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1EA96B6716636213"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "item_tag(ae2:quartz_wrench)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "18803804E5330B91",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "145FCEC800093467",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.69062d,
+      "y": 14.73516d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "105CF30F5743A038",
+      "title": "Fluid Storage",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(ae2:fluid_storage_cell_1k)item(ae2:fluid_storage_cell_4k)item(ae2:fluid_storage_cell_16k)item(ae2:fluid_storage_cell_64k)item(ae2:fluid_storage_cell_256k))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1AB6E5BC25FA1760"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(ae2:fluid_storage_cell_1k)item(ae2:fluid_storage_cell_4k)item(ae2:fluid_storage_cell_16k)item(ae2:fluid_storage_cell_64k)item(ae2:fluid_storage_cell_256k))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1D030EB6D88DB72F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B8FC89B23FF82DA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.01332d,
+      "y": 7.11228d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C81A06313915999",
+      "title": "Portable Storage",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(ae2:portable_item_cell_1k)item(ae2:portable_item_cell_4k)item(ae2:portable_item_cell_16k)item(ae2:portable_item_cell_64k)item(ae2:portable_item_cell_256k)item(ae2:portable_fluid_cell_1k)item(ae2:portable_fluid_cell_4k)item(ae2:portable_fluid_cell_16k)item(ae2:portable_fluid_cell_64k)item(ae2:portable_fluid_cell_256k))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1AB6E5BC25FA1760"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(ae2:portable_item_cell_1k)item(ae2:portable_item_cell_4k)item(ae2:portable_item_cell_16k)item(ae2:portable_item_cell_64k)item(ae2:portable_item_cell_256k)item(ae2:portable_fluid_cell_1k)item(ae2:portable_fluid_cell_4k)item(ae2:portable_fluid_cell_16k)item(ae2:portable_fluid_cell_64k)item(ae2:portable_fluid_cell_256k))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "14E8384B0CA068FC",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "154A2EE7FF19499D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.71332d,
+      "y": 7.11228d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C017CEB14AC6A6",
+      "title": "Spatial Storage Cell",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(ae2:spatial_storage_cell_2)item(ae2:spatial_storage_cell_16)item(ae2:spatial_storage_cell_128))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E8F9E86D92AA779"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(ae2:spatial_storage_cell_2)item(ae2:spatial_storage_cell_16)item(ae2:spatial_storage_cell_128))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "13D568F1FB72AF7A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160288CDA2FA8FF5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.70854d,
+      "y": -1.29813d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EE4D3AC6275F6EB",
+      "title": "Crafting Storage",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(ae2:1k_crafting_storage)item(ae2:4k_crafting_storage)item(ae2:16k_crafting_storage)item(ae2:64k_crafting_storage)item(ae2:256k_crafting_storage))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E0C1DD668E4D9E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(ae2:1k_crafting_storage)item(ae2:4k_crafting_storage)item(ae2:16k_crafting_storage)item(ae2:64k_crafting_storage)item(ae2:256k_crafting_storage))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "113A20D7B6F9B947",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "141CD8E1A10CF50B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.63877d,
+      "y": 10.04373d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17931B4F21EBC6DC",
+      "title": "Foreword on Channels",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:controller"
+      },
+      "description": [
+        "Learn about Foreword on Channels in the Applied Energistics 2 guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1AE02683A605F8C6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1D05BB2CCB8EE059",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD46F82935339B3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.58204d,
+      "y": 8.1344d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB9216683A9A378",
+      "title": "Printed Calculation Circuit",
+      "subtitle": "Processor workshop",
+      "icon": {
+        "id": "ae2:printed_calculation_processor"
+      },
+      "description": [
+        "Print this circuit in the Inscriber using its matching press and the ingredient shown in JEI. Combine it with Printed Silicon and Redstone to finish the processor."
+      ],
+      "dependencies": [
+        "12850794B5D49A52"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B3884CB7745D938",
+          "type": "item",
+          "item": {
+            "id": "ae2:printed_calculation_processor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E9ADB6E51AF0ABA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1890AF6ADCECC794",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.3476d,
+      "y": 2.14048d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "16E53C1D22D03DD3",
+      "linked_quest": "1EFE0A54B27A7EFA",
+      "x": -0.8138d,
+      "y": 3.06378d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "19FFF5FBB7024893",
+      "linked_quest": "1B940B5496B39BBC",
+      "x": 0.50585d,
+      "y": 3.39279d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1C9A9680CEC7D6A9",
+      "linked_quest": "1C7ABCD2731D35CD",
+      "x": 3.18822d,
+      "y": 1.51659d,
+      "size": 1.25d,
+      "shape": "gear"
+    },
+    {
+      "id": "1B6664FFC155E4AA",
+      "linked_quest": "1437B9610CF68EAE",
+      "x": 6.75d,
+      "y": 0.5d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "178C87344D6D1C9A",
+      "linked_quest": "1C2208D0D4034DB9",
+      "x": 8.25d,
+      "y": 0.5d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1652B5473C3BDC46",
+      "linked_quest": "1DBFB7000AFEF1CC",
+      "x": -1.73703d,
+      "y": -1.02986d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1C2D4DEFFFC508FD",
+      "linked_quest": "1B2BCD21B236A4AE",
+      "x": 7.11987d,
+      "y": -0.93117d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "14E1D309E47EF17E",
+      "linked_quest": "1DAB8539C643EED1",
+      "x": 7.02596d,
+      "y": -1.99669d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "12F6FFFB2CCF3D37",
+      "linked_quest": "16466B6A8CA26C81",
+      "x": 9.81906d,
+      "y": 1.29854d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1D6A2FE8C173AA34",
+      "linked_quest": "1017BCA10EFAA891",
+      "x": 6.75d,
+      "y": 1.25d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1E6525BFBE8A2D1E",
+      "linked_quest": "199B3D1A6256EEFD",
+      "x": 8.25d,
+      "y": 1.25d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1FE515B745530F35",
+      "linked_quest": "16F8C67BF217B24C",
+      "x": 9.80842d,
+      "y": 2.62054d,
+      "size": 1.0d,
+      "shape": "diamond"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,6 @@
+# Match the client and server alpha identity shown by Better Compatibility Checker.
+[general]
+modpackProjectID = 1742350
+modpackName = "Afterlight"
+modpackVersion = "0.1.0-alpha.14"
+useMetadata = false

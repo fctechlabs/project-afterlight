@@ -1,0 +1,3750 @@
+{
+  "id": "1827796F77288397",
+  "filename": "12_mekanism",
+  "title": "Mekanism",
+  "icon": {
+    "id": "mekanism:steel_casing"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 10,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "13F1D49A6943315B",
+      "title": "Enrichment Chamber",
+      "subtitle": "Circuits and casings",
+      "icon": {
+        "id": "mekanism:enrichment_chamber"
+      },
+      "description": [
+        "Power an Enrichment Chamber and check its ore recipes. Configure input, output, and auto-eject rather than adding every possible machine at once."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1D2DD9300CA77843",
+          "type": "item",
+          "item": {
+            "id": "mekanism:enrichment_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "180D99718B1F9B9D",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1F7DF22D4F4CBF60",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.49469d,
+      "y": 5.94057d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19EC5EFE471F92AA",
+      "title": "Crusher",
+      "subtitle": "Circuits and casings",
+      "icon": {
+        "id": "mekanism:crusher"
+      },
+      "description": [
+        "The Crusher makes dusts and other processing ingredients. Match its item sides to the pipes you actually use."
+      ],
+      "dependencies": [
+        "13F1D49A6943315B"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "15FEB49930A1FD41",
+          "type": "item",
+          "item": {
+            "id": "mekanism:crusher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12036314352011C4",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1B4DA8DEA78A60E6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.5458d,
+      "y": 4.62789d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "150AB3541E4E23B5",
+      "title": "Chemical Injection Chamber",
+      "subtitle": "Deeper processing - optional",
+      "icon": {
+        "id": "mekanism:chemical_injection_chamber"
+      },
+      "description": [
+        "The Chemical Injection Chamber expands ore processing. Build the matching chemical supply first; an unpowered or empty machine cannot improve your output."
+      ],
+      "dependencies": [
+        "156F3EAFCF91CFE3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15481B0731015655",
+          "type": "item",
+          "item": {
+            "id": "mekanism:chemical_injection_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11DA79F3D5118895",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1A7B695796D082E7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.44421d,
+      "y": 1.46311d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "132D0B6160D8C725",
+      "title": "Chemical Dissolution Chamber",
+      "subtitle": "Deeper processing - optional",
+      "icon": {
+        "id": "mekanism:chemical_dissolution_chamber"
+      },
+      "description": [
+        "Chemical Dissolution begins a more involved processing chain. Its extra chemical and fluid systems are optional factory projects."
+      ],
+      "dependencies": [
+        "120AD8004DE05877"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C7580EB1FBEBA95",
+          "type": "item",
+          "item": {
+            "id": "mekanism:chemical_dissolution_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EDB8AFCF560FE2",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "15ECAB021124CCF6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.43126d,
+      "y": 0.07998d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1663BD6CE471C07A",
+      "title": "Digital Miner",
+      "subtitle": "Deeper processing - optional",
+      "icon": {
+        "id": "mekanism:digital_miner"
+      },
+      "description": [
+        "The Digital Miner searches actual blocks. Use it in a terrain dimension; it will not generate ores beneath a void island."
+      ],
+      "dependencies": [
+        "17D917F49C15E6B0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10F5FECB68BF672D",
+          "type": "item",
+          "item": {
+            "id": "mekanism:digital_miner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A537A4312E6F121",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1A6F6AD97C8BBD84",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.12724d,
+      "y": 2.59117d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A96A47E35D98F24",
+      "title": "Basic Control Circuit",
+      "subtitle": "Circuit and infusion supplies",
+      "icon": {
+        "id": "mekanism:basic_control_circuit"
+      },
+      "description": [
+        "Infuse Osmium with Redstone in the Metallurgic Infuser. Store these circuits separately from Infused Alloy."
+      ],
+      "dependencies": [
+        "1410ABE6C83BADE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D2B1746235E8007",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_control_circuit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B721AE78B563C7A",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "10B4C880CEED1AC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.45604d,
+      "y": 8.89198d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C43B97F16C6DE14",
+      "title": "Osmium Compressor",
+      "subtitle": "Circuit and infusion supplies",
+      "icon": {
+        "id": "mekanism:osmium_compressor"
+      },
+      "description": [
+        "Supply Osmium and power to the compressor for Refined Obsidian and other supported materials. Configure the input sides independently."
+      ],
+      "dependencies": [
+        "149A141043BE4553"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17D33499CFCDC19D",
+          "type": "item",
+          "item": {
+            "id": "mekanism:osmium_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FB803030BE6FCAA",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "13454D573728D5DA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86144d,
+      "y": 2.8146d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB3244A8706247A",
+      "title": "Electric Bow",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:electric_bow"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Electric Bow. Item inputs include Energy Tablet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D5E7FFAFD47787"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "158494D6DA222360",
+          "type": "item",
+          "item": {
+            "id": "mekanism:electric_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1584173BB5F44E1A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15CEC0D16514D3DC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.36089d,
+      "y": 0.29537d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13A98A1E0A4E89A1",
+      "title": "Jetpack",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:jetpack"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Jetpack. Item inputs include Basic Chemical Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D5E7FFAFD47787"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D4198E83A9F9287",
+          "type": "item",
+          "item": {
+            "id": "mekanism:jetpack"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EA97958CF2A646C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "162936508C5D81F0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.36089d,
+      "y": 1.64537d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C50506C7630C4E",
+      "title": "Bio Fuel",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:bio_fuel"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Bio Fuel. Item inputs include Block of Bio Fuel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19EC5EFE471F92AA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12872A46378928CF",
+          "type": "item",
+          "item": {
+            "id": "mekanism:bio_fuel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14B12225C48D2537",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ACBB52C32D47CC2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.28652d,
+      "y": 3.2981d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14D5E7FFAFD47787",
+      "title": "Chargepad",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:chargepad"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Chargepad. Item inputs include Polished Blackstone Pressure Plate, Energy Tablet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E2F6B6E71741D2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ED1336FB9027A4D",
+          "type": "item",
+          "item": {
+            "id": "mekanism:chargepad"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1096560008A803AD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19ED882BECDFC5FA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.08129d,
+      "y": 4.54185d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B2DCDAC88CD18A",
+      "title": "Chemical Infuser",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:chemical_infuser"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Chemical Infuser. Item inputs include Basic Chemical Tank, Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11B41F3E95DFAD46",
+          "type": "item",
+          "item": {
+            "id": "mekanism:chemical_infuser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "153859D7087F2D6F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BD190EF51929CD5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.46672d,
+      "y": 6.77741d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CDEC812D0385190",
+      "title": "Chemical Oxidizer",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:chemical_oxidizer"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Chemical Oxidizer. Item inputs include Dynamic Tank, Basic Chemical Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18230ADF272B5478",
+          "type": "item",
+          "item": {
+            "id": "mekanism:chemical_oxidizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC22D4DA420F494",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13C54BC5CCD6043F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.81672d,
+      "y": 6.77741d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1354820AEA2B7FAC",
+      "title": "Chemical Washer",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:chemical_washer"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Chemical Washer. Item inputs include Basic Fluid Tank, Basic Chemical Tank, Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "120AD8004DE05877"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10C77D912D0B1BE9",
+          "type": "item",
+          "item": {
+            "id": "mekanism:chemical_washer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CDCA34747490AE3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B657326BD22722D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.37914d,
+      "y": 3.42688d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E1A2552C4D1AF6C",
+      "title": "Configurator",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:configurator"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Configurator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1410ABE6C83BADE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "169066F3156EBCE1",
+          "type": "item",
+          "item": {
+            "id": "mekanism:configurator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A8B8A48244CEE21",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F0B724628ABDB06",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.98218d,
+      "y": 8.07169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E150C8AD7105D9",
+      "title": "Dictionary",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:dictionary"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Dictionary. Item inputs include Book. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D5E7FFAFD47787"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A41C98815ACCC6A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:dictionary"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BCCC0D3D71BE27B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18E8EA2FFDBC59B2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.01089d,
+      "y": 0.29537d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1296E549916277A4",
+      "title": "Electric Pump",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:electric_pump"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Electric Pump. Item inputs include Bucket, Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A582441C8F59D68",
+          "type": "item",
+          "item": {
+            "id": "mekanism:electric_pump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12220FADE95B36EC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12159DC4F698CF55",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.82536d,
+      "y": 5.88086d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "167923D0A08C5D74",
+      "title": "Electrolytic Separator",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:electrolytic_separator"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Electrolytic Separator. Item inputs include Electrolytic Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11C37F6FE442E2A8",
+          "type": "item",
+          "item": {
+            "id": "mekanism:electrolytic_separator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D87AC222DF7AE88",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1707133528A538D2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.76178d,
+      "y": 7.85506d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A9DF27942B9D3A4",
+      "title": "Energized Smelter",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:energized_smelter"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Energized Smelter. Item inputs include Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DB879E80A9F98C1",
+          "type": "item",
+          "item": {
+            "id": "mekanism:energized_smelter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E7306E9152C040",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C73285774C3DABC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.84232d,
+      "y": 9.08453d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E2F6B6E71741D2C",
+      "title": "Energy Tablet",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:energy_tablet"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Energy Tablet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C3CE514427E6A14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C17CBBCAE6C3824",
+          "type": "item",
+          "item": {
+            "id": "mekanism:energy_tablet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10F72E3874A68B88",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A1E80028F543568",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.4348d,
+      "y": 6.39874d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C0AF87B0072475F",
+      "title": "Flamethrower",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:flamethrower"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Flamethrower. Item inputs include Flint And Steel, Basic Chemical Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D5E7FFAFD47787"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "115357EDCD71DFA5",
+          "type": "item",
+          "item": {
+            "id": "mekanism:flamethrower"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1584135DF8B4FBBB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15F4392A794FC4CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.71089d,
+      "y": 0.29537d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "198C4AB998F46535",
+      "title": "Free Runners",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:free_runners"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Free Runners. Item inputs include Energy Tablet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D5E7FFAFD47787"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ECCF295B92DF595",
+          "type": "item",
+          "item": {
+            "id": "mekanism:free_runners"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17ABC749DD387BDA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AC72D0423C2CECF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.06089d,
+      "y": 0.29537d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E9114F203097161",
+      "title": "Fuelwood Heater",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:fuelwood_heater"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Fuelwood Heater. Item inputs include Furnace, Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1102ECF2059499DE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10BBE6514CB2DB97",
+          "type": "item",
+          "item": {
+            "id": "mekanism:fuelwood_heater"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D86C6C79DE73E9C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "123BDC31AAF62F90",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.29215d,
+      "y": 3.25265d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15738AD83DB10B11",
+      "title": "Gauge Dropper",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:gauge_dropper"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Gauge Dropper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D5E7FFAFD47787"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A55BE7559B966A5",
+          "type": "item",
+          "item": {
+            "id": "mekanism:gauge_dropper"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1494B470BE514AA1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1119DF6518EFAD1D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.01089d,
+      "y": 1.64537d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18BD059BF946B430",
+      "title": "HDPE Pellet",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:hdpe_pellet"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Obtain HDPE Pellet and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15C50506C7630C4E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D710363B91A11BE",
+          "type": "item",
+          "item": {
+            "id": "mekanism:hdpe_pellet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0DF07E6F0B65E1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18F40F964F03D512",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.04083d,
+      "y": 1.9187d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "108FA0061B1436CB",
+      "title": "Pigment Extractor",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:pigment_extractor"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Pigment Extractor. Item inputs include Flint, Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "116742DFF8E185BC",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pigment_extractor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1574B812949A82F8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F08B22854F3F762",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.12221d,
+      "y": 0.17377d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "112D3B674931291F",
+      "title": "Portable Teleporter",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:portable_teleporter"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Portable Teleporter. Item inputs include Energy Tablet, Teleportation Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D5E7FFAFD47787"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D6BF36C6A495B5B",
+          "type": "item",
+          "item": {
+            "id": "mekanism:portable_teleporter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CA220E28CF7822E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13846E68887865FD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.71089d,
+      "y": 1.64537d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "140ECC7EFF0F09DD",
+      "title": "Precision Sawmill",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:precision_sawmill"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Precision Sawmill. Item inputs include Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C4376C9141E06CE",
+          "type": "item",
+          "item": {
+            "id": "mekanism:precision_sawmill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15BD69A04E1B3EA9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B713D17C5AE5510",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.14537d,
+      "y": 5.85965d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1901167388551817",
+      "title": "Pressurized Reaction Chamber",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:pressurized_reaction_chamber"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Pressurized Reaction Chamber. Item inputs include Dynamic Tank, Enrichment Chamber, Basic Chemical Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13AC79CB57A40CC9",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pressurized_reaction_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C4640158466A017",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F322BF388A18F15",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.49098d,
+      "y": 7.33844d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A1EF37787034B5",
+      "title": "Purification Chamber",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:purification_chamber"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Purification Chamber. Item inputs include Enrichment Chamber. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "149A141043BE4553"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E36EBE00046EE94",
+          "type": "item",
+          "item": {
+            "id": "mekanism:purification_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AD021AFD05B9488",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15145CA60C333B46",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.66516d,
+      "y": 3.15138d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17D917F49C15E6B0",
+      "title": "Quantum Entangloporter",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:quantum_entangloporter"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Quantum Entangloporter. Item inputs include Teleportation Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "137CA1B9294BFBB4",
+          "type": "item",
+          "item": {
+            "id": "mekanism:quantum_entangloporter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "190F3591115D9AEC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B858EF9D9E86F66",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.10266d,
+      "y": 5.3089d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED66945E5BAC5A8",
+      "title": "Resistive Heater",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:resistive_heater"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Resistive Heater. Item inputs include Energy Tablet, Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1102ECF2059499DE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1596D04A6BBDA6A3",
+          "type": "item",
+          "item": {
+            "id": "mekanism:resistive_heater"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BBC5BC33E4DAAD8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DE591A994BC92B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.18548d,
+      "y": 5.00266d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12FFB2CC21987774",
+      "title": "Rotary Condensentrator",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:rotary_condensentrator"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Rotary Condensentrator. Item inputs include Basic Fluid Tank, Energy Tablet, Basic Chemical Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C385E6F8C73ABC7",
+          "type": "item",
+          "item": {
+            "id": "mekanism:rotary_condensentrator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C07CD7CCBF52C42",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "109BAC5F1C651AE8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.95138d,
+      "y": 7.92371d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19EF5DF36615B4A3",
+      "title": "Structural Glass",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:structural_glass"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Structural Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14B29E65297AB0A5",
+          "type": "item",
+          "item": {
+            "id": "mekanism:structural_glass"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A91AC3E87AA9770",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C3A2BE002F6C21D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.29992d,
+      "y": 2.45887d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E6AC5CCE6203989",
+      "title": "Teleporter Frame",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:teleporter_frame"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Teleporter Frame. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1410ABE6C83BADE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15F0C082B968D369",
+          "type": "item",
+          "item": {
+            "id": "mekanism:teleporter_frame"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "141B9252D2CB7BBB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1970BDFE820683B5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.79939d,
+      "y": 8.73471d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "113F625CE3C606A5",
+      "title": "Thermal Evaporation Block",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:thermal_evaporation_block"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Thermal Evaporation Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E5B95CED4463802",
+          "type": "item",
+          "item": {
+            "id": "mekanism:thermal_evaporation_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18434CC0E230483C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "172949A1A0F3F5EE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.51672d,
+      "y": 8.12741d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17BB9DE004AFD36A",
+      "title": "Advanced Solar Generator",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanismgenerators:advanced_solar_generator"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Advanced Solar Generator. Item inputs include Solar Generator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1541CC36C93EBFA8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D03DB7D9F6993B2",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:advanced_solar_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "104E01CB11C677BE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FCC58FFE95E0712",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.38289d,
+      "y": 2.40575d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D7C4AA835A2513",
+      "title": "Bio-Generator",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanismgenerators:bio_generator"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Bio-Generator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E2F6B6E71741D2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "141B6CAAB09C709C",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:bio_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13185213DFD3EE38",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1308B209CB3387B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.7848d,
+      "y": 6.39874d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1449FC28B799F3EB",
+      "title": "Heat Generator",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanismgenerators:heat_generator"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Heat Generator. Item inputs include Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E2F6B6E71741D2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "170936AC58E4F1D0",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:heat_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DCBF4C68D52A223",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "148C3C9F4464745A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.18482d,
+      "y": 7.52122d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1541CC36C93EBFA8",
+      "title": "Solar Generator",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanismgenerators:solar_generator"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Solar Generator. Item inputs include Solar Panel, Energy Tablet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E2F6B6E71741D2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FEFB43459FEFA85",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:solar_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14F8351E185860C3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "102ACCD531945585",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.06101d,
+      "y": 2.98888d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15D28B17D79CA848",
+      "title": "Wind Generator",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanismgenerators:wind_generator"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Wind Generator. Item inputs include Energy Tablet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E2F6B6E71741D2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10ECC2A3C3097D34",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:wind_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1544CEC165B01509",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "134CF64058BDC877",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.84896d,
+      "y": 5.07674d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FCD2D32A51557D8",
+      "title": "Chemical Crystallizer",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:chemical_crystallizer"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Chemical Crystallizer. Item inputs include Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "120AD8004DE05877"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C0F4170850317AB",
+          "type": "item",
+          "item": {
+            "id": "mekanism:chemical_crystallizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EB63EE11B712E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C850574562EBBAF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.97988d,
+      "y": 2.68485d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "161AE3CB602C3691",
+      "title": "Refined Obsidian Ingot",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:ingot_refined_obsidian"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Refined Obsidian Ingot. Item inputs include Refined Obsidian. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C43B97F16C6DE14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15F7BA11AA0566E5",
+          "type": "item",
+          "item": {
+            "id": "mekanism:ingot_refined_obsidian"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BFDD2526FCA6915",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13E5A371F662B94E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.35213d,
+      "y": 3.21688d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EA2522B5A478E33",
+      "title": "Combiner",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:combiner"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Combiner. Item inputs include Steel Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "156F3EAFCF91CFE3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AAB884913A862AA",
+          "type": "item",
+          "item": {
+            "id": "mekanism:combiner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C9182AA14D3A51",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "109A1AA50B15A7F5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.36173d,
+      "y": 4.69386d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E63B98987A97B5E",
+      "title": "Dynamic Tank",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:dynamic_tank"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Dynamic Tank. Item inputs include Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F25CB8D11B6DCDD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1939989DB2B1C95D",
+          "type": "item",
+          "item": {
+            "id": "mekanism:dynamic_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "193985DA0D5E2BA3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14BF009CADCE6CBC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.1158d,
+      "y": 5.63104d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17387E0387DB864E",
+      "title": "Scuba Tank",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:scuba_tank"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Use Mek Data processing to make Scuba Tank. Item inputs include Basic Chemical Tank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D5E7FFAFD47787"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "185EFDDBCA6B5C32",
+          "type": "item",
+          "item": {
+            "id": "mekanism:scuba_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CE2AC375A5C3B91",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "159F89D60EC61260",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.06089d,
+      "y": 1.64537d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "149A141043BE4553",
+      "title": "Advanced Control Circuit",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:advanced_control_circuit"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Advanced Control Circuit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1765F2E2CF16729A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:advanced_control_circuit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "166FDBFDBCC09312",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12CFBDFB1A5C4ECA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.26805d,
+      "y": 5.10346d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1324438DBCB0CC16",
+      "title": "Cardboard Box",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:cardboard_box"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Cardboard Box. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "140ECC7EFF0F09DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1689E354C29378DB",
+          "type": "item",
+          "item": {
+            "id": "mekanism:cardboard_box"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C19C57F39B31280",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A2F2498478DE449",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.4612d,
+      "y": 4.3124d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "156F3EAFCF91CFE3",
+      "title": "Elite Control Circuit",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:elite_control_circuit"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Elite Control Circuit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "149A141043BE4553"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B29DBB0E301EEA6",
+          "type": "item",
+          "item": {
+            "id": "mekanism:elite_control_circuit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "124A11B2A0768C0C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19CDF33FCD088ECB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.95998d,
+      "y": 4.1366d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "120AD8004DE05877",
+      "title": "Ultimate Control Circuit",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:ultimate_control_circuit"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Ultimate Control Circuit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "156F3EAFCF91CFE3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10D891B185D6FC54",
+          "type": "item",
+          "item": {
+            "id": "mekanism:ultimate_control_circuit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B430507B46AB9DC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1506F9721DAEF675",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.4805d,
+      "y": 4.21855d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19A6890B84C94211",
+      "title": "Chemical Upgrade",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:upgrade_chemical"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Chemical Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19EF5DF36615B4A3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "151C669A1F303D78",
+          "type": "item",
+          "item": {
+            "id": "mekanism:upgrade_chemical"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C465678D7A2ABCD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D75CAA5C7A8E67D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.61109d,
+      "y": 4.12185d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18DB175C0220B695",
+      "title": "Energy Upgrade",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:upgrade_energy"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Energy Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19EF5DF36615B4A3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BBF63FF753BAE7D",
+          "type": "item",
+          "item": {
+            "id": "mekanism:upgrade_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AF54ECABC58523A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B2477E3843F2820",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.34071d,
+      "y": -0.21313d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FD7397F7411FA8E",
+      "title": "Filter Upgrade",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:upgrade_filter"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Filter Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19EF5DF36615B4A3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "146F53736117ADAC",
+          "type": "item",
+          "item": {
+            "id": "mekanism:upgrade_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "129D0CFC8509EC5C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F64BF864762C381",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.69071d,
+      "y": -0.21313d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "133890AF92001FC1",
+      "title": "Muffling Upgrade",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:upgrade_muffling"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Muffling Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19EF5DF36615B4A3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10F29B5C6D33188B",
+          "type": "item",
+          "item": {
+            "id": "mekanism:upgrade_muffling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CE197CC65586270",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C29CB33BD5678A2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.99071d,
+      "y": 1.13687d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13E8B13AE6797BC6",
+      "title": "Speed Upgrade",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:upgrade_speed"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Speed Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19EF5DF36615B4A3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12DA70C0DA0C93FE",
+          "type": "item",
+          "item": {
+            "id": "mekanism:upgrade_speed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18330017EC61A713",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12C5B055FFE09F59",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.34071d,
+      "y": 1.13687d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E522FDB2D43B1BC",
+      "title": "Stone Generator Upgrade",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:upgrade_stone_generator"
+      },
+      "description": [
+        "Configure machine sides for items, energy, fluids, and chemicals separately. Set the input and output faces before adding upgrades; factories process several recipes at once.",
+        "Craft Stone Generator Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19EF5DF36615B4A3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10A0B1FFA80B5EC0",
+          "type": "item",
+          "item": {
+            "id": "mekanism:upgrade_stone_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D39C34D09AC075C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AF8F5CEEB9766DE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.69071d,
+      "y": 1.13687d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1475767D2CF722F1",
+      "title": "Enriched Items",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:enriched)"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "13F1D49A6943315B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:enriched)"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "183AC226D5B3B0FC",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1746410B06B3145D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.23835d,
+      "y": 4.61857d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D00A8680F5E92EA",
+      "title": "Universal Cables",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_universal_cable)item(mekanism:advanced_universal_cable)item(mekanism:elite_universal_cable)item(mekanism:ultimate_universal_cable))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E2F6B6E71741D2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_universal_cable)item(mekanism:advanced_universal_cable)item(mekanism:elite_universal_cable)item(mekanism:ultimate_universal_cable))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F633096B1281A4A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DD7D69AB878CDBC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.49896d,
+      "y": 5.07674d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12FB16EB4386944E",
+      "title": "Energy Cubes",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_energy_cube)item(mekanism:advanced_energy_cube)item(mekanism:elite_energy_cube)item(mekanism:ultimate_energy_cube))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E2F6B6E71741D2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_energy_cube)item(mekanism:advanced_energy_cube)item(mekanism:elite_energy_cube)item(mekanism:ultimate_energy_cube))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F11E929BED47ECD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A86C42A1DBF2C7F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.84896d,
+      "y": 3.72674d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB59B70C34E42E6",
+      "title": "Mechanical Pipes",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:ultimate_mechanical_pipe))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E1A2552C4D1AF6C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:ultimate_mechanical_pipe))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1719515242CFD39E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198BA9BE196466FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.8025d,
+      "y": 5.32738d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10BA40098CE1EA94",
+      "title": "Pressurized Tubes",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_pressurized_tube)item(mekanism:advanced_pressurized_tube)item(mekanism:elite_pressurized_tube)item(mekanism:ultimate_pressurized_tube))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E1A2552C4D1AF6C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_pressurized_tube)item(mekanism:advanced_pressurized_tube)item(mekanism:elite_pressurized_tube)item(mekanism:ultimate_pressurized_tube))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1C803A12B75E5E65",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CDE140CF56B7B78",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.73884d,
+      "y": 6.91168d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1271E489FF868655",
+      "title": "Logistical Transporters",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_logistical_transporter)item(mekanism:advanced_logistical_transporter)item(mekanism:elite_logistical_transporter)item(mekanism:ultimate_logistical_transporter))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E1A2552C4D1AF6C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_logistical_transporter)item(mekanism:advanced_logistical_transporter)item(mekanism:elite_logistical_transporter)item(mekanism:ultimate_logistical_transporter))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1297218A09F29B7C",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10E2FFFA258CD608",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.51251d,
+      "y": 5.37694d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1102ECF2059499DE",
+      "title": "Thermodynamic Conductors",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_thermodynamic_conductor)item(mekanism:advanced_thermodynamic_conductor)item(mekanism:elite_thermodynamic_conductor)item(mekanism:ultimate_thermodynamic_conductor))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1E1A2552C4D1AF6C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_thermodynamic_conductor)item(mekanism:advanced_thermodynamic_conductor)item(mekanism:elite_thermodynamic_conductor)item(mekanism:ultimate_thermodynamic_conductor))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "14AB59E1787D5000",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EE282957D5E4DA9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.87586d,
+      "y": 6.64792d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FF558AE1A9AF623",
+      "title": "Tier Installers",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_tier_installer)item(mekanism:advanced_tier_installer)item(mekanism:elite_tier_installer)item(mekanism:ultimate_tier_installer))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1A96A47E35D98F24"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_tier_installer)item(mekanism:advanced_tier_installer)item(mekanism:elite_tier_installer)item(mekanism:ultimate_tier_installer))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "174435B73F28EF6F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "153C104CFB1E523D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.1372d,
+      "y": 7.98885d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F25CB8D11B6DCDD",
+      "title": "Chemical Tanks",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_chemical_tank)item(mekanism:advanced_chemical_tank)item(mekanism:elite_chemical_tank)item(mekanism:ultimate_chemical_tank))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "10BA40098CE1EA94"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_chemical_tank)item(mekanism:advanced_chemical_tank)item(mekanism:elite_chemical_tank)item(mekanism:ultimate_chemical_tank))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1A17EC9717FAD13F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A204B7BEE59DE6D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.92732d,
+      "y": 6.27136d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A0F2CDD518E17B9",
+      "title": "Fluid Tanks",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_fluid_tank)item(mekanism:advanced_fluid_tank)item(mekanism:elite_fluid_tank)item(mekanism:ultimate_fluid_tank))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1CB59B70C34E42E6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_fluid_tank)item(mekanism:advanced_fluid_tank)item(mekanism:elite_fluid_tank)item(mekanism:ultimate_fluid_tank))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "15466633E8AD040C",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1398B2A2ADB9427A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.64158d,
+      "y": 4.33544d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E8512595E80EF50",
+      "title": "Bins",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:basic_bin)item(mekanism:advanced_bin)item(mekanism:elite_bin)item(mekanism:ultimate_bin))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1271E489FF868655"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:basic_bin)item(mekanism:advanced_bin)item(mekanism:elite_bin)item(mekanism:ultimate_bin))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "17409AC5DD76B9F0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1886CB51432BD483",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.16489d,
+      "y": 4.57292d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13B7CE7902280491",
+      "title": "Personal Storage",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:personal_barrel)item(mekanism:personal_chest))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1271E489FF868655"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:personal_barrel)item(mekanism:personal_chest))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1F60DB04857E8199",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3B0CCEAFA0E4C2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.05483d,
+      "y": 4.08257d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A5608D78BBBB5E",
+      "title": "Enrich then Smelt",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:enrichment_chamber)item(mekanism:basic_enriching_factory)item(mekanism:advanced_enriching_factory)item(mekanism:elite_enriching_factory)item(mekanism:ultimate_enriching_factory))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "10BF160CAAC32E6D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:enrichment_chamber)item(mekanism:basic_enriching_factory)item(mekanism:advanced_enriching_factory)item(mekanism:elite_enriching_factory)item(mekanism:ultimate_enriching_factory))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "14123B59FEAF0010",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:energized_smelter)item(mekanism:basic_smelting_factory)item(mekanism:advanced_smelting_factory)item(mekanism:elite_smelting_factory)item(mekanism:ultimate_smelting_factory))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1DADFE2673E2B10F",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E9E29DB4CD73D25",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.46672d,
+      "y": 8.12741d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "135618F2C14851BB",
+      "title": "Crush and Enrich our Clumps",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:crusher)item(mekanism:basic_crushing_factory)item(mekanism:advanced_crushing_factory)item(mekanism:elite_crushing_factory)item(mekanism:ultimate_crushing_factory))",
+          "minecraft:custom_name": "\"Crushers\""
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1296E549916277A4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:crusher)item(mekanism:basic_crushing_factory)item(mekanism:advanced_crushing_factory)item(mekanism:elite_crushing_factory)item(mekanism:ultimate_crushing_factory))",
+              "minecraft:custom_name": "\"Crushers\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1AEDF4DB4F43D1A3",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:enrichment_chamber)item(mekanism:basic_enriching_factory)item(mekanism:advanced_enriching_factory)item(mekanism:elite_enriching_factory)item(mekanism:ultimate_enriching_factory))",
+              "minecraft:custom_name": "\"Enrichers\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1D2339C6A16000AA",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:energized_smelter)item(mekanism:basic_smelting_factory)item(mekanism:advanced_smelting_factory)item(mekanism:elite_smelting_factory)item(mekanism:ultimate_smelting_factory))",
+              "minecraft:custom_name": "\"Smelters\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "17B809887E2E31F6",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A4D7FA5BB9C3539",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.3911d,
+      "y": 4.53765d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "163417EA930B72CC",
+      "title": "Shard, to Clump, to Dust, to Ingot",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(mekanism:purification_chamber)item(mekanism:basic_purifying_factory)item(mekanism:advanced_purifying_factory)item(mekanism:elite_purifying_factory)item(mekanism:ultimate_purifying_factory))",
+          "minecraft:custom_name": "\"Purifiers\""
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1296E549916277A4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:purification_chamber)item(mekanism:basic_purifying_factory)item(mekanism:advanced_purifying_factory)item(mekanism:elite_purifying_factory)item(mekanism:ultimate_purifying_factory))",
+              "minecraft:custom_name": "\"Purifiers\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1DE730D3C2030115",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:crusher)item(mekanism:basic_crushing_factory)item(mekanism:advanced_crushing_factory)item(mekanism:elite_crushing_factory)item(mekanism:ultimate_crushing_factory))",
+              "minecraft:custom_name": "\"Crushers\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "19F68EBC298E24B3",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:enrichment_chamber)item(mekanism:basic_enriching_factory)item(mekanism:advanced_enriching_factory)item(mekanism:elite_enriching_factory)item(mekanism:ultimate_enriching_factory))",
+              "minecraft:custom_name": "\"Enrichers\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "167883FA479422A4",
+          "consume_items": false
+        },
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(mekanism:energized_smelter)item(mekanism:basic_smelting_factory)item(mekanism:advanced_smelting_factory)item(mekanism:elite_smelting_factory)item(mekanism:ultimate_smelting_factory))",
+              "minecraft:custom_name": "\"Smelters\""
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "107A214F5C758951",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EE40337A9CBFE1D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.08365d,
+      "y": 4.55886d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1224558A2CC9E196",
+      "title": "Crushed to Dust!",
+      "subtitle": "Mekanism",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item_tag(c:dusts))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "19EC5EFE471F92AA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item_tag(c:dusts))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1A3B056971733939",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10088FCC22DD5F5F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.03548d,
+      "y": 3.23879d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "13D723DB36158EE4",
+      "linked_quest": "11432DE38F39D5E5",
+      "x": 10.79484d,
+      "y": 9.56895d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1D3C6F44E21FC86F",
+      "linked_quest": "1664B91BCE2A623A",
+      "x": 2.14527d,
+      "y": 8.7964d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "185F87059B415834",
+      "linked_quest": "1984FD03C72A3DB3",
+      "x": 3.53866d,
+      "y": 9.44759d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "11071D10BB4A3124",
+      "linked_quest": "1410ABE6C83BADE1",
+      "x": 11.47913d,
+      "y": 8.24819d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1557315EF73F9D5F",
+      "linked_quest": "1C3CE514427E6A14",
+      "x": 14.25728d,
+      "y": 8.36951d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "19EF3C8E0EBEF4C4",
+      "linked_quest": "10BF160CAAC32E6D",
+      "x": 2.00902d,
+      "y": 7.33844d,
+      "size": 1.25d,
+      "shape": "diamond"
+    }
+  ],
+  "images": []
+}

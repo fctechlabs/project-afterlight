@@ -1,0 +1,87 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = level_loading_screen
+  render_custom_elements_behind_vanilla = true
+  is_enabled = true
+  randommode = false
+  layout_index = 0
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/navy.png
+  background_type = image
+  instance_identifier = afterlight_navy_level_loading_screen
+  slide = false
+  repeat_texture = false
+  parallax = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  apply_vanilla_background_blur = false
+  show_screen_background_overlay_on_custom_background = false
+}
+
+element {
+  element_type = image
+  instance_identifier = afterlight_world_art
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"}-((({"placeholder":"guiheight"}*0.68)+({"placeholder":"guiwidth"}*0.72)-abs(({"placeholder":"guiheight"}*0.68)-(({"placeholder":"guiwidth"}*0.72))))/2))/2","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"8","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiheight"}*0.68)+({"placeholder":"guiwidth"}*0.72)-abs(({"placeholder":"guiheight"}*0.68)-(({"placeholder":"guiwidth"}*0.72))))/2","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiheight"}*0.68)+({"placeholder":"guiwidth"}*0.72)-abs(({"placeholder":"guiheight"}*0.68)-(({"placeholder":"guiwidth"}*0.72))))/2","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  source = [source:local]/config/fancymenu/assets/project-afterlight-menu.png
+  image_tint = #FFFFFF
+  repeat_texture = false
+}
+
+element {
+  element_type = progress_bar
+  instance_identifier = afterlight_world_progress
+  appearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  base_opacity = 1.0
+  auto_sizing = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.24","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-17","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}*0.52","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"5","decimal":"false"}}
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  load_once_per_session = false
+  bar_color = #EFC168FF
+  background_color = #213D63FF
+  direction = right
+  progress_for_element_anchor = false
+  progress_source = {"placeholder":"world_load_progress"}
+  value_mode = percentage
+  smooth_filling_animation = true
+}
+

@@ -1,0 +1,462 @@
+{
+  "id": "19D6D74BD95DCEE8",
+  "filename": "02_water_lava",
+  "title": "Water and Lava",
+  "icon": {
+    "id": "minecraft:lava_bucket"
+  },
+  "group": "1907149C93679AEB",
+  "order_index": 6,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1BC3AD6F5901CE11",
+      "title": "Collect leaves for Water",
+      "subtitle": "Water and Clay",
+      "icon": {
+        "id": "minecraft:shears"
+      },
+      "description": [
+        "Use your first renewable Iron to craft Shears. Leaves feed the Oak Crucible and give you another compost ingredient."
+      ],
+      "dependencies": [],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "19BBD85D31F67A61",
+          "type": "item",
+          "item": {
+            "id": "minecraft:shears"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11E9CD7B1080657D",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1202054B38FFBBFC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.61806d,
+      "y": 3.14583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C301EEAD9E18F52",
+      "title": "Obsidian without accidents",
+      "subtitle": "Water and Clay",
+      "icon": {
+        "id": "minecraft:obsidian"
+      },
+      "description": [
+        "Use the barrel conversion shown in JEI, or carefully cool a Lava source. Save ten Obsidian for a Nether portal."
+      ],
+      "dependencies": [
+        "1800162D3834E7B9"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "18E543A7664EA85D",
+          "type": "item",
+          "item": {
+            "id": "minecraft:obsidian"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "150905FD4CD42468",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1EC8BAED3A48AD0A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.56986d,
+      "y": 3.18208d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1214560789BF0926",
+      "title": "Light the working platform",
+      "subtitle": "Keep the island supplied",
+      "icon": {
+        "id": "minecraft:torch"
+      },
+      "description": [
+        "Charcoal and sticks provide renewable Torches. Light the platform before expanding it into a mob-spawning area."
+      ],
+      "dependencies": [
+        "1371C2B735A5165B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "174C66D958BF3D65",
+          "type": "item",
+          "item": {
+            "id": "minecraft:torch"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15AD052C2B63161C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1B4C22CCB2E03FAF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.92958d,
+      "y": 3.71542d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1961B86D5B437BD3",
+      "title": "Collect before it despawns",
+      "subtitle": "Keep the island supplied",
+      "icon": {
+        "id": "minecraft:hopper"
+      },
+      "description": [
+        "A Hopper collects dropped items or drains inventories above it. Keep early output chests accessible while the island is still small."
+      ],
+      "dependencies": [
+        "185C8ED19C85B9DC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B2CE8C07CE28BD",
+          "type": "item",
+          "item": {
+            "id": "minecraft:hopper"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EA3ACF14E1B27E7",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "137E76CCF4FCB42F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.80454d,
+      "y": 1.57653d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15E832DCF45EE302",
+      "title": "Expand with Slabs",
+      "subtitle": "Small island essentials",
+      "icon": {
+        "id": "minecraft:oak_slab"
+      },
+      "description": [
+        "Turn planks into slabs for an inexpensive platform. Build outward while crouching and preserve the Dirt for trees and farming."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA58C35BBFDC231",
+          "type": "item",
+          "item": {
+            "id": "minecraft:oak_slab"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11D63D66C0572F31",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "116946DAA42A9B3E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.6625d,
+      "y": 1.00694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17FB2EEC44436A82",
+      "title": "A Crucible Heat Source",
+      "subtitle": "Small island essentials",
+      "icon": {
+        "id": "minecraft:campfire"
+      },
+      "description": [
+        "A Campfire is a reachable heat source for the Porcelain Crucible. Place the fired crucible above it and add Cobblestone."
+      ],
+      "dependencies": [
+        "15E832DCF45EE302"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D12C5ED4B0E4CF8",
+          "type": "item",
+          "item": {
+            "id": "minecraft:campfire"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "132A72683F96D475",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1F7CE8E726940CDA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.0125d,
+      "y": 1.00694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BA85787C0627037",
+      "title": "Unfired Porcelain Bucket",
+      "subtitle": "Small island essentials",
+      "icon": {
+        "id": "exdeorum:unfired_porcelain_bucket"
+      },
+      "description": [
+        "Shape an Unfired Porcelain Bucket using the porcelain recipe in JEI. Smelt it before trying to carry fluid."
+      ],
+      "dependencies": [
+        "17FB2EEC44436A82"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E0667DF382D808C",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:unfired_porcelain_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EC3429D72113117",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1FCA965CDD44FB35",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.3625d,
+      "y": 1.00694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B98E4D2C53D1508",
+      "title": "Porcelain Bucket",
+      "subtitle": "Small island essentials",
+      "icon": {
+        "id": "exdeorum:porcelain_bucket"
+      },
+      "description": [
+        "A fired Porcelain Bucket carries water. Check its lava behavior before using it for a portal; a metal bucket is the reusable alternative."
+      ],
+      "dependencies": [
+        "1BA85787C0627037"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BBDADBA6B6BCD67",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:porcelain_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FF7C4236729ADDE",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1DD7AD49E05FB084",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.7125d,
+      "y": 1.00694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "139C29CD250DDF4A",
+      "linked_quest": "161F6E3E4252F95F",
+      "x": 1.8125d,
+      "y": 3.44958d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1EBE6BD6D6177EF5",
+      "linked_quest": "12F3D529C027444C",
+      "x": 2.97194d,
+      "y": 3.31778d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1E5B91D1181D9827",
+      "linked_quest": "1734590F8DF9C746",
+      "x": 4.09694d,
+      "y": 2.99472d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "169913DB53FE8341",
+      "linked_quest": "1261343DFACF399B",
+      "x": 5.25931d,
+      "y": 2.85417d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1B791B04F9D028E4",
+      "linked_quest": "1800162D3834E7B9",
+      "x": 6.42931d,
+      "y": 2.91778d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "12123575D9063400",
+      "linked_quest": "185C8ED19C85B9DC",
+      "x": 0.45139d,
+      "y": 0.45139d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1146868A3001BB98",
+      "linked_quest": "1371C2B735A5165B",
+      "x": 8.57639d,
+      "y": 2.59028d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

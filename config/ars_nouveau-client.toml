@@ -1,0 +1,5 @@
+# First-join advertising is disabled without changing lighting or spell behavior.
+[lights]
+showSupporterMessage = false
+[overlays]
+informLights = false

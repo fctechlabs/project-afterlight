@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "C": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "id": "gateways:gate_pearl",
+    "count": 1,
+    "components": {
+      "gateways:gateway": "afterlight:encounters/ruins"
+    }
+  }
+}

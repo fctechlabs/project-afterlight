@@ -1,0 +1,1749 @@
+{
+  "id": "18C55678DEB88FE1",
+  "filename": "19_enderio",
+  "title": "Ender IO",
+  "icon": {
+    "id": "enderio:alloy_smelter"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 17,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "132B98DD0E599A9D",
+      "title": "SAG Mill",
+      "subtitle": "Useful machines - optional",
+      "icon": {
+        "id": "enderio:sag_mill"
+      },
+      "description": [
+        "Use the SAG Mill for the recipes and byproducts listed in JEI. Grinding balls can change yields where the recipe supports them."
+      ],
+      "dependencies": [
+        "15D3A7B856CDE5C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "123FE63E7F728A3A",
+          "type": "item",
+          "item": {
+            "id": "enderio:sag_mill"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF9C9E2D9E80560",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1C6D849364A7BA8F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.25694d,
+      "y": 9.13889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CD17469636D734F",
+      "title": "The Ender",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:dark_steel_sword"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft The Ender. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "167280A7B16EDA1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FBF6CEF14392B33",
+          "type": "item",
+          "item": {
+            "id": "enderio:dark_steel_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168B0373C95A4E06",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19FF8C5EE9BABDED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.46528d,
+      "y": 3.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123909A14B7677C9",
+      "title": "Staff of Levity",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:staff_of_levity"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Staff of Levity. Item inputs include Infinity Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "150E3A5B24B262BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "186BD50D62C3A37C",
+          "type": "item",
+          "item": {
+            "id": "enderio:staff_of_levity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "189FFD96F127F9A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13A2E3E1DA14D515",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.6875d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "126D84881CE08A04",
+      "title": "Staff of Travelling",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:staff_of_travelling"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Staff of Travelling. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "150E3A5B24B262BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15DAB73E3744FD0D",
+          "type": "item",
+          "item": {
+            "id": "enderio:staff_of_travelling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E50A83DCB57EFB5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F7CFFAC007E77C6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.89583d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15025CACE52CA743",
+      "title": "Crafter",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:crafter"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Crafter. Item inputs include Crafter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15D3A7B856CDE5C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15E8A78F2369DB8F",
+          "type": "item",
+          "item": {
+            "id": "enderio:crafter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F35D60886642B1B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12C51698FA1A24D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.73313d,
+      "y": 8.91311d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19892691E43833DC",
+      "title": "Drain",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:drain"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Drain. Item inputs include Drain. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15D3A7B856CDE5C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "132C642CD1D27833",
+          "type": "item",
+          "item": {
+            "id": "enderio:drain"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1397B512F65A84B2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19C27778F6D1A0F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.20417d,
+      "y": 11.53472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C73477AB2B30BF1",
+      "title": "Electromagnet",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:electromagnet"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Electromagnet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D029DA7227ABB2F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "109B223B54528308",
+          "type": "item",
+          "item": {
+            "id": "enderio:electromagnet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1400CB41F5E077",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EE40E40AAEE14AC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.25694d,
+      "y": 3.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C2F6CFE93DB63A9",
+      "title": "Enchanter",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:enchanter"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Enchanter. Item inputs include Book, Lectern. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "167280A7B16EDA1F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "107B85FB85240FF2",
+          "type": "item",
+          "item": {
+            "id": "enderio:enchanter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E445BBA7D4DEEE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "187BC28F97D24F71",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.67361d,
+      "y": 3.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "145775F1AFD0B065",
+      "title": "Ensouled Chassis",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:ensouled_chassis"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Ensouled Chassis. Item inputs include Soul Chain. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FFE0ED1A8B5C133"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A750B15DA6DC616",
+          "type": "item",
+          "item": {
+            "id": "enderio:ensouled_chassis"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "153776FC3D0B5137",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BB0C5CB54E8886F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.39041d,
+      "y": 4.45111d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E65AFC39630348",
+      "title": "Impulse Hopper",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:impulse_hopper"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Impulse Hopper. Item inputs include Impulse Hopper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15D3A7B856CDE5C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E9D0FDE6547C5F3",
+          "type": "item",
+          "item": {
+            "id": "enderio:impulse_hopper"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B10A654D3F4F9F7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B1728168A570B91",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.60419d,
+      "y": 12.6572d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1765E2E2BE0209C8",
+      "title": "Painting Machine",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:painting_machine"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Painting Machine. Item inputs include Void Chassis. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15D3A7B856CDE5C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "131D018A11E0371A",
+          "type": "item",
+          "item": {
+            "id": "enderio:painting_machine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15659B37C548ED3D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11832CF4B07757D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02081d,
+      "y": 10.28752d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D59583F21DC2B64",
+      "title": "Powered Spawner",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:powered_spawner"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Powered Spawner. Item inputs include Powered Spawner. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "145775F1AFD0B065"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FF7CCA405BF69C9",
+          "type": "item",
+          "item": {
+            "id": "enderio:powered_spawner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1160C4DF91F07388",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "167F9EE4622B3C56",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.88194d,
+      "y": 3.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CD264DEE24B5940",
+      "title": "Slice'N'Splice",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:slice_and_splice"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Slice'N'Splice. Item inputs include Slice'N'Splice. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "145775F1AFD0B065"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17A988ACFA2E9998",
+          "type": "item",
+          "item": {
+            "id": "enderio:slice_and_splice"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172B7DD7EE8564F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C6D6F1817800DD9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.34028d,
+      "y": 3.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FFE0ED1A8B5C133",
+      "title": "Soul Chain",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:soul_chain"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Soul Chain. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1374D39BC086857D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1175BCA2D47DA5D6",
+          "type": "item",
+          "item": {
+            "id": "enderio:soul_chain"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "165E64AB8BAC0D77",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1594E158A48C0737",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.41254d,
+      "y": 5.38185d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CD563A70AB7FA54",
+      "title": "Stirling Generator",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:stirling_generator"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Stirling Generator. Item inputs include Stirling Generator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15D3A7B856CDE5C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19955FEB911A742C",
+          "type": "item",
+          "item": {
+            "id": "enderio:stirling_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16296323482FC7DB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DB95E44F8424FF5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.73313d,
+      "y": 10.26311d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12670725632CA2ED",
+      "title": "VAT",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:vat"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft VAT. Item inputs include Barrel, Void Chassis. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15D3A7B856CDE5C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18003360DD1040CC",
+          "type": "item",
+          "item": {
+            "id": "enderio:vat"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1663D1CB3D254593",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D37DB4BE3906E0C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.08313d,
+      "y": 10.26311d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "196DF9FFEA02CAD3",
+      "title": "Wired Charger",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:wired_charger"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Wired Charger. Item inputs include Wired Charger. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15D3A7B856CDE5C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1508D5C5C60D2088",
+          "type": "item",
+          "item": {
+            "id": "enderio:wired_charger"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14BE66F22CA47EBE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DD155AACFB1E8C7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.43313d,
+      "y": 10.26311d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15CEF4BB24644E01",
+      "title": "Wireless Charger",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:wireless_charger"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Wireless Charger. Item inputs include Wireless Charger. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15D3A7B856CDE5C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1192D496BFB8ED53",
+          "type": "item",
+          "item": {
+            "id": "enderio:wireless_charger"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D6E11689449DBB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "197D2030D69955CD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.78313d,
+      "y": 10.26311d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C8CDF897436BC22",
+      "title": "XP Vacuum",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:xp_vacuum"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft XP Vacuum. Item inputs include Vial of the Void. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16F56A91ED2BBEEA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A702C6EB222C5B0",
+          "type": "item",
+          "item": {
+            "id": "enderio:xp_vacuum"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BBF2A16D4416C00",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F2193A49494E594",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.03931d,
+      "y": 7.75307d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19F11BB581ABBDAF",
+      "title": "Yeta Wrench",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:yeta_wrench"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Yeta Wrench. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16F56A91ED2BBEEA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "183E40A923703EA3",
+          "type": "item",
+          "item": {
+            "id": "enderio:yeta_wrench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10AEEB8E200142B0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "151FB7CE113BDD4A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.61528d,
+      "y": 6.52222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "150E3A5B24B262BC",
+      "title": "Ender Crystal",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:ender_crystal"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Use Soul Binding processing to make Ender Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14070EC936EFAC00"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D01E7D0DE6102F4",
+          "type": "item",
+          "item": {
+            "id": "enderio:ender_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E6DF0BB9F2D4C38",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D82DA02749429EB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.29861d,
+      "y": 1.95139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B30902A66AFCFC7",
+      "title": "Energetic Alloy Ingot",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:energetic_alloy_ingot"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Energetic Alloy Ingot. Item inputs include Energetic Alloy Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16F56A91ED2BBEEA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17714E7BB36AEE73",
+          "type": "item",
+          "item": {
+            "id": "enderio:energetic_alloy_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1812978047267A7D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "173A8B1D7DE02CC3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.04861d,
+      "y": 5.84722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A9C3743885A2AFC",
+      "title": "Soularium Ingot",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:soularium_ingot"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Soularium Ingot. Item inputs include Soularium Nugget. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16F56A91ED2BBEEA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D482D4B777078E0",
+          "type": "item",
+          "item": {
+            "id": "enderio:soularium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1491470A62DF2A8B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18847BA6422E550E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.45681d,
+      "y": 7.24333d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1374D39BC086857D",
+      "title": "Soularium Nugget",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:soularium_nugget"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Soularium Nugget. Item inputs include Soularium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A9C3743885A2AFC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "157564BE785DD4E2",
+          "type": "item",
+          "item": {
+            "id": "enderio:soularium_nugget"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18877A959A9B4A40",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FC5D951AF0C8ED7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.43468d,
+      "y": 6.31259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16BF4B85EEF05992",
+      "title": "Vibrant Alloy Ingot",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:vibrant_alloy_ingot"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Vibrant Alloy Ingot. Item inputs include Vibrant Alloy Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16F56A91ED2BBEEA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A8AFE0DE7D6B81E",
+          "type": "item",
+          "item": {
+            "id": "enderio:vibrant_alloy_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A885810B68F03A6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1242CE2B3D1761D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.96528d,
+      "y": 5.17222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1262672E9777C510",
+      "title": "Advanced Capacitor Bank",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:advanced_capacitor_bank"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Advanced Capacitor Bank. Item inputs include Advanced Capacitor Bank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F67FE3CA73D684B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14CA9ADF60F3F753",
+          "type": "item",
+          "item": {
+            "id": "enderio:advanced_capacitor_bank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11AF065D972E8AC2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CE83DEB55331C63",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 1.95139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14D6D7FA109429D0",
+      "title": "Basic Capacitor",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:basic_capacitor"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Basic Capacitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D5FF9C2C32AA63F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "148ADB3002AFDC8B",
+          "type": "item",
+          "item": {
+            "id": "enderio:basic_capacitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "139B27ECAFFAD13A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "162A69D3638C3BB8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.64583d,
+      "y": 11.53472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "159C6DCB38931009",
+      "title": "Basic Capacitor Bank",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:basic_capacitor_bank"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Basic Capacitor Bank. Item inputs include Basic Capacitor Bank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D6D7FA109429D0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "191386E2E02F9054",
+          "type": "item",
+          "item": {
+            "id": "enderio:basic_capacitor_bank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "175E132E97DAF1C7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DCD5B13746FABBE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.04861d,
+      "y": 9.13889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F67FE3CA73D684B",
+      "title": "Double-Layer Capacitor",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:double_layer_capacitor"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Double-Layer Capacitor. Item inputs include Basic Capacitor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B30902A66AFCFC7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "158C91073EB7D6AB",
+          "type": "item",
+          "item": {
+            "id": "enderio:double_layer_capacitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15843A99F3D62AA8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15F16FB748B20A22",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.04861d,
+      "y": 3.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C9814CB8AEB2828",
+      "title": "Octadic Capacitor",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:octadic_capacitor"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Octadic Capacitor. Item inputs include Double-Layer Capacitor, Glowstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F67FE3CA73D684B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13113DF3CCB52F78",
+          "type": "item",
+          "item": {
+            "id": "enderio:octadic_capacitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19A7AC54CAEA2B34",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "197AC2B352AB43B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.65972d,
+      "y": 1.95139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14070EC936EFAC00",
+      "title": "Soul Binder",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:soul_binder"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Soul Binder. Item inputs include Soul Binder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "145775F1AFD0B065"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "147DA5DBB0B475C7",
+          "type": "item",
+          "item": {
+            "id": "enderio:soul_binder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B35487111AED7BD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "157DEA75300DAEC8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.29861d,
+      "y": 3.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A9B272A4024CBA2",
+      "title": "Vibrant Capacitor Bank",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:vibrant_capacitor_bank"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Vibrant Capacitor Bank. Item inputs include Vibrant Capacitor Bank. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C9814CB8AEB2828"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17BE5301674A47AA",
+          "type": "item",
+          "item": {
+            "id": "enderio:vibrant_capacitor_bank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "150FC63A6C4DA1A0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "183AC960AA0BE3EE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.65972d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D029DA7227ABB2F",
+      "title": "Conductive Alloy Ingot",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:conductive_alloy_ingot"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Conductive Alloy Ingot. Item inputs include Conductive Alloy Nugget. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16F56A91ED2BBEEA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F7E849904D60F42",
+          "type": "item",
+          "item": {
+            "id": "enderio:conductive_alloy_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C864247896701B4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11E2359DC3F52B44",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.25694d,
+      "y": 5.84722d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B56D2FD18CD43C4",
+      "title": "Conduit Facade",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:conduit_facade"
+      },
+      "description": [
+        "Make alloys in an Alloy Smelter and grind materials in a SAG Mill. Conduits can share a block space; configure extraction, insertion, and filters on each connection.",
+        "Craft Conduit Facade. Item inputs include Conduit Binder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16F56A91ED2BBEEA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C298E17A474A6B2",
+          "type": "item",
+          "item": {
+            "id": "enderio:conduit_facade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1996AC5D166F4F3C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C1A0D0324314CE5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.61528d,
+      "y": 5.17222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1E87F3C9D5517118",
+      "linked_quest": "1D5FF9C2C32AA63F",
+      "x": 2.24306d,
+      "y": 13.03472d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1852E0CEA398D7DC",
+      "linked_quest": "15D3A7B856CDE5C0",
+      "x": 2.85417d,
+      "y": 11.53472d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1BE131FE3E583DD2",
+      "linked_quest": "16F56A91ED2BBEEA",
+      "x": 3.46528d,
+      "y": 9.13889d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "175E5ED53214617E",
+      "linked_quest": "167280A7B16EDA1F",
+      "x": 3.46528d,
+      "y": 5.84722d,
+      "size": 1.0d,
+      "shape": "diamond"
+    }
+  ],
+  "images": []
+}

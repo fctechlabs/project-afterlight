@@ -1,0 +1,1047 @@
+{
+  "id": "110D913A56C56DCD",
+  "filename": "main_endgame",
+  "title": "Chapter 4: Advanced Crafting",
+  "icon": {
+    "id": "extendedcrafting:ultimate_table"
+  },
+  "group": "1770D93DCD8CF55A",
+  "order_index": 4,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1017BCA10EFAA891",
+      "title": "Inscriber Engineering Press",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:engineering_processor_press"
+      },
+      "description": [
+        "Use a Diamond with the Engineering Press, then finish the processor with Redstone and Printed Silicon."
+      ],
+      "dependencies": [
+        "1C7ABCD2731D35CD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C4F4F40D25DEF24",
+          "type": "item",
+          "item": {
+            "id": "ae2:engineering_processor_press"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15805E98CABD5839",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "199F16FF4D03D0FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": 5,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "199B3D1A6256EEFD",
+      "title": "Printed Engineering Circuit",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:printed_engineering_processor"
+      },
+      "description": [
+        "Print this circuit in the Inscriber using its matching press and the ingredient shown in JEI. Combine it with Printed Silicon and Redstone to finish the processor."
+      ],
+      "dependencies": [
+        "1017BCA10EFAA891"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E817E0A690C223",
+          "type": "item",
+          "item": {
+            "id": "ae2:printed_engineering_processor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1177393DA0B5349A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13AFA98F3292BDF8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": 3.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16F8C67BF217B24C",
+      "title": "Engineering Processor",
+      "subtitle": "Applied Energistics 2",
+      "icon": {
+        "id": "ae2:engineering_processor"
+      },
+      "description": [
+        "Engineering Processors are needed for important network and crafting components. They do not replace Logic Processors in Afterlight frame recipes."
+      ],
+      "dependencies": [
+        "199B3D1A6256EEFD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F20BACEA2FC09C4",
+          "type": "item",
+          "item": {
+            "id": "ae2:engineering_processor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC54F02178A9DFF",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "174714D504E595E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": 2,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B4347B4F2FB1CF",
+      "title": "Craft an End portal",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:end_portal_frame"
+      },
+      "description": [
+        "Use the Afterlight End Portal Frame recipe with AE2 processors and the listed ingredients. Place all twelve frames facing inward from the center."
+      ],
+      "dependencies": [
+        "16F8C67BF217B24C",
+        "14128FA0C5CC7FFD"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "143C9F51CF990869",
+          "type": "item",
+          "item": {
+            "id": "minecraft:end_portal_frame"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B396640D41AC175",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "16A64882AEF9C266",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.5d,
+      "y": 2,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D7D59EC78E804C9",
+      "title": "The End",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:end_stone"
+      },
+      "description": [
+        "Complete the portal, enter the End, and defeat the Ender Dragon. The Dragon Heart is needed by the Draconic fusion branch."
+      ],
+      "dependencies": [
+        "17B4347B4F2FB1CF"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "123D68FDAD48FDE7",
+          "type": "dimension",
+          "dimension": "minecraft:the_end"
+        },
+        {
+          "id": "106DB7D93484083C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:dragon_heart"
+          },
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11651A097EAB9A47",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1652ED5F8BD0FB70",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6,
+      "y": 2,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D5FF9C2C32AA63F",
+      "title": "Grains of Infinity",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:grains_of_infinity"
+      },
+      "description": [
+        "Use the pack's skyblock acquisition recipe shown in JEI. A void island does not expose a normal bedrock floor for the terrain recipe."
+      ],
+      "dependencies": [],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "10116ECD8AAB0AC1",
+          "type": "item",
+          "item": {
+            "id": "enderio:grains_of_infinity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CA96F5D04706C32",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "165E30FD0582A250",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.5d,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15D3A7B856CDE5C0",
+      "title": "Void Chassis",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:void_chassis"
+      },
+      "description": [
+        "Make a Void Chassis using the recipe. Ender IO storage and conduits remain useful outside the required material slice."
+      ],
+      "dependencies": [
+        "1D5FF9C2C32AA63F"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "186A76991BC4C914",
+          "type": "item",
+          "item": {
+            "id": "enderio:void_chassis"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172084FFE8BF8157",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1C01B833EEE3481D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16F56A91ED2BBEEA",
+      "title": "Alloy Smelter",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:alloy_smelter"
+      },
+      "description": [
+        "Power an Alloy Smelter and set its alloy mode when needed. Configure item sides and keep the output clear."
+      ],
+      "dependencies": [
+        "15D3A7B856CDE5C0"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "105CAFFA186AF4DC",
+          "type": "item",
+          "item": {
+            "id": "enderio:alloy_smelter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5EA80B4A8AD649",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1DC254D36E27FBA8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9,
+      "y": -2,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "167280A7B16EDA1F",
+      "title": "Dark Steel Ingot",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:dark_steel_ingot"
+      },
+      "description": [
+        "Supply the Dark Steel alloy ingredients. Keep a buffer so the later End Steel recipe does not consume your entire stock."
+      ],
+      "dependencies": [
+        "16F56A91ED2BBEEA"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1287150523CF6D3C",
+          "type": "item",
+          "item": {
+            "id": "enderio:dark_steel_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11376634E634972C",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1DF9C1F5CE49FC1D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.5d,
+      "y": 0,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "104E82C3C5252DAA",
+      "title": "End Steel Ingot",
+      "subtitle": "Ender IO",
+      "icon": {
+        "id": "enderio:end_steel_ingot"
+      },
+      "description": [
+        "After reaching the End, make End Steel with its alloy recipe. It contributes to the Elite Crafting Table and Draconic fusion equipment."
+      ],
+      "dependencies": [
+        "167280A7B16EDA1F",
+        "1D7D59EC78E804C9"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1C9803C5B7D36E40",
+          "type": "item",
+          "item": {
+            "id": "enderio:end_steel_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1E34D6E0E8A1A5",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1266BE93D484A7C1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6,
+      "y": 0,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB748D587C3998C",
+      "title": "Elite Crafting Table",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:elite_table"
+      },
+      "description": [
+        "Use End Steel and the Advanced Table to move into 7 x 7 crafting. Continue the component recipes around the changed table recipe."
+      ],
+      "dependencies": [
+        "104E82C3C5252DAA",
+        "1F709C799187EA22"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1054753F9C74A666",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:elite_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11012298D6B47311",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "157C515FF5B4850F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": 2,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E075BF663A6F89D",
+      "title": "Fusion Crafting Core",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:crafting_core"
+      },
+      "description": [
+        "Craft the Fusion Crafting Core using Afterlight's Advanced Frame and End Steel recipe. Place compatible injectors around it and supply their required energy."
+      ],
+      "dependencies": [
+        "104E82C3C5252DAA",
+        "1BF3F08B58EBB12C"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "14D1F2731C6038BA",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:crafting_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3730BEC142B039",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1F23940E55A44F22",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6,
+      "y": -2,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "132123EE425891E7",
+      "title": "Draconium Fusion Crafting Injector",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:basic_crafting_injector"
+      },
+      "description": [
+        "Arrange Basic Fusion Crafting Injectors facing the core. Leave the core's working space clear and test one recipe."
+      ],
+      "dependencies": [
+        "1E075BF663A6F89D"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1D9AABDBB140A44C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:basic_crafting_injector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12571889654053EA",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1FFBF88EAF948FE7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6,
+      "y": -4,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "110B5A26626620ED",
+      "title": "Wyvern Fusion Crafting Injector",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:wyvern_crafting_injector"
+      },
+      "description": [
+        "Upgrade injectors using the fusion recipes. The injector tier must meet the recipe; ordinary Wyvern equipment remains your choice."
+      ],
+      "dependencies": [
+        "132123EE425891E7"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1228614003E062A5",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_crafting_injector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF510ED3C17CD34",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "18AEE3DBA64085C5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.5d,
+      "y": -4,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1911FAD1811DD1EE",
+      "title": "Awakened Draconium Block",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:awakened_draconium_block"
+      },
+      "description": [
+        "Use the Dragon Heart and the fusion arrangement to make Awakened Draconium. Supply enough energy to finish the craft."
+      ],
+      "dependencies": [
+        "110B5A26626620ED"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "124ABDC0CC824491",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CAC92F0C6A8175E",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1B6A444993CAE9A5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3,
+      "y": -2,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B956A0E7DFCD45",
+      "title": "Draconic Core",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:awakened_core"
+      },
+      "description": [
+        "Make the Awakened Core through fusion. It is a material input for Afterlight's late Philosopher's Stone craft."
+      ],
+      "dependencies": [
+        "1911FAD1811DD1EE"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1D6E4E27A8445971",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "137BD6E8059C5C62",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1FE0218F39F6742F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.5d,
+      "y": -2,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BD38E653BF3C403",
+      "title": "Reinforced Alloy",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:alloy_reinforced"
+      },
+      "description": [
+        "Use Diamonds in the Infuser for Reinforced Alloy. Enrich infusion materials when you want to reduce consumption."
+      ],
+      "dependencies": [
+        "1C3CE514427E6A14"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "12055FDEF7200FA4",
+          "type": "item",
+          "item": {
+            "id": "mekanism:alloy_reinforced"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A6A7DD4BC06C6A0",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "104259048161503F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3,
+      "y": -3.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1333616BBA852693",
+      "title": "Refined Obsidian Dust",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:dust_refined_obsidian"
+      },
+      "description": [
+        "Follow the Crusher and infusion recipes for Refined Obsidian Dust. Feed the correct infusion material before upgrading Reinforced Alloy."
+      ],
+      "dependencies": [
+        "1C3CE514427E6A14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "108D0E262D5EFEF4",
+          "type": "item",
+          "item": {
+            "id": "mekanism:dust_refined_obsidian"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "118DD71E2A8469CF",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "18730D99DB07E11A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3,
+      "y": -0.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12D46BB9E3471834",
+      "title": "Atomic Alloy",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:alloy_atomic"
+      },
+      "description": [
+        "Use Refined Obsidian in the Infuser to upgrade Reinforced Alloy. Atomic Alloy contributes to the Ultimate Crafting Table."
+      ],
+      "dependencies": [
+        "1BD38E653BF3C403",
+        "1333616BBA852693"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "18E3B978B2B97972",
+          "type": "item",
+          "item": {
+            "id": "mekanism:alloy_atomic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "144CF1FA6AC39FFA",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1DBF94C07FA68074",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.5d,
+      "y": -2,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "188632E4069198F7",
+      "title": "Ultimate Crafting Table",
+      "subtitle": "Extended Crafting",
+      "icon": {
+        "id": "extendedcrafting:ultimate_table"
+      },
+      "description": [
+        "Awakened Draconium and Atomic Alloy join the Elite Table in the final table tier. This opens the late ProjectE crafts."
+      ],
+      "dependencies": [
+        "12D46BB9E3471834",
+        "1911FAD1811DD1EE",
+        "1FB748D587C3998C"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1D2F751516DA2EDA",
+          "type": "item",
+          "item": {
+            "id": "extendedcrafting:ultimate_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "132BEB847FC5C2EE",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1398073CC162C10D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0,
+      "y": 0,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "10476F00E9C83E02",
+      "linked_quest": "1C7ABCD2731D35CD",
+      "x": 10.5d,
+      "y": 5,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "16BAB5C316781797",
+      "linked_quest": "14128FA0C5CC7FFD",
+      "x": 7.5d,
+      "y": 3.5d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "14DB8B3F6F4B5208",
+      "linked_quest": "1F709C799187EA22",
+      "x": 4.5d,
+      "y": 3.5d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "19AC075F5CBF69E1",
+      "linked_quest": "1BF3F08B58EBB12C",
+      "x": 7.5d,
+      "y": -2,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1582E1806CF8DE93",
+      "linked_quest": "1C3CE514427E6A14",
+      "x": -4.5d,
+      "y": -2,
+      "size": 1.0d,
+      "shape": "diamond"
+    }
+  ],
+  "images": []
+}

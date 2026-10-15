@@ -1,0 +1,2415 @@
+{
+  "id": "1A2A6F56B413BAFF",
+  "filename": "31_backpacks",
+  "title": "Backpacks",
+  "icon": {
+    "id": "sophisticatedbackpacks:backpack"
+  },
+  "group": "1907149C93679AEB",
+  "order_index": 22,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1A099676FAC9995D",
+      "title": "Crafting Upgrade",
+      "subtitle": "General storage",
+      "icon": {
+        "id": "sophisticatedbackpacks:crafting_upgrade"
+      },
+      "description": [
+        "A Crafting Upgrade adds convenience to your backpack. Personal upgrades remain outside the material progression gates."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FFC72FC52140C92",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:crafting_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1780402A9C206B01",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1FE5C730D6C959FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.36963d,
+      "y": 6.81054d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1637C85F495D115C",
+      "title": "Backpack",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:backpack"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Basic Backpack processing to make Backpack. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "179E5D4AF814F84B",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:backpack"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B612C3C4260BE78",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A9CD035A8B2E538",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.9774d,
+      "y": 6.12232d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C359437B951A8A5",
+      "title": "Copper Backpack",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:copper_backpack"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Backpack Upgrade processing to make Copper Backpack. Item inputs include Backpack. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1637C85F495D115C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C5E3499F5FB199",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:copper_backpack"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC1554CD263E3ED",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D34B0FEBD122CB6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.2674d,
+      "y": 7.05431d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19625E2D7BE742BA",
+      "title": "Diamond Backpack",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:diamond_backpack"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Backpack Upgrade processing to make Diamond Backpack. Item inputs include Gold Backpack. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1563C39DAA9BDFD8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1403B8610A93EF87",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:diamond_backpack"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1247D5062DFFF7B1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1316328E0C7A02B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.70055d,
+      "y": 7.86537d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1563C39DAA9BDFD8",
+      "title": "Gold Backpack",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:gold_backpack"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Backpack Upgrade processing to make Gold Backpack. Item inputs include Iron Backpack. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1017578EA943B4A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16A35E46558D69EA",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:gold_backpack"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D141F46E933BDEC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1286E6D77ED0B151",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.6221d,
+      "y": 7.59502d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1017578EA943B4A9",
+      "title": "Iron Backpack",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:iron_backpack"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Backpack Upgrade processing to make Iron Backpack. Item inputs include Copper Backpack. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C359437B951A8A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1635B4B3B8BCE5E0",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:iron_backpack"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FC13C0C834ED3CD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E98F48AFECD8EFD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.94475d,
+      "y": 7.32466d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D157A76375BFC68",
+      "title": "Netherite Backpack",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:netherite_backpack"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Smithing Backpack Upgrade processing to make Netherite Backpack. Item inputs include Netherite Ingot, Diamond Backpack, Netherite Upgrade Smithing Template. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19625E2D7BE742BA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17CBA0A904AD07C5",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:netherite_backpack"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C374AAC0C6BF95",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15DB3501D99D7DEA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.0232d,
+      "y": 8.13572d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15BE7CAAB8A2D678",
+      "title": "Advanced Compacting Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_compacting_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Advanced Compacting Upgrade. Item inputs include Advanced Compacting Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18B687765DA368A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "134CC319B22CAB3C",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_compacting_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E6AA024BF802DFE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DB8540B2F780F5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.66354d,
+      "y": 11.02431d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AD323898A5F94F7",
+      "title": "Advanced Deposit Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_deposit_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Upgrade Next Tier processing to make Advanced Deposit Upgrade. Item inputs include Deposit Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C415AB7B8A22A44"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1328A3D3EA61C9BD",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_deposit_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1338282069D17E33",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1590C616B20A700C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.44979d,
+      "y": 9.73334d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19BCEDE3D0AF9909",
+      "title": "Advanced Feeding upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_feeding_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Advanced Feeding upgrade. Item inputs include Advanced Feeding upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1479B0629D67C813"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DF2B4722D7206EA",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_feeding_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B2A77DA003B94EF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FBE58248F8B77DD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.62708d,
+      "y": 4.10507d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F5A826BA2C6BCEC",
+      "title": "Advanced Filter Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_filter_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Advanced Filter Upgrade. Item inputs include Advanced Filter Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0049F271D1504C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CC1276F6B24968F",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_filter_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "171B9B223A99470F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "166FF07CAC3FBE75",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.40996d,
+      "y": 2.15423d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16C49CDD1C9D491B",
+      "title": "Advanced Magnet Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_magnet_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Advanced Magnet Upgrade. Item inputs include Advanced Magnet Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A3206800AFC0130"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19BD82ADB4ADAE9C",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_magnet_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AF9E52ED173A004",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "112938BC64ACBFDB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.32268d,
+      "y": 6.41858d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13E5F3D6C1708E0A",
+      "title": "Advanced Pickup Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_pickup_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Advanced Pickup Upgrade. Item inputs include Advanced Pickup Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DADCF4497B6C5D9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "184C1DC66C85DB86",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_pickup_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A340CDD76305664",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17FC21B941E35166",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.62007d,
+      "y": -1.17537d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1055D41A9057DBD9",
+      "title": "Advanced Pump Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_pump_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Upgrade Next Tier processing to make Advanced Pump Upgrade. Item inputs include Dispenser, Pump Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AC42922853E0369"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16ED1B7AFD483287",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_pump_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DECB4DF3FEABA3E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D936FE629AB2DBD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.39264d,
+      "y": 10.60849d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11EC36AC882CBCF7",
+      "title": "Advanced Refill Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_refill_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Upgrade Next Tier processing to make Advanced Refill Upgrade. Item inputs include Refill Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "183435CE099344D3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F6822E82963835A",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_refill_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1775AA37AF95739A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19CCE3CFF9082FE2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.10341d,
+      "y": 0.74972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A4807A902524D4",
+      "title": "Advanced Restock Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_restock_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Upgrade Next Tier processing to make Advanced Restock Upgrade. Item inputs include Restock Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1537D81DD9006E34"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "124C5519F9296987",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_restock_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C24B04CB302B799",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C8DE6CD22AB4C33",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.644d,
+      "y": 4.36472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F75431DFA29069B",
+      "title": "Advanced Tool Swapper Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Upgrade Next Tier processing to make Advanced Tool Swapper Upgrade. Item inputs include Tool Swapper Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16893CA5E55D1EA2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "188CDB71022514B2",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC903B7D62C379E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1060B5AC5F0AC61C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.39021d,
+      "y": -1.17483d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "194E252854435106",
+      "title": "Advanced Void Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:advanced_void_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Advanced Void Upgrade. Item inputs include Advanced Void Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C68E8CF4DBAC868"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10AD77A219C3AA06",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:advanced_void_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "153614F12E857114",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15AEB88F3C587B4C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.66667d,
+      "y": 9.45662d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "104A921B2FE57BD6",
+      "title": "Auto-blasting Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:auto_blasting_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Auto-blasting Upgrade. Item inputs include Auto-blasting Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11C247FB77B95B44"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B149962ABD37A8F",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:auto_blasting_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A3012C3807B882A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18E58B728D1DA946",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.64017d,
+      "y": 9.62561d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184264E939333E5C",
+      "title": "Auto-smelting Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:auto_smelting_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Auto-smelting Upgrade. Item inputs include Auto-smelting Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A4B6171401EB9D5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F42699CA31D6821",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:auto_smelting_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12A1FAFBE9405A38",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F7B27420A62A10A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.95069d,
+      "y": 2.20979d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FDB7968E76AF560",
+      "title": "Auto-smoking Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:auto_smoking_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Auto-smoking Upgrade. Item inputs include Auto-smoking Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D69F44E4B96D105"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "119BD770DE008F9D",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:auto_smoking_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1036DB80D48BC135",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1486CEAFBBBEC3AD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.31817d,
+      "y": 9.62591d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CE4D463475B6A0D",
+      "title": "Battery Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:battery_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Upgrade Next Tier processing to make Battery Upgrade. Item inputs include Upgrade Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145173C7D4304E2E",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:battery_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15B13A99F8E2973A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13EE383F0FBEB6B9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.97382d,
+      "y": 3.99434d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11C247FB77B95B44",
+      "title": "Blasting Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:blasting_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Blasting Upgrade. Item inputs include Blasting Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17F42F5AB02CF765",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:blasting_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "115D9023DCAD4123",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "199912E2FB766CD6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.16362d,
+      "y": 8.30544d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18B687765DA368A1",
+      "title": "Compacting Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:compacting_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Compacting Upgrade. Item inputs include Compacting Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A60D62308C74890",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:compacting_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "164B9BE56131362F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140AFFDB93DFB2A4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.94269d,
+      "y": 7.9412d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C415AB7B8A22A44",
+      "title": "Deposit Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:deposit_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Deposit Upgrade. Item inputs include Upgrade Base, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E98F9384B89299",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:deposit_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A915D438FA41820",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "125C817D8BDDDCC1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.62069d,
+      "y": 8.37514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17209187DF010BB1",
+      "title": "Everlasting Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:everlasting_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Everlasting Upgrade. Item inputs include Upgrade Base, End Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1577550BBEEA11B0",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:everlasting_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ABF11514B1C6392",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15164B3E3F7C8BB5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.66227d,
+      "y": 5.74631d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1479B0629D67C813",
+      "title": "Feeding Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:feeding_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Feeding Upgrade. Item inputs include Feeding upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EE872979C041132",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:feeding_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DD3312F847FCAA7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E9F87AC24C6EC79",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.50553d,
+      "y": 5.20373d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E0049F271D1504C",
+      "title": "Filter Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:filter_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Filter Upgrade. Item inputs include Filter Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1769A1BBEAE7AA10",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:filter_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "101F74659B5DBBB4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FFB06CF8C6C0DE7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.87985d,
+      "y": 2.81629d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16454AC629EB4070",
+      "title": "Inception Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:inception_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Inception Upgrade. Item inputs include Upgrade Base, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A29EFA6FB9CF314",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:inception_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1771B367BB6A9CE1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B4884D431AE0AEC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.91227d,
+      "y": -0.12641d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19FA1C944EBF17A0",
+      "title": "Jukebox Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:jukebox_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Jukebox Upgrade. Item inputs include Jukebox Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A713CE3348F140B",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:jukebox_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1573BCA205D4D14E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DD0D01724857D1E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.86227d,
+      "y": 1.22359d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A3206800AFC0130",
+      "title": "Magnet Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:magnet_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Magnet Upgrade. Item inputs include Magnet Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A100BE8C177539C",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:magnet_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BE03E48E81B0439",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "162D224E7262410D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.1619d,
+      "y": 6.98344d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DADCF4497B6C5D9",
+      "title": "Pickup Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:pickup_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Pickup Upgrade. Item inputs include Pickup Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1715B98BEE924B56",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:pickup_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "119B9909DB14A361",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EE9F42F1A3AD643",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.2006d,
+      "y": 3.0293d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AC42922853E0369",
+      "title": "Pump Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:pump_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Upgrade Next Tier processing to make Pump Upgrade. Item inputs include Upgrade Base, Piston, Sticky Piston, Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18B265506E542C0B",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:pump_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D63E7BE5990F9B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16E50D7FC7142D8C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.26367d,
+      "y": 9.26467d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "183435CE099344D3",
+      "title": "Refill Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:refill_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Refill Upgrade. Item inputs include Upgrade Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BF442372E295BE5",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:refill_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B809EAD28C4F10C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ACB815727F76EA7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.84335d,
+      "y": 2.86883d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1537D81DD9006E34",
+      "title": "Restock Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:restock_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Restock Upgrade. Item inputs include Upgrade Base, Sticky Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F28CA48E74B2051",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:restock_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "145AEE7146F7BC9C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F3E06FD474518C5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.32383d,
+      "y": 5.09747d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A4B6171401EB9D5",
+      "title": "Smelting Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:smelting_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Smelting Upgrade. Item inputs include Smelting Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11014F1BA0E3DD92",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:smelting_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "191F31C4FBD55011",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "147DC15CD10B21F1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.27073d,
+      "y": 2.86981d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D69F44E4B96D105",
+      "title": "Smoking Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:smoking_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Smoking Upgrade. Item inputs include Smoking Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B5B91B16B3AB6F4",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:smoking_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E7FF51A4B4AB58",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18F5D0D6B9C6B14C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.65028d,
+      "y": 7.9744d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "105407E947AAD811",
+      "title": "Stack Upgrade Tier 1",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:stack_upgrade_tier_1"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Stack Upgrade Tier 1. Item inputs include Stack Upgrade Tier 2. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E6D082F6C7A9D50",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:stack_upgrade_tier_1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11F92247A475C1F8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EF41033B24CA1D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.98126d,
+      "y": 4.72268d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D7FD5C3788AC1F7",
+      "title": "Stack Upgrade Tier 2",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:stack_upgrade_tier_2"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Stack Upgrade Tier 2. Item inputs include Stack Upgrade Tier 3. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "105407E947AAD811"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1491984292747DD5",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:stack_upgrade_tier_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18095CED670FF574",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1695B408DAAB623F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.23883d,
+      "y": 4.23174d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1436C227D5F5A421",
+      "title": "Stack Upgrade Tier 3",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:stack_upgrade_tier_3"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Stack Upgrade Tier 3. Item inputs include Stack Upgrade Tier 4. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D7FD5C3788AC1F7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11259A794DF35401",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:stack_upgrade_tier_3"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14F212157389FC49",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EF18042D34AE86D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.4964d,
+      "y": 3.74081d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DC28A5690FDC857",
+      "title": "Stack Upgrade Tier 4",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:stack_upgrade_tier_4"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Stack Upgrade Tier 4. Item inputs include Stack Upgrade Tier 5. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1436C227D5F5A421"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DF41D70E8C2C23B",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:stack_upgrade_tier_4"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1562649A5553F9DE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B3E444177B19FDB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.75397d,
+      "y": 3.24987d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "142DCBB4F96CF977",
+      "title": "Stonecutter Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:stonecutter_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Stonecutter Upgrade. Item inputs include Stonecutter Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "173FC9421FF1080D",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:stonecutter_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1232B975B8CDA751",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BBD02DB8DB6B52E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.21227d,
+      "y": 1.22359d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DB7C5111CD25938",
+      "title": "Tank Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:tank_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Use Upgrade Next Tier processing to make Tank Upgrade. Item inputs include Upgrade Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1667D05A575866DE",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:tank_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3B42B5F30DEBE9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A3EB05D35153DE1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.56227d,
+      "y": 1.22359d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16893CA5E55D1EA2",
+      "title": "Tool Swapper Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:tool_swapper_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Tool Swapper Upgrade. Item inputs include Wooden Axe, Upgrade Base, Wooden Pickaxe, Wooden Shovel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19362EAF5F767775",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:tool_swapper_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11380694AAB513A3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11CA0217FB3FB307",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.5226d,
+      "y": 2.86868d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "144B7B32852E1F8B",
+      "title": "Upgrade Base",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:upgrade_base"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Upgrade Base. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1637C85F495D115C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17F0056BA06E83C6",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:upgrade_base"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11470F510D1DD16B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "116A738B96813E70",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.71991d,
+      "y": 5.16104d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C68E8CF4DBAC868",
+      "title": "Void Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:void_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Void Upgrade. Item inputs include Void Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B17FFC4F966F80C",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:void_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18AF220668CD4E33",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E7FC2C36ADB6EB6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.41076d,
+      "y": 7.23129d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A1845D9E27530B",
+      "title": "Experience Pump Upgrade",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "id": "sophisticatedbackpacks:xp_pump_upgrade"
+      },
+      "description": [
+        "Choose storage that fits the job. Drawers suit bulk resources, upgraded chests suit mixed inventories, and backpacks carry supplies. Check insertion and extraction rules before connecting pipes.",
+        "Craft Experience Pump Upgrade. Item inputs include Experience Bottle, Ender Eye, Advanced Pump Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1055D41A9057DBD9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F72FBA6743FEC19",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedbackpacks:xp_pump_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "193AD526C56A80E6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA4E16B5D66863C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.52162d,
+      "y": 11.95231d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "151CB8F83BBB92D0",
+      "title": "Chipped Upgrades",
+      "subtitle": "Storage and Logistics",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:chipped/botanist_workbench_upgrade)item(sophisticatedbackpacks:chipped/glassblower_upgrade)item(sophisticatedbackpacks:chipped/carpenters_table_upgrade)item(sophisticatedbackpacks:chipped/loom_table_upgrade)item(sophisticatedbackpacks:chipped/mason_table_upgrade)item(sophisticatedbackpacks:chipped/alchemy_bench_upgrade)item(sophisticatedbackpacks:chipped/tinkering_table_upgrade))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "144B7B32852E1F8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:chipped/botanist_workbench_upgrade)item(sophisticatedbackpacks:chipped/glassblower_upgrade)item(sophisticatedbackpacks:chipped/carpenters_table_upgrade)item(sophisticatedbackpacks:chipped/loom_table_upgrade)item(sophisticatedbackpacks:chipped/mason_table_upgrade)item(sophisticatedbackpacks:chipped/alchemy_bench_upgrade)item(sophisticatedbackpacks:chipped/tinkering_table_upgrade))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "169E0190E1415747",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "104BA72A85DDABFB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.21227d,
+      "y": -0.12641d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

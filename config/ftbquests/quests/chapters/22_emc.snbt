@@ -1,0 +1,105 @@
+{
+  "id": "1AA72B5259C08C8E",
+  "filename": "22_emc",
+  "title": "ProjectE",
+  "icon": {
+    "id": "projecte:philosophers_stone"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 20,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [],
+  "quest_links": [
+    {
+      "id": "17E48CD48F99E822",
+      "linked_quest": "188632E4069198F7",
+      "x": 0.45139d,
+      "y": 2.86806d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "190DF0B2A788C1EC",
+      "linked_quest": "19B956A0E7DFCD45",
+      "x": 0.45139d,
+      "y": 1.65972d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1E24560594BA0183",
+      "linked_quest": "1BF3F08B58EBB12C",
+      "x": 3.89583d,
+      "y": 3.88194d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1021B13712D0CAAD",
+      "linked_quest": "1A66DF2245192DF5",
+      "x": 3.89583d,
+      "y": 4.89583d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1A69143E0501D864",
+      "linked_quest": "16FE4EF595948851",
+      "x": 0.45139d,
+      "y": 0.45139d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1D375823731AA4FC",
+      "linked_quest": "1C982EA759642715",
+      "x": 2.0625d,
+      "y": 1.65972d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1F092E30CFDF5653",
+      "linked_quest": "1929C25C864C3A55",
+      "x": 3.78472d,
+      "y": 2.38194d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "154593C7CF485E70",
+      "linked_quest": "1E5467E4E3BD9E22",
+      "x": 5.50694d,
+      "y": 2.38194d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1029E85780D53FD7",
+      "linked_quest": "1116EDF0C5C16F63",
+      "x": 3.78472d,
+      "y": 0.95139d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "158D8317402F5290",
+      "linked_quest": "11EF70C3C4A68FA8",
+      "x": 5.50694d,
+      "y": 0.95139d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1D39F56D466A9084",
+      "linked_quest": "1DEC929F5651ABC8",
+      "x": 7.22917d,
+      "y": 1.65972d,
+      "size": 1.25d,
+      "shape": "diamond"
+    }
+  ],
+  "images": []
+}

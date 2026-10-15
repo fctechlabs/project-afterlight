@@ -1,0 +1,5 @@
+# Friends-server defaults keep initial airship builds manageable and preserve their assembler ownership.
+[assembly]
+maxBlocksMoved = 8192
+"Primary Disassembly" = true
+disallowMidAirDisassembly = true

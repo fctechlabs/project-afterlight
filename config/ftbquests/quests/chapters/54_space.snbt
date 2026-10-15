@@ -1,0 +1,2993 @@
+{
+  "id": "197B87E128743A9A",
+  "filename": "54_space",
+  "title": "Space",
+  "icon": {
+    "id": "ad_astra:tier_1_rocket"
+  },
+  "group": "15E451C383170371",
+  "order_index": 36,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1F9B80E5A0B0257A",
+      "tasks": [
+        {
+          "id": "1B3E939D3EE125FE",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:coal_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CB5A891FD04A393",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1764F5846B6030AC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Coal Generator",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:coal_generator"
+      },
+      "description": [
+        "Supply the space workshop with power. Spaceflight and all planet materials remain optional."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -10.5d,
+      "y": -3.0d,
+      "dependencies": [],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C828BBF9763A0F7",
+      "tasks": [
+        {
+          "id": "1829E7DB89673B0D",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14A4C3EF70A01683",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "110DF5DBFD03586B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Compressor",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:compressor"
+      },
+      "description": [
+        "Use the compressor to prepare the plates required by space equipment."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -9.0d,
+      "y": -3.0d,
+      "dependencies": [
+        "1F9B80E5A0B0257A"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FCE9C9392A6BFDA",
+      "tasks": [
+        {
+          "id": "1C8040FBEE7CC660",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:steel_plate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10349CE0B9752307",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1955A7B6C6E39D04",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Steel Plates",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:steel_plate"
+      },
+      "description": [
+        "Keep a supply of plates for the first rocket and life-support equipment."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -7.5d,
+      "y": -3.0d,
+      "dependencies": [
+        "1C828BBF9763A0F7"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AE7CB8C1D4326EF",
+      "title": "NASA Workbench",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:nasa_workbench"
+      },
+      "description": [
+        "Use the workbench for rocket assembly and inspect the full component list before starting."
+      ],
+      "dependencies": [
+        "1FCE9C9392A6BFDA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ECF1A201148CC24",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:nasa_workbench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "192199661F3B4163",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "117F1B4925B92EEA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.0d,
+      "y": -3.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18EB741BCD3A311A",
+      "tasks": [
+        {
+          "id": "1E2096DC5B1D27B5",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:rocket_nose_cone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11154A5A8E1ADD16",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1721018786C867B8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Rocket Nose Cone",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:rocket_nose_cone"
+      },
+      "description": [
+        "Prepare the nose cone for the first rocket."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -4.5d,
+      "y": -4.125d,
+      "dependencies": [
+        "1AE7CB8C1D4326EF"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "150D4B2EEBD20040",
+      "tasks": [
+        {
+          "id": "11E4C50FC25C24B1",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:rocket_fin"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "165DA969F01FCA5A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "11A145E14E68A254",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Rocket Fins",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:rocket_fin"
+      },
+      "description": [
+        "Prepare the fins; the rocket recipe specifies how many are needed."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -4.5d,
+      "y": -3.0d,
+      "dependencies": [
+        "1AE7CB8C1D4326EF"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "189D58D68E075FB5",
+      "tasks": [
+        {
+          "id": "1D40DD80E8D80D3F",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:steel_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1218B948FB3887A1",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "15B827BBEB8C555A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Steel Tank",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:steel_tank"
+      },
+      "description": [
+        "Prepare the tank used by the first flight equipment."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -7.5d,
+      "y": -1.5d,
+      "dependencies": [
+        "1FCE9C9392A6BFDA"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AF0C7F78FE89C32",
+      "tasks": [
+        {
+          "id": "1CF541F24B15B4F7",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:steel_engine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17A3424E166F756A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1C439D658F4CB5E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Steel Engine",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:steel_engine"
+      },
+      "description": [
+        "Assemble the first rocket engine and check the workbench recipe."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -6.0d,
+      "y": -1.5d,
+      "dependencies": [
+        "189D58D68E075FB5"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17F675867444AD3B",
+      "title": "Oxygen Loader",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:oxygen_loader"
+      },
+      "description": [
+        "Supply water and power, then fill compatible life-support equipment. Verify its oxygen before departure."
+      ],
+      "dependencies": [
+        "1FCE9C9392A6BFDA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AEA21E0BBDF8B0F",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:oxygen_loader"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16F5B1FEC2CCC094",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "12CE500D86297BB8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.0d,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8E5F3113B740E7",
+      "tasks": [
+        {
+          "id": "191ED6DA4663FC10",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:oxygen_gear"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "147188D4367281D5",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17FF5C2161288AB0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Oxygen Gear",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:oxygen_gear"
+      },
+      "description": [
+        "Prepare the life-support components required by your suit."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -9.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "17F675867444AD3B"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E7A303EBC88A9FF",
+      "tasks": [
+        {
+          "id": "1EAEB1C674C72B22",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:space_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A258D440E944BBF",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "14FC6C240D84CD03",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Space Helmet",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:space_helmet"
+      },
+      "description": [
+        "Equip the helmet as part of a complete space suit."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -9.0d,
+      "y": 1.5d,
+      "dependencies": [
+        "1D8E5F3113B740E7"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1774AA31D0D541AD",
+      "tasks": [
+        {
+          "id": "1465F2A9956CA462",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:space_suit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1950DCFF6D353AED",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "190FBECA60DC6F95",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Space Suit",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:space_suit"
+      },
+      "description": [
+        "Fill the suit’s oxygen supply at the loader before taking it into a hostile atmosphere."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -9.0d,
+      "y": 3.0d,
+      "dependencies": [
+        "1E7A303EBC88A9FF"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F628802F1986A07",
+      "tasks": [
+        {
+          "id": "160C892936FE4A2D",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:space_pants"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AF47F1255005A6E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "133576C81CE262C9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Space Pants",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:space_pants"
+      },
+      "description": [
+        "Prepare the leg slot for the full suit."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -7.5d,
+      "y": 3.0d,
+      "dependencies": [
+        "1774AA31D0D541AD"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16AD6705623B1010",
+      "tasks": [
+        {
+          "id": "16791987601A32AC",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:space_boots"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CDC2A8825CF3D45",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17EC23B37016F20F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Space Boots",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:space_boots"
+      },
+      "description": [
+        "Complete the suit. A single armor piece is not adequate life support."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -6.0d,
+      "y": 3.0d,
+      "dependencies": [
+        "1F628802F1986A07"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15554D918E0906B2",
+      "tasks": [
+        {
+          "id": "146592C1496B2C9C",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B8B14087E0CF6A6",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1E1B10D0AD6DBFBE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Check Your Oxygen",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:oxygen_loader"
+      },
+      "description": [
+        "Equip the full suit, fill its oxygen, and verify that it is working. Bring food and a return plan."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -4.5d,
+      "y": 3.0d,
+      "dependencies": [
+        "16AD6705623B1010"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F70CD2587EA97AD",
+      "tasks": [
+        {
+          "id": "1BECB8C47F2753A8",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:fuel_refinery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C94C04318F08B13",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "192F616A9ED09769",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Fuel Refinery",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:fuel_refinery"
+      },
+      "description": [
+        "Process compatible oil into rocket fuel. Check JEI for Afterlight’s skyblock oil access."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -10.5d,
+      "y": -4.5d,
+      "dependencies": [
+        "1F9B80E5A0B0257A"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13ACE95E38F054EC",
+      "tasks": [
+        {
+          "id": "18445B3415C0F68F",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:fuel_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159982CF2BF18E6C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "137354F35BC2E18E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Rocket Fuel",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:fuel_bucket"
+      },
+      "description": [
+        "Press seeds in PneumaticCraft’s Thermopneumatic Processing Plant at 2 bar, then refine the vegetable oil in Ad Astra’s Fuel Refinery. Fill the rocket before launch."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -3.0d,
+      "y": -7.5d,
+      "dependencies": [
+        "1F06F1763CFF9229",
+        "1F70CD2587EA97AD"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13ED8DBA16530930",
+      "tasks": [
+        {
+          "id": "1505BF6A8684D9C2",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:launch_pad"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10D6AB33E7911903",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1FA74A4873DCBF51",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Launch Pad",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:launch_pad"
+      },
+      "description": [
+        "Place the full launch-pad arrangement on a clear platform."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -4.5d,
+      "y": -6.0d,
+      "dependencies": [
+        "1AE7CB8C1D4326EF"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C799596C3939D64",
+      "title": "Tier 1 Rocket",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:tier_1_rocket"
+      },
+      "description": [
+        "Assemble the Tier 1 Rocket in the NASA Workbench. Fuel it on the launch pad before boarding."
+      ],
+      "dependencies": [
+        "1AF0C7F78FE89C32",
+        "18EB741BCD3A311A",
+        "150D4B2EEBD20040"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18358FB38CAE38A0",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:tier_1_rocket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B39549396694F0B",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1142CDF7210F13E4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.0d,
+      "y": -1.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10DA0D001E510C75",
+      "tasks": [
+        {
+          "id": "10B8FA514AFF733A",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "181ABC083CA036E6",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "114E2A44ABAE53A2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ready for Launch",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:tier_1_rocket"
+      },
+      "description": [
+        "Check the rocket’s fuel, full suit, oxygen, food, and return supplies. Complete this checklist before launching."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 0.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "1C799596C3939D64",
+        "13ED8DBA16530930",
+        "13ACE95E38F054EC",
+        "15554D918E0906B2"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B0960D31FF67352",
+      "tasks": [
+        {
+          "id": "112CF761529C46A8",
+          "type": "dimension",
+          "dimension": "ad_astra:moon"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B65AD42A5EE7F01",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "15D84AF741CDEE17",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Land on the Moon",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:moon_globe"
+      },
+      "description": [
+        "Reach the Moon with working life support. Mark your landing site and preserve the return rocket."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 1.5d,
+      "y": 0.0d,
+      "dependencies": [
+        "10DA0D001E510C75"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19285485032D90FE",
+      "title": "Desh Ingot",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:desh_ingot"
+      },
+      "description": [
+        "Mine and process Desh for the next flight tier."
+      ],
+      "dependencies": [
+        "1B0960D31FF67352"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F88E464BCCB65E8",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:desh_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10243A97B817C5B9",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17D402C964E9D504",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.0d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A04141674B0DE67",
+      "tasks": [
+        {
+          "id": "1BDAB85E8C5015A0",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:desh_plate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12F21709391CEB2A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "127B8023EFB9178A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Desh Plates",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:desh_plate"
+      },
+      "description": [
+        "Prepare the next tier of rocket components."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 4.5d,
+      "y": 0.0d,
+      "dependencies": [
+        "19285485032D90FE"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FC212C5524595B4",
+      "tasks": [
+        {
+          "id": "14222524A88CB126",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:desh_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A1C83AE2B279E0E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D6C6CCE08582457",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Desh Tank",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:desh_tank"
+      },
+      "description": [
+        "Build the tank needed by the next rocket tier."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.0d,
+      "y": 0.0d,
+      "dependencies": [
+        "1A04141674B0DE67"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D29A917FCA5EC53",
+      "tasks": [
+        {
+          "id": "1474CE68EDFFFEB0",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:desh_engine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E76F6CF40664E4",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1644A6B21866DA9C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Desh Engine",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:desh_engine"
+      },
+      "description": [
+        "Assemble the engine for the Tier 2 Rocket."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.5d,
+      "y": 0.0d,
+      "dependencies": [
+        "1FC212C5524595B4"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "169E46C761D78BD1",
+      "title": "Tier 2 Rocket",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:tier_2_rocket"
+      },
+      "description": [
+        "Return to the NASA Workbench and assemble the next rocket."
+      ],
+      "dependencies": [
+        "1D29A917FCA5EC53"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1058EDA6F01A6A93",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:tier_2_rocket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "149BD8092E572523",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "118233A24FA9DFC8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.0d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C774771F9D4732E",
+      "tasks": [
+        {
+          "id": "1BA6779238F975DB",
+          "type": "dimension",
+          "dimension": "ad_astra:mars"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B1A576A88B76986",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "131A639B4358AEA7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Land on Mars",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:mars_globe"
+      },
+      "description": [
+        "Prepare the suit, fuel, and return trip before setting out for Mars."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 9.0d,
+      "y": 1.5d,
+      "dependencies": [
+        "169E46C761D78BD1"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BA2CF461F9A543A",
+      "tasks": [
+        {
+          "id": "1AE1988A623D8BE1",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:ostrum_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AAC691DE4CAFEDA",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1B49A1D0ABAE400F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ostrum Ingot",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:ostrum_ingot"
+      },
+      "description": [
+        "Collect and process Ostrum to prepare the third rocket tier."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.5d,
+      "y": 1.5d,
+      "dependencies": [
+        "1C774771F9D4732E"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1710B983AF8D977B",
+      "tasks": [
+        {
+          "id": "1BCC96E679A3382C",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:ostrum_plate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A3798C193E32D71",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1545CEA93455EEEA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ostrum Plates",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:ostrum_plate"
+      },
+      "description": [
+        "Prepare the third tier’s structural material."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.0d,
+      "y": 1.5d,
+      "dependencies": [
+        "1BA2CF461F9A543A"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "167B460B872F5F26",
+      "tasks": [
+        {
+          "id": "101EC9E5DB1C816D",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:ostrum_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17B66374ACBADE32",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1A55C6C6B12ADFCA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ostrum Tank",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:ostrum_tank"
+      },
+      "description": [
+        "Build the next rocket tank."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 4.5d,
+      "y": 1.5d,
+      "dependencies": [
+        "1710B983AF8D977B"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17A312D697C7A24E",
+      "tasks": [
+        {
+          "id": "1685C1B57C99FDF3",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:ostrum_engine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F6031D4D8EE46E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "101BF6B7456C5545",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ostrum Engine",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:ostrum_engine"
+      },
+      "description": [
+        "Prepare the engine for the Tier 3 Rocket."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 3.0d,
+      "y": 1.5d,
+      "dependencies": [
+        "167B460B872F5F26"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17294DB65AC267AD",
+      "tasks": [
+        {
+          "id": "1356116305D09770",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:tier_3_rocket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15DA3961157D10EE",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "11A9A15EB6AD6413",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Tier 3 Rocket",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:tier_3_rocket"
+      },
+      "description": [
+        "Assemble the Tier 3 Rocket and check its destinations in the navigation screen."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 1.5d,
+      "y": 1.5d,
+      "dependencies": [
+        "17A312D697C7A24E"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CA5DA1BD6ECEB98",
+      "tasks": [
+        {
+          "id": "18D2C43823AC314D",
+          "type": "dimension",
+          "dimension": "ad_astra:venus"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11FE59E9DCA7C438",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D9C35743CFA01CA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Land on Venus",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:venus_globe"
+      },
+      "description": [
+        "Check heat protection and life support before descending to Venus."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 1.5d,
+      "y": 3.0d,
+      "dependencies": [
+        "17294DB65AC267AD"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1753FEF6A2490FC2",
+      "tasks": [
+        {
+          "id": "1D8CCAAFC4FEFAD4",
+          "type": "dimension",
+          "dimension": "ad_astra:mercury"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "197968F3A1E52D39",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "19C56B8CE867161F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Land on Mercury",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:mercury_globe"
+      },
+      "description": [
+        "Prepare suitable protection before exploring Mercury."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 0.0d,
+      "y": 3.0d,
+      "dependencies": [
+        "17294DB65AC267AD"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BB86ED2045BD755",
+      "tasks": [
+        {
+          "id": "13F3746DDEB4041A",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:calorite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BDC4AADA4657D9D",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "18B568F97D732600",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Calorite Ingot",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:calorite_ingot"
+      },
+      "description": [
+        "Collect and process Calorite for the final rocket tier."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 3.0d,
+      "y": 3.0d,
+      "dependencies": [
+        "1CA5DA1BD6ECEB98"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18E97690BEB1339A",
+      "tasks": [
+        {
+          "id": "12CB0C915BC69D66",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:calorite_plate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "125B8703D9B9B43E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "11484D8A35D84612",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Calorite Plates",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:calorite_plate"
+      },
+      "description": [
+        "Prepare the highest rocket tier’s plates."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 4.5d,
+      "y": 3.0d,
+      "dependencies": [
+        "1BB86ED2045BD755"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11DC5C0D7DE7A4B9",
+      "tasks": [
+        {
+          "id": "1ACFEB3AC201721F",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:calorite_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16A589DCF25BF0E4",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1C9ABA90775AB5F9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Calorite Tank",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:calorite_tank"
+      },
+      "description": [
+        "Build the final rocket tank."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.0d,
+      "y": 3.0d,
+      "dependencies": [
+        "18E97690BEB1339A"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "180B6B2DDCE116D0",
+      "tasks": [
+        {
+          "id": "1F25B6728457F4BE",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:calorite_engine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "170D465A88F0DEB2",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "15DB66909028F3F5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Calorite Engine",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:calorite_engine"
+      },
+      "description": [
+        "Prepare the engine for the Tier 4 Rocket."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.5d,
+      "y": 3.0d,
+      "dependencies": [
+        "11DC5C0D7DE7A4B9"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13C4912B715AB798",
+      "tasks": [
+        {
+          "id": "1C42F9C6695CFF9C",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:tier_4_rocket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1589EB7A56CD3411",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "15CB4656F939A96A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Tier 4 Rocket",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:tier_4_rocket"
+      },
+      "description": [
+        "Assemble the final rocket and prepare for the cold destination."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 9.0d,
+      "y": 3.0d,
+      "dependencies": [
+        "180B6B2DDCE116D0"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10B24C8576479CD1",
+      "tasks": [
+        {
+          "id": "15D08468FDEB58F8",
+          "type": "dimension",
+          "dimension": "ad_astra:glacio"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E598BDAE9656D0B",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "10FBFA01EE23D7E4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Land on Glacio",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:glacio_globe"
+      },
+      "description": [
+        "Bring adequate life support and protection for Glacio’s conditions."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 9.0d,
+      "y": 4.5d,
+      "dependencies": [
+        "13C4912B715AB798"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D1D01F0B53C51E8",
+      "tasks": [
+        {
+          "id": "13C4022F65B97C47",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:ice_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18070884A6053E4E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17482A1A812A28FA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Ice Shards",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:ice_shard"
+      },
+      "description": [
+        "Collect the material used for advanced cryogenic processing."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.5d,
+      "y": 4.5d,
+      "dependencies": [
+        "10B24C8576479CD1"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "162D839A386A9704",
+      "tasks": [
+        {
+          "id": "1D7CC68C179F9B67",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:cryo_freezer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F73D3293B0BA122",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D9DA9051073DE3E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Cryo Freezer",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:cryo_freezer"
+      },
+      "description": [
+        "Supply the freezer with power and its recipe ingredients."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.0d,
+      "y": 4.5d,
+      "dependencies": [
+        "1D1D01F0B53C51E8"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "157EE0268C83744B",
+      "tasks": [
+        {
+          "id": "11D6AE04353D3B82",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:cryo_fuel_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D93A14B1ACC0B3E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1CBBE74604B20470",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Cryogenic Fuel",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:cryo_fuel_bucket"
+      },
+      "description": [
+        "Produce cryogenic fuel and compare its use with ordinary rocket fuel."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 4.5d,
+      "y": 4.5d,
+      "dependencies": [
+        "162D839A386A9704"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "196AB39A45F945F4",
+      "tasks": [
+        {
+          "id": "18C8948713C27029",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:tier_1_rover"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CEB76478F32794F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1301E28C94865DB8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Moon Rover",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:tier_1_rover"
+      },
+      "description": [
+        "Prepare the wheels, Desh Engine, Large Gas Tank, and Radio shown in the recipe. Build a rover for surface travel and check its fuel supply."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 3.0d,
+      "y": -3.0d,
+      "dependencies": [
+        "1D174A4FE76635B0"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D174A4FE76635B0",
+      "tasks": [
+        {
+          "id": "176537D190F9E694",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:wheel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1329030821959CDE",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "172D5A219EED95BD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Rover Wheels",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:wheel"
+      },
+      "description": [
+        "Prepare the wheels before assembling your rover."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 3.0d,
+      "y": -1.5d,
+      "dependencies": [
+        "19285485032D90FE"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F205A8139E66C3F",
+      "tasks": [
+        {
+          "id": "140931433C1A8067",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:oxygen_distributor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3E85E145D14582",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "105E9088FFE06D94",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Oxygen Distributor",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:oxygen_distributor"
+      },
+      "description": [
+        "Build a sealed habitat and verify its oxygen distribution before removing your helmet."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 4.5d,
+      "y": -3.0d,
+      "dependencies": [
+        "19285485032D90FE"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B0508DC02D7FCFB",
+      "tasks": [
+        {
+          "id": "1964245D3A58EC59",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:airlock"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B2C9FCA9CD7C3F7",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1314E76CFC8ECD9C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Airlock",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:airlock"
+      },
+      "description": [
+        "Provide a controlled entrance that preserves the habitat’s sealed volume."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.0d,
+      "y": -3.0d,
+      "dependencies": [
+        "1F205A8139E66C3F"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A66A99E1423EB80",
+      "tasks": [
+        {
+          "id": "182D291B6C2B6ED4",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:oxygen_sensor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1405B568D52858FF",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "19949420B3C61AEA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Oxygen Sensor",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:oxygen_sensor"
+      },
+      "description": [
+        "Monitor the habitat’s oxygen and test the sensor before relying on it."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 4.5d,
+      "y": -4.5d,
+      "dependencies": [
+        "1F205A8139E66C3F"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17D9C541C35E49E5",
+      "tasks": [
+        {
+          "id": "1E21BC1FABB16B2D",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:large_gas_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "184F4ACCE470E64E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1120CB5DC441A8D2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Large Gas Tank",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:large_gas_tank"
+      },
+      "description": [
+        "Expand the habitat’s reserve supply for longer visits."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 6.0d,
+      "y": -4.5d,
+      "dependencies": [
+        "1F205A8139E66C3F"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "128C9F590A88DBB9",
+      "tasks": [
+        {
+          "id": "13F227E5F3A54409",
+          "type": "dimension",
+          "dimension": "ad_astra:earth_orbit"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B916E3F27CCD7B8",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "10194C6FC8B078E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "An Orbital Station",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:earth_globe"
+      },
+      "description": [
+        "Use the navigation screen’s station option and provide its listed construction materials. Establish oxygen and a safe return route."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.5d,
+      "y": -3.0d,
+      "dependencies": [
+        "1B0508DC02D7FCFB"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C9CC430EB3B93B6",
+      "tasks": [
+        {
+          "id": "142FE12BCD7311A1",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:photovoltaic_etrium_cell"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "136F5B8CEDEA97DB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "139B06BF5FE3E323",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Solar Power in Space",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:photovoltaic_etrium_cell"
+      },
+      "description": [
+        "Use the photovoltaic equipment to supply your habitat with renewable power."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 9.0d,
+      "y": -3.0d,
+      "dependencies": [
+        "128C9F590A88DBB9"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BFC770ABDF15F2F",
+      "tasks": [
+        {
+          "id": "117D998A708D0F7A",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:water_pump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1278D66C33AD0B9C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "144A84AF5375DF98",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Water Pump",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:water_pump"
+      },
+      "description": [
+        "Provide a reliable water supply for the life-support setup."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 3.0d,
+      "y": -4.5d,
+      "dependencies": [
+        "1F205A8139E66C3F"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DA7D11F92B008F9",
+      "tasks": [
+        {
+          "id": "1C364C383146F495",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:gravity_normalizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1672B7AC50163430",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "152E4E79426AE04D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Gravity Normalizer",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:gravity_normalizer"
+      },
+      "description": [
+        "Experiment with the habitat’s gravity equipment in a controlled area."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 7.5d,
+      "y": -4.5d,
+      "dependencies": [
+        "128C9F590A88DBB9"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D7015FCEFE0B17A",
+      "tasks": [
+        {
+          "id": "123DE8069978A010",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:netherite_space_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "145F0C65F071428E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1E92C8063DC0C1AC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Netherite Space Helmet",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:netherite_space_helmet"
+      },
+      "description": [
+        "Upgrade the full suit before visiting more hostile environments."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 12.0d,
+      "y": 3.75d,
+      "dependencies": [
+        "1BA2CF461F9A543A"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E9E38F74A868C8",
+      "tasks": [
+        {
+          "id": "170CA7C7753FD034",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:netherite_space_suit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198825175C8ECC3A",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1801DCF3179C476D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Netherite Space Suit",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:netherite_space_suit"
+      },
+      "description": [
+        "Upgrade the chest piece and refill its oxygen supply."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 13.5d,
+      "y": 3.75d,
+      "dependencies": [
+        "1D7015FCEFE0B17A"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BFAF09042C09E3F",
+      "tasks": [
+        {
+          "id": "1BA0DF61E1841528",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:netherite_space_pants"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "178D7A3579966CAC",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1B12C72607E48ED6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Netherite Space Pants",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:netherite_space_pants"
+      },
+      "description": [
+        "Prepare the upgraded leg slot."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 13.5d,
+      "y": 5.25d,
+      "dependencies": [
+        "14E9E38F74A868C8"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "181C4E99B4CD8325",
+      "tasks": [
+        {
+          "id": "13FA6A35104CD9C4",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:netherite_space_boots"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1725248A42B370D0",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1F23480E4D7291E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Netherite Space Boots",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:netherite_space_boots"
+      },
+      "description": [
+        "Complete the upgraded set and verify its protection before departure."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 12.0d,
+      "y": 5.25d,
+      "dependencies": [
+        "1BFAF09042C09E3F"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "130740A6884C5E7B",
+      "tasks": [
+        {
+          "id": "150565905AFCCE8A",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:jet_suit_helmet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CBE98125FB3F0D2",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1DA5828648331F27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Jet Suit Helmet",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:jet_suit_helmet"
+      },
+      "description": [
+        "Begin the advanced mobility suit after obtaining Calorite."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 0.0d,
+      "y": 4.5d,
+      "dependencies": [
+        "1BB86ED2045BD755"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "130D594B67128018",
+      "tasks": [
+        {
+          "id": "1DF63168C7AD17AE",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:jet_suit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17158AB05E0C134C",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1AC90D62DCEA405F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Jet Suit",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:jet_suit"
+      },
+      "description": [
+        "Fuel and configure the jet suit before testing it above a safe platform."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -1.5d,
+      "y": 4.5d,
+      "dependencies": [
+        "130740A6884C5E7B"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A3BEA38E9E0621B",
+      "tasks": [
+        {
+          "id": "184720D3EF79596F",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:jet_suit_pants"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19B44598362CFB07",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "14DAE2822E851911",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Jet Suit Pants",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:jet_suit_pants"
+      },
+      "description": [
+        "Prepare the jet suit’s leg slot."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": -1.5d,
+      "y": 6.0d,
+      "dependencies": [
+        "130D594B67128018"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12C867358830E32F",
+      "tasks": [
+        {
+          "id": "10F1EB432F755EF8",
+          "type": "item",
+          "item": {
+            "id": "ad_astra:jet_suit_boots"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF7CC09AB9FEAE0",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1AF4C719ED36CF60",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "title": "Jet Suit Boots",
+      "subtitle": "Spaceflight",
+      "icon": {
+        "id": "ad_astra:jet_suit_boots"
+      },
+      "description": [
+        "Complete the set and test flight with a safe landing area."
+      ],
+      "optional": true,
+      "shape": "square",
+      "size": 1.0d,
+      "x": 0.0d,
+      "y": 6.0d,
+      "dependencies": [
+        "1A3BEA38E9E0621B"
+      ],
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1D7FE52082FA3E8E",
+      "linked_quest": "1665F2177B63B95A",
+      "x": -10.5d,
+      "y": -7.5d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "13F00E039F8237CE",
+      "linked_quest": "1F06F1763CFF9229",
+      "x": -9.0d,
+      "y": -6.0d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

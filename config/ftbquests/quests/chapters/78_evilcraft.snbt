@@ -1,0 +1,2222 @@
+{
+  "id": "1F74B5C633C595D8",
+  "filename": "78_evilcraft",
+  "title": "EvilCraft",
+  "icon": {
+    "id": "evilcraft:dark_gem"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 56,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "127F0F87DB213CEF",
+      "title": "Necromancer Staff",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:necromancer_staff"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Necromancer Staff. Item inputs include Dark Power Gem, Spike, Empowered Inverted Potentia, Dark Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBA4A836E168A6B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D9F49768DBD2C75",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:necromancer_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1423516082102986",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C9BC3A23D202F27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.95667d,
+      "y": 21.42083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E95DF334CA57261",
+      "title": "Vein Sword",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:vein_sword"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Vein Sword. Item inputs include Dark Power Gem, Dark Stick, Spike. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1171CD79B1263C77"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C9A7A1E98C2C91",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:vein_sword"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C68E467A8DF0B4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1092C48C9C26EBC5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.62583d,
+      "y": 13.29042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "189812ED6F5F09AB",
+      "title": "Vengeance Pickaxe",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:vengeance_pickaxe"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Vengeance Pickaxe. Item inputs include Hardened Blood Shard, Dark Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1171CD79B1263C77"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12221BCF5DFDF5B0",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:vengeance_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1881F0009C203C9A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BD6944A946CEC0C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.97583d,
+      "y": 13.29042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "114946B408ADF2A5",
+      "title": "Blood Extractor",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:blood_extractor"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Blood Extractor. Item inputs include Spike, Dark Gem. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1875EBC26BFB5016"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B8DD4280172E35F",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:blood_extractor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13000587F36C051C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1341C1A26E37C850",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.73014d,
+      "y": 14.94583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B7EB97586E7572F",
+      "title": "Blood Infuser",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:blood_infuser"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Blood Infuser. Item inputs include Blood Infusion Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FFB9399AB8DD07E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16534E5ABFB14AED",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:blood_infuser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14B4F6DE9F8FE58F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FFD92FC9354E3E7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.43931d,
+      "y": 10.98653d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E893D20A9B172BE",
+      "title": "Blood Pearl of Teleportation",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:blood_pearl_of_teleportation"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Blood Pearl of Teleportation. Item inputs include Dark Power Gem. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D17E29EC93601FB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "107032214714DAD0",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:blood_pearl_of_teleportation"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "101CD7FCB8E910EB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "155D1D471E6E0716",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.94403d,
+      "y": 13.11667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187A205F8E9C9489",
+      "title": "Broom Part",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:broom_part"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Broom Part. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1171CD79B1263C77"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D780AA0ADE25392",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:broom_part"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18138FBD0A3E5FDB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "138697E43C7A1CF2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.27583d,
+      "y": 13.29042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B5D6FCA715ABACF",
+      "title": "Effortless Ring",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:effortless_ring"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Effortless Ring. Item inputs include Promise of Velocity, Promise of Productivity. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "199489166E4EB3B1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14F153DC103666EA",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:effortless_ring"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16715D9972C602CB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18CB9B1C0FAC0467",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.48792d,
+      "y": 5.66583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "146D0535DA3DFD77",
+      "title": "Entangled Chalice",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:entangled_chalice"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Obtain Entangled Chalice and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "119953285EDC136B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15344BFD0F355390",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:entangled_chalice"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "141083048C2AFC37",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "186232B6B826F89D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.12097d,
+      "y": 4.05139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "166CA35F44E7FCA7",
+      "title": "Eternal Water Block",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:eternal_water"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Eternal Water Block. Item inputs include Dark Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBA4A836E168A6B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D650DA409208BD",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:eternal_water"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A918E78D2DDB06D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "137EF2C9B273242C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.95667d,
+      "y": 20.07083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187BFCC8584EA537",
+      "title": "Humanoid Flesh",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:flesh_humanoid"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Obtain Humanoid Flesh and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B92213451F83AEF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "154C4891D9891275",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:flesh_humanoid"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1825DD9F42AD478C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "163CB81F7B02A010",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.7625d,
+      "y": 3.44153d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D6933DD3BB57C7F",
+      "title": "Rejuvenated Flesh",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:flesh_rejuvenated"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Rejuvenated Flesh. Item inputs include Humanoid Flesh, Werewolf Flesh, Garmonbozia. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EF0B20C8FCB69E6"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10DC891F1F0C5B4F",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:flesh_rejuvenated"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1192708910C2A187",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16B1B9F30EA0ACCA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.97806d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EF0B20C8FCB69E6",
+      "title": "Werewolf Flesh",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:flesh_werewolf"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Obtain Werewolf Flesh and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B92213451F83AEF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13D0FA9E69BBF28D",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:flesh_werewolf"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17272AA80B8CC10A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E5626ABD5B1F000",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.79986d,
+      "y": 2.09319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B92213451F83AEF",
+      "title": "Garmonbozia",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:garmonbozia"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Obtain Garmonbozia and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "119953285EDC136B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18E28BCD02AB1E59",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:garmonbozia"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15BF270B2A4201FC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "148E68A6E1137D70",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.40819d,
+      "y": 4.29972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C5C7EA523CFF4B7",
+      "title": "Hardened Blood Shard",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:hardened_blood_shard"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Smelt Hardened Blood Shard. Item inputs include Hardened Blood. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114946B408ADF2A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1592102ECCCBA7D8",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:hardened_blood_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14E58504DFE42BE1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1561B6A4581005A0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.08014d,
+      "y": 14.94583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13389850B942D437",
+      "title": "Invigorating Pendant",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:invigorating_pendant"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Invigorating Pendant. Item inputs include Golden String, Crushed Dark Gem, Blood Infusion Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FFB9399AB8DD07E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1821BF557E80320D",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:invigorating_pendant"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19CF4EB81F58107F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18FABB707603C3E6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.81625d,
+      "y": 10.31514d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16B06142AB25247B",
+      "title": "Kineticator",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:kineticator"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Kineticator. Item inputs include Blood Infusion Core, Dark Stick, Blood Orb. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F05E8513B9A3BA9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "175B15D4F5A16407",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:kineticator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AD40A2A629F77E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EBE70BA3C2FB95A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.85306d,
+      "y": 9.15319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BBBBD4B32E66E5D",
+      "title": "Lightning Bomb",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:lightning_bomb"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Lightning Bomb. Item inputs include Lightning Grenade, Tnt. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBA4A836E168A6B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F384BC05C5446B0",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:lightning_bomb"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E3B6D2DCD5EBB3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14909852CCF6C91F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.30667d,
+      "y": 20.07083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A4490FCB398206",
+      "title": "Mace of Destruction",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:mace_of_destruction"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Mace of Destruction. Item inputs include Garmonbozia, Empowered Inverted Potentia, Dark Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B92213451F83AEF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "168B135BD914E597",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:mace_of_destruction"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "189186083DBF5FA4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "115C09E4A20222EC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.67156d,
+      "y": 5.62378d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D6C6863AAEE95B4",
+      "title": "Mace of Distortion",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:mace_of_distortion"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Mace of Distortion. Item inputs include Dark Power Gem, Empowered Inverted Potentia, Dark Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DBA4A836E168A6B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A2F7F82AEEFCEA8",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:mace_of_distortion"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "100479B32FE9E55C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14FF466A48376FEE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.65667d,
+      "y": 20.07083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A4284892CA84245",
+      "title": "Piercing Vengeance Focus",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:piercing_vengeance_focus"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Piercing Vengeance Focus. Item inputs include Blood Orb, End Crystal, Vengeance Focus, Popped Chorus Fruit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "142C18F4C1BCDF82"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E01381F821526E8",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:piercing_vengeance_focus"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A724DBFDFD0A231",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A5FF413DADE83DC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.70192d,
+      "y": 15.71806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11D8F587F10F1D29",
+      "title": "Primed Pendant",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:primed_pendant"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Primed Pendant. Item inputs include Golden String, Garmonbozia, Crushed Dark Gem, Blood Infusion Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B92213451F83AEF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "159230F3387ADF0D",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:primed_pendant"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CA4580841335F43",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "139798E6C100C75C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.16095d,
+      "y": 3.7831d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "119953285EDC136B",
+      "title": "Diamond Promise Acceptor",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:promise_acceptor_diamond"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Obtain Diamond Promise Acceptor and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1871FC558A96E807"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "193B9E9D4BBDD15E",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:promise_acceptor_diamond"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10992C77338D50CF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E839FB094BCE484",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.43153d,
+      "y": 5.48806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1871FC558A96E807",
+      "title": "Gold Promise Acceptor",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:promise_acceptor_gold"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Obtain Gold Promise Acceptor and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F05E8513B9A3BA9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "114AAF53BAD1B491",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:promise_acceptor_gold"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1115D8905F84A6E8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "141AB53778B03A47",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.16458d,
+      "y": 7.35167d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F05E8513B9A3BA9",
+      "title": "Iron Promise Acceptor",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:promise_acceptor_iron"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Obtain Iron Promise Acceptor and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B7EB97586E7572F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15A52ACD5A920FB4",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:promise_acceptor_iron"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "178F2DC5FC92227E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "196C39471ED34279",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.50139d,
+      "y": 8.09222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "199489166E4EB3B1",
+      "title": "Promise of Productivity",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:promise_efficiency_0"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Promise of Productivity. Item inputs include Bowl of Promises: Tier 1, Bowl of Promises: Tier 2, Bowl of Promises: Tier 3, Iron Promise Acceptor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F05E8513B9A3BA9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1579FC2F6F6F17F8",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:promise_efficiency_0"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "186AB3404327DB7E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1201A8747390F3B0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.58708d,
+      "y": 6.96653d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1712CD4B0B459D9B",
+      "title": "Promise of Velocity",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:promise_speed_0"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Promise of Velocity. Item inputs include Bowl of Promises: Tier 1, Bowl of Promises: Tier 2, Bowl of Promises: Tier 3, Iron Promise Acceptor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F05E8513B9A3BA9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C8EC559E70D803A",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:promise_speed_0"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1297E1AE279A3D81",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14F755492B679C13",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.98477d,
+      "y": 9.33946d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "160B62105E015730",
+      "title": "Purifier",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:purifier"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Purifier. Item inputs include Hardened Blood Shard, Dark Gem, Blood Infusion Core, Dark Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F05E8513B9A3BA9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E7EE1B3BA362741",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:purifier"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10AE9E921D3A5302",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C156B14A0439F83",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.15139d,
+      "y": 8.09222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13E114D5EF9F3EB2",
+      "title": "Sanguinary Environmental Acc.",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:sanguinary_environmental_accumulator"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Sanguinary Environmental Acc.. Item inputs include Environmental Accumulation Core, Garmonbozia, Blood Infusion Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B92213451F83AEF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B5989D2F180A78C",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:sanguinary_environmental_accumulator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10D4B50457E74875",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12B8CC9CF23DE44E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.7625d,
+      "y": 4.79153d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CA34E07145573CF",
+      "title": "Sanguinary Pedestal",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:sanguinary_pedestal_0"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Sanguinary Pedestal. Item inputs include Dark Gem, Dark Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114946B408ADF2A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18CF833396B58282",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:sanguinary_pedestal_0"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E47EFC3B4F7BC3C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16D5E60C1481A771",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.60766d,
+      "y": 14.19581d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A69FD1BADAB044",
+      "title": "Sceptre of Thunder",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:sceptre_of_thunder"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Sceptre of Thunder. Item inputs include Dark Gem, Blood Orb, Blaze Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F05E8513B9A3BA9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "162E05DBC7E98EE0",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:sceptre_of_thunder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B6FC3EC04F0481E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A1E7000D918393E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.85306d,
+      "y": 10.50319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13848BF646AFC3DD",
+      "title": "Spikey Claws",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:spikey_claws"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Spikey Claws. Item inputs include Spike. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114946B408ADF2A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E7AB434FF4D45D",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:spikey_claws"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C4569E0439F17BA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D2967767C737418",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.08319d,
+      "y": 17.375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "128DF98E6B827798",
+      "title": "Spirit Furnace",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:spirit_furnace"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Spirit Furnace. Item inputs include Dark Blood Brick, Blood Infusion Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1871FC558A96E807"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "191728FCF1EEF1F0",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:spirit_furnace"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "110733D9479DBD72",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14D6281FD0D67A10",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.90597d,
+      "y": 8.13556d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19E2DF464B893F8D",
+      "title": "Spirit Reanimator",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:spirit_reanimator"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Spirit Reanimator. Item inputs include Blood Infusion Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "128DF98E6B827798"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E2DEEAC7626305",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:spirit_reanimator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18E59F5E85AF429E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1827722AC9E88539",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.60278d,
+      "y": 8.72889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1171CD79B1263C77",
+      "title": "Undead Sapling",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:undead_sapling"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Obtain Undead Sapling and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1B7EB97586E7572F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB62EF172FEAC3B",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:undead_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10FDCF90F3E4F951",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "179888A864FF4858",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.95639d,
+      "y": 11.94208d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "142C18F4C1BCDF82",
+      "title": "Vengeance Focus",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:vengeance_focus"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Vengeance Focus. Item inputs include Crushed Dark Gem, Vengeance Ring. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10FDC4FB855843DF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B5227C018408F9",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:vengeance_focus"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19F13BB731250C0F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12A6D6CF2E903087",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 15.46389d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10FDC4FB855843DF",
+      "title": "Vengeance Ring",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:vengeance_ring"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Vengeance Ring. Item inputs include Crushed Dark Gem. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114946B408ADF2A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FA9711DBB408FC7",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:vengeance_ring"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CD88A1455FA0309",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14F68BA78FA7E823",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.35363d,
+      "y": 15.20972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DBA4A836E168A6B",
+      "title": "Weather Container",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:weather_container",
+        "components": {
+          "evilcraft:weather_container_type": "EMPTY"
+        }
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Weather Container. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1875EBC26BFB5016"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D3AB13E8905983A",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:weather_container",
+            "components": {
+              "evilcraft:weather_container_type": "EMPTY"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB351C637F4F291",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "132165142F20BB9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.30361d,
+      "y": 18.70694d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FFB9399AB8DD07E",
+      "title": "Blood Infusion Core",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:blood_infusion_core"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Blood Infusion Core. Item inputs include Hardened Blood Shard, Dark Power Gem. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D17E29EC93601FB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "133B49A4CEA5AFE2",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:blood_infusion_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D7EE31FD7BD18B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CEB3DDE831D85F1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.70819d,
+      "y": 11.58597d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1875EBC26BFB5016",
+      "title": "Dark Gem",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:dark_gem"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Dark Gem. Item inputs include Dark Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B3F90026993CF28",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:dark_gem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "144CA9252E4444EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D354A9EF0059047",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.40833d,
+      "y": 17.58194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D17E29EC93601FB",
+      "title": "Dark Power Gem",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:dark_power_gem"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Dark Power Gem. Item inputs include Dark Power Gem Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114946B408ADF2A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CF78B87C82370A2",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:dark_power_gem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "197624E7EF3C6214",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "132465B260BE396D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.045d,
+      "y": 13.28042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "105A0A05E8269EAE",
+      "title": "Blood Chest",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:blood_chest"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Blood Chest. Item inputs include Blood Infusion Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FFB9399AB8DD07E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1B607477BEFE27",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:blood_chest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "186C918365C6914D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1255A0B3A86DE264",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.68264d,
+      "y": 10.67d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FF5152AA59CFCCF",
+      "title": "Colossal Blood Chest",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:colossal_blood_chest"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Colossal Blood Chest. Item inputs include Reinforced Undead Planks, Blood Infusion Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "105A0A05E8269EAE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A61136A606D80E3",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:colossal_blood_chest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1435DAA63894A5C9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D66A923A747D34C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.93625d,
+      "y": 9.79792d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C4B21B264A6DCD9",
+      "title": "Dark Tank",
+      "subtitle": "EvilCraft",
+      "icon": {
+        "id": "evilcraft:dark_tank"
+      },
+      "description": [
+        "Begin with Dark Gems and the Origins of Darkness guide. Blood storage and processing unlock further machinery; check the book for safe collection and the correct infuser tier.",
+        "Craft Dark Tank. Item inputs include Dark Gem. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "114946B408ADF2A5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "131CEC9773630016",
+          "type": "item",
+          "item": {
+            "id": "evilcraft:dark_tank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1355591323EF4C11",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10CDB7A0FB7DA0AD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.08319d,
+      "y": 16.025d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

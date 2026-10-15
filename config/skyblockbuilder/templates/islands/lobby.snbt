@@ -1,0 +1,1916 @@
+{
+  "DataVersion": 3955,
+  "size": [
+    13,
+    11,
+    13
+  ],
+  "data": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        3
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        4
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        5
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        6
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        7
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        8
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        9
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        9
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        10
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        11
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        9
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        9
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "state": "minecraft:grass_block"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        9
+      ],
+      "state": "minecraft:grass_block"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        9
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        9
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        7
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        8
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        9
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        10
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        11
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        12
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        3
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        9
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        3
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        9
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        3
+      ],
+      "state": "minecraft:grass_block"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        9
+      ],
+      "state": "minecraft:grass_block"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        3
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        9
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        3
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        9
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        0
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        0
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        1
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        1
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        2
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        2
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        3
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        3
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        4
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        4
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        5
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        5
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        6
+      ],
+      "state": "minecraft:quartz_block"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        6
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        7
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        7
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        8
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        8
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        9
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        9
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        10
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        10
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        11
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        11
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        12
+      ],
+      "state": "minecraft:smooth_stone"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        12
+      ],
+      "state": "minecraft:glass"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "state": "minecraft:oak_fence"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "state": "minecraft:lantern"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        10
+      ],
+      "state": "minecraft:oak_fence"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        10
+      ],
+      "state": "minecraft:lantern"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        2
+      ],
+      "state": "minecraft:oak_fence"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        2
+      ],
+      "state": "minecraft:lantern"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        10
+      ],
+      "state": "minecraft:oak_fence"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        10
+      ],
+      "state": "minecraft:lantern"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        3
+      ],
+      "state": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        9
+      ],
+      "state": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        3
+      ],
+      "state": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        9
+      ],
+      "state": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        9
+      ],
+      "state": "minecraft:oak_sign{rotation:8,waterlogged:false}",
+      "nbt": {
+        "id": "minecraft:sign",
+        "is_waxed": true,
+        "front_text": {
+          "messages": [
+            "{\"text\": \"Welcome to Afterlight\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"Choose your island\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"/skyblock gui\", \"color\": \"dark_green\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"Default or Skyfactory\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}"
+          ],
+          "color": "black",
+          "has_glowing_text": false
+        },
+        "back_text": {
+          "messages": [
+            "{\"text\": \"Welcome to Afterlight\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"Choose your island\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"/skyblock gui\", \"color\": \"dark_green\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"Default or Skyfactory\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}"
+          ],
+          "color": "black",
+          "has_glowing_text": false
+        }
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        6
+      ],
+      "state": "minecraft:oak_sign{rotation:8,waterlogged:false}",
+      "nbt": {
+        "id": "minecraft:sign",
+        "is_waxed": true,
+        "front_text": {
+          "messages": [
+            "{\"text\": \"Playing with friends?\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"Invite them to your\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"island and FTB party\", \"color\": \"dark_green\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"Quests share by party\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}"
+          ],
+          "color": "black",
+          "has_glowing_text": false
+        },
+        "back_text": {
+          "messages": [
+            "{\"text\": \"Playing with friends?\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"Invite them to your\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"island and FTB party\", \"color\": \"dark_green\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}",
+            "{\"text\": \"Quests share by party\", \"color\": \"black\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/skyblock gui\"}}"
+          ],
+          "color": "black",
+          "has_glowing_text": false
+        }
+      }
+    }
+  ],
+  "palette": [
+    "minecraft:glass",
+    "minecraft:grass_block",
+    "minecraft:lantern",
+    "minecraft:oak_fence",
+    "minecraft:oak_sign{rotation:8,waterlogged:false}",
+    "minecraft:poppy",
+    "minecraft:quartz_block",
+    "minecraft:smooth_stone"
+  ]
+}

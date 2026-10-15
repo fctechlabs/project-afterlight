@@ -1,0 +1,22 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "output": {
+    "id": "eternal_starlight:blue_starlight_crystal_shard",
+    "count": 1
+  },
+  "source": 2000,
+  "pedestalItems": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ]
+}

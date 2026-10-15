@@ -1,0 +1,83 @@
+{
+  "id": "1A24127E2A2E5B50",
+  "filename": "18_end",
+  "title": "The End",
+  "icon": {
+    "id": "minecraft:end_portal_frame"
+  },
+  "group": "15E451C383170371",
+  "order_index": 16,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "168657918F987CD5",
+      "title": "Prepare the Eyes",
+      "subtitle": "Reach the two dimensions",
+      "icon": {
+        "id": "minecraft:ender_pearl"
+      },
+      "description": [
+        "Obtain Ender Pearls through a reachable route, then combine them with Blaze Powder for Eyes of Ender."
+      ],
+      "dependencies": [
+        "14128FA0C5CC7FFD"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1789998248EAEBFA",
+          "type": "item",
+          "item": {
+            "id": "minecraft:ender_pearl"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1168CD22B82F3B65",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1409317FF263FA24",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.02736d,
+      "y": 0.5625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "13D2591ACC6267CC",
+      "linked_quest": "1D39556425082F9D",
+      "x": 0.5625d,
+      "y": 0.5625d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1FA9562C3463929B",
+      "linked_quest": "14128FA0C5CC7FFD",
+      "x": 1.79875d,
+      "y": 0.5625d,
+      "size": 1.0d,
+      "shape": "square"
+    }
+  ],
+  "images": []
+}

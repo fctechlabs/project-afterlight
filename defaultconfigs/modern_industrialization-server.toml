@@ -1,0 +1,3 @@
+# New server worlds do not distribute Modern Industrialization guides automatically.
+spawnWithGuideBook = false
+respawnWithGuideBook = false

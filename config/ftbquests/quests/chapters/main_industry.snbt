@@ -1,0 +1,1448 @@
+{
+  "id": "1649BDF229BE1CBC",
+  "filename": "main_industry",
+  "title": "Chapter 2: First Machines",
+  "icon": {
+    "id": "mekanism:steel_casing"
+  },
+  "group": "1770D93DCD8CF55A",
+  "order_index": 2,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "14128FA0C5CC7FFD",
+      "title": "Blaze Powder from Dust",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:blaze_powder"
+      },
+      "description": [
+        "Dust can provide Blaze Powder without fighting Blazes. This optional resource lesson does not gate your first Blast Furnace. Keep a supply for later Eyes of Ender and other recipes."
+      ],
+      "dependencies": [
+        "1B4CC49AED1916D4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB9A5C9B48D3F64",
+          "type": "item",
+          "item": {
+            "id": "minecraft:blaze_powder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "130F64E3D16EB873",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "196CF329744ABFC7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.75d,
+      "y": -4.25d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1135C51188FE04C8",
+      "title": "Magma Block",
+      "subtitle": "Minecraft",
+      "icon": {
+        "id": "minecraft:magma_block"
+      },
+      "description": [
+        "Use Ex Deorum’s barrel recipe to turn Redstone and Lava into Netherrack. Hammer it into Crushed Netherrack and sieve it for Magma Cream; even a String Mesh works. Combine four Magma Cream into a Magma Block for Blast Bricks. The native Slimeball and Blaze Powder recipe is another option."
+      ],
+      "dependencies": [
+        "1800162D3834E7B9"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "18C21B2D489866B4",
+          "type": "item",
+          "item": {
+            "id": "minecraft:magma_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "131042C13D8E3ABA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1904B8DBE20B666B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.0d,
+      "y": -2.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1476F737A4756855",
+      "title": "Diamond Mesh",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:diamond_mesh"
+      },
+      "description": [
+        "Upgrade again when Diamonds are renewable. Compare Gravel, Sand, and Dust in JEI before committing your entire supply to one material."
+      ],
+      "dependencies": [
+        "1B92BE821DB9381E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1770981BEE7317F9",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:diamond_mesh"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "140E3F163C28ED0B",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D804928AE8855E7",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:dust",
+            "count": 16
+          }
+        },
+        {
+          "id": "1E8C3868014CB6A1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.0d,
+      "y": -4.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BE4E514CE3ADC9F",
+      "title": "Netherite Mesh",
+      "subtitle": "Ex Deorum",
+      "icon": {
+        "id": "exdeorum:netherite_mesh"
+      },
+      "description": [
+        "This is an optional late upgrade. Your first factory can run on Iron and Diamond meshes; Netherite is not a starter requirement."
+      ],
+      "dependencies": [
+        "1476F737A4756855"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16900CBA006EC413",
+          "type": "item",
+          "item": {
+            "id": "exdeorum:netherite_mesh"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17183BC41B511DFE",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1C6C07F8A873FBF8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.0d,
+      "y": -4.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D6FF52835F9BF1",
+      "title": "Engineer's Hammer",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:hammer"
+      },
+      "description": [
+        "The Engineer's Hammer forms multiblocks and adjusts supported machine sides. Use the manual to check the block you must click."
+      ],
+      "dependencies": [
+        "11432DE38F39D5E5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AFAA1C32DDA57F6",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:hammer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13775E0B5C4853BB",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "169979ED1CACFC67",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.0d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1572D330B65F75B5",
+      "title": "Coke Brick",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:cokebrick"
+      },
+      "description": [
+        "Craft 27 Coke Bricks, place them in a 3 x 3 x 3 cube, and form the oven with an Engineer's Hammer."
+      ],
+      "dependencies": [
+        "18D6FF52835F9BF1"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1497DD61267069DF",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:cokebrick"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15263C1368F24C7E",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1943A654326AAF6A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.0d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18854A9ECADFDFDA",
+      "title": "Coal Coke",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:coal_coke"
+      },
+      "description": [
+        "Process Coal in the Coke Oven. Keep both outputs: Coke fuels Steel production, and Creosote treats wood."
+      ],
+      "dependencies": [
+        "1572D330B65F75B5"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "19066736BB79499E",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:coal_coke"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3B9B778DE9A98D",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "165EA670834CC8B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.0d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16998949C7B78F81",
+      "title": "Blast Brick",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:blastbrick"
+      },
+      "description": [
+        "Use Nether materials to craft 27 Blast Bricks. Form the 3 x 3 x 3 structure using the Engineer's Hammer."
+      ],
+      "dependencies": [
+        "18854A9ECADFDFDA",
+        "1135C51188FE04C8"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1808DA739ABE165F",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blastbrick"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C7B7F012A29604D",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1A35E7A314C8B806",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.0d,
+      "y": -2.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1664B91BCE2A623A",
+      "title": "Immersive Engineering Steel",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:ingot_steel"
+      },
+      "description": [
+        "Feed Iron and Coal Coke into the Blast Furnace. Immersive Engineering Steel is one of the two material inputs that open Mekanism Steel Casings."
+      ],
+      "dependencies": [
+        "16998949C7B78F81"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1D66E1EECA8972E5",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:ingot_steel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16E14F073F2D580A",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1AC2F92B2AB85F1D",
+          "type": "item",
+          "item": {
+            "id": "minecraft:glass",
+            "count": 16
+          }
+        },
+        {
+          "id": "182D878BC058231E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.0d,
+      "y": -5.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "143784710561F643",
+      "title": "Treated Wood Planks",
+      "subtitle": "Immersive Engineering",
+      "icon": {
+        "id": "immersiveengineering:treated_wood_horizontal"
+      },
+      "description": [
+        "Use the Coke Oven's Creosote to make Treated Wood. It supplies the Industrial Foregoing Fluid Extractor and useful engineering components."
+      ],
+      "dependencies": [
+        "18854A9ECADFDFDA"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "114049B83887900C",
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:treated_wood_horizontal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16CD0CD870BAE26E",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1B81EA59F725A5B3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.0d,
+      "y": 2.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "197F60AAFF372AF5",
+      "title": "Air Compressor",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:air_compressor"
+      },
+      "description": [
+        "The Air Compressor burns ordinary fuel. This first pressure supply does not need a Mekanism generator."
+      ],
+      "dependencies": [
+        "11A32FB6C6829E93"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "18ABE161C973835B",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:air_compressor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EBE313736E06325",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1696D2158D4D46CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.0d,
+      "y": 2.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12B65AE4C17440D5",
+      "title": "Pressure Tube",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:pressure_tube"
+      },
+      "description": [
+        "Connect the compressor and machines with Pressure Tubes. Stay below the network's safe pressure limit and add control before leaving it unattended."
+      ],
+      "dependencies": [
+        "197F60AAFF372AF5"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1C15E1024FB8581C",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pressure_tube"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A5323618BAEB971",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1778F2F25FBC6F63",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.0d,
+      "y": 2.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F283F1AFD6A0B3F",
+      "title": "Pressure Chamber Wall",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:pressure_chamber_wall"
+      },
+      "description": [
+        "Build the Pressure Chamber multiblock with a valve. Its recipes turn Iron into Compressed Iron without a continuing TNT supply."
+      ],
+      "dependencies": [
+        "12B65AE4C17440D5"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "178BEC51057019E2",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:pressure_chamber_wall"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1970933C93FBE6BA",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1A8CEB1ACE51E155",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.0d,
+      "y": 2.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A32FB6C6829E93",
+      "title": "Compressed Iron Ingot",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "description": [
+        "Make the first batch with the native explosion recipe shown in JEI. It supplies the Compressed Iron needed to build your first compressor and Pressure Chamber; use the chamber for later batches."
+      ],
+      "dependencies": [
+        "11432DE38F39D5E5"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "162644F079D694AC",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:ingot_iron_compressed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DCF92DFCAA495AB",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1433A3A15B83A23B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": 2.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1665F2177B63B95A",
+      "title": "Thermopneumatic Processing Plant",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:thermopneumatic_processing_plant"
+      },
+      "description": [
+        "Use seeds for Vegetable Oil and Sugar with Yeast Culture for Ethanol. JEI shows the temperature and pressure requirements for each plant recipe."
+      ],
+      "dependencies": [
+        "1F283F1AFD6A0B3F"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1893433477B58D0F",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:thermopneumatic_processing_plant"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F22F39B21A4D62D",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1F4EC2A44F84085A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.0d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16EF0C2C3C72215F",
+      "title": "Fluid Mixer",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:fluid_mixer"
+      },
+      "description": [
+        "Feed Vegetable Oil and Ethanol into the Fluid Mixer. Send its Biodiesel to a heated Thermopneumatic Processing Plant with Charcoal."
+      ],
+      "dependencies": [
+        "1665F2177B63B95A"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1A3BF5CD13215328",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:fluid_mixer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1020F89D037C0478",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "137267FC89A758E8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.0d,
+      "y": -2.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9B79A8520219E6",
+      "title": "Heat Frame",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:heat_frame"
+      },
+      "description": [
+        "The plant makes molten Plastic. Use the Heat Frame cooling recipe to turn the fluid into sheets."
+      ],
+      "dependencies": [
+        "16EF0C2C3C72215F"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "197877955B1804E6",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:heat_frame"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11107880E15B8723",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "19717E5F99901EF6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.0d,
+      "y": -2.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1984FD03C72A3DB3",
+      "title": "PneumaticCraft Plastic",
+      "subtitle": "PneumaticCraft",
+      "icon": {
+        "id": "pneumaticcraft:plastic"
+      },
+      "description": [
+        "Keep PneumaticCraft Plastic renewable. Together with Immersive Engineering Steel, it opens the changed Mekanism Steel Casing recipe."
+      ],
+      "dependencies": [
+        "1D9B79A8520219E6"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1596E532AEBD9BCF",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:plastic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC4AC1CA3A53E2A",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "17CF6C74F02487BD",
+          "type": "item",
+          "item": {
+            "id": "minecraft:glass",
+            "count": 16
+          }
+        },
+        {
+          "id": "11E8E1C6568F785C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.0d,
+      "y": -2.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1410ABE6C83BADE1",
+      "title": "Metallurgic Infuser",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:metallurgic_infuser"
+      },
+      "description": [
+        "The Metallurgic Infuser keeps its early recipe. Feed it Iron and the required infusion material to start making circuits and alloys."
+      ],
+      "dependencies": [
+        "11432DE38F39D5E5"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1A545EA4BC8F95D9",
+          "type": "item",
+          "item": {
+            "id": "mekanism:metallurgic_infuser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CDBDBFB3EEF57AF",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1E07AD39977577D0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.0d,
+      "y": 2.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C3CE514427E6A14",
+      "title": "Infused Alloy",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:alloy_infused"
+      },
+      "description": [
+        "Use Redstone in the Metallurgic Infuser to make Infused Alloy. These alloys support circuits and your first machine components."
+      ],
+      "dependencies": [
+        "1410ABE6C83BADE1"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "11DB7ECBCB2F6E20",
+          "type": "item",
+          "item": {
+            "id": "mekanism:alloy_infused"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15D74BF161EBC492",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1582A14FFE32A018",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.5d,
+      "y": 2.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10BF160CAAC32E6D",
+      "title": "Steel Casing",
+      "subtitle": "Mekanism",
+      "icon": {
+        "id": "mekanism:steel_casing"
+      },
+      "description": [
+        "Craft the Steel Casing with Immersive Engineering Steel and PneumaticCraft Plastic. JEI shows the full changed recipe; this opens the casing-based machines."
+      ],
+      "dependencies": [
+        "1664B91BCE2A623A",
+        "1984FD03C72A3DB3"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1FB32F37AF72873A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:steel_casing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF9C1F0DE347ED3",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1E9A7B8AAD10A5FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": -4.0d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C09A2BC8FB0FE49",
+      "title": "Fluid Extractor",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:fluid_extractor"
+      },
+      "description": [
+        "Place a Fluid Extractor against a suitable log. It gathers Latex; a reachable log replacement system keeps the supply renewable."
+      ],
+      "dependencies": [
+        "143784710561F643"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "113F8B3F41E9CD98",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:fluid_extractor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1C48BD225C0E63",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1696A0F6B32B9BF6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.0d,
+      "y": 4.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D4B41F15C254A78",
+      "title": "Latex Bucket",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:latex_bucket"
+      },
+      "description": [
+        "Collect Latex from the Fluid Extractor and route it to the Latex Processing Unit. The processor also needs Water and power."
+      ],
+      "dependencies": [
+        "1C09A2BC8FB0FE49"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "176FC0DB9C6CA6CF",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:latex_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A0473EBC42560CF",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "1CF76F2D4D797C81",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.0d,
+      "y": 5.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B4C76498C9D749",
+      "title": "Latex Processing Unit",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:latex_processing_unit"
+      },
+      "description": [
+        "Feed Latex and Water into the powered Latex Processing Unit. Process the resulting rubber using the recipes."
+      ],
+      "dependencies": [
+        "1C09A2BC8FB0FE49"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1A6856657C6B75D4",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:latex_processing_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10599EB7D1773AC5",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "19DBB5C04795C660",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.5d,
+      "y": 4.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "177914F9597532F7",
+      "title": "Dry Rubber",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:dryrubber"
+      },
+      "description": [
+        "The powered Latex Processing Unit converts Latex and Water into Dry Rubber. Smelt the rubber into Industrial Foregoing Plastic."
+      ],
+      "dependencies": [
+        "19B4C76498C9D749"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AF8A4A1F83BEA33",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:dryrubber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1011C07167574AF9",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "113B907AA9F69982",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.0d,
+      "y": 4.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C27232107CE5427",
+      "title": "Industrial Foregoing Plastic",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:plastic"
+      },
+      "description": [
+        "Make the Plastic sheets from Rubber. These sheets are different from PneumaticCraft Plastic and serve different recipes."
+      ],
+      "dependencies": [
+        "177914F9597532F7"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1CD80D2022B45F4B",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:plastic"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1364E0D4BCDC8697",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "12FAD2F19C4E725F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.5d,
+      "y": 4.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13BB32EE1BE1E624",
+      "title": "Dissolution Chamber",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:dissolution_chamber"
+      },
+      "description": [
+        "Build and power the Dissolution Chamber. Supply the exact fluid amount and ingredient arrangement shown in JEI."
+      ],
+      "dependencies": [
+        "1C27232107CE5427"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "1AFA124ADE6E263D",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:dissolution_chamber"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C15C79693A18060",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "154BD499A3AAD043",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": 4.0d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D220A3F4B042706",
+      "title": "Simple Machine Frame",
+      "subtitle": "Industrial Foregoing",
+      "icon": {
+        "id": "industrialforegoing:machine_frame_simple"
+      },
+      "description": [
+        "Use the chamber's Simple Frame recipe. Keep the previous frame and crafting materials ready before filling the fluid tank."
+      ],
+      "dependencies": [
+        "13BB32EE1BE1E624"
+      ],
+      "optional": false,
+      "tasks": [
+        {
+          "id": "116654885733A6CE",
+          "type": "item",
+          "item": {
+            "id": "industrialforegoing:machine_frame_simple"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "133482848E4FC153",
+          "type": "xp",
+          "xp": 100
+        },
+        {
+          "id": "125103F02C12E6AA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.5d,
+      "y": 4.0d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "118556E6485B4194",
+      "linked_quest": "11432DE38F39D5E5",
+      "x": 0.0d,
+      "y": 0.0d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "1D5B5139AA353DDE",
+      "linked_quest": "1B92BE821DB9381E",
+      "x": 2.0d,
+      "y": -4.0d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "11EE3937E0AB0F58",
+      "linked_quest": "1B4CC49AED1916D4",
+      "x": -6.0d,
+      "y": -4.0d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1750181861502D45",
+      "linked_quest": "1800162D3834E7B9",
+      "x": -5.25d,
+      "y": -4.0d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

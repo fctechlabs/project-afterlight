@@ -1,0 +1,424 @@
+{
+  "id": "1EC9ECB4E566D271",
+  "filename": "tips_and_tricks",
+  "title": "Tips and Tricks",
+  "icon": {
+    "id": "minecraft:recovery_compass"
+  },
+  "group": "",
+  "order_index": 0,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "179372A38B2AEE82",
+      "title": "Recipes and Uses",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "minecraft:crafting_table"
+      },
+      "description": [
+        "Hover an item in JEI and use its Recipes or Uses key. Check the key bindings if R or U is assigned to another mod. Pin a recipe before gathering ingredients."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "111D1F4C76DA4C70",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CD0EC7C83B198E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.72222d,
+      "y": 1.03333d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18070276B600AEF2",
+      "title": "Grow Your Next Tree",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "minecraft:oak_sapling"
+      },
+      "description": [
+        "Repeatedly crouch beside a sapling to help it grow. Keep a planted tree and a spare sapling; use the quest-book emergency items if your last sapling is lost."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A0E74BF5967C674",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BF4B65131B10FC2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.72222d,
+      "y": 0.0d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "130119D4E574BFBD",
+      "title": "Leaves, Saplings, and Silk",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "exdeorum:crook"
+      },
+      "description": [
+        "A Crook improves sapling drops and finds Silkworms. Keep one tree uninfested while another supplies String. Compost spare saplings before Iron Shears are available."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DDFA7414235C488",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D522AFA585EF96A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.86111d,
+      "y": 2.06666d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1502B4B4260B0380",
+      "title": "Excavate Carefully",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "minecraft:iron_pickaxe"
+      },
+      "description": [
+        "FTB Ultimine can break connected blocks while its key is held. Check Controls for the binding, watch hunger, and never excavate the only blocks beneath your feet."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E8EBB97BBCFA4D",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F2529A81CD1000E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.86111d,
+      "y": 0.0d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19A44875D0A7FBFA",
+      "title": "A Safe Platform",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "minecraft:torch"
+      },
+      "description": [
+        "Light your work area and add a railing. Bottom slabs help keep expansion cheap and prevent ordinary hostile spawning on those slab surfaces."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B503EF010235949",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "106D69D92EAC8FA4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.58333d,
+      "y": 1.03333d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13D70ABB09620F40",
+      "title": "Following the Quest Book",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "ftbquests:book"
+      },
+      "description": [
+        "Start with Main Quests: Early Game. Its diamond nodes link to the detailed workshop quests. Mod chapters explain the smaller steps; optional branches are available whenever their recipes are reachable."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E668C4521EB20E5",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "102F180F5527A682",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.86111d,
+      "y": 1.03333d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A046668C81FBC4",
+      "title": "Useful Controls",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "description": [
+        "Search Controls by mod name when a shortcut conflicts. JEI bookmarks, inventory sorting, building tools, and the quest screen all have configurable keys."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A65F0EF782128C3",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1458B4FCE386A5A7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": 2.06666d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18AE7A1435E24544",
+      "title": "Protect Your Work",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "minecraft:map"
+      },
+      "description": [
+        "Use the FTB Chunks map to claim your base. Force-load only chunks that must run while you are away; keep inactive farms and machines unloaded when possible."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16882E71B8DCA3AD",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13AD2208928ACD5E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.58333d,
+      "y": 2.06666d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1277B95DC48BCE10",
+      "title": "When the Game Stutters",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "minecraft:clock"
+      },
+      "description": [
+        "Spark is included. /spark tps checks the world simulation; /sparkc profiles the client. The testing guide explains how to record a spike. F3 shows FPS and memory usage."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "113CE01EB7A307AF",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FB17443BDBD35F6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": 0.0d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "177F226D0F53ED9B",
+      "title": "Choose Your Own Tools",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "create:cogwheel"
+      },
+      "description": [
+        "Create, Aeronautics, Oritech, Occultism, Psi, and space travel are optional. Use them to build a base you enjoy; the main crafting path does not require them."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "105745F033001D33",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "147CAC41AB68964D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.72222d,
+      "y": 2.06666d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11C46A3387CFB67B",
+      "title": "Resources and Encounters",
+      "subtitle": "Useful things to know",
+      "icon": {
+        "id": "gateways:gate_pearl"
+      },
+      "description": [
+        "The Farming for Blockheads Market sells Menril, Coffee, Canola, Hemp, and Demon's Dream starters. Use sieves, rituals, and the encounter recipes shown in JEI for resources and mobs that a void world cannot generate. Boss drops still require their encounters; there is no terrain Overworld or adventure dimension."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E736636C182F19D",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "197F0BB6570DDDC3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": 1.03333d,
+      "shape": "diamond",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

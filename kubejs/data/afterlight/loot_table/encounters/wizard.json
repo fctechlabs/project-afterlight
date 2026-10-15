@@ -1,0 +1,250 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/additional_ancient_city_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/additional_generic_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/additional_good_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/additional_library_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/additional_treasure_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/battleground/burial_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/battleground/piglin_camp",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/bookshelf_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/catacombs/armory_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/catacombs/coffin_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/catacombs/hidden_trough_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/catacombs/pot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/catacombs/wall_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/citadel/citadel_bookshelf",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/citadel/citadel_tomes",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/citadel/citadel_vault",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/citadel/rampart_chest",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/citadel/rampart_supplies",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/citadel/spawner_reward",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/component_storage",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/evoker_fort",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/evoker_fort/guard_tower",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/filler_storage_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/generic_magic_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/ice_spider_den/basement",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/ice_spider_den/cask",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/ice_spider_den/dungeon",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/ice_spider_den/pot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/ice_spider_den/spawner_reward",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/ice_spider_den/tower",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/impaled_icebreaker/captain_quarters",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/impaled_icebreaker/food_barrel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/magic_bookshelf_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/mangrove_hut",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/mangrove_hut/hidden_potion_storage",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/mangrove_hut/potion_ingredient_storage",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/mountain_tower/ice_barrel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/mountain_tower/mountain_tower",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/priest_house",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/pyromancer_tower/burnt_chest",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/pyromancer_tower/fire_ale_cask",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/pyromancer_tower/fire_ale_trove",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/pyromancer_tower/old_cask",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/pyromancer_tower/pot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/pyromancer_tower/pyromancer_basic_storage",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/pyromancer_tower/pyromancer_supplies",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/sewer_loot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/wheat",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AMA",
+    "MCM",
+    "AMA"
+  ],
+  "key": {
+    "A": {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    },
+    "M": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "C": {
+      "item": "ironfurnaces:upgrade_vibranium"
+    }
+  },
+  "result": {
+    "id": "ironfurnaces:upgrade_unobtainium",
+    "count": 1
+  }
+}

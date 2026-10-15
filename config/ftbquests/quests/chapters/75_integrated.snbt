@@ -1,0 +1,1256 @@
+{
+  "id": "13E613EDD94C9D4F",
+  "filename": "75_integrated",
+  "title": "Integrated Dynamics",
+  "icon": {
+    "id": "integrateddynamics:logic_programmer"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 53,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "11782E6CE7328850",
+      "title": "Part Interface Crafting",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integratedcrafting:part_interface_crafting"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Part Interface Crafting. Item inputs include Crafting Table, Output Variable Transformer, Block of Crystallized Menril, Input Variable Transformer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1762FD716313FA2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1187D2E669862089",
+          "type": "item",
+          "item": {
+            "id": "integratedcrafting:part_interface_crafting"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D83F4D99027A97D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1748819164803245",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.25694d,
+      "y": 4.07639d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "164B0D8E4645A95D",
+      "title": "Generator",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:coal_generator"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Generator. Item inputs include Energy Battery, Furnace. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D83CA0F35D08F17"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18A6CD0F6F4D9CA5",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:coal_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1807E6648817B0E5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DD0642908D8927A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.48333d,
+      "y": 6.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E97D3B2551ECC0A",
+      "title": "Drying Basin",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:drying_basin"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Drying Basin. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "166D434F83EE36E3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F1208E7DBE898E",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:drying_basin"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18CA8B3DC945244F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FE09A9EC36761A7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.52778d,
+      "y": 6.02083d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B0D8EC7BDE2941",
+      "title": "Mechanical Drying Basin",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:mechanical_drying_basin"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Mechanical Drying Basin. Item inputs include Energy Battery, Drying Basin. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D83CA0F35D08F17"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "187D89A19E8E017E",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:mechanical_drying_basin"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1106539FBB17E8D7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "114756C03EFAA6F8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.83333d,
+      "y": 7.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17AC488E2AA12FCC",
+      "title": "Mechanical Squeezer",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:mechanical_squeezer"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Mechanical Squeezer. Item inputs include Energy Battery, Squeezer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D83CA0F35D08F17"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A01EB23083455D2",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:mechanical_squeezer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "144550D5136E5376",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E79F4EFD863D775",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.18333d,
+      "y": 6.74306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1397CC63388369D2",
+      "title": "Menril Berries",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:menril_berries"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Use Extractor processing to make Menril Berries. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C4ABC75CB08389C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1941AAEF509EC6F3",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:menril_berries"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "171714D5D52B9ADC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "171FD486E4A5CA09",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.52778d,
+      "y": 7.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C4ABC75CB08389C",
+      "title": "Menril Sapling",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:menril_sapling"
+      },
+      "description": [
+        "Obtain and grow a Menril Sapling. Squeeze Menril Logs for resin, dry the resin into Crystallized Menril Chunks, then build the first network. JEI shows Afterlight’s skyblock sapling recipe."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1152CCFC003B3A0B",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:menril_sapling"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "143EBCE16510748F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D2F7DE54B72CA36",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 6.72917d,
+      "shape": "gear",
+      "size": 1.25d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "166D434F83EE36E3",
+      "title": "Squeezer",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:squeezer"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Squeezer. Item inputs include Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C4ABC75CB08389C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E8832A8E328309",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:squeezer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14C3D58096C5E4BB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E2C692369BD7926",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.2122d,
+      "y": 6.32374d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18EB1C050E9DEB54",
+      "title": "Variable Card",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:variable"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Variable Card. Item inputs include Crystallized Menril Chunk, Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1762FD716313FA2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C848504975A4E01",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:variable"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13269E5441B2A547",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EBB594920C900BA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.60417d,
+      "y": 3.10417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A9263215F9DEEA5",
+      "title": "Input Variable Transformer",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:variable_transformer_input"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Input Variable Transformer. Item inputs include Variable Card, Crystallized Menril Chunk, Sticky Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18EB1C050E9DEB54"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15F4D094BBD8B576",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:variable_transformer_input"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1036A46439FEDEB6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B60FFF6C0708D8E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.68056d,
+      "y": 3.82639d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FAD7D9507D2ACFB",
+      "title": "Output Variable Transformer",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:variable_transformer_output"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Output Variable Transformer. Item inputs include Variable Card, Crystallized Menril Chunk, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18EB1C050E9DEB54"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E066C1F99E5B7C9",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:variable_transformer_output"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1590ABB98FCBBEBA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6D5AACED23BCAC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.36498d,
+      "y": 2.44874d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12ABE8A7EE99E11F",
+      "title": "Variable Store",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:variablestore"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Variable Store. Item inputs include Crystallized Menril Chunk, Block of Crystallized Menril. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1762FD716313FA2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "110423535EF8C5CC",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:variablestore"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16DD4AA42967A851",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17B23EA342459DE2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.25694d,
+      "y": 2.86806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "195D6310B04B0C3E",
+      "title": "Wrench",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:wrench"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Wrench. Item inputs include Crystallized Menril Chunk. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18E5415DD07BEA2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1523FEFA4DEC48CE",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:wrench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "130150B75CA1AC49",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12D784497ACF7355",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.53056d,
+      "y": 5.3125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "199B758AD515186C",
+      "title": "Menril Bee",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "productivebees:configurable_honeycomb",
+        "components": {
+          "productivebees:bee_type": "productivebees:menril"
+        }
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Breed or convert the Menril Bee using its JEI bee recipes. Provide its flowering block, then collect its specific Honeycomb. This goal checks Menril Bee combs; ordinary honeycomb does not count."
+      ],
+      "dependencies": [
+        "18E5415DD07BEA2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19D35B65FCE2B302",
+          "type": "item",
+          "item": {
+            "id": "productivebees:configurable_honeycomb",
+            "components": {
+              "productivebees:bee_type": "productivebees:menril"
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1352E08A64D38455",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1072B8CFE4530A43",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.68056d,
+      "y": 5.8125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18E5415DD07BEA2C",
+      "title": "Crystallized Menril Chunk",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:crystalized_menril_chunk"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Crystallized Menril Chunk. Item inputs include Block of Crystallized Menril. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E97D3B2551ECC0A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C6EA746AEFB0410",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:crystalized_menril_chunk"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A2D5F615089A5A1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C60E42BB40370E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.84336d,
+      "y": 5.71792d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D83CA0F35D08F17",
+      "title": "Energy Battery",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:energy_battery"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Energy Battery. Item inputs include Crystallized Menril Chunk, Block of Crystallized Menril. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18E5415DD07BEA2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "136EABC305D109C0",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:energy_battery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F287F92CC3B597C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10F35AD060460426",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.18056d,
+      "y": 6.74306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19E706725CAE12B8",
+      "title": "Part Terminal Crafting Job",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integratedterminals:part_terminal_crafting_job"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Part Terminal Crafting Job. Item inputs include Menril Glass, Part Display Panel, Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11782E6CE7328850"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D645D6A2A81E1D7",
+          "type": "item",
+          "item": {
+            "id": "integratedterminals:part_terminal_crafting_job"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F4223C532253EC6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10458857A28F40B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75694d,
+      "y": 4.07639d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1762FD716313FA2E",
+      "title": "Logic Programmer",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:logic_programmer"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Logic Programmer. Item inputs include Portable Logic Programmer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E88406525C78A9C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19DCB409218FE195",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:logic_programmer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FB22F998761AF06",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "130324567179994D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.75694d,
+      "y": 2.86806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AAE39FBA2628EDA",
+      "title": "Portable Logic Programmer",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:portable_logic_programmer"
+      },
+      "description": [
+        "Use Variable Cards to read values and control a network. Program the expression first, then attach the correct reader or writer and check the live result.",
+        "Craft Portable Logic Programmer. Item inputs include Logic Programmer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1762FD716313FA2E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11711B79F39F0B78",
+          "type": "item",
+          "item": {
+            "id": "integrateddynamics:portable_logic_programmer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18A2AC17D608DC5B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10A183186F3AAE4D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.25694d,
+      "y": 1.65972d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14D32871961E44F9",
+      "title": "Interfaces",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(integratedtunnels:part_interface_energy)item(integratedtunnels:part_interface_item)item(integratedtunnels:part_interface_fluid))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "18EB1C050E9DEB54"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(integratedtunnels:part_interface_energy)item(integratedtunnels:part_interface_item)item(integratedtunnels:part_interface_fluid))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1DFE41038BA402AD",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1760BFFB6559504A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.83056d,
+      "y": 5.0625d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D8B70C5CC3760C1",
+      "title": "Importers",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(integratedtunnels:part_importer_energy)item(integratedtunnels:part_importer_world_energy)item(integratedtunnels:part_importer_item)item(integratedtunnels:part_importer_world_item)item(integratedtunnels:part_importer_fluid)item(integratedtunnels:part_importer_world_fluid)item(integratedtunnels:part_importer_world_block))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1A9263215F9DEEA5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(integratedtunnels:part_importer_energy)item(integratedtunnels:part_importer_world_energy)item(integratedtunnels:part_importer_item)item(integratedtunnels:part_importer_world_item)item(integratedtunnels:part_importer_fluid)item(integratedtunnels:part_importer_world_fluid)item(integratedtunnels:part_importer_world_block))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "106A713E617D9AD0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "135F07E1489E81C2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.75694d,
+      "y": 4.07639d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FF16BE4CB8DFE66",
+      "title": "Exporters",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(integratedtunnels:part_exporter_energy)item(integratedtunnels:part_exporter_world_energy)item(integratedtunnels:part_exporter_item)item(integratedtunnels:part_exporter_world_item)item(integratedtunnels:part_exporter_fluid)item(integratedtunnels:part_exporter_world_fluid)item(integratedtunnels:part_exporter_world_block))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1FAD7D9507D2ACFB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(integratedtunnels:part_exporter_energy)item(integratedtunnels:part_exporter_world_energy)item(integratedtunnels:part_exporter_item)item(integratedtunnels:part_exporter_world_item)item(integratedtunnels:part_exporter_fluid)item(integratedtunnels:part_exporter_world_fluid)item(integratedtunnels:part_exporter_world_block))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1BD25E1ADBAB56E9",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13A3303F18A0D709",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.68056d,
+      "y": 2.14583d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E88406525C78A9C",
+      "title": "Networks!",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "components": {
+          "ftbquests:icon": "integrateddynamics:textures/aspect/read/double/thaumcraft/auravis.png"
+        },
+        "id": "ftbquests:custom_icon"
+      },
+      "description": [
+        "Connect Menril-derived Logic Cables and place a reader or interface on the network. Program Variable Cards before adding importers, exporters, and automatic crafting."
+      ],
+      "dependencies": [
+        "14F233B11D1B0FA8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "11EF37DCCCE8CF03",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "166FFADFA0551526",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.49613d,
+      "y": 1.34292d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F706C1B032D2774",
+      "title": "Interface GUI",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:logic_programmer"
+      },
+      "description": [
+        "Learn about Interface GUI in the Integrated Dynamics guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1E88406525C78A9C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1234F8F0D740529A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DFEF0E789C311DC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.75694d,
+      "y": 1.65972d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15F838DCB650D1E0",
+      "title": "Importer \\& Exporter GUI",
+      "subtitle": "Integrated Dynamics",
+      "icon": {
+        "id": "integrateddynamics:logic_programmer"
+      },
+      "description": [
+        "Learn about Importer \\& Exporter GUI in the Integrated Dynamics guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1E88406525C78A9C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "19D10C0B05FE85B2",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D0771D231B46604",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.75694d,
+      "y": 0.45139d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "10DDA32E4B7874DF",
+      "linked_quest": "14F233B11D1B0FA8",
+      "x": 2.10417d,
+      "y": 2.85417d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

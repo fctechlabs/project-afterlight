@@ -1,0 +1,326 @@
+{
+  "id": "153D596D915F1415",
+  "filename": "50a_aeronautics",
+  "title": "Create Aeronautics",
+  "icon": {
+    "id": "simulated:physics_assembler"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 32,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1369AC8A5AF00EC1",
+      "title": "Physics Assembler",
+      "subtitle": "Build and control - optional",
+      "icon": {
+        "id": "simulated:physics_assembler"
+      },
+      "description": [
+        "Build a small test contraption using the Physics Assembler. Hold W over the item for its Ponder tutorial; follow the assembly steps before adding flight components."
+      ],
+      "dependencies": [
+        "1F76C85F6487C1BB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "106BE8932481EA37",
+          "type": "item",
+          "item": {
+            "id": "simulated:physics_assembler"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11C2ECD41446172B",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1D15A3203E3755F3",
+          "type": "item",
+          "item": {
+            "id": "minecraft:oak_planks",
+            "count": 32
+          }
+        },
+        {
+          "id": "17FF7DF055995C9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BF43AE47FF772DB",
+      "title": "Iron Handle",
+      "subtitle": "Build and control - optional",
+      "icon": {
+        "id": "simulated:iron_handle"
+      },
+      "description": [
+        "Handles let you grab and move a simulated contraption. Start with a small platform so you can learn how the physics behaves."
+      ],
+      "dependencies": [
+        "1369AC8A5AF00EC1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E221F86A1777E90",
+          "type": "item",
+          "item": {
+            "id": "simulated:iron_handle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E953799C3EFBA89",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1FB84C7D09660393",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.45139d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F949ECF2527EA8E",
+      "title": "Flight Controls",
+      "subtitle": "Build and control - optional",
+      "icon": {
+        "id": "simulated:linked_typewriter"
+      },
+      "description": [
+        "The Linked Typewriter can control several Redstone Link frequencies. Bind your controls and test their directions while your contraption is still safely parked."
+      ],
+      "dependencies": [
+        "1BF43AE47FF772DB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10C26546B419E8AD",
+          "type": "item",
+          "item": {
+            "id": "simulated:linked_typewriter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1285A6E7EEE38C18",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1A65C87C30AAFC18",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.95139d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C2EC1705A273F89",
+      "title": "Hot Air Envelope",
+      "subtitle": "Take to the sky - optional",
+      "icon": {
+        "id": "aeronautics:white_envelope"
+      },
+      "description": [
+        "Build a hot-air envelope above your platform and use the burner described in Ponder. Keep the first airship small and balance its weight."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AD1CEF5677D13DF",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:white_envelope"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FCE541DED4033B7",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1CF3301400E923A5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.35833d,
+      "y": 1.6875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "138A751E6B757C00",
+      "title": "Hot Air Burner",
+      "subtitle": "Take to the sky - optional",
+      "icon": {
+        "id": "aeronautics:adjustable_burner"
+      },
+      "description": [
+        "Supply the Hot Air Burner with its supported fuel and follow the Ponder setup. Test lift and landing close to a safe platform before flying between islands."
+      ],
+      "dependencies": [
+        "1C2EC1705A273F89"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "166CAA2ED405B6DE",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:adjustable_burner"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198D30AA603C3EA6",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "13E6C4ACEA4523FA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.70833d,
+      "y": 1.6875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E54CB1295F73200",
+      "title": "Wooden Propeller",
+      "subtitle": "Take to the sky - optional",
+      "icon": {
+        "id": "aeronautics:wooden_propeller"
+      },
+      "description": [
+        "Use a Propeller with its matching bearing and rotational supply to add thrust. Aeronautics, its flight components, and its wheels are optional projects."
+      ],
+      "dependencies": [
+        "138A751E6B757C00"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "184612A83B7DF861",
+          "type": "item",
+          "item": {
+            "id": "aeronautics:wooden_propeller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D65BEB643DCA46",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1951D32717BB5F95",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.05833d,
+      "y": 1.6875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "13A25B775D915EA0",
+      "linked_quest": "1F76C85F6487C1BB",
+      "x": 0.45139d,
+      "y": 0.45139d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,3 @@
+# The booklet stays available without appearing after the first ordinary craft.
+[other]
+giveBookletOnFirstCraft = false

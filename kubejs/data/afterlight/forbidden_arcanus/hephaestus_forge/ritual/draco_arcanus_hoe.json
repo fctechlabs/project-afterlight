@@ -1,0 +1,37 @@
+{
+  "essences": {
+    "aureal": 1200,
+    "blood": 2000,
+    "experience": 1500,
+    "souls": 10
+  },
+  "forge_tier": 3,
+  "main_ingredient": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:dragon_scale"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:deorum_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "result": {
+    "type": "forbidden_arcanus:transmute_input",
+    "result_item": "forbidden_arcanus:draco_arcanus_hoe"
+  }
+}

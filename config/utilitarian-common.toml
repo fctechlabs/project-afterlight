@@ -1,0 +1,6 @@
+# Player chat omits specific mod advertisements while logs retain development diagnostics.
+noStartupMessagesEnabled = true
+noStartupMessagesMessages = ["This pack contains Observable", "A new version of Modern Industrialization", "Railcraft Reborn: A new version", "Ars Nouveau adds built in dynamic lights", "Thanks for installing Crash Assistant mod!", "If you're installing it into a modpack", "you may configure it in", "Change link to your modpack Discord", "This message won't appear again", "[Warning] Ender IO is in alpha", "JourneyMap: Press"]
+disableRecipeAdvancements = true
+enableDingDongStartupSound = true
+dingDongSound = "entity.experience_orb.pickup"

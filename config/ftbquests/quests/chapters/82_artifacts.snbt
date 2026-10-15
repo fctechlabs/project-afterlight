@@ -1,0 +1,1115 @@
+{
+  "id": "1CFAD9247AD6B9A9",
+  "filename": "82_artifacts",
+  "title": "Artifacts",
+  "icon": {
+    "id": "artifacts:cloud_in_a_bottle"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 60,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "13775773F53B4F3F",
+      "title": "Charm of Sinking",
+      "subtitle": "Artifacts",
+      "icon": {
+        "id": "artifacts:charm_of_sinking",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "sinking": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "air_restore_speed": {
+                      "initialQuality": 4
+                    },
+                    "immortality_delay": {
+                      "initialQuality": 5
+                    },
+                    "resistance_per_block": {
+                      "initialQuality": 5
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find Artifacts through exploration and loot, then equip them in compatible accessory slots. Choose effects that suit travel, combat, or building.",
+        "Obtain Charm of Sinking and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "183E3CF636A1D6B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14846DC1E8277A15",
+          "type": "item",
+          "item": {
+            "id": "artifacts:charm_of_sinking",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "sinking": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "air_restore_speed": {
+                          "initialQuality": 4
+                        },
+                        "immortality_delay": {
+                          "initialQuality": 5
+                        },
+                        "resistance_per_block": {
+                          "initialQuality": 5
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1805C5C319FD8806",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1645FCFD14D51DC1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.0275d,
+      "y": -3.58167d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B9190336B98985",
+      "title": "Cloud in a Bottle",
+      "subtitle": "Artifacts",
+      "icon": {
+        "id": "artifacts:cloud_in_a_bottle",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "jump": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "count": {
+                      "initialQuality": 7
+                    },
+                    "slow_fall_duration": {
+                      "initialQuality": 2
+                    },
+                    "updraft_bonus": {
+                      "initialQuality": 8
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find Artifacts through exploration and loot, then equip them in compatible accessory slots. Choose effects that suit travel, combat, or building.",
+        "Obtain Cloud in a Bottle and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "183E3CF636A1D6B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1E2B717F3948CD",
+          "type": "item",
+          "item": {
+            "id": "artifacts:cloud_in_a_bottle",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "jump": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "count": {
+                          "initialQuality": 7
+                        },
+                        "slow_fall_duration": {
+                          "initialQuality": 2
+                        },
+                        "updraft_bonus": {
+                          "initialQuality": 8
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C41EC42B4F8C96",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F4E61FDCEBE56B0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.99014d,
+      "y": -4.81792d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "122DFEC7F2415B86",
+      "title": "Eternal Steak",
+      "subtitle": "Artifacts",
+      "icon": {
+        "id": "artifacts:eternal_steak",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "meal": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "consume_speed": {
+                      "initialQuality": 9
+                    },
+                    "durability": {
+                      "initialQuality": 3
+                    },
+                    "healing": {
+                      "initialQuality": 3
+                    },
+                    "preservation_chance": {
+                      "initialQuality": 2
+                    },
+                    "regeneration": {
+
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find Artifacts through exploration and loot, then equip them in compatible accessory slots. Choose effects that suit travel, combat, or building.",
+        "Smelt Eternal Steak. Item inputs include Everlasting Beef. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "183E3CF636A1D6B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "120D08C459B61CD7",
+          "type": "item",
+          "item": {
+            "id": "artifacts:eternal_steak",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "meal": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "consume_speed": {
+                          "initialQuality": 9
+                        },
+                        "durability": {
+                          "initialQuality": 3
+                        },
+                        "healing": {
+                          "initialQuality": 3
+                        },
+                        "preservation_chance": {
+                          "initialQuality": 2
+                        },
+                        "regeneration": {
+
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B9267895649E189",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12743010A5AF1E70",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.40097d,
+      "y": -5.09806d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C811FE4FB338DE0",
+      "title": "Everlasting Beef",
+      "subtitle": "Artifacts",
+      "icon": {
+        "id": "artifacts:everlasting_beef",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "meal": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "consume_speed": {
+                      "initialQuality": 3
+                    },
+                    "durability": {
+                      "initialQuality": 3
+                    },
+                    "healing": {
+                      "initialQuality": 1
+                    },
+                    "preservation_chance": {
+                      "initialQuality": 2
+                    },
+                    "regeneration": {
+                      "initialQuality": 5
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find Artifacts through exploration and loot, then equip them in compatible accessory slots. Choose effects that suit travel, combat, or building.",
+        "Obtain Everlasting Beef and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "183E3CF636A1D6B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "160FBEBDDFD5E1E9",
+          "type": "item",
+          "item": {
+            "id": "artifacts:everlasting_beef",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "meal": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "consume_speed": {
+                          "initialQuality": 3
+                        },
+                        "durability": {
+                          "initialQuality": 3
+                        },
+                        "healing": {
+                          "initialQuality": 1
+                        },
+                        "preservation_chance": {
+                          "initialQuality": 2
+                        },
+                        "regeneration": {
+                          "initialQuality": 5
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DA75BB4A9AF44DD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11CF3EAF9C6FFA9A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.00333d,
+      "y": -4.29125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "128A55F555646513",
+      "title": "Helium Flamingo",
+      "subtitle": "Artifacts",
+      "icon": {
+        "id": "artifacts:helium_flamingo",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "flying": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "ranged_damage_bonus": {
+                      "initialQuality": 4
+                    },
+                    "resistance": {
+                      "initialQuality": 9
+                    },
+                    "speed_bonus": {
+
+                    },
+                    "time": {
+                      "initialQuality": 7
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find Artifacts through exploration and loot, then equip them in compatible accessory slots. Choose effects that suit travel, combat, or building.",
+        "Obtain Helium Flamingo and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "183E3CF636A1D6B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E00E51D9A601871",
+          "type": "item",
+          "item": {
+            "id": "artifacts:helium_flamingo",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "flying": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "ranged_damage_bonus": {
+                          "initialQuality": 4
+                        },
+                        "resistance": {
+                          "initialQuality": 9
+                        },
+                        "speed_bonus": {
+
+                        },
+                        "time": {
+                          "initialQuality": 7
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "150C1F22A225CF7D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1524F9E347A76DFF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": -2.77472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1700522A375FA81E",
+      "title": "Night Vision Goggles",
+      "subtitle": "Artifacts",
+      "icon": {
+        "id": "artifacts:night_vision_goggles",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "vision": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "amount": {
+                      "initialQuality": 2
+                    },
+                    "damage_bonus": {
+                      "initialQuality": 4
+                    },
+                    "miss_chance": {
+                      "initialQuality": 5
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find Artifacts through exploration and loot, then equip them in compatible accessory slots. Choose effects that suit travel, combat, or building.",
+        "Obtain Night Vision Goggles and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "183E3CF636A1D6B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11AC464F6FEEE382",
+          "type": "item",
+          "item": {
+            "id": "artifacts:night_vision_goggles",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "vision": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "amount": {
+                          "initialQuality": 2
+                        },
+                        "damage_bonus": {
+                          "initialQuality": 4
+                        },
+                        "miss_chance": {
+                          "initialQuality": 5
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A6C5F11212EF343",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "156942C797AE0672",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.00333d,
+      "y": -1.25828d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19FD570C02E8912E",
+      "title": "Running Shoes",
+      "subtitle": "Artifacts",
+      "icon": {
+        "id": "artifacts:running_shoes",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "runner": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "jump_charge_bonus": {
+                      "initialQuality": 8
+                    },
+                    "max_speed_bonus": {
+
+                    },
+                    "max_step_bonus": {
+                      "initialQuality": 10
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find Artifacts through exploration and loot, then equip them in compatible accessory slots. Choose effects that suit travel, combat, or building.",
+        "Obtain Running Shoes and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "183E3CF636A1D6B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14C0F141968FEB49",
+          "type": "item",
+          "item": {
+            "id": "artifacts:running_shoes",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "runner": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "jump_charge_bonus": {
+                          "initialQuality": 8
+                        },
+                        "max_speed_bonus": {
+
+                        },
+                        "max_step_bonus": {
+                          "initialQuality": 10
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1498D6D0D1AE0C62",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "157C0029D5B7D8DC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.40097d,
+      "y": -0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "183E3CF636A1D6B8",
+      "title": "Your First Artifact",
+      "subtitle": "Artifacts",
+      "icon": {
+        "id": "artifacts:umbrella"
+      },
+      "description": [
+        "Find an Artifact through its skyblock access recipe or loot route. Different artifacts grant different utility effects; the following examples highlight a few useful choices."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DCCCA832FFEECED",
+          "type": "item",
+          "item": {
+            "id": "ftbfiltersystem:smart_filter",
+            "components": {
+              "ftbfiltersystem:filter": "mod(artifacts)"
+            }
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1368C25695942D52",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "149F707B6AFD4329",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.81056d,
+      "y": -2.77472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB580BCB657CFA8",
+      "title": "Whoopee Cushion",
+      "subtitle": "Artifacts",
+      "icon": {
+        "id": "artifacts:whoopee_cushion",
+        "components": {
+          "relics:data": {
+            "abilities": {
+              "abilities": {
+                "push": {
+                  "lock": {
+                    "breaks": 5
+                  },
+                  "points": 0,
+                  "stats": {
+                    "chance": {
+                      "initialQuality": 8
+                    },
+                    "cloud_spawn_chance": {
+                      "initialQuality": 10
+                    },
+                    "cooldown": {
+                      "initialQuality": 6
+                    },
+                    "distance": {
+                      "initialQuality": 9
+                    },
+                    "paralysis_duration": {
+                      "initialQuality": 10
+                    },
+                    "paralysis_radius": {
+                      "initialQuality": 3
+                    },
+                    "retaliation_chance": {
+
+                    }
+                  }
+                }
+              },
+              "synergies": {
+
+              }
+            },
+            "leveling": {
+
+            },
+            "statistic": {
+
+            }
+          }
+        }
+      },
+      "description": [
+        "Find Artifacts through exploration and loot, then equip them in compatible accessory slots. Choose effects that suit travel, combat, or building.",
+        "Obtain Whoopee Cushion and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "183E3CF636A1D6B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E03E48EECE5DD90",
+          "type": "item",
+          "item": {
+            "id": "artifacts:whoopee_cushion",
+            "components": {
+              "relics:data": {
+                "abilities": {
+                  "abilities": {
+                    "push": {
+                      "lock": {
+                        "breaks": 5
+                      },
+                      "points": 0,
+                      "stats": {
+                        "chance": {
+                          "initialQuality": 8
+                        },
+                        "cloud_spawn_chance": {
+                          "initialQuality": 10
+                        },
+                        "cooldown": {
+                          "initialQuality": 6
+                        },
+                        "distance": {
+                          "initialQuality": 9
+                        },
+                        "paralysis_duration": {
+                          "initialQuality": 10
+                        },
+                        "paralysis_radius": {
+                          "initialQuality": 3
+                        },
+                        "retaliation_chance": {
+
+                        }
+                      }
+                    }
+                  },
+                  "synergies": {
+
+                  }
+                },
+                "leveling": {
+
+                },
+                "statistic": {
+
+                }
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F18EE2EBB31E9BE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18F514EEF2828891",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.99014d,
+      "y": -0.73162d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18F22FE0979FA262",
+      "title": "Artifacts",
+      "subtitle": "Artifacts",
+      "icon": {
+        "id": "artifacts:cloud_in_a_bottle"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "183E3CF636A1D6B8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "artifacts:mimic",
+          "type": "kill",
+          "value": 1,
+          "id": "173FB2B15824C4BF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1625A28A3E9369C7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.0275d,
+      "y": -1.96792d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

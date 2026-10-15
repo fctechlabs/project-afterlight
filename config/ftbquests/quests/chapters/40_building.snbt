@@ -1,0 +1,4189 @@
+{
+  "id": "1B07D591240A746E",
+  "filename": "40_building",
+  "title": "Building and Decoration",
+  "icon": {
+    "id": "minecraft:bricks"
+  },
+  "group": "11571B65BE4FCDDE",
+  "order_index": 28,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1092076FDEC7E1A9",
+      "title": "Carpenters Table",
+      "subtitle": "Palettes and shapes",
+      "icon": {
+        "id": "chipped:carpenters_table"
+      },
+      "description": [
+        "Use the Carpenter's Table to turn ordinary wood into a coordinated palette. Start with one wall, floor, and trim combination."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CAA47D6EDD8A67A",
+          "type": "item",
+          "item": {
+            "id": "chipped:carpenters_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1623A796FF2C8EB6",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1EE0BCE3E357F23B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.30905d,
+      "y": 7.40534d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED3C4F154840C47",
+      "title": "Mason Table",
+      "subtitle": "Palettes and shapes",
+      "icon": {
+        "id": "chipped:mason_table"
+      },
+      "description": [
+        "The Mason's Table supplies stone variants. Renewable Cobblestone and smelted Stone make a practical building stock."
+      ],
+      "dependencies": [
+        "1092076FDEC7E1A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DE5A50DAD44BA43",
+          "type": "item",
+          "item": {
+            "id": "chipped:mason_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BDAF8FE51179C3D",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "17FDB781E25FCF5C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.56598d,
+      "y": 8.8424d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "116BE0528FCF2D54",
+      "title": "Swap the block style",
+      "subtitle": "Palettes and shapes",
+      "icon": {
+        "id": "rechiseled:chisel"
+      },
+      "description": [
+        "Use the Chisel to choose Rechiseled variants. Check connected-texture options when testing a repeated wall pattern."
+      ],
+      "dependencies": [
+        "14B7579BBBB9E517"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1637225EDFFA43D1",
+          "type": "item",
+          "item": {
+            "id": "rechiseled:chisel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B137842D156D4C7",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "191B69A3F3C755CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.62788d,
+      "y": -4.59825d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1693118DE30F2A00",
+      "title": "Framed Cube",
+      "subtitle": "Palettes and shapes",
+      "icon": {
+        "id": "framedblocks:framed_cube"
+      },
+      "description": [
+        "Place Framed Blocks and apply your chosen material. Native shapes let you keep the same palette around awkward corners."
+      ],
+      "dependencies": [
+        "14B7579BBBB9E517"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "141CB85477A65892",
+          "type": "item",
+          "item": {
+            "id": "framedblocks:framed_cube"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11BE898DC76002DB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "166C2B5687553C9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.8427d,
+      "y": -1.92986d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "169BE4E489BBC240",
+      "title": "Building Gadget",
+      "subtitle": "Make larger builds manageable",
+      "icon": {
+        "id": "buildinggadgets2:gadget_building"
+      },
+      "description": [
+        "Charge the Building Gadget and select a block you have available. Test the placement preview before extending a platform over the void."
+      ],
+      "dependencies": [
+        "10BB0453D628D650"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E931CF9F6972C9E",
+          "type": "item",
+          "item": {
+            "id": "buildinggadgets2:gadget_building"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D1A7F8BDE9ACAC7",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "10283BE77CA4D895",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.87085d,
+      "y": 0.70058d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "133E3411E0A4A385",
+      "title": "Copy Paste Gadget",
+      "subtitle": "Make larger builds manageable",
+      "icon": {
+        "id": "buildinggadgets2:gadget_copy_paste"
+      },
+      "description": [
+        "Use Copy/Paste for repeatable rooms or factory sections. Keep enough materials available and verify the selected volume."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11870EDC56A3E4B0",
+          "type": "item",
+          "item": {
+            "id": "buildinggadgets2:gadget_copy_paste"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12972D7FB1EC1B54",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "18FB7BB5F1729A69",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.50088d,
+      "y": -3.70125d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B591D42489E773F",
+      "title": "Exchanging Gadget",
+      "subtitle": "Make larger builds manageable",
+      "icon": {
+        "id": "buildinggadgets2:gadget_exchanging"
+      },
+      "description": [
+        "The Exchanging Gadget swaps matching blocks. Test a small section and keep the undo/recovery behavior in mind before changing a whole base."
+      ],
+      "dependencies": [
+        "133E3411E0A4A385"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B857473EAEEC897",
+          "type": "item",
+          "item": {
+            "id": "buildinggadgets2:gadget_exchanging"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "146553E30B816F6F",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1FBE10A881BDE0FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.52757d,
+      "y": -5.02173d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14614D0635336565",
+      "title": "Camera",
+      "subtitle": "Remember the island",
+      "icon": {
+        "id": "exposure:camera"
+      },
+      "description": [
+        "Use Exposure's Camera with the film workflow. Photograph the starter island before your factory replaces the view."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15A19291DA9634D4",
+          "type": "item",
+          "item": {
+            "id": "exposure:camera"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "165677D3B60C9BD4",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1E7B3867477DDD43",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.49756d,
+      "y": -2.37925d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F52A87C3AB22841",
+      "title": "Give the base a gallery",
+      "subtitle": "Remember the island",
+      "icon": {
+        "id": "minecraft:painting"
+      },
+      "description": [
+        "Make a wall for photographs, paintings, and memorable builds. This is an optional building goal with no campaign ingredient."
+      ],
+      "dependencies": [
+        "14614D0635336565"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B5DDA8383D44DCB",
+          "type": "item",
+          "item": {
+            "id": "minecraft:painting"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "161160685BACFD82",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "12DFBC5F8BA102A2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.82288d,
+      "y": -3.17017d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10BB0453D628D650",
+      "title": "Wood Paxel",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mekanismtools:wood_paxel"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use Paxel processing to make Wood Paxel. Item inputs include Wooden Axe, Wooden Pickaxe, Wooden Shovel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16FCE9E3C88AD00C",
+          "type": "item",
+          "item": {
+            "id": "mekanismtools:wood_paxel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D47CED4F5C0858B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195B88CF8DBE0867",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.54639d,
+      "y": 1.62206d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "129B827EC9718C3F",
+      "title": "Vexing Archwood Log",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "ars_nouveau:purple_archwood_log"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Obtain Vexing Archwood Log and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D56B6A8952A2710"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B454267B45D67F",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:purple_archwood_log"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D57A022A5E1F43",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10DFC0287EAAF797",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.33097d,
+      "y": 12.60058d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1691FC9CF09AD2BA",
+      "title": "Dark Oak Blinds",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "beautify:dark_oak_blinds"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Dark Oak Blinds. Item inputs include Stick, Dark Oak Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1366C4B9FD252D28",
+          "type": "item",
+          "item": {
+            "id": "beautify:dark_oak_blinds"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A8F479CD2636D2D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DFDE2B9856D07AE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.17362d,
+      "y": 2.74407d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "168FADA7A7E6D84E",
+      "title": "Reactor Glass (Basic)",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "bigreactors:basic_reactorglass"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Reactor Glass (Basic). Item inputs include Reactor Casing (Basic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E71EBE6CD2E8700"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1933A391762E33DE",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:basic_reactorglass"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BA73A0BAF89D2A8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EA0DF0822B7B62C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.33522d,
+      "y": 7.29182d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "129028C67D2DC3DA",
+      "title": "Cut Paste Gadget",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "buildinggadgets2:gadget_cut_paste"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Cut Paste Gadget. Item inputs include Shears. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14A3F65D653CD56F",
+          "type": "item",
+          "item": {
+            "id": "buildinggadgets2:gadget_cut_paste"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1367A3C31A36220B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DA8BF410C09F3FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.00952d,
+      "y": 3.05471d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EC4DB2B058ADAFC",
+      "title": "Destruction Gadget",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "buildinggadgets2:gadget_destruction"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Destruction Gadget. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F23A28CF4CD3888",
+          "type": "item",
+          "item": {
+            "id": "buildinggadgets2:gadget_destruction"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15A4F6711EF0E6D6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "110E8B74651D5581",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.4023d,
+      "y": 3.75946d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15CCD30B32C95F49",
+      "title": "Alchemy Bench",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "chipped:alchemy_bench"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Alchemy Bench. Item inputs include Crafting Table, Brewing Stand, Enchanting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "109E5EDE77CBE1FB",
+          "type": "item",
+          "item": {
+            "id": "chipped:alchemy_bench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15FADE677FBA0849",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14987BBF1B367010",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.39911d,
+      "y": 6.05835d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10CC06AE6F0E4AEC",
+      "title": "Botanist Workbench",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "chipped:botanist_workbench"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Botanist Workbench. Item inputs include Crafting Table, Stick, Flower Pot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14B7579BBBB9E517"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FCCE7F7141E9960",
+          "type": "item",
+          "item": {
+            "id": "chipped:botanist_workbench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEBE5BF456F4F6D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BCFCB2EE46E9472",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.01913d,
+      "y": 2.09842d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B670C031BF6B230",
+      "title": "Loom Table",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "chipped:loom_table"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Loom Table. Item inputs include Crafting Table, Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15ADC1E187446AFB",
+          "type": "item",
+          "item": {
+            "id": "chipped:loom_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16CB7F052B55C5F4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EEAC7AAB859E662",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.89122d,
+      "y": 1.40878d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D5416ECA612B48F",
+      "title": "Tinkering Table",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "chipped:tinkering_table"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Tinkering Table. Item inputs include Crafting Table, Iron Ingot, Redstone, Redstone Torch. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C82DEB728759E3C",
+          "type": "item",
+          "item": {
+            "id": "chipped:tinkering_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "117CB5BDE3B16F45",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A0BEDE2D6082634",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.6202d,
+      "y": 3.63454d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E16952A2F03B65A",
+      "title": "Chisel",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "chisel:chisel"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Chisel. Item inputs include Iron Ingot, Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14B7579BBBB9E517"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10D72740E5AFC30E",
+          "type": "item",
+          "item": {
+            "id": "chisel:chisel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BE1E881D7D9BE07",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14DD81692C006D87",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.62788d,
+      "y": -0.16577d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "185C88D45FA4DF38",
+      "title": "Black Cloud Glass",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "cloudglass:black_cloud_glass"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Black Cloud Glass. Item inputs include Black Wool. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "182A23EDB9747365",
+          "type": "item",
+          "item": {
+            "id": "cloudglass:black_cloud_glass"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "121DC5E9F9CB0295",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10B68BD0909674BB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.45361d,
+      "y": -0.8172d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18066F6B10DA2214",
+      "title": "Personal Shrinking Device",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "compactmachines:personal_shrinking_device"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Personal Shrinking Device. Item inputs include Atom Enlarging Module, Ender Eye, Atom Shrinking Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BB0453D628D650"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "122F485FE9D27127",
+          "type": "item",
+          "item": {
+            "id": "compactmachines:personal_shrinking_device"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "115AA7B1234D5798",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19D0C604B5B610B1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.86839d,
+      "y": 1.99355d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19CE5F28CFE97412",
+      "title": "Connecting Glass",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "connectedglass:borderless_glass"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Connecting Glass. Item inputs include Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12DC2732077EB0A3",
+          "type": "item",
+          "item": {
+            "id": "connectedglass:borderless_glass"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DA3C9E9D8360F94",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DC770459F3B7593",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.48389d,
+      "y": 2.67687d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11D890E374C91522",
+      "title": "Copper Stick",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "constructionstick:copper_stick"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Copper Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10BB0453D628D650"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13BB4AC87740B9BD",
+          "type": "item",
+          "item": {
+            "id": "constructionstick:copper_stick"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CBE47D272DB44D1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C23C0C2D8C139B1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.62788d,
+      "y": -0.62142d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BD4E3CD283562C0",
+      "title": "Framed Door",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "framedblocks:framed_door"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Framed Door. Item inputs include Framed Cube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13D9590F2F92C25D",
+          "type": "item",
+          "item": {
+            "id": "framedblocks:framed_door"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "105DBF37E0BC0DB5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D34BE899A7BDE83",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.05114d,
+      "y": 1.99405d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A424CEE8086B61",
+      "title": "Framed Fence",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "framedblocks:framed_fence"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Framed Fence. Item inputs include Framed Post. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17DCECDAF5094036",
+          "type": "item",
+          "item": {
+            "id": "framedblocks:framed_fence"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D58BED81FE621CC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D467B868ADD849B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.56826d,
+      "y": 3.90747d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB132AD3FE56879",
+      "title": "Framed Panel",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "framedblocks:framed_panel"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Framed Panel. Item inputs include Framed Cube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B47019ADF65DDB3",
+          "type": "item",
+          "item": {
+            "id": "framedblocks:framed_panel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1502995757C40DD4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1922162B426958BE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.56826d,
+      "y": 0.08063d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1628ED121B61EAA3",
+      "title": "Framed Slab",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "framedblocks:framed_slab"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Framed Slab. Item inputs include Framed Cube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CCBF5F7C9BD286B",
+          "type": "item",
+          "item": {
+            "id": "framedblocks:framed_slab"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14138AEC50B5B5A5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C3496D7DBF3B660",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.8427d,
+      "y": -3.27986d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C74A1A3412B0817",
+      "title": "Framed Slope",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "framedblocks:framed_slope"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Framed Slope. Item inputs include Framed Cube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "166D3033703C3DDF",
+          "type": "item",
+          "item": {
+            "id": "framedblocks:framed_slope"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C215EC0A14C967D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17F0A709A334755A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.1927d,
+      "y": -1.92986d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "135218C7B9DC28D0",
+      "title": "Framed Stairs",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "framedblocks:framed_stairs"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Framed Stairs. Item inputs include Framed Cube. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15F3A623AD877D60",
+          "type": "item",
+          "item": {
+            "id": "framedblocks:framed_stairs"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17982EB82076067B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C8194A6C6BBC18C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.5427d,
+      "y": -1.92986d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B34E35F67B672D5",
+      "title": "Framed Trapdoor",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "framedblocks:framed_trapdoor"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Framed Trapdoor. Item inputs include Framed Slab. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1628ED121B61EAA3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D32C7FFB11E1811",
+          "type": "item",
+          "item": {
+            "id": "framedblocks:framed_trapdoor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1163B270D1B7AE99",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "138C9B405970F5FC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.1927d,
+      "y": -3.27986d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1536FEAAFC31DF8C",
+      "title": "Oak Chair",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "handcrafted:oak_chair"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Oak Chair. Item inputs include Oak Planks, Oak Slab, Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10C80A61E4C49EBA",
+          "type": "item",
+          "item": {
+            "id": "handcrafted:oak_chair"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB26C67771D748B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18687FDF828B7998",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.57258d,
+      "y": 3.51429d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10EED7B7C5276116",
+      "title": "Oak Table",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "handcrafted:oak_table"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Oak Table. Item inputs include Oak Planks, Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CDBF7F5F0C43DEC",
+          "type": "item",
+          "item": {
+            "id": "handcrafted:oak_table"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "129F57779693733D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10A7F705D874588A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.16639d,
+      "y": 1.64881d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E821E6B21CFF435",
+      "title": "Painting",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "immersive_paintings:painting"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Painting. Item inputs include Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "136BFEEDA87879BE",
+          "type": "item",
+          "item": {
+            "id": "immersive_paintings:painting"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD075C0C27611C9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AEF895B5BD33918",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.72769d,
+      "y": -3.74731d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16D963A187FA5228",
+      "title": "Balustrade Blackstone Bridge",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwbridges:balustrade_blackstone_bridge"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use a Stonecutter to make Balustrade Blackstone Bridge. Item inputs include Blackstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "177B364612A4F8A9",
+          "type": "item",
+          "item": {
+            "id": "mcwbridges:balustrade_blackstone_bridge"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11088E25E6B954CC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B93FC8525866750",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.49116d,
+      "y": -5.04868d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15D49ED9EAF8F00F",
+      "title": "Acacia Bark Glass Door",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwdoors:acacia_bark_glass_door"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Acacia Bark Glass Door. Item inputs include Acacia Log, Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17638FCDA02199E5",
+          "type": "item",
+          "item": {
+            "id": "mcwdoors:acacia_bark_glass_door"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1325954FB087D646",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12536F8C2CAB2BE2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.33d,
+      "y": 0.20966d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B0320AEBD92F5E7",
+      "title": "Spruce Barn Glassed Door",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwdoors:spruce_barn_glass_door"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Spruce Barn Glassed Door. Item inputs include Spruce Planks, Glass Pane. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B1F7DB6EC7B3B44"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B81C84CD844D3C",
+          "type": "item",
+          "item": {
+            "id": "mcwdoors:spruce_barn_glass_door"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "119877577443065F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "117745035D0DF964",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.50182d,
+      "y": -1.08822d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E3DE8D82CDE93F1",
+      "title": "Oak Chair",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwfurnitures:oak_chair"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Oak Chair. Item inputs include Oak Log, Oak Slab, Oak Fence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1430D59D0530114C",
+          "type": "item",
+          "item": {
+            "id": "mcwfurnitures:oak_chair"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "152A411ABFB08F0B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D200EC11940282D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.17982d,
+      "y": 1.53166d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11CFB23787BAF812",
+      "title": "Oak Striped Chair",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwfurnitures:oak_striped_chair"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Oak Striped Chair. Item inputs include Oak Log, Oak Slab, Oak Fence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B1F7DB6EC7B3B44"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "173304BC24EA11DB",
+          "type": "item",
+          "item": {
+            "id": "mcwfurnitures:oak_striped_chair"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B0270FD310C413D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "106677CCE07F3018",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.51716d,
+      "y": 1.58233d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A933B2031F99CC4",
+      "title": "Black Lamp",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwlights:black_lamp"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Black Lamp. Item inputs include Redstone Lamp, Black Wool. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "158DA395E54CE2D3",
+          "type": "item",
+          "item": {
+            "id": "mcwlights:black_lamp"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "198628C38445A369",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14EF61C0AC0D5E7D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.48047d,
+      "y": -1.69359d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "160EDB353BCD8EB2",
+      "title": "Green Lamp",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwlights:green_lamp"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Green Lamp. Item inputs include Redstone Lamp, Green Wool. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1214560789BF0926"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A3A444A32DBAE5B",
+          "type": "item",
+          "item": {
+            "id": "mcwlights:green_lamp"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C5C2A9591AA16F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13453AA9A5E145B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.9093d,
+      "y": 8.60916d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "194F7E3BE1228EE2",
+      "title": "Andesite Flagstone",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwpaths:andesite_flagstone"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use a Stonecutter to make Andesite Flagstone. Item inputs include Andesite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10CFDDC601080674",
+          "type": "item",
+          "item": {
+            "id": "mcwpaths:andesite_flagstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13B4C62A81E5D975",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BA01AFF0B54FBD4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.43744d,
+      "y": -3.2959d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19A0FC78522129E4",
+      "title": "Andesite Honeycomb Paving",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwpaths:andesite_honeycomb_paving"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use a Stonecutter to make Andesite Honeycomb Paving. Item inputs include Andesite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B1F7DB6EC7B3B44"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E65CF58D6553339",
+          "type": "item",
+          "item": {
+            "id": "mcwpaths:andesite_honeycomb_paving"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AA836DA436CE00E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "126DBBFB32C6AEB8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.82185d,
+      "y": -1.82075d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1669B006BF85DAFC",
+      "title": "Blackstone Attic Roof",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwroofs:blackstone_attic_roof"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use a Stonecutter to make Blackstone Attic Roof. Item inputs include Blackstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CC05E809BC4B6F2",
+          "type": "item",
+          "item": {
+            "id": "mcwroofs:blackstone_attic_roof"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0EAACE9D00E80D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A96DF743B46897B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.53419d,
+      "y": -3.44637d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F065A5A40D1CCF",
+      "title": "Oak Attic Roof",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwroofs:oak_attic_roof"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Oak Attic Roof. Item inputs include Oak Log, Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B1F7DB6EC7B3B44"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15D8E9B741E2B946",
+          "type": "item",
+          "item": {
+            "id": "mcwroofs:oak_attic_roof"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15F6B6C473362EC1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10EED8FEA344C615",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.00182d,
+      "y": 0.26178d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "196FC87343B75C4F",
+      "title": "Blackstone Balcony",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwstairs:blackstone_balcony"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use a Stonecutter to make Blackstone Balcony. Item inputs include Blackstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "182E97EFBB47EFFB",
+          "type": "item",
+          "item": {
+            "id": "mcwstairs:blackstone_balcony"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CCFDA7D007B96D6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18BCF4C40EB72390",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.56105d,
+      "y": -4.32276d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "175FB769A0CDBF1E",
+      "title": "Acacia Glass Trapdoor",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwtrpdoors:acacia_glass_trapdoor"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Acacia Glass Trapdoor. Item inputs include Acacia Planks, Glass Pane. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152A79BF72B2D82D",
+          "type": "item",
+          "item": {
+            "id": "mcwtrpdoors:acacia_glass_trapdoor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F8CBD239447A0C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ED57791A9ACBFB5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.38372d,
+      "y": -1.54312d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12FA3278B43F119A",
+      "title": "Oak Glass Trapdoor",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwtrpdoors:oak_glass_trapdoor"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Oak Glass Trapdoor. Item inputs include Oak Planks, Glass Pane. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B1F7DB6EC7B3B44"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19913E31636F3CF1",
+          "type": "item",
+          "item": {
+            "id": "mcwtrpdoors:oak_glass_trapdoor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BE663FB36A2F0BE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1561C9F5F0FEF937",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.83588d,
+      "y": -0.47082d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14DE7E0D5D3E97DA",
+      "title": "Oak Planks Four Pane Window",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwwindows:oak_plank_four_window"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Oak Planks Four Pane Window. Item inputs include Window Four Pane Base, Oak Planks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E71EBE6CD2E8700"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16E001B58BF6E316",
+          "type": "item",
+          "item": {
+            "id": "mcwwindows:oak_plank_four_window"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B68C7AC7A4484F1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "189BF9A2C2C2C586",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.74374d,
+      "y": 7.84447d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A867772D922D64",
+      "title": "Diamond Block",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "minecraft:diamond_block"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use Block Casting processing to make Diamond Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BFBB8C68F8176BA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19B7D83423B3D016",
+          "type": "item",
+          "item": {
+            "id": "minecraft:diamond_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "170B76C0D37615B0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17D39BFA78D33111",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.92776d,
+      "y": 3.73592d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E71EBE6CD2E8700",
+      "title": "Glass",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "minecraft:glass"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use a Stonecutter to make Glass. Item inputs include Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BFBB8C68F8176BA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "125A75B42E0626FD",
+          "type": "item",
+          "item": {
+            "id": "minecraft:glass"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17005F8556866323",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19B0C69D345C59E1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.00711d,
+      "y": 6.52041d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11361129D5DE0DB9",
+      "title": "Grass Block",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "minecraft:grass_block"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Grass Block. Item inputs include Moss Block, Manipulation Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E53D2E351D67F7",
+          "type": "item",
+          "item": {
+            "id": "minecraft:grass_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CAB89467732F30A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "161F0625CDF12139",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.05114d,
+      "y": 1.99405d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "132D75130B2331E7",
+      "title": "Netherite Block",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "minecraft:netherite_block"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use Block Casting processing to make Netherite Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10A867772D922D64"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A8E8EDCC11424F1",
+          "type": "item",
+          "item": {
+            "id": "minecraft:netherite_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AA536E1E281CD42",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D84888015FB8692",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.25182d,
+      "y": 3.99929d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B1F7DB6EC7B3B44",
+      "title": "Red Bed",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "minecraft:red_bed"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Red Bed. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E3DE8D82CDE93F1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "172E8F863323E24F",
+          "type": "item",
+          "item": {
+            "id": "minecraft:red_bed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A289B47CA7C6298",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CE0E8D726FCC0C7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.50182d,
+      "y": 0.26178d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "147567D52DA68774",
+      "title": "Spruce Log",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "minecraft:spruce_log"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use Crafting Shaped processing to make Spruce Log. Item inputs include Wood Essence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D56B6A8952A2710"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F9124A1B1DD15CF",
+          "type": "item",
+          "item": {
+            "id": "minecraft:spruce_log"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1774404E616277BC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1467CC70A875C0BC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.00297d,
+      "y": 12.60252d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1228975801883040",
+      "title": "Stone",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "minecraft:stone"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Smelt Stone. Item inputs include Sugar Infused Stone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C3BAB05028E4E8E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10FEE6DB108FA5AB",
+          "type": "item",
+          "item": {
+            "id": "minecraft:stone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159477FC3A04C5A5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "132835E251E176DA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.55146d,
+      "y": 8.61019d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13C14966FE8AC0C2",
+      "title": "Yellow Dye",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "minecraft:yellow_dye"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Yellow Dye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BFBB8C68F8176BA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C154D53D47CA6D2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:yellow_dye"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E715FD0FA988BF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "194A0CFD08CCB3B4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.00459d,
+      "y": 5.05792d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1605C7DB143A1C83",
+      "title": "Inferium Block",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mysticalagriculture:inferium_block"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use Block Casting processing to make Inferium Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10A867772D922D64"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B0B857260B5548A",
+          "type": "item",
+          "item": {
+            "id": "mysticalagriculture:inferium_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "189BBFFE8B1C0858",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B810D011AEE9614",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.59976d,
+      "y": 3.30748d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "186EE95CCFA28C09",
+      "title": "Cyan Plastic Construction Brick™",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "pneumaticcraft:plastic_brick_cyan"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Cyan Plastic Construction Brick™. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13C14966FE8AC0C2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1651D41B21EC5734",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:plastic_brick_cyan"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11EC0AD20C5DC677",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "189DDB2D8FA71F39",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.67659d,
+      "y": 4.62948d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "186E8A99F85C22F8",
+      "title": "Orange Wall Lamp (inverted)",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "pneumaticcraft:wall_lamp_inverted_orange"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Orange Wall Lamp (inverted). Item inputs include Glowstone, Redstone Torch. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1214560789BF0926"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18ABDE5E31F4B1BF",
+          "type": "item",
+          "item": {
+            "id": "pneumaticcraft:wall_lamp_inverted_orange"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BE9F72D2065906D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1270FC38FC70E36D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.85268d,
+      "y": 10.3219d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "194B91B154D0D058",
+      "title": "Time Traveller Log",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "productivetrees:time_traveller_log"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Obtain Time Traveller Log and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1D56B6A8952A2710"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "186C603AA3DD2917",
+          "type": "item",
+          "item": {
+            "id": "productivetrees:time_traveller_log"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E346F9E07B60413",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A89A2E6403040A9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.90295d,
+      "y": 11.48004d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BAA34652493C10F",
+      "title": "Magenta Strengthened Glass",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "railcraft:magenta_strengthened_glass"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Magenta Strengthened Glass. Item inputs include Magenta Dye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E71EBE6CD2E8700"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ACAAFEC161781EF",
+          "type": "item",
+          "item": {
+            "id": "railcraft:magenta_strengthened_glass"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13B5AA5A5DF88F3E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1686B37AE3DAFE99",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.33522d,
+      "y": 5.94182d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EB1083518172963",
+      "title": "Andesite Stepping Stones",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "refurbished_furniture:andesite_stepping_stones"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Use Workbench Constructing processing to make Andesite Stepping Stones. Item inputs include Andesite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DAA3CF121DEDE98",
+          "type": "item",
+          "item": {
+            "id": "refurbished_furniture:andesite_stepping_stones"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D14BC932623A926",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13AA642785506F91",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.4643d,
+      "y": -4.17229d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DD232C485184844",
+      "title": "Illuminant Block(Inverted)",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "simplylight:illuminant_block_on"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Illuminant Block(Inverted). Item inputs include Illuminant Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1214560789BF0926"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ADFD88D1237E3B8",
+          "type": "item",
+          "item": {
+            "id": "simplylight:illuminant_block_on"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A1B67509B364E38",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "111C73C5C7743989",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.17468d,
+      "y": 9.9324d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13988C2E5CEAC422",
+      "title": "Illuminant Column",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "simplylight:lamp_post"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Illuminant Column. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E218A13541DB4FF",
+          "type": "item",
+          "item": {
+            "id": "simplylight:lamp_post"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FB18D620FA8D281",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1111530A7FFD92EE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.71152d,
+      "y": -6.22601d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BFFA65145EC43C7",
+      "title": "Crank",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "supplementaries:crank"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Crank. Item inputs include Stone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "102AE1B9DE5FC21B",
+          "type": "item",
+          "item": {
+            "id": "supplementaries:crank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10C9160DE27FB75A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1877E5F27D9F5AE9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.57722d,
+      "y": -1.84406d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1665773E34D360A5",
+      "title": "Globe",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "supplementaries:globe"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Globe. Item inputs include Sepia Globe, Soap. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1759DB131A9C58F0",
+          "type": "item",
+          "item": {
+            "id": "supplementaries:globe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "158BABBCC3F4EC86",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "112C9749E2BAD2F8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.68466d,
+      "y": -5.34962d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EEEF55B0E27A8CF",
+      "title": "Jar",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "supplementaries:jar"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Jar. Item inputs include Glass. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB7C2D7542AAC4B",
+          "type": "item",
+          "item": {
+            "id": "supplementaries:jar"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "165CA890794FAA39",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B13B5BD0776D66C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.73838d,
+      "y": -7.1024d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1323A2ED03E01391",
+      "title": "Notice Board",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "supplementaries:notice_board"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Notice Board. Item inputs include Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1607E6287725449C",
+          "type": "item",
+          "item": {
+            "id": "supplementaries:notice_board"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "197F75E6A3E5D82F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1344249376F82741",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.29917d,
+      "y": -2.87092d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F9C00FB057152C0",
+      "title": "Pedestal",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "supplementaries:pedestal"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Pedestal. Item inputs include Stone Brick Slab, Stone Bricks, Chiseled Stone Bricks. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "179F041C2FD2C712",
+          "type": "item",
+          "item": {
+            "id": "supplementaries:pedestal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C89AD5D3EF73083",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C5EE3F476830AE6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.75455d,
+      "y": -4.6237d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158FA8CA9ECA4F99",
+      "title": "Pulley Block",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "supplementaries:pulley_block"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Pulley Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18960B03221EABF3",
+          "type": "item",
+          "item": {
+            "id": "supplementaries:pulley_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "112929EF829EE670",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13EC3ED26619960A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.78141d,
+      "y": -5.50009d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17CEC01D1D7C18A1",
+      "title": "Rope",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "supplementaries:rope"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Rope. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12252E795521AE8F",
+          "type": "item",
+          "item": {
+            "id": "supplementaries:rope"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172674946A087C71",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E25A486749B6D57",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.80827d,
+      "y": -6.37648d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1799FEAE8CA718A1",
+      "title": "Sack",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "supplementaries:sack"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Sack. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C67CC55D782B349",
+          "type": "item",
+          "item": {
+            "id": "supplementaries:sack"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1405B1633D046072",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18EEE37D2D24DEF4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.83513d,
+      "y": -7.25287d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1337A07174FF9D81",
+      "title": "Safe",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "supplementaries:safe"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Obtain Safe and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C697334AA2F0E91",
+          "type": "item",
+          "item": {
+            "id": "supplementaries:safe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10BF4C5CE22C4F22",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "185D78F9077A101D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.86199d,
+      "y": -8.12926d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED01B749AF744B0",
+      "title": "Spring Launcher",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "supplementaries:spring_launcher"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Spring Launcher. Item inputs include Slime Block, Sticky Piston, Gunpowder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D2A5A6A907D01E3",
+          "type": "item",
+          "item": {
+            "id": "supplementaries:spring_launcher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120307403EA193E5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F49336D52BFA7E5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.17556d,
+      "y": -3.89778d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11DF89902042D92C",
+      "title": "Mega Torch",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "torchmaster:megatorch"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Mega Torch. Item inputs include Torch. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1214560789BF0926"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12EE7ADF97F5FFD8",
+          "type": "item",
+          "item": {
+            "id": "torchmaster:megatorch"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14BF9D4B13EE8293",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "189EE338D2CB455B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.7302d,
+      "y": 9.72192d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10999DE5793B6DFB",
+      "title": "RGB Viewer",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "xycraft_world:glass_viewer_rgb_white"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft RGB Viewer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E71EBE6CD2E8700"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "185822047A1D0FCD",
+          "type": "item",
+          "item": {
+            "id": "xycraft_world:glass_viewer_rgb_white"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E84ECC3BB4216A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10BD438EE69C6F7F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.68305d,
+      "y": 6.78378d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1866C266C09FCA79",
+      "title": "RGB Lantern Lamp",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "xycraft_world:lamp_lantern_white"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft RGB Lantern Lamp. Item inputs include Kivi. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1214560789BF0926"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB2CF1A1713208F",
+          "type": "item",
+          "item": {
+            "id": "xycraft_world:lamp_lantern_white"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D0396718744ED1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C65A60B70EF06C1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.17468d,
+      "y": 11.2824d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18B65F500A1B4533",
+      "title": "Acacia Glass Kitchen Cabinet",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "mcwfurnitures:acacia_glass_kitchen_cabinet"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Acacia Glass Kitchen Cabinet. Item inputs include Acacia Log, Glass, Cabinet Door. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11361129D5DE0DB9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E0ADCC3F3897C0C",
+          "type": "item",
+          "item": {
+            "id": "mcwfurnitures:acacia_glass_kitchen_cabinet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1600F07A5E406F65",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "174A4900D047AB23",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.35686d,
+      "y": -0.66673d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "158C7524E41F259C",
+      "title": "Lime Iron Tank Valve",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "railcraft:lime_iron_tank_valve"
+      },
+      "description": [
+        "Choose a palette and test a small section before decorating the whole island. Chisel, Rechiseled, and Chipped provide variants; building gadgets and framed blocks help place larger shapes.",
+        "Craft Lime Iron Tank Valve. Item inputs include Lime Dye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13C14966FE8AC0C2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "110E7FBADE083B0B",
+          "type": "item",
+          "item": {
+            "id": "railcraft:lime_iron_tank_valve"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0BB3BD6EEF63E6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "188DDC8A5F600AFE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.94695d,
+      "y": 5.64319d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "188E2F2A4EFF7D16",
+      "title": "Farmer's Delight",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "and(mod(farmersdelight)block())"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1B1F7DB6EC7B3B44"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "and(mod(farmersdelight)block())"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1BA0886CE771AB93",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1844B825547E0BB6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.83916d,
+      "y": 1.31874d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "144A824F41AE8EB9",
+      "title": "Completed Macaw",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "id": "minecraft:bricks"
+      },
+      "description": [
+        "Learn about Completed Macaw in the Building and Decoration guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "160EDB353BCD8EB2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "11318876E81AAC6D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D15D5640B09FF0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.22946d,
+      "y": 8.6104d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B7579BBBB9E517",
+      "title": "Changing Blocks",
+      "subtitle": "Building and Decoration",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(block())"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1DCB0312E8D29911"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(block())"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1195F53026B10B0D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AEE44FE552D5D3E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.50251d,
+      "y": 0.85118d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1C09559C3E777CF1",
+      "linked_quest": "1DCB0312E8D29911",
+      "x": 8.2259d,
+      "y": 1.62204d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1F6C673EB735CF72",
+      "linked_quest": "1D56B6A8952A2710",
+      "x": 9.65297d,
+      "y": 12.60252d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1F7A0CEC62FF4912",
+      "linked_quest": "1C3BAB05028E4E8E",
+      "x": 11.87161d,
+      "y": 8.61217d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1B4C7E6C811F2D1C",
+      "linked_quest": "1214560789BF0926",
+      "x": 5.85268d,
+      "y": 8.9719d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1054CE99735C51A0",
+      "linked_quest": "1BFBB8C68F8176BA",
+      "x": 5.68405d,
+      "y": 5.1984d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

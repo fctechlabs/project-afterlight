@@ -1,0 +1,5575 @@
+{
+  "id": "126A127BE1034E24",
+  "filename": "20_fusion",
+  "title": "Draconic Evolution",
+  "icon": {
+    "id": "draconicevolution:awakened_core"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 18,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "18ABBED5B2457690",
+      "title": "Chaotic Bow",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:chaotic_bow"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Chaotic Bow. Item inputs include Draconic Bow, Chaotic Core, Chaotic Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA15A21CD57149A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E61F6866E9B480C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15CB73D6F2B1E6E7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16862C3BF9B38EAC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.53622d,
+      "y": -0.39693d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CD860F25D881B96",
+      "title": "Chaotic Pickaxe",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:chaotic_pickaxe"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Chaotic Pickaxe. Item inputs include Draconic Pickaxe, Chaotic Core, Chaotic Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA15A21CD57149A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "191817E7265681FF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "148EA0494EA6EDE8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FA97EFB52BD77D2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.54373d,
+      "y": -1.71737d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1708B23E953FFD78",
+      "title": "Chaotic Staff of Power",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:chaotic_staff"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Chaotic Staff of Power. Item inputs include Chaotic Core, Small Chaos Fragment, Chaotic Pickaxe, Chaotic Sword. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CD860F25D881B96"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C2952BDEA60A113",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12B35445CCC71472",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C2976F02D00CDF1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.86573d,
+      "y": -1.71783d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AAE7E5CE21BE5A8",
+      "title": "Draconic Bow",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:draconic_bow"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Draconic Bow. Item inputs include Wyvern Bow, Wyvern Core, Draconic Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1100E94ED880BEF0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E28B30B08F51EE3",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A3D9DF08B6591C3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15DF04FCF686941D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.22119d,
+      "y": -4.16616d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "157C3E62CD35D63D",
+      "title": "Draconic Pickaxe",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:draconic_pickaxe"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Draconic Pickaxe. Item inputs include Wyvern Pickaxe, Wyvern Core, Draconic Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1100E94ED880BEF0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11473E49E6393353",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12B66D1AE1D1E03A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10525343E8AD7A4C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.45733d,
+      "y": -4.89678d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1160DF1D8DDF4EAD",
+      "title": "Draconic Staff of Power",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:draconic_staff"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Draconic Staff of Power. Item inputs include Draconic Core, Draconic Pickaxe, Draconic Sword, Draconic Shovel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1100E94ED880BEF0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F3E98D1A02C5164",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A472617377B3738",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1074DB5E9249F6DD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.49237d,
+      "y": -7.27588d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1598F9FA69CCBD56",
+      "title": "Wyvern Bow",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:wyvern_bow"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Wyvern Bow. Item inputs include Bow, Draconium Core, Basic Energy Relay Crystal, Wyvern Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "110B5A26626620ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "133844C5E2ADF9D4",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1138A746A947C598",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B1467528BBCB871",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.88116d,
+      "y": -2.41848d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AEDADD9049ADC8F",
+      "title": "Wyvern Pickaxe",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:wyvern_pickaxe"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Wyvern Pickaxe. Item inputs include Diamond Pickaxe, Draconium Core, Basic Energy Relay Crystal, Wyvern Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "110B5A26626620ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145B86ED1D9BCA14",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10B1E206C2EDDE97",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10B26EE7F7E1C9E5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.23622d,
+      "y": 2.30307d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1100E94ED880BEF0",
+      "title": "Draconic Fusion Crafting Injector",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:awakened_crafting_injector"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Draconic Fusion Crafting Injector. Item inputs include Wyvern Fusion Crafting Injector, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "110B5A26626620ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "192CA51FA31F40D8",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_crafting_injector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15654DDE4F02CB33",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1398E60BD8DA0006",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.70457d,
+      "y": -5.4134d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18A0DE8667415F24",
+      "title": "Chaos Shard",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:chaos_shard"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaos Shard. Item inputs include Large Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C45A4CBBDDE6105"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15C5FD3D6CE29576",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaos_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3A987788F1A721",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E007902443A51D7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.94099d,
+      "y": 6.23543d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BA15A21CD57149A",
+      "title": "Chaotic Fusion Crafting Injector",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:chaotic_crafting_injector"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Chaotic Fusion Crafting Injector. Item inputs include Draconic Fusion Crafting Injector, Large Chaos Fragment, Dragon Egg. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1100E94ED880BEF0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130AFEA5F56221AC",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_crafting_injector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D7B7CB14EBCDBA5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "173AEFD552E964C3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.5724d,
+      "y": -2.2634d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E3E9ED7779BD04A",
+      "title": "Energy Pylon",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:energy_pylon"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Energy Pylon. Item inputs include Ender Eye, Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14D4BA9DB12CD2EE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13397C572BE5A4CD",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:energy_pylon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17AE5A47967478FF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15F68561427A1446",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.02974d,
+      "y": 8.93666d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "186E0D82E94B426B",
+      "title": "Energy Transfuser",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:energy_transfuser"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Energy Transfuser. Item inputs include Energy Core Stabilizer, Draconium Core, Enchanting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17FA34CA0E9AE827"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "132CDE12DDB29FDA",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:energy_transfuser"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1986A75F0AB073F0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FFCE86AB346FB22",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.59893d,
+      "y": 6.29606d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C0009596CBA7740",
+      "title": "Flux Gate",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:flux_gate"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Flux Gate. Item inputs include Potentiometer, Draconium Core, Comparator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11F46035CA4B842A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1867797EBF693A3B",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:flux_gate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1596F9B02C30751C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1264C5B9BB9E8F01",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.37231d,
+      "y": 4.97465d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E8FF694B2CC02BC",
+      "title": "Draconium Infused Obsidian",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:infused_obsidian"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconium Infused Obsidian. Item inputs include Blaze Powder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AFC68AB9369F0D5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16CA4FBDF5B59FCF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:infused_obsidian"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11ACE32A07EC3FA4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B4BF4B8780D6A6F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.24099d,
+      "y": 6.23543d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1666890E2788A83B",
+      "title": "Chaotic AOE Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_aoe"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic AOE Module. Item inputs include Draconic AOE Module, Chaotic Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18D2EE6B8A9D62C0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10C2FFC010D8FDC1",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_aoe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5A756B65A18D8F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "164CB4B1953DD7FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.11285d,
+      "y": 12.15951d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "138A9A842CAA2DFB",
+      "title": "Chaotic Damage Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_damage"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Damage Module. Item inputs include Draconic Damage Module, Draconic Core, Small Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11395A10790650A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12A811649080FC99",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BB41388891FE53F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B6B0DB01577287E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.13901d,
+      "y": -9.54267d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17EE5556BB3F03D1",
+      "title": "Chaotic Energy Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_energy"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Energy Module. Item inputs include Draconic Energy Module, Draconic Core, Small Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1323438292303F6F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A8BE27A75F59AC3",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FF20E8838AD5337",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140AF020EB10D914",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.82466d,
+      "y": 7.78282d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D5BCCCE47CC9E37",
+      "title": "Chaos-Entangled Quantum Energy Tunnel",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_energy_link"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaos-Entangled Quantum Energy Tunnel. Item inputs include Chaotic Core, End Crystal, Quantum Energy Tunnel, Draconic Wireless Energy Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DB4478470A2DF28"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10D088698CC4B493",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_energy_link"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B4B29A1998437A5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C7735EA31E1D55F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.25719d,
+      "y": 6.9186d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14ACACBF80D46C4D",
+      "title": "Chaotic Flight Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_flight"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Flight Module. Item inputs include Draconic Core, Draconic Flight Module, Large Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "10781CBA50B763CE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A8014BE51995DCE",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_flight"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11DDC7A8AD5B73BD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13C3A26200EB552E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.35031d,
+      "y": 3.86445d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14EA990C0951425B",
+      "title": "Chaotic Jump Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_jump"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Jump Module. Item inputs include Draconic Jump Module, Draconic Core, Small Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13CF3020FC97A46E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "154ADC72298C4584",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_jump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "123D36AC582419B2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15A8DC94715ECDB7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -12.11557d,
+      "y": 1.03788d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A2183DAAC09AF75",
+      "title": "Chaotic Large Shield Capacity Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_large_shield_capacity"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Large Shield Capacity Module. Item inputs include Chaotic Shield Capacity Module, Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19BEA92A1CA04D0C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1996930F8F81D837",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_large_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "192DDC0DE49A796B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EAA5DE985BC8B3F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.77178d,
+      "y": -5.78489d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11D9FFC8249A9734",
+      "title": "Chaotic Projectile Accuracy Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_proj_accuracy"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Projectile Accuracy Module. Item inputs include Draconic Projectile Accuracy Module, Draconic Core, Small Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FD15D792617EB11"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "101BFA7224C6F1DE",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_proj_accuracy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "183904B240EA7C4B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FB3A5E4FB00A454",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.59227d,
+      "y": 9.89413d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BAFFEA2A69F823E",
+      "title": "Chaotic Projectile Damage Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_proj_damage"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Projectile Damage Module. Item inputs include Draconic Projectile Damage Module, Draconic Core, Small Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11A88AB3FC9F854B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "172D0577BB3815B1",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_proj_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E79B877FA0F38EC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A9E21F97D1B909E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.85494d,
+      "y": -5.18964d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15B19920292C66F1",
+      "title": "Chaotic Projectile Gravity Compensation Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_proj_grav_comp"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Projectile Gravity Compensation Module. Item inputs include Draconic Projectile Gravity Compensation Module, Draconic Core, Small Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "16F6541B0F6C1C1E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D9DCD8FB9457ED0",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_proj_grav_comp"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D7EFAFE251C61EE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CF519E2F3D981CE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.13088d,
+      "y": -9.43249d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1776C93B8A640F9C",
+      "title": "Chaotic Projectile Penetration Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_proj_penetration"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Projectile Penetration Module. Item inputs include Draconic Projectile Penetration Module, Draconic Core, Small Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19B0D7CABBEE58B1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "171776244E3EC3A4",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_proj_penetration"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEE82FBCFFC07FB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18E746363CDA88CB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.38346d,
+      "y": 8.67141d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1460BF3987019152",
+      "title": "Chaotic Projectile Velocity Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_proj_velocity"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Projectile Velocity Module. Item inputs include Draconic Projectile Velocity Module, Draconic Core, Small Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13A0252B8EA12EDD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1835F742FF255831",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_proj_velocity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1123170C39B04C1B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1686572CF6E7CEA6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.44976d,
+      "y": -10.23756d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11FB4312FAF5359C",
+      "title": "Chaotic Shield Capacity Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_shield_capacity"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Shield Capacity Module. Item inputs include Chaotic Large Shield Capacity Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11A7F36382282745"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D0621F77513CF9B",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "125168C7605920D0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B2EA1B7C9C93E67",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.25666d,
+      "y": -6.27045d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10F4943471AA1446",
+      "title": "Chaotic Shield Control Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_shield_control"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Shield Control Module. Item inputs include Chaotic Core, Draconic Shield Control Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15E701D3E8D527C8"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "129EA0EEB6F52B1B",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_shield_control"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16414B898E725E66",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "194EC20381BE743A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.03547d,
+      "y": 9.84182d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DCC25B178D3838C",
+      "title": "Chaotic Shield Recovery Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_shield_recovery"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Shield Recovery Module. Item inputs include Large Chaos Fragment, Draconic Shield Recovery Module, Wyvern Core, Draconic Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "123B70B23F021052"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D2CF76E276AD185",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_shield_recovery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19D41EE85EF05530",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ADE58B54119D5EC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.86505d,
+      "y": 8.57472d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ADDAF8403968E94",
+      "title": "Chaotic Speed Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_speed"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Speed Module. Item inputs include Draconic Speed Module, Draconic Core, Small Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12F4C8A6A7F08844"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ED30F7CEECFB51D",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_speed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE57037981057DD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B86B14089A06113",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -11.81309d,
+      "y": -2.47555d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A964C1A792ECDB5",
+      "title": "Chaotic Deforestation Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_tree_harvest"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Deforestation Module. Item inputs include Draconium Core, Large Chaos Fragment, Draconic Forest Reduction Assistant, Draconic Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB7774B5B22182D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A88B793C1B25F5E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_tree_harvest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B64493692717161",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "191B9AEF50635776",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.56889d,
+      "y": 3.87923d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E2C713CDEF84114",
+      "title": "Chaotic Undying Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_chaotic_undying"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Chaotic Undying Module. Item inputs include Small Chaos Fragment, Draconic Core, Draconic Undying Module, Enchanted Golden Apple. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1983F7A3C6949456"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C9EF731C858AF5A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_undying"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E4A44C9A79B986",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F1C6634EEFDBF5B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.24982d,
+      "y": -7.59245d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D2EE6B8A9D62C0",
+      "title": "Draconic AOE Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_aoe"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic AOE Module. Item inputs include Wyvern AOE Module, Draconic Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CBDC4C13C3F2354"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13CBBCA1B640C1EB",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_aoe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16B1ED1F8BCE076D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "174933917AF4375D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.12429d,
+      "y": 10.80955d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19BD6A36A96B1E07",
+      "title": "Draconic Auto Feed Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_auto_feed"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Auto Feed Module. Item inputs include Draconium Core, Wyvern Auto Feed Module, Cookie. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14460D8625BBB41A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18082B35852266CE",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_auto_feed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BD0FDCDCDA32A1B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E80C9596835FA97",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.2504d,
+      "y": -3.30794d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11395A10790650A9",
+      "title": "Draconic Damage Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_damage"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Damage Module. Item inputs include Wyvern Damage Module, Wyvern Core, Dragon Breath. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1EAC0D58865706"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "160FD398A51A6542",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B2834B3E5F69936",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1275784CECA07637",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.24364d,
+      "y": -8.53233d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15F0A0CF2C14F45C",
+      "title": "Filterable Ender Collection Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_ender_collection"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Filterable Ender Collection Module. Item inputs include Draconium Core, Comparator, Ender Collection Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CB36F943BDD5D16"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A701B8EF1BCC27A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_ender_collection"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14149EC130BAE0AF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16428BC18290CF15",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.14014d,
+      "y": -2.13254d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1323438292303F6F",
+      "title": "Draconic Energy Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_energy"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Energy Module. Item inputs include Wyvern Energy Module, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB8919EDBF9BBE3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12C94DDCC83DA380",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D7606B54CEB67F8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15D15203B69728D4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.78493d,
+      "y": 6.92174d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DB4478470A2DF28",
+      "title": "Quantum Energy Tunnel",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_energy_link"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Quantum Energy Tunnel. Item inputs include Draconic Core, End Crystal, Wireless Energy Link, Wyvern Wireless Energy Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CBEEB89FC3AE913"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B88C341E43814E8",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_energy_link"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "151DC3B49B194D65",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AAB228A62B7F6C9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.22161d,
+      "y": 6.05253d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10781CBA50B763CE",
+      "title": "Draconic Flight Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_flight"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Flight Module. Item inputs include Wyvern Core, Wyvern Flight Module, Firework Rocket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "130BF58E95EE512D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "120A2EA6B0C1B266",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_flight"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13B65DCCC67CA000",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FAA6A7D8202E5D8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.11498d,
+      "y": 3.31996d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13CF3020FC97A46E",
+      "title": "Draconic Jump Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_jump"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Jump Module. Item inputs include Wyvern Jump Module, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A1994AE16B88A79"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E24C654BF241C63",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_jump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C1168293B12EAB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BB3CC8BEAC4C468",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -10.7705d,
+      "y": 0.92266d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19BEA92A1CA04D0C",
+      "title": "Draconic Large Shield Capacity Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_large_shield_capacity"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Large Shield Capacity Module. Item inputs include Draconic Shield Capacity Module, Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "140FAEBB8BADBAE0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FAD8E17AB51F9D1",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_large_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1994F803E0E895BD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18D336D50C099952",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.17846d,
+      "y": -4.57226d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FD15D792617EB11",
+      "title": "Draconic Projectile Accuracy Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_proj_accuracy"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Projectile Accuracy Module. Item inputs include Wyvern Projectile Accuracy Module, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17B2B4DB75C25BE5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BB6ED09388482B4",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_accuracy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B73422BB674358B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "150D586C9D4C8ED4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.20023d,
+      "y": 8.6023d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D6B01ED174AE8AD",
+      "title": "Projectile Immunity Cancellation Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_proj_anti_immune"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Projectile Immunity Cancellation Module. Item inputs include Wyvern Core, Module Core, Wither Skeleton Skull. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "124F4B0C9E7661E9",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_anti_immune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5CC194481FED1F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1940D9A3E8D86F57",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.40969d,
+      "y": -2.05965d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A88AB3FC9F854B",
+      "title": "Draconic Projectile Damage Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_proj_damage"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Projectile Damage Module. Item inputs include Wyvern Projectile Damage Module, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17A8E8BF3218E1FF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B4C5C8072E51385",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B0F35CB4217CECF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12A0BFBC7CB74119",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.6988d,
+      "y": -4.49262d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16F6541B0F6C1C1E",
+      "title": "Draconic Projectile Gravity Compensation Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_proj_grav_comp"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Projectile Gravity Compensation Module. Item inputs include Wyvern Projectile Gravity Compensation Module, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12E7BBF1F73779C9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F3C50B10D55A06A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_grav_comp"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12EABA7ED56CF740",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA20414839B6F19",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.57791d,
+      "y": -8.20095d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19B0D7CABBEE58B1",
+      "title": "Draconic Projectile Penetration Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_proj_penetration"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Projectile Penetration Module. Item inputs include Wyvern Projectile Penetration Module, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B23ABA239BE104C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19A59252EE21F6B7",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_penetration"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "173CBFA55B0EA762",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15845CA7F4EDE600",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.64816d,
+      "y": 7.53923d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13A0252B8EA12EDD",
+      "title": "Draconic Projectile Velocity Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_proj_velocity"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Projectile Velocity Module. Item inputs include Wyvern Projectile Velocity Module, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F081052712B4882"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "111FCD1BF4B5A540",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_velocity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11E8590B59004894",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1220B04ADDE1EE46",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.26047d,
+      "y": -8.9009d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A7F36382282745",
+      "title": "Draconic Shield Capacity Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_shield_capacity"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Shield Capacity Module. Item inputs include Draconic Large Shield Capacity Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "105A10E4E302F63E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1937E9CFAA3F3067",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18E2D0129C08DC77",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17C2D1D0770D587C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.94293d,
+      "y": -4.94976d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15E701D3E8D527C8",
+      "title": "Draconic Shield Control Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_shield_control"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Shield Control Module. Item inputs include Draconic Core, Wyvern Shield Control Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F94AE6BB998C3DF"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F6B00DE457CAA86",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_shield_control"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "157AE9B0A1BE18CB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11FEFEE937C2BF7F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.6216d,
+      "y": 8.55682d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123B70B23F021052",
+      "title": "Draconic Shield Recovery Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_shield_recovery"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Shield Recovery Module. Item inputs include Wyvern Shield Recovery Module, Draconium Core, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CC7362D6F28A620"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB63F9DF621D7EF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_shield_recovery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C9F746246B4683A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "102B9F3C5F94893C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.11066d,
+      "y": 7.45516d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12F4C8A6A7F08844",
+      "title": "Draconic Speed Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_speed"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Speed Module. Item inputs include Wyvern Speed Module, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17BCB0A3CA062C23"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AAE30DD95D91A5F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_speed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EBFD4A5715793F3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D0A4CFF8C79245E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -10.5016d,
+      "y": -2.15541d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB7774B5B22182D",
+      "title": "Draconic Forest Reduction Assistant",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_tree_harvest"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Forest Reduction Assistant. Item inputs include Draconium Core, Wyvern Tree Harvester, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C040A8ADB9C0F85"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DDCF2284B18ADF2",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_tree_harvest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15FE8D22F1D0B146",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1960D057B9B1A6FD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.31953d,
+      "y": 3.36776d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1983F7A3C6949456",
+      "title": "Draconic Undying Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconic_undying"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Undying Module. Item inputs include Wyvern Core, Wyvern Undying Module, Draconic Shield Capacity Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11A7F36382282745"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "119C74E149A290E7",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_undying"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18681A110968C443",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1649B82903647CDC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.92782d,
+      "y": -6.46866d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B86B44CD751E61C",
+      "title": "AOE Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconium_aoe"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft AOE Module. Item inputs include Piston, Draconium Core, Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F9B52DCB700DEEB",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_aoe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0B0A0ED15A87A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "102DF9D64C09996E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.14717d,
+      "y": 8.10966d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C62510E33228870",
+      "title": "Auto Feed Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconium_auto_feed"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Auto Feed Module. Item inputs include Cookie, Module Core, Golden Apple, Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15F67B0F372CD8FD",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_auto_feed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EB80D910CAD647D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "161898C987D72568",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.69231d,
+      "y": -2.44414d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "120C20DEBD7746F7",
+      "title": "Damage Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconium_damage"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Damage Module. Item inputs include Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "162367A60A8A5C3F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "154BE79F7074DA7D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1096AF57C239024E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.45288d,
+      "y": -6.51164d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C41287AACEAE5E3",
+      "title": "Energy Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconium_energy"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Energy Module. Item inputs include Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "178891D460E6C96F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F577D67413B73FF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1791A3121345F5C0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.70546d,
+      "y": 5.19957d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "170FE56FC09A5B96",
+      "title": "Jump Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconium_jump"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Jump Module. Item inputs include Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17333B8A808F4EE5",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_jump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18C5555B0291AD04",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12238102B772A268",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -8.08036d,
+      "y": 0.6922d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1431B741601E3345",
+      "title": "Speed Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_draconium_speed"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Speed Module. Item inputs include Clock, Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B704B0429D080B0",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_speed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19194B612AABA277",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19F19095E5A93BD2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.87862d,
+      "y": -1.51513d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CBDC4C13C3F2354",
+      "title": "Wyvern AOE Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_aoe"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern AOE Module. Item inputs include AOE Module, Wyvern Core, Netherite Scrap. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B86B44CD751E61C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "129DD520A50FD91C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_aoe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C65EB3E589FAA90",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C61DA2160DDBCAB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.13573d,
+      "y": 9.4596d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "108D13088CFB2485",
+      "title": "Aqua Adept Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_aqua_adapt"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Aqua Adept Module. Item inputs include Draconium Core, Module Core, Heart Of The Sea, Iron Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AABC46FB6D6645D",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_aqua_adapt"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E1FD31E478F579F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1196BBD689B189C5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.31827d,
+      "y": -0.40427d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14460D8625BBB41A",
+      "title": "Wyvern Auto Feed Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_auto_feed"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Auto Feed Module. Item inputs include Draconium Core, Auto Feed Module, Cookie. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C62510E33228870"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1024215E50957837",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_auto_feed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D304D48C4F9DBF6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B2EE7F8D42F4A44",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.97136d,
+      "y": -2.87604d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FDE167E5843239D",
+      "title": "Auto Fire Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_auto_fire"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Auto Fire Module. Item inputs include Draconium Core, Module Core, Bow, Clock. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19245B00B79A254F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_auto_fire"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B0C79C47B7AF482",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10AF982376DFEB57",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.0d,
+      "y": -3.5d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C1EAC0D58865706",
+      "title": "Wyvern Damage Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_damage"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Damage Module. Item inputs include Damage Module, Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "120C20DEBD7746F7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1909714A943BDFE6",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD3DE0A7C3FBD88",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15D1BCEAA6213A5A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.34826d,
+      "y": -7.52198d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB36F943BDD5D16",
+      "title": "Ender Collection Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_ender_collection"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Ender Collection Module. Item inputs include Ender Eye, Draconium Core, Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19BCF271EA54E277",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_ender_collection"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C3A6F88DE5B4747",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14DBA9316C17E718",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.04911d,
+      "y": -2.03763d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB8919EDBF9BBE3",
+      "title": "Wyvern Energy Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_energy"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Energy Module. Item inputs include Energy Module, Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C41287AACEAE5E3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152EDE73ED639FBF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EC202BA3D6C9266",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12F476BA4C511D7F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.7452d,
+      "y": 6.06065d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CBEEB89FC3AE913",
+      "title": "Wireless Energy Link",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_energy_link"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wireless Energy Link. Item inputs include Wyvern Core, End Crystal, Module Core, Basic Wireless Energy Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1406C3F16B3D68E8",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_energy_link"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B6CD32A706EB005",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1713C05D2FE40606",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.18604d,
+      "y": 5.18645d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "130BF58E95EE512D",
+      "title": "Wyvern Flight Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_flight"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Flight Module. Item inputs include Draconium Core, Module Core, Elytra, Firework Rocket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15D4B2871CD25410",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_flight"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E02EB3CFBC50BBF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1ECF1526873E9659",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.87966d,
+      "y": 2.77547d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CC9F4BC2E40E845",
+      "title": "Hill Step Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_hill_step"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Hill Step Module. Item inputs include Draconium Core, Module Core, Golden Boots, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16ED49F2E16EF485",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_hill_step"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A837CCEB7797A4A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11A89BDA4A01EC25",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.53073d,
+      "y": 3.69552d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A1994AE16B88A79",
+      "title": "Wyvern Jump Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_jump"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Jump Module. Item inputs include Jump Module, Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "170FE56FC09A5B96"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199B4D392EBF9B28",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_jump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "169123D1D376C45E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1598F14292DC427B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.42543d,
+      "y": 0.80743d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "140FAEBB8BADBAE0",
+      "title": "Wyvern Large Shield Capacity Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_large_shield_capacity"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Large Shield Capacity Module. Item inputs include Wyvern Shield Capacity Module, Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "105A10E4E302F63E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "176EC2C35A89289C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_large_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160830C94E9AF873",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FAF6F9FA72BA480",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.58514d,
+      "y": -3.35963d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B692E5826C75175",
+      "title": "Mining Stabilizer Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_mining_stability"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Mining Stabilizer Module. Item inputs include Draconium Core, Module Core, Phantom Membrane, Golden Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C3900810BFF4EED",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_mining_stability"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC01E8FECF5D539",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FA386971A008691",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.92314d,
+      "y": 0.78036d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "116D92FA0F25CBE3",
+      "title": "Night Vision Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_night_vision"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Night Vision Module. Item inputs include Draconium Core, Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F291C9E0A6B6D0D",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_night_vision"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "164D8290211BE4A0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16CDD49E476EB090",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.25788d,
+      "y": 0.94438d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B2B4DB75C25BE5",
+      "title": "Wyvern Projectile Accuracy Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_proj_accuracy"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Projectile Accuracy Module. Item inputs include Draconium Core, Module Core, Target. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14FF943F68E15C79",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_proj_accuracy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AFF939A5F43CC78",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "169B798E46D30941",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.8082d,
+      "y": 7.31048d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17A8E8BF3218E1FF",
+      "title": "Wyvern Projectile Damage Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_proj_damage"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Projectile Damage Module. Item inputs include Draconium Core, Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1390756BF6A3E3B8",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_proj_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB0AC689209BA01",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18B8483169F537FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.54265d,
+      "y": -3.7956d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12E7BBF1F73779C9",
+      "title": "Wyvern Projectile Gravity Compensation Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_proj_grav_comp"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Projectile Gravity Compensation Module. Item inputs include Draconium Core, Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "132997EA74715D67",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_proj_grav_comp"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1094D4580D78CA15",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "131E97A85D4D2A33",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.02493d,
+      "y": -6.96939d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B23ABA239BE104C",
+      "title": "Wyvern Projectile Penetration Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_proj_penetration"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Projectile Penetration Module. Item inputs include Draconium Core, Module Core, Shield. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12DA0DDEE4AAA31C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_proj_penetration"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "184B050EE949D243",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DECD2B305D0AC4F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.91286d,
+      "y": 6.40705d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F081052712B4882",
+      "title": "Wyvern Projectile Velocity Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_proj_velocity"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Projectile Velocity Module. Item inputs include Draconium Core, Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B6BA2CF2BA8DADC",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_proj_velocity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B28216BC23BF7AF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12F3B68C505ACD2D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.07119d,
+      "y": -7.56423d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "105A10E4E302F63E",
+      "title": "Wyvern Shield Capacity Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_shield_capacity"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Shield Capacity Module. Item inputs include Wyvern Large Shield Capacity Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1496495B86A04DFD",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E1114FBE5691FC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F06B165EF7BB035",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.62542d,
+      "y": -3.32205d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F94AE6BB998C3DF",
+      "title": "Wyvern Shield Control Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_shield_control"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Shield Control Module. Item inputs include Wyvern Core, Module Core, Dragon Heart, Particle Generator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C42DDC595B00F05",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_shield_control"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1159BE13129EC5BD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F27CA282E1FF445",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.20773d,
+      "y": 7.27183d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CC7362D6F28A620",
+      "title": "Wyvern Shield Recovery Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_shield_recovery"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Shield Recovery Module. Item inputs include Module Core, Netherite Scrap. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "143CAC61ACA1CF30",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_shield_recovery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "162640A6F487C64E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1176AE9FBD7DA97D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.35628d,
+      "y": 6.33561d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17BCB0A3CA062C23",
+      "title": "Wyvern Speed Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_speed"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Speed Module. Item inputs include Speed Module, Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1431B741601E3345"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "178B92BB7A79E722",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_speed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "180AA76839F31746",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "157A74F524D21432",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -9.19011d,
+      "y": -1.83527d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C040A8ADB9C0F85",
+      "title": "Wyvern Tree Harvester",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_tree_harvest"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Tree Harvester. Item inputs include Diamond Axe, Draconium Core, Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "148F9245F3926334",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_tree_harvest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17AE05A2663866EC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10E906FAF89B01E3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.07017d,
+      "y": 2.85629d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "118EA3B151C2AD74",
+      "title": "Wyvern Undying Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_undying"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Undying Module. Item inputs include Draconium Core, Module Core, Totem Of Undying, Wyvern Shield Capacity Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "105A10E4E302F63E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "136F6ACBB69CF1DC",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_undying"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19BBC8D1FBCA1A94",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A7EDAC2ECB96844",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.26493d,
+      "y": -4.77933d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1977F82D74E6C4D1",
+      "title": "Reactor Energy Injector",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:reactor_injector"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Reactor Energy Injector. Item inputs include Wyvern Core, Reactor Stabilizer Inner Rotor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA15A21CD57149A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11D9F8D63AE29B5E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:reactor_injector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1613757B96E65BCC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E332A6B6BBDA4EA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.05578d,
+      "y": -1.01616d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F21CC34F8C4E12A",
+      "title": "Reactor Stabilizer",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:reactor_stabilizer"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Reactor Stabilizer. Item inputs include Reactor Stabilizer Frame, Draconic Energy Controller, Reactor Stabilizer Rotor Assembly, Reactor Stabilizer Focus Ring. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA15A21CD57149A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A381BD15AAD80AB",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:reactor_stabilizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15A187F3029C458C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16F31699114C3F03",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.67231d,
+      "y": 4.97465d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123AA499B8E3275B",
+      "title": "Basic Energy Relay Crystal",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:basic_relay_crystal"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Basic Energy Relay Crystal. Item inputs include Wyvern Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "132123EE425891E7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B85612809149961",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:basic_relay_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B322DE77F157254",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14B9D2C7DE0BB3A7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.28532d,
+      "y": -3.31259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "161FE5E60CEC9E1B",
+      "title": "Chaotic Core",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:chaotic_core"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Chaotic Core. Item inputs include Large Chaos Fragment, Draconic Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1100E94ED880BEF0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E6C2B6CE707BE60",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E6E782B28061CC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13F0A95679F4D342",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.45733d,
+      "y": -5.93002d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "161D0275AC98559C",
+      "title": "Draconic Energy Relay Crystal",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:draconic_relay_crystal"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconic Energy Relay Crystal. Item inputs include Draconic Energy I/O Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1100E94ED880BEF0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "176614DB7BEB36B2",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_relay_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D734B22A7753D8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "174181F0854194F7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.14223d,
+      "y": -8.59625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1381D556AFEFCC6F",
+      "title": "Draconium Core",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:draconium_core"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18623048F1D27B94"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F85941D5482F3F6",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FAC3D39C60BEC0A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12EFA9CFD3BD3454",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.92802d,
+      "y": 6.29501d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18623048F1D27B94",
+      "title": "Draconium Dust",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:draconium_dust"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Sieve processing to make Draconium Dust. Item inputs include Crushed End Stone, Diamond Mesh. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EFC9C99B57457E6",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12776AEA269925C8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "147B028132DF6FE9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.57802d,
+      "y": 6.29501d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14D4BA9DB12CD2EE",
+      "title": "Energy Core",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:energy_core"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Energy Core. Item inputs include Wyvern Energy Controller, Wyvern Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13A29452F7F99030",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:energy_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14B6FD329E5B3CB0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C4131E8F17C6CFD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.67974d,
+      "y": 8.93666d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B02DA5FA58A44C",
+      "title": "Energy Core Stabilizer",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:energy_core_stabilizer"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Energy Core Stabilizer. Item inputs include Particle Generator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E3E9ED7779BD04A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E557DC1D3247388",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:energy_core_stabilizer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "139B0EFC10CD1F63",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A0F7DF32845CC5F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.37974d,
+      "y": 8.93666d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11F46035CA4B842A",
+      "title": "Draconic Reactor Core",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:reactor_core"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Draconic Reactor Core. Item inputs include Chaos Shard, Large Chaos Fragment. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F21CC34F8C4E12A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1806964F3B3CB98A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:reactor_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "110E848119F9AC04",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "162A436C76BDAE85",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.02231d,
+      "y": 4.97465d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1689DA95EAB2043F",
+      "title": "Wyvern Energy Relay Crystal",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:wyvern_relay_crystal"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Wyvern Energy Relay Crystal. Item inputs include Wyvern Energy I/O Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "110B5A26626620ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1956253FAC78167E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_relay_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FFAA4902B6B206F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F9EF5F88678BA54",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.97572d,
+      "y": -5.95479d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "159896DB352E3EEF",
+      "title": "Chaotic Capacitor",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:chaotic_capacitor"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Chaotic Capacitor. Item inputs include Draconic Capacitor, Chaotic Core, Chaotic Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA15A21CD57149A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "160CFAD9A09373F1",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_capacitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "195FD526866D8D26",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195CA68133A9C167",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.8927d,
+      "y": -3.03937d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13FCE01B00E9B704",
+      "title": "Chaotic Chestpiece",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:chaotic_chestpiece"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Chaotic Chestpiece. Item inputs include Draconic Chestpiece, Chaotic Core, Chaotic Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BA15A21CD57149A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BEC03765BD20E00",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_chestpiece"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1259B03AB587C19E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D60691E80291665",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.2224d,
+      "y": -2.2634d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17FA34CA0E9AE827",
+      "title": "Crystal Binder",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:crystal_binder"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Crystal Binder. Item inputs include Blaze Rod, Draconium Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1381D556AFEFCC6F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D0927C8E3C874FF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:crystal_binder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C3EAFE2C7D70C76",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "118B4D6495AD1202",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.27802d,
+      "y": 6.29501d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "191B408E0E634B3B",
+      "title": "Draconic Capacitor",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:draconic_capacitor"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Draconic Capacitor. Item inputs include Wyvern Capacitor, Draconic Core, Draconic Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1100E94ED880BEF0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D34A9281F0C156C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_capacitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AEE22D7259B2491",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "120FEB8AA288F50C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.49223d,
+      "y": -9.94625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15F6428051EA0194",
+      "title": "Draconic Chestpiece",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:draconic_chestpiece"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Draconic Chestpiece. Item inputs include Wyvern Chestpiece, Wyvern Core, Draconic Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1100E94ED880BEF0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "134102E1CF9D439B",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_chestpiece"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16096AE79525A433",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1469DDBD1D141AEE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.84223d,
+      "y": -9.94625d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "103C6BBAC046B1F0",
+      "title": "Draconium Chest",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:draconium_chest"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Draconium Chest. Item inputs include Chest, Furnace, Draconium Core, Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "132123EE425891E7"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "195716B90956B3A6",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_chest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17AACD2A6D0EB648",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "147F70E295D9C72B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.39226d,
+      "y": -4.63459d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1938952E8511A137",
+      "title": "Wyvern Capacitor",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:wyvern_capacitor"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Wyvern Capacitor. Item inputs include Wyvern Core, Wyvern Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "110B5A26626620ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DE5EB509A805737",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_capacitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "101834F86A87674E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "147C40EB27C84451",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.27572d,
+      "y": -5.95479d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1136B48941B6E052",
+      "title": "Wyvern Chestpiece",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:wyvern_chestpiece"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Use Fusion Crafting to make Wyvern Chestpiece. Item inputs include Diamond Chestplate, Draconium Core, Basic Energy Relay Crystal, Wyvern Energy Controller. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "110B5A26626620ED"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12009381FAF8830A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_chestpiece"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F20D2ABFE1588FB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B97D75AD5D0EE0C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.62572d,
+      "y": -5.95479d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AA0B71F4953EA69",
+      "title": "Selective Incineration Module",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:item_wyvern_junk_filter"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Selective Incineration Module. Item inputs include Draconium Core, Module Core, Lava Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BC5CD38AF0499E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "196A8F711A26F364",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_junk_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12BE2B1F04B61B75",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10B5601B143413EA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.92314d,
+      "y": -0.78036d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC5CD38AF0499E0",
+      "title": "Module Core",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:module_core"
+      },
+      "description": [
+        "Use Fusion Crafting Injectors around the Fusion Crafting Core for tiered components. Check injector tier, placement, and power before starting a craft. Reactors and advanced equipment are optional.",
+        "Craft Module Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13409C5AF87D85EF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:module_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F69579191EE9755",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F81E36DD1CD4BF7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AFC68AB9369F0D5",
+      "title": "Where is he?",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:awakened_core"
+      },
+      "description": [
+        "Enter The End. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "minecraft:the_end",
+          "type": "dimension",
+          "id": "19DC16D8B9580F41",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D4AEAC06FB0A314",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.91899d,
+      "y": 6.29522d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17613D6D15F803FC",
+      "title": "It's tough you'll need to prepare",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:awakened_core"
+      },
+      "description": [
+        "Learn about It's tough you'll need to prepare in the Draconic Evolution guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1AFC68AB9369F0D5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "14DC75333DBAC286",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3B434DF1109A74",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.80473d,
+      "y": 7.6154d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C45A4CBBDDE6105",
+      "title": "Kill the Chaos Guardian",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "components": {
+          "draconicevolution:soul_id": "draconicevolution:draconic_guardian"
+        },
+        "id": "draconicevolution:mob_soul"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1E8FF694B2CC02BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "draconicevolution:draconic_guardian",
+          "type": "kill",
+          "value": 1,
+          "id": "1D90FD0990C4DD58",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1958F13D1C2139F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.59099d,
+      "y": 6.23543d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B16405D30D009A9",
+      "title": "Activating the Reactor",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "id": "draconicevolution:awakened_core"
+      },
+      "description": [
+        "Learn about Activating the Reactor in the Draconic Evolution guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1C0009596CBA7740"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1C914774E42D1A99",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172749F9289DD5D3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.72231d,
+      "y": 4.97465d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EBE44F55EF9E494",
+      "title": "Moving OP",
+      "subtitle": "Draconic Evolution",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(draconicevolution:basic_io_crystal)item(draconicevolution:draconic_io_crystal)item(draconicevolution:wyvern_io_crystal))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "17FA34CA0E9AE827"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(draconicevolution:basic_io_crystal)item(draconicevolution:draconic_io_crystal)item(draconicevolution:wyvern_io_crystal))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "12577FFF21BA965E",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19D719D8131D34AA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.8172d,
+      "y": 7.61638d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1B2D48D95586CA70",
+      "linked_quest": "1BF3F08B58EBB12C",
+      "x": 18.60312d,
+      "y": -1.86838d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "14CA10DD393FC623",
+      "linked_quest": "104E82C3C5252DAA",
+      "x": 18.60732d,
+      "y": -3.19387d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "16939797137E5359",
+      "linked_quest": "1D7D59EC78E804C9",
+      "x": 19.92802d,
+      "y": -3.19038d,
+      "shape": "diamond",
+      "size": 1.0d
+    },
+    {
+      "id": "1C63EBD0A141B62B",
+      "linked_quest": "1E075BF663A6F89D",
+      "x": 17.14041d,
+      "y": -1.85489d,
+      "size": 1.25d,
+      "shape": "diamond"
+    },
+    {
+      "id": "156B44C5CF5ACBE1",
+      "linked_quest": "132123EE425891E7",
+      "x": 15.96462d,
+      "y": -3.5011d,
+      "size": 1.0d,
+      "shape": "diamond"
+    },
+    {
+      "id": "10A6B738E2078EDD",
+      "linked_quest": "110B5A26626620ED",
+      "x": 14.49223d,
+      "y": -4.49715d,
+      "size": 1.25d,
+      "shape": "diamond"
+    }
+  ],
+  "images": []
+}

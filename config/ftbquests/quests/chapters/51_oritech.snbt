@@ -1,0 +1,2736 @@
+{
+  "id": "1F3CA13438BC0986",
+  "filename": "51_oritech",
+  "title": "Oritech",
+  "icon": {
+    "id": "oritech:machine_core_1"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 33,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "125CF3541E63FA62",
+      "title": "Machine Frame",
+      "subtitle": "A separate engineering route",
+      "icon": {
+        "id": "oritech:machine_frame_block"
+      },
+      "description": [
+        "Use the recipes and guide to prepare an Oritech machine frame. This factory does not unlock the campaign."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19FCB32BE6DF5451",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_frame_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CFC294F1A0C25AE",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1B02837C41D7386E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.76809d,
+      "y": -1.72636d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "138B5537E09B0DB4",
+      "title": "Assembler",
+      "subtitle": "A separate engineering route",
+      "icon": {
+        "id": "oritech:assembler_block"
+      },
+      "description": [
+        "Power and configure an Assembler, then complete one recipe. Check its machine requirements before scaling the production line."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EEE341F0AF2317A",
+          "type": "item",
+          "item": {
+            "id": "oritech:assembler_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10309FA771821527",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "15BB9F43D366E307",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.65605d,
+      "y": -1.06838d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1051B583E9EB2F8F",
+      "title": "Plastic Sheet",
+      "subtitle": "A separate engineering route",
+      "icon": {
+        "id": "oritech:plastic_sheet"
+      },
+      "description": [
+        "Make Plastic Sheets using Oritech's production route. They are not substitutes for the named PneumaticCraft or Industrial Foregoing Plastic gates."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "102D8AB792909035",
+          "type": "item",
+          "item": {
+            "id": "oritech:plastic_sheet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1943BC67A5DF7B82",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1A4795866C9EB85A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.91758d,
+      "y": -0.40436d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1995CD34CEE42D5F",
+      "title": "Advanced Computing Engine",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:advanced_computing_engine"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Obtain Advanced Computing Engine and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "15968F95EFB52755"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1291FFD843A4E937",
+          "type": "item",
+          "item": {
+            "id": "oritech:advanced_computing_engine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CCE547861E2E1CB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19D8C4C369D165D2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.76003d,
+      "y": 6.92346d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12047F67B5AECF91",
+      "title": "Atomic Forge",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:atomic_forge_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Atomic Forge. Item inputs include Enderic Compound, Flux Gate, Duratium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C295E9920B46446"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "121A3D2EE6244900",
+          "type": "item",
+          "item": {
+            "id": "oritech:atomic_forge_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13CCC0FEAA1BA4FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19C906AC9F18BE73",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.39184d,
+      "y": 4.24868d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AC08CF888F3C10E",
+      "title": "Basic Generator",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:basic_generator_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Basic Generator. Item inputs include Magnetic Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E95406A04AF845A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10B9AA1C730E5205",
+          "type": "item",
+          "item": {
+            "id": "oritech:basic_generator_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16AA20F40CA71976",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17FE798512AF765A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.81074d,
+      "y": -3.70876d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E8EAF6A8766115B",
+      "title": "Bio Generator",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:bio_generator_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Bio Generator. Item inputs include Basic Generator, Flux Gate, Biosteel Ingot, Magnetic Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AC08CF888F3C10E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13A2EB08B500BEC7",
+          "type": "item",
+          "item": {
+            "id": "oritech:bio_generator_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C647576DFE5987",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "133DBB74D2A92655",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.32206d,
+      "y": -5.02881d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17EB9741F43D4A91",
+      "title": "Carbon Fibre Strands",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:carbon_fibre_strands"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Obtain Carbon Fibre Strands and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14648806452B62DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B23BE7BA5FCE052",
+          "type": "item",
+          "item": {
+            "id": "oritech:carbon_fibre_strands"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E9BCD2EE8C07BC3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19287243A6B5788F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.40805d,
+      "y": 1.43638d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14648806452B62DD",
+      "title": "Centrifuge",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:centrifuge_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Centrifuge. Item inputs include Motor, Glass Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F1F95E1457458F",
+          "type": "item",
+          "item": {
+            "id": "oritech:centrifuge_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A58C5BDE6A4DB0A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19ADF81BC1C3851F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.08605d,
+      "y": 1.43521d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1514D645FE1775FF",
+      "title": "Drone Port",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:drone_port_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Drone Port. Item inputs include Superconductor, Advanced Computing Engine, Motor, Unholy Intelligence. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1995CD34CEE42D5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E67EC11C974B05A",
+          "type": "item",
+          "item": {
+            "id": "oritech:drone_port_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "120CE9C1D6C0D4ED",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B4642460C0C7B10",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.19567d,
+      "y": 5.99383d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11C2A8546AFDBA7F",
+      "title": "Enderic Compound",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:enderic_compound"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Obtain Enderic Compound and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "14648806452B62DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11E37B09DABECF56",
+          "type": "item",
+          "item": {
+            "id": "oritech:enderic_compound"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10001144817EA78E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1811342756C5572E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.83607d,
+      "y": 2.55769d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C295E9920B46446",
+      "title": "Flux Gate",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:flux_gate"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Obtain Flux Gate and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1782CD997F999C8D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB51F4282050D9F",
+          "type": "item",
+          "item": {
+            "id": "oritech:flux_gate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E2816DC8C6E932",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14F0F47292A6EEE4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.20775d,
+      "y": 2.91129d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1782CD997F999C8D",
+      "title": "Fluxite",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:fluxite"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Fluxite. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13F34855136CA146"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "107A68E435750AB7",
+          "type": "item",
+          "item": {
+            "id": "oritech:fluxite"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15B1C3E812B7F82E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D1BCD005406D28E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.02366d,
+      "y": 1.5739d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18B53BF9EBEAEAE1",
+      "title": "Foundry",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:foundry_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Foundry. Item inputs include Cauldron, Motor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "132C7A72B24A0031",
+          "type": "item",
+          "item": {
+            "id": "oritech:foundry_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13C9371572C5110A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B3915B598B75253",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.29651d,
+      "y": 1.57403d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "195BACE10D98BBDC",
+      "title": "Fragment Forge",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:fragment_forge_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Fragment Forge. Item inputs include Flux Gate, Motor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "123FB987FB803A99"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EE90DC9335D4F8C",
+          "type": "item",
+          "item": {
+            "id": "oritech:fragment_forge_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B167E2CBE012408",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11C8582CDECFDA52",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.09356d,
+      "y": -3.72932d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C7BD99FAE04413F",
+      "title": "Fuel Generator",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:fuel_generator_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Fuel Generator. Item inputs include Enderic Lens, Basic Generator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AC08CF888F3C10E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "166BA85CBCD00057",
+          "type": "item",
+          "item": {
+            "id": "oritech:fuel_generator_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16ED155026B26093",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "160DE832C085BA19",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.47372d,
+      "y": -4.39759d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "160CBBE9C8E62F9D",
+      "title": "Heisenberg Compensator",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:heisenberg_compensator"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Obtain Heisenberg Compensator and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "178B35DB557A4244"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E4046995B26476E",
+          "type": "item",
+          "item": {
+            "id": "oritech:heisenberg_compensator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D49320253BEA006",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1317482B30E7C9FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.63333d,
+      "y": 8.15645d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13F34855136CA146",
+      "title": "Enderic Laser",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:laser_arm_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Enderic Laser. Item inputs include Motor, Enderic Lens. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18B53BF9EBEAEAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D42FB36868523C9",
+          "type": "item",
+          "item": {
+            "id": "oritech:laser_arm_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E886447C2A5082",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FFBC43553A719C3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.30611d,
+      "y": 2.89444d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D06736C394D5DB",
+      "title": "Lava Generator",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:lava_generator_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Lava Generator. Item inputs include Basic Generator, Magnetic Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AC08CF888F3C10E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16B388938270015F",
+          "type": "item",
+          "item": {
+            "id": "oritech:lava_generator_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160C995588202B95",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CA91C21165E97FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.35596d,
+      "y": -5.45485d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187F3FF451FB5128",
+      "title": "Acceptor Addon",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_acceptor_addon"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Acceptor Addon. Item inputs include Energite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EC9D227E72971A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B200ACF2F006E9B",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_acceptor_addon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12866BAC414869D2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AB0499D8E81669D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.16713d,
+      "y": 2.21965d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E530422A7D50360",
+      "title": "Efficiency Addon",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_efficiency_addon"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Efficiency Addon. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EC9D227E72971A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15DE00B3D9F7C2D9",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_efficiency_addon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1135F6F9597EC5BB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11BCBE710C9B5D70",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.51701d,
+      "y": 0.91577d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "144D89594D866127",
+      "title": "Machine Addon Extender",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_extender"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Machine Addon Extender. Item inputs include Duratium Ingot, Basic Machine Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EC9D227E72971A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F365ED5196B4C29",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_extender"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "122DE5DAF7E1250D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17845F8BB094B06A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.66835d,
+      "y": 0.483d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15B7334BEFCFBAB7",
+      "title": "Fluid Addon",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_fluid_addon"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Fluid Addon. Item inputs include Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14648806452B62DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "171A789236A8D0AA",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_fluid_addon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1737CB4A68365C56",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "136896C131F8BDE2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.82268d,
+      "y": 2.75927d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1852265CABD1963D",
+      "title": "Hunter Addon",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_hunter_addon"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Hunter Addon. Item inputs include Iron Sword, Motor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13F34855136CA146"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CA7352D2569F82E",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_hunter_addon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D49956E87BD6D2B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "106CA1844E0CA9D6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.61891d,
+      "y": 4.55889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12E001ABE0B80B54",
+      "title": "Auxiliary Processing Chamber Addon",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_processing_addon"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Auxiliary Processing Chamber Addon. Item inputs include Flux Gate, Motor, Super AI Chip. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EC9D227E72971A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "122555129FFB88DB",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_processing_addon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1836E12C0E3718F7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BD5D490B3A50584",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.57849d,
+      "y": 2.4275d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A814CFFF5B59C37",
+      "title": "Speed Addon",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_speed_addon"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Speed Addon. Item inputs include Magnetic Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EC9D227E72971A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "152A00777A6D30FA",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_speed_addon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1034B646DE5F036D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "171E1AE14DCA949F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.12476d,
+      "y": 1.61554d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E95406A04AF845A",
+      "title": "Magnetic Coil",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:magnetic_coil"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Magnetic Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "138B5537E09B0DB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12EADE1873D91E27",
+          "type": "item",
+          "item": {
+            "id": "oritech:magnetic_coil"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B131CF2E8D89FFD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AEF3DBDE6B35312",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.65827d,
+      "y": -2.38865d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CB7F0FB1B437191",
+      "title": "Manhattan Module",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:nuke"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Manhattan Module. Item inputs include Heisenberg Compensator, Tnt, Plutonium Pellet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "160CBBE9C8E62F9D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EA29988FB89E622",
+          "type": "item",
+          "item": {
+            "id": "oritech:nuke"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1268616E91A1E2B8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "191473AD0FD1ECB4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.81742d,
+      "y": 9.49383d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "189AD4A991FCA6DF",
+      "title": "Plutonium Pellet",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:plutonium_pellet"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Plutonium Pellet. Item inputs include Small Plutonium Pellet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "138B5537E09B0DB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15227FB1A7AB0746",
+          "type": "item",
+          "item": {
+            "id": "oritech:plutonium_pellet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "176F10D979BA0C94",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1359E905E7FABD74",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.30113d,
+      "y": -1.82801d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E9306A67B663FAD",
+      "title": "Processing Unit",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:processing_unit"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Obtain Processing Unit and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "138B5537E09B0DB4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D33BEC5A174BA42",
+          "type": "item",
+          "item": {
+            "id": "oritech:processing_unit"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19C2F8421A341D15",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19FF84C78BDFADA0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.74816d,
+      "y": -1.92491d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123FB987FB803A99",
+      "title": "Pulverizer",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:pulverizer_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Pulverizer. Item inputs include Iron Ingot, Motor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EB5F9D3D05E089D",
+          "type": "item",
+          "item": {
+            "id": "oritech:pulverizer_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FC2C6D9B6FB088A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BE3C0F33C6FBB65",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.92899d,
+      "y": -3.04649d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A50154084AD4294",
+      "title": "Nuclear Reactor Controller",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:reactor_controller"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Nuclear Reactor Controller. Item inputs include Reactor Wall, Processing Unit. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E9306A67B663FAD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14EDF45472DD8AE5",
+          "type": "item",
+          "item": {
+            "id": "oritech:reactor_controller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1C5B5F43DB3EAF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CE2F0CB36589A89",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.45299d,
+      "y": -3.14816d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "176AB0591777FAF1",
+      "title": "Refinery",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:refinery_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Refinery. Item inputs include Cauldron, Refinery Chamber Module, Motor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1737264BA8940717"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "153BD805A0F02A34",
+          "type": "item",
+          "item": {
+            "id": "oritech:refinery_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14697740F67AB8E3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D4D806C2CE1F703",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.26551d,
+      "y": -0.35171d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15968F95EFB52755",
+      "title": "Silicon Wafer",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:silicon_wafer"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Obtain Silicon Wafer and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "12047F67B5AECF91"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CFFAADE7CA98050",
+          "type": "item",
+          "item": {
+            "id": "oritech:silicon_wafer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10A767EF9E7598DA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B024DA0A59B895F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.57594d,
+      "y": 5.58607d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19BB9EEAD3853F5E",
+      "title": "Portable Energy Storage",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:small_storage_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Portable Energy Storage. Item inputs include Basic Battery, Magnetic Coil. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E95406A04AF845A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F042DEE6A90AD2C",
+          "type": "item",
+          "item": {
+            "id": "oritech:small_storage_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C50AE93AA478303",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB312E68F89F97A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.13274d,
+      "y": -3.16357d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "178B35DB557A4244",
+      "title": "Super AI Chip",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:super_ai_chip"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Obtain Super AI Chip and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1995CD34CEE42D5F"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FC7B09897BCFE35",
+          "type": "item",
+          "item": {
+            "id": "oritech:super_ai_chip"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A6565B500049035",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DAC129276345E63",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.44923d,
+      "y": 6.81905d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "153A4568F12825BB",
+      "title": "Plutonium Dust",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "modern_industrialization:plutonium_dust"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Plutonium Dust. Item inputs include Plutonium Tiny Dust. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13F34855136CA146"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BAD2B80202A9FDA",
+          "type": "item",
+          "item": {
+            "id": "modern_industrialization:plutonium_dust"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DEDFED47E636F20",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F18A39EEF15E473",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.29691d,
+      "y": 4.43616d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17C1131274829C4B",
+      "title": "Duratium Ingot",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:duratium_ingot"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Duratium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18B53BF9EBEAEAE1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11C792FCF8A09CDE",
+          "type": "item",
+          "item": {
+            "id": "oritech:duratium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A472C22EB4B116F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B05B1EC3FB2BC13",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.62635d,
+      "y": 2.94905d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12B0B9F26D45CC8F",
+      "title": "Primitive Machine Core",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_core_1"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Primitive Machine Core. Item inputs include Crafting Table. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1581ECEBFD8D6734",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_core_1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D773246CFFF17CD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BAD09285AD92327",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.50951d,
+      "y": -4.40786d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CCAD82FBBA4738B",
+      "title": "Improved Machine Core",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_core_3"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Improved Machine Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13E5A28BD3A6D4C1",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_core_3"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "102931B96EB28AA6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1288E59F79AE1324",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": 0.25203d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BCB3C3CFAF507C5",
+      "title": "Advanced Machine Core",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_core_4"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Advanced Machine Core. Item inputs include Enderic Compound. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10610BA00EEFA136",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_core_4"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1393E089DD665E17",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B943FBA216538A6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.81236d,
+      "y": -5.73256d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C3DA7931DCCB6E",
+      "title": "Elite Machine Core",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_core_5"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Elite Machine Core. Item inputs include Advanced Computing Engine, Adamant Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BCB3C3CFAF507C5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CB898256B1F197E",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_core_5"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1669C8CDFBA5767F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "107AB2347665D06E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.66485d,
+      "y": -6.77935d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "187BD5908B01E0CF",
+      "title": "Ultra Machine Core",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_core_6"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Ultra Machine Core. Item inputs include Dubious Container, Duratium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15C3DA7931DCCB6E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B2D24108FF68841",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_core_6"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13997F1011D2163D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1038D87B9356AF4A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.51733d,
+      "y": -7.82614d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "169C2DA243555553",
+      "title": "Capacitor Addon",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_capacitor_addon"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Capacitor Addon. Item inputs include Magnetic Coil, Energite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EC9D227E72971A1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10E13535172951C6",
+          "type": "item",
+          "item": {
+            "id": "oritech:machine_capacitor_addon"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A00C9D416A38285",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D8447026C9D8AE4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.77487d,
+      "y": 2.91941d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "179648D650033017",
+      "title": "Energy Pipe",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:energy_pipe"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Energy Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12DCE37B549A9618",
+          "type": "item",
+          "item": {
+            "id": "oritech:energy_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1006742722F6F1F5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11691C935A207792",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.81672d,
+      "y": -4.07064d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "184C44161FD54351",
+      "title": "Fluid Pipe",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:fluid_pipe"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19738C5B45533AE7",
+          "type": "item",
+          "item": {
+            "id": "oritech:fluid_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17DA979E308DF215",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1894CA0492C5EF25",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.32406d,
+      "y": -0.01134d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C1D6CEAA863BF9D",
+      "title": "Opaque Item Pipe",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:item_pipe"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Opaque Item Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18CA79C93B730E21",
+          "type": "item",
+          "item": {
+            "id": "oritech:item_pipe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18125453ECFF00BE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19BD151F3FBDC913",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.83971d,
+      "y": 1.62705d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DAE9C87D16B6B63",
+      "title": "Pipe Booster",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:pipe_booster_block"
+      },
+      "description": [
+        "Oritech is optional. Build machine cores and frames, supply energy, and keep processing outputs separated. Check the guidebook for multiblock and addon placement.",
+        "Craft Pipe Booster. Item inputs include Motor, Opaque Item Pipe, Fluid Pipe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C1D6CEAA863BF9D"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14126FEA97152856",
+          "type": "item",
+          "item": {
+            "id": "oritech:pipe_booster_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15917E7862675C25",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10EE2C8940FB7C2D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.12085d,
+      "y": 4.24075d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AE48DDE92209BBD",
+      "title": "Ore Processing",
+      "subtitle": "Oritech",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(oritech:iron_gem)item(oritech:platinum_gem)item(oritech:gold_gem)item(oritech:copper_gem)item(oritech:nickel_gem)item(oritech:uranium_gem))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "195BACE10D98BBDC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(oritech:iron_gem)item(oritech:platinum_gem)item(oritech:gold_gem)item(oritech:copper_gem)item(oritech:nickel_gem)item(oritech:uranium_gem))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "16EF86077C1D85AA",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A821FB8783B28B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -7.25815d,
+      "y": -4.41215d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E57D58FD9803841",
+      "title": "Power Generation",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_core_1"
+      },
+      "description": [
+        "Learn about Power Generation in the Oritech guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "175F6460BD97205D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CC82A9064F3B67B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.12132d,
+      "y": -1.86929d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EC9D227E72971A1",
+      "title": "Addons",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_core_1"
+      },
+      "description": [
+        "Learn about Addons in the Oritech guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1CCAD82FBBA4738B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1D12D4308C0B526D",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160A211BF88F841F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.66835d,
+      "y": 0.483d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1737264BA8940717",
+      "title": "Refining Ores",
+      "subtitle": "Oritech",
+      "icon": {
+        "id": "oritech:machine_core_1"
+      },
+      "description": [
+        "Learn about Refining Ores in the Oritech guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "14648806452B62DD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1294320E4C0C2996",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CFD3B81C06007C7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.92448d,
+      "y": -0.50707d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CF53A3D5C15DD60",
+      "title": "Clumps",
+      "subtitle": "Oritech",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item_tag(c:clumps))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "176AB0591777FAF1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item_tag(c:clumps))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1425B82D9B0F3CEC",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D498A7EEE8B659",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.60654d,
+      "y": -0.19635d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B843EF1C10D6202",
+      "title": "Spinning into gems",
+      "subtitle": "Oritech",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item(oritech:copper_gem)item(oritech:platinum_gem)item(oritech:gold_gem)item(oritech:nickel_gem)item(oritech:uranium_gem)item(oritech:iron_gem))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1CF53A3D5C15DD60"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item(oritech:copper_gem)item(oritech:platinum_gem)item(oritech:gold_gem)item(oritech:nickel_gem)item(oritech:uranium_gem)item(oritech:iron_gem))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1E6FBCC0820A75E7",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F604422CD4C9AF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.94757d,
+      "y": -0.04098d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A918F5065115F11",
+      "title": "Ingots",
+      "subtitle": "Oritech",
+      "icon": {
+        "components": {
+          "ftbfiltersystem:filter": "or(item_tag(c:ingots))"
+        },
+        "count": 1,
+        "id": "ftbfiltersystem:smart_filter"
+      },
+      "description": [
+        "Collect the item shown in this task. Where the icon cycles, any matching item counts. Use JEI for recipes and the mod guide for gathering or processing details."
+      ],
+      "dependencies": [
+        "1B843EF1C10D6202"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "item": {
+            "components": {
+              "ftbfiltersystem:filter": "or(item_tag(c:ingots))"
+            },
+            "count": 1,
+            "id": "ftbfiltersystem:smart_filter"
+          },
+          "type": "item",
+          "id": "1087CDE7E74918EC",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E61D3D2964DE0BB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.2886d,
+      "y": 0.11438d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

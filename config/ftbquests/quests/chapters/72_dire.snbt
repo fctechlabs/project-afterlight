@@ -1,0 +1,4423 @@
+{
+  "id": "156AD2E8298F6299",
+  "filename": "72_dire",
+  "title": "Just Dire Things",
+  "icon": {
+    "id": "justdirethings:gooblock_tier1"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 50,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "11889194F5110E4A",
+      "title": "Blazegold Pickaxe",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:blazegold_pickaxe"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Blazegold Pickaxe. Item inputs include Blazegold Ingot, Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12A666A5CD46054A",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazegold_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CED814F68AD5400",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D7741AD26963D57",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.98333d,
+      "y": 10.56417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FA15B8A2A502961",
+      "title": "Blazejet Wand",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:blazejet_wand"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Blazejet Wand. Item inputs include Blazegold Ingot, Ferricore Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12816F77C1F4E800",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazejet_wand"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EFDD35FBF69E272",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14BEEC91CAB63EF1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.63333d,
+      "y": 11.91417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15C5622569439637",
+      "title": "Blazegold Bow",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:bow_blazegold"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Blazegold Bow. Item inputs include Blazegold Ingot, String. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12FCC756AD537DBF",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:bow_blazegold"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEE19CE24592441",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F6F1706D6415334",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.51085d,
+      "y": 11.31419d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "148BA461A21CD29F",
+      "title": "Celestigem Bow",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:bow_celestigem"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Celestigem Bow. Item inputs include Celestigem, String. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F7D414CDE3097F7",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:bow_celestigem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ED41820C7CAEBD5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17D73F21A44EA614",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.01703d,
+      "y": 15.42283d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F34BA0AD7F69081",
+      "title": "Eclipse Alloy Bow",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:bow_eclipsealloy"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Eclipse Alloy Bow. Item inputs include Eclipse Alloy Ingot, String. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DB685ECEA1D3ED3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11241276DD07F873",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:bow_eclipsealloy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17C6F77E2907C460",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A2B913F70B96ABD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.19736d,
+      "y": 22.26555d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B2B22DCC23CFD8",
+      "title": "Ferricore Bow",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:bow_ferricore"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Ferricore Bow. Item inputs include Ferricore Ingot, String. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15D82ABCBCDE46E8",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:bow_ferricore"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "168F3446013F185D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FC1061FD2784D84",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.82508d,
+      "y": 8.67259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D4918B56577E70F",
+      "title": "Celestigem Paxel",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:celestigem_paxel"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Use Paxel processing to make Celestigem Paxel. Item inputs include Celestigem Shovel, Celestigem Axe, Celestigem Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D5FFA620702614A",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem_paxel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EA1093D7139AE65",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AB8A2530DEA5CBF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.267d,
+      "y": 16.54528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "113AB5286895BD9B",
+      "title": "Celestigem Pickaxe",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:celestigem_pickaxe"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Celestigem Pickaxe. Item inputs include Celestigem, Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AD5BE765664A908",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15EEBE13A8CF2C41",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "162177CBAF704EFE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.46074d,
+      "y": 16.92723d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "147735490A52CC8A",
+      "title": "Eclipse Alloy Paxel",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:eclipsealloy_paxel"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Use a Smithing Table to make Eclipse Alloy Paxel. Item inputs include Eclipse Alloy Ingot, Celestigem Paxel, Template: Eclipse Alloy. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DB685ECEA1D3ED3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "160936327E2B0EAF",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_paxel"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FF2DCF500AD58DC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1660B8F082DE2690",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.54736d,
+      "y": 22.26555d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C47E1129D85FB6E",
+      "title": "Eclipse Alloy Pickaxe",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:eclipsealloy_pickaxe"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Eclipse Alloy Pickaxe. Item inputs include Eclipse Alloy Ingot, Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DB685ECEA1D3ED3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A29A624AA12AF3E",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E8CFE0157D8C9A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "182CB08255B2954C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.35d,
+      "y": 20.72d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D4B7088DE70AD4",
+      "title": "Eclipsegate Wand",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:eclipsegate_wand"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Eclipsegate Wand. Item inputs include Celestigem, Eclipse Alloy Ingot, Voidshift Wand. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DB685ECEA1D3ED3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1444750B13DD0A0F",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsegate_wand"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11F17D87B6BFEFBE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FCA89D873C27AC4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75276d,
+      "y": 21.23662d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15702B56542667CB",
+      "title": "Ferricore Pickaxe",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:ferricore_pickaxe"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Ferricore Pickaxe. Item inputs include Ferricore Ingot, Stick. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FD0614D754121B8",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "113DC0FEBB640413",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1945012E0F8CBB3F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.45221d,
+      "y": 7.38048d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F0DF5276D94833B",
+      "title": "Time Wand",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:time_wand"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Time Wand. Item inputs include Blazegold Ingot, Ferricore Ingot, Time Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BE049B779F83EF0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11B2C75E6598C1DC",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:time_wand"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10061CA46C660448",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E100D838212E939",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.74135d,
+      "y": 24.61958d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A1510892E1E22E8",
+      "title": "Voidshift Wand",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:voidshift_wand"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Voidshift Wand. Item inputs include Blazegold Ingot, Celestigem, Blazejet Wand. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DDE08D5AB40D08B",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:voidshift_wand"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "102BBF04B2CB1F5E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CDB319CE651B86B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.69297d,
+      "y": 17.65946d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E548F0839F8B597",
+      "title": "Simple Block Breaker",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:blockbreakert1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Simple Block Breaker. Item inputs include Simple Block Breaker. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15410900B8561932",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blockbreakert1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1508EB67654ACE37",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1717A1CDB9F0BD4C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.50306d,
+      "y": 11.1879d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1644EA3509B5DEF3",
+      "title": "Advanced Block Breaker",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:blockbreakert2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Advanced Block Breaker. Item inputs include Advanced Block Breaker. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F5E0C2D9AAA1CB8",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blockbreakert2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19662BED9340A5A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "134EA1C11431FCAC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.71211d,
+      "y": 16.36169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "134F1333648573B5",
+      "title": "Simple Block Placer",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:blockplacert1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Simple Block Placer. Item inputs include Simple Block Placer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15519CF9136657FD",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blockplacert1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "116A32B8F6447440",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1125616E88ED6C47",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.00584d,
+      "y": 9.5488d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ADF00D2F13A81C9",
+      "title": "Advanced Block Placer",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:blockplacert2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Advanced Block Placer. Item inputs include Advanced Block Placer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12402E87A7CDB14D",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blockplacert2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19C39258DCA4A317",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "139862C3B0C0B046",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.78904d,
+      "y": 16.13491d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BB30C40485CD5CB",
+      "title": "Simple Swapper",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:blockswappert1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Simple Swapper. Item inputs include Simple Swapper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EC5A4A380E0C768",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blockswappert1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B7F96514BB3B451",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13F7D18CA61A0143",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.9338d,
+      "y": 4.84983d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BC8985D71B096C5",
+      "title": "Advanced Swapper",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:blockswappert2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Advanced Swapper. Item inputs include Advanced Swapper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DB685ECEA1D3ED3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CFA1744D5762C34",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blockswappert2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E1543E3F5F5FDF5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14AFBB8FA8E06ED1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.84736d,
+      "y": 22.26555d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B52481D2FCD043",
+      "title": "Simple Clicker",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:clickert1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Simple Clicker. Item inputs include Simple Clicker. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "137A8918F44566F4",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:clickert1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A09C4B63CAE8265",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E1038DB793A03AA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.66277d,
+      "y": 8.00577d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "180B0547E42C8EEE",
+      "title": "Advanced Clicker",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:clickert2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Advanced Clicker. Item inputs include Advanced Clicker. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "149D6F9D5B779EA8",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:clickert2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18AF5A2D5A6DF031",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "116B715DFF8D0087",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.41211d,
+      "y": 16.36169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1192FA19228F0C5B",
+      "title": "Primal Coal",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:coal_t1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Primal Coal. Item inputs include Primal Coal Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1482C2F71534EA7C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "156CFD65BEF4F591",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:coal_t1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1101AF9B5F954128",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D2318C3A7A20EDE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.43208d,
+      "y": 14.0144d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1687A02EF05A30DC",
+      "title": "Blaze Ember",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:coal_t2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Blaze Ember. Item inputs include Blaze Ember Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C6B626F5385DA14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1878C3D35D59F3A1",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:coal_t2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12C1962A0F93F4D2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1453CD3A1271757A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.93611d,
+      "y": 14.66889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16568307C621094A",
+      "title": "Voidflame Coal",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:coal_t3"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Voidflame Coal. Item inputs include Voidflame Coal Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0E024032D3BF67"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FB20CFC844DC663",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:coal_t3"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11A6A33E493F9737",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D2E1E6BDDA73502",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.44963d,
+      "y": 15.04166d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "126ACD35F486F7DD",
+      "title": "Eclipse Ember",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:coal_t4"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Eclipse Ember. Item inputs include Eclipse Ember Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AA2AF28BAD3CCCB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "130E5B0E982E6F5C",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:coal_t4"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14ACD3A9BD0D0A69",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14D323E51B260120",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.64972d,
+      "y": 19.6282d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E2B32B5B6B402A9",
+      "title": "Creature Catcher",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:creaturecatcher"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Creature Catcher. Item inputs include Blazegold Ingot, Ender Pearl. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18F1F584DE35E6DD",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:creaturecatcher"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "131BA2324C9B4BFF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16188611CD113E22",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.30927d,
+      "y": 10.3008d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "163652B40D3B9E8F",
+      "title": "Simple Dropper",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:droppert1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Simple Dropper. Item inputs include Simple Dropper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16C1983949348BB2",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:droppert1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "118A48DEB61DAFF7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1527D5349A9E1A0D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.25308d,
+      "y": 6.06542d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11400DBC3A5E2B93",
+      "title": "Advanced Dropper",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:droppert2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Advanced Dropper. Item inputs include Advanced Dropper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1298059D6500BC62",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:droppert2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C1E2019C4DECA00",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1304BCB2FA0E5BD6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.76211d,
+      "y": 16.36169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "111F1C9B12F7C400",
+      "title": "Energy Transmitter",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:energytransmitter"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Energy Transmitter. Item inputs include Energy Transmitter. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "153629D3E73A2445",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:energytransmitter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D57A455313B6972",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F19C40E9DDFD463",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.63333d,
+      "y": 9.21417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "144040894D80BA8C",
+      "title": "Fluid Canister",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:fluid_canister"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Fluid Canister. Item inputs include Glass, Ferricore Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A7EB3AADC631ACB",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:fluid_canister"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "119FF4ADAD5349DB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10465B7E7D2E2105",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.52508d,
+      "y": 8.67259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A34C8878B3F2E65",
+      "title": "Simple Fluid Collector",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:fluidcollectort1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Simple Fluid Collector. Item inputs include Simple Fluid Collector. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FD58A2A42B111BE",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:fluidcollectort1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "130010480D3DA448",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16E81159AE917C52",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.82508d,
+      "y": 11.37259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CAAAA8D1B798102",
+      "title": "Advanced Fluid Collector",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:fluidcollectort2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Advanced Fluid Collector. Item inputs include Advanced Fluid Collector. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "156296AE4C227DD2",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:fluidcollectort2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B97BFAD7FA389AD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "152E8BB2DA2E0FE1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.11211d,
+      "y": 16.36169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A839FB90CF20887",
+      "title": "Simple Fluid Placer",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:fluidplacert1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Simple Fluid Placer. Item inputs include Simple Fluid Placer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16AB21E12FEA2D5C",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:fluidplacert1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "180A3B275A2EE8D3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "106223A0C333F9BC",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.17508d,
+      "y": 11.37259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11BF1763E81DDCD7",
+      "title": "Advanced Fluid Placer",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:fluidplacert2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Advanced Fluid Placer. Item inputs include Advanced Fluid Placer. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E539665AE149567",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:fluidplacert2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "128C2734D220A655",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18E53019218678C6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.71211d,
+      "y": 17.71169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CC5B19C6D76E77A",
+      "title": "Fuel Canister",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:fuel_canister"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Fuel Canister. Item inputs include Coal, Ferricore Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1686BB727425FABD",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:fuel_canister"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E292786F2AD26B4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "101DE1B5268ACF21",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.87508d,
+      "y": 8.67259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C93C8F2844BEBEA",
+      "title": "Simple Fuel Generator",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:generatorfluidt1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Simple Fuel Generator. Item inputs include Simple Fuel Generator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1221EBFE02E5D14D",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:generatorfluidt1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12181B463207088B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F178D94A052B023",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 17.52508d,
+      "y": 11.37259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18B181018E0DD360",
+      "title": "Simple Coal Generator",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:generatort1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Simple Coal Generator. Item inputs include Simple Coal Generator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D1ADF745487AE70",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:generatort1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "173725F4C5F36EBA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1DE991383EA85751",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.22508d,
+      "y": 10.02259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1482C2F71534EA7C",
+      "title": "Primogel Goo",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Primogel Goo. Item inputs include Clay Ball, Dirt, Rotten Flesh, Sugar. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13CB9EADBF212A14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11FD1BEAA635D30B",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:gooblock_tier1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11E916FFA9B47E7A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17D9B90609C26FFD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.04528d,
+      "y": 12.25875d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C6B626F5385DA14",
+      "title": "Blazebloom Goo",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Blazebloom Goo. Item inputs include Blaze Powder, Primogel Goo, Nether Wart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1482C2F71534EA7C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A2708E460630B86",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:gooblock_tier2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1821BE9A692504FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "149D5C046D2A44DD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.44403d,
+      "y": 13.91347d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E0E024032D3BF67",
+      "title": "VoidShimmer Goo",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier3"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft VoidShimmer Goo. Item inputs include Ender Pearl, Blazebloom Goo, End Stone, Dragon Breath. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C6B626F5385DA14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "190D57CC5A386982",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:gooblock_tier3"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A682DDBFCB65623",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "113D1EA0029AD112",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.06324d,
+      "y": 14.07238d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AA2AF28BAD3CCCB",
+      "title": "Shadowpulse Goo",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier4"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Shadowpulse Goo. Item inputs include Sculk, VoidShimmer Goo, Sculk Shrieker, Echo Shard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0E024032D3BF67"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14AEC4D3803A1D34",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:gooblock_tier4"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BFCDE69233D430E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E6DACB9C806ACB4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.44833d,
+      "y": 18.55292d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AE208574045545B",
+      "title": "Item Collector",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:itemcollector"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Item Collector. Item inputs include Item Collector. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10C68E97D61197B5",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:itemcollector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "143E3223EBF7A68B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "189181A732FA6D0E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.22508d,
+      "y": 8.67259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "108E37DDD1EACF2F",
+      "title": "Machine Settings Copier",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:machinesettingscopier"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Machine Settings Copier. Item inputs include Primal Coal, Ferricore Ingot, Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B0D4AEDAAD56457",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:machinesettingscopier"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F652610D1777CBB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E359F0F715F2831",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 21.57508d,
+      "y": 8.67259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "108372E82061F99C",
+      "title": "Paradox Machine",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:paradoxmachine"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Paradox Machine. Item inputs include Time Crystal, Eclipse Alloy Ingot, Time Crystal Block, Time Fluid Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1BE049B779F83EF0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FA1F7BAE5CECFF5",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:paradoxmachine"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12F40A04E819DAD1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "169CFEA243C1FADA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.69046d,
+      "y": 21.94597d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17AD5C55EE7B9439",
+      "title": "Player Accessor",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:playeraccessor"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Player Accessor. Item inputs include Player Accessor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13A4F38B4AD580EA",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:playeraccessor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A3830326BD094BD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AA3A8A399A4FE1A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.69399d,
+      "y": 9.50351d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E1DC936082CDC11",
+      "title": "Pocket Generator",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:pocket_generator"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Pocket Generator. Item inputs include Coal, Furnace, Ferricore Ingot, Redstone Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199AFEC3445AB0CD",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:pocket_generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FE32CA556F88BEB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16BAA15CC1F494D3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.82508d,
+      "y": 10.02259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1841781FC830F0B9",
+      "title": "Polymorphic Fluid Bucket",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:polymorphic_fluid_bucket"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Obtain Polymorphic Fluid Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "140588ADF950136A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D355F46B16C2225",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:polymorphic_fluid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11837341BCE32467",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CB49C9FE993C7ED",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.54083d,
+      "y": -0.66053d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1343AD7E961B5BD9",
+      "title": "Portal Fluid Bucket",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:portal_fluid_bucket"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Obtain Portal Fluid Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1841781FC830F0B9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10BA12265F06F7B2",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:portal_fluid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19A938715CCB0E85",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10B6F668A61D66C0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.89083d,
+      "y": -0.66053d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BDFB5ABFE0B7021",
+      "title": "Portal Gun",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:portalgun"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Portal Gun. Item inputs include Blazegold Ingot, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14285D3003EE78A8",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:portalgun"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17733592BE6BE12C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D118D1FBF838E7C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.5838d,
+      "y": 4.84983d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "193C029795AD17D2",
+      "title": "Advanced Portal Gun",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:portalgun_v2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Advanced Portal Gun. Item inputs include Blazegold Ingot, Celestigem, Portal Fluid Catalyst, Fluid Canister. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C89E224050FE12B",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:portalgun_v2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17F7306DD83F4108",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11F854142356AD0C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.06211d,
+      "y": 17.71169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E4456A3790D4500",
+      "title": "Raw Blazegold",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:raw_blazegold"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Obtain Raw Blazegold and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1C6B626F5385DA14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17FA6BFB898D1698",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:raw_blazegold"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A18FF0E5E28E1B4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EAC4A77B150454B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.63333d,
+      "y": 10.56417d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "109F91450E69A05B",
+      "title": "Blaze Ember Fuel Bucket",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:refined_t2_fluid_bucket"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Obtain Blaze Ember Fuel Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1687A02EF05A30DC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A71E24FB0A795E1",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:refined_t2_fluid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A7FE4A5DEFFFF24",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B673F94516D5B66",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.83486d,
+      "y": 15.92111d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F646088626D75E0",
+      "title": "Voidflame Fuel Bucket",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:refined_t3_fluid_bucket"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Obtain Voidflame Fuel Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "16568307C621094A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1444764389498251",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:refined_t3_fluid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D26A3AA413076A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FFC3DA8B6477D3E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.1602d,
+      "y": 14.64179d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11E60989656243B4",
+      "title": "Eclipse Ember Fuel Bucket",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:refined_t4_fluid_bucket"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Obtain Eclipse Ember Fuel Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F646088626D75E0"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14E5596DE82571F8",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:refined_t4_fluid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18220F32605D8085",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A9B6A5A5A6FCA17",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.87078d,
+      "y": 14.24193d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BE049B779F83EF0",
+      "title": "Time Fluid Bucket",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:time_fluid_bucket"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Obtain Time Fluid Bucket and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1E3739E82B96509A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1EEF0D6B08210CC2",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:time_fluid_bucket"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "172684706461F1C6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19368B2EE28E86FD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.26027d,
+      "y": 21.5668d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F65343EC02058C3",
+      "title": "Totem of Death Recall",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:totem_of_death_recall"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Totem of Death Recall. Item inputs include Blazegold Ingot, Diamond, Ender Pearl, Lapis Lazuli. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12F99CB0C3536466",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:totem_of_death_recall"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13B1CA38B68F3181",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15533F7C38B40349",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.12998d,
+      "y": 11.5642d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "146B0F446959C173",
+      "title": "Celestigem",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:celestigem"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Celestigem. Item inputs include Celestigem Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E0E024032D3BF67"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F0D2CE4E80E25E9",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D128C180D1E2FA2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AEF68661E5CF802",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.69297d,
+      "y": 15.15946d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "140AFEF84ECC425A",
+      "title": "Ferricore Wrench",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:ferricore_wrench"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Ferricore Wrench. Item inputs include Ferricore Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AC78C804CFB68D5",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_wrench"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "196ACDC37531E922",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11BA9D24B82D4086",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.17508d,
+      "y": 8.67259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DB685ECEA1D3ED3",
+      "title": "Raw Eclipse Alloy",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:raw_eclipsealloy"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Obtain Raw Eclipse Alloy and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1AA2AF28BAD3CCCB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1335418D2E3F3893",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:raw_eclipsealloy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B81205C1E2B8904",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F59FAB3977FF029",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.0d,
+      "y": 20.72d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F90FBCC1111D4BD",
+      "title": "Raw Ferricore",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:raw_ferricore"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Obtain Raw Ferricore and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1482C2F71534EA7C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14F72EE62F09BD46",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:raw_ferricore"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEEFB6F58E88E52",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "113F0CDEF1D67ADD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.25308d,
+      "y": 10.06542d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "135DEB339353E84F",
+      "title": "Template: Blazegold",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:template_blazegold"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Template: Blazegold. Item inputs include Upgrade: Blank, Blazegold Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C1DAF0FD6AC2B4D",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:template_blazegold"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1015E101E3A3E442",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1061250B53E44B41",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.2838d,
+      "y": 4.84983d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D56DBB2CCD0D90A",
+      "title": "Template: Celestigem",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:template_celestigem"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Template: Celestigem. Item inputs include Upgrade: Blank, Celestigem. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A7ACE80683AEE7F",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:template_celestigem"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18AEC617D6CB97F7",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "146220FE137F6911",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.71211d,
+      "y": 19.06169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "191C8FC567D14430",
+      "title": "Template: Eclipse Alloy",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:template_eclipsealloy"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Template: Eclipse Alloy. Item inputs include Template: Eclipse Alloy, Eclipse Alloy Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DB685ECEA1D3ED3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12D4E3CC295412D7",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:template_eclipsealloy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CECB83A6082038F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "193D97775A869D8A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.75276d,
+      "y": 20.20338d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18D801D8D60E3A15",
+      "title": "Template: Ferricore",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:template_ferricore"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Template: Ferricore. Item inputs include Upgrade: Blank, Ferricore Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C5F3F1CEC2C9789"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19558E12A0A5DBFA",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:template_ferricore"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "186AFCBBDF413AF2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19664224FAB44571",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 16.99661d,
+      "y": 3.25178d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E3739E82B96509A",
+      "title": "Time Crystal",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:time_crystal"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Time Crystal. Item inputs include Time Crystal Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1AA2AF28BAD3CCCB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A3D08FE5726D3D0",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:time_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD9578B7A03EF1B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "114CDAC68383B366",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.38007d,
+      "y": 19.67195d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "141C2169CC69EDB1",
+      "title": "Blazegold Chestplate",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:blazegold_chestplate"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Blazegold Chestplate. Item inputs include Blazegold Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E4456A3790D4500"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1607FEB3B2178DF3",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:blazegold_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16EBC18E639320AE",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "174801CBB4A8E02D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.18137d,
+      "y": 11.0519d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "133CDE4E95EBDCFA",
+      "title": "Celestigem Chestplate",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:celestigem_chestplate"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Celestigem Chestplate. Item inputs include Celestigem. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18956A4B736DD114",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:celestigem_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18DD4DA0FB0BD463",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BF75BB2698683B0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.5873d,
+      "y": 10.25575d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A540A68C569CA1B",
+      "title": "Eclipse Alloy Chestplate",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:eclipsealloy_chestplate"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Eclipse Alloy Chestplate. Item inputs include Eclipse Alloy Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DB685ECEA1D3ED3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12E874A3C0048045",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:eclipsealloy_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17C5CCB1F6CF7807",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C62D81D39D36411",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.0d,
+      "y": 19.37d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C5F3F1CEC2C9789",
+      "title": "Ferricore Chestplate",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:ferricore_chestplate"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Ferricore Chestplate. Item inputs include Ferricore Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1906110BBB8A2050",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:ferricore_chestplate"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1701756EC5D2F3D3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16F9D47E70A7AAFF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 14.71277d,
+      "y": 7.35059d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14AA4A6E6B00BD45",
+      "title": "Simple Sensor",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:sensort1"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Simple Sensor. Item inputs include Simple Sensor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17A645D2253AFFFF",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:sensort1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10C75DF574053C2A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BCFFD58B2FA034A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.87508d,
+      "y": 11.37259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12DD4E512E0AB8CE",
+      "title": "Advanced Sensor",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:sensort2"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Advanced Sensor. Item inputs include Advanced Sensor. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "146B0F446959C173"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F287396378AE782",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:sensort2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B70AF4AB2569024",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "13DA03C8A29450B5",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.41211d,
+      "y": 17.71169d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10BEDA040748F898",
+      "title": "Upgrade: Blank",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:upgrade_blank"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Upgrade: Blank. Item inputs include Ferricore Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F90FBCC1111D4BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "141E0DFE4A2DF4BD",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_blank"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15D8B9C7E2CF0BB8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12673A652F7ADE6E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 20.22508d,
+      "y": 11.37259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1739414BA519F4B6",
+      "title": "Upgrade: Death Protection",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:upgrade_deathprotection"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Upgrade: Death Protection. Item inputs include Upgrade: Blank, Emerald, Totem Of Undying, Time Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C5F3F1CEC2C9789"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A7728E17F567E26",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_deathprotection"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E1AE22CC81EAEF8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1269BE1B143167FB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.34661d,
+      "y": 3.25178d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E9338D8348B3101",
+      "title": "Upgrade: Drops Teleport",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:upgrade_dropteleport"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Upgrade: Drops Teleport. Item inputs include Ender Pearl, Upgrade: Blank, Ender Chest, Amethyst Shard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15702B56542667CB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18B1C90483EE2463",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_dropteleport"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1556CAF8E9987EBF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "140503F646AF5A78",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.70219d,
+      "y": 8.50296d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10FD23DAA6E6FEA2",
+      "title": "Upgrade: Elytra",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:upgrade_elytra"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Upgrade: Elytra. Item inputs include Upgrade: Blank, Elytra. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C5F3F1CEC2C9789"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1514B9C8D20B4DEF",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_elytra"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13BFC6B9F9E42151",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F92837064A0D289",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 23.74661d,
+      "y": 3.25178d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A162595FF34FC0C",
+      "title": "Upgrade: Flight",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:upgrade_flight"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Upgrade: Flight. Item inputs include Phantom Membrane, Upgrade: Blank, End Crystal, Feather. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C5F3F1CEC2C9789"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13460D79ABFD4CB4",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_flight"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1086843951CBF1E8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C1E5745B0FB377A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 18.34661d,
+      "y": 4.60178d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18B25DFE3BE38734",
+      "title": "Upgrade: Hammer",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:upgrade_hammer"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Upgrade: Hammer. Item inputs include Upgrade: Blank, Diamond Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15702B56542667CB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "191A761EAF2D559A",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_hammer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C17F81967FC5AA4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E8C7ABEF2536739",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.30444d,
+      "y": 1.98042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DD021B8D449290D",
+      "title": "Upgrade: Ore Miner",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:upgrade_oreminer"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Upgrade: Ore Miner. Item inputs include Upgrade: Blank, Iron Pickaxe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15702B56542667CB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16CDA1C531D75395",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_oreminer"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F4723E372930293",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F6DED95A07A5490",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.00444d,
+      "y": 3.33042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F5E8A4B5DC91DCD",
+      "title": "Upgrade: Phase",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:upgrade_phase"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Upgrade: Phase. Item inputs include Shulker Shell, Upgrade: Blank, Phantom Membrane, Dragon Breath. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E3AEB1620008082"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15015C22E9E17CCF",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_phase"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AAC75F4BD6B74EF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "157A7E0CA1FC6332",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.8184d,
+      "y": 1.92978d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16AA6DF009FB5674",
+      "title": "Upgrade: Skysweeper",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:upgrade_skysweeper"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Upgrade: Skysweeper. Item inputs include Upgrade: Blank, Sand, Gravel. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15702B56542667CB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18C1529ED909F321",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_skysweeper"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "144A7498A65B2FE0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "116F2207EF058B04",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.30444d,
+      "y": 4.68042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1072499833F0F422",
+      "title": "Upgrade: Treefeller",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:upgrade_treefeller"
+      },
+      "description": [
+        "Follow the Goo Block conversions to obtain the next material tier. Upgraded machines and tools build on those materials; check conversion conditions before placing valuable blocks near goo.",
+        "Craft Upgrade: Treefeller. Item inputs include Upgrade: Blank, Diamond Axe. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15702B56542667CB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17C7DA6407A52425",
+          "type": "item",
+          "item": {
+            "id": "justdirethings:upgrade_treefeller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F5E53DF120ACF90",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FB341654BC950BA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.60444d,
+      "y": 6.03042d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13CB9EADBF212A14",
+      "title": "Just Dire Things",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier1"
+      },
+      "description": [
+        "Learn about Just Dire Things in the Just Dire Things guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "183B6FB43A27AB6C",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E54F1D3D5FCC7F0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.43889d,
+      "y": 12.69422d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A2284D6EF189DD",
+      "title": "Simple Machines",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier1"
+      },
+      "description": [
+        "Learn about Simple Machines in the Just Dire Things guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "13D45AB606CDC841",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18CD97FFF7C2C73E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 21.16247d,
+      "y": 13.33403d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "146ECB536A2B0828",
+      "title": "Advanced Machines",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier1"
+      },
+      "description": [
+        "Learn about Advanced Machines in the Just Dire Things guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1A518188D8DAB88B",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19059F77BBD13D9F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 22.48447d,
+      "y": 13.33403d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ED62DC04A184649",
+      "title": "Tools",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier1"
+      },
+      "description": [
+        "Learn about Tools in the Just Dire Things guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1E93307CCF285D32",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F9840AA3167EBE7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.54083d,
+      "y": 0.65966d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "105EA1CAF2BEB708",
+      "title": "Utilities",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier1"
+      },
+      "description": [
+        "Learn about Utilities in the Just Dire Things guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1B4E3C333EB853E0",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1535EEB029F56FCA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 21.16247d,
+      "y": 1.3368d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "123A5DF5E3CCB620",
+      "title": "Armor",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier1"
+      },
+      "description": [
+        "Learn about Armor in the Just Dire Things guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1DA1075ED1E430FF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B2BF02BCABC8F32",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 22.48447d,
+      "y": 1.3368d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "140588ADF950136A",
+      "title": "Fluids",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier1"
+      },
+      "description": [
+        "Learn about Fluids in the Just Dire Things guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1CAADF174CAE04F9",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1590372867038AA4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.19083d,
+      "y": -0.66053d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E3AEB1620008082",
+      "title": "Hybrid Upgrades",
+      "subtitle": "Just Dire Things",
+      "icon": {
+        "id": "justdirethings:gooblock_tier1"
+      },
+      "description": [
+        "Learn about Hybrid Upgrades in the Just Dire Things guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1C5F3F1CEC2C9789"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "18CEF9C548A2AF44",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BB0E254F19EC3C7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.67644d,
+      "y": 4.02471d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

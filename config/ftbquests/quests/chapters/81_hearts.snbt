@@ -1,0 +1,1215 @@
+{
+  "id": "1E89CF01763CE85B",
+  "filename": "81_hearts",
+  "title": "Baubley Heart Canisters",
+  "icon": {
+    "id": "bhc:red_heart_canister"
+  },
+  "group": "1C597D90078AA969",
+  "order_index": 59,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1BDF9C9DC1182C74",
+      "title": "Vigor Bow",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:vigor_bow"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Vigor Bow. Item inputs include Soul Amulet, Soul Heart Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18E32D71FB365C12"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1793E29B9B64B61E",
+          "type": "item",
+          "item": {
+            "id": "bhc:vigor_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D116504C007EF4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10440863CDA1D828",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.55944d,
+      "y": 0.67361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11A788F6A84AD303",
+      "title": "Vitality Blade",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:blade_of_vitality"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Vitality Blade. Item inputs include Soul Amulet, Soul Heart Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18E32D71FB365C12"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "166FC89894C1BADB",
+          "type": "item",
+          "item": {
+            "id": "bhc:blade_of_vitality"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C177A1A662A3079",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D20E8D8DE4FB859",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.90944d,
+      "y": 0.67361d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "182F665514A70D65",
+      "title": "Miniature Blue Heart",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:blue_heart"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Miniature Blue Heart. Item inputs include Melted Blue Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1EB2A45148C96AD4"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16D44FB9C1DB5786",
+          "type": "item",
+          "item": {
+            "id": "bhc:blue_heart"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E9457B0174DA2E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18F586BB4898FE11",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.43398d,
+      "y": 5.06108d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11574C65523D9FA3",
+      "title": "Blue Heart Canister",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:blue_heart_canister"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Blue Heart Canister. Item inputs include Green Heart Canister, Miniature Blue Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17E30BD7B9D03C14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1137953693D32EEA",
+          "type": "item",
+          "item": {
+            "id": "bhc:blue_heart_canister"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E7E5572402C0F7E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B906B711DEC4DB0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.13542d,
+      "y": 11.06056d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12D7E04368757A84",
+      "title": "Blue Health Patch",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:blue_heart_patch"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Blue Health Patch. Item inputs include Miniature Blue Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15376F7E8FC1ADB1"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "164704EAB7EFC32C",
+          "type": "item",
+          "item": {
+            "id": "bhc:blue_heart_patch"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ACEE5E1350A1AC8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14E885664854DEE4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.57893d,
+      "y": 7.10553d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17E30BD7B9D03C14",
+      "title": "Canister",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:canister"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Canister. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14B08B922239C10A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D24419C8B9B357F",
+          "type": "item",
+          "item": {
+            "id": "bhc:canister"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "177AA780F4E2F294",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C00D1BFE3A8737E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.76667d,
+      "y": 8.12097d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D9FDCA2A49647CC",
+      "title": "Miniature Green Heart",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:green_heart"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Miniature Green Heart. Item inputs include Melted Green Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "12BB15A1FFB94F19"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14A6E3BED04268B5",
+          "type": "item",
+          "item": {
+            "id": "bhc:green_heart"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17D7493AC513B911",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "123A71560BC16A7E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.76018d,
+      "y": 2.38086d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B13F0E60C095AD",
+      "title": "Green Heart Canister",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:green_heart_canister"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Green Heart Canister. Item inputs include Yellow Heart Canister, Miniature Green Heart, Shulker Shell. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17E30BD7B9D03C14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16D6019355F9CEA9",
+          "type": "item",
+          "item": {
+            "id": "bhc:green_heart_canister"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17A9AC9BD5224CB4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17F3AA101B1C1B1F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.67778d,
+      "y": 6.09792d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EB2A45148C96AD4",
+      "title": "Melted Green Heart",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:green_heart_melted"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Melted Green Heart. Item inputs include Melted Blue Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1D9FDCA2A49647CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "199BD49455F5505B",
+          "type": "item",
+          "item": {
+            "id": "bhc:green_heart_melted"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB1793BA707BBF8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "172E792A9B473DB4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.59708d,
+      "y": 3.72097d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15376F7E8FC1ADB1",
+      "title": "Green Health Patch",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:green_heart_patch"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Green Health Patch. Item inputs include Miniature Green Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1369D649D11258AB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "118FA2882190E7FF",
+          "type": "item",
+          "item": {
+            "id": "bhc:green_heart_patch"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B5B8ABDA8FB760C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E4AF9DFD78218EA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.229d,
+      "y": 7.1187d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15D34362720298B6",
+      "title": "Heart Amulet",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:heart_amulet"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Heart Amulet. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14B08B922239C10A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "146AA656B619E656",
+          "type": "item",
+          "item": {
+            "id": "bhc:heart_amulet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E58366AB99BECA2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "169E8D00BE60F8C9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.55375d,
+      "y": 10.14194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14B08B922239C10A",
+      "title": "Miniature Red Heart",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:red_heart"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Miniature Red Heart. Item inputs include Melted Red Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1207213EE59DD2DB",
+          "type": "item",
+          "item": {
+            "id": "bhc:red_heart"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE37B986DE94ABA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17B469430AE3C871",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.17875d,
+      "y": 7.15819d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13A1C364F19F5A3E",
+      "title": "Red Heart Canister",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:red_heart_canister"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Red Heart Canister. Item inputs include Canister, Miniature Red Heart, Relic Apple. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17E30BD7B9D03C14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "196D228591081D5B",
+          "type": "item",
+          "item": {
+            "id": "bhc:red_heart_canister"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "156F949539E3D430",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "11FA6BAEF702A3BF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.02778d,
+      "y": 6.09792d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "113260B75008F1CB",
+      "title": "Melted Red Heart",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:red_heart_melted"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Smelt Melted Red Heart. Item inputs include Miniature Red Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14B08B922239C10A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D62520374905D6A",
+          "type": "item",
+          "item": {
+            "id": "bhc:red_heart_melted"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E7B065CB81BD94",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19DD0124ABF53C32",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.09387d,
+      "y": 4.89798d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FEA954D98A47C96",
+      "title": "Red Health Patch",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:red_heart_patch"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Red Health Patch. Item inputs include Miniature Red Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14B08B922239C10A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C53075141260FF7",
+          "type": "item",
+          "item": {
+            "id": "bhc:red_heart_patch"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB4BCFFEB6E5FB9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "138214E7613DF02B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.52912d,
+      "y": 7.14503d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A65F9D0D11EF8EA",
+      "title": "Relic Apple",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:relic_apple"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Relic Apple. Item inputs include Apple. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14B08B922239C10A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "189698F9FD83B537",
+          "type": "item",
+          "item": {
+            "id": "bhc:relic_apple"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CEAB0101F88DF76",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AA3ACE481D21625",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.90375d,
+      "y": 10.14194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10BE8411A10DA678",
+      "title": "Soul Amulet",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:soul_heart_amulet"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Use Amulet Shapeless processing to make Soul Amulet. Item inputs include Heart Amulet, Soul Heart Crystal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "18E32D71FB365C12"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15BE8D2614C54824",
+          "type": "item",
+          "item": {
+            "id": "bhc:soul_heart_amulet"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AC14D6BB87F315D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1201651A96C8AE06",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.12409d,
+      "y": 5.22418d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17B636F8B8501CA6",
+      "title": "Soul Heart Canister",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:soul_heart_canister"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Use a Smithing Table to make Soul Heart Canister. Item inputs include Totem Of Undying, Blue Heart Canister. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "11574C65523D9FA3"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1565797ED79F27A8",
+          "type": "item",
+          "item": {
+            "id": "bhc:soul_heart_canister"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13416091EA39D867",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E711197A1FCE575",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.10537d,
+      "y": 13.46264d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CF2D91809C40C7E",
+      "title": "Wither Bone",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:wither_bone"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Wither Bone. Item inputs include Wither Skeleton Skull. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14B08B922239C10A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B724CBD91BE5872",
+          "type": "item",
+          "item": {
+            "id": "bhc:wither_bone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17BC4716D3966605",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FE437BD09805F89",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.25375d,
+      "y": 10.14194d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17D7F698DACE1992",
+      "title": "Miniature Yellow Heart",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:yellow_heart"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Miniature Yellow Heart. Item inputs include Melted Yellow Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "113260B75008F1CB"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "105BD0C48EAB5A2E",
+          "type": "item",
+          "item": {
+            "id": "bhc:yellow_heart"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1496C011F54D7EA0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1CEEB6EFF9CC1EBD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.25697d,
+      "y": 3.55787d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15AF86072910E3CE",
+      "title": "Yellow Heart Canister",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:yellow_heart_canister"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Yellow Heart Canister. Item inputs include Red Heart Canister, Miniature Yellow Heart, Enchanted Golden Apple. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17E30BD7B9D03C14"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "114C88F43BA46962",
+          "type": "item",
+          "item": {
+            "id": "bhc:yellow_heart_canister"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A1652E16EBCE34C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B00ED0C15C97192",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.37778d,
+      "y": 6.09792d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12BB15A1FFB94F19",
+      "title": "Melted Yellow Heart",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:yellow_heart_melted"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Melted Yellow Heart. Item inputs include Melted Green Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17D7F698DACE1992"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FFE59CEC38C4745",
+          "type": "item",
+          "item": {
+            "id": "bhc:yellow_heart_melted"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEA8C650645B7A6",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14A02C8826AC72CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.42007d,
+      "y": 2.21776d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1369D649D11258AB",
+      "title": "Yellow Health Patch",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:yellow_heart_patch"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Yellow Health Patch. Item inputs include Miniature Yellow Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FEA954D98A47C96"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DA84D81912DEC2F",
+          "type": "item",
+          "item": {
+            "id": "bhc:yellow_heart_patch"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1878020363F1CA36",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "136DD7F71D134D0C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.87906d,
+      "y": 7.13186d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18E32D71FB365C12",
+      "title": "Soul Heart Crystal",
+      "subtitle": "Baubley Heart Canisters",
+      "icon": {
+        "id": "bhc:soul_heart_crystal"
+      },
+      "description": [
+        "Collect heart drops and craft the matching canisters. Equip them in the supported accessory slots; use the recipe viewer to check the ingredients for each colour.",
+        "Craft Soul Heart Crystal. Item inputs include Echo Shard, Amethyst Shard, Miniature Blue Heart, Miniature Green Heart. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "182F665514A70D65"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "157086F17FABEA0C",
+          "type": "item",
+          "item": {
+            "id": "bhc:soul_heart_crystal"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1930B3DAB7690D1D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C1D7F0D91E0BD92",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.77409d,
+      "y": 5.22418d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

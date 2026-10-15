@@ -1,0 +1,50 @@
+{
+  "type": "gateways:normal",
+  "size": "medium",
+  "color": "#4E9B96",
+  "waves": [
+    {
+      "max_wave_time": 4800,
+      "setup_time": 100,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "entity": "minecraft:zombie",
+          "count": 5
+        },
+        {
+          "type": "gateways:standard",
+          "entity": "minecraft:skeleton",
+          "count": 3
+        },
+        {
+          "type": "gateways:standard",
+          "entity": "minecraft:vindicator",
+          "count": 1
+        },
+        {
+          "type": "gateways:standard",
+          "entity": "cataclysm:koboleton",
+          "count": 3
+        }
+      ],
+      "rewards": []
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "afterlight:encounters/ruins",
+      "rolls": 1,
+      "desc": "Ruins Encounter supplies"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "spawn_range": 8,
+    "leash_range": 48,
+    "remove_mobs_on_failure": true,
+    "fail_on_out_of_bounds": true,
+    "requires_nearby_player": true
+  }
+}

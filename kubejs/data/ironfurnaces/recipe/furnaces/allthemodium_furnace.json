@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ironfurnaces:netherite_furnace"
+    },
+    {
+      "item": "ironfurnaces:upgrade_allthemodium"
+    }
+  ],
+  "result": {
+    "id": "ironfurnaces:allthemodium_furnace",
+    "count": 1
+  }
+}

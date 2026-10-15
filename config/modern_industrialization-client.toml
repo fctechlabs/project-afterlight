@@ -1,0 +1,4 @@
+# Recipe viewers remain checked; individual mod update advertisements are suppressed.
+[messages]
+missingRecipeViewerMessage = true
+newVersionMessage = false

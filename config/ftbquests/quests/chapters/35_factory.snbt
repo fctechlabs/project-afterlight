@@ -1,0 +1,2650 @@
+{
+  "id": "1771D71C4ADDA19B",
+  "filename": "35_factory",
+  "title": "Factory Automation",
+  "icon": {
+    "id": "modularrouters:modular_router"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 27,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1DCAAAEC023DC171",
+      "title": "Modular Router",
+      "subtitle": "Modular Routers",
+      "icon": {
+        "id": "modularrouters:modular_router"
+      },
+      "description": [
+        "A Modular Router acts through modules. Start by moving one known item between two known inventories."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B7FDED19DA038E2",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:modular_router"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14E50F5C516C1FA0",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "143BA45C9787D692",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.76845d,
+      "y": -0.93412d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FB36DB8C80BC8BC",
+      "title": "Puller Module Mk1",
+      "subtitle": "Modular Routers",
+      "icon": {
+        "id": "modularrouters:puller_module_1"
+      },
+      "description": [
+        "Install a Puller Module and configure its direction and filter. Test it with a small stack before connecting bulk storage."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14B97367219DE906",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:puller_module_1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DD02C376B3C25EB",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "16C868978F6D2709",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.04251d,
+      "y": -1.77474d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1745B86D5D8CD0DE",
+      "title": "Sender Module Mk1",
+      "subtitle": "Modular Routers",
+      "icon": {
+        "id": "modularrouters:sender_module_1"
+      },
+      "description": [
+        "A Sender Module moves the router's buffer onward. Check module direction, destination capacity, and claim permissions."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15A9DDD39304160A",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:sender_module_1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "188F20803FACF2F4",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "153D6D38B52AB750",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.34966d,
+      "y": 1.9692d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D269A307D9F3E73",
+      "title": "Factory Manager",
+      "subtitle": "Factory Manager",
+      "icon": {
+        "id": "sfm:manager"
+      },
+      "description": [
+        "Connect inventories with the Factory Manager's cable and label them. Start with one explicit source, destination, and item filter."
+      ],
+      "dependencies": [
+        "1DCAAAEC023DC171"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12F6183719397F41",
+          "type": "item",
+          "item": {
+            "id": "sfm:manager"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14D204E8DF27ACB1",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1280E3201CF1312F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.95393d,
+      "y": 2.70764d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16600086C286D05A",
+      "title": "Inventory Cable",
+      "subtitle": "Factory Manager",
+      "icon": {
+        "id": "sfm:cable"
+      },
+      "description": [
+        "Connect the intended machines and check the manager's network view. Clear labels make later transfer rules much easier to debug."
+      ],
+      "dependencies": [
+        "1D269A307D9F3E73"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E00D68F592AA980",
+          "type": "item",
+          "item": {
+            "id": "sfm:cable"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C7C83DF5626B014",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "170A422A225C1501",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.72239d,
+      "y": 1.77352d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E1589BFE51E7B0E",
+      "title": "Activator Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:activator_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Activator Module. Item inputs include Dispenser, Lever, Blank Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1460028085AE1B36",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:activator_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E6E17C2040987F5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1772BCF53E816F89",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.51074d,
+      "y": -3.67865d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17CF75886A9CBD22",
+      "title": "Augment Core",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:augment_core"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Augment Core. Item inputs include Blank Module, Blank Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCAAAEC023DC171"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10ADF48D225E48EA",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:augment_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16CE78D116CDA0E3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D954CF7E6490C69",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.37761d,
+      "y": -0.27663d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F7E6FD8027C6383",
+      "title": "Blank Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:blank_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Blank Module. Item inputs include Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCAAAEC023DC171"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10F84E7313D78622",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:blank_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "165AB1A7FF80534C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1770D046750E995E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.0d,
+      "y": 0.0d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19D4A760EF7EB901",
+      "title": "Blank Upgrade",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:blank_upgrade"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Blank Upgrade. Item inputs include Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1DCAAAEC023DC171"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B7C0D3808B6E5A9",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:blank_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19BEFBD525BACD67",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A738B4668E965E0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.96058d,
+      "y": -4.8525d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14E5A9CA30A74639",
+      "title": "Blast Upgrade",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:blast_upgrade"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Blast Upgrade. Item inputs include Blank Upgrade, Iron Bars. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19D4A760EF7EB901"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1990F3DDC8C8749C",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:blast_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18DA43BCEF12E1BA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10845662A86E3600",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.03307d,
+      "y": -5.69275d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "146904ECA1830924",
+      "title": "Breaker Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:breaker_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Obtain Breaker Module and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "190661B18110FA2B",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:breaker_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1434C9C3F585E07A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14A712A5382B00D4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.32406d,
+      "y": 0.26337d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E5C42333A1ED646",
+      "title": "Bulk Item Filter",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:bulk_item_filter"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Bulk Item Filter. Item inputs include Blank Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D0E84E70B9C1778",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:bulk_item_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "124F0A19B25F9196",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "181C839B8B095445",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.08448d,
+      "y": 1.2045d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E930729CB0E4B73",
+      "title": "Camouflage Upgrade",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:camouflage_upgrade"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Camouflage Upgrade. Item inputs include Blank Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19D4A760EF7EB901"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "174615C6C934AB6E",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:camouflage_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C6C17A88C8F74F4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14B57DA696CCFDFD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.08306d,
+      "y": -4.10248d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1223880F19016C5A",
+      "title": "Detector Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:detector_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Detector Module. Item inputs include Blank Module, Comparator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1299700F4A6F3572",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:detector_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FB2BED533F00FDD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B085BD9628F1369",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.26337d,
+      "y": -1.32406d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1070EE4776CF7727",
+      "title": "Distributor Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:distributor_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Distributor Module. Item inputs include Blank Module, Sender Module Mk2. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "116E900235CC601B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "193AF44870C11594",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:distributor_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "132CD2D08EBBCAA8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F19A6E1D06F65B1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.93511d,
+      "y": 5.75025d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14BEDA78A823CA8B",
+      "title": "Dropper Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:dropper_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Dropper Module. Item inputs include Blank Module, Dropper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B5B4BCDD06E2872",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:dropper_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11F211DBB58BC9A4",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A70F698C0E6C796",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.17167d,
+      "y": 3.07117d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "142C02C751B87C63",
+      "title": "Energy Distributor Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:energy_distributor_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Energy Distributor Module. Item inputs include Energy Output Module, Distributor Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1070EE4776CF7727"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10C6D6B3EF31EAFE",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:energy_distributor_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1000EED60FDE2580",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15ED88B528190BEA",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.28477d,
+      "y": 7.71945d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "130D5A3FBEFA40D4",
+      "title": "Energy Output Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:energy_output_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Energy Output Module. Item inputs include Blank Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "18EE9368D545FAF0",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:energy_output_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12F353568A5E7491",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1439695B3F8D7FF2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.32172d,
+      "y": -4.31797d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A56B4EC2EAA7547",
+      "title": "Energy Upgrade",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:energy_upgrade"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Energy Upgrade. Item inputs include Blank Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19D4A760EF7EB901"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17621065289154C3",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:energy_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17A9505D108DA8FA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "150B1A6335D5FBA0",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.44396d,
+      "y": -3.60526d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "14D7990C9AFF2163",
+      "title": "Extruder Module Mk1",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:extruder_module_1"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Obtain Extruder Module Mk1 and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1F8F2AD994DDCCD5"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "192004594E9CE8F7",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:extruder_module_1"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15C9BFB924BB9D49",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C6AA79C92955B42",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -6.39792d,
+      "y": -0.46676d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FBFE2498A8F5F51",
+      "title": "Extruder Module Mk2",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:extruder_module_2"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Extruder Module Mk2. Item inputs include Blank Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AB24E960543B8C7",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:extruder_module_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13BDA3E44D1C8689",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "105A68AB199596B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.66671d,
+      "y": 2.49441d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EB9D1F24B51051D",
+      "title": "Fast Pickup Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:fast_pickup_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Fast Pickup Augment. Item inputs include Augment Core, Fishing Rod. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CF75886A9CBD22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E1300A157074F45",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:fast_pickup_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FA0F1EC41BB3F66",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12272EFE822C460B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.71448d,
+      "y": -2.50954d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1DA1C0176150EAF5",
+      "title": "Filter Round Robin Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:filter_round_robin_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Filter Round Robin Augment. Item inputs include Augment Core, Clock. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CF75886A9CBD22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DDA3C91B1A1F36A",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:filter_round_robin_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AB30CC1D400AD52",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B8A1C94907085A8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.62485d,
+      "y": 0.23999d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1FA4179E364C66F8",
+      "title": "Flinger Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:flinger_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Flinger Module. Item inputs include Dropper Module, Gunpowder. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "14BEDA78A823CA8B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "11B3260B0A42F626",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:flinger_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1718FD04E5E548CA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19099DC4BD72103D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.60846d,
+      "y": 4.46244d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C0CD0F9AF9209CC",
+      "title": "Fluid Module Mk1",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:fluid_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Fluid Module Mk1. Item inputs include Cauldron, Blank Module. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15F3621B3B6AD6F1",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:fluid_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BB035B9A1883267",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "114B6A07BCB43266",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.92047d,
+      "y": 3.97535d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CAEF342D0BD4F92",
+      "title": "Fluid Module Mk2",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:fluid_module_2"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Fluid Module Mk2. Item inputs include Fluid Module Mk1, Prismarine Shard. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C0CD0F9AF9209CC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1AA89121C7F32CB6",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:fluid_module_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B08D69865943D49",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D7020277AC834DB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.79045d,
+      "y": 5.77621d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B6638E25D845759",
+      "title": "Fluid Transfer Upgrade",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:fluid_upgrade"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Fluid Transfer Upgrade. Item inputs include Blank Upgrade, Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19D4A760EF7EB901"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DD61D0A09318939",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:fluid_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13979F4280AA7D10",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18AF3B60E26E7D6B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.61058d,
+      "y": -4.8525d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A13D8E319E8A5B4",
+      "title": "Inspection Filter",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:inspection_filter"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Inspection Filter. Item inputs include Bulk Item Filter, Spider Eye, Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E5C42333A1ED646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B65D861332C53BC",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:inspection_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "19210D594828CD89",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AA4B2D8BD50BB27",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.67325d,
+      "y": 2.90216d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "167ED44346E021D4",
+      "title": "Mimic Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:mimic_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Mimic Augment. Item inputs include Augment Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CF75886A9CBD22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "145594E2038D4A0F",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:mimic_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EB5657D99519341",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C207DEBFCC76568",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.62759d,
+      "y": -1.39911d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E1216D1045ACFDC",
+      "title": "Mod Filter",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:mod_filter"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Mod Filter. Item inputs include Bulk Item Filter, Repeater, Redstone Torch. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E5C42333A1ED646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10C6DDDA63571F62",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:mod_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12A0EABF86BAF590",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "12296F6CCA36AB04",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.82111d,
+      "y": 2.52856d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "191EA6DF97775EEF",
+      "title": "Muffler Upgrade",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:muffler_upgrade"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Muffler Upgrade. Item inputs include Blank Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19D4A760EF7EB901"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "185C8CB68FB488BE",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:muffler_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17E311E4A864F49D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AA34B92DEE1EABE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.6636d,
+      "y": -4.49905d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "149565F8F76DDE25",
+      "title": "Pickup Delay Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:pickup_delay_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Pickup Delay Augment. Item inputs include Augment Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CF75886A9CBD22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14654597F8474CAE",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:pickup_delay_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B94CBAF3E9F0653",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17AD810609E1D682",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.54431d,
+      "y": 1.46946d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F8F2AD994DDCCD5",
+      "title": "Placer Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:placer_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Placer Module. Item inputs include Blank Module, Dispenser, Dirt. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1455549ABC593EC4",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:placer_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15E59442FFBF36B0",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10A8F6A296DF86C3",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.40322d,
+      "y": -0.32124d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1BF7581452BB6B50",
+      "title": "Player Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:player_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Player Module. Item inputs include Diamond Chestplate, Diamond Helmet, Puller Module Mk2, Sender Module Mk3. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13F1BDA0DFBD6A7F",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:player_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E1B9CBB8C46C7A8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "130A1D61086AFD76",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -0.68282d,
+      "y": 3.43275d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "11FC69D4FABB75A9",
+      "title": "Puller Module Mk2",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:puller_module_2"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Puller Module Mk2. Item inputs include Puller Module Mk1. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1FB36DB8C80BC8BC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C9C70614EAED1BA",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:puller_module_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "179074F028166152",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "163045485C726086",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -5.8738d,
+      "y": -2.57871d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "124073DE3D0AF9FC",
+      "title": "Pushing Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:pushing_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Pushing Augment. Item inputs include Augment Core, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CF75886A9CBD22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C69072F29FC5459",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:pushing_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "184209369EF25754",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A7AF619B149EB8C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.34501d,
+      "y": -1.31583d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AB2FC98B14C2686",
+      "title": "Range Down Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:range_down_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Range Down Augment. Item inputs include Augment Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CF75886A9CBD22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16DC00518E3974B1",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:range_down_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18CC6A0DD691A194",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F8EA2444EF5D04C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.88988d,
+      "y": -2.72859d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C5CF75602C7AD65",
+      "title": "Range Up Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:range_up_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Range Up Augment. Item inputs include Augment Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CF75886A9CBD22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1D423C2CF8D2EF61",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:range_up_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1615E65CF514F75D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1FA9B2D46B6FC772",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.85248d,
+      "y": -2.7515d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10C6A9712978BD6D",
+      "title": "Redstone Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:redstone_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Redstone Augment. Item inputs include Augment Core, Redstone Torch. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CF75886A9CBD22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A532C9CE26C67FD",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:redstone_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "124AF4A1217E76CA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16C1F5A54874B5A2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.92613d,
+      "y": -3.20742d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12B5BA114A96ABCD",
+      "title": "Regex Filter",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:regex_filter"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Regex Filter. Item inputs include Bulk Item Filter, Comparator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E5C42333A1ED646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "141805A1D0373151",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:regex_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C81386AB9BE8E6C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1AABE5F30E75FF40",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -3.33172d,
+      "y": 0.68788d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "135649AC3A9B5230",
+      "title": "Regulator Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:regulator_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Regulator Augment. Item inputs include Comparator, Augment Core. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CF75886A9CBD22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C185DF277FB8F2F",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:regulator_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14CEF41C29DBFC75",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "175DC0874DCA5162",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.97554d,
+      "y": -0.12213d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "19C4076D18DC5688",
+      "title": "Security Upgrade",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:security_upgrade"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Security Upgrade. Item inputs include Blank Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19D4A760EF7EB901"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15B6D5529CF2A42C",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:security_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12B41EC55C28149E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15677C768CF31A78",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.85731d,
+      "y": -5.12958d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "116E900235CC601B",
+      "title": "Sender Module Mk2",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:sender_module_2"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Sender Module Mk2. Item inputs include Sender Module Mk1. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1745B86D5D8CD0DE"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "151D9F3B0B7C5341",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:sender_module_2"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D496D113C5CB025",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B80206D61A24875",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.69931d,
+      "y": 3.9384d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E3A439DBF1AED11",
+      "title": "Sender Module Mk3",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:sender_module_3"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Sender Module Mk3. Item inputs include Sender Module Mk2, End Stone, Ender Chest. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "116E900235CC601B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CA2F2E7C42BA17E",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:sender_module_3"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1039AD0D942F0D04",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1EA47840862E92CF",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.16283d,
+      "y": 6.06494d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AC2B7A2A433B1B8",
+      "title": "Speed Upgrade",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:speed_upgrade"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Speed Upgrade. Item inputs include Blank Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19D4A760EF7EB901"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "107844F63B492BB2",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:speed_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1444C6092D489672",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "146D686BEBDCDD14",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.21056d,
+      "y": -5.97498d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E4EC65DE8D86723",
+      "title": "Stack Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:stack_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Stack Augment. Item inputs include Augment Core, Stack Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B67C72599718D34"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "105687E53A5718C5",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:stack_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16C1400FDFA5FA22",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17D0D123EAB451E2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.64629d,
+      "y": -9.36322d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B67C72599718D34",
+      "title": "Stack Upgrade",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:stack_upgrade"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Stack Upgrade. Item inputs include Blank Upgrade. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19D4A760EF7EB901"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1B7B0BD5817881A0",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:stack_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1666B3D6BC6EAAC3",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15AC0A0A56C9F187",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.87784d,
+      "y": -8.42911d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1AA7BFF0188289B6",
+      "title": "Sync Upgrade",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:sync_upgrade"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Sync Upgrade. Item inputs include Blank Upgrade, Redstone Torch. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "19D4A760EF7EB901"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1714007CFE7E1E0E",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:sync_upgrade"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10B19AF70BA88AC8",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D64B8A55518FBD6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.22395d,
+      "y": -6.17656d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10A07227C585E933",
+      "title": "Tag Filter",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:tag_filter"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Tag Filter. Item inputs include Bulk Item Filter, Paper. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E5C42333A1ED646"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13497997D380097F",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:tag_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DC253D2694C7294",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "149E2B3784EEE5E6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.34869d,
+      "y": 1.73328d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18F3CD14D7746B92",
+      "title": "Vacuum Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:vacuum_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Vacuum Module. Item inputs include Blank Module, Hopper, Ender Eye. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A3A35A2A25E4D2F",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:vacuum_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "118CB95BC2215F5A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A8435B2B83DAAFB",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -2.91014d,
+      "y": -1.9445d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "171753A211893462",
+      "title": "Void Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:void_module"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft Void Module. Item inputs include Blank Module, Lava Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "187B0D46ECA32A9A",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:void_module"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11811099362B5916",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15779F971983B260",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -1.1327d,
+      "y": -4.95729d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F7A5993F163FAA7",
+      "title": "XP Vacuum Augment",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:xp_vacuum_augment"
+      },
+      "description": [
+        "Modular Routers execute modules in order. Configure a target, direction, filter, and operation for each module; test with cheap items before enabling a valuable production line.",
+        "Craft XP Vacuum Augment. Item inputs include Augment Core, Soul Sand. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "17CF75886A9CBD22"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A4602FF11824A3B",
+          "type": "item",
+          "item": {
+            "id": "modularrouters:xp_vacuum_augment"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "113E64D033BA0170",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15ADC41663BEC553",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.16925d,
+      "y": -0.75266d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A6DE117F305B527",
+      "title": "Creative Module",
+      "subtitle": "Factory Automation",
+      "icon": {
+        "id": "modularrouters:creative_module"
+      },
+      "description": [
+        "Learn about Creative Module in the Factory Automation guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1F7E6FD8027C6383"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "147AB6117A7BF016",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A417BD53995C760",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": -4.78939d,
+      "y": -6.05669d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": true,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

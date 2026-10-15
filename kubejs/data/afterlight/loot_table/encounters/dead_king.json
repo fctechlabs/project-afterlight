@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "irons_spellbooks:chests/catacombs/dead_king_vault",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

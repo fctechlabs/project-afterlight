@@ -1,0 +1,3 @@
+# The pack author has configured the helper; its setup greeting is not part of player onboarding.
+[greeting]
+shown_greeting = true

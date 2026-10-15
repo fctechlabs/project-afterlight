@@ -1,0 +1,3 @@
+# Optional logic documentation does not fill the starting inventory.
+[item.on_the_dynamics_of_integration]
+obtainOnSpawn = false

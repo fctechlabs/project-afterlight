@@ -1,0 +1,905 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel/cobblestone",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel/cobwebs",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel/crops",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel/food",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel/gems",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel/ingots",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel/minecarts",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel/ores",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel/rails",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_barrel/tnt",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "artifacts:chests/campsite_chest",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeoncrawl:chests/food",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeoncrawl:chests/secret_room",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeoncrawl:chests/stage_1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeoncrawl:chests/stage_2",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeoncrawl:chests/stage_3",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeoncrawl:chests/stage_4",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeoncrawl:chests/stage_5",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeoncrawl:chests/supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeoncrawl:chests/treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/abandoned_temple/abandoned_temple_entrance",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/abandoned_temple/abandoned_temple_map",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/abandoned_temple/abandoned_temple_top",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/aviary/aviary_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/aviary/aviary_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/aviary/aviary_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bandit_towers/bandit_towers_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bandit_towers/bandit_towers_gardens",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bandit_towers/bandit_towers_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bandit_towers/bandit_towers_rooms",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bandit_towers/bandit_towers_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bandit_towers/bandit_towers_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bandit_village/bandit_village_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bandit_village/bandit_village_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bandit_village/bandit_village_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bandit_village/bandit_village_tents",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bathhouse/bathhouse_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/bathhouse/bathhouse_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/ceryneian_hind/ceryneian_hind_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/fishing_hut/fishing_hut_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/foundry/foundry_chains",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/foundry/foundry_lava_pit",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/foundry/foundry_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/foundry/foundry_passage_exterior",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/foundry/foundry_passage_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/foundry/foundry_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/greenwood_pub/greenwood_pub_barrels_hallways",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/greenwood_pub/greenwood_pub_barrels_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/greenwood_pub/greenwood_pub_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_theater",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/heavenly_rider/heavenly_rider_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/heavenly_rider/heavenly_rider_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/heavenly_rider/heavenly_rider_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_campsite/illager_campsite_map",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_campsite/illager_campsite_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_campsite/illager_campsite_tent",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_corsair/illager_corsair_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_corsair/illager_corsair_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_corsair/illager_corsair_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_fort/illager_fort_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_fort/illager_fort_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_fort/illager_fort_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_galley/illager_galley_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_galley/illager_galley_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_galley/illager_galley_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_windmill/illager_windmill_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/illager_windmill/illager_windmill_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/infested_temple/infested_temple_room_bookshelf",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/infested_temple/infested_temple_room_forge",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/infested_temple/infested_temple_room_garden",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/infested_temple/infested_temple_room_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/infested_temple/infested_temple_room_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/infested_temple/infested_temple_room_table",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/infested_temple/infested_temple_top_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/infested_temple/infested_temple_vault_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/infested_temple/infested_temple_vault_ominous",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/infested_temple/infested_temple_vault_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/keep_kayra/keep_kayra_garden_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/keep_kayra/keep_kayra_garden_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/keep_kayra/keep_kayra_library_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/keep_kayra/keep_kayra_library_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/keep_kayra/keep_kayra_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/keep_kayra/keep_kayra_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_basement",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_top",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_vault_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_vault_normal_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/lighthouse/lighthouse_top",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mechanical_nest/mechanical_nest_equipment",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mechanical_nest/mechanical_nest_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mechanical_nest/mechanical_nest_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mechanical_nest/mechanical_nest_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/merchant_campsite/merchant_campsite_map",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/merchant_campsite/merchant_campsite_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/merchant_campsite/merchant_campsite_tent",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mines_treasure_big",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mines_treasure_medium",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mines_treasure_small",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mining_complex/mining_complex_barrel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mining_complex/mining_complex_dripstone_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mining_complex/mining_complex_facility_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mining_complex/mining_complex_lush_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mining_complex/mining_complex_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mining_system/mining_system_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mining_system/mining_system_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/monastery/monastery_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/monastery/monastery_bridges",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/monastery/monastery_map",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mushroom_house/mushroom_house_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mushroom_house/mushroom_house_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mushroom_house/mushroom_house_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mushroom_mines/mushroom_mines_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mushroom_mines/mushroom_mines_ores",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mushroom_mines/mushroom_mines_tools",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mushroom_mines/mushroom_mines_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mushroom_village/mushroom_village_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/mushroom_village/mushroom_village_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/plague_asylum/plague_asylum_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/plague_asylum/plague_asylum_cells",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/plague_asylum/plague_asylum_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/plague_asylum/plague_asylum_potions",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/plague_asylum/plague_asylum_storage",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/plague_asylum/plague_asylum_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/scorched_mines/scorched_mines_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/scorched_mines/scorched_mines_housing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/scorched_mines/scorched_mines_hub",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/scorched_mines/scorched_mines_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/scorched_mines/scorched_mines_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/shiraz_palace/shiraz_palace_elite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/shiraz_palace/shiraz_palace_gardens",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/shiraz_palace/shiraz_palace_library",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/shiraz_palace/shiraz_palace_normal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/shiraz_palace/shiraz_palace_rooms",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/shiraz_palace/shiraz_palace_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/shiraz_palace/shiraz_palace_towers",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/small_blimp/small_blimp_coal_storage",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/small_blimp/small_blimp_redstone_chamber",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/small_blimp/small_blimp_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/thornborn_towers/thornborn_towers_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/thornborn_towers/thornborn_towers_rooms",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_rooms",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/typhon/typhon_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_barrels",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_enchants",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_supply",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_treasure",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/desert_pyramid",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/desert_well",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/trail_ruins_common",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/trail_ruins_rare",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/abandoned_mineshaft",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/desert_pyramid",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/igloo_chest",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/jungle_temple",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/jungle_temple_dispenser",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/pillager_outpost",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/ruined_portal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/simple_dungeon",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/spawn_bonus_chest",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/stronghold_corridor",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/stronghold_crossing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/stronghold_library",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/woodland_mansion",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

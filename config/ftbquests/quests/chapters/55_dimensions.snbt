@@ -1,0 +1,218 @@
+{
+  "id": "16C51BD35F341995",
+  "filename": "55_dimensions",
+  "title": "Dimensions",
+  "icon": {
+    "id": "minecraft:compass"
+  },
+  "group": "15E451C383170371",
+  "order_index": 37,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1C41EA36A21F21A9",
+      "title": "A pool beneath flowers",
+      "subtitle": "Twilight Forest",
+      "icon": {
+        "id": "minecraft:diamond"
+      },
+      "description": [
+        "Build Twilight Forest's water pool with the surrounding plants and activate it with a Diamond. Protect your return portal."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "105F7D4848545FC0",
+          "type": "item",
+          "item": {
+            "id": "minecraft:diamond"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138C9E23A3925F75",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "159E9F2A522E2D14",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B78D5E7CD55211A",
+      "title": "Naga Scale",
+      "subtitle": "Twilight Forest",
+      "icon": {
+        "id": "twilightforest:naga_scale"
+      },
+      "description": [
+        "Defeat the Naga and collect its scales. Twilight Forest's own encounter progression remains native."
+      ],
+      "dependencies": [
+        "1C41EA36A21F21A9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "162F2AF05BC9AD21",
+          "type": "item",
+          "item": {
+            "id": "twilightforest:naga_scale"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E7BDA76B697E56",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1388B077EC7C32F9",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C47C3CBD98D063B",
+      "title": "A doorway to the Aether",
+      "subtitle": "Other worlds",
+      "icon": {
+        "id": "minecraft:glowstone"
+      },
+      "description": [
+        "Build the Glowstone frame and activate it with Water. The Aether is an optional exploration and building destination."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "166D5EB48D7AF5B5",
+          "type": "item",
+          "item": {
+            "id": "minecraft:glowstone"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16EC415E4CC34EF6",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1F04DB953D257718",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.20139d,
+      "y": 1.46528d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D3D98F3B892A303",
+      "title": "The Bumblezone",
+      "subtitle": "Other worlds",
+      "icon": {
+        "id": "minecraft:beehive"
+      },
+      "description": [
+        "Use the Bumblezone's hive-entry behavior and check its return rules. Bee exploration does not gate Afterlight crafting."
+      ],
+      "dependencies": [
+        "134249CD98BA1B3A"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1FFD8D618CE82534",
+          "type": "item",
+          "item": {
+            "id": "minecraft:beehive"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1BDCFE5AD8CD812E",
+          "type": "xp",
+          "xp": 50
+        },
+        {
+          "id": "1C527F57F8498646",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 2.47917d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "1E324C5A543E040B",
+      "linked_quest": "134249CD98BA1B3A",
+      "x": 0.45139d,
+      "y": 2.47917d,
+      "shape": "diamond",
+      "size": 1.0d
+    }
+  ],
+  "images": []
+}

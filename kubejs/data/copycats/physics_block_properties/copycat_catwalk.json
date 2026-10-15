@@ -1,0 +1,7 @@
+{
+  "selector": "#afterlight:disabled_physics_blocks",
+  "properties": {
+    "sable:mass": 0.25,
+    "sable:volume": 0.25
+  }
+}

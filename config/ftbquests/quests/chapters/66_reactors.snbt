@@ -1,0 +1,1305 @@
+{
+  "id": "190F8A70D94BB36C",
+  "filename": "66_reactors",
+  "title": "Extreme Reactors",
+  "icon": {
+    "id": "bigreactors:basic_reactorcontroller"
+  },
+  "group": "15B6D172F32874EB",
+  "order_index": 44,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1753E0A3D25A2C60",
+      "title": "Reactor Casing (Basic)",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:basic_reactorcasing"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Reactor Casing (Basic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1C16C755AE65108E"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1F59083E5182D62F",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:basic_reactorcasing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A14E0EF840F92A2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1F805BDC7062F41D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 1.95139d,
+      "y": 6.91667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C16C755AE65108E",
+      "title": "Reactor Controller (Basic)",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:basic_reactorcontroller"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Reactor Controller (Basic). Item inputs include Reactor Casing (Basic), Comparator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "132615B4CFBE4260",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:basic_reactorcontroller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1511F2F0E7F833CA",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B9FC038BE81B42F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": 6.91667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A3C9761818B9A18",
+      "title": "Reactor Active Forge Energy Power Tap (Basic)",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:basic_reactorpowertapfe_active"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Reactor Active Forge Energy Power Tap (Basic). Item inputs include Redstone Block, Reactor Casing (Basic), Redstone. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1753E0A3D25A2C60"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "197BFAD31A5B1C8E",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:basic_reactorpowertapfe_active"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1924193A2545A752",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "113BC1974F1176E6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.45139d,
+      "y": 8.73611d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E72B98B1B52B1FC",
+      "title": "Fluidizer Casing",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:fluidizercasing"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Fluidizer Casing. Item inputs include Water Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1048D7E44AA62052"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "19C0FE0C29F802C7",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:fluidizercasing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "128D8A76C86E66E2",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14645BDE1265B0F2",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.27123d,
+      "y": 6.81299d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1048D7E44AA62052",
+      "title": "Fluidizer Controller",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:fluidizercontroller"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Fluidizer Controller. Item inputs include Fluidizer Casing, Comparator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1753E0A3D25A2C60"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "172442C9FD682B42",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:fluidizercontroller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FD50C5A94EA0266",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14B9DCCA94575B57",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.45139d,
+      "y": 7.52778d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "195EDF3D1F7ECC04",
+      "title": "Fluidizer Output Port",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:fluidizeroutputport"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Fluidizer Output Port. Item inputs include Dispenser, Fluidizer Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1048D7E44AA62052"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1E1D909218598647",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:fluidizeroutputport"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B99A50382046A9A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1702798269F731FE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.52778d,
+      "y": 8.95833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "176705DF07482785",
+      "title": "Fluidizer Solid Injector",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:fluidizersolidinjector"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Fluidizer Solid Injector. Item inputs include Sticky Piston, Fluidizer Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1048D7E44AA62052"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16634270AC51D226",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:fluidizersolidinjector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DE900417BE08062",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BACC5A8003AEC8F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.52778d,
+      "y": 7.75d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F3363EFC861D9F1",
+      "title": "Insanite Block",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:insanite_block"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Insanite Block. Item inputs include Insanite Ingot, Inanite Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "13AF15AFDC385B98"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1349227C0EE33AD6",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:insanite_block"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "141217645E633D0B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E9990F54AFF52CD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 13.87917d,
+      "y": 4.88889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "175AB401316445EC",
+      "title": "Reactor Casing (Reinforced)",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:reinforced_reactorcasing"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Reactor Casing (Reinforced). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4DAA0E34FD80BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16E9FB3C4FA827EC",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:reinforced_reactorcasing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "142A2D7A7714C67B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18A242F0D532DAC8",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.50417d,
+      "y": 0.67222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1438AD34C25A3945",
+      "title": "Reactor Fuel Injection Port (Reinforced)",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:reinforced_reactorfluidaccessport"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Reactor Fuel Injection Port (Reinforced). Item inputs include Reactor Casing (Reinforced), Hopper, Bucket, Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1E72B98B1B52B1FC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DAA6BAF90663BBC",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:reinforced_reactorfluidaccessport"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13187C606B406420",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1B41E56ADD291441",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.52778d,
+      "y": 6.31944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1ECD98C4CD5B3E3E",
+      "title": "Reactor Control Rod (Basic)",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:basic_reactorcontrolrod"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Reactor Control Rod (Basic). Item inputs include Reactor Casing (Basic), Piston. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1753E0A3D25A2C60"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CD096B6ECB9746F",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:basic_reactorcontrolrod"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1CAA81B5A6048186",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "16C5EB3B10380FD4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.45139d,
+      "y": 6.31944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15A52E96F399A4EA",
+      "title": "Blutonium Ingot",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:blutonium_ingot"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Blutonium Ingot. Item inputs include Blutonium Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1680E66D39592F2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1ED20E7CC95509D7",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:blutonium_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15F3EFFD427AB23A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D253A61FBE9150B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.82917d,
+      "y": 4.88889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F836101014685C9",
+      "title": "Cyanite Ingot",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:cyanite_ingot"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Cyanite Ingot. Item inputs include Cyanite Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1753E0A3D25A2C60"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "101AF972CB7CC882",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:cyanite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "134D1486F326E0A5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1D714AEEBA8AF865",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.45139d,
+      "y": 4.88889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EF8706323C2841F",
+      "title": "Graphite Bar",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:graphite_ingot"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Blast Graphite Bar. Item inputs include Charcoal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1CA66C55F9F776B2"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CF01F543B158DAE",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:graphite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FA410452DD7FF73",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10E935DF42CCB90C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.60417d,
+      "y": 3.45833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13AF15AFDC385B98",
+      "title": "Inanite Ingot",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:inanite_ingot"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Use Reprocessor processing to make Inanite Ingot. Item inputs include Ridiculite Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "133F4A1DF9E3DF75"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "13FAE106866CD801",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:inanite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D8D19E6799FDC49",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A4F03AFE3177106",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 12.52917d,
+      "y": 4.88889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CBB21BDE274BBB9",
+      "title": "Insanite Ingot",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:insanite_ingot"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Use Reprocessor processing to make Insanite Ingot. Item inputs include Benitoite (BaTiSi3O9). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1438AD34C25A3945"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10083AED27E439E2",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:insanite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B3C8DE4E1A26466",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10F2CEE6A2448D80",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.78433d,
+      "y": 5.8259d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "133F4A1DF9E3DF75",
+      "title": "Ludicrite Ingot",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:ludicrite_ingot"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Use Reprocessor processing to make Ludicrite Ingot. Item inputs include Blutonium Ingot. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "15A52E96F399A4EA"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1A7675215A1B5F7B",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:ludicrite_ingot"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18F42A843E64BB82",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1482849E09886A81",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.17917d,
+      "y": 4.88889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1680E66D39592F2C",
+      "title": "Reprocessor Casing",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:reprocessorcasing"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Reprocessor Casing. Item inputs include Water Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F836101014685C9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "157EE430EB2F8FC0",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:reprocessorcasing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "14489A0D5A0F9AFC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17E6BA9CC015FFEE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.52778d,
+      "y": 4.88889d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "18DEF357E17703FC",
+      "title": "Reprocessor Collector",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:reprocessorcollector"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Reprocessor Collector. Item inputs include Hopper, Reprocessor Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B228AA49014C62C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16BEB162C0F345CF",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:reprocessorcollector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13D0DF2838FEF336",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "19F28CFF9A61872D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.60417d,
+      "y": 6.91667d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1B228AA49014C62C",
+      "title": "Reprocessor Controller",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:reprocessorcontroller"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Reprocessor Controller. Item inputs include Reprocessor Casing, Comparator. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1680E66D39592F2C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1375249C0C8126CB",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:reprocessorcontroller"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "191B659EDD08DD72",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18205797B581ECE6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.85417d,
+      "y": 6.31944d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F4A9BE1F88F4892",
+      "title": "Reprocessor Power Port",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:reprocessorpowerport"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Reprocessor Power Port. Item inputs include Repeater, Reprocessor Casing. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1B228AA49014C62C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CB58D955C7EAFE1",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:reprocessorpowerport"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "106D4E6C9DD06A9E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1934DD6DC62183F1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 15.60417d,
+      "y": 5.70833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F4DAA0E34FD80BD",
+      "title": "Turbine Housing (Basic)",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:basic_turbinecasing"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Turbine Housing (Basic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F836101014685C9"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BD1FD5F330C8FE7",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:basic_turbinecasing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1930DB928095789E",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "128330994D98B4B6",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.52778d,
+      "y": 3.45833d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F9CFF78201489DC",
+      "title": "Turbine Active Forge Fluid Port (Basic)",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:basic_turbinefluidport_forge_active"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Turbine Active Forge Fluid Port (Basic). Item inputs include Lava Bucket, Turbine Housing (Basic), Water Bucket. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4DAA0E34FD80BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DB28645382A36AA",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:basic_turbinefluidport_forge_active"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18860344A6E59D1F",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "14432218B74EE15B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.85417d,
+      "y": 0.67222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "16C0E8B00DB03E2C",
+      "title": "Turbine Glass (Basic)",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:basic_turbineglass"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Turbine Glass (Basic). Item inputs include Turbine Housing (Basic). Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4DAA0E34FD80BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "12584432B0B55482",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:basic_turbineglass"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3737DF40907834",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "15A9A208E665910F",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.77502d,
+      "y": 3.97495d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "148F2977C993478A",
+      "title": "Turbine Rotor Bearing (Basic)",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:basic_turbinerotorbearing"
+      },
+      "description": [
+        "Form the reactor before adding fuel. Check its casing, controller, access port, power connection, and coolant arrangements. Start at a low output and monitor temperature and fuel consumption.",
+        "Craft Turbine Rotor Bearing (Basic). Item inputs include Redstone Block. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1F4DAA0E34FD80BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17B476E3246430DF",
+          "type": "item",
+          "item": {
+            "id": "bigreactors:basic_turbinerotorbearing"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "100B1B3909324845",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "119F4B36D341077C",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.50417d,
+      "y": 2.02222d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1CA66C55F9F776B2",
+      "title": "The Turbine Interface",
+      "subtitle": "Extreme Reactors",
+      "icon": {
+        "id": "bigreactors:basic_reactorcontroller"
+      },
+      "description": [
+        "Learn about The Turbine Interface in the Extreme Reactors guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1F4DAA0E34FD80BD"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1F8E515AB24DA278",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "15FB75890870C857",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 11.85417d,
+      "y": 3.45833d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

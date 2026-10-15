@@ -1,0 +1,20 @@
+{
+  "spawnProtectionRadius": 2,
+  "spawnProtectionEvents": [
+    "interact_blocks",
+    "mob_griefing",
+    "explosions",
+    "mobs_spawn",
+    "damage"
+  ],
+  "spawnDimension": "minecraft:overworld",
+  "skipCenterIslandCreation": true,
+  "SpawnHeight": {
+    "heightCalculationType": "set",
+    "offset": 0,
+    "range": {
+      "bottom": 64,
+      "top": 319
+    }
+  }
+}

@@ -1,0 +1,2 @@
+# Players do not receive operator backup notices.
+messagesForEveryone = false

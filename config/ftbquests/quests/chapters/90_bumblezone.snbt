@@ -1,0 +1,960 @@
+{
+  "id": "1B5D984D811F141B",
+  "filename": "90_bumblezone",
+  "title": "The Bumblezone",
+  "icon": {
+    "id": "the_bumblezone:honey_crystal"
+  },
+  "group": "15E451C383170371",
+  "order_index": 67,
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1BAA2755BE30A50B",
+      "title": "Bee Nest",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "minecraft:bee_nest"
+      },
+      "description": [
+        "Enter through a beehive using an Ender Pearl. Prepare for vertical travel and respect the local bees; take supplies and learn the return route before exploring far.",
+        "Craft Bee Nest. Item inputs include Beehive Beeswax, Honeycomb. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10D7F8C804AA5341",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bee_nest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F2ABD7440E71AFD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18EFF47EF754F63D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.89583d,
+      "y": -8.4375d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1EAE7AB1F74BCB5C",
+      "title": "Buzzing Briefcase",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:buzzing_briefcase",
+        "components": {
+          "the_bumblezone:buzzing_briefcase_data": {
+            "BeesStored": []
+          }
+        }
+      },
+      "description": [
+        "Enter through a beehive using an Ender Pearl. Prepare for vertical travel and respect the local bees; take supplies and learn the return route before exploring far.",
+        "Obtain Buzzing Briefcase and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1A0A815BB781576C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "10165B5E858D46AB",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:buzzing_briefcase",
+            "components": {
+              "the_bumblezone:buzzing_briefcase_data": {
+                "BeesStored": []
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C69056D3BFBC803",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1A8ADC6D802CBAA4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.78472d,
+      "y": -5.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "17E9B2847CC89A13",
+      "title": "Honey Compass",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:honey_compass"
+      },
+      "description": [
+        "Enter through a beehive using an Ender Pearl. Prepare for vertical travel and respect the local bees; take supplies and learn the return route before exploring far.",
+        "Use Container Shapeless Recipe Bz processing to make Honey Compass. Item inputs include Compass, Honey Crystal Shards, Pollen Puff. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A0A815BB781576C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1C3C2D4D6739175D",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:honey_compass"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C00408ED8DFA695",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "10A027C12F8832F7",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.34028d,
+      "y": -5.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "13175D857DB3461D",
+      "title": "Potion Candle",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:potion_candle"
+      },
+      "description": [
+        "Enter through a beehive using an Ender Pearl. Prepare for vertical travel and respect the local bees; take supplies and learn the return route before exploring far.",
+        "Obtain Potion Candle and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1A0A815BB781576C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1198A25B9DCC9808",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:potion_candle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "125DC5077872C5E9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "18C3F5B33C03FB44",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.89583d,
+      "y": -5.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "166E9307597A11E7",
+      "title": "Royal Jelly Bottle",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:royal_jelly_bottle"
+      },
+      "description": [
+        "Enter through a beehive using an Ender Pearl. Prepare for vertical travel and respect the local bees; take supplies and learn the return route before exploring far.",
+        "Craft Royal Jelly Bottle. Item inputs include Royal Jelly Block, Glass Bottle. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A03FA4E340BF55C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "16A45BC05CFBDB17",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:royal_jelly_bottle"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12A367FD3C7EB2BD",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C0663F9FFE99666",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.78472d,
+      "y": -2.04861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12D1837D0DF39C05",
+      "title": "Crystalline Flower",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:crystalline_flower"
+      },
+      "description": [
+        "Enter through a beehive using an Ender Pearl. Prepare for vertical travel and respect the local bees; take supplies and learn the return route before exploring far.",
+        "Obtain Crystalline Flower and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+      ],
+      "dependencies": [
+        "1A0A815BB781576C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1191045E9F40AAE3",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:crystalline_flower"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12E55BE20D3B1393",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1651B23085899A85",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 7.45139d,
+      "y": -5.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1F368AC7D2ACFBFB",
+      "title": "Essence of Calming",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:essence_calming"
+      },
+      "description": [
+        "Complete the matching Bumblezone trial and collect this essence. Prepare equipment and use the dimension guide to locate and understand the trial."
+      ],
+      "dependencies": [
+        "10E77135C65EAAFC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1CB353EC0C425025",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:essence_calming"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18F128A32CE657FF",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1BC78FAB61EAC30E",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 0.45139d,
+      "y": -0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1D431B9E4CF72914",
+      "title": "Essence of Continuity",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:essence_continuity"
+      },
+      "description": [
+        "Complete the matching Bumblezone trial and collect this essence. Prepare equipment and use the dimension guide to locate and understand the trial."
+      ],
+      "dependencies": [
+        "10E77135C65EAAFC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1BDC5AFF682D670B",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:essence_continuity"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B6FDDFD24851A5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "142BC2D46620298A",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 2.00694d,
+      "y": -0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1E550DF4D26B6B1F",
+      "title": "Essence of Knowing",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:essence_knowing",
+        "components": {
+          "the_bumblezone:knowing_essence_structure_data": {
+            "inStructures": ""
+          }
+        }
+      },
+      "description": [
+        "Complete the matching Bumblezone trial and collect this essence. Prepare equipment and use the dimension guide to locate and understand the trial."
+      ],
+      "dependencies": [
+        "10E77135C65EAAFC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1103DAC4A9EF0154",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:essence_knowing",
+            "components": {
+              "the_bumblezone:knowing_essence_structure_data": {
+                "inStructures": ""
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "10885440871B66EC",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1C3855CA29BF9651",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 3.5625d,
+      "y": -0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "12B948A0ABC913B0",
+      "title": "Essence of Life",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:essence_life"
+      },
+      "description": [
+        "Complete the matching Bumblezone trial and collect this essence. Prepare equipment and use the dimension guide to locate and understand the trial."
+      ],
+      "dependencies": [
+        "10E77135C65EAAFC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "14DA592BAFF9A07E",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:essence_life"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EAC721635507189",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17BE4EB133F85F7B",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.11806d,
+      "y": -0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10E77135C65EAAFC",
+      "title": "Essence of the Bees",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:essence_of_the_bees"
+      },
+      "description": [
+        "Progress through the Bee Queen’s trades to obtain Essence of the Bees. This opens the dimension’s colored trial arenas and their essence rewards."
+      ],
+      "dependencies": [
+        "1A03FA4E340BF55C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "168E7A52542F5B4B",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:essence_of_the_bees"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16BA6E9AC930B870",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "195A2A638C8CEB89",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.34028d,
+      "y": -2.04861d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1628CA64AB5944A5",
+      "title": "Essence of Radiance",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:essence_radiance"
+      },
+      "description": [
+        "Complete the matching Bumblezone trial and collect this essence. Prepare equipment and use the dimension guide to locate and understand the trial."
+      ],
+      "dependencies": [
+        "10E77135C65EAAFC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "1DB0E5C37322813C",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:essence_radiance"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1232077E95758C2D",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1841F72DAB4D43DD",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.67361d,
+      "y": -0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1C8AFA3256D844DB",
+      "title": "Essence of Raging",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:essence_raging",
+        "components": {
+          "the_bumblezone:raging_essence_current_target_data": {
+            "currentTargets": []
+          },
+          "the_bumblezone:raging_essence_state_data": {
+            "rageStateLevel": 0
+          },
+          "the_bumblezone:raging_essence_timer_data": {
+            "empoweredTimestamp": 0
+          }
+        }
+      },
+      "description": [
+        "Complete the matching Bumblezone trial and collect this essence. Prepare equipment and use the dimension guide to locate and understand the trial."
+      ],
+      "dependencies": [
+        "10E77135C65EAAFC"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "17C21860D909B826",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:essence_raging",
+            "components": {
+              "the_bumblezone:raging_essence_current_target_data": {
+                "currentTargets": []
+              },
+              "the_bumblezone:raging_essence_state_data": {
+                "rageStateLevel": 0
+              },
+              "the_bumblezone:raging_essence_timer_data": {
+                "empoweredTimestamp": 0
+              }
+            }
+          },
+          "count": 1,
+          "consume_items": false,
+          "match_components": "fuzzy"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1974D4C12B08FF9A",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "17360535FDC8CA14",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 8.22917d,
+      "y": -0.45139d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "156A9C4CC7A985F6",
+      "title": "Honey Crystal Shield",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:honey_crystal_shield"
+      },
+      "description": [
+        "Enter through a beehive using an Ender Pearl. Prepare for vertical travel and respect the local bees; take supplies and learn the return route before exploring far.",
+        "Craft Honey Crystal Shield. Item inputs include Honey Crystal Shards. Open the recipe in JEI for quantities and any fluids or additional requirements."
+      ],
+      "dependencies": [
+        "1A0A815BB781576C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "id": "15D236E6681A5D87",
+          "type": "item",
+          "item": {
+            "id": "the_bumblezone:honey_crystal_shield"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "13E04431C2A38D67",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "1E323E3D4BAF776D",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 9.00694d,
+      "y": -5.24306d,
+      "shape": "square",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1705D8965BBDB88D",
+      "title": "PHOBIA ALERT",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:honey_crystal"
+      },
+      "description": [
+        "Learn about PHOBIA ALERT in the The Bumblezone guide and complete the setup described there. Mark this step complete when the system is ready; its connected quests cover the related machines, materials, and abilities."
+      ],
+      "dependencies": [
+        "1BAA2755BE30A50B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1280E5EA36D6F431",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F3C853FDD3DE5CE",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.11806d,
+      "y": -6.84028d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A0A815BB781576C",
+      "title": "Into the Hive",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "minecraft:honeycomb_block"
+      },
+      "description": [
+        "Enter The Bumblezone. Prepare equipment, food, and a reliable way home before travelling."
+      ],
+      "dependencies": [
+        "1BAA2755BE30A50B"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "dimension": "the_bumblezone:the_bumblezone",
+          "type": "dimension",
+          "id": "173E3FB35D948ED3",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F37E5A957C8E253",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 6.67361d,
+      "y": -6.84028d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "1A03FA4E340BF55C",
+      "title": "Your Highness",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:honey_crystal"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in The Bumblezone."
+      ],
+      "dependencies": [
+        "17E9B2847CC89A13"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "the_bumblezone:the_queens_desire/the_beginning",
+          "criterion": "",
+          "type": "advancement",
+          "id": "18B954378FBA6C84",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "151A00791BCAE4E4",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 4.34028d,
+      "y": -3.64583d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "10188329F532F619",
+      "title": "Bee Bread",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:bee_bread"
+      },
+      "description": [
+        "Complete the exploration or observation objective shown in this task. Its connected quests show the next step in The Bumblezone."
+      ],
+      "dependencies": [
+        "1A03FA4E340BF55C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "advancement": "the_bumblezone:the_queens_desire/hungry_hungry_bees",
+          "criterion": "",
+          "type": "advancement",
+          "id": "179EE446E7E4ED4A",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11D8281F5A4EFEE1",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 5.89583d,
+      "y": -2.04861d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    },
+    {
+      "id": "15F6205289149054",
+      "title": "Beehemoth",
+      "subtitle": "The Bumblezone",
+      "icon": {
+        "id": "the_bumblezone:honey_crystal"
+      },
+      "description": [
+        "Defeat the creature shown in this task. Prepare suitable equipment and a safe fighting area before attempting the encounter."
+      ],
+      "dependencies": [
+        "1A0A815BB781576C"
+      ],
+      "optional": true,
+      "tasks": [
+        {
+          "entity": "the_bumblezone:beehemoth",
+          "type": "kill",
+          "value": 1,
+          "id": "1B0FF6D8659A2BAF",
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17DA9C3A07D2A378",
+          "type": "loot",
+          "table_id": 1879644596966692835L,
+          "auto": "enabled",
+          "title": "Chance Cube Bonus (25%)",
+          "icon": {
+            "id": "chancecubes:chance_cube"
+          }
+        }
+      ],
+      "x": 10.5625d,
+      "y": -5.24306d,
+      "shape": "hexagon",
+      "size": 1.0d,
+      "hide_dependency_lines": false,
+      "hide_dependent_lines": false
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}
