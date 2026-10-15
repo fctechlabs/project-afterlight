@@ -19,6 +19,12 @@ Build industry and magic above the void in Minecraft 1.21.1 with NeoForge.
 
 The version transition from the tested 0.1.0-alpha.14 build changes release identity, menu labels and documentation; the mods, crafting recipes, quest identities, layouts and rewards remain the same.
 
+## Packaging correction — October 15, 2026
+
+Both ZIPs now include a root `manifest.json`, `modlist.html` and manifest-relative `overrides/` content. The server ZIP retains its original root configuration and installer scripts.
+
+Removed the unavailable CC Tweaked Compat file reference. The same tested CC: Tweaked 1.120.2 jar is now included as an approved Non-CurseForge mod with its publisher's license notices. Mod versions, gameplay settings, quests and recipes are unchanged. Download the corrected ZIPs again before submitting them; their checksums have changed.
+
 ## Downloads and installation
 
 Download `Afterlight-0.1.0-CurseForge.zip` and use **Import** in the CurseForge app. GitHub's automatic source archives are not launcher-importable modpacks. For a server, extract `Afterlight-0.1.0-server.zip` into a separate folder and follow its included `docs/SERVER.md`.

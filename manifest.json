@@ -13,7 +13,6 @@
   "name": "Project Afterlight",
   "version": "0.1.0",
   "author": "FC Tech Labs",
-  "overrides": "overrides",
   "files": [
     {
       "projectID": 1108467,
@@ -223,11 +222,6 @@
     {
       "projectID": 551524,
       "fileID": 7368915,
-      "required": true
-    },
-    {
-      "projectID": 1676502,
-      "fileID": 8778582,
       "required": true
     },
     {
@@ -1910,5 +1904,6 @@
       "fileID": 6558787,
       "required": true
     }
-  ]
+  ],
+  "overrides": "overrides"
 }

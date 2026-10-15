@@ -27,3 +27,7 @@ ProjectE's major unlocks require tier-four 9x9 Extended Crafting. Selected manuf
 The first public release includes 3,612 quests across 72 chapters, two selectable island styles, custom material recipes, targeted skyblock access, and multiplayer support. Quests also have a 25% chance to award a bonus Chance Cube alongside their normal rewards. Balance, performance, and multiplayer testing are ongoing; expect fixes and changes. Back up worlds and keep every player on the same pack version.
 
 **Minecraft 1.21.1 · NeoForge 21.1.251 · Java 21.** Start with 8 GB of allocated memory if your computer has enough available RAM. See the included installation, resource-access, progression, and performance guides.
+
+## Approved Non-CurseForge mod
+
+**CC: Tweaked** by **SquidDev**, version **1.120.2**, is on CurseForge's approved Non-CurseForge list. Current versions are published on [Modrinth](https://modrinth.com/mod/cc-tweaked). The pack bundles that exact jar in its overrides with the publisher's MPL-2.0, CCPL and component license notices; it does not reference a separate compatibility project's file.

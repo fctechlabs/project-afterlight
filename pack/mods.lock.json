@@ -697,8 +697,12 @@
         "sha512": "009fcf48b7d123018a61b2c55f0fede7dd1f6a6325226bf9cc926342185ca8a7e059e13662816d24595aac243abf622b682583631cfe42c3757505b2e864ff73"
       },
       "size": 3126327,
-      "curseforge_project_id": 1676502,
-      "curseforge_file_id": 8778582
+      "curseforge_external": {
+        "approved_list_url": "https://docs.google.com/spreadsheets/d/176Wv-PZUo9hFxy6oC6N8tWdquBLPRtSuLbNK-r0_byM/edit",
+        "author": "SquidDev",
+        "license": "MPL-2.0 / CCPL and component licenses",
+        "license_url": "https://github.com/cc-tweaked/CC-Tweaked/tree/v1.21.1-1.120.2/LICENSES"
+      }
     },
     {
       "name": "Advanced Peripherals",

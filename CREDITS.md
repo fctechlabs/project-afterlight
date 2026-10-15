@@ -5,7 +5,14 @@ material, artwork, and branding are covered by LICENSE. The title and loading
 screens use a background-extracted copy of the approved cover.
 
 Minecraft belongs to Mojang and Microsoft. The mods in MODLIST.md belong to their
-respective authors and retain their licenses. Their jars are not included here.
+respective authors and retain their licenses. The source checkout excludes mod jars.
+
+CC: Tweaked by SquidDev is an approved Non-CurseForge mod. Its exact tested
+jar and upstream license notices are bundled in release archives because current versions are published on
+Modrinth. Other mods are resolved through their CurseForge manifest identities.
+[CC: Tweaked](https://modrinth.com/mod/cc-tweaked) ·
+[Publisher licenses](https://github.com/cc-tweaked/CC-Tweaked/tree/v1.21.1-1.120.2/LICENSES) ·
+[CurseForge approved list](https://docs.google.com/spreadsheets/d/176Wv-PZUo9hFxy6oC6N8tWdquBLPRtSuLbNK-r0_byM/edit)
 
 Project Ozone 3 informed Normal-mode material progression. ATM10 and ATM10: To the
 Sky informed onboarding and quest organization. Some objective and prerequisite
