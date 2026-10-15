@@ -2,12 +2,12 @@
   "version": "0.1.1",
   "files": {
     "Afterlight-0.1.1.zip": {
-      "sha256": "4dccd28f8be42eeac8e0b4d6442f7a78e23652874eac1cd6600291fb512ad0b9",
-      "bytes": 6608603
+      "sha256": "f7524ab6acf035e223b0e2ebe3151991964661396fd39ae3c3a5e69e1341cf75",
+      "bytes": 6608625
     },
     "Afterlight-0.1.1-server.zip": {
-      "sha256": "40cd591f862f5d102dd9c788d333e052340e09181b4b558e3e3024c89876e14e",
-      "bytes": 7323875
+      "sha256": "441f4beb1b6e05b2dcd0f81bbdcef46bed8dbf8412b627b6c4509a446f95ead3",
+      "bytes": 7323919
     }
   }
 }

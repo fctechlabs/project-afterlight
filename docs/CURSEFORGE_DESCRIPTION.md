@@ -12,7 +12,7 @@ ProjectE's major unlocks require tier-four 9x9 Extended Crafting. Selected manuf
 
 ## Your island, your approach
 
-- Repeatedly crouch near starter saplings and crops to grow them faster with Squat Grow.
+- Repeatedly crouch near starter saplings and ordinary crops to grow them faster with Squat Grow. Mystical Agriculture crops and AE2 crystal growth are excluded.
 - Choose **Default**, a small grassy island, or **Skyfactory**, a Dirt block and Oak tree.
 - Use `/skyblock gui` from the signed lobby to create an island or manage your island team.
 - Share progress through FTB Teams and protect builds with FTB Chunks.
