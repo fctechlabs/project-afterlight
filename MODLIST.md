@@ -1,6 +1,6 @@
 # Project Afterlight mod list
 
-Build: **0.1.0-alpha.14**. 379 client jars; 336 server jars. The lock is authoritative.
+Build: **0.1.0**. 379 client jars; 336 server jars. The lock is authoritative.
 
 | Mod | Version | Distribution | File |
 |---|---|---|---|

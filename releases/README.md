@@ -1,5 +1,13 @@
 # Release files
 
-[0.1.0-alpha.14](0.1.0-alpha.14/): client reference ZIP, matching server ZIP and checksums.
+**Current: [Project Afterlight 0.1.0](0.1.0/)** — first public Release.
 
-Open the version folder and download the ZIP itself. GitHub's Download ZIP button on the repository creates a source archive, which is not launcher-importable. Read each version's README for play and CurseForge-submission instructions.
+[GitHub release downloads](https://github.com/fctechlabs/project-afterlight/releases/tag/v0.1.0)
+
+Each version folder contains a client ZIP, server ZIP, checksums and installation notes.
+Download a ZIP itself; GitHub's automatic source ZIP is not launcher-importable.
+For CurseForge website submission, export the installed client from the CurseForge app.
+
+## Previous development builds
+
+- [0.1.0-alpha.14](0.1.0-alpha.14/)

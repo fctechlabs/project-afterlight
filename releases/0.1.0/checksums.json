@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "files": {
+    "Afterlight-0.1.0-CurseForge.zip": {
+      "sha256": "ba7d1ef8e22b5a25c03c0d8f0165225848902e7fe95737e3267675192be92439",
+      "bytes": 3818419
+    },
+    "Afterlight-0.1.0-server.zip": {
+      "sha256": "22e8cd6cb6db282d02719a32df19c807b83f593482d77e89bf138cc95e2972cb",
+      "bytes": 917424
+    }
+  }
+}

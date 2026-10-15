@@ -322,7 +322,7 @@ element {
   stay_on_screen = true
   enable_parallax = false
   load_once_per_session = false
-  source = PUBLIC ALPHA%n%0.1.0-alpha.14
+  source = PUBLIC RELEASE%n%0.1.0
   source_mode = direct
   base_color = #B9C9E1
   scale = 0.75

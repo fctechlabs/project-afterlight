@@ -1,6 +1,6 @@
 {
   "name": "Project Afterlight",
-  "version": "0.1.0-alpha.14",
+  "version": "0.1.0",
   "minecraft": "1.21.1",
   "loader": "neoforge",
   "loader_version": "21.1.251",

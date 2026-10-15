@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Project Afterlight",
-  "version": "0.1.0-alpha.14",
+  "version": "0.1.0",
   "author": "FC Tech Labs",
   "overrides": "overrides",
   "files": [
