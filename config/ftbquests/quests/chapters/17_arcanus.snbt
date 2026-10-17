@@ -601,8 +601,8 @@
         "id": "forbidden_arcanus:darkstone"
       },
       "description": [
-        "Start with Arcane Crystal and Deorum, then build the Hephaestus Forge. Check the forge tier, pedestal ingredients, and essence requirements before beginning a ritual.",
-        "Craft Darkstone. Item inputs include Deepslate, Charcoal. Open the recipe in JEI for quantities and any fluids or additional requirements."
+        "Craft four Darkstone from Deepslate and Charcoal to begin Forbidden and Arcanus.",
+        "For automation, place Witch Water and Lava beside a CobbleGenGalore Block Generator with an Arcane Crystal Block directly beneath it. This produces Darkstone without consuming the fluids or modifier. Check JEI for the generator layout."
       ],
       "dependencies": [
         "191E07841B05515D"

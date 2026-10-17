@@ -22,6 +22,9 @@ content retains its upstream terms; this notice does not grant additional rights
 
 Afterlight's starter pebble script implements ATM10Sky's interaction behavior and
 drop weights. [Behavior reference](https://github.com/AllTheMods/All-the-mods-10-Sky/blob/main/kubejs/server_scripts/mods/exdeorum/pebbles.js).
+Its island Flux Dust conversion and extra Witch Water generator routes are
+independently implemented adaptations of functional skyblock mechanics observed
+in ATM10Sky; the Flux conversion uses ordinary Obsidian from this pack.
 Common goals, functional progression, and node-spacing measurements alone do not
 establish that permission is required. Adapted expressive content needs separate
 review before public distribution.

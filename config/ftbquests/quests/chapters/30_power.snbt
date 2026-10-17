@@ -417,8 +417,9 @@
         "id": "fluxnetworks:flux_dust"
       },
       "description": [
-        "Choose generation for the resources you can renew. Match cable capacity to demand and place a buffer near machines that draw large bursts of energy.",
-        "Obtain Flux Dust and keep it in your inventory to complete this goal. Check its JEI recipes or uses and the mod guide for its acquisition route."
+        "Make Flux Dust on your island: place Obsidian, leave one air block above it, then place a second Obsidian above that gap.",
+        "Drop Redstone into the gap and left-click the upper Obsidian with an empty main hand. Each Redstone makes one Flux Dust, up to 512 per click. The upper Obsidian moves down into the gap; break and reposition it for another batch. The base is reusable.",
+        "Native Bedrock and Flux Block setups still work. Fake players cannot activate the island method."
       ],
       "dependencies": [
         "1A8958F60F0ED0E9"

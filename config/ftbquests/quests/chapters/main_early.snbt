@@ -1520,7 +1520,8 @@
         "id": "cobblegengalore:block_gen_stone"
       },
       "description": [
-        "The Stone generator from CobbleGen Galore keeps Cobblestone flowing without repeated manual mining. Check its recipe and output behavior in JEI."
+        "Use a CobbleGenGalore Block Generator to automate your supply of building blocks. Check JEI for its fluid and modifier recipes.",
+        "Witch Water and Lava beside the generator unlock three extra routes: Glowstone beneath it makes End Stone, a Redstone Block makes Netherrack, and an Arcane Crystal Block makes Darkstone. These fluids and modifier blocks are reusable. Native barrel and crafting routes remain available."
       ],
       "dependencies": [
         "1800162D3834E7B9"

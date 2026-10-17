@@ -86,6 +86,9 @@ ServerEvents.recipes(event => {
   event.custom({"type":"minecraft:crafting_shapeless","ingredients":[{"item":"minecraft:cobblestone"},{"item":"minecraft:charcoal"}],"result":{"id":"minecraft:deepslate","count":2}}).id("afterlight:resources/deepslate");
   event.custom({"type":"minecraft:crafting_shapeless","ingredients":[{"item":"minecraft:leather"},{"item":"minecraft:bone_meal"},{"item":"minecraft:string"}],"result":{"id":"minecraft:phantom_membrane","count":1}}).id("afterlight:resources/phantom_membrane");
   event.custom({"type":"minecraft:crafting_shapeless","ingredients":[{"item":"minecraft:amethyst_block"},{"item":"minecraft:quartz"},{"item":"minecraft:quartz"}],"result":{"id":"minecraft:budding_amethyst","count":1}}).id("afterlight:resources/budding_amethyst");
+  event.custom({"type":"cobblegengalore:blockgen","result":{"id":"minecraft:end_stone","count":1},"left":{"Name":"exdeorum:witch_water"},"right":{"Name":"minecraft:lava"},"modifier":{"Name":"minecraft:glowstone"},"speed":1}).id("afterlight:blockgen/end_stone");
+  event.custom({"type":"cobblegengalore:blockgen","result":{"id":"minecraft:netherrack","count":1},"left":{"Name":"exdeorum:witch_water"},"right":{"Name":"minecraft:lava"},"modifier":{"Name":"minecraft:redstone_block"},"speed":1}).id("afterlight:blockgen/netherrack");
+  event.custom({"type":"cobblegengalore:blockgen","result":{"id":"forbidden_arcanus:darkstone","count":1},"left":{"Name":"exdeorum:witch_water"},"right":{"Name":"minecraft:lava"},"modifier":{"Name":"forbidden_arcanus:arcane_crystal_block"},"speed":1}).id("afterlight:blockgen/darkstone");
   event.custom({"type":"extendedcrafting:shaped_table","category":"misc","key":{"A":{"item":"projecte:aeternalis_fuel"},"D":{"tag":"c:storage_blocks/diamond"},"P":{"item":"projecte:philosophers_stone"}},"pattern":["A       A","         ","  A   A  ","         ","    D    ","         ","  A   A  ","    P    ","A       A"],"result":{"count":1,"id":"projecte:dark_matter"},"tier":4}).id("afterlight:projecte/dark_matter");
-  console.info('[AFTERLIGHT] Registered 85 original recipes.');
+  console.info('[AFTERLIGHT] Registered 88 original recipes.');
 });
