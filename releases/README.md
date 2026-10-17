@@ -1,14 +1,14 @@
 # Release files
 
-**Current: [Project Afterlight 0.1.1](0.1.1/)** — starter growth fix.
+**Current: [Project Afterlight 0.1.2](0.1.2/)** — starter pebble gathering fix.
 
-[GitHub release downloads](https://github.com/fctechlabs/project-afterlight/releases/tag/v0.1.1)
+[GitHub release downloads](https://github.com/fctechlabs/project-afterlight/releases/tag/v0.1.2)
 
-Each version includes a client ZIP, server ZIP and checksums. Download the ZIP itself;
-GitHub's source archives are not launcher-importable. Use the CurseForge app's
-Export Profile action for website submission.
+Each version includes a client ZIP, server ZIP and checksums. Download the packaged
+ZIP itself; GitHub source archives are not launcher-importable.
 
 ## Previous versions
 
+- [0.1.1](0.1.1/)
 - [0.1.0](0.1.0/)
 - [0.1.0-alpha.14](0.1.0-alpha.14/)

@@ -556,7 +556,7 @@
         "id": "exdeorum:stone_pebble"
       },
       "description": [
-        "Right-click Dirt or Grass with an empty hand to gather Stone Pebbles. Combine the pebbles into Cobblestone. A sieve is not needed for this first stone supply."
+        "Hold Shift and right-click Dirt or Grass with an empty main hand. Pebbles drop from the clicked block: Stone is most common, with six other stone types mixed in. Craft four Stone Pebbles into Cobblestone. The block is not consumed."
       ],
       "dependencies": [
         "1D56B6A8952A2710"
@@ -605,7 +605,7 @@
         "id": "minecraft:cobblestone"
       },
       "description": [
-        "Sieve Dirt for Stone Pebbles, then combine them into Cobblestone. Save some for tools and a Furnace."
+        "Gather Stone Pebbles by Shift-right-clicking Dirt or Grass with an empty main hand, or sieve Dirt, then craft four into Cobblestone. Save some for tools and a Furnace."
       ],
       "dependencies": [
         "141961AFF66C11B1"

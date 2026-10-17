@@ -19,6 +19,9 @@ Sky informed onboarding and quest organization. Some objective and prerequisite
 data were adapted from their public quest definitions. Display positions are
 independently authored or generated with straight lines. Their authored
 content retains its upstream terms; this notice does not grant additional rights.
+
+Afterlight's starter pebble script implements ATM10Sky's interaction behavior and
+drop weights. [Behavior reference](https://github.com/AllTheMods/All-the-mods-10-Sky/blob/main/kubejs/server_scripts/mods/exdeorum/pebbles.js).
 Common goals, functional progression, and node-spacing measurements alone do not
 establish that permission is required. Adapted expressive content needs separate
 review before public distribution.
